@@ -1,0 +1,16 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "International Multimedia Projects"
+theme = "ananke"
+[[menu.main]]
+  identifier = "cuba"
+  name = "Cuba's New Wave"
+  pre = "<i class='fa fa-heart'></i>"
+  url = "https://cubasnewwave.unc.edu/"
+  weight = -110
+
+[[menu.main]]
+  name = "Aftermath"
+  pre = "<i class='fa fa-road'></i>"
+  url = "https://aftermath.unc.edu/"
+  weight = -100
