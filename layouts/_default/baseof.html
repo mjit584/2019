@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{ block "meta_tags" . }}{{ end }}
+  <link rel="icon" href="{{ .Site.BaseURL }}favicon.png">
+
+  <!--Setting up Hugo SASS Pipelines-->
+  {{ if .Site.IsServer }}
+  {{ $style := resources.Get "scss/main.scss" | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) }}
+  <link rel="stylesheet" href="{{ ($style).RelPermalink }}">
+  {{ else }}
+  {{ $style := resources.Get "scss/main.scss" | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" false) }}
+  <link rel="stylesheet" href="{{ ($style | minify | fingerprint).RelPermalink }}">
+  {{ end }}
+
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,700|Source+Sans+Pro:200,300,400,700" rel="stylesheet">
+
+  {{ block "header_css" . }}{{ end }}
+
+</head>
+
+<body class='page {{ block "body_classes" . }}{{ end }}'>
+  Top of baseof
+  <hr />
+  {{ block "main" . }}
+  {{ end }}
+  <hr />
+  Bottom of baseof
+  </div>
+
+
+  <!--jQuery-->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <!--scroll magic-->
+
+  {{ $scripts := resources.Get "js/scripts.js" }}
+
+  {{ block "footer_js" . }}{{ end }}
+
+  {{ if .Site.IsServer }}
+  <script type="text/javascript" src="{{ $scripts.RelPermalink }}"></script>
+  {{ else }}
+  <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}"></script>
+  {{ end }}
+
+
+</body>
+
+</html>
