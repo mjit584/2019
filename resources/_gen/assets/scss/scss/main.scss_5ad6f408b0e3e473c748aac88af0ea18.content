@@ -17,8 +17,8 @@ body {
 .menu,
 .interactive,
 .about {
-  width: 100vw;
-  height: 750px; }
+  width: 100%;
+  height: 100vh; }
 
 .bg-vid {
   grid-area: bg-vid;
@@ -36,5 +36,9 @@ body {
   grid-area: about;
   background: yellow;
   color: black; }
+
+.bg-vid img {
+  width: 100%;
+  height: auto; }
 
 /*# sourceMappingURL=style.css.map */

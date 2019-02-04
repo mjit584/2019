@@ -16,16 +16,17 @@
 {{ end }}
 
 {{ define "main"}}
-<div class="flex bg-vid">
-  THIS IS WHERE THE MAIN VIDEO/INFORMATIONAL LIVES
+
+<div class="flex bg-vid" id="bg-vid">
+  {{ partial "hero-home.html" . }}
 </div>
-<div class="flex menu">
+<div class="flex menu" id="menu">
   THIS IS WHERE THE MENU LIVES
 </div>
-<div class="flex interactive">
+<div class="flex interactive" id="interactive">
   THIS IS WHERE THE INTERACTIVE LIVES
 </div>
-<div class="flex about">
+<div class="flex about" id="about">
   THIS IS WHERE THE ABOUT SECTION LIVES
 </div>
 {{ end }}
