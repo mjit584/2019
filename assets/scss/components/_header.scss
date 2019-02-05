@@ -1,0 +1,16 @@
+.header {
+  color: $white;
+  background-color: $black;
+  justify-content: space-between;
+  box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
+
+  .container {
+    justify-content: space-between;
+  }
+
+  &.header-absolute {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+  }
+}

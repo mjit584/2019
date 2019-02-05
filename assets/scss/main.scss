@@ -5,7 +5,13 @@
 //Imports - variables FIRST
 @import 'variables';
 @import 'flex';
-@import 'bg';
+@import 'baseof';
 @import 'homepage';
-@import 'buttons';
-@import 'components/page';
+@import 'components/buttons';
+@import 'components/bg';
+@import 'components/header';
+@import 'components/cards';
+@import 'components/main-menu';
+
+//responsive design
+@import 'responsive/breakpoints';

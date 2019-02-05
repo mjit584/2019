@@ -37,24 +37,34 @@ themesDir = "../.."
     help = "Help"
 
 [[menu.main]]
-	name = "Services"
-	url = "/services/"
+	name = "Story 1"
+	url = "/story1/"
     weight = 1
 
 [[menu.main]]
-    name = "Work"
-    url = "/work/"
+    name = "Story 2"
+    url = "/story2/"
     weight = 2
+
+[[menu.main]]
+    name = "Story 3"
+    url = "/story3/"
+    weight = 3
+
+[[menu.main]]
+    name = "Story 4"
+    url = "/story4/"
+    weight = 4 
+
+[[menu.main]]
+    name = "Story 5"
+    url = "/story5/"
+    weight = 5
 
 [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 3
-
-[[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 4 
+    weight = 4
 
 [permalinks]
   post = "/:year/:month/:day/:slug"
