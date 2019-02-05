@@ -17,7 +17,7 @@
 .home {
   display: grid;
   font-family: "Lato", sans-serif;
-  color: #ffffff;
+  color: #000000;
   grid-template-columns: repeat(8, auto);
   grid-template-rows: repeat(4, 100vh);
   grid-template-areas: 'bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid' 'menu menu menu menu menu menu menu menu' 'int int int int int int int int' 'about about about about about about about about'; }
@@ -44,7 +44,14 @@
 
 .about-home {
   grid-area: about;
-  background: #aaa; }
+  background: #aaa;
+  justify-content: space-evenly; }
+  .about-home .about-image {
+    flex-basis: 33%;
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    border-radius: 50%; }
 
 #nav-home {
   display: flex;
@@ -72,7 +79,8 @@
       cursor: pointer;
       text-decoration: none;
       transition: 0.2s ease; }
-    #nav-home li .active span {
+    #nav-home li :active span,
+    #nav-home li :hover span {
       background: #EB5F5D; }
   #nav-home span {
     top: 2px;
