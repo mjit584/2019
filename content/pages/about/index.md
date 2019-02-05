@@ -6,5 +6,6 @@ heroHeading: 'About The'
 heroSubHeading: 'Project'
 heroBackground: 'https://raw.githubusercontent.com/PuertoRico584/aftermath/master/public/assets/images/about-hero.jpg'
 image: 'https://raw.githubusercontent.com/PuertoRico584/aftermath/master/public/assets/images/about-hero.jpg'
+weight: 6
 ---
 
