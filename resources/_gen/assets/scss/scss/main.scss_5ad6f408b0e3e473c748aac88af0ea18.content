@@ -81,6 +81,9 @@ button {
   background-color: #F5C65D; }
 
 .header {
+  position: fixed;
+  top: 0;
+  transition: top 0.3s;
   color: #ffffff;
   background-color: #000000;
   justify-content: space-around;
@@ -88,10 +91,6 @@ button {
   padding: 1vh 0; }
   .header .container {
     justify-content: space-around; }
-  .header.header-absolute {
-    position: absolute;
-    z-index: 10;
-    width: 100%; }
 
 .cards {
   display: grid;
