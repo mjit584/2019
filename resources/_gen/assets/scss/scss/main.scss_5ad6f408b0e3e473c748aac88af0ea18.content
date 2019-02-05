@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
-body {
+.home {
   display: grid;
   font-family: 'Open Sans', sans-serif;
   color: white;
@@ -7,11 +7,6 @@ body {
   grid-template-columns: repeat(8, auto);
   grid-template-rows: repeat(4, 100vh);
   grid-template-areas: 'bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid' 'menu menu menu menu menu menu menu menu' 'int int int int int int int int' 'about about about about about about about about'; }
-
-.flex {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
 
 .bg-vid,
 .menu,
@@ -37,8 +32,15 @@ body {
   background: yellow;
   color: black; }
 
-.bg-vid img {
-  width: 100%;
-  height: auto; }
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
 
 /*# sourceMappingURL=style.css.map */
