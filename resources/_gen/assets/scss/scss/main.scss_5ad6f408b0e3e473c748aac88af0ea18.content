@@ -83,10 +83,11 @@ button {
 .header {
   color: #ffffff;
   background-color: #000000;
-  justify-content: space-between;
-  box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2); }
+  justify-content: space-around;
+  box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
+  padding: 5vh 0; }
   .header .container {
-    justify-content: space-between; }
+    justify-content: space-around; }
   .header.header-absolute {
     position: absolute;
     z-index: 10;
@@ -151,5 +152,38 @@ button {
   .cards .card:hover .card-base .card-title,
   .cards .card:hover .card-base .card-description {
     opacity: 0; }
+
+.main-menu a {
+  padding: 10px 14px 10px 14px;
+  display: inline-block;
+  font-weight: regular;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff; }
+  .main-menu a:hover {
+    background: #af4efa;
+    color: #ffffff;
+    text-decoration: none; }
+
+.main-menu.active > a {
+  background: #af4efa;
+  text-decoration: none;
+  color: #ffffff; }
+  .main-menu.active > a:hover {
+    text-decoration: none;
+    background: #af4efa;
+    transition: all 225ms ease-in 0s;
+    color: #ffffff; }
+
+.logo {
+  max-width: 25%;
+  flex-basis: 25%; }
+  .logo img {
+    width: 100%;
+    height: auto; }
+  .logo a {
+    display: block;
+    width: 100%;
+    height: 100%; }
 
 /*# sourceMappingURL=style.css.map */

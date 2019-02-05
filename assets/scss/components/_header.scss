@@ -1,11 +1,12 @@
 .header {
   color: $white;
   background-color: $black;
-  justify-content: space-between;
+  justify-content: space-around;
   box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
+  padding: 5vh 0;
 
   .container {
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   &.header-absolute {
