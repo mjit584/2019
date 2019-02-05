@@ -50,7 +50,7 @@
   display: flex;
   position: fixed;
   z-index: 100;
-  margin-top: -32px;
+  margin-top: -1rem;
   top: 50%;
   opacity: 1; }
   #nav-home ul {
@@ -59,9 +59,9 @@
     list-style: none; }
   #nav-home li {
     display: block;
-    width: 14px;
-    height: 13px;
-    margin: 7px;
+    width: 2rem;
+    height: 1.9rem;
+    margin: 1rem;
     position: relative; }
     #nav-home li a {
       display: block;
@@ -77,22 +77,22 @@
   #nav-home span {
     top: 2px;
     left: 2px;
-    width: 8px;
-    height: 8px;
-    border: 1px solid #000;
+    width: 1.1rem;
+    height: 1.1rem;
+    border: 1px solid #EB5F5D;
     background: rgba(0, 0, 0, 0);
     border-radius: 50%;
     position: absolute;
     z-index: 1; }
 
 #nav-home.right {
-  right: 17px; }
+  right: 1.6rem; }
 
 .home-tooltip {
   position: absolute;
   top: -2px;
-  color: #fff;
-  font-size: 14px;
+  color: #ffffff;
+  font-size: 16px;
   font-family: arial, helvetica, sans-serif;
   white-space: nowrap;
   max-width: 220px; }
