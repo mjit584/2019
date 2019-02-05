@@ -1,0 +1,16 @@
+<div class="cards">
+  {{ with .Site.GetPage "pages" }}
+  {{ range.Pages.ByWeight }}
+  <a href="{{.URL}}" class="card">
+    <img class="card-img" src="{{ .Params.image }}" alt="Venezuela">
+    <div class="card-base">
+      <div class="card-title">{{ .Title }}</div>
+    </div>
+    <div class="card-hover">
+      <div class="card-title">{{ .Title }}</div>
+      <div class="card-description">{{ .Description }}</div>
+    </div>
+  </a>
+  {{ end }}
+  {{ end }}
+</div>
