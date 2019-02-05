@@ -29,13 +29,13 @@
 
     .card-title {
       font-weight: $font-weight-bold;
+      font-family: $headline-font-1;
     }
 
     .card-hover,
     .card-base {
       position: absolute;
       width: 100%;
-      padding: 25px;
       color: $white;
       text-align: center;
       top: 50%;

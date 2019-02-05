@@ -102,12 +102,12 @@ button {
       object-fit: cover;
       z-index: -1; }
     .cards .card .card-title {
-      font-weight: 700; }
+      font-weight: 700;
+      font-family: "Lato", sans-serif; }
     .cards .card .card-hover,
     .cards .card .card-base {
       position: absolute;
       width: 100%;
-      padding: 25px;
       color: #ffffff;
       text-align: center;
       top: 50%;
