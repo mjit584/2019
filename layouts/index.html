@@ -17,17 +17,17 @@
 
 {{ define "main"}}
 
-<div class="flex bg-vid" id="bg-vid">
+<div class="flex-column bg-cover bg-position-center bg-vid" id="bg-vid">
   {{ partial "hero-home.html" . }}
 </div>
-<div class="flex menu" id="menu">
-  THIS IS WHERE THE MENU LIVES
+<div class="flex menu-home" id="menu-home">
+  {{ partial "menu-home.html" . }}
 </div>
-<div class="flex interactive" id="interactive">
-  THIS IS WHERE THE INTERACTIVE LIVES
+<div class="flex interactive-home" id="interactive=home">
+  {{ partial "interactive-home.html" . }}
 </div>
-<div class="flex about" id="about">
-  THIS IS WHERE THE ABOUT SECTION LIVES
+<div class="flex about-home" id="about-home">
+  {{ partial "about-home.html" . }}
 </div>
 {{ end }}
 

@@ -1,7 +1,6 @@
 .home {
   display: grid;
   font-family: 'Open Sans', sans-serif;
-  color: white;
   margin: 0 auto;
   grid-template-columns: repeat(8, auto);
   grid-template-rows: repeat(4, 100vh);
@@ -13,30 +12,40 @@
 }
 
 .bg-vid,
-.menu,
-.interactive,
-.about {
+.menu-home,
+.interactive-home,
+.about-home-home {
   width: 100%;
   height: 100vh;
 }
 
 .bg-vid {
   grid-area: bg-vid;
-  background: red;
+  background: $red;
+  background-image: url(/images/medellin.jpg);
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+  }
 }
 
-.menu {
+.menu-home {
   grid-area: menu;
-  background: green;
+  background: $blue;
 }
 
-.interactive {
+.interactive-home {
   grid-area: int;
-  background: blue;
+  background: $yellow;
 }
 
-.about {
+.about-home {
   grid-area: about;
-  background: yellow;
-  color: black;
+  background: $red;
 }

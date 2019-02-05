@@ -1,7 +1,8 @@
 //Font
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-//Imports
+//Imports - variables FIRST
 @import 'variables';
-@import 'homepage';
 @import 'flex';
+@import 'bg';
+@import 'homepage';
