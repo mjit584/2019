@@ -3,6 +3,7 @@ defaultContentLanguage = "en"
 copyright = ""
 title = "Uprooted: Venezuelan Families Flee to Colombia"
 themesDir = "../.."
+enableInlineShortcodes = true
 
 [languages]
   [languages.en]
@@ -65,7 +66,7 @@ themesDir = "../.."
     name = "Interactive"
     url = "/interactive/"
     weight = 6
-    
+
 [[menu.main]]
     name = "About"
     url = "/about/"
