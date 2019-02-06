@@ -62,12 +62,17 @@ themesDir = "../.."
     weight = 5
 
 [[menu.main]]
+    name = "Interactive"
+    url = "/interactive/"
+    weight = 6
+    
+[[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 6
+    weight = 7
 
 [permalinks]
-  post = "/:year/:month/:day/:slug"
+  post = "/:slug"
   pages = "/:filename"
 
 

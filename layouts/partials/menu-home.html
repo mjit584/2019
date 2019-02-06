@@ -1,6 +1,6 @@
 <div class="cards">
-  {{ with .Site.GetPage "pages" }}
-  {{ range.Pages.ByWeight }}
+
+  {{ range where .Site.Pages.ByWeight "Params.card" true }}
   <a href="{{.URL}}" class="card">
     <img class="card-img" src="{{ .Params.image }}" alt="Venezuela">
     <div class="card-base">
@@ -11,6 +11,5 @@
       <div class="card-description">{{ .Description }}</div>
     </div>
   </a>
-  {{ end }}
   {{ end }}
 </div>
