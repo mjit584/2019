@@ -1,4 +1,7 @@
 .header {
+  position: fixed;
+  top: 0;
+  transition: top 0.3s;
   color: $white;
   background-color: $black;
   justify-content: space-around;
@@ -9,9 +12,9 @@
     justify-content: space-around;
   }
 
-  &.header-absolute {
-    position: absolute;
-    z-index: 10;
-    width: 100%;
-  }
+  // &.header-absolute {
+  //   position: absolute;
+  //   z-index: 10;
+  //   width: 100%;
+  // }
 }

@@ -2,28 +2,13 @@ $(function () {
   console.log('Hello world');
 });
 
-//variables
-
-/**
- * Activating the website navigation dots according to the given slide name.
- */
-function activateNavDots(name, sectionIndex) {
-  if (options.navigation) {
-    $('#nav-home').find('.active').removeClass('active');
-    if (name) {
-      $('#nav-home').find('a[href="#' + name + '"]').addClass('active');
-    } else {
-      $('#nav-home').find('li').eq(sectionIndex).find('a').addClass('active');
-    }
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header").style.top = "0";
+  } else {
+    document.getElementById("header").style.top = "-75px";
   }
-}
-
-/**
- * Activating the website main menu elements according to the given slide name.
- */
-function activateMenuElement(name) {
-  if (options.menu) {
-    $(options.menu).find('.active').removeClass('active');
-    $(options.menu).find('[data-menuanchor="' + name + '"]').addClass('active');
-  }
+  prevScrollpos = currentScrollPos;
 }
