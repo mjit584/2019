@@ -6,6 +6,8 @@ $(function () {
 
 /** write a function when on hover of a span, there will be a tooltip that reads out the data-tooltip */
 
+
+/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
   var currentScrollPos = window.pageYOffset;

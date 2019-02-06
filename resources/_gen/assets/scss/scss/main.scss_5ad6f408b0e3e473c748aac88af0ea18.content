@@ -181,7 +181,7 @@ button {
   background-color: #000000;
   justify-content: space-around;
   box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
-  padding: 1vh 0; }
+  padding: 0.5vh 0; }
   .header .container {
     justify-content: space-around; }
 
@@ -268,7 +268,7 @@ button {
     color: #ffffff; }
 
 .logo {
-  max-width: 25%;
+  max-width: 20%;
   flex-basis: 25%; }
   .logo img {
     width: 100%;
