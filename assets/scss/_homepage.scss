@@ -11,7 +11,7 @@
     'about about about about about about about about';
 }
 
-.bg-vid,
+.intro-home,
 .menu-home,
 .interactive-home,
 .about-home {
@@ -19,7 +19,7 @@
   height: 100vh;
 }
 
-.bg-vid {
+.intro-home {
   grid-area: bg-vid;
   background: $red;
   background-image: url(/images/medellin.jpg);
@@ -37,5 +37,5 @@
 
 .about-home {
   grid-area: about;
-  background: $red;
+  background: $grey;
 }
