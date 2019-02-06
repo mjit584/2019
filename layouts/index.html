@@ -19,8 +19,9 @@
 
 <div class="section flex-column bg-cover bg-position-center intro-home" id="intro-home">
   <h1>{{ .Title }}</h1>
+  <hr />
   <h2>{{ .Params.Subtitle }}</h2>
-  <div class="intro-description">{{ .Content }}</div>
+  <div class="intro-desc">{{ .Content }}</div>
   {{ partial "hero-home.html" . }}
 </div>
 <div class="section menu-home" id="menu-home">

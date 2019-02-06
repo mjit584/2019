@@ -33,6 +33,24 @@
   grid-area: bg-vid;
   background: #EB5F5D;
   background-image: url(/images/medellin.jpg); }
+  .intro-home h1 {
+    text-transform: uppercase; }
+  .intro-home .intro-desc {
+    max-width: 65vw; }
+
+#lang-toggle {
+  align-self: flex-end;
+  margin-right: 8vw; }
+
+#en-toggle,
+#es-toggle {
+  border: solid 1px #aaa;
+  padding: 0.7rem 1.5rem; }
+
+#en-toggle,
+#es-toggle:hover {
+  background-color: #000000;
+  color: #ffffff; }
 
 .menu-home {
   grid-area: menu; }
@@ -122,7 +140,7 @@
   right: 20px; }
 
 button {
-  width: 20vw;
+  width: 15vw;
   height: 10vh;
   background: #6AA5D9;
   border-radius: 15px;
