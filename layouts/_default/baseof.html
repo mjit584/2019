@@ -44,6 +44,8 @@
 
 
   {{ $scripts := resources.Get "js/scripts.js" }}
+  {{ $header := resources.Get "js/header.js" }}
+  {{ $js := slice $scripts $header | resources.Concat "js/bundle.js" }}
 
   {{ block "footer_js" . }}{{ end }}
 
