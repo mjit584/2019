@@ -18,15 +18,19 @@
 {{ define "main"}}
 
 <div class="section flex-column bg-cover bg-position-center intro-home" id="intro-home">
+  <h1>{{ .Title }}</h1>
+  <hr />
+  <h2>{{ .Params.Subtitle }}</h2>
+  <div class="intro-desc">{{ .Content }}</div>
   {{ partial "hero-home.html" . }}
 </div>
 <div class="section menu-home" id="menu-home">
   {{ partial "menu-home.html" . }}
 </div>
-<div class="section flex interactive-home" id="interactive-home">
+<div class="section flex interactive-home bg-cover bg-position-center" id="interactive-home">
   {{ partial "interactive-home.html" . }}
 </div>
-<div class="section flex about-home" id="about-home">
+<div class="section flex-column about-home" id="about-home">
   {{ partial "about-home.html" . }}
 </div>
 <div class="right" id="nav-home">
