@@ -1,0 +1,12 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}{{ .Title }}{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+{{ partial "header.html" . }}
+This is the Interactive layout
+
+<div class="content">
+  {{ .Content }}
+</div>
+{{ end }}

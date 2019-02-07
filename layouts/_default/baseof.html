@@ -44,13 +44,15 @@
 
 
   {{ $scripts := resources.Get "js/scripts.js" }}
+  {{ $header := resources.Get "js/header.js" }}
+  {{ $bundle := slice $scripts $header | resources.Concat "js/bundle.js" }}
 
   {{ block "footer_js" . }}{{ end }}
 
   {{ if .Site.IsServer }}
-  <script type="text/javascript" src="{{ $scripts.RelPermalink }}"></script>
+  <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
   {{ else }}
-  <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}"></script>
+  <script type="text/javascript" src="{{ ($bundle | minify | fingerprint).RelPermalink }}"></script>
   {{ end }}
 
 

@@ -1,0 +1,9 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}{{ .Title }}{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+{{ partial "header.html" . }}
+Testing here
+{{ .Content }}
+{{ end }}
