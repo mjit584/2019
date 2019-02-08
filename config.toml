@@ -1,10 +1,12 @@
-baseURL = "/"
+baseURL = ""
 defaultContentLanguage = "en"
 copyright = ""
 title = "Uprooted: Venezuelan Families Flee to Colombia"
 themesDir = "../.."
 enableInlineShortcodes = "true"
+relativeURLs = "true"
 canonifyURLs = "true"
+
 
 [languages]
   [languages.en]
