@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://uprooted.unc.edu/story1/</loc>
+    <lastmod>2019-02-04T21:34:53-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://uprooted.unc.edu/story2/</loc>
+    <lastmod>2019-02-04T21:35:11-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://uprooted.unc.edu/story3/</loc>
+    <lastmod>2019-02-04T21:35:29-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://uprooted.unc.edu/story4/</loc>
+    <lastmod>2019-02-04T21:35:51-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://uprooted.unc.edu/story5/</loc>
+    <lastmod>2019-02-04T21:36:06-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://uprooted.unc.edu/about/</loc>
+    <lastmod>2019-02-04T21:36:24-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://uprooted.unc.edu/interactive/</loc>
+    <lastmod>2019-02-06T13:14:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://uprooted.unc.edu/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://uprooted.unc.edu/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://uprooted.unc.edu/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://uprooted.unc.edu/pages/</loc>
+    <lastmod>2019-02-04T21:34:53-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://uprooted.unc.edu/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://uprooted.unc.edu/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://uprooted.unc.edu/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://uprooted.unc.edu/</loc>
+    <lastmod>2019-02-04T21:34:53-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://uprooted.unc.edu/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://uprooted.unc.edu/"
+                />
+  </url>
+  
+</urlset>

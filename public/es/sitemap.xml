@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://uprooted.unc.edu/es/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://uprooted.unc.edu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://uprooted.unc.edu/es/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://uprooted.unc.edu/es/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://uprooted.unc.edu/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://uprooted.unc.edu/es/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://uprooted.unc.edu/es/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://uprooted.unc.edu/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://uprooted.unc.edu/es/tags/"
+                />
+  </url>
+  
+</urlset>

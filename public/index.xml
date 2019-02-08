@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uprooted on Uprooted: Venezuelan Families Flee to Colombia</title>
+    <link>http://uprooted.unc.edu/</link>
+    <description>Recent content in Uprooted on Uprooted: Venezuelan Families Flee to Colombia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 04 Feb 2019 21:34:53 -0500</lastBuildDate>
+    
+	<atom:link href="http://uprooted.unc.edu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Story 1</title>
+      <link>http://uprooted.unc.edu/story1/</link>
+      <pubDate>Mon, 04 Feb 2019 21:34:53 -0500</pubDate>
+      
+      <guid>http://uprooted.unc.edu/story1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lectus non sem scelerisque elementum. Sed tempor velit non urna lobortis sodales. Nunc vitae lectus sed justo eleifend lacinia sed nec mauris. Quisque pulvinar lorem sed neque sodales, vitae ultricies arcu eleifend. Sed suscipit est nulla, efficitur varius libero ultricies at. Nullam a mollis dui. Donec a felis sapien. Aliquam euismod nec ipsum sit amet consequat. Quisque faucibus arcu at sem congue, eget hendrerit turpis euismod.</description>
+    </item>
+    
+    <item>
+      <title>Story 2</title>
+      <link>http://uprooted.unc.edu/story2/</link>
+      <pubDate>Mon, 04 Feb 2019 21:35:11 -0500</pubDate>
+      
+      <guid>http://uprooted.unc.edu/story2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Story 3</title>
+      <link>http://uprooted.unc.edu/story3/</link>
+      <pubDate>Mon, 04 Feb 2019 21:35:29 -0500</pubDate>
+      
+      <guid>http://uprooted.unc.edu/story3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Story 4</title>
+      <link>http://uprooted.unc.edu/story4/</link>
+      <pubDate>Mon, 04 Feb 2019 21:35:51 -0500</pubDate>
+      
+      <guid>http://uprooted.unc.edu/story4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Story 5</title>
+      <link>http://uprooted.unc.edu/story5/</link>
+      <pubDate>Mon, 04 Feb 2019 21:36:06 -0500</pubDate>
+      
+      <guid>http://uprooted.unc.edu/story5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://uprooted.unc.edu/about/</link>
+      <pubDate>Mon, 04 Feb 2019 21:36:24 -0500</pubDate>
+      
+      <guid>http://uprooted.unc.edu/about/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lectus non sem scelerisque elementum. Sed tempor velit non urna lobortis sodales. Nunc vitae lectus sed justo eleifend lacinia sed nec mauris. Quisque pulvinar lorem sed neque sodales, vitae ultricies arcu eleifend. Sed suscipit est nulla, efficitur varius libero ultricies at. Nullam a mollis dui. Donec a felis sapien. Aliquam euismod nec ipsum sit amet consequat. Quisque faucibus arcu at sem congue, eget hendrerit turpis euismod.</description>
+    </item>
+    
+    <item>
+      <title>Brooke</title>
+      <link>http://uprooted.unc.edu/interactive/</link>
+      <pubDate>Wed, 06 Feb 2019 13:14:40 -0500</pubDate>
+      
+      <guid>http://uprooted.unc.edu/interactive/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lectus non sem scelerisque elementum. Sed tempor velit non urna lobortis sodales. Nunc vitae lectus sed justo eleifend lacinia sed nec mauris. Quisque pulvinar lorem sed neque sodales, vitae ultricies arcu eleifend. Sed suscipit est nulla, efficitur varius libero ultricies at. Nullam a mollis dui. Donec a felis sapien. Aliquam euismod nec ipsum sit amet consequat. Quisque faucibus arcu at sem congue, eget hendrerit turpis euismod.</description>
+    </item>
+    
+  </channel>
+</rss>
