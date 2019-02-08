@@ -1,10 +1,12 @@
-baseURL = "https://brookenf.github.io/uprooted-mejo584/"
+baseURL = ""
 defaultContentLanguage = "en"
 copyright = ""
 title = "Uprooted: Venezuelan Families Flee to Colombia"
 themesDir = "../.."
 enableInlineShortcodes = "true"
+relativeURLs = "true"
 canonifyURLs = "true"
+
 
 [languages]
   [languages.en]
@@ -24,6 +26,7 @@ canonifyURLs = "true"
 
 [params]
   google_analytics_id = ""
+  gh_pages_URL = "https://brookenf.github.io/uprooted-mejo584/"
 
   [params.homepage_meta_tags]
     meta_description = "Uprooted is a multimedia journalism project produced by the UNC School of Media and Journalism"

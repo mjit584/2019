@@ -1,7 +1,11 @@
 <div class="header header-absolute flex" id="header">
   <div class="container flex">
     <div class="logo">
+      {{ if .Site.IsServer }}
       <a href="{{ .Site.BaseURL }}"><img alt="Uprooted Homepage" src="{{ .Site.BaseURL }}images/aftermath.gif" /></a>
+      {{ else }}
+      <a href="{{ .Site.Params.gh_pages_URL }}"><img alt="Uprooted Homepage" src="{{ .Site.Params.gh_pages_URL }}images/aftermath.gif" /></a>
+      {{ end }}
     </div>
     {{/* <div class="logo-mobile">
       <a href="{{ .Site.BaseURL }}"><img alt="Figurit Homepage" src="{{ .Site.BaseURL }}images/logo-mobile.svg" /></a>

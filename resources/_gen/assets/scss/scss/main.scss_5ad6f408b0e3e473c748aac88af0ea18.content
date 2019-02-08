@@ -32,7 +32,7 @@
 .intro-home {
   grid-area: bg-vid;
   background: #EB5F5D;
-  background-image: url(/images/medellin.jpg); }
+  background-image: url(../images/medellin.jpg); }
   .intro-home h1 {
     text-transform: uppercase; }
   .intro-home .intro-desc {
@@ -58,7 +58,7 @@
 .interactive-home {
   grid-area: int;
   background: #F5C65D;
-  background-image: url(/images/medellin.jpg); }
+  background-image: url(../images/medellin.jpg); }
 
 .about-home {
   grid-area: about;
