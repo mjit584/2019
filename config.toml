@@ -26,6 +26,7 @@ canonifyURLs = "true"
 
 [params]
   google_analytics_id = ""
+  gh_pages_URL = "https://brookenf.github.io/uprooted-mejo584/"
 
   [params.homepage_meta_tags]
     meta_description = "Uprooted is a multimedia journalism project produced by the UNC School of Media and Journalism"

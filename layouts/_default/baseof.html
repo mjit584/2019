@@ -12,7 +12,7 @@
   {{ if .Site.IsServer }}
   <link rel="icon" href="{{ .Site.BaseURL }}favicon.png">
   {{ else }}
-  <link rel="icon" href="{{ .URL }}favicon.png">
+  <link rel="icon" href="{{ .Site.Params.gh_pages_URL }}favicon.png">
   {{ end }}
 
   <!--Hugo SASS Pipelines-->
