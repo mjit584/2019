@@ -174,7 +174,6 @@ button {
   background-color: #F5C65D; }
 
 .header {
-  position: fixed;
   top: 0;
   transition: top 0.3s;
   color: #ffffff;
