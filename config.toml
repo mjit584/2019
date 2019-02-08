@@ -1,9 +1,10 @@
-baseURL = "https://uprooted.unc.edu"
+baseURL = "https://brookenf.github.io/uprooted-mejo584/"
 defaultContentLanguage = "en"
 copyright = ""
 title = "Uprooted: Venezuelan Families Flee to Colombia"
 themesDir = "../.."
 enableInlineShortcodes = "true"
+canonifyURLs = "true"
 
 [languages]
   [languages.en]
