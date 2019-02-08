@@ -1,0 +1,11 @@
+<div id="main-menu" class="flex main-menu">
+  {{ $currentPage := . }}
+  {{ range .Site.Menus.main }}
+  <div class="menu-item-{{ .Name | lower }}{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
+    <a href="{{.URL}}">
+      {{ .Pre }}
+      <span>{{ .Name }}</span>
+    </a>
+  </div>
+  {{end}}
+</div>

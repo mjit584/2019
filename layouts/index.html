@@ -1,0 +1,43 @@
+{{ define "title" }}Uprooted: Venezuelan Families Flee to Colombia{{ end}}
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}home{{ end }}
+{{ define "header_classes" }}header-transparent{{ end }}
+
+{{ define "meta_tags" }}
+<meta name="description" content="{{ .Site.Params.homepage_meta_tags.meta_description }}" />
+<meta property="og:title" content="{{ .Site.Params.homepage_meta_tags.meta_og_title }}" />
+<meta property="og:type" content="{{ .Site.Params.homepage_meta_tags.meta_og_type }}" />
+<meta property="og:url" content="{{ .Site.Params.homepage_meta_tags.meta_og_url }}" />
+<meta property="og:image" content="{{ .Site.Params.homepage_meta_tags.meta_og_image }}" />
+<meta property="og:description" content="{{ .Site.Params.homepage_meta_tags.meta_og_description }}" />
+<meta name="twitter:card" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_card }}" />
+<meta name="twitter:site" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_site }}" />
+<meta name="twitter:creator" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_creator }}" />
+{{ end }}
+
+{{ define "main"}}
+
+<div class="section flex-column bg-cover bg-position-center intro-home" id="intro-home">
+  <h1>{{ .Title }}</h1>
+  <hr />
+  <h2>{{ .Params.Subtitle }}</h2>
+  <div class="intro-desc">{{ .Content }}</div>
+  {{ partial "hero-home.html" . }}
+</div>
+<div class="section menu-home" id="menu-home">
+  {{ partial "menu-home.html" . }}
+</div>
+<div class="section flex interactive-home bg-cover bg-position-center" id="interactive-home">
+  {{ partial "interactive-home.html" . }}
+</div>
+<div class="section flex-column about-home" id="about-home">
+  {{ partial "about-home.html" . }}
+</div>
+<div class="right" id="nav-home">
+  {{ partial "nav-home.html" . }}
+</div>
+
+{{ end }}
+
+{{ define "footer_js" }}
+{{ end }}
