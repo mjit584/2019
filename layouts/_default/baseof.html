@@ -51,7 +51,8 @@
 
   {{ $scripts := resources.Get "js/scripts.js" }}
   {{ $header := resources.Get "js/header.js" }}
-  {{ $bundle := slice $scripts $header | resources.Concat "js/bundle.js" }}
+  {{ $cards := resources.Get "js/cards.js" }}
+  {{ $bundle := slice $scripts $header $cards | resources.Concat "js/bundle.js" }}
 
   {{ block "footer_js" . }}{{ end }}
 
