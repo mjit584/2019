@@ -1,16 +1,22 @@
+// Darken the non-hovered cards when any cards are hovered
+.cards.darkened .card:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: background-color .4s;
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 1rem;
   height: 100vh;
 
-  .card:before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background: rgba(0, 0, 255, 0.2);
+  // Add color overlay to hovered card
+  .card.hovered:before {
+    background-color: rgba(0, 0, 255, 0.2)!important;
   }
 
   .card {
@@ -18,6 +24,7 @@
     text-decoration: none;
     grid-column: span 2;
 
+    // Display images behind card text
     .card-img {
       position: absolute;
       margin: auto;
@@ -30,8 +37,14 @@
     .card-title {
       font-weight: $font-weight-bold;
       font-family: $headline-font-1;
+      font-size: 3rem;
     }
 
+    .card-description {
+      font-size: 2rem;
+    }
+
+    // Vertically and horizontally center card text
     .card-hover,
     .card-base {
       position: absolute;
@@ -43,6 +56,7 @@
       transform: translate(-50%, -50%);
     }
 
+    // Hide hover text without card hover
     .card-hover {
 
       .card-title,
@@ -54,16 +68,13 @@
 
     }
 
+    // Display base text without card hover
     .card-base {
 
       .card-title,
       .card-description {
         opacity: 1;
-        transition: .5s opacity;
-      }
-
-      .card-title {
-        font-size: 3rem;
+        transition: opacity .5s;
       }
 
     }
@@ -72,6 +83,7 @@
 
   .card:hover {
 
+    // Display hover text on card hover
     .card-hover {
 
       .card-title,
@@ -80,6 +92,7 @@
         transform: translate3d(0, 0, 0);
       }
 
+      // Increase title font size on card hover
       .card-title {
         transition-delay: .25s;
         font-size: 3.25rem;
@@ -87,11 +100,11 @@
 
       .card-description {
         transition-delay: .35s;
-        font-size: 2rem;
       }
 
     }
 
+    // Hide base text on card hover
     .card-base {
 
       .card-title,
