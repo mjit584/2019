@@ -185,18 +185,21 @@ button {
   .header .container {
     justify-content: space-around; }
 
+.cards.darkened .card:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: background-color .4s; }
+
 .cards {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 1rem;
   height: 100vh; }
-  .cards .card:before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background: rgba(0, 0, 255, 0.2); }
+  .cards .card.hovered:before {
+    background-color: rgba(0, 0, 255, 0.2) !important; }
   .cards .card {
     position: relative;
     text-decoration: none;
@@ -210,7 +213,10 @@ button {
       z-index: -1; }
     .cards .card .card-title {
       font-weight: 700;
-      font-family: "Lato", sans-serif; }
+      font-family: "Lato", sans-serif;
+      font-size: 3rem; }
+    .cards .card .card-description {
+      font-size: 2rem; }
     .cards .card .card-hover,
     .cards .card .card-base {
       position: absolute;
@@ -228,9 +234,7 @@ button {
     .cards .card .card-base .card-title,
     .cards .card .card-base .card-description {
       opacity: 1;
-      transition: .5s opacity; }
-    .cards .card .card-base .card-title {
-      font-size: 3rem; }
+      transition: opacity .5s; }
   .cards .card:hover .card-hover .card-title,
   .cards .card:hover .card-hover .card-description {
     opacity: 1;
@@ -239,8 +243,7 @@ button {
     transition-delay: .25s;
     font-size: 3.25rem; }
   .cards .card:hover .card-hover .card-description {
-    transition-delay: .35s;
-    font-size: 2rem; }
+    transition-delay: .35s; }
   .cards .card:hover .card-base .card-title,
   .cards .card:hover .card-base .card-description {
     opacity: 0; }
@@ -277,5 +280,30 @@ button {
     display: block;
     width: 100%;
     height: 100%; }
+
+/* scrollama */
+#scroll {
+  position: relative;
+  background: #000000; }
+
+.scroll__text {
+  position: relative;
+  padding: 0 1rem;
+  margin: 0 auto; }
+
+.step {
+  margin: 2rem auto 4rem auto;
+  text-align: center; }
+  .step p,
+  .step h1,
+  .step h2 {
+    color: #000000;
+    transition: color 1s; }
+
+.step.is-active p,
+.step.is-active h1,
+.step.is-active h2 {
+  color: #ffffff;
+  transition: color 1s; }
 
 /*# sourceMappingURL=style.css.map */
