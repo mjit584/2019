@@ -1,6 +1,6 @@
 ---
-title: "Uprooted"
+title: "Uprooted TEST"
 subtitle: "Venezuelan Families Flee to Colombia"
 ---
 
-This is the main page where you can write pretty much anything you want to appear on the home page. I would suggest that this be where we write the description of the project and then place that in a div and put that under the subtitle on the index.html file. 
+We are a part of an annual project by UNC-Chapel Hill’s School of Media and Journalism. In past projects, students have reported across five continents and produced award-winning multimedia work. As students, we’re learning the rewards and challenges of reporting on different cultures; as journalists, we are working as a team to tell the stories that are shaping the globe.
