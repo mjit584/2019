@@ -9,10 +9,10 @@
     'story-bd story-bd story-bd story-bd'
     'story-int story-int story-int story-int'
     'story-vid story-vid story-vid story-vid';
-  padding-top: 10%;
 }
 
 .story-hero {
+  padding-top: 10%;
   grid-area: story-hero;
   background-color: $yellow;
 }
