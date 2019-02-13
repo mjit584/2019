@@ -76,10 +76,10 @@ body {
   grid-area: story-hd;
   background-color: #6AA5D9; }
 
-.content {
+.story-content {
   grid-area: story-bd;
   background-color: #EB5F5D; }
-  .content p {
+  .story-content p {
     margin: 0 auto;
     max-width: 50%; }
 
