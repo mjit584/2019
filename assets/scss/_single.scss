@@ -1,0 +1,33 @@
+.story-page {
+  font-family: $body-font;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas:
+    'story-hero story-hero story-hero story-hero'
+    'story-hd story-hd story-hd story-hd'
+    'story-bd story-bd story-bd story-bd'
+    'story-int story-int story-int story-int'
+    'story-vid story-vid story-vid story-vid';
+  padding-top: 10%;
+}
+
+.story-hero {
+  grid-area: story-hero;
+  background-color: $yellow;
+}
+
+.story-intro {
+  grid-area: story-hd;
+  background-color: $blue;
+}
+
+.content {
+  grid-area: story-bd;
+  background-color: $red;
+
+  p {
+    margin: 0 auto;
+    max-width: 50%;
+  }
+}
