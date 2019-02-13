@@ -6,8 +6,13 @@
 {{ partial "header.html" . }}
 {{ partial "story-hero.html" (dict "background" .Params.image "heading" .Params.storyHeading "subheading" .Params.storySubheading "content" .) }}
 
-<div class="story-intro">
-  {{ .Params.Author }}{{ .Params.videographer }}{{ .Params.photographer }}
+<div class="flex story-byline">
+  <div class="byline-name flex-column">written by<span>{{ .Params.Author }}</span></div>
+  <div class="byline-name flex-column"> photo &
+    video<span>{{ .Params.videographer }}<br />{{ .Params.photographer }}</span>
+  </div>
+  <div class="byline-name flex-column">graphics<span></span></div>
+  <div class=" byline-name flex-column">development<span></span></div>
 </div>
 
 <div class="story-content">

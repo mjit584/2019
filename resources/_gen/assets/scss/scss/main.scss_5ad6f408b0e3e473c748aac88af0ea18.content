@@ -66,7 +66,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'story-hero story-hero story-hero story-hero' 'story-hd story-hd story-hd story-hd' 'story-bd story-bd story-bd story-bd' 'story-int story-int story-int story-int' 'story-vid story-vid story-vid story-vid'; }
+  grid-template-areas: 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-int story-int story-int story-int' 'story-vid story-vid story-vid story-vid'; }
 
 .story-hero {
   color: #ffffff;
@@ -74,15 +74,33 @@ body {
   grid-area: story-hero;
   background-color: #F5C65D; }
 
-.story-intro {
-  grid-area: story-hd;
-  background-color: #6AA5D9; }
+.story-byline {
+  justify-content: space-around;
+  text-align: center;
+  padding: 10vh 0;
+  font-weight: 700;
+  grid-area: story-by;
+  font-family: "Lato", sans-serif; }
+  .story-byline span {
+    margin-top: 3%;
+    font-weight: 400; }
+
+.byline-name {
+  flex-basis: 25%;
+  border-right: solid black 1px;
+  height: 12vh; }
+
+.byline-name:last-child {
+  border-right: none; }
 
 .story-content {
   grid-area: story-bd; }
   .story-content p {
-    margin: 0 auto;
+    margin: 2vw auto;
     max-width: 50%; }
+  .story-content .drop-cap:first-letter {
+    font-size: 3em;
+    float: left; }
 
 #nav-home {
   display: flex;
