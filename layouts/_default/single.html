@@ -6,15 +6,15 @@
 {{ partial "header.html" . }}
 {{/* This needs to be built out on a partial. Right now, I'm building it onto the page {{ partial "story-hero-hd" (dict
 "background" .Params.image "heading" .Params.storyHeading "subheading" .Params.storySubheading "content" .) }} */}}
-{{/* <div class="hero-image story-hero" style="background-image: url('{{ .Params.image | relURL }}')">
+<div class="hero-image story-hero" style="background-image: url('{{ .Params.image | relURL }}')">
   <div class="container"></div>
-</div> */}}
+</div>
 
 <div class="story-intro">
   {{ .Params.Author }}{{ .Params.videographer }}{{ .Params.photographer }}
 </div>
 
-<div class="content">
+<div class="story-content">
   {{ .Content }}
 </div>
 {{ end }}
