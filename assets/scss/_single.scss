@@ -5,29 +5,52 @@
   grid-template-rows: repeat(5, auto);
   grid-template-areas:
     'story-hero story-hero story-hero story-hero'
-    'story-hd story-hd story-hd story-hd'
+    '. story-by story-by .'
     'story-bd story-bd story-bd story-bd'
     'story-int story-int story-int story-int'
     'story-vid story-vid story-vid story-vid';
 }
 
 .story-hero {
-  padding-top: 10%;
+  color: $white;
+  height: 100vh;
   grid-area: story-hero;
   background-color: $yellow;
 }
 
-.story-intro {
-  grid-area: story-hd;
-  background-color: $blue;
+.story-byline {
+  justify-content: space-around;
+  text-align: center;
+  padding: 10vh 0;
+  font-weight: $font-weight-bold;
+  grid-area: story-by;
+  font-family: $byline-font;
+  span{
+    margin-top: 3%;
+    font-weight: $font-weight-normal;
+  }
+}
+
+.byline-name{
+  flex-basis: 25%;
+  border-right: solid black 1px;
+  height: 12vh;
+}
+
+.byline-name:last-child{
+  border-right: none;
 }
 
 .story-content {
   grid-area: story-bd;
-  background-color: $red;
 
   p {
-    margin: 0 auto;
+    margin: 2vw auto;
     max-width: 50%;
+  }
+
+  .drop-cap:first-letter {
+    font-size: 3rem;
+    float: left;
   }
 }

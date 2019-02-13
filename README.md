@@ -1,4 +1,4 @@
-##Pushing to GH Pages
+**Pushing to GH Pages** 
 If you want to commit your changes to GitHub Pages, follow these steps!
 
 1. Merge all branches into the master
