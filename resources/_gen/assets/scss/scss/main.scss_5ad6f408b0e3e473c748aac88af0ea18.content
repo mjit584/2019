@@ -99,7 +99,7 @@ body {
     margin: 2vw auto;
     max-width: 50%; }
   .story-content .drop-cap:first-letter {
-    font-size: 3em;
+    font-size: 3rem;
     float: left; }
 
 #nav-home {
