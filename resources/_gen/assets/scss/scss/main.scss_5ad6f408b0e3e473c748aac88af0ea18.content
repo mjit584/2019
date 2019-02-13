@@ -19,8 +19,8 @@ body {
   font-family: "Lato", sans-serif;
   color: #000000;
   grid-template-columns: repeat(8, auto);
-  grid-template-rows: repeat(4, 100vh);
-  grid-template-areas: 'bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid' 'menu menu menu menu menu menu menu menu' 'int int int int int int int int' 'about about about about about about about about'; }
+  grid-template-rows: repeat(3, 100vh);
+  grid-template-areas: 'bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid' 'menu menu menu menu menu menu menu menu' 'int int int int int int int int'; }
 
 .intro-home,
 .menu-home,
@@ -59,17 +59,6 @@ body {
   grid-area: int;
   background: #F5C65D;
   background-image: url(../images/medellin.jpg); }
-
-.about-home {
-  grid-area: about;
-  background: #aaa;
-  justify-content: space-evenly; }
-  .about-home .about-image {
-    flex-basis: 33%;
-    width: 100px;
-    height: 100px;
-    background: #ffffff;
-    border-radius: 50%; }
 
 .story-page {
   font-family: "Open Sans", sans-serif;
@@ -122,22 +111,22 @@ body {
       transition: 0.2s ease; }
     #nav-home li :active span,
     #nav-home li :hover span {
-      background: #EB5F5D; }
+      background: #F5C65D; }
   #nav-home span {
     top: 2px;
     left: 2px;
     width: 1.1rem;
     height: 1.1rem;
-    border: 1.5px solid #EB5F5D;
+    border: 1.5px solid #F5C65D;
     background: rgba(0, 0, 0, 0);
     border-radius: 50%;
     position: absolute;
     z-index: 1;
-    border-color: #EB5F5D; }
+    border-color: #F5C65D; }
     #nav-home span:before {
       content: '';
       position: absolute;
-      border-left: 1.5px solid #EB5F5D;
+      border-left: 1.5px solid #F5C65D;
       left: 0.55rem;
       bottom: -1.1rem;
       z-index: -1;

@@ -7,7 +7,7 @@ heroSubHeading: 'Project'
 heroBackground: 'https://raw.githubusercontent.com/PuertoRico584/aftermath/master/public/assets/images/about-hero.jpg'
 image: 'https://raw.githubusercontent.com/PuertoRico584/aftermath/master/public/assets/images/about-hero.jpg'
 weight: 6
-card: true
+card: false
 layout: 'about'
 ---
 

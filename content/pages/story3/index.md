@@ -3,8 +3,13 @@ title: "Story 3"
 date: 2019-02-04T21:35:29-05:00
 description: "This is the description for the third story."
 image: "https://source.unsplash.com/996x1080/?economics"
+storyHeading: "Tip Your Waiter"
+storySubheading: "Venezuelan Doctor Working as Waiter in Medellin"
 weight: 3
 card: true
+author: "Sara Pequeno"
+videographer: "Peggy Mullin, Andie Rea"
+photographer: "Nash Consing"
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lectus non sem scelerisque elementum. Sed tempor velit non urna lobortis sodales. Nunc vitae lectus sed justo eleifend lacinia sed nec mauris. Quisque pulvinar lorem sed neque sodales, vitae ultricies arcu eleifend. Sed suscipit est nulla, efficitur varius libero ultricies at. Nullam a mollis dui. Donec a felis sapien. Aliquam euismod nec ipsum sit amet consequat. Quisque faucibus arcu at sem congue, eget hendrerit turpis euismod. Praesent eleifend enim sit amet elit viverra, non volutpat diam tempor. Vivamus tempor nisi eget ultrices tristique. Morbi vitae pharetra felis, et faucibus magna. Quisque venenatis, lacus sit amet finibus ornare, massa ante facilisis sapien, quis tempor dui mauris sit amet urna.
 
