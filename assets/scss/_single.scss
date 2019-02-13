@@ -12,7 +12,8 @@
 }
 
 .story-hero {
-  padding-top: 10%;
+  color: $white;
+  height: 100vh;
   grid-area: story-hero;
   background-color: $yellow;
 }
@@ -24,7 +25,6 @@
 
 .story-content {
   grid-area: story-bd;
-  background-color: $red;
 
   p {
     margin: 0 auto;

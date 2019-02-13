@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
 .flex {
   display: flex;
   align-items: center;
@@ -61,14 +62,15 @@ body {
   background-image: url(../images/medellin.jpg); }
 
 .story-page {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Playfair Display", serif;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
   grid-template-areas: 'story-hero story-hero story-hero story-hero' 'story-hd story-hd story-hd story-hd' 'story-bd story-bd story-bd story-bd' 'story-int story-int story-int story-int' 'story-vid story-vid story-vid story-vid'; }
 
 .story-hero {
-  padding-top: 10%;
+  color: #ffffff;
+  height: 100vh;
   grid-area: story-hero;
   background-color: #F5C65D; }
 
@@ -77,8 +79,7 @@ body {
   background-color: #6AA5D9; }
 
 .story-content {
-  grid-area: story-bd;
-  background-color: #EB5F5D; }
+  grid-area: story-bd; }
   .story-content p {
     margin: 0 auto;
     max-width: 50%; }
@@ -109,7 +110,7 @@ body {
       cursor: pointer;
       text-decoration: none;
       transition: 0.2s ease; }
-    #nav-home li :active span,
+    #nav-home li .active span,
     #nav-home li :hover span {
       background: #F5C65D; }
   #nav-home span {
