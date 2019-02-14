@@ -764,13 +764,13 @@
                 styleMenu(section, sectionIndex);
 
                 // if there's any slide
-                if (numSlides > 0) {
-                    styleSlides(section, slides, numSlides);
-                } else {
-                    if (options.verticalCentered) {
-                        addTableClass(section);
-                    }
-                }
+                // if (numSlides > 0) {
+                //     styleSlides(section, slides, numSlides);
+                // } else {
+                //     if (options.verticalCentered) {
+                //         addTableClass(section);
+                //     }
+                // }
             }
 
             //fixed elements need to be moved out of the plugin container due to problems with CSS3.
@@ -822,9 +822,9 @@
             slides.forEach(function (slide) {
                 css(slide, { 'width': slideWidth + '%' });
 
-                if (options.verticalCentered) {
-                    addTableClass(slide);
-                }
+                // if (options.verticalCentered) {
+                //     addTableClass(slide);
+                // }
             });
 
             var startingSlide = $(SLIDE_ACTIVE_SEL, section)[0];
@@ -2564,17 +2564,17 @@
             return 'right';
         }
 
-        function addTableClass(element) {
-            //In case we are styling for the 2nd time as in with reponsiveSlides
-            if (!hasClass(element, TABLE)) {
-                var wrapper = document.createElement('div');
-                wrapper.className = TABLE_CELL;
-                wrapper.style.height = getTableHeight(element) + 'px';
+        // function addTableClass(element) {
+        //     //In case we are styling for the 2nd time as in with reponsiveSlides
+        //     if (!hasClass(element, TABLE)) {
+        //         var wrapper = document.createElement('div');
+        //         wrapper.className = TABLE_CELL;
+        //         wrapper.style.height = getTableHeight(element) + 'px';
 
-                addClass(element, TABLE);
-                wrapInner(element, wrapper);
-            }
-        }
+        //         addClass(element, TABLE);
+        //         wrapInner(element, wrapper);
+        //     }
+        // }
 
         function getTableHeight(element) {
             var sectionHeight = windowsHeight;
