@@ -26,7 +26,6 @@
 {{ $header := resources.Get "js/header.js" }}
 {{ $scrollytelly := resources.Get "js/story1-scrollytelly.js" }}
 {{ $bundle := slice $scripts $header $scrollytelly | resources.Concat "js/bundle.js" }}
-
 {{ block "footer_js" . }}{{ end }}
 
 {{ if .Site.IsServer }}
