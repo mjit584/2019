@@ -216,6 +216,15 @@ button {
   .header .container {
     justify-content: space-around; }
 
+.video-container {
+  transition: 0.1s background-color;
+  height: 75vh;
+  padding: 10vh; }
+  .video-container iframe {
+    border: none !important;
+    width: 100%;
+    height: 100%; }
+
 .cards.darkened .card:before {
   content: "";
   width: 100%;
