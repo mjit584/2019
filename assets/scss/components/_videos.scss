@@ -1,0 +1,13 @@
+// This is where I'm formatting the Video containers and adding in the transitions for the videos to enter a go dark mode.
+
+.video-container{
+  transition: 0.1s background-color;
+  height: 75vh;
+  padding: 10vh;
+  
+  iframe{
+    border: none !important;
+    width: 100%;
+    height: 100%;
+  }
+}
