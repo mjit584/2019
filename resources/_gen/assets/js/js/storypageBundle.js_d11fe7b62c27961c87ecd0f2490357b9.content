@@ -1,0 +1,10 @@
+$(function(){console.log('Hello world');});console.log('testing to make sure headers.js is linked up');var prevScrollpos=window.pageYOffset;window.onscroll=function(){var currentScrollPos=window.pageYOffset;if(prevScrollpos>currentScrollPos){document.getElementById("header").style.top="0";}else{document.getElementById("header").style.top="-75px";}
+prevScrollpos=currentScrollPos;}
+var videoTop;var videoHeight;var windowWidth;$(document).ready(function(){windowWidth=$(window).width();videoTop=$('#video-top').offset().top;videoHeight=$('iframe').outerHeight();$(window).scroll(function(event){if(windowWidth>1240){goDark();}})});$(window).resize(function(){windowWidth=$(window).width();videoTop=$('#video-top').offset().top;videoHeight=$('iframe').outerHeight();if(windowWidth>1240){goDark();}else{$('body').css('background-color','#fff')
+$('p, h1, h2, h3, h4, h5, h6, .story-byline, .story-hero').css('opacity','1')}});function goDark(){var scrollTop=$(this).scrollTop();if(scrollTop>=videoTop-(videoHeight/2)&&scrollTop<=videoTop+(videoHeight/10)){$('body').css('background-color','#000')
+$('p, h1, h2, h3, h4, h5, h6, .story-byline, .story-hero').css('opacity','0')}else if(scrollTop>videoTop+(videoHeight/10)){$('body').css('background-color','#fff')
+$('p, h1, h2, h3, h4, h5, h6, .story-byline, .story-hero').css('opacity','1')}else if(scrollTop<videoTop-(videoHeight/2)){$('body').css('background-color','#fff')
+$('p, h1, h2, h3, h4, h5, h6, .story-byline, .story-hero').css('opacity','1')};};var container=document.querySelector('#scroll');var text=container.querySelector('.scroll__text');var steps=text.querySelectorAll('.step');var scroller=scrollama();function handleStepEnter(response){console.log(response);response.element.classList.add('is-active');}
+function handleStepExit(response){console.log(response);response.element.classList.remove('is-active');}
+function init(){steps.forEach(function(step){var v=100+Math.floor(Math.random()*window.innerHeight/4);step.style.padding=v+'px 0px';});scroller.setup({step:'.scroll__text .step'}).onStepEnter(handleStepEnter).onStepExit(handleStepExit);window.addEventListener('resize',scroller.resize);}
+init();
