@@ -66,7 +66,8 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-int story-int story-int story-int' 'story-vid story-vid story-vid story-vid'; }
+  grid-template-areas: 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-int story-int story-int story-int' 'story-vid story-vid story-vid story-vid';
+  transition: 0.5s background-color; }
 
 .story-hero {
   color: #ffffff;
@@ -215,7 +216,8 @@ button {
   background-color: #000000;
   justify-content: space-around;
   box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
-  padding: 0.5vh 0; }
+  padding: 0.5vh 0;
+  width: 100vw; }
   .header .container {
     justify-content: space-around; }
 
@@ -338,7 +340,7 @@ button {
     color: #ffffff; }
 
 .logo {
-  max-width: 20%;
+  max-width: 14%;
   flex-basis: 25%; }
   .logo img {
     width: 100%;
