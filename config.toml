@@ -36,8 +36,8 @@ canonifyURLs = "true"
     meta_og_image = ""
     meta_og_description = ""
     meta_twitter_card = "summary"
-    meta_twitter_site = "@"
-    meta_twitter_creator = "@"
+    meta_twitter_site = "@uprootedunc"
+    meta_twitter_creator = "@uprootedunc"
   [params.navigation]
     help = "Help"
 

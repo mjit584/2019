@@ -25,11 +25,12 @@ body {
 
 #fullpage {
   display: grid;
-  font-family: "dinFontRegular", sans-serif;
-  color: #000000;
+  font-family: "dinFontBold", sans-serif;
+  color: #ffffff;
   grid-template-columns: repeat(8, auto);
   grid-template-rows: repeat(3, 100vh);
-  grid-template-areas: 'bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid' 'menu menu menu menu menu menu menu menu' 'int int int int int int int int'; }
+  grid-template-areas: 'bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid' 'menu menu menu menu menu menu menu menu' 'int int int int int int int int';
+  line-height: 1.6em; }
 
 .intro-home,
 .menu-home,
@@ -41,15 +42,19 @@ body {
 .intro-home {
   grid-area: bg-vid;
   background: #EB5F5D;
-  background-image: url(../images/medellin.jpg); }
+  background-image: url(../images/home-bg.jpg); }
   .intro-home h1 {
     text-transform: uppercase; }
+  .intro-home .logo-home {
+    max-width: 35vw;
+    height: auto; }
+  .intro-home svg {
+    max-width: 18vw; }
   .intro-home .intro-desc {
     max-width: 65vw; }
 
 #lang-toggle {
-  align-self: flex-end;
-  margin-right: 8vw; }
+  margin-top: 5vh; }
 
 #en-toggle,
 #es-toggle {
@@ -292,7 +297,7 @@ button {
       z-index: -1; }
     .cards .card .card-title {
       font-weight: 700;
-      font-family: "dinFontRegular", sans-serif;
+      font-family: "dinFontBold", sans-serif;
       font-size: 3rem; }
     .cards .card .card-description {
       font-size: 2rem; }
