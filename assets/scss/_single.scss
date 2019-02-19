@@ -18,6 +18,10 @@
   grid-area: story-hero;
   background-color: $yellow;
   transition: 1s opacity;
+  
+  h1{
+    font-family: $headline-font-1;
+  }
 }
 
 .story-byline {

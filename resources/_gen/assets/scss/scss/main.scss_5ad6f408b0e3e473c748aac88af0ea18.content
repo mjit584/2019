@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Lato");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@font-face {
+  font-family: dinFontBold;
+  src: url("../fonts/d-din/d-din-bold.otf"); }
+
+@font-face {
+  font-family: dinFontRegular;
+  src: url("../fonts/d-din/d-din.otf"); }
+
 .flex {
   display: flex;
   align-items: center;
@@ -17,7 +25,7 @@ body {
 
 #fullpage {
   display: grid;
-  font-family: "Lato", sans-serif;
+  font-family: "dinFontRegular", sans-serif;
   color: #000000;
   grid-template-columns: repeat(8, auto);
   grid-template-rows: repeat(3, 100vh);
@@ -75,6 +83,8 @@ body {
   grid-area: story-hero;
   background-color: #F5C65D;
   transition: 1s opacity; }
+  .story-hero h1 {
+    font-family: "dinFontRegular", sans-serif; }
 
 .story-byline {
   justify-content: space-around;
@@ -282,7 +292,7 @@ button {
       z-index: -1; }
     .cards .card .card-title {
       font-weight: 700;
-      font-family: "Lato", sans-serif;
+      font-family: "dinFontRegular", sans-serif;
       font-size: 3rem; }
     .cards .card .card-description {
       font-size: 2rem; }

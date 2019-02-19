@@ -22,9 +22,18 @@ $link-hover-color: lighten($primary, 20%);
 $link-hover-decoration: underline;
 
 //fonts
-$headline-font-1: 'Lato',
-sans-serif;
-$headline-font-2: 'Open Sans',
+@font-face{
+  font-family: dinFontBold;
+  src: url('../fonts/d-din/d-din-bold.otf');
+}
+
+@font-face{
+  font-family: dinFontRegular;
+  src: url('../fonts/d-din/d-din.otf');
+}
+
+$headline-font-1: 'dinFontRegular', sans-serif;
+$headline-font-2: 'dinFontRegular',
 sans-serif;
 $body-font: 'Playfair Display',
 serif;
@@ -39,7 +48,7 @@ $font-weight-normal: 400;
 $font-weight-bold: 700;
 $font-weight-black: 900;
 $font-weight-base: $font-weight-normal;
-$line-height-base: 1.6;
+$line-height-base: 1.6em;
 
 $spacer: 1rem;
 $spacers: ();
