@@ -16,6 +16,8 @@ photographer: "Alex Kormann"
 
 Curabitur porttitor dignissim est vel imperdiet. Praesent ut dapibus purus. Proin pulvinar eget justo vel luctus. Phasellus non pellentesque lorem. Suspendisse nisl neque, pretium sed tristique vitae, accumsan id tellus. Sed dictum faucibus ornare. Sed euismod, augue nec bibendum sollicitudin, mi diam feugiat turpis, a lacinia tortor arcu porttitor nibh. Praesent eros lacus, viverra at lectus et, fermentum placerat est. Mauris massa lorem, mollis egestas aliquet ut, vestibulum vitae elit. Fusce fermentum iaculis neque, non tempus dui imperdiet sed.
 
+{{< pull-quote "/pages/story1" "pull-quote-1" >}}
+
 Praesent vel tortor efficitur, lobortis mauris et, imperdiet augue. Phasellus erat tellus, molestie dignissim dapibus in, varius et ex. Aenean laoreet nisi ac mauris consequat fermentum ut vitae odio. In malesuada feugiat justo in pellentesque. Quisque in augue a velit rutrum imperdiet sed ut est. Suspendisse id gravida nulla. In vestibulum erat id dapibus rutrum. Quisque interdum lacus id felis varius, quis convallis neque tincidunt. Donec hendrerit tellus nec maximus feugiat. Vivamus ut diam massa. Nulla non facilisis nisl. Nam vitae dolor erat. Curabitur auctor lacinia dapibus.
 
 Ut auctor sodales lorem, sit amet dictum risus sodales eu. Cras posuere augue at lorem lacinia, sit amet placerat urna tempus. Etiam nec placerat justo, congue molestie ex. Pellentesque condimentum at neque sit amet euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean ac nulla sit amet eros gravida auctor quis et metus. Duis placerat tristique ante id fringilla.

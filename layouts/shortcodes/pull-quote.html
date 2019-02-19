@@ -1,0 +1,12 @@
+{{ $bundle := .Get 0 }}
+{{ $match := .Get 1 }}
+{{ $page := .Page.Site.GetPage $bundle }}
+{{ with $page }}
+{{ $resource := $page.Resources.GetMatch (printf "**%s*" $match )}}
+{{ with $resource }}
+<div class="pull-quote-container flex" style="background-color: red;">
+  Hello, there
+  {{ .Content }}
+</div>
+{{ end }}
+{{ end }}
