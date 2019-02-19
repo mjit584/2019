@@ -20,7 +20,7 @@ $(window).resize(function () {
   if (windowWidth > 1240) {
     goDark();
   } else {
-    $('body').css('background-color', '#fff')
+    $('.story-page').css('background-color', '#fff')
     $('p, h1, h2, h3, h4, h5, h6, .story-byline, .story-hero').css('opacity', '1')
   }
 });

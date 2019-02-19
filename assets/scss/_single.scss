@@ -9,6 +9,7 @@
     'story-bd story-bd story-bd story-bd'
     'story-int story-int story-int story-int'
     'story-vid story-vid story-vid story-vid';
+  transition: 0.5s background-color;
 }
 
 .story-hero {
@@ -17,6 +18,10 @@
   grid-area: story-hero;
   background-color: $yellow;
   transition: 1s opacity;
+  
+  h1{
+    font-family: $headline-font-2;
+  }
 }
 
 .story-byline {
