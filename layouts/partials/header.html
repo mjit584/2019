@@ -2,15 +2,17 @@
   <div class="container flex">
     <div class="logo">
       {{ if .Site.IsServer }}
-      <a href="{{ .Site.BaseURL }}"><img alt="Uprooted Homepage" src="{{ .Site.BaseURL }}images/aftermath.gif" /></a>
+      <a href="{{ .Site.BaseURL }}"><img alt="Uprooted Homepage"
+          src="{{ .Site.BaseURL }}images/logo-navbar-white.png" /></a>
       {{ else }}
-      <a href="{{ .Site.Params.gh_pages_URL }}"><img alt="Uprooted Homepage" src="{{ .Site.Params.gh_pages_URL }}images/aftermath.gif" /></a>
+      <a href="{{ .Site.Params.gh_pages_URL }}"><img alt="Uprooted Homepage"
+          src="{{ .Site.Params.gh_pages_URL }}images/logo-navbar-white.png" /></a>
       {{ end }}
     </div>
     {{/* <div class="logo-mobile">
       <a href="{{ .Site.BaseURL }}"><img alt="Figurit Homepage" src="{{ .Site.BaseURL }}images/logo-mobile.svg" /></a>
-    </div> MOBILE COMING SOON */}}
-    {{ partial "main-menu.html" . }}
-    {{/* {{ partial "hamburger.html" . }} HAMBURGER MENU COMING SOON */}}
-  </div>
+  </div> MOBILE COMING SOON */}}
+  {{ partial "main-menu.html" . }}
+  {{/* {{ partial "hamburger.html" . }} HAMBURGER MENU COMING SOON */}}
+</div>
 </div>
