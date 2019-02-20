@@ -1,8 +1,9 @@
 ---
 title: "Story 3"
+topic: "Government Support"
 date: 2019-02-04T21:35:29-05:00
 description: "This is the description for the third story."
-image: "https://source.unsplash.com/996x1080/?economics"
+image: "https://source.unsplash.com/996x1080/?government,services"
 storyHeading: "Tip Your Waiter"
 storySubheading: "Venezuelan Doctor Working as Waiter in Medellin"
 weight: 3

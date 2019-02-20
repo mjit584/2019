@@ -28,24 +28,10 @@ families and their adjustments to living in Medellín, Colombia.{{ end}}
   {{ partial "header.html" .}}
   <div class="section flex-column bg-cover bg-position-center intro-home" id="intro-home">
     <img class="logo-home" src="./images/logo-home-white.png" alt="Uprooted UNC logo" />
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1"
-      x="0px" y="0px" viewBox="0 0 192 3" xml:space="preserve">
-      <g>
-        <line style="fill:none;stroke:#F5C65D;stroke-miterlimit:10;" stroke-width="2" x1="1.653" y1="1.5" x2="64.993"
-          y2="1.5" />
-      </g>
-      <g>
-        <line style="fill:none;stroke:#6AA5D9;stroke-miterlimit:10;" stroke-width="2" x1="64.718" y1="1.5" x2="128.058"
-          y2="1.5" />
-      </g>
-      <g>
-        <line style="fill:none;stroke:#EB5F5D;stroke-miterlimit:10;" stroke-width="2" x1="127.507" y1="1.5" x2="190.847"
-          y2="1.5" />
-      </g>
-    </svg>
+    {{ partial "ybr-line.html" . }}
 
     <hr />
-    <h2>{{ .Params.Subtitle }}</h2>
+    <h2 class="intro-subtitle">{{ .Params.Subtitle }}</h2>
     <div class="intro-desc">{{ .Content }}</div>
     {{ partial "hero-home.html" . }}
   </div>
