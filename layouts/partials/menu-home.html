@@ -2,13 +2,13 @@
 
   {{ range where .Site.Pages.ByWeight "Params.card" true }}
   <a href="{{.URL}}" class="card" id="card-{{.Params.weight}}">
-    <img class="card-img" src="{{ .Params.image }}" alt="Venezuela">
-    <div class="card-base">
-      <div class="card-title">{{ .Title }}</div>
+    <img class="card__img" src="{{ .Params.image }}" alt="Venezuela">
+    <div class="card__base">
+      <div class="card__title">{{ .Title }}</div>
     </div>
-    <div class="card-hover">
-      <div class="card-title">{{ .Title }}</div>
-      <div class="card-description">{{ .Description }}</div>
+    <div class="card__hover">
+      <div class="card__title">{{ .Title }}</div>
+      <div class="card__description">{{ .Description }}</div>
     </div>
   </a>
   {{ end }}
