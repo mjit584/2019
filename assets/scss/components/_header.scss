@@ -4,12 +4,30 @@
   transition: top 0.3s;
   color: $white;
   background-color: $black;
-  justify-content: space-around;
-  box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
   padding: 0.5vh 0;
   width: 100vw;
 
   .container {
     justify-content: space-around;
+  }
+}
+
+.social-icons{
+  font-size: 1.3em;
+
+  i{
+    color: $white;
+  }
+
+  .fa-facebook-square:hover {
+    color: #3b5998;
+  }
+
+  .fa-instagram:hover {
+    color: #cd486b;
+  }
+
+  .fa-twitter:hover {
+    color: #00aced;
   }
 }

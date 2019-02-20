@@ -1,30 +1,30 @@
 .main-menu {
   a {
+    font-family: $headline-font-2;
     padding: 10px 14px 10px 14px;
     display: inline-block;
     font-weight: regular;
-    text-transform: uppercase;
     text-decoration: none;
     color: $white;
 
     &:hover {
-      background: $primary;
-      color: #ffffff;
+      background: $red;
+      color: $white;
       text-decoration: none;
     }
   }
 
   &.active {
     >a {
-      background: $primary;
+      background: $red;
       text-decoration: none;
-      color: #ffffff;
+      color:$white;
 
       &:hover {
         text-decoration: none;
-        background: $primary;
+        background: $red;
         transition: all 225ms ease-in 0s;
-        color: #ffffff;
+        color: $white;
       }
     }
   }

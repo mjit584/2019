@@ -231,12 +231,21 @@ button {
   transition: top 0.3s;
   color: #ffffff;
   background-color: #000000;
-  justify-content: space-around;
-  box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
   padding: 0.5vh 0;
   width: 100vw; }
   .header .container {
     justify-content: space-around; }
+
+.social-icons {
+  font-size: 1.3em; }
+  .social-icons i {
+    color: #ffffff; }
+  .social-icons .fa-facebook-square:hover {
+    color: #3b5998; }
+  .social-icons .fa-instagram:hover {
+    color: #cd486b; }
+  .social-icons .fa-twitter:hover {
+    color: #00aced; }
 
 .video-container {
   transition: 0.1s background-color;
@@ -335,24 +344,24 @@ button {
     opacity: 0; }
 
 .main-menu a {
+  font-family: "dinFontRegular", sans-serif;
   padding: 10px 14px 10px 14px;
   display: inline-block;
   font-weight: regular;
-  text-transform: uppercase;
   text-decoration: none;
   color: #ffffff; }
   .main-menu a:hover {
-    background: #af4efa;
+    background: #EB5F5D;
     color: #ffffff;
     text-decoration: none; }
 
 .main-menu.active > a {
-  background: #af4efa;
+  background: #EB5F5D;
   text-decoration: none;
   color: #ffffff; }
   .main-menu.active > a:hover {
     text-decoration: none;
-    background: #af4efa;
+    background: #EB5F5D;
     transition: all 225ms ease-in 0s;
     color: #ffffff; }
 
