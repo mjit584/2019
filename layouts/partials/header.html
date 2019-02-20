@@ -9,10 +9,11 @@
           src="{{ .Site.Params.gh_pages_URL }}images/logo-navbar-white.png" /></a>
       {{ end }}
     </div>
-    {{/* <div class="logo-mobile">
-      <a href="{{ .Site.BaseURL }}"><img alt="Figurit Homepage" src="{{ .Site.BaseURL }}images/logo-mobile.svg" /></a>
-  </div> MOBILE COMING SOON */}}
-  {{ partial "main-menu.html" . }}
-  {{/* {{ partial "hamburger.html" . }} HAMBURGER MENU COMING SOON */}}
-</div>
+    {{ partial "main-menu.html" . }}
+    <div class="social-icons">
+      <a href="https://www.facebook.com/uprootedUNC/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://twitter.com/@uprootedunc" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/uprootedunc/" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
 </div>

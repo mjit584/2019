@@ -1,7 +1,14 @@
-{{ define "title" }}Uprooted: Venezuelan Families Flee to Colombia{{ end}}
-{{ define "header_css" }}{{ end }}
+{{ define "title" }}Urpooted - A multimedia project of the UNC School of Media and Journalism focused on Venezuelan
+families and their adjustments to living in Medellín, Colombia.{{ end}}
+{{ define "header_css" }}
+<style>
+  .header {
+    background-color: transparent;
+  }
+</style>
+{{ end }}
 {{ define "body_classes" }}home{{ end }}
-{{ define "header_classes" }}header-transparent{{ end }}
+{{ define "header_classes" }}{{ end }}
 
 {{ define "meta_tags" }}
 <meta name="description" content="{{ .Site.Params.homepage_meta_tags.meta_description }}" />
@@ -16,7 +23,9 @@
 {{ end }}
 
 {{ define "main"}}
+
 <div id="fullpage">
+  {{ partial "header.html" .}}
   <div class="section flex-column bg-cover bg-position-center intro-home" id="intro-home">
     <img class="logo-home" src="./images/logo-home-white.png" alt="Uprooted UNC logo" />
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1"
@@ -62,9 +71,8 @@
 {{ $fullpage := resources.Get "js/fullpage.js" }}
 {{ $cards := resources.Get "js/cards.js" }}
 {{ $homepage := resources.Get "js/homepage.js" }}
-{{ $homepageBundle := slice $scripts $fullpage $cards $homepage | resources.Concat "js/homepageBundle.js" }}
-
-{{ block "footer_js" . }}{{ end }}
+{{ $header := resources.Get "js/header.js" }}
+{{ $homepageBundle := slice $scripts $fullpage $cards $homepage $header | resources.Concat "js/homepageBundle.js" }}
 
 {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $homepageBundle.RelPermalink }}"></script>
@@ -72,7 +80,4 @@
 <script type="text/javascript" src="{{ ($homepageBundle | minify | fingerprint).RelPermalink }}"></script>
 {{ end }}
 
-{{ end }}
-
-{{ define "footer_js" }}
 {{ end }}

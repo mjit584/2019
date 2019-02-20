@@ -3,9 +3,20 @@
 
 <head>
   <meta charset="utf-8" />
+  <meta name="author" content="UNC School of Media and Journalism">
+  <meta name="description" content="Uprooted: Venezuelan Migrants Flee to Colombia" />
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
   <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Thank you for visiting our site! The GitHub repo is available at https://github.com/.
+
+  From our dedicated developers:
+
+  Brooke Fisher: http://brookesnook.org/
+  Amy Townsend: http://amygtownsend.com/
+  -->
+
   {{ block "meta_tags" . }}{{ end }}
 
   <!--making sure the favicon works on all pages in GH pages-->
@@ -27,6 +38,10 @@
   <!--Google Fonts-->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,700|Source+Sans+Pro:200,300,400,700"
     rel="stylesheet">
+
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
   {{ block "header_css" . }}{{ end }}
 
@@ -53,8 +68,6 @@
 
   {{ $scripts := resources.Get "js/scripts.js" }}
   {{ $bundle := slice $scripts | resources.Concat "js/bundle.js" }}
-
-  {{ block "footer_js" . }}{{ end }}
 
   {{ if .Site.IsServer }}
   <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
