@@ -47,24 +47,6 @@
   }
 }
 
-#lang-toggle {
-  margin-top: 5vh;
-}
-
-#en-toggle,
-#es-toggle {
-  border: solid 1px $grey;
-  padding: 0.7rem 1.5rem;
-}
-
-#en-toggle,
-#es-toggle:hover {
-  background-color: $black;
-  color: $white;
-}
-
-
-
 .menu-home {
   grid-area: menu;
 }
