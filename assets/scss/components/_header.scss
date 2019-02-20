@@ -3,12 +3,13 @@
   top: 0;
   transition: top 0.3s;
   color: $white;
-  background-color: $black;
-  padding: 0.5vh 0;
+  background-color: $yellow;
+  padding: 0.1vh 0;
   width: 100vw;
 
   .container {
     justify-content: space-around;
+    height: 100%;
   }
 }
 

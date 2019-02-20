@@ -230,11 +230,12 @@ button {
   top: 0;
   transition: top 0.3s;
   color: #ffffff;
-  background-color: #000000;
-  padding: 0.5vh 0;
+  background-color: #F5C65D;
+  padding: 0.1vh 0;
   width: 100vw; }
   .header .container {
-    justify-content: space-around; }
+    justify-content: space-around;
+    height: 100%; }
 
 .social-icons {
   font-size: 1.3em; }
