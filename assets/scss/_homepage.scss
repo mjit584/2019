@@ -33,11 +33,16 @@
     height: auto;
   }
   
-  svg{
+  .ybr-line{
     max-width: 18vw;
   }
 
+  .intro-subtitle {
+    font-family: $body-font;
+  }
+
   .intro-desc {
+    font-family: $byline-font;
     max-width: 65vw;
   }
 }

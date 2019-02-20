@@ -61,6 +61,7 @@
 
       // Display hover text on card hover
       .card__hover {
+        .card__topic,
         .card__title,
         .card__description {
           opacity: 1;
@@ -92,6 +93,7 @@
       // Hide base text on card hover
       .card__base {
 
+        .card__topic,
         .card__title,
         .card__description {
           opacity: 0;
@@ -111,14 +113,27 @@
       z-index: -1;
     }
 
+    .card__topic {
+      font-family: $headline-font-1;
+      text-transform: uppercase;
+      font-size: 1.25rem;
+    }
+
+    .ybr-line {
+      max-width: 10vw;
+    }
+
     .card__title {
       font-weight: $font-weight-bold;
       font-family: $headline-font-1;
       font-size: 3rem;
+      padding-top: 25px;
+      padding-bottom: 15px;
     }
 
     .card__description {
-      font-size: 2rem;
+      font-size: 1rem;
+      font-family: $byline-font;
     }
 
     // Vertically and horizontally center card text
@@ -136,6 +151,7 @@
     // Hide hover text without card hover
     .card__hover {
 
+      .card__topic,
       .card__title,
       .card__description {
         opacity: 0;
@@ -148,6 +164,7 @@
     // Display base text without card hover
     .card__base {
 
+      .card__topic,
       .card__title,
       .card__description {
         opacity: 1;

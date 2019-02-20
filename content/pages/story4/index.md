@@ -1,8 +1,9 @@
 ---
 title: "Story 4"
+topic: "Children and Education"
 date: 2019-02-04T21:35:51-05:00
 description: "This is the description for the fourth story."
-image: "https://source.unsplash.com/996x1080/?health,safety"
+image: "https://source.unsplash.com/996x1080/?children,family"
 storyHeading: "Medical Crisis in Medellin"
 storySubheading: "Hundreds of Venezuelan pregnant women can't find health care"
 weight: 4

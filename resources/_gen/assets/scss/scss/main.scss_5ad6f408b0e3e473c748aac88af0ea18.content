@@ -48,9 +48,12 @@ body {
   .intro-home .logo-home {
     max-width: 35vw;
     height: auto; }
-  .intro-home svg {
+  .intro-home .ybr-line {
     max-width: 18vw; }
+  .intro-home .intro-subtitle {
+    font-family: "Playfair Display", serif; }
   .intro-home .intro-desc {
+    font-family: "Lato", sans-serif;
     max-width: 65vw; }
 
 #lang-toggle {
@@ -292,6 +295,7 @@ button {
     position: relative;
     text-decoration: none;
     grid-column: span 2; }
+    .cards .card:hover .card__hover .card__topic,
     .cards .card:hover .card__hover .card__title,
     .cards .card:hover .card__hover .card__description {
       opacity: 1;
@@ -308,6 +312,7 @@ button {
       position: absolute;
       background-color: rgba(245, 198, 93, 0.3);
       transition: background-color .4s; }
+    .cards .card:hover .card__base .card__topic,
     .cards .card:hover .card__base .card__title,
     .cards .card:hover .card__base .card__description {
       opacity: 0; }
@@ -318,12 +323,21 @@ button {
       height: 100%;
       object-fit: cover;
       z-index: -1; }
+    .cards .card .card__topic {
+      font-family: "dinFontBold", sans-serif;
+      text-transform: uppercase;
+      font-size: 1.25rem; }
+    .cards .card .ybr-line {
+      max-width: 10vw; }
     .cards .card .card__title {
       font-weight: 700;
       font-family: "dinFontBold", sans-serif;
-      font-size: 3rem; }
+      font-size: 3rem;
+      padding-top: 25px;
+      padding-bottom: 15px; }
     .cards .card .card__description {
-      font-size: 2rem; }
+      font-size: 1rem;
+      font-family: "Lato", sans-serif; }
     .cards .card .card__hover,
     .cards .card .card__base {
       position: absolute;
@@ -333,18 +347,20 @@ button {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%); }
+    .cards .card .card__hover .card__topic,
     .cards .card .card__hover .card__title,
     .cards .card .card__hover .card__description {
       opacity: 0;
       transform: translate3d(0, 20px, 0);
       transition: 0.3s opacity 0s cubic-bezier(0.4, 0, 0.2, 1), 0.3s transform 0s cubic-bezier(0.4, 0, 0.2, 1); }
+    .cards .card .card__base .card__topic,
     .cards .card .card__base .card__title,
     .cards .card .card__base .card__description {
       opacity: 1;
       transition: opacity .5s; }
 
 .main-menu a {
-  font-family: "dinFontRegular", sans-serif;
+  font-family: "Lato", sans-serif;
   padding: 10px 14px 10px 14px;
   display: inline-block;
   font-weight: regular;
