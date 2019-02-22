@@ -9,7 +9,11 @@
 @import 'baseof';
 @import 'homepage';
 @import 'single';
-@import 'components/buttons';
+
+// Libraries
+@import 'libraries/hamburgers/hamburgers';
+
+// Components
 @import 'components/bg';
 @import 'components/header';
 @import 'components/videos';
