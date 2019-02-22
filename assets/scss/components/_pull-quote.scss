@@ -2,6 +2,7 @@
   max-width: 50%;
   font-family: $pull-quote-font;
   margin: 0 auto;
+  
   h2{
     margin-bottom: 3vh;
     justify-content: flex-start;
@@ -11,13 +12,11 @@
     max-width: 92%;
     margin: 0;
   }
-}
 
+  .ybr-line{
+    max-width: 15vw;
+    margin-bottom: 2vh;
+    align-self: flex-start;
+  }
 
-
-
-.ybr-line{
-  max-width: 15vw;
-  margin-bottom: 2vh;
-  align-self: flex-start;
 }

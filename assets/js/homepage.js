@@ -1,6 +1,6 @@
 // Homepage js
 
-new fullpage('#fullpage', {
+new fullpage('#home__scroll', {
   //options here
   autoScrolling: true,
   anchors: ['firstPage', 'secondPage', 'thirdPage']

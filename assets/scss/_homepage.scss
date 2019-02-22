@@ -1,60 +1,67 @@
-#fullpage {
-  display: grid;
-  font-family: $headline-font-1;
-  color: $white;
-  grid-template-columns: repeat(8, auto);
-  grid-template-rows: repeat(3, 100vh);
-  grid-template-areas:
-    'bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid'
-    'menu menu menu menu menu menu menu menu'
-    'int int int int int int int int';
-  line-height: $line-height-base;
-}
+.home {
 
-.intro-home,
-.menu-home,
-.interactive-home,
-.about-home {
-  width: 100%;
-  height: 100vh;
-}
-
-.intro-home {
-  grid-area: bg-vid;
-  background: $red;
-  background-image: url(../images/home-bg.jpg);
-
-  h1 {
-    text-transform: uppercase;
+  #home__scroll {
+    display: grid;
+    font-family: $headline-font-1;
+    color: $white;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: repeat(3, 100vh);
+    grid-template-areas:
+      'bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid'
+      'menu menu menu menu menu menu menu menu'
+      'int int int int int int int int';
+    line-height: $line-height-base;
   }
 
-  .logo-home{
-    max-width: 35vw;
-    height: auto;
+  #header {
+    background-color: transparent;
+  }
+
+  #home__intro,
+  #home__cards,
+  #home__about {
+    width: 100%;
+    height: 100vh;
+  }
+
+  #home__intro {
+    grid-area: bg-vid;
+    background: $red;
+    background-image: url(../images/home-bg.jpg);
+  
+    h1 {
+      text-transform: uppercase;
+    }
+  
+    .home__logo{
+      max-width: 35vw;
+      height: auto;
+    }
+    
+    .ybr-line{
+      max-width: 18vw;
+    }
+  
+    .intro-subtitle {
+      font-family: $body-font;
+    }
+  
+    .intro-desc {
+      font-family: $byline-font;
+      max-width: 65vw;
+    }
+  }
+
+  #home__cards {
+    grid-area: menu;
   }
   
-  .ybr-line{
-    max-width: 18vw;
+  #home__about {
+    grid-area: int;
+    background: $yellow;
+    background-image: url(../images/medellin.jpg);
   }
 
-  .intro-subtitle {
-    font-family: $body-font;
-  }
-
-  .intro-desc {
-    font-family: $byline-font;
-    max-width: 65vw;
-  }
-}
-
-.menu-home {
-  grid-area: menu;
-}
-
-.interactive-home {
-  grid-area: int;
-  background: $yellow;
-  background-image: url(../images/medellin.jpg);
 }
 
 // .about-home {

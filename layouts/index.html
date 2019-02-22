@@ -1,14 +1,7 @@
 {{ define "title" }}Uprooted - A multimedia project of the UNC School of Media and Journalism focused on Venezuelan
 families and their adjustments to living in Medellín, Colombia.{{ end}}
-{{ define "header_css" }}
-<style>
-  .header {
-    background-color: transparent;
-  }
-</style>
-{{ end }}
+{{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}home{{ end }}
-{{ define "header_classes" }}{{ end }}
 
 {{ define "meta_tags" }}
 <meta name="description" content="{{ .Site.Params.homepage_meta_tags.meta_description }}" />
@@ -24,24 +17,19 @@ families and their adjustments to living in Medellín, Colombia.{{ end}}
 
 {{ define "main"}}
 
-<div id="fullpage">
+<div id="home__scroll">
   {{ partial "header.html" .}}
-  <div class="section flex-column bg-cover bg-position-center intro-home" id="intro-home">
-    <img class="logo-home" src="./images/logo-home-white.png" alt="Uprooted UNC logo" />
+  <div class="section flex-column bg-cover bg-position-center" id="home__intro">
+    <img class="home__logo" src="./images/logo-primary-white.png" alt="Uprooted UNC logo" />
     {{ partial "ybr-line.html" . }}
-
-    <hr />
     <h2 class="intro-subtitle">{{ .Params.Subtitle }}</h2>
     <div class="intro-desc">{{ .Content }}</div>
   </div>
-  <div class="section menu-home" id="menu-home">
-    {{ partial "menu-home.html" . }}
+  <div class="section" id="home__cards">
+    {{ partial "home-cards.html" . }}
   </div>
-  <div class="section flex interactive-home bg-cover bg-position-center" id="interactive-home">
-    {{ partial "interactive-home.html" . }}
-  </div>
-  <div class="right" id="nav-home">
-    {{ partial "nav-home.html" . }}
+  <div class="section flex bg-cover bg-position-center" id="home__about">
+    {{ partial "home-about.html" . }}
   </div>
 </div>
 

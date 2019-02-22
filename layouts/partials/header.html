@@ -1,12 +1,12 @@
-<div class="header header-absolute flex" id="header">
+<div class="flex" id="header">
   <div class="container flex">
-    <div class="logo">
+    <div class="header__logo">
       {{ if .Site.IsServer }}
       <a href="{{ .Site.BaseURL }}"><img alt="Uprooted Homepage"
-          src="{{ .Site.BaseURL }}images/logo-navbar-white.png" /></a>
+          src="{{ .Site.BaseURL }}images/logo-wide-white.png" /></a>
       {{ else }}
       <a href="{{ .Site.Params.gh_pages_URL }}"><img alt="Uprooted Homepage"
-          src="{{ .Site.Params.gh_pages_URL }}images/logo-navbar-white.png" /></a>
+          src="{{ .Site.Params.gh_pages_URL }}images/logo-wide-white.png" /></a>
       {{ end }}
     </div>
     {{ partial "main-menu.html" . }}
