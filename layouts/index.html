@@ -25,16 +25,16 @@ families and their adjustments to living in Medellín, Colombia.{{ end}}
 
 <div id="home__scroll">
   {{ partial "header.html" .}}
-  <div class="section flex-column bg-cover bg-position-center home__intro" id="home__intro">
+  <div class="section flex-column bg-cover bg-position-center" id="home__intro">
     <img class="logo-home" src="./images/logo-home-white.png" alt="Uprooted UNC logo" />
     {{ partial "ybr-line.html" . }}
     <h2 class="intro-subtitle">{{ .Params.Subtitle }}</h2>
     <div class="intro-desc">{{ .Content }}</div>
   </div>
-  <div class="section home__cards" id="home__cards">
+  <div class="section" id="home__cards">
     {{ partial "home-cards.html" . }}
   </div>
-  <div class="section flex home__about bg-cover bg-position-center" id="home__about">
+  <div class="section flex bg-cover bg-position-center" id="home__about">
     {{ partial "home-about.html" . }}
   </div>
 </div>
