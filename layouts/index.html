@@ -23,21 +23,19 @@ families and their adjustments to living in Medellín, Colombia.{{ end}}
 
 {{ define "main"}}
 
-<div id="fullpage">
+<div id="home__scroll">
   {{ partial "header.html" .}}
-  <div class="section flex-column bg-cover bg-position-center intro-home" id="intro-home">
+  <div class="section flex-column bg-cover bg-position-center home__intro" id="home__intro">
     <img class="logo-home" src="./images/logo-home-white.png" alt="Uprooted UNC logo" />
     {{ partial "ybr-line.html" . }}
-
-    <hr />
     <h2 class="intro-subtitle">{{ .Params.Subtitle }}</h2>
     <div class="intro-desc">{{ .Content }}</div>
   </div>
-  <div class="section menu-home" id="menu-home">
-    {{ partial "menu-home.html" . }}
+  <div class="section home__cards" id="home__cards">
+    {{ partial "home-cards.html" . }}
   </div>
-  <div class="section flex interactive-home bg-cover bg-position-center" id="interactive-home">
-    {{ partial "interactive-home.html" . }}
+  <div class="section flex home__about bg-cover bg-position-center" id="home__about">
+    {{ partial "home-about.html" . }}
   </div>
 </div>
 

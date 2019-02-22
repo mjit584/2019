@@ -1,4 +1,4 @@
-#fullpage {
+#home__scroll {
   display: grid;
   font-family: $headline-font-1;
   color: $white;
@@ -11,15 +11,14 @@
   line-height: $line-height-base;
 }
 
-.intro-home,
-.menu-home,
-.interactive-home,
-.about-home {
+.home__intro,
+.home__cards,
+.home__about {
   width: 100%;
   height: 100vh;
 }
 
-.intro-home {
+.home__intro {
   grid-area: bg-vid;
   background: $red;
   background-image: url(../images/home-bg.jpg);
@@ -47,11 +46,11 @@
   }
 }
 
-.menu-home {
+.home__cards {
   grid-area: menu;
 }
 
-.interactive-home {
+.home__about {
   grid-area: int;
   background: $yellow;
   background-image: url(../images/medellin.jpg);
