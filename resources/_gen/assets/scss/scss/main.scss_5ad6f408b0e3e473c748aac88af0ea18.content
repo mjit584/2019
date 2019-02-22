@@ -56,19 +56,6 @@ body {
     font-family: "Lato", sans-serif;
     max-width: 65vw; }
 
-#lang-toggle {
-  margin-top: 5vh; }
-
-#en-toggle,
-#es-toggle {
-  border: solid 1px #aaa;
-  padding: 0.7rem 1.5rem; }
-
-#en-toggle,
-#es-toggle:hover {
-  background-color: #000000;
-  color: #ffffff; }
-
 .menu-home {
   grid-area: menu; }
 
