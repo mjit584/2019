@@ -43,8 +43,7 @@ body {
 
 .home #home__intro {
   grid-area: bg-vid;
-  background: #EB5F5D;
-  background-image: url(../images/home-bg.jpg); }
+  background-image: url(../images/home-bg.jpeg); }
   .home #home__intro h1 {
     text-transform: uppercase; }
   .home #home__intro .home__logo {
@@ -63,7 +62,6 @@ body {
 
 .home #home__about {
   grid-area: int;
-  background: #F5C65D;
   background-image: url(../images/medellin.jpg); }
 
 .story-page {
