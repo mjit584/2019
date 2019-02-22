@@ -32,6 +32,9 @@ body {
   grid-template-areas: 'bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid' 'menu menu menu menu menu menu menu menu' 'int int int int int int int int';
   line-height: 1.6em; }
 
+.home .header {
+  background-color: transparent; }
+
 .home #home__intro,
 .home #home__cards,
 .home #home__about {
