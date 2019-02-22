@@ -322,11 +322,10 @@ button {
   .pull-quote-container p {
     max-width: 92%;
     margin: 0; }
-
-.ybr-line {
-  max-width: 15vw;
-  margin-bottom: 2vh;
-  align-self: flex-start; }
+  .pull-quote-container .ybr-line {
+    max-width: 15vw;
+    margin-bottom: 2vh;
+    align-self: flex-start; }
 
 /* scrollama */
 #scroll {
