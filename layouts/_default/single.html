@@ -1,8 +1,10 @@
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}story-page {{ .Title }}{{ end }}
 
-{{ define "main" }}
+<!--full screen-->
 {{ partial "header.html" . }}
+<!--hamburger-->
+{{ partial "hamburger.html" . }}
 {{ partial "story-hero.html" (dict "background" .Params.image "heading" .Params.storyHeading "subheading" .Params.storySubheading "content" .) }}
 
 <div class="flex story-byline">

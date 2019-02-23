@@ -91,9 +91,13 @@ body {
   font-family: "Playfair Display", serif;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-int story-int story-int story-int' 'story-vid story-vid story-vid story-vid';
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-int story-int story-int story-int';
   transition: 0.5s background-color; }
+  @media screen and (max-width: 800px) {
+    .story-page {
+      grid-template-columns: 1fr;
+      grid-template-areas: 'story-hero' 'story-by' 'story-bd' 'story-int'; } }
 
 .story-hero {
   color: #ffffff;
@@ -414,6 +418,9 @@ body {
 .hamburger__logo {
   max-width: 35vw;
   height: auto; }
+  @media screen and (min-width: 800px) {
+    .hamburger__logo {
+      display: none; } }
 
 .hamburger {
   padding: 10px 0 10px 10px;
