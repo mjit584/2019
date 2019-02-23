@@ -1,7 +1,7 @@
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}story-page {{ .Title }}{{ end }}
 {{ define "main" }}
-
+{{ partial "main-menu-mobile.html" . }}
 <nav class="flex">
   <!--full screen-->
   {{ partial "header.html" . }}

@@ -427,12 +427,14 @@ nav {
     transition: all 225ms ease-in 0s;
     color: #ffffff; }
 
-.hamburger__logo {
-  max-width: 35vw;
-  height: auto; }
-  @media screen and (min-width: 800px) {
-    .hamburger__logo {
-      display: none; } }
+a {
+  z-index: 9; }
+  a .hamburger__logo {
+    max-width: 35vw;
+    height: auto; }
+    @media screen and (min-width: 800px) {
+      a .hamburger__logo {
+        display: none; } }
 
 .hamburger {
   padding: 10px 0 10px 10px;
