@@ -16,7 +16,6 @@ families and their adjustments to living in Medellín, Colombia.{{ end}}
 {{ end }}
 
 {{ define "main"}}
-
 <div id="home__scroll">
   <div class="section flex-column bg-cover bg-position-center" id="home__intro">
     <nav>
@@ -25,6 +24,7 @@ families and their adjustments to living in Medellín, Colombia.{{ end}}
       <!--full screen-->
       {{ partial "header.html" . }}
     </nav>
+    {{ partial "main-menu-mobile.html" . }}
     <img class="home__logo" src="./images/logo-primary-white.png" alt="Uprooted UNC logo" />
     {{ partial "ybr-line.html" . }}
     <h2 class="intro-subtitle">{{ .Params.Subtitle }}</h2>
@@ -47,7 +47,8 @@ families and their adjustments to living in Medellín, Colombia.{{ end}}
 {{ $cards := resources.Get "js/cards.js" }}
 {{ $homepage := resources.Get "js/homepage.js" }}
 {{ $header := resources.Get "js/header.js" }}
-{{ $homepageBundle := slice $scripts $fullpage $cards $homepage $header | resources.Concat "js/homepageBundle.js" }}
+{{ $hamburger := resources.Get "js/hamburger.js"}}
+{{ $homepageBundle := slice $scripts $fullpage $cards $homepage $header $hamburger | resources.Concat "js/homepageBundle.js" }}
 
 {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $homepageBundle.RelPermalink }}"></script>
