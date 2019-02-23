@@ -2,8 +2,9 @@
   font-family: $body-font;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, auto);
+  grid-template-rows: repeat(5, auto);
   grid-template-areas:
+    'nav nav nav nav'
     'story-hero story-hero story-hero story-hero'
     '. story-by story-by .'
     'story-bd story-bd story-bd story-bd'
@@ -13,10 +14,21 @@
   @media screen and (max-width: 800px){
     grid-template-columns: 1fr;
     grid-template-areas:
+      'nav'
       'story-hero'
       'story-by'
       'story-bd'
       'story-int';
+  }
+}
+
+nav{
+  grid-area: nav;
+  
+  @media screen and (max-width:800px){
+    width: 100vw;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -63,6 +75,10 @@
     margin: 2vw auto;
     max-width: 50%;
     transition: 1s opacity;
+
+    @media screen and (max-width: 800px){
+      max-width: 90vw;
+    }
   }
 
   .ybr-line{

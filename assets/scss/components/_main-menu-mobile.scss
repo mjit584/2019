@@ -23,7 +23,7 @@ $button-width: 35px;
 
   &.open {
     opacity: 0.9;
-    visibility: visible;
+    display: flex;
     height: 100%;
     z-index: 20;
 
@@ -64,6 +64,7 @@ $button-width: 35px;
       display: block;
       position: relative;
       opacity: 0;
+      margin-bottom: 3vh;
       a {
         display: block;
         position: relative;
