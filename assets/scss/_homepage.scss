@@ -1,5 +1,4 @@
 .home {
-
   #home__scroll {
     display: grid;
     font-family: $headline-font-1;
@@ -11,10 +10,29 @@
       'menu menu menu menu menu menu menu menu'
       'int int int int int int int int';
     line-height: $line-height-base;
+
+    @media screen and (max-width:800px){
+      grid-template-columns: 100vw;
+      grid-template-areas:
+        'bg-vid'
+        'menu'
+        'int';
+    }
   }
 
   #header {
     background-color: transparent;
+  }
+
+  nav{
+    
+    @media screen and (max-width: 800px){
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color: rgba(0,0,0,0.3);
+    }
   }
 
   #home__intro,
@@ -22,12 +40,15 @@
   #home__about {
     width: 100%;
     height: 100vh;
+
+    @media screen and (max-width: 800px){
+      justify-content: flex-start;
+    }
   }
 
   #home__intro {
     grid-area: bg-vid;
-    background: $red;
-    background-image: url(../images/home-bg.jpg);
+    background-image: url(../images/home-bg.jpeg);
   
     h1 {
       text-transform: uppercase;
@@ -36,10 +57,18 @@
     .home__logo{
       max-width: 35vw;
       height: auto;
+
+      @media screen and (max-width: 800px) {
+        display: none;
+      }
     }
     
     .ybr-line{
       max-width: 18vw;
+      
+      @media screen and (max-width: 800px) {
+        display: none;
+      }
     }
   
     .intro-subtitle {
@@ -58,10 +87,8 @@
   
   #home__about {
     grid-area: int;
-    background: $yellow;
     background-image: url(../images/medellin.jpg);
   }
-
 }
 
 // .about-home {

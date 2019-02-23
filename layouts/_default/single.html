@@ -1,9 +1,15 @@
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}story-page {{ .Title }}{{ end }}
-
 {{ define "main" }}
-{{ partial "header.html" . }}
+{{ partial "main-menu-mobile.html" . }}
+<nav>
+  <!--full screen-->
+  {{ partial "header.html" . }}
+  <!--hamburger-->
+  {{ partial "hamburger.html" . }}
+</nav>
 {{ partial "story-hero.html" (dict "background" .Params.image "heading" .Params.storyHeading "subheading" .Params.storySubheading "content" .) }}
+
 
 <div class="flex story-byline">
   <div class="byline-name flex-column">written by<span>{{ .Params.Author }}</span></div>
@@ -25,8 +31,8 @@
 {{ $header := resources.Get "js/header.js" }}
 {{ $videos := resources.Get "js/videos.js" }}
 {{ $scrollytelly := resources.Get "js/story1-scrollytelly.js" }}
-
-{{ $storypageBundle := slice $scripts $header $videos $scrollytelly | resources.Concat "js/storypageBundle.js" }}
+{{ $hamburger := resources.Get "js/hamburger.js"}}
+{{ $storypageBundle := slice $scripts $header $videos $scrollytelly $hamburger | resources.Concat "js/storypageBundle.js" }}
 {{ block "footer_js" . }}{{ end }}
 
 {{ if .Site.IsServer }}
