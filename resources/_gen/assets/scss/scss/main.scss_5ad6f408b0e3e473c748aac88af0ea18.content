@@ -100,7 +100,11 @@ body {
       grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd' 'story-int'; } }
 
 nav {
-  grid-area: nav; }
+  grid-area: nav;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.3); }
   @media screen and (max-width: 800px) {
     nav {
       width: 100vw;
