@@ -261,6 +261,7 @@ nav {
   background-color: #F5C65D; }
 
 #header {
+  z-index: 9;
   flex-basis: 100%;
   position: fixed;
   top: 0;
