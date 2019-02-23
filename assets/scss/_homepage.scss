@@ -24,6 +24,17 @@
     background-color: transparent;
   }
 
+  nav{
+    
+    @media screen and (max-width: 800px){
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color: rgba(0,0,0,0.3);
+    }
+  }
+
   #home__intro,
   #home__cards,
   #home__about {
@@ -46,10 +57,18 @@
     .home__logo{
       max-width: 35vw;
       height: auto;
+
+      @media screen and (max-width: 800px) {
+        display: none;
+      }
     }
     
     .ybr-line{
       max-width: 18vw;
+      
+      @media screen and (max-width: 800px) {
+        display: none;
+      }
     }
   
     .intro-subtitle {
@@ -70,7 +89,6 @@
     grid-area: int;
     background-image: url(../images/medellin.jpg);
   }
-
 }
 
 // .about-home {

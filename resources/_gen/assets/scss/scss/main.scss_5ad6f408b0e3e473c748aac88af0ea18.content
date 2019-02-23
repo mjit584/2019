@@ -39,6 +39,14 @@ body {
 .home #header {
   background-color: transparent; }
 
+@media screen and (max-width: 800px) {
+  .home nav {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.3); } }
+
 .home #home__intro,
 .home #home__cards,
 .home #home__about {
@@ -58,8 +66,14 @@ body {
   .home #home__intro .home__logo {
     max-width: 35vw;
     height: auto; }
+    @media screen and (max-width: 800px) {
+      .home #home__intro .home__logo {
+        display: none; } }
   .home #home__intro .ybr-line {
     max-width: 18vw; }
+    @media screen and (max-width: 800px) {
+      .home #home__intro .ybr-line {
+        display: none; } }
   .home #home__intro .intro-subtitle {
     font-family: "Playfair Display", serif; }
   .home #home__intro .intro-desc {
@@ -396,6 +410,10 @@ body {
     background: #EB5F5D;
     transition: all 225ms ease-in 0s;
     color: #ffffff; }
+
+.hamburger__logo {
+  max-width: 35vw;
+  height: auto; }
 
 .hamburger {
   padding: 10px 0 10px 10px;
