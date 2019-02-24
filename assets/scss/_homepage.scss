@@ -1,73 +1,94 @@
-#fullpage {
-  display: grid;
-  font-family: $headline-font-1;
-  color: $white;
-  grid-template-columns: repeat(8, auto);
-  grid-template-rows: repeat(3, 100vh);
-  grid-template-areas:
-    'bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid'
-    'menu menu menu menu menu menu menu menu'
-    'int int int int int int int int';
-  line-height: $line-height-base;
-}
+.home {
+  #home__scroll {
+    display: grid;
+    font-family: $headline-font-1;
+    color: $white;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: repeat(3, 100vh);
+    grid-template-areas:
+      'bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid'
+      'menu menu menu menu menu menu menu menu'
+      'int int int int int int int int';
+    line-height: $line-height-base;
 
-.intro-home,
-.menu-home,
-.interactive-home,
-.about-home {
-  width: 100%;
-  height: 100vh;
-}
-
-.intro-home {
-  grid-area: bg-vid;
-  background: $red;
-  background-image: url(../images/home-bg.jpg);
-
-  h1 {
-    text-transform: uppercase;
+    @media screen and (max-width:800px){
+      grid-template-columns: 100vw;
+      grid-template-areas:
+        'bg-vid'
+        'menu'
+        'int';
+    }
   }
 
-  .logo-home{
-    max-width: 35vw;
-    height: auto;
+  #header {
+    background-color: transparent;
+  }
+
+  nav{
+    
+    @media screen and (max-width: 800px){
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color: rgba(0,0,0,0.3);
+    }
+  }
+
+  #home__intro,
+  #home__cards,
+  #home__about {
+    width: 100%;
+    height: 100vh;
+
+    @media screen and (max-width: 800px){
+      justify-content: flex-start;
+    }
+  }
+
+  #home__intro {
+    grid-area: bg-vid;
+    background-image: url(../images/home-bg.jpeg);
+  
+    h1 {
+      text-transform: uppercase;
+    }
+  
+    .home__logo{
+      max-width: 35vw;
+      height: auto;
+
+      @media screen and (max-width: 800px) {
+        display: none;
+      }
+    }
+    
+    .ybr-line{
+      max-width: 18vw;
+      
+      @media screen and (max-width: 800px) {
+        display: none;
+      }
+    }
+  
+    .intro-subtitle {
+      font-family: $body-font;
+    }
+  
+    .intro-desc {
+      font-family: $byline-font;
+      max-width: 65vw;
+    }
+  }
+
+  #home__cards {
+    grid-area: menu;
   }
   
-  svg{
-    max-width: 18vw;
+  #home__about {
+    grid-area: int;
+    background-image: url(../images/medellin.jpg);
   }
-
-  .intro-desc {
-    max-width: 65vw;
-  }
-}
-
-#lang-toggle {
-  margin-top: 5vh;
-}
-
-#en-toggle,
-#es-toggle {
-  border: solid 1px $grey;
-  padding: 0.7rem 1.5rem;
-}
-
-#en-toggle,
-#es-toggle:hover {
-  background-color: $black;
-  color: $white;
-}
-
-
-
-.menu-home {
-  grid-area: menu;
-}
-
-.interactive-home {
-  grid-area: int;
-  background: $yellow;
-  background-image: url(../images/medellin.jpg);
 }
 
 // .about-home {

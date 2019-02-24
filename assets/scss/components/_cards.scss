@@ -1,13 +1,3 @@
-// Add color overlay when no cards are hovered
-.cards .card:before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-color: rgba(245, 198, 93, 0.3);
-  transition: background-color .4s;
-}
-
 // Darken the non-hovered cards when any cards are hovered
 .cards.darkened .card:before {
   content: "";
@@ -24,9 +14,10 @@
   grid-template-rows: repeat(2, 1fr);
   height: 100vh;
 
-  // Add color overlay to hovered card
-  .card.hovered:before {
-    background-color: rgba(245, 198, 93, 0.3)!important;
+  @media screen and (max-width:800px){
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+
   }
 
   // Add scale transform to hovered card
@@ -34,6 +25,12 @@
     transform: scale(1.1, 1.1);
     transition: transform .3s;
     z-index: 2;
+
+    // Add color overlay to hovered card
+    &:before {
+      background-color: rgba(245, 198, 93, 0.3)!important;
+    }
+
   }
 
   // Add unique transform origin to each hovered card
@@ -66,8 +63,54 @@
     text-decoration: none;
     grid-column: span 2;
 
+    &:hover {
+
+      // Display hover text on card hover
+      .card__hover {
+        .card__topic,
+        .card__title,
+        .card__description {
+          opacity: 1;
+          transform: translate3d(0, 0, 0);
+        }
+
+        // Increase title font size on card hover
+        .card__title {
+          transition-delay: .25s;
+          font-size: 3.25rem;
+        }
+
+        .card__description {
+          transition-delay: .35s;
+        }
+
+      }
+
+      // Add color overlay when no cards are hovered
+      &:before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: rgba(245, 198, 93, 0.3);
+        transition: background-color .4s;
+      }
+
+      // Hide base text on card hover
+      .card__base {
+
+        .card__topic,
+        .card__title,
+        .card__description {
+          opacity: 0;
+        }
+
+      }
+
+    }
+
     // Display images behind card text
-    .card-img {
+    .card__img {
       position: absolute;
       margin: auto;
       width: 100%;
@@ -76,19 +119,32 @@
       z-index: -1;
     }
 
-    .card-title {
+    .card__topic {
+      font-family: $headline-font-1;
+      text-transform: uppercase;
+      font-size: 1.25rem;
+    }
+
+    .ybr-line {
+      max-width: 10vw;
+    }
+
+    .card__title {
       font-weight: $font-weight-bold;
       font-family: $headline-font-1;
       font-size: 3rem;
+      padding-top: 25px;
+      padding-bottom: 15px;
     }
 
-    .card-description {
-      font-size: 2rem;
+    .card__description {
+      font-size: 1rem;
+      font-family: $byline-font;
     }
 
     // Vertically and horizontally center card text
-    .card-hover,
-    .card-base {
+    .card__hover,
+    .card__base {
       position: absolute;
       width: 100%;
       color: $white;
@@ -99,10 +155,11 @@
     }
 
     // Hide hover text without card hover
-    .card-hover {
+    .card__hover {
 
-      .card-title,
-      .card-description {
+      .card__topic,
+      .card__title,
+      .card__description {
         opacity: 0;
         transform: translate3d(0, 20px, 0);
         transition: .3s opacity 0s cubic-bezier(.4, 0, .2, 1), .3s transform 0s cubic-bezier(.4, 0, .2, 1);
@@ -111,47 +168,13 @@
     }
 
     // Display base text without card hover
-    .card-base {
+    .card__base {
 
-      .card-title,
-      .card-description {
+      .card__topic,
+      .card__title,
+      .card__description {
         opacity: 1;
         transition: opacity .5s;
-      }
-
-    }
-
-  }
-
-  .card:hover {
-
-    // Display hover text on card hover
-    .card-hover {
-
-      .card-title,
-      .card-description {
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
-      }
-
-      // Increase title font size on card hover
-      .card-title {
-        transition-delay: .25s;
-        font-size: 3.25rem;
-      }
-
-      .card-description {
-        transition-delay: .35s;
-      }
-
-    }
-
-    // Hide base text on card hover
-    .card-base {
-
-      .card-title,
-      .card-description {
-        opacity: 0;
       }
 
     }

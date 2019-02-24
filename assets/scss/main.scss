@@ -9,13 +9,17 @@
 @import 'baseof';
 @import 'homepage';
 @import 'single';
-@import 'components/nav-home';
-@import 'components/buttons';
+
+// Libraries
+@import 'libraries/hamburgers/hamburgers';
+
+// Components
 @import 'components/bg';
 @import 'components/header';
 @import 'components/videos';
 @import 'components/cards';
 @import 'components/main-menu';
-@import 'components/logo';
+@import 'components/hamburger';
+@import 'components/main-menu-mobile';
 @import 'components/pull-quote';
 @import 'components/story1-scrollytelly';
