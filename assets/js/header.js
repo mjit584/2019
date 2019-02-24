@@ -13,3 +13,11 @@ window.onscroll = function () {
   }
   prevScrollpos = currentScrollPos;
 }
+
+var storyDropdown = document.getElementById('story-dropdown');
+var mainMenu = document.getElementById('main-menu');
+var arrow = document.getElementById('story-dropdown__arrow');
+storyDropdown.onclick = function () {
+  storyDropdown.classList.toggle('is-active');
+  mainMenu.classList.toggle('open');
+}

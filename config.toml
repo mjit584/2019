@@ -42,39 +42,34 @@ canonifyURLs = "true"
     help = "Help"
 
 [[menu.main]]
-	name = "Story 1"
+	name = "A Helping Hand"
 	url = "/story1/"
-    weight = 1
+  weight = 1
 
 [[menu.main]]
-    name = "Story 2"
-    url = "/story2/"
-    weight = 2
+  name = "Wasted Skills Abound"
+  url = "/story2/"
+  weight = 2
 
 [[menu.main]]
-    name = "Story 3"
-    url = "/story3/"
-    weight = 3
+  name = "Providing Necessary Aid"
+  url = "/story3/"
+  weight = 3
 
 [[menu.main]]
-    name = "Story 4"
-    url = "/story4/"
-    weight = 4 
+  name = "Generation in Limbo"
+  url = "/story4/"
+  weight = 4 
 
 [[menu.main]]
-    name = "Story 5"
-    url = "/story5/"
-    weight = 5
+  name = "Road to Wellness"
+  url = "/story5/"
+  weight = 5
 
 [[menu.main]]
-    name = "Interactive"
-    url = "/interactive/"
-    weight = 6
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 7
+  name = "Embracing Medellín"
+  url = "/interactive/"
+  weight = 6
 
 [permalinks]
   post = "/:slug"
