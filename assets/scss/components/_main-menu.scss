@@ -1,14 +1,18 @@
 .main-menu {
-
+  color: $black;
+  display: none;
+  position: absolute;
+  
   a {
     font-family: $byline-font;
     padding: 10px 14px 10px 14px;
     display: inline-block;
     font-weight: regular;
     text-decoration: none;
-    color: $white;
+    color: inherit;
 
     &:hover {
+      width: inherit;
       background: $red;
       color: $white;
       text-decoration: none;
@@ -28,5 +32,11 @@
         color: $white;
       }
     }
+  }
+
+  &.open{
+    display: flex;
+    flex-direction: column;
+    background: white;
   }
 }

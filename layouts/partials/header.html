@@ -9,12 +9,20 @@
           src="{{ .Site.Params.gh_pages_URL }}images/logo-wide-white.png" /></a>
       {{ end }}
     </div>
-    <div class="story-dropdown"></div>
+    <div class="story-dropdown" id="story-dropdown">
+      <p>Stories <span id="story-dropdown__arrow">&#8595</span></p>
+      {{ partial "main-menu.html" . }}
+    </div>
+
+    <a href="/about" class="about-us" id="about-us">About Us</a>
     <div class="social-icons">
       <a href="https://www.facebook.com/uprootedUNC/" target="_blank"><i class="fab fa-facebook-square"></i></a>
       <a href="https://twitter.com/@uprootedunc" target="_blank"><i class="fab fa-twitter"></i></a>
       <a href="https://www.instagram.com/uprootedunc/" target="_blank"><i class="fab fa-instagram"></i></a>
     </div>
-    {{ partial "main-menu.html" . }}
+    <div class="lang-toggle">
+      <span class="lang-toggle__en">EN</span> |
+      <span class="lang-toggle_es">ES</span>
+    </div>
   </div>
 </div>
