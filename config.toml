@@ -44,32 +44,32 @@ canonifyURLs = "true"
 [[menu.main]]
 	name = "A Helping Hand"
 	url = "/story1/"
-    weight = 1
+  weight = 1
 
 [[menu.main]]
-    name = "Wasted Skills Abound"
-    url = "/story2/"
-    weight = 2
+  name = "Wasted Skills Abound"
+  url = "/story2/"
+  weight = 2
 
 [[menu.main]]
-    name = "Providing Necessary Aid"
-    url = "/story3/"
-    weight = 3
+  name = "Providing Necessary Aid"
+  url = "/story3/"
+  weight = 3
 
 [[menu.main]]
-    name = "Generation in Limbo"
-    url = "/story4/"
-    weight = 4 
+  name = "Generation in Limbo"
+  url = "/story4/"
+  weight = 4 
 
 [[menu.main]]
-    name = "Road to Wellness"
-    url = "/story5/"
-    weight = 5
+  name = "Road to Wellness"
+  url = "/story5/"
+  weight = 5
 
 [[menu.main]]
-    name = "Embracing Medellín"
-    url = "/interactive/"
-    weight = 6
+  name = "Embracing Medellín"
+  url = "/interactive/"
+  weight = 6
 
 [permalinks]
   post = "/:slug"

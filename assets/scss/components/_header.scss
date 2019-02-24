@@ -34,12 +34,12 @@
 
     .story-dropdown {
       flex-basis:19%;
-      text-align: right;
+      text-align: center;
       transition: ease 0.1s;
       cursor: pointer;
       
       &.is-active{
-        background: $white;
+        background: rgba(255, 255, 255, 0.7);
         color: $red;
       }
 

@@ -2,6 +2,16 @@
   color: $black;
   display: none;
   position: absolute;
+  left: 0;
+  width: 100vw;
+  padding-top: 2%;
+  text-align: left;
+ 
+  .ybr-line{
+    margin: 0 auto;
+    flex-basis: 100%;
+    max-width: 18vw;
+  }
   
   a {
     font-family: $byline-font;
@@ -10,6 +20,7 @@
     font-weight: regular;
     text-decoration: none;
     color: inherit;
+    text-align: center;
 
     &:hover {
       width: inherit;
@@ -35,8 +46,25 @@
   }
 
   &.open{
-    display: flex;
-    flex-direction: column;
-    background: white;
+    display: grid;
+    background: rgba(255,255,255,0.7);
+    text-align: center;
+    grid-template-areas:
+      'ybr-line ybr-line ybr-line ybr-line ybr-line ybr-line'
+      'story1 story2 story3 story4 story5 interactive';
+
+    .ybr-line{
+      grid-area: ybr-line;
+      padding-bottom: 2%;
+    }
+
+    img{
+      width: 10vw;
+      height: auto;
+    }
+
+    p{ 
+      text-align: left;
+    }
   }
 }

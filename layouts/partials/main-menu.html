@@ -3,10 +3,12 @@
   {{ $currentPage := . }}
   {{ $menu := .Site.Menus.main }}
   {{ range $menu }}
-  <div class="menu-item-{{ .Name | lower }}{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
+  <div class='story-{{ .Weight }}{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}'>
     <a href="{{.URL}}">
       {{ .Pre }}
-      <span>{{ .Name }}</span>
+      <h3>{{ .Name }}</h3>
+      <img src="../images/medellin.jpg" alt="a picture of medellin" />
+      <p>I'm going to build out this content dynamically, hopefully</p>
     </a>
   </div>
   {{end}}
