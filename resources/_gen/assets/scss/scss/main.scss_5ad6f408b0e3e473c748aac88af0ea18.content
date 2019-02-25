@@ -198,13 +198,24 @@ nav {
         margin-right: 2vh; }
       .about .about__content .about__person .about__info {
         align-items: flex-start; }
-        .about .about__content .about__person .about__info .about__name {
-          flex-basis: 75%;
+        .about .about__content .about__person .about__info .about__info--name {
           color: #EB5F5D;
           font-weight: bold; }
-        .about .about__content .about__person .about__info .about__role {
+        .about .about__content .about__person .about__info .about__info--role {
           color: #7b7b7b;
-          font-size: 0.9rem; }
+          font-size: 0.9rem;
+          margin-bottom: 2vh; }
+        .about .about__content .about__person .about__info .about__info--links {
+          width: 100%; }
+          .about .about__content .about__person .about__info .about__info--links a {
+            color: #ffffff; }
+            .about .about__content .about__person .about__info .about__info--links a i {
+              text-align: center;
+              height: 30px;
+              width: 30px;
+              border-radius: 50%;
+              padding: 10px 10px;
+              background-color: #EB5F5D; }
 
 /*!
  * Hamburgers

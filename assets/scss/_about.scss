@@ -52,18 +52,33 @@
         margin-right: 2vh;
       }
 
-      .about__info{
+      .about__info {
         align-items: flex-start;
-        
-        .about__name{
-          flex-basis: 75%;
+
+        .about__info--name {
           color: $red;
           font-weight: bold;
         }
 
-        .about__role{
+        .about__info--role {
           color: #7b7b7b;
           font-size: 0.9rem;
+          margin-bottom: 2vh;
+        }
+
+        .about__info--links {
+          width: 100%;
+          a {
+            color: $white;
+            i {
+              text-align: center;
+              height:30px;
+              width: 30px;
+              border-radius: 50%;
+              padding: 10px 10px;
+              background-color: $red;
+            }
+          }
         }
       }
     }
