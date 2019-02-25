@@ -1,5 +1,5 @@
 ---
-title: 'Interactive'
+title: 'Embracing Medellín'
 topic: "Photo Stories"
 description: 'This is the description for the interactive page'
 date: 2019-02-06T13:14:40-05:00
