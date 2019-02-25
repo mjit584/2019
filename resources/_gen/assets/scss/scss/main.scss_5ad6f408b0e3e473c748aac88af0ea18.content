@@ -186,6 +186,17 @@ nav {
       border-bottom: solid 1.2px #EB5F5D; }
   .about .about__content {
     margin: 15vh 0; }
+    .about .about__content .about__person {
+      background-color: #F5C65D;
+      max-width: 50%;
+      border-radius: 10px; }
+      .about .about__content .about__person img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%; }
+      .about .about__content .about__person .name {
+        color: #EB5F5D;
+        font-weight: bold; }
 
 /*!
  * Hamburgers

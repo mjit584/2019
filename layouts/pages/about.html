@@ -24,13 +24,15 @@
   <div>Coaches</div>
 </section>
 
-<section class="about__content flex" id="about-content">
-  Content will load dynamically here through an AJAX request
-  <ul>
-    {{ range .Site.Data }}
-    <li>{{ .First}}</li>
-    {{ end }}
-  </ul>
+<section class="about__content" id="about-content">
+  {{ range .Site.Data.about }}
+  <div class="about__person flex">
+
+    <img src="../images/medellin.jpg" alt="medellin" />
+
+    <span class="name">{{.first }} {{ .last }}</span>
+  </div>
+  {{ end }}
 </section>
 
 
