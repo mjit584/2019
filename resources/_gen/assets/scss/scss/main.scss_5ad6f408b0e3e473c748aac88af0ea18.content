@@ -75,7 +75,7 @@ body {
       .home #home__intro .ybr-line {
         display: none; } }
   .home #home__intro .intro-subtitle {
-    font-family: "Playfair Display", serif; }
+    font-family: "Lato", sans-serif; }
   .home #home__intro .intro-desc {
     font-family: "Lato", sans-serif;
     max-width: 65vw; }
@@ -88,7 +88,7 @@ body {
   background-image: url(../images/medellin.jpg); }
 
 .story-page {
-  font-family: "Playfair Display", serif;
+  font-family: "Lato", sans-serif;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
@@ -118,7 +118,11 @@ nav {
   background-color: #F5C65D;
   transition: 1s opacity; }
   .story-hero h1 {
-    font-family: "dinFontRegular", sans-serif; }
+    font-family: "dinFontRegular", sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1%; }
+  .story-hero .ybr-line {
+    max-width: 30vw; }
 
 .story-byline {
   justify-content: space-around;
@@ -154,6 +158,34 @@ nav {
   .story-content .drop-cap:first-letter {
     font-size: 3rem;
     float: left; }
+
+.about {
+  font-family: "Lato", sans-serif; }
+  .about .about__intro {
+    padding-top: 2%; }
+    .about .about__intro p {
+      max-width: 50vw; }
+  .about .about__filter {
+    width: 70%;
+    margin: 2vh 0;
+    position: absolute;
+    z-index: 3;
+    justify-content: space-around;
+    align-content: baseline;
+    padding: 3vh 15%;
+    background: #ededed; }
+    .about .about__filter div {
+      cursor: pointer; }
+      .about .about__filter div:hover {
+        font-weight: bolder;
+        padding-bottom: 1px;
+        border-bottom: solid 1.2px #EB5F5D; }
+    .about .about__filter .is-active {
+      font-weight: bolder;
+      padding-bottom: 1px;
+      border-bottom: solid 1.2px #EB5F5D; }
+  .about .about__content {
+    margin: 15vh 0; }
 
 /*!
  * Hamburgers

@@ -1,0 +1,42 @@
+.about{
+  font-family: $body-font;
+
+  .about__intro{
+    padding-top: 2%;
+    p{
+      max-width: 50vw;
+    }
+  }
+
+  .about__filter{
+    width: 70%;
+    margin: 2vh 0;
+    position: absolute;
+    z-index: 3;
+    justify-content: space-around;
+    align-content: baseline;
+    padding: 3vh 15%;
+    background: #ededed;
+
+    div{
+      cursor: pointer;
+
+      &:hover{
+        font-weight: bolder; 
+        padding-bottom: 1px;
+        border-bottom: solid 1.2px $red;
+      }
+    }
+
+
+    .is-active{
+      font-weight: bolder; 
+      padding-bottom: 1px;
+      border-bottom: solid 1.2px $red;
+    }
+  }
+
+  .about__content{
+    margin: 15vh 0;
+  }
+}

@@ -1,9 +1,51 @@
 {{ define "header_css" }}{{ end }}
-{{ define "body_classes" }}{{ .Title }}{{ end }}
-{{ define "header_classes" }}{{ end }}
-
+{{ define "body_classes" }}{{ .Title | lower }}{{ end }}
 {{ define "main" }}
-{{ partial "header.html" . }}
-Testing here
-{{ .Content }}
+{{ partial "main-menu-mobile.html" . }}
+<nav>
+  <!--full screen-->
+  {{ partial "header.html" . }}
+  <!--hamburger-->
+  {{ partial "hamburger.html" . }}
+</nav>
+{{ partial "story-hero.html" (dict "background" .Params.image "heading" .Params.storyHeading "subheading" .Params.storySubheading "content" .) }}
+
+<section class="about__intro flex-column">
+  {{ .Content }}
+</section>
+
+<section class="about__filter flex" id="about-filter">
+  <div>Everyone</div>
+  <div>Photographers</div>
+  <div>Videographers</div>
+  <div>Reporters</div>
+  <div>Designers</div>
+  <div>Developers</div>
+  <div>Coaches</div>
+</section>
+
+<section class="about__content flex" id="about-content">
+  Content will load dynamically here through an AJAX request
+  <ul>
+    {{ range .Site.Data }}
+    <li>{{ .First}}</li>
+    {{ end }}
+  </ul>
+</section>
+
+
+{{ end }}
+
+{{ define "scripts" }}
+{{ $scripts := resources.Get "js/scripts.js" }}
+{{ $header := resources.Get "js/header.js" }}
+{{ $hamburger := resources.Get "js/hamburger.js"}}
+{{ $aboutpageBundle := slice $scripts $header $hamburger | resources.Concat "js/aboutpageBundle.js" }}
+{{ block "footer_js" . }}{{ end }} {{ if .Site.IsServer }}
+<script type="text/javascript" src="{{ $aboutpageBundle.RelPermalink }}">
+</script>
+{{ else }}
+<script type="text/javascript" src="{{ ($aboutpageBundle | minify | fingerprint).RelPermalink }}"></script>
+{{ end }}
+
 {{ end }}
