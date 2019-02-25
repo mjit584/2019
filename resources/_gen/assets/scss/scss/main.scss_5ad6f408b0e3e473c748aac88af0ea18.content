@@ -261,6 +261,7 @@ nav {
   background-color: #F5C65D; }
 
 #header {
+  font-family: "dinFontRegular", sans-serif;
   z-index: 9;
   flex-basis: 100%;
   position: fixed;
@@ -276,6 +277,12 @@ nav {
   #header .container {
     justify-content: space-around;
     height: 100%; }
+    #header .container a {
+      text-decoration: none; }
+    #header .container #about-us {
+      color: inherit; }
+      #header .container #about-us:hover {
+        color: #EB5F5D; }
     #header .container .header__logo {
       max-width: 14%;
       flex-basis: 25%; }
@@ -292,8 +299,12 @@ nav {
       transition: ease 0.1s;
       cursor: pointer; }
       #header .container .story-dropdown.is-active {
-        background: rgba(255, 255, 255, 0.7);
+        background: rgba(255, 255, 255, 0.9);
         color: #EB5F5D; }
+    #header .container .lang-toggle {
+      cursor: pointer; }
+      #header .container .lang-toggle .lang-toggle__en:hover, #header .container .lang-toggle .lang-toggle__es:hover {
+        font-weight: 900; }
     #header .container .social-icons {
       font-size: 1.3em;
       flex-basis: 20%; }
@@ -434,9 +445,8 @@ nav {
     font-family: "Lato", sans-serif;
     padding: 10px 14px 10px 14px;
     display: inline-block;
-    font-weight: regular;
     text-decoration: none;
-    color: inherit;
+    color: #000000;
     text-align: center; }
     .main-menu a:hover {
       width: inherit;
@@ -454,7 +464,7 @@ nav {
       color: #ffffff; }
   .main-menu.open {
     display: grid;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.9);
     text-align: center;
     grid-template-areas: 'ybr-line ybr-line ybr-line ybr-line ybr-line ybr-line' 'story1 story2 story3 story4 story5 interactive'; }
     .main-menu.open .ybr-line {
@@ -466,14 +476,13 @@ nav {
     .main-menu.open p {
       text-align: left; }
 
-a {
+a .hamburger__logo {
+  max-width: 35vw;
+  height: auto;
   z-index: 2; }
-  a .hamburger__logo {
-    max-width: 35vw;
-    height: auto; }
-    @media screen and (min-width: 800px) {
-      a .hamburger__logo {
-        display: none; } }
+  @media screen and (min-width: 800px) {
+    a .hamburger__logo {
+      display: none; } }
 
 .hamburger {
   padding: 10px 0 10px 10px;

@@ -1,4 +1,5 @@
 #header {
+  font-family: $headline-font-2;
   z-index: 9;
   flex-basis: 100%;
   position: fixed;
@@ -15,6 +16,18 @@
   .container {
     justify-content: space-around;
     height: 100%;
+
+    a {
+      text-decoration: none;
+    }
+
+    #about-us{
+      color: inherit;
+
+      &:hover{
+        color: $red;
+      }
+    }
 
     .header__logo {
       max-width: 14%;
@@ -39,10 +52,17 @@
       cursor: pointer;
       
       &.is-active{
-        background: rgba(255, 255, 255, 0.7);
+        background: rgba(255, 255, 255, 0.9);
         color: $red;
       }
+    }
 
+    .lang-toggle{
+      cursor: pointer;
+
+      .lang-toggle__en:hover, .lang-toggle__es:hover{
+        font-weight: 900;
+      }
     }
 
     .social-icons{

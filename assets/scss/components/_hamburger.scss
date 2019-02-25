@@ -1,11 +1,9 @@
 a{
-  z-index:2;
-
   .hamburger__logo{
     max-width: 35vw;
     height: auto;
+    z-index: 2;
     
-  
     @media screen and (min-width: 800px){
       display: none;
     }

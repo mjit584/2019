@@ -17,9 +17,8 @@
     font-family: $byline-font;
     padding: 10px 14px 10px 14px;
     display: inline-block;
-    font-weight: regular;
     text-decoration: none;
-    color: inherit;
+    color: $black;
     text-align: center;
 
     &:hover {
@@ -47,7 +46,7 @@
 
   &.open{
     display: grid;
-    background: rgba(255,255,255,0.7);
+    background: rgba(255,255,255,0.9);
     text-align: center;
     grid-template-areas:
       'ybr-line ybr-line ybr-line ybr-line ybr-line ybr-line'
