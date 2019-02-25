@@ -179,11 +179,11 @@ nav {
         transition: ease-in 0.2s;
         font-weight: bold;
         padding-bottom: 1px;
-        border-bottom: solid 1.2px #EB5F5D; }
+        border-bottom: solid 1.2px #CC1200; }
     .about .about__filter .is-active {
       font-weight: bolder;
       padding-bottom: 1px;
-      border-bottom: solid 1.2px #EB5F5D; }
+      border-bottom: solid 1.2px #CC1200; }
   .about .about__content .about__person {
     max-width: 45%;
     padding: 2vh 0;
@@ -197,7 +197,7 @@ nav {
     .about .about__content .about__person .about__info {
       align-items: flex-start; }
       .about .about__content .about__person .about__info .about__info--name {
-        color: #EB5F5D;
+        color: #CC1200;
         font-weight: bold; }
       .about .about__content .about__person .about__info .about__info--role {
         color: #7b7b7b;
@@ -209,11 +209,11 @@ nav {
           color: #ffffff; }
           .about .about__content .about__person .about__info .about__info--links a i {
             text-align: center;
-            height: 30px;
-            width: 30px;
+            height: 15px;
+            width: 15px;
             border-radius: 50%;
-            padding: 10px 10px;
-            background-color: #EB5F5D; }
+            padding: 10px;
+            background-color: #CC1200; }
 
 /*!
  * Hamburgers
@@ -315,7 +315,7 @@ nav {
   background-color: #6AA5D9; }
 
 .bg-red {
-  background-color: #EB5F5D; }
+  background-color: #CC1200; }
 
 .bg-yellow {
   background-color: #F5C65D; }
@@ -342,7 +342,7 @@ nav {
     #header .container #about-us {
       color: inherit; }
       #header .container #about-us:hover {
-        color: #EB5F5D; }
+        color: #CC1200; }
     #header .container .header__logo {
       max-width: 14%;
       flex-basis: 25%; }
@@ -360,7 +360,7 @@ nav {
       cursor: pointer; }
       #header .container .story-dropdown.is-active {
         background: rgba(255, 255, 255, 0.9);
-        color: #EB5F5D; }
+        color: #CC1200; }
     #header .container .lang-toggle {
       cursor: pointer; }
       #header .container .lang-toggle .lang-toggle__en:hover, #header .container .lang-toggle .lang-toggle__es:hover {
@@ -510,16 +510,16 @@ nav {
     text-align: center; }
     .main-menu a:hover {
       width: inherit;
-      background: #EB5F5D;
+      background: #CC1200;
       color: #ffffff;
       text-decoration: none; }
   .main-menu.active > a {
-    background: #EB5F5D;
+    background: #CC1200;
     text-decoration: none;
     color: #ffffff; }
     .main-menu.active > a:hover {
       text-decoration: none;
-      background: #EB5F5D;
+      background: #CC1200;
       transition: all 225ms ease-in 0s;
       color: #ffffff; }
   .main-menu.open {
@@ -557,7 +557,7 @@ a .hamburger__logo {
   .hamburger .hamburger-inner,
   .hamburger .hamburger-inner::before,
   .hamburger .hamburger-inner::after {
-    background: #EB5F5D; }
+    background: #CC1200; }
   .hamburger .hamburger-inner::after {
     width: 18px;
     right: 0; }
@@ -567,7 +567,7 @@ a .hamburger__logo {
 
 .main-menu-mobile {
   position: fixed;
-  background: #EB5F5D;
+  background: #CC1200;
   top: 0;
   left: 0;
   width: 100%;
