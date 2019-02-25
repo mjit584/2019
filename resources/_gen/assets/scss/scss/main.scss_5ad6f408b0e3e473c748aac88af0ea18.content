@@ -443,7 +443,9 @@ nav {
       transition-delay: .3s; }
     .cards .card:hover .card__hover .card__title {
       transition-delay: .35s;
-      font-size: 3.25rem; }
+      font-size: 2.5rem;
+      line-height: 2.3rem;
+      padding: 0 50px 10px; }
     .cards .card:hover .card__hover .card__description {
       transition-delay: .45s; }
     .cards .card:hover:before {
@@ -468,18 +470,19 @@ nav {
     .cards .card .card__topic {
       font-family: "dinFontBold", sans-serif;
       text-transform: uppercase;
-      font-size: 1.25rem; }
+      font-size: 1rem;
+      line-height: 1rem; }
     .cards .card .ybr-line {
-      max-width: 100px;
+      max-width: 80px;
       margin-bottom: 10px; }
       .cards .card .ybr-line .ybr-section {
         stroke-width: 5; }
     .cards .card .card__title {
       font-weight: 700;
       font-family: "dinFontBold", sans-serif;
-      font-size: 3rem;
-      padding-top: 25px;
-      padding-bottom: 15px; }
+      font-size: 2rem;
+      line-height: 1.8rem;
+      padding: 40px 25px 15px; }
     .cards .card .card__description {
       font-size: 1rem;
       font-family: "Lato", sans-serif; }
