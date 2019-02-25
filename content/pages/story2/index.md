@@ -1,5 +1,5 @@
 ---
-title: "Story 2"
+title: "Wasted Skills Abound"
 topic: "Employment"
 date: 2019-02-04T21:35:11-05:00
 description: "This is the description for the second story."
