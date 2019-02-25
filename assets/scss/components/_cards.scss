@@ -1,5 +1,5 @@
 // Darken the non-hovered cards when any cards are hovered
-.cards.darkened .card:before {
+.cards.darkened .card::before {
   content: "";
   width: 100%;
   height: 100%;
@@ -28,7 +28,7 @@
     z-index: 3;
 
     // Add color overlay to hovered card
-    &:before {
+    &::before {
       background-color: rgba(255, 255, 255, 0.9)!important;
       z-index: 0;
     }
@@ -108,7 +108,7 @@
       }
 
       // Add color overlay when no cards are hovered
-      &:before {
+      &::before {
         content: "";
         width: 100%;
         height: 100%;

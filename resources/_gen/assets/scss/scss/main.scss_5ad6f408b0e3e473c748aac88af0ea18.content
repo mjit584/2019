@@ -386,7 +386,7 @@ nav {
     width: 100%;
     height: 100%; }
 
-.cards.darkened .card:before {
+.cards.darkened .card::before {
   content: "";
   width: 100%;
   height: 100%;
@@ -408,7 +408,7 @@ nav {
     transform: scale(1.1, 1.1);
     transition: transform .3s ease .2s;
     z-index: 3; }
-    .cards .card.hovered:before {
+    .cards .card.hovered::before {
       background-color: rgba(255, 255, 255, 0.9) !important;
       z-index: 0; }
     .cards .card.hovered .card__hover .card__topic,
@@ -448,7 +448,7 @@ nav {
       padding: 0 50px 10px; }
     .cards .card:hover .card__hover .card__description {
       transition-delay: .45s; }
-    .cards .card:hover:before {
+    .cards .card:hover::before {
       content: "";
       width: 100%;
       height: 100%;
