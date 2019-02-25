@@ -21,3 +21,5 @@ storyDropdown.onclick = function () {
   storyDropdown.classList.toggle('is-active');
   mainMenu.classList.toggle('open');
 }
+
+
