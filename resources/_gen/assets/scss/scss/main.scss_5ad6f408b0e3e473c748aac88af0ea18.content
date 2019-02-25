@@ -391,8 +391,9 @@ nav {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.6);
-  transition: background-color .4s; }
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: background-color .4s;
+  z-index: 1; }
 
 .cards {
   display: grid;
@@ -405,10 +406,15 @@ nav {
       grid-template-rows: repeat(6, 1fr); } }
   .cards .card.hovered {
     transform: scale(1.1, 1.1);
-    transition: transform .3s;
+    transition: transform .3s ease .2s;
     z-index: 3; }
     .cards .card.hovered:before {
-      background-color: rgba(245, 198, 93, 0.3) !important; }
+      background-color: rgba(255, 255, 255, 0.9) !important;
+      z-index: 0; }
+    .cards .card.hovered .card__hover .card__topic,
+    .cards .card.hovered .card__hover .card__title,
+    .cards .card.hovered .card__hover .card__description {
+      color: #000000; }
   .cards #card-1.hovered {
     transform-origin: left top; }
   .cards #card-2.hovered {
@@ -426,15 +432,20 @@ nav {
     text-decoration: none;
     grid-column: span 2; }
     .cards .card:hover .card__hover .card__topic,
+    .cards .card:hover .card__hover .ybr-line,
     .cards .card:hover .card__hover .card__title,
     .cards .card:hover .card__hover .card__description {
       opacity: 1;
       transform: translate3d(0, 0, 0); }
+    .cards .card:hover .card__hover .card__topic {
+      transition-delay: .25s; }
+    .cards .card:hover .card__hover .ybr-line {
+      transition-delay: .3s; }
     .cards .card:hover .card__hover .card__title {
-      transition-delay: .25s;
+      transition-delay: .35s;
       font-size: 3.25rem; }
     .cards .card:hover .card__hover .card__description {
-      transition-delay: .35s; }
+      transition-delay: .45s; }
     .cards .card:hover:before {
       content: "";
       width: 100%;
@@ -443,6 +454,7 @@ nav {
       background-color: rgba(245, 198, 93, 0.3);
       transition: background-color .4s; }
     .cards .card:hover .card__base .card__topic,
+    .cards .card:hover .card__base .ybr-line,
     .cards .card:hover .card__base .card__title,
     .cards .card:hover .card__base .card__description {
       opacity: 0; }
@@ -458,7 +470,10 @@ nav {
       text-transform: uppercase;
       font-size: 1.25rem; }
     .cards .card .ybr-line {
-      max-width: 10vw; }
+      max-width: 100px;
+      margin-bottom: 10px; }
+      .cards .card .ybr-line .ybr-section {
+        stroke-width: 5; }
     .cards .card .card__title {
       font-weight: 700;
       font-family: "dinFontBold", sans-serif;
@@ -478,12 +493,14 @@ nav {
       left: 50%;
       transform: translate(-50%, -50%); }
     .cards .card .card__hover .card__topic,
+    .cards .card .card__hover .ybr-line,
     .cards .card .card__hover .card__title,
     .cards .card .card__hover .card__description {
       opacity: 0;
       transform: translate3d(0, 20px, 0);
       transition: 0.3s opacity 0s cubic-bezier(0.4, 0, 0.2, 1), 0.3s transform 0s cubic-bezier(0.4, 0, 0.2, 1); }
     .cards .card .card__base .card__topic,
+    .cards .card .card__base .ybr-line,
     .cards .card .card__base .card__title,
     .cards .card .card__base .card__description {
       opacity: 1;
