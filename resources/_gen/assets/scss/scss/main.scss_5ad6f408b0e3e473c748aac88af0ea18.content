@@ -187,16 +187,24 @@ nav {
   .about .about__content {
     margin: 15vh 0; }
     .about .about__content .about__person {
-      background-color: #F5C65D;
-      max-width: 50%;
-      border-radius: 10px; }
+      max-width: 45%;
+      padding: 2vh 0;
+      border-radius: 10px;
+      margin-bottom: 2%; }
       .about .about__content .about__person img {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%; }
-      .about .about__content .about__person .name {
-        color: #EB5F5D;
-        font-weight: bold; }
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-right: 2vh; }
+      .about .about__content .about__person .about__info {
+        align-items: flex-start; }
+        .about .about__content .about__person .about__info .about__name {
+          flex-basis: 75%;
+          color: #EB5F5D;
+          font-weight: bold; }
+        .about .about__content .about__person .about__info .about__role {
+          color: #7b7b7b;
+          font-size: 0.9rem; }
 
 /*!
  * Hamburgers

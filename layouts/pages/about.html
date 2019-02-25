@@ -30,17 +30,24 @@
 
     <img src="../images/medellin.jpg" alt="medellin" />
 
-    <span class="name">{{.first }} {{ .last }}</span>
+    <div class="about__info flex-column">
+      <span class="about__name">{{.first }} {{ .last }}</span>
+      <span class="about__role">{{ .role }}</span>
+      <div class="about__links">
+        {{ if ne .fb "undefined" }}
+        <a href="{{ .fb }}" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        {{else}}
+        {{end}}
+
+      </div>
+    </div>
   </div>
   {{ end }}
 </section>
-
-
 {{ end }}
 
 {{ define "scripts" }}
-{{ $scripts := resources.Get "js/scripts.js" }}
-{{ $header := resources.Get "js/header.js" }}
+{{ $scripts := resources.Get "js/scripts.js" }} {{ $header := resources.Get "js/header.js" }}
 {{ $hamburger := resources.Get "js/hamburger.js"}}
 {{ $aboutpageBundle := slice $scripts $header $hamburger | resources.Concat "js/aboutpageBundle.js" }}
 {{ block "footer_js" . }}{{ end }} {{ if .Site.IsServer }}
