@@ -15,13 +15,13 @@
 </section>
 
 <section class="about__filter flex" id="about-filter">
-  <div>Everyone</div>
-  <div>Photographers</div>
-  <div>Videographers</div>
-  <div>Reporters</div>
-  <div>Designers</div>
-  <div>Developers</div>
-  <div>Coaches</div>
+  <div class="is-active" id="about__filter--everyone">Everyone</div>
+  <div id="about__filter--photog">Photographers</div>
+  <div id="about__filter--vid">Videographers</div>
+  <div id="about__filter--rep">Reporters</div>
+  <div id="about__filter--des">Designers</div>
+  <div id="about__filter--dev">Developers</div>
+  <div id="about__filter--coach">Coaches</div>
 </section>
 
 <section class="about__content" id="about-content">
@@ -63,9 +63,11 @@
 {{ end }}
 
 {{ define "scripts" }}
-{{ $scripts := resources.Get "js/scripts.js" }} {{ $header := resources.Get "js/header.js" }}
+{{ $scripts := resources.Get "js/scripts.js" }}
+{{ $header := resources.Get "js/header.js" }}
+{{ $about := resources.Get "js/about.js" }}
 {{ $hamburger := resources.Get "js/hamburger.js"}}
-{{ $aboutpageBundle := slice $scripts $header $hamburger | resources.Concat "js/aboutpageBundle.js" }}
+{{ $aboutpageBundle := slice $scripts $header $about $hamburger | resources.Concat "js/aboutpageBundle.js" }}
 {{ block "footer_js" . }}{{ end }} {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $aboutpageBundle.RelPermalink }}">
 </script>

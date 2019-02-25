@@ -11,7 +11,6 @@
   .about__filter{
     width: 70%;
     margin: 2vh 0;
-    position: absolute;
     z-index: 3;
     justify-content: space-around;
     align-content: baseline;
@@ -22,7 +21,8 @@
       cursor: pointer;
 
       &:hover{
-        font-weight: bolder; 
+        transition: ease-in 0.2s;
+        font-weight: bold; 
         padding-bottom: 1px;
         border-bottom: solid 1.2px $red;
       }
@@ -37,7 +37,6 @@
   }
 
   .about__content{
-    margin: 15vh 0;
     .about__person{
       
       max-width: 45%;
