@@ -192,12 +192,12 @@ nav {
       border-bottom: solid 1.2px #CC1200; }
   .about .about__content {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    max-width: 80vw;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
     grid-template-rows: repeat(5, auto); }
     .about .about__content .about__person {
-      transition: 0.1s ease-in-out;
-      flex-wrap: wrap;
       padding: 2vh 0;
       border-radius: 10px;
       margin-bottom: 2%; }
