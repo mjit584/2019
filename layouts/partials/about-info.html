@@ -1,0 +1,32 @@
+<div class="mix about__person flex {{ .role | lower }}">
+  <img src="../images/medellin.jpg" alt="medellin" />
+  <div class="about__info flex-column">
+    {{ if ne .website ""}}
+    <span class="about__name">{{.first }} {{ .last }}</span>
+    {{else}}
+    <a href="{{ .website }}" target="_blank"><span class="about__name">{{.first }} {{ .last }}</span></a>
+    {{end}}
+
+    <span class="about__role">{{ .role }}</span>
+    <div class="about__links">
+      {{ if ne .fb "" }}
+      <a href="{{ .fb }}" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      {{end}}
+      {{if ne .twitter "" }}
+      <a href="{{ .twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>
+      {{end}}
+      {{if ne .instagram "" }}
+      <a href="{{ .instagram }}" target="_blank"><i class="fab fa-instagram"></i></a>
+      {{end}}
+      {{ if ne .linkedin ""}}
+      <a href="{{ .linkedin }}" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      {{end}}
+      {{ if ne .gh ""}}
+      <a href="{{ .gh }}" target="_blank"><i class="fab fa-github"></i></a>
+      {{end}}
+    </div>
+    <div class="about__bio">
+      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+    </div>
+  </div>
+</div>
