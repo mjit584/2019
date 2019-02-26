@@ -1,5 +1,5 @@
 <div class="mix about__person flex {{ .role | lower }}">
-  <img src="../images/medellin.jpg" alt="medellin" />
+  <img src="{{ .img }}" alt="{{ .first }}{{ .last }}" />
   <div class="about__info flex-column">
     {{ if eq .website ""}}
     <span class="about__name">{{.first }} {{ .last }}</span>
