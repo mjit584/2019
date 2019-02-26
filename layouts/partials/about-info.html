@@ -7,7 +7,7 @@
     <a href="{{ .website }}" target="_blank"><span class="about__name">{{.first }} {{ .last }}</span></a>
     {{end}}
 
-    <span class="about__role">{{ .role }}</span>
+    <span class="about__role">{{ .role }}{{if eq .role2 "translator" }}, {{ .role2}}{{end}}</span>
     <div class="about__links">
       {{ if ne .fb "" }}
       <a href="{{ .fb }}" target="_blank"><i class="fab fa-facebook-f"></i></a>
