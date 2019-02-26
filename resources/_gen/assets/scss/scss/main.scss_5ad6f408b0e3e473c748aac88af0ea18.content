@@ -23,7 +23,7 @@
 body {
   margin: 0 auto; }
 
-.home #home__scroll {
+.home .home__scroll {
   display: grid;
   font-family: "dinFontBold", sans-serif;
   color: #ffffff;
@@ -32,9 +32,10 @@ body {
   grid-template-areas: 'bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid' 'menu menu menu menu menu menu menu menu' 'int int int int int int int int';
   line-height: 1.6em; }
   @media screen and (max-width: 800px) {
-    .home #home__scroll {
+    .home .home__scroll {
       grid-template-columns: 100vw;
-      grid-template-areas: 'bg-vid' 'menu' 'int'; } }
+      grid-template-rows: 100vh, 80vh, 80vh, 80vh, 100vh;
+      grid-template-areas: 'bg-vid' 'menu' 'menu' 'menu' 'int'; } }
 
 .home #header {
   background-color: transparent; }
@@ -57,6 +58,10 @@ body {
     .home #home__cards,
     .home #home__about {
       justify-content: flex-start; } }
+
+@media screen and (max-width: 800px) {
+  .home #home__cards {
+    height: 200vh; } }
 
 .home #home__intro {
   grid-area: bg-vid;
@@ -403,7 +408,7 @@ nav {
   @media screen and (max-width: 800px) {
     .cards {
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(6, 1fr); } }
+      grid-template-rows: repeat(6, 40vh); } }
   .cards .card.hovered {
     transform: scale(1.1, 1.1);
     transition: transform .3s ease .2s;
@@ -415,50 +420,51 @@ nav {
     .cards .card.hovered .card__hover .card__title,
     .cards .card.hovered .card__hover .card__description {
       color: #000000; }
-  .cards #card-1.hovered {
-    transform-origin: left top; }
-  .cards #card-2.hovered {
-    transform-origin: center top; }
-  .cards #card-3.hovered {
-    transform-origin: right top; }
-  .cards #card-4.hovered {
-    transform-origin: left bottom; }
-  .cards #card-5.hovered {
-    transform-origin: center bottom; }
-  .cards #card-6.hovered {
-    transform-origin: right bottom; }
+  @media screen and (min-width: 800px) {
+    .cards #card-1.hovered {
+      transform-origin: left top; }
+    .cards #card-2.hovered {
+      transform-origin: center top; }
+    .cards #card-3.hovered {
+      transform-origin: right top; }
+    .cards #card-4.hovered {
+      transform-origin: left bottom; }
+    .cards #card-5.hovered {
+      transform-origin: center bottom; }
+    .cards #card-6.hovered {
+      transform-origin: right bottom; } }
   .cards .card {
     position: relative;
-    text-decoration: none;
     grid-column: span 2; }
     .cards .card:hover .card__hover .card__topic,
     .cards .card:hover .card__hover .ybr-line,
     .cards .card:hover .card__hover .card__title,
-    .cards .card:hover .card__hover .card__description {
+    .cards .card:hover .card__hover .card__description,
+    .cards .card:hover .card__hover .card__button, .cards .card:active .card__hover .card__topic,
+    .cards .card:active .card__hover .ybr-line,
+    .cards .card:active .card__hover .card__title,
+    .cards .card:active .card__hover .card__description,
+    .cards .card:active .card__hover .card__button {
       opacity: 1;
       transform: translate3d(0, 0, 0); }
-    .cards .card:hover .card__hover .card__topic {
+    .cards .card:hover .card__hover .card__topic, .cards .card:active .card__hover .card__topic {
       transition-delay: .25s; }
-    .cards .card:hover .card__hover .ybr-line {
+    .cards .card:hover .card__hover .ybr-line, .cards .card:active .card__hover .ybr-line {
       transition-delay: .3s; }
-    .cards .card:hover .card__hover .card__title {
+    .cards .card:hover .card__hover .card__title, .cards .card:active .card__hover .card__title {
       transition-delay: .35s;
       font-size: 2.5rem;
       line-height: 2.3rem;
       padding: 0 50px 10px; }
-    .cards .card:hover .card__hover .card__description {
+    .cards .card:hover .card__hover .card__description, .cards .card:active .card__hover .card__description {
       transition-delay: .45s; }
-    .cards .card:hover::before {
-      content: "";
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      background-color: rgba(245, 198, 93, 0.3);
-      transition: background-color .4s; }
+    .cards .card:hover .card__hover .card__button, .cards .card:active .card__hover .card__button {
+      width: 100px; }
     .cards .card:hover .card__base .card__topic,
     .cards .card:hover .card__base .ybr-line,
-    .cards .card:hover .card__base .card__title,
-    .cards .card:hover .card__base .card__description {
+    .cards .card:hover .card__base .card__title, .cards .card:active .card__base .card__topic,
+    .cards .card:active .card__base .ybr-line,
+    .cards .card:active .card__base .card__title {
       opacity: 0; }
     .cards .card .card__img {
       position: absolute;
@@ -485,7 +491,25 @@ nav {
       padding: 40px 25px 15px; }
     .cards .card .card__description {
       font-size: 1rem;
-      font-family: "Lato", sans-serif; }
+      font-family: "Lato", sans-serif;
+      margin-bottom: 10px; }
+    .cards .card .card__button {
+      position: relative;
+      text-transform: uppercase;
+      background-color: #CC1200;
+      border-radius: 30px;
+      height: 25px;
+      width: 25px;
+      padding: 0 5px;
+      overflow: hidden;
+      white-space: nowrap;
+      margin: 0 auto; }
+    .cards .card .card__button a {
+      position: absolute;
+      top: 0;
+      right: 10px;
+      color: #ffffff;
+      text-decoration: none; }
     .cards .card .card__hover,
     .cards .card .card__base {
       position: absolute;
@@ -498,14 +522,16 @@ nav {
     .cards .card .card__hover .card__topic,
     .cards .card .card__hover .ybr-line,
     .cards .card .card__hover .card__title,
-    .cards .card .card__hover .card__description {
+    .cards .card .card__hover .card__description,
+    .cards .card .card__hover .card__button {
       opacity: 0;
       transform: translate3d(0, 20px, 0);
-      transition: 0.3s opacity 0s cubic-bezier(0.4, 0, 0.2, 1), 0.3s transform 0s cubic-bezier(0.4, 0, 0.2, 1); }
+      transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+    .cards .card .card__hover .card__button {
+      transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0.5s, transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0.5s, width 0.5s ease 1s; }
     .cards .card .card__base .card__topic,
     .cards .card .card__base .ybr-line,
-    .cards .card .card__base .card__title,
-    .cards .card .card__base .card__description {
+    .cards .card .card__base .card__title {
       opacity: 1;
       transition: opacity .5s; }
 
