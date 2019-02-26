@@ -1,7 +1,12 @@
-<div class="about__person flex">
+<div class="mix about__person {{ .role | lower }}">
   <img src="../images/medellin.jpg" alt="medellin" />
   <div class="about__info flex-column">
+    {{ if ne .website ""}}
     <span class="about__name">{{.first }} {{ .last }}</span>
+    {{else}}
+    <a href="{{ .website }}" target="_blank"><span class="about__name">{{.first }} {{ .last }}</span></a>
+    {{end}}
+
     <span class="about__role">{{ .role }}</span>
     <div class="about__links">
       {{ if ne .fb "" }}
@@ -18,9 +23,6 @@
       {{end}}
       {{ if ne .gh ""}}
       <a href="{{ .gh }}" target="_blank"><i class="fab fa-github"></i></a>
-      {{end}}
-      {{ if ne .website ""}}
-      <a href="{{ .website }}" target="_blank"><i class="fas fa-globe"></i></a>
       {{end}}
     </div>
     <div class="about__bio">

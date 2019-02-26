@@ -16,33 +16,25 @@
   {{ partial "ybr-line.html" . }}
 </section>
 
-<section class="about__filter flex" id="about-filter">
-  <div class="is-active" id="about__filter--everyone">Everyone</div>
-  <div id="about__filter--photog">Photographers</div>
-  <div id="about__filter--vid">Videographers</div>
-  <div id="about__filter--rep">Reporters</div>
-  <div id="about__filter--des">Designers</div>
-  <div id="about__filter--dev">Developers</div>
-  <div id="about__filter--coach">Coaches</div>
-</section>
+<div class="container">
+  <div id="team">
+    <div class="controls about__filter flex">
+      <div data-filter="all" id="about__filter--everyone">Everyone</div>
+      <div data-filter=".photographer" id="about__filter--photog">Photographers</div>
+      <div data-filter=".videographer" id="about__filter--vid">Videographers</div>
+      <div data-filter=".reporter" id="about__filter--rep">Reporters</div>
+      <div data-filter=".designer" id="about__filter--des">Designers</div>
+      <div data-filter=".developer" id="about__filter--dev">Developers</div>
+      <div data-filter=".coach" id="about__filter--coach">Coaches</div>
+    </div>
 
-<section class="about__content" id="about-content">
-  <div id="all">
-    {{ range .Site.Data.about }}
-    {{ partial "about-info.html" .}}
-    {{ end }}
+    <div class="about__content flex">
+      {{ range .Site.Data.about }}
+      {{ partial "about-info.html" .}}
+      {{ end }}
+    </div>
   </div>
-
-  <div class="hidden" id="photog">
-    {{range .Site.Data.about }}
-    <!--building out the photog div-->
-    {{if or (eq .role "Photographer") (eq .role "Lead Photographer")}}
-    {{ partial "about-info.html" . }}
-    {{ end }}
-    <!--end of range-->
-    {{ end }}
-  </div>
-</section>
+</div>
 
 <section class="about__thanks">
   <h1>Special Thanks</h1>
@@ -53,13 +45,18 @@
 {{ $scripts := resources.Get "js/scripts.js" }}
 {{ $header := resources.Get "js/header.js" }}
 {{ $about := resources.Get "js/about.js" }}
-{{ $hamburger := resources.Get "js/hamburger.js"}}
-{{ $aboutpageBundle := slice $scripts $header $about $hamburger | resources.Concat "js/aboutpageBundle.js" }}
-{{ block "footer_js" . }}{{ end }} {{ if .Site.IsServer }}
+{{ $hamburger := resources.Get "js/hamburger.js" }}
+{{ $mixitup := resources.Get "js/mixitup.min.js" }}
+{{ $aboutpageBundle := slice $scripts $header $about $hamburger $mixitup | resources.Concat "js/aboutpageBundle.js" }}
+{{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $aboutpageBundle.RelPermalink }}">
 </script>
 {{ else }}
 <script type="text/javascript" src="{{ ($aboutpageBundle | minify | fingerprint).RelPermalink }}"></script>
 {{ end }}
-
+{{ block "footer_js" . }}
+<script>
+  var mixer = mixitup('#team');
+</script>
+{{ end }}
 {{ end }}

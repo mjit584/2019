@@ -39,7 +39,7 @@
     }
 
 
-    .is-active{
+    .mixitup-control-active{
       font-weight: bolder; 
       padding-bottom: 1px;
       border-bottom: solid 1.2px $red;
@@ -47,10 +47,10 @@
   }
 
   .about__content{
-
-    .hidden {
-      display: none;
-    }
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 1rem;
+    grid-template-rows: repeat(5, auto);
 
     .about__person{
       transition: 0.1s ease-in-out;
@@ -68,6 +68,14 @@
 
       .about__info {
         align-items: flex-start;
+
+        a{
+          text-decoration: none;
+        }
+
+        a:hover{
+          text-decoration: underline;
+        }
 
         .about__name {
           color: $red;
