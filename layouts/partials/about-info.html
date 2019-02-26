@@ -1,7 +1,7 @@
 <div class="mix about__person flex {{ .role | lower }}">
   <img src="../images/medellin.jpg" alt="medellin" />
   <div class="about__info flex-column">
-    {{ if ne .website ""}}
+    {{ if eq .website ""}}
     <span class="about__name">{{.first }} {{ .last }}</span>
     {{else}}
     <a href="{{ .website }}" target="_blank"><span class="about__name">{{.first }} {{ .last }}</span></a>
