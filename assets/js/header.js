@@ -17,7 +17,12 @@ window.onscroll = function () {
 var storyDropdown = document.getElementById('story-dropdown');
 var mainMenu = document.getElementById('main-menu');
 var arrow = document.getElementById('story-dropdown__arrow');
-storyDropdown.onclick = function () {
+storyDropdown.onmouseenter = function () {
+  storyDropdown.classList.toggle('is-active');
+  mainMenu.classList.toggle('open');
+}
+
+storyDropdown.onmouseleave = function () {
   storyDropdown.classList.toggle('is-active');
   mainMenu.classList.toggle('open');
 }
