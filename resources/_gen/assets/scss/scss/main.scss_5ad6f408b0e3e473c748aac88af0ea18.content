@@ -165,6 +165,12 @@ nav {
     padding-top: 2%; }
     .about .about__intro p {
       max-width: 50vw; }
+    .about .about__intro h1 {
+      margin-top: 8vh;
+      margin-bottom: 1vh; }
+    .about .about__intro .ybr-line {
+      max-width: 10vw;
+      margin-bottom: 3vh; }
   .about .about__filter {
     width: 70%;
     margin: 2vh 0;
@@ -184,8 +190,11 @@ nav {
       font-weight: bolder;
       padding-bottom: 1px;
       border-bottom: solid 1.2px #CC1200; }
+  .about .about__content .hidden {
+    display: none; }
   .about .about__content .about__person {
-    max-width: 45%;
+    transition: 0.1s ease-in-out;
+    flex-wrap: wrap;
     padding: 2vh 0;
     border-radius: 10px;
     margin-bottom: 2%; }
@@ -196,24 +205,27 @@ nav {
       margin-right: 2vh; }
     .about .about__content .about__person .about__info {
       align-items: flex-start; }
-      .about .about__content .about__person .about__info .about__info--name {
+      .about .about__content .about__person .about__info .about__name {
         color: #CC1200;
         font-weight: bold; }
-      .about .about__content .about__person .about__info .about__info--role {
+      .about .about__content .about__person .about__info .about__role {
         color: #7b7b7b;
         font-size: 0.9rem;
         margin-bottom: 2vh; }
-      .about .about__content .about__person .about__info .about__info--links {
+      .about .about__content .about__person .about__info .about__links {
         width: 100%; }
-        .about .about__content .about__person .about__info .about__info--links a {
+        .about .about__content .about__person .about__info .about__links a {
           color: #ffffff; }
-          .about .about__content .about__person .about__info .about__info--links a i {
+          .about .about__content .about__person .about__info .about__links a i {
             text-align: center;
             height: 15px;
             width: 15px;
             border-radius: 50%;
             padding: 10px;
             background-color: #CC1200; }
+  .about .about__thanks {
+    background: #ededed;
+    padding: 10vh 0; }
 
 /*!
  * Hamburgers

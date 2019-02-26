@@ -12,6 +12,8 @@
 
 <section class="about__intro flex-column">
   {{ .Content }}
+  <h1>Meet the Team</h1>
+  {{ partial "ybr-line.html" . }}
 </section>
 
 <section class="about__filter flex" id="about-filter">
@@ -25,40 +27,25 @@
 </section>
 
 <section class="about__content" id="about-content">
-  {{ range .Site.Data.about }}
-  <div class="about__person flex">
-
-    <img src="../images/medellin.jpg" alt="medellin" />
-
-    <div class="about__info flex-column">
-      <span class="about__info--name">{{.first }} {{ .last }}</span>
-      <span class="about__info--role">{{ .role }}</span>
-      <div class="about__info--links">
-        {{ if ne .fb "" }}
-        <a href="{{ .fb }}" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        {{end}}
-        {{if ne .twitter "" }}
-        <a href="{{ .twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>
-        {{end}}
-        {{if ne .instagram "" }}
-        <a href="{{ .instagram }}" target="_blank"><i class="fab fa-instagram"></i></a>
-        {{end}}
-        {{ if ne .linkedin ""}}
-        <a href="{{ .linkedin }}" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-        {{end}}
-        {{ if ne .gh ""}}
-        <a href="{{ .gh }}" target="_blank"><i class="fab fa-github"></i></a>
-        {{end}}
-        {{ if ne .website ""}}
-        <a href="{{ .website }}" target="_blank"><i class="fas fa-globe"></i></a>
-        {{end}}
-      </div>
-      <div class="about__info--bio">
-        <p>In this paragraph will be a short description of each person based on what they write themselves</p>
-      </div>
-    </div>
+  <div id="all">
+    {{ range .Site.Data.about }}
+    {{ partial "about-info.html" .}}
+    {{ end }}
   </div>
-  {{ end }}
+
+  <div class="hidden" id="photog">
+    {{range .Site.Data.about }}
+    <!--building out the photog div-->
+    {{if or (eq .role "Photographer") (eq .role "Lead Photographer")}}
+    {{ partial "about-info.html" . }}
+    {{ end }}
+    <!--end of range-->
+    {{ end }}
+  </div>
+</section>
+
+<section class="about__thanks">
+  <h1>Special Thanks</h1>
 </section>
 {{ end }}
 
