@@ -4,8 +4,9 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
   transition: background-color .4s;
+  z-index: 1;
 }
 
 .cards {
@@ -23,12 +24,21 @@
   // Add scale transform to hovered card
   .card.hovered {
     transform: scale(1.1, 1.1);
-    transition: transform .3s;
+    transition: transform .3s ease .2s;
     z-index: 3;
 
     // Add color overlay to hovered card
     &:before {
-      background-color: rgba(245, 198, 93, 0.3)!important;
+      background-color: rgba(255, 255, 255, 0.9)!important;
+      z-index: 0;
+    }
+
+    .card__hover {
+      .card__topic,
+      .card__title,
+      .card__description {
+        color: $black;
+      }
     }
 
   }
@@ -68,20 +78,31 @@
       // Display hover text on card hover
       .card__hover {
         .card__topic,
+        .ybr-line,
         .card__title,
         .card__description {
           opacity: 1;
           transform: translate3d(0, 0, 0);
         }
 
+        .card__topic {
+          transition-delay: .25s;
+        }
+
+        .ybr-line {
+          transition-delay: .3s;
+        }
+
         // Increase title font size on card hover
         .card__title {
-          transition-delay: .25s;
-          font-size: 3.25rem;
+          transition-delay: .35s;
+          font-size: 2.5rem;
+          line-height: 2.3rem;
+          padding: 0 50px 10px;
         }
 
         .card__description {
-          transition-delay: .35s;
+          transition-delay: .45s;
         }
 
       }
@@ -100,6 +121,7 @@
       .card__base {
 
         .card__topic,
+        .ybr-line,
         .card__title,
         .card__description {
           opacity: 0;
@@ -122,19 +144,26 @@
     .card__topic {
       font-family: $headline-font-1;
       text-transform: uppercase;
-      font-size: 1.25rem;
+      font-size: 1rem;
+      line-height: 1rem;
     }
 
     .ybr-line {
-      max-width: 10vw;
+      max-width: 80px;
+      margin-bottom: 10px;
+
+      .ybr-section {
+        stroke-width: 5;
+      }
+
     }
 
     .card__title {
       font-weight: $font-weight-bold;
       font-family: $headline-font-1;
-      font-size: 3rem;
-      padding-top: 25px;
-      padding-bottom: 15px;
+      font-size: 2rem;
+      line-height: 1.8rem;
+      padding: 40px 25px 15px;
     }
 
     .card__description {
@@ -158,6 +187,7 @@
     .card__hover {
 
       .card__topic,
+      .ybr-line,
       .card__title,
       .card__description {
         opacity: 0;
@@ -171,6 +201,7 @@
     .card__base {
 
       .card__topic,
+      .ybr-line,
       .card__title,
       .card__description {
         opacity: 1;

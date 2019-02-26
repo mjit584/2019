@@ -2,7 +2,7 @@
 
 console.log('testing to make sure headers.js is linked up');
 
-/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+//* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
   var currentScrollPos = window.pageYOffset;
@@ -14,9 +14,9 @@ window.onscroll = function () {
   prevScrollpos = currentScrollPos;
 }
 
+
 var storyDropdown = document.getElementById('story-dropdown');
 var mainMenu = document.getElementById('main-menu');
-var arrow = document.getElementById('story-dropdown__arrow');
 storyDropdown.onmouseenter = function () {
   storyDropdown.classList.toggle('is-active');
   mainMenu.classList.toggle('open');
@@ -26,3 +26,5 @@ storyDropdown.onmouseleave = function () {
   storyDropdown.classList.toggle('is-active');
   mainMenu.classList.toggle('open');
 }
+
+

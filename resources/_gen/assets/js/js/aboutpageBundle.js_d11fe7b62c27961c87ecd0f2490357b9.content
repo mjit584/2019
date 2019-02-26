@@ -1,0 +1,10 @@
+$(function(){console.log('Hello world');});console.log('testing to make sure headers.js is linked up');var prevScrollpos=window.pageYOffset;window.onscroll=function(){var currentScrollPos=window.pageYOffset;if(prevScrollpos>currentScrollPos){document.getElementById("header").style.top="0";}else{document.getElementById("header").style.top="-75px";}
+prevScrollpos=currentScrollPos;}
+var storyDropdown=document.getElementById('story-dropdown');var mainMenu=document.getElementById('main-menu');var arrow=document.getElementById('story-dropdown__arrow');storyDropdown.onclick=function(){storyDropdown.classList.toggle('is-active');mainMenu.classList.toggle('open');}
+console.log('Testing to see if about is loaded');var everyone=document.getElementById('about__filter--everyone');var photog=document.getElementById('about__filter--photog');var vid=document.getElementById('about__filter--vid');var rep=document.getElementById('about__filter--rep');var des=document.getElementById('about__filter--des');var dev=document.getElementById('about__filter--dev');var coaches=document.getElementById('about__filter--coach');photog.onclick=function(){if(everyone.classList.contains('is-active')){photog.classList.toggle('is-active');everyone.classList.toggle('is-active');}else{everyone.classList.toggle('is-active');photog.classList.toggle('is-active');}}
+vid.onclick=function(){vid.classList.toggle('is-active');everyone.classList.toggle('is-active');}
+rep.onclick=function(){rep.classList.toggle('is-active');everyone.classList.toggle('is-active');}
+des.onclick=function(){des.classList.toggle('is-active');everyone.classList.toggle('is-active');}
+dev.onclick=function(){dev.classList.toggle('is-active');everyone.classList.toggle('is-active');}
+coaches.onclick=function(){coaches.classList.toggle('is-active');everyone.classList.toggle('is-active');}
+var body=document.querySelector('body');var menuTrigger=document.querySelector('#toggle-main-menu-mobile');var menuContainer=document.querySelector('#main-menu-mobile');menuTrigger.onclick=function(){menuContainer.classList.toggle('open');menuTrigger.classList.toggle('is-active');body.classList.toggle('lock-scroll');}
