@@ -211,7 +211,8 @@ nav {
         .about .about__content .about__person .about__info a {
           text-decoration: none; }
         .about .about__content .about__person .about__info a:hover {
-          text-decoration: underline; }
+          text-decoration: underline;
+          text-decoration-color: #CC1200; }
         .about .about__content .about__person .about__info .about__name {
           color: #CC1200;
           font-weight: bold; }
