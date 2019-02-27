@@ -7,7 +7,7 @@ draft: false
 author: 'Brooke Fisher'
 card: true
 layout: 'interactive'
-image: 'https://raw.githubusercontent.com/PuertoRico584/aftermath/master/public/assets/images/about-hero.jpg'
+image: 'images/cards-interactive.jpeg'
 weight: 6
 ---
 

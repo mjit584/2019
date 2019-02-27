@@ -1,5 +1,5 @@
 .home {
-  #home__scroll {
+  .home__scroll {
     display: grid;
     font-family: $headline-font-1;
     color: $white;
@@ -13,8 +13,11 @@
 
     @media screen and (max-width:800px){
       grid-template-columns: 100vw;
+      grid-template-rows: 100vh, 80vh, 80vh, 80vh, 100vh;
       grid-template-areas:
         'bg-vid'
+        'menu'
+        'menu'
         'menu'
         'int';
     }
@@ -43,6 +46,12 @@
 
     @media screen and (max-width: 800px){
       justify-content: flex-start;
+    }
+  }
+
+  @media screen and (max-width: 800px){
+    #home__cards {
+      height: 200vh;
     }
   }
 

@@ -1,5 +1,5 @@
 // Darken the non-hovered cards when any cards are hovered
-.cards.darkened .card:before {
+.cards.darkened .card::before {
   content: "";
   width: 100%;
   height: 100%;
@@ -17,7 +17,7 @@
 
   @media screen and (max-width:800px){
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 40vh);
 
   }
 
@@ -28,7 +28,7 @@
     z-index: 3;
 
     // Add color overlay to hovered card
-    &:before {
+    &::before {
       background-color: rgba(255, 255, 255, 0.9)!important;
       z-index: 0;
     }
@@ -43,44 +43,46 @@
 
   }
 
-  // Add unique transform origin to each hovered card
-  #card-1.hovered {
-    transform-origin: left top;
-  }
+  @media screen and (min-width: 800px) {
+    // Add unique transform origin to each hovered card
+    #card-1.hovered {
+      transform-origin: left top;
+    }
 
-  #card-2.hovered {
-    transform-origin: center top;
-  }
+    #card-2.hovered {
+      transform-origin: center top;
+    }
 
-  #card-3.hovered {
-    transform-origin: right top;
-  }
+    #card-3.hovered {
+      transform-origin: right top;
+    }
 
-  #card-4.hovered {
-    transform-origin: left bottom;
-  }
+    #card-4.hovered {
+      transform-origin: left bottom;
+    }
 
-  #card-5.hovered {
-    transform-origin: center bottom;
-  }
+    #card-5.hovered {
+      transform-origin: center bottom;
+    }
 
-  #card-6.hovered {
-    transform-origin: right bottom;
+    #card-6.hovered {
+      transform-origin: right bottom;
+    }
   }
-
+  
   .card {
     position: relative;
-    text-decoration: none;
     grid-column: span 2;
 
-    &:hover {
+    &:hover, &:active {
 
       // Display hover text on card hover
       .card__hover {
         .card__topic,
         .ybr-line,
         .card__title,
-        .card__description {
+        .card__description,
+        .card__button {
           opacity: 1;
           transform: translate3d(0, 0, 0);
         }
@@ -105,16 +107,10 @@
           transition-delay: .45s;
         }
 
-      }
+        .card__button {
+          width: 100px;
+        }
 
-      // Add color overlay when no cards are hovered
-      &:before {
-        content: "";
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        background-color: rgba(245, 198, 93, 0.3);
-        transition: background-color .4s;
       }
 
       // Hide base text on card hover
@@ -122,8 +118,7 @@
 
         .card__topic,
         .ybr-line,
-        .card__title,
-        .card__description {
+        .card__title {
           opacity: 0;
         }
 
@@ -169,6 +164,28 @@
     .card__description {
       font-size: 1rem;
       font-family: $byline-font;
+      margin-bottom: 10px;
+    }
+
+    .card__button {
+      position: relative;
+      text-transform: uppercase;
+      background-color: $red;
+      border-radius: 30px;
+      height: 25px;
+      width: 25px;
+      padding: 0 5px;
+      overflow: hidden;
+      white-space: nowrap;
+      margin: 0 auto;
+    }
+
+    .card__button a {
+      position: absolute;
+      top: 0;
+      right: 10px;
+      color: $white;
+      text-decoration: none;
     }
 
     // Vertically and horizontally center card text
@@ -189,10 +206,15 @@
       .card__topic,
       .ybr-line,
       .card__title,
-      .card__description {
+      .card__description,
+      .card__button {
         opacity: 0;
         transform: translate3d(0, 20px, 0);
-        transition: .3s opacity 0s cubic-bezier(.4, 0, .2, 1), .3s transform 0s cubic-bezier(.4, 0, .2, 1);
+        transition: opacity .3s cubic-bezier(.4, 0, .2, 1), transform .3s cubic-bezier(.4, 0, .2, 1);
+      }
+
+      .card__button {
+        transition: opacity .3s cubic-bezier(.4, 0, .2, 1) .5s, transform .3s cubic-bezier(.4, 0, .2, 1) .5s, width .5s ease 1s;
       }
 
     }
@@ -202,8 +224,7 @@
 
       .card__topic,
       .ybr-line,
-      .card__title,
-      .card__description {
+      .card__title {
         opacity: 1;
         transition: opacity .5s;
       }

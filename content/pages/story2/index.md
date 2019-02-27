@@ -3,7 +3,7 @@ title: "Wasted Skills Abound"
 topic: "Employment"
 date: 2019-02-04T21:35:11-05:00
 description: "This is the description for the second story."
-image: "https://source.unsplash.com/996x1080/?economics"
+image: "images/cards-story2.jpeg"
 storyHeading: "Knowing Your Roots"
 storySubheading: "3 Generations of Venezuelan women Grow Roots in Colombia"
 weight: 2
