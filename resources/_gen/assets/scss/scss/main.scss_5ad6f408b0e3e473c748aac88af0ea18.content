@@ -182,7 +182,6 @@ nav {
     .about .about__filter div {
       cursor: pointer; }
       .about .about__filter div:hover {
-        transition: ease-in 0.2s;
         font-weight: bold;
         padding-bottom: 1px;
         border-bottom: solid 1.2px #CC1200; }
@@ -192,7 +191,7 @@ nav {
       border-bottom: solid 1.2px #CC1200; }
   .about .about__content {
     display: grid;
-    max-width: 80vw;
+    max-width: 66vw;
     margin: 0 auto;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
