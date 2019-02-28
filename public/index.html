@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#">
+<html xmlns:og="http://ogp.me/ns#">
 
 <head>
   <!--meta tags-->
@@ -9,7 +9,16 @@
   <meta name="description"
     content="Uprooted UNC is a UNC School of Media and Journalism multimedia project creted by MEJO 584. This year's project will focus on the Venezuelan migrant crisis in Colombia and its impact on the broader global community." />
 
-  <meta property="og:image" content="http://uprooted.unc.edu/img/background2.jpg">
+  <meta property="og:title" content="Uprooted | Venezuelan Families Flee to Colombia" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://uprooted.unc.edu/img/background2.jpg" />
+  <meta property="og:image:type" content="image/jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="1200" />
+  <meta property="og:description"
+    content="Uprooted UNC is a UNC School of Media and Journalism multimedia project creted by MEJO 584. This year's project will focus on the Venezuelan migrant crisis in Colombia and its impact on the broader global community." />
+  <meta property="og:url" content="http://uprooted.unc.edu" />
+
   <!--title-->
   <title>Uprooted | Venezuelan Families Flee to Colombia</title>
 
@@ -17,8 +26,9 @@
   <style>
     body,
     html {
-      height: 100%;
+      height: 100vh;
       margin: 0;
+      font-size: 16px;
     }
 
     @font-face {
@@ -49,7 +59,7 @@
       position: relative;
       color: white;
       font-family: dinFontRegular;
-      font-size: 25px;
+      font-size: 1.5rem;
     }
 
     #overlay {
@@ -111,6 +121,41 @@
     .fa-twitter:hover {
       color: #00aced;
     }
+
+    @media screen and (max-width:1000px) {
+      svg {
+        width: 75vw;
+      }
+
+      line {
+        stroke-width: 2px;
+      }
+
+      .topleft {
+        top: 2%;
+      }
+
+      .topleft a {
+        max-width: 60vw;
+      }
+
+      .topleft img {
+        width: 40vw;
+      }
+
+      .middle {
+        width: 95vw;
+      }
+
+      #social {
+        margin-top: 15%;
+        font-size: 1.5rem;
+      }
+
+      .social__icons {
+        max-width: 50vw;
+      }
+    }
   </style>
 
   <!--Font Awesome-->
@@ -125,23 +170,24 @@
   <div class="bgimg">
     <div id="overlay">
       <div class="topleft">
-        <img src="./img/logo-navbar-white.png" alt="Uprooted UNC logo" />
+        <a href="#"><img src="./img/logo-navbar-white.png" alt="Uprooted UNC logo" /></a>
       </div>
       <div class="middle">
         <h1>COMING APRIL 2019</h1>
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1"
-          x="0px" y="0px" viewBox="0 0 192 3" xml:space="preserve">
+          x="0px" y="0px" viewBox="0 0 192 10" xml:space="preserve">
           <g>
-            <line style="fill:none;stroke:#F5C65D;stroke-miterlimit:10;" x1="1.653" y1="1.5" x2="64.993" y2="1.5" />
+            <line style="fill:none;stroke:#FBBC00;stroke-miterlimit:10;" x1="1.653" y1="1.5" x2="64.993" y2="1.5" />
           </g>
           <g>
-            <line style="fill:none;stroke:#6AA5D9;stroke-miterlimit:10;" x1="64.718" y1="1.5" x2="128.058" y2="1.5" />
+            <line style="fill:none;stroke:#1457D3;stroke-miterlimit:10;" x1="64.718" y1="1.5" x2="128.058" y2="1.5" />
           </g>
           <g>
-            <line style="fill:none;stroke:#EB5F5D;stroke-miterlimit:10;" x1="127.507" y1="1.5" x2="190.847" y2="1.5" />
+            <line style="fill:none;stroke:#C70032;stroke-miterlimit:10;" x1="127.507" y1="1.5" x2="190.847" y2="1.5" />
           </g>
         </svg>
-        <p>A multimedia project from the UNC School of Media and Journalism documenting Venezuelan families who have fled to Medellín, Colombia to seek better lives.</p>
+        <p>A multimedia project from the UNC School of Media and Journalism documenting Venezuelan families who have
+          fled to Medellín, Colombia, to seek better lives.</p>
         <div id="social">FOLLOW US ON SOCIAL MEDIA</div>
         <div class="flex social__icons">
           <a href="https://www.facebook.com/uprootedUNC/" target="_blank"><i class="fab fa-facebook-square"></i></a>
