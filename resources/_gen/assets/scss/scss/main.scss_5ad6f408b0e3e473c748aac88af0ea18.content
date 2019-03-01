@@ -120,7 +120,7 @@ nav {
   color: #ffffff;
   height: 100vh;
   grid-area: story-hero;
-  background-color: #F5C65D;
+  background-color: #Fbbc00;
   transition: 1s opacity; }
   .story-hero h1 {
     font-family: "dinFontRegular", sans-serif;
@@ -189,11 +189,11 @@ nav {
       .about .about__filter div:hover {
         font-weight: bold;
         padding-bottom: 1px;
-        border-bottom: solid 1.2px #CC1200; }
+        border-bottom: solid 1.2px #C70032; }
     .about .about__filter .mixitup-control-active {
       font-weight: bolder;
       padding-bottom: 1px;
-      border-bottom: solid 1.2px #CC1200; }
+      border-bottom: solid 1.2px #C70032; }
   .about .about__content {
     display: grid;
     max-width: 66vw;
@@ -217,9 +217,9 @@ nav {
           text-decoration: none; }
         .about .about__content .about__person .about__info a:hover {
           text-decoration: underline;
-          text-decoration-color: #CC1200; }
+          text-decoration-color: #C70032; }
         .about .about__content .about__person .about__info .about__name {
-          color: #CC1200;
+          color: #C70032;
           font-weight: bold; }
         .about .about__content .about__person .about__info .about__role {
           color: #7b7b7b;
@@ -235,7 +235,7 @@ nav {
               width: 15px;
               border-radius: 50%;
               padding: 10px;
-              background-color: #CC1200; }
+              background-color: #C70032; }
   .about .about__thanks {
     background: #ededed;
     padding: 10vh 0; }
@@ -337,13 +337,13 @@ nav {
   background-blend-mode: overlay; }
 
 .bg-blue {
-  background-color: #6AA5D9; }
+  background-color: #1457D3; }
 
 .bg-red {
-  background-color: #CC1200; }
+  background-color: #C70032; }
 
 .bg-yellow {
-  background-color: #F5C65D; }
+  background-color: #Fbbc00; }
 
 #header {
   font-family: "dinFontRegular", sans-serif;
@@ -353,7 +353,7 @@ nav {
   top: 0;
   transition: top 0.3s;
   color: #ffffff;
-  background-color: #F5C65D;
+  background-color: #Fbbc00;
   padding: 0.1vh 0;
   width: 100vw; }
   @media screen and (max-width: 800px) {
@@ -367,7 +367,7 @@ nav {
     #header .container #about-us {
       color: inherit; }
       #header .container #about-us:hover {
-        color: #CC1200; }
+        color: #C70032; }
     #header .container .header__logo {
       max-width: 14%;
       flex-basis: 25%; }
@@ -385,7 +385,7 @@ nav {
       cursor: pointer; }
       #header .container .story-dropdown.is-active {
         background: rgba(255, 255, 255, 0.9);
-        color: #CC1200; }
+        color: #C70032; }
     #header .container .lang-toggle {
       cursor: pointer; }
       #header .container .lang-toggle .lang-toggle__en:hover, #header .container .lang-toggle .lang-toggle__es:hover {
@@ -439,7 +439,7 @@ nav {
     .cards .card.hovered .card__hover .card__topic,
     .cards .card.hovered .card__hover .card__title,
     .cards .card.hovered .card__hover .card__description {
-      color: #000000; }
+      color: #333333; }
   @media screen and (min-width: 800px) {
     .cards #card-1.hovered {
       transform-origin: left top; }
@@ -516,7 +516,7 @@ nav {
     .cards .card .card__button {
       position: relative;
       text-transform: uppercase;
-      background-color: #CC1200;
+      background-color: #C70032;
       border-radius: 30px;
       height: 25px;
       width: 25px;
@@ -556,7 +556,7 @@ nav {
       transition: opacity .5s; }
 
 .main-menu {
-  color: #000000;
+  color: #333333;
   display: none;
   position: absolute;
   left: 0;
@@ -572,20 +572,20 @@ nav {
     padding: 10px 14px 10px 14px;
     display: inline-block;
     text-decoration: none;
-    color: #000000;
+    color: #333333;
     text-align: center; }
     .main-menu a:hover {
       width: inherit;
-      background: #CC1200;
+      background: #C70032;
       color: #ffffff;
       text-decoration: none; }
   .main-menu.active > a {
-    background: #CC1200;
+    background: #C70032;
     text-decoration: none;
     color: #ffffff; }
     .main-menu.active > a:hover {
       text-decoration: none;
-      background: #CC1200;
+      background: #C70032;
       transition: all 225ms ease-in 0s;
       color: #ffffff; }
   .main-menu.open {
@@ -623,7 +623,7 @@ a .hamburger__logo {
   .hamburger .hamburger-inner,
   .hamburger .hamburger-inner::before,
   .hamburger .hamburger-inner::after {
-    background: #CC1200; }
+    background: #C70032; }
   .hamburger .hamburger-inner::after {
     width: 18px;
     right: 0; }
@@ -633,7 +633,7 @@ a .hamburger__logo {
 
 .main-menu-mobile {
   position: fixed;
-  background: #CC1200;
+  background: #C70032;
   top: 0;
   left: 0;
   width: 100%;
@@ -730,7 +730,7 @@ a .hamburger__logo {
 /* scrollama */
 #scroll {
   position: relative;
-  background: #000000; }
+  background: #333333; }
 
 .scroll__text {
   position: relative;
@@ -743,7 +743,7 @@ a .hamburger__logo {
   .step p,
   .step h1,
   .step h2 {
-    color: #000000;
+    color: #333333;
     transition: color 1s; }
 
 .step.is-active p,
