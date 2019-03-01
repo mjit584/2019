@@ -3,7 +3,7 @@ title: "Road to Wellness"
 topic: "Women's Well-being"
 date: 2019-02-04T21:36:06-05:00
 description: "This is the description for the fifth story."
-image: "../images/cards-story5.jpg"
+image: "https://brookenf.github.io/uprooted-mejo584/images/cards-story5.jpg"
 storyHeading: "Road to Wellness"
 storySubheading: "Waiting on the PEP"
 weight: 5

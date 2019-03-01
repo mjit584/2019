@@ -3,7 +3,7 @@ title: "Providing Necessary Aid"
 topic: "Government Support"
 date: 2019-02-04T21:35:29-05:00
 description: "This is the description for the third story."
-image: "../images/cards-story3.jpeg"
+image: "https://brookenf.github.io/uprooted-mejo584/images/cards-story3.jpeg"
 storyHeading: "Providing Necessary Aid"
 storySubheading: "Venezuelan Doctor Working as Waiter in Medellin"
 weight: 3

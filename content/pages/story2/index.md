@@ -3,7 +3,7 @@ title: "Wasted Skills Abound"
 topic: "Employment"
 date: 2019-02-04T21:35:11-05:00
 description: "This is the description for the second story."
-image: "../images/cards-story2.jpeg"
+image: "https://brookenf.github.io/uprooted-mejo584/images/cards-story2.jpeg"
 storyHeading: "Wasted Skills Abound"
 storySubheading: "3 Generations of Venezuelan women grow roots in Colombia"
 weight: 2

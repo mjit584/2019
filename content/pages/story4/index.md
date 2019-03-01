@@ -3,7 +3,7 @@ title: "Generation in Limbo"
 topic: "Children and Education"
 date: 2019-02-04T21:35:51-05:00
 description: "This is the description for the fourth story."
-image: "../images/cards-story4.jpg"
+image: "https://brookenf.github.io/uprooted-mejo584/images/cards-story4.jpg"
 storyHeading: "Generation in Limbo"
 storySubheading: "Hundreds of Venezuelan children are working instead of hitting the books"
 weight: 4
