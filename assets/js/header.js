@@ -15,7 +15,7 @@ window.onscroll = function () {
 }
 
 
-var storyDropdown = document.getElementById('story-dropdown');
+var storyDropdown = document.getElementById('header__story-dropdown');
 var mainMenu = document.getElementById('main-menu');
 storyDropdown.onmouseenter = function () {
   storyDropdown.classList.toggle('is-active');

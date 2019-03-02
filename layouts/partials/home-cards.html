@@ -4,15 +4,15 @@
   <div class="card" id="card-{{.Params.weight}}">
     <img class="card__img" src="{{ .Params.image }}" alt="Venezuela">
     <div class="card__base">
-      <div class="card__topic">{{ .Params.topic }}</div>
+      <div class="card__heading">{{ .Params.topic }}</div>
       {{ partial "ybr-line.html" . }}
       <div class="card__title">{{ .Title }}</div>
     </div>
     <div class="card__hover">
-      <div class="card__topic">{{ .Params.topic }}</div>
+      <div class="card__heading">{{ .Params.topic }}</div>
       {{ partial "ybr-line.html" . }}
       <div class="card__title">{{ .Title }}</div>
-      <div class="card__description">{{ .Description }}</div>
+      <div class="card__desc">{{ .Description }}</div>
       <div class="card__button">
         <a href="{{.URL}}">Explore &nbsp; <i class="fas fa-arrow-right"></i></a>
       </div>

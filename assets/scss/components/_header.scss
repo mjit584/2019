@@ -1,5 +1,5 @@
 #header {
-  font-family: $headline-font-2;
+  font-family: $font-nav;
   z-index: 9;
   flex-basis: 100%;
   position: fixed;
@@ -21,7 +21,7 @@
       text-decoration: none;
     }
 
-    #about-us{
+    #header__about{
       color: inherit;
 
       &:hover{
@@ -45,7 +45,7 @@
       }
     }
 
-    .story-dropdown {
+    .header__story-dropdown {
       flex-basis:19%;
       text-align: center;
       transition: ease 0.1s;
@@ -57,15 +57,15 @@
       }
     }
 
-    .lang-toggle{
+    .header__lang-toggle{
       cursor: pointer;
 
-      .lang-toggle__en:hover, .lang-toggle__es:hover{
+      .header__lang-toggle__en:hover, .header__lang-toggle__es:hover{
         font-weight: 900;
       }
     }
 
-    .social-icons{
+    .header__social-icons{
       font-size: 1.3em;
       flex-basis: 20%;
     

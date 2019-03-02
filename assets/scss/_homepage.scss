@@ -1,7 +1,6 @@
 .home {
   .home__scroll {
     display: grid;
-    font-family: $headline-font-1;
     color: $white;
     grid-template-columns: repeat(8, auto);
     grid-template-rows: repeat(3, 100vh);
@@ -80,12 +79,12 @@
       }
     }
   
-    .intro-subtitle {
-      font-family: $body-font;
+    .home__subtitle {
+      font-family: $font-hero-subtitle;
     }
   
-    .intro-desc {
-      font-family: $byline-font;
+    .home__desc {
+      font-family: $font-hero-desc;
       max-width: 65vw;
     }
   }
