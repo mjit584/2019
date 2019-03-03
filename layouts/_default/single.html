@@ -4,7 +4,9 @@
 {{ partial "main-menu-mobile.html" . }}
 <nav>
   <!--full screen-->
-  {{ partial "header.html" . }}
+  <div class="header" id="header">
+    {{ partial "header.html" . }}
+  </div>
   <!--hamburger-->
   {{ partial "hamburger.html" . }}
 </nav>

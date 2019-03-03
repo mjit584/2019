@@ -1,52 +1,65 @@
-#header {
+.header {
   font-family: $font-nav;
   z-index: 9;
-  flex-basis: 100%;
   position: fixed;
   top: 0;
   transition: top 0.3s;
-  color: $white;
+  color: $black;
   background-color: $yellow;
-  padding: 0.1vh 0;
-  width: 100vw;
+  padding: 0;
+  height: 55px;
+  width: 100%;
   @media screen and (max-width: 800px){
     display: none;
   }
 
+  a,i {
+    text-decoration: none;
+    color: $black;
+
+    &:hover {
+      color: $red;
+    }
+  }
+
   .container {
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 50px;
     height: 100%;
-
-    a {
-      text-decoration: none;
-    }
-
-    #header__about{
-      color: inherit;
-
-      &:hover{
-        color: $red;
-      }
-    }
 
     .header__logo {
       max-width: 14%;
-      flex-basis: 25%;
+      text-align: center;
+      flex-basis: 200px;
     
-      img {
-        width: 100%;
-        height: auto;
-      }
+      // img {
+      //   width: 100%;
+      //   height: auto;
+      // }
     
       a {
         display: block;
+        font-family: $font-logo;
+        font-size: 1.6rem;
+        text-transform: uppercase;
         width: 100%;
         height: 100%;
       }
     }
 
+    .header__nav {
+      flex-basis: 500px;
+      height: 100%;
+      justify-content: flex-end;
+    }
+
+    .header__nav > * {
+      flex-basis: 25%;
+      padding-top: 4px;
+      text-align: center;
+    }
+
     .header__story-dropdown {
-      flex-basis:19%;
       text-align: center;
       transition: ease 0.1s;
       cursor: pointer;
@@ -54,6 +67,20 @@
       &.is-active{
         background: rgba(255, 255, 255, 0.9);
         color: $red;
+      }
+
+      &:hover {
+        i {
+          color: $red;
+        }
+      }
+
+      i {
+        padding-left: 10px;
+      }
+
+      div {
+        padding: 16px 0;
       }
     }
 
@@ -67,23 +94,35 @@
 
     .header__social-icons{
       font-size: 1.3em;
-      flex-basis: 20%;
-    
-      i{
-        color: $white;
+
+      i {
+        padding: 0 5px;
       }
     
-      .fa-facebook-square:hover {
-        color: #3b5998;
-      }
+      // .fa-facebook-square:hover {
+      //   color: #3b5998;
+      // }
     
-      .fa-instagram:hover {
-        color: #cd486b;
-      }
+      // .fa-instagram:hover {
+      //   color: #cd486b;
+      // }
     
-      .fa-twitter:hover {
-        color: #00aced;
-      }
+      // .fa-twitter:hover {
+      //   color: #00aced;
+      // }
+    }
+  }
+}
+
+.header--white {
+  color: $white;
+  background-color: transparent;
+
+  a,i {
+    color: $white;
+
+    &:hover {
+      color: $red;
     }
   }
 }
