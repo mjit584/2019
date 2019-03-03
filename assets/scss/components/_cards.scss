@@ -104,11 +104,11 @@
         }
 
         .card__desc {
-          transition-delay: .45s;
+          transition-delay: .35s;
         }
 
         .card__button {
-          width: 100px;
+          width: 105px;
         }
 
       }
@@ -215,7 +215,7 @@
       }
 
       .card__button {
-        transition: opacity .3s cubic-bezier(.4, 0, .2, 1) .5s, transform .3s cubic-bezier(.4, 0, .2, 1) .5s, width .5s ease 1s;
+        transition: opacity .3s cubic-bezier(.4, 0, .2, 1) .35s, transform .3s cubic-bezier(.4, 0, .2, 1) .35s, width .5s ease .8s;
       }
 
     }
