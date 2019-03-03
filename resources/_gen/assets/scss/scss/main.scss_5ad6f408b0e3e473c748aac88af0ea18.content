@@ -154,7 +154,7 @@ nav {
   border-right: none; }
 
 .story-content {
-  font-family: "Lato", sans-serif;
+  font-family: "Georgia", sans-serif;
   grid-area: story-bd; }
   .story-content p {
     margin: 2vw auto;
@@ -182,6 +182,7 @@ nav {
     margin-bottom: 3vh; }
 
 .about .about__filter {
+  font-family: "Lato", sans-serif;
   width: 70%;
   margin: 2vh 0;
   z-index: 3;
@@ -204,7 +205,7 @@ nav {
   display: grid;
   max-width: 66vw;
   margin: 0 auto;
-  font-family: "Lato", sans-serif;
+  font-family: "Georgia", sans-serif;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem;
   grid-template-rows: repeat(5, auto); }
