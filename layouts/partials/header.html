@@ -1,28 +1,32 @@
-<div class="flex" id="header">
-  <div class="container flex">
-    <div class="header__logo">
-      {{ if .Site.IsServer }}
-      <a href="{{ .Site.BaseURL }}"><img alt="Uprooted Homepage"
-          src="{{ .Site.BaseURL }}images/logo-wide-white.png" /></a>
-      {{ else }}
-      <a href="{{ .Site.Params.gh_pages_URL }}"><img alt="Uprooted Homepage"
-          src="{{ .Site.Params.gh_pages_URL }}images/logo-wide-white.png" /></a>
-      {{ end }}
-    </div>
-    <div class="story-dropdown" id="story-dropdown">
-      <p>Stories <i class="fas fa-angle-down"></i></p>
+<div class="container flex">
+  <div class="header__logo">
+    {{ if .Site.IsServer }}
+    <a href="{{ .Site.BaseURL }}">Uprooted
+      <!-- <img alt="Uprooted Homepage"
+          src="{{ .Site.BaseURL }}images/logo-wide-white.png" /> -->
+    </a>
+    {{ else }}
+    <a href="{{ .Site.Params.gh_pages_URL }}">Uprooted
+      <!-- <img alt="Uprooted Homepage"
+          src="{{ .Site.Params.gh_pages_URL }}images/logo-wide-white.png" /> -->
+    </a>
+    {{ end }}
+  </div>
+  <div class="header__nav flex">
+    <div class="header__story-dropdown" id="header__story-dropdown">
+      <div>Stories <i class="fas fa-angle-down"></i></div>
       {{ partial "main-menu.html" . }}
     </div>
 
-    <a href="/about" class="about-us" id="about-us">About Us</a>
-    <div class="social-icons">
+    <a href="/about" class="header__about" id="header__about">About Us</a>
+    <div class="header__social-icons">
       <a href="https://www.facebook.com/uprootedUNC/" target="_blank"><i class="fab fa-facebook-square"></i></a>
       <a href="https://twitter.com/@uprootedunc" target="_blank"><i class="fab fa-twitter"></i></a>
       <a href="https://www.instagram.com/uprootedunc/" target="_blank"><i class="fab fa-instagram"></i></a>
     </div>
-    <div class="lang-toggle">
-      <span class="lang-toggle__en">EN</span> |
-      <span class="lang-toggle__es">ES</span>
+    <div class="header__lang-toggle">
+      <span class="header__lang-toggle__en">EN</span> |
+      <span class="header__lang-toggle__es">ES</span>
     </div>
   </div>
 </div>

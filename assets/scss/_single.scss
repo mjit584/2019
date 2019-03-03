@@ -1,5 +1,4 @@
 .story-page {
-  font-family: $body-font;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
@@ -43,8 +42,8 @@ nav{
   background-color: $yellow;
   transition: 1s opacity;
   
-  h1{
-    font-family: $headline-font-2;
+  .story-hero__title{
+    font-family: $font-hero-title;
     font-size: 3rem;
     margin-bottom: 1%;
   }
@@ -52,15 +51,20 @@ nav{
   .ybr-line{
     max-width: 30vw;
   }
+
+  .story-hero__desc {
+    font-family: $font-hero-desc;
+  }
+
 }
 
 .story-byline {
+  font-family: $font-byline;
   justify-content: space-around;
   text-align: center;
   padding: 10vh 0;
   font-weight: $font-weight-bold;
   grid-area: story-by;
-  font-family: $byline-font;
   transition: 1s opacity;
   span{
     margin-top: 3%;
@@ -79,6 +83,7 @@ nav{
 }
 
 .story-content {
+  font-family: $font-content-body;
   grid-area: story-bd;
 
   p {

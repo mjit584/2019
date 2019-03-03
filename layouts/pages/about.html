@@ -4,7 +4,9 @@
 {{ partial "main-menu-mobile.html" . }}
 <nav>
   <!--full screen-->
-  {{ partial "header.html" . }}
+  <div class="header" id="header">
+    {{ partial "header.html" . }}
+  </div>
   <!--hamburger-->
   {{ partial "hamburger.html" . }}
 </nav>
@@ -12,19 +14,19 @@
 
 <section class="about__intro flex-column">
   {{ .Content }}
-  <h1>Meet the Team</h1>
+  <h1 class="about__heading">Meet the Team</h1>
   {{ partial "ybr-line.html" . }}
 </section>
 
 <div class="container">
   <div id="team">
     <div class="controls about__filter flex">
-      <div data-filter="all" id="about__filter--everyone">Everyone</div>
-      <div data-filter=".photovid" id="about__filter--photog">Photo/Video</div>
-      <div data-filter=".rep" id="about__filter--vid">Reporters</div>
-      <div data-filter=".int" id="about__filter--des">Interactive</div>
-      <div data-filter=".coach" id="about__filter--coach">Coaches</div>
-      <div data-filter=".field" id="about__filter--">Field Producers</div>
+      <div data-filter="all">Everyone</div>
+      <div data-filter=".photovid">Photo/Video</div>
+      <div data-filter=".rep">Reporters</div>
+      <div data-filter=".int">Interactive</div>
+      <div data-filter=".coach">Coaches</div>
+      <div data-filter=".field">Field Producers</div>
     </div>
 
     <div class="about__content flex">
@@ -36,7 +38,7 @@
 </div>
 
 <section class="about__thanks">
-  <h1>Special Thanks</h1>
+  <h1 class="about__heading">Special Thanks</h1>
 </section>
 {{ end }}
 

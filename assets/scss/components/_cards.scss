@@ -34,9 +34,9 @@
     }
 
     .card__hover {
-      .card__topic,
+      .card__heading,
       .card__title,
-      .card__description {
+      .card__desc {
         color: $black;
       }
     }
@@ -78,16 +78,16 @@
 
       // Display hover text on card hover
       .card__hover {
-        .card__topic,
+        .card__heading,
         .ybr-line,
         .card__title,
-        .card__description,
+        .card__desc,
         .card__button {
           opacity: 1;
           transform: translate3d(0, 0, 0);
         }
 
-        .card__topic {
+        .card__heading {
           transition-delay: .25s;
         }
 
@@ -103,12 +103,12 @@
           padding: 0 50px 10px;
         }
 
-        .card__description {
-          transition-delay: .45s;
+        .card__desc {
+          transition-delay: .35s;
         }
 
         .card__button {
-          width: 100px;
+          width: 105px;
         }
 
       }
@@ -116,7 +116,7 @@
       // Hide base text on card hover
       .card__base {
 
-        .card__topic,
+        .card__heading,
         .ybr-line,
         .card__title {
           opacity: 0;
@@ -136,8 +136,8 @@
       z-index: -1;
     }
 
-    .card__topic {
-      font-family: $headline-font-1;
+    .card__heading {
+      font-family: $font-card-heading;
       text-transform: uppercase;
       font-size: 1rem;
       line-height: 1rem;
@@ -155,19 +155,20 @@
 
     .card__title {
       font-weight: $font-weight-bold;
-      font-family: $headline-font-1;
+      font-family: $font-card-title;
       font-size: 2rem;
       line-height: 1.8rem;
       padding: 40px 25px 15px;
     }
 
-    .card__description {
+    .card__desc {
       font-size: 1rem;
-      font-family: $byline-font;
+      font-family: $font-card-desc;
       margin-bottom: 10px;
     }
 
     .card__button {
+      font-family: $font-button;
       position: relative;
       text-transform: uppercase;
       background-color: $red;
@@ -203,10 +204,10 @@
     // Hide hover text without card hover
     .card__hover {
 
-      .card__topic,
+      .card__heading,
       .ybr-line,
       .card__title,
-      .card__description,
+      .card__desc,
       .card__button {
         opacity: 0;
         transform: translate3d(0, 20px, 0);
@@ -214,7 +215,7 @@
       }
 
       .card__button {
-        transition: opacity .3s cubic-bezier(.4, 0, .2, 1) .5s, transform .3s cubic-bezier(.4, 0, .2, 1) .5s, width .5s ease 1s;
+        transition: opacity .3s cubic-bezier(.4, 0, .2, 1) .35s, transform .3s cubic-bezier(.4, 0, .2, 1) .35s, width .5s ease .8s;
       }
 
     }
@@ -222,7 +223,7 @@
     // Display base text without card hover
     .card__base {
 
-      .card__topic,
+      .card__heading,
       .ybr-line,
       .card__title {
         opacity: 1;

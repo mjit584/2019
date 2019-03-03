@@ -1,5 +1,4 @@
 .about{
-  font-family: $body-font;
 
   .about__intro{
     padding-top: 2%;
@@ -7,7 +6,8 @@
       max-width: 50vw;
     }
 
-    h1{
+    .about__heading{
+      font-family: $font-content-heading;
       margin-top: 8vh;
       margin-bottom: 1vh;
     }
@@ -19,6 +19,7 @@
   }
 
   .about__filter{
+    font-family: $font-about-info;
     width: 70%;
     margin: 2vh 0;
     z-index: 3;
@@ -49,6 +50,7 @@
     display: grid;
     max-width: 66vw;
     margin: 0 auto;
+    font-family: $font-content-body;
     grid-template-columns: repeat(2, 1fr); 
     grid-gap: 1rem;
     grid-template-rows: repeat(5, auto);
@@ -68,6 +70,7 @@
       }
 
       .about__info {
+        font-family: $font-about-info;
         align-items: flex-start;
 
         a{
@@ -111,5 +114,9 @@
   .about__thanks{
     background: #ededed;
     padding: 10vh 0;
+
+    .about__heading {
+      font-family: $font-content-heading;
+    }
   }
 }
