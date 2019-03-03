@@ -9,8 +9,12 @@ storySubheading: "Providing assistance to Venezuelans who cross over the border"
 weight: 1
 card: true
 author: "Brooklynn Cooper"
-videographer: "Bryan Cereijo, Abby Cantrell"
+videographer: 
+- "Bryan Cereijo" 
+- "Abby Cantrell"
 photographer: "Alex Kormann"
+designer: "Kailyn Akers"
+udea: "Laura Andrea Garcia Giraldo"
 ---
 
 <p class="drop-cap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lectus non sem scelerisque elementum. Sed tempor velit non urna lobortis sodales. Nunc vitae lectus sed justo eleifend lacinia sed nec mauris. Quisque pulvinar lorem sed neque sodales, vitae ultricies arcu eleifend. Sed suscipit est nulla, efficitur varius libero ultricies at. Nullam a mollis dui. Donec a felis sapien. Aliquam euismod nec ipsum sit amet consequat. Quisque faucibus arcu at sem congue, eget hendrerit turpis euismod. Praesent eleifend enim sit amet elit viverra, non volutpat diam tempor. Vivamus tempor nisi eget ultrices tristique. Morbi vitae pharetra felis, et faucibus magna. Quisque venenatis, lacus sit amet finibus ornare, massa ante facilisis sapien, quis tempor dui mauris sit amet urna.</p>
@@ -30,8 +34,6 @@ Ut auctor sodales lorem, sit amet dictum risus sodales eu. Cras posuere augue at
 Nulla facilisi. Maecenas malesuada scelerisque urna quis tempus. Nullam non quam accumsan, semper libero eget, maximus orci. Praesent non enim lorem. Pellentesque ut suscipit purus. Sed suscipit ligula in mi laoreet molestie. Nulla condimentum congue vestibulum. Pellentesque semper, nibh et imperdiet lobortis, ante odio aliquet justo, varius molestie nibh elit et purus. In placerat quam neque, et posuere massa cursus id. Suspendisse magna augue, fringilla ac odio at, maximus malesuada turpis.
 
 Donec pulvinar quam felis, vel vestibulum enim laoreet vel. Proin ac lorem congue, pulvinar dui id, vulputate turpis. Vestibulum molestie nibh vel cursus bibendum. Donec nec velit varius, ornare purus ac, aliquam tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eros laoreet, finibus velit a, posuere felis. Maecenas cursus tincidunt felis, vitae pellentesque eros rhoncus varius. Nullam est odio, laoreet at malesuada sollicitudin, pharetra a lectus. Nullam augue nibh, finibus venenatis eleifend consequat, ornare vitae nisl. Mauris ac felis purus. Morbi vel turpis rhoncus, semper lorem ut, sodales velit. Vivamus ac est nec leo scelerisque facilisis ac id lacus. Quisque rutrum non ipsum ut pharetra. Cras vitae ex felis. Pellentesque sit amet erat et dolor semper pharetra.
-
-{{< story1-scrollytelly >}}
 
 Sed tincidunt mattis urna, ut fringilla erat lacinia sit amet. Suspendisse in efficitur metus. Mauris hendrerit nunc sit amet purus auctor, eu porttitor urna rutrum. Sed lacinia, mi vitae aliquet volutpat, ligula libero dapibus enim, id pretium magna odio non odio. Duis hendrerit nisi nec lectus porta eleifend. Duis ut venenatis ex, sit amet tempor ligula. Donec vel mi dapibus, pharetra enim quis, tincidunt arcu. Integer semper eleifend lectus, eu consectetur lacus feugiat non. Morbi quis neque et libero varius vehicula.
 

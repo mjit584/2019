@@ -9,7 +9,9 @@ storySubheading: "3 Generations of Venezuelan women grow roots in Colombia"
 weight: 2
 card: true
 author: "Maria Vizcaino"
-videographer: "Tenley Garrett, Jason Armond"
+videographer: 
+- Tenley Garrett 
+- Jason Armond
 photographer: "Catie Dull"
 ---
 

@@ -94,9 +94,9 @@ body {
 
 .story-page {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-int story-int story-int story-int';
+  grid-template-columns: 6% 22% 22% 22% 22% 6%;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: 'nav nav nav nav nav nav' 'story-hero story-hero story-hero story-hero story-hero story-hero' '. story-by story-bd story-bd story-bd .' '. . story-bd story-bd story-bd .';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .story-page {
@@ -132,30 +132,20 @@ nav {
 
 .story-byline {
   font-family: "Lato", sans-serif;
-  justify-content: space-around;
-  text-align: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   padding: 10vh 0;
   font-weight: 700;
   grid-area: story-by;
   transition: 1s opacity; }
-  .story-byline span {
-    margin-top: 3%;
-    font-weight: 400; }
-
-.byline-name {
-  flex-basis: 25%;
-  border-right: solid black 1px;
-  height: 12vh; }
-
-.byline-name:last-child {
-  border-right: none; }
+  .story-byline .byline-name {
+    flex-basis: 25%; }
 
 .story-content {
   font-family: "Georgia", serif;
   grid-area: story-bd; }
   .story-content p {
     margin: 2vw auto;
-    max-width: 50%;
     transition: 1s opacity; }
     @media screen and (max-width: 800px) {
       .story-content p {
