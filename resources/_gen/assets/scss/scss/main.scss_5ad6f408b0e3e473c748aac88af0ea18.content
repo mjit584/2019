@@ -741,17 +741,25 @@ a .hamburger__logo {
 
 .pull-quote-container {
   font-family: "Playfair Display", serif;
+  font-weight: 700;
   margin: 0 auto; }
-  .pull-quote-container h2 {
-    margin-bottom: 3vh;
-    justify-content: flex-start; }
   .pull-quote-container p {
-    max-width: 92%;
-    margin: 0; }
+    font-size: 1.7rem;
+    max-width: 80%;
+    margin: 0 0 3vh 0; }
   .pull-quote-container .ybr-line {
     max-width: 30vw;
-    margin-bottom: 2vh;
     align-self: flex-start; }
+  .pull-quote-container #pull-quote__attr {
+    font-family: "Lato", sans-serif;
+    font-style: italic; }
+
+.story-content .pull-quote-container {
+  margin: 20vh 0; }
+
+.story-content .absolute {
+  position: absolute;
+  left: 6%; }
 
 /* scrollama */
 #scroll {
