@@ -59,15 +59,29 @@ nav{
 
 .story-byline {
   font-family: $font-byline;
+  font-size: 18px;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 10vh 0;
+  margin-top: 3vw;
   font-weight: $font-weight-bold;
   grid-area: story-by;
   transition: 1s opacity;
 
-  .byline-name{
+  .ybr-line{
+    transform: rotate(90deg);
+  }
+
+  .byline-name {
     flex-basis: 25%;
+    margin-bottom: 3rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  span {
+    font-weight: $font-weight-normal;
   }
 }
 
@@ -79,6 +93,10 @@ nav{
   p {
     margin: 2vw auto;
     transition: 1s opacity;
+
+    &:first-child{
+      margin-top:3vw;
+    }
 
     @media screen and (max-width: 800px){
       max-width: 90vw;

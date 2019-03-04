@@ -33,7 +33,7 @@ body {
   grid-template-columns: repeat(8, auto);
   grid-template-rows: repeat(3, 100vh);
   grid-template-areas: 'bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid' 'menu menu menu menu menu menu menu menu' 'int int int int int int int int';
-  line-height: 1.6em; }
+  line-height: 1.5em; }
   @media screen and (max-width: 800px) {
     .home .home__scroll {
       grid-template-columns: 100vw;
@@ -132,14 +132,22 @@ nav {
 
 .story-byline {
   font-family: "Lato", sans-serif;
+  font-size: 18px;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 10vh 0;
+  margin-top: 3vw;
   font-weight: 700;
   grid-area: story-by;
   transition: 1s opacity; }
+  .story-byline .ybr-line {
+    transform: rotate(90deg); }
   .story-byline .byline-name {
-    flex-basis: 25%; }
+    flex-basis: 25%;
+    margin-bottom: 3rem; }
+    .story-byline .byline-name:last-child {
+      margin-bottom: 0; }
+  .story-byline span {
+    font-weight: 400; }
 
 .story-content {
   font-family: "Georgia", serif;
@@ -147,6 +155,8 @@ nav {
   .story-content p {
     margin: 2vw auto;
     transition: 1s opacity; }
+    .story-content p:first-child {
+      margin-top: 3vw; }
     @media screen and (max-width: 800px) {
       .story-content p {
         max-width: 90vw; } }
@@ -418,8 +428,7 @@ nav {
 
 .video-container {
   transition: 0.1s background-color;
-  height: 75vh;
-  padding: 10vh; }
+  height: 80vh; }
   .video-container iframe {
     border: none !important;
     width: 100%;
@@ -728,7 +737,6 @@ a .hamburger__logo {
   overflow: hidden; }
 
 .pull-quote-container {
-  max-width: 50%;
   font-family: "Playfair Display", serif;
   margin: 0 auto; }
   .pull-quote-container h2 {
@@ -738,7 +746,7 @@ a .hamburger__logo {
     max-width: 92%;
     margin: 0; }
   .pull-quote-container .ybr-line {
-    max-width: 15vw;
+    max-width: 30vw;
     margin-bottom: 2vh;
     align-self: flex-start; }
 

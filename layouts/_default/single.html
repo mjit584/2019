@@ -14,6 +14,7 @@
 
 
 <div class="flex-column story-byline">
+  <!-- {{ partial "ybr-line.html"  . }} -->
   <div class="byline-name" id="byline-rep">written by <br /><span>{{ .Params.Author }}</span></div>
   <div class="byline-name" id="byline-vid">photo & video <br />
     <span>{{ range .Params.videographer }}{{ . }}</br>{{end}}
