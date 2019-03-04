@@ -45,8 +45,8 @@
   
   .story-byline {
     font-family: $font-byline;
-    margin-top: 5vh;
-    font-size: 1.1rem;
+    margin-top: 6vh;
+    font-size: 0.9rem;
     align-items: flex-start;
     font-weight: $font-weight-bold;
     grid-area: story-by;
@@ -82,10 +82,12 @@
       font-size: 2rem;
       justify-content: flex-start;
       align-items: flex-start;
+      max-width: 50%;
+      margin: 0 auto;
 
       .ybr-line {
         margin-top: 1%;
-        max-width: 13vw;
+        max-width: 10vw;
         
         .ybr-section{
           stroke-width: 4;

@@ -118,8 +118,8 @@ body {
       font-family: "Lato", sans-serif; }
   .story-page .story-byline {
     font-family: "Lato", sans-serif;
-    margin-top: 5vh;
-    font-size: 1.1rem;
+    margin-top: 6vh;
+    font-size: 0.9rem;
     align-items: flex-start;
     font-weight: 700;
     grid-area: story-by;
@@ -142,10 +142,12 @@ body {
       margin: 0 auto;
       font-size: 2rem;
       justify-content: flex-start;
-      align-items: flex-start; }
+      align-items: flex-start;
+      max-width: 50%;
+      margin: 0 auto; }
       .story-page .story-content .story__subhead .ybr-line {
         margin-top: 1%;
-        max-width: 13vw; }
+        max-width: 10vw; }
         .story-page .story-content .story__subhead .ybr-line .ybr-section {
           stroke-width: 4; }
     .story-page .story-content p {
