@@ -1,0 +1,19 @@
+<div class="footer__stories">
+  You may also be interested in...
+  {{partial "ybr-line.html" . }}
+
+</div>
+<div class="footer__img">
+  {{ $menu := .Site.Menus.main }}
+  {{ $weight := .Params.weight }}
+  {{ range $menu }}
+  <a href="{{ .URL }}">
+    <div class="pic"></div>
+  </a>
+  {{ end }}
+</div>
+
+<div class="footer__social">
+  <a href="{{ .URL }}"><img src="../images/logo-footer-black.png" alt="Uprooted footer logo" /></a>
+  {{ partial "ybr-line.html" . }}
+</div>

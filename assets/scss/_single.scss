@@ -1,12 +1,13 @@
 .story-page {
   display: grid;
-  grid-template-columns: 6% 22% 22% 22% 22% 6%;
-  grid-template-rows: repeat(4, auto);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, auto);
   grid-template-areas:
-    'nav nav nav nav nav nav'
-    'story-hero story-hero story-hero story-hero story-hero story-hero'
-    '. story-by story-bd story-bd story-bd .'
-    '. . story-bd story-bd story-bd .';
+    'nav nav nav nav'
+    'story-hero story-hero story-hero story-hero'
+    '. story-by story-by .'
+    'story-bd story-bd story-bd story-bd'
+    'story-ft story-ft story-ft story-ft';
   transition: 0.5s background-color;
 
   @media screen and (max-width: 800px){
@@ -15,7 +16,8 @@
       'nav'
       'story-hero'
       'story-by'
-      'story-bd';
+      'story-bd'
+      'story-ft';
   }
 
   .story-hero {
@@ -43,25 +45,16 @@
   
   .story-byline {
     font-family: $font-byline;
+    margin-top: 3%;
     font-size: 18px;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-top: 3vw;
     font-weight: $font-weight-bold;
     grid-area: story-by;
     transition: 1s opacity;
   
-    .ybr-line{
-      transform: rotate(90deg);
-    }
-  
     .byline-name {
       flex-basis: 25%;
-      margin-bottom: 3rem;
-  
-      &:last-child {
-        margin-bottom: 0;
-      }
     }
   
     span {
@@ -95,6 +88,8 @@
     }
   
     p {
+      max-width: 50vw;
+      line-height: $line-height-base;
       margin: 2vw auto;
       transition: 1s opacity;
   
@@ -115,6 +110,13 @@
       font-size: 3rem;
       float: left;
     }
+  }
+
+  footer{
+    grid-area: story-ft;
+    height: 30vh;
+    margin:20vh 0;
+    padding: 20vh 0;
   }
 }
 
