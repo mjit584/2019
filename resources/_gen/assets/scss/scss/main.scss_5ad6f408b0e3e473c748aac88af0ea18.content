@@ -95,13 +95,13 @@ body {
 .story-page {
   display: grid;
   grid-template-columns: 6% 22% 22% 22% 22% 6%;
-  grid-template-rows: repeat(4, auto);
-  grid-template-areas: 'nav nav nav nav nav nav' 'story-hero story-hero story-hero story-hero story-hero story-hero' '. story-by story-bd story-bd story-bd .' '. . story-bd story-bd story-bd .';
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas: 'nav nav nav nav nav nav' 'story-hero story-hero story-hero story-hero story-hero story-hero' '. story-by story-bd story-bd story-bd .' '. . story-bd story-bd story-bd .' 'story-ft story-ft story-ft story-ft story-ft story-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .story-page {
       grid-template-columns: 1fr;
-      grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd'; } }
+      grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd' 'story-ft'; } }
   .story-page .story-hero {
     color: #ffffff;
     height: 100vh;
@@ -162,6 +162,10 @@ body {
     .story-page .story-content .drop-cap:first-letter {
       font-size: 3rem;
       float: left; }
+  .story-page footer {
+    grid-area: story-ft;
+    height: 30vh;
+    padding: 20vh 0 20vh 0; }
 
 nav {
   grid-area: nav;
@@ -798,5 +802,21 @@ a .hamburger__logo {
 .step.is-active h2 {
   color: #ffffff;
   transition: color 1s; }
+
+.footer__stories {
+  font-family: "DDinBold", sans-serif;
+  font-size: 2.5rem;
+  text-align: center; }
+  .footer__stories a {
+    text-decoration: none; }
+  .footer__stories .ybr-line {
+    max-width: 30vw; }
+  .footer__stories .footer__img img {
+    height: 10vh; }
+
+.footer__social {
+  margin-top: 15vh; }
+  .footer__social img {
+    max-width: 15vw; }
 
 /*# sourceMappingURL=style.css.map */

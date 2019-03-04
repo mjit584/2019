@@ -1,12 +1,13 @@
 .story-page {
   display: grid;
   grid-template-columns: 6% 22% 22% 22% 22% 6%;
-  grid-template-rows: repeat(4, auto);
+  grid-template-rows: repeat(5, auto);
   grid-template-areas:
     'nav nav nav nav nav nav'
     'story-hero story-hero story-hero story-hero story-hero story-hero'
     '. story-by story-bd story-bd story-bd .'
-    '. . story-bd story-bd story-bd .';
+    '. . story-bd story-bd story-bd .'
+    'story-ft story-ft story-ft story-ft story-ft story-ft';
   transition: 0.5s background-color;
 
   @media screen and (max-width: 800px){
@@ -15,7 +16,8 @@
       'nav'
       'story-hero'
       'story-by'
-      'story-bd';
+      'story-bd'
+      'story-ft';
   }
 
   .story-hero {
@@ -115,6 +117,12 @@
       font-size: 3rem;
       float: left;
     }
+  }
+
+  footer{
+    grid-area: story-ft;
+    height: 30vh;
+    padding: 20vh 0 20vh 0;
   }
 }
 

@@ -1,2 +1,27 @@
-/* Footer stylings go here */
+.footer__stories{
+  font-family: $font-footer;
+  font-size: 2.5rem;
+  text-align: center;
+  
+  a{
+    text-decoration: none;
+  }
 
+  .ybr-line{
+    max-width: 30vw;
+  }
+
+  .footer__img{
+    img{
+      height: 10vh;
+    }
+  }
+}
+
+.footer__social{
+  margin-top: 15vh;  
+
+  img {
+    max-width: 15vw;
+  }
+}
