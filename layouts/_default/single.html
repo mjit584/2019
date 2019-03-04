@@ -13,16 +13,16 @@
 {{ partial "story-hero.html" (dict "background" .Params.image "heading" .Params.storyHeading "subheading" .Params.storySubheading "content" .) }}
 
 
-<div class="flex story-byline">
-  <!-- {{ partial "ybr-line.html"  . }} -->
-  <div class="byline-name" id="byline-rep">written by <br /><span>{{ .Params.Author }}</span></div>
-  <div class="byline-name" id="byline-vid">photo & video <br />
-    <span>{{ range .Params.videographer }}{{ . }}</br>{{end}}
+<div class="flex-column story-byline">
+  <div class="byline-name" id="byline-rep">written by <span>{{ .Params.Author }}</span></div>
+  <div class="byline-name" id="byline-vid">photo & video
+    <span>{{ range .Params.videographer }}{{ . }}, {{end}}
       {{ .Params.photographer }}
     </span>
   </div>
-  <div class="byline-name" id="byline-des">graphics <br /><span>{{ .Params.designer }}</span></div>
-  <div class="byline-name" id="byline-udea">UDEA contributor <br /><span>{{ .Params.udea }}</span></div>
+  <div class="byline-name" id="byline-des">graphics <span>{{ .Params.designer }}</span></div>
+  <div class="byline-name" id="byline-udea">UDEA contributor <span>{{ .Params.udea }}</span></div>
+  {{ partial "ybr-line.html" . }}
 </div>
 
 <div class="story-content">

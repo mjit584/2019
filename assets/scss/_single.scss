@@ -45,20 +45,24 @@
   
   .story-byline {
     font-family: $font-byline;
-    margin-top: 3%;
-    font-size: 18px;
+    margin-top: 5vh;
+    font-size: 1.1rem;
     align-items: flex-start;
-    justify-content: flex-start;
     font-weight: $font-weight-bold;
     grid-area: story-by;
     transition: 1s opacity;
   
-    .byline-name {
-      flex-basis: 25%;
-    }
-  
     span {
       font-weight: $font-weight-light;
+    }
+
+    .byline-name{
+      margin-bottom: $line-height-base;
+    }
+
+    .ybr-line{
+      margin-top: 1vh;
+      max-width: 10vw;
     }
   }
   
@@ -71,9 +75,11 @@
       color: $red;
     }
 
-    .story_subhead {
+    .story__subhead {
       font-family: $font-content-heading;
-      font-size: 2.8rem;
+      max-width: 50vw;
+      margin: 0 auto;
+      font-size: 2rem;
       justify-content: flex-start;
       align-items: flex-start;
 

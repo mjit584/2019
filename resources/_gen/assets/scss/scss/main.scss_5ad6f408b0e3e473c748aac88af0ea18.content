@@ -118,31 +118,35 @@ body {
       font-family: "Lato", sans-serif; }
   .story-page .story-byline {
     font-family: "Lato", sans-serif;
-    margin-top: 3%;
-    font-size: 18px;
+    margin-top: 5vh;
+    font-size: 1.1rem;
     align-items: flex-start;
-    justify-content: flex-start;
     font-weight: 700;
     grid-area: story-by;
     transition: 1s opacity; }
-    .story-page .story-byline .byline-name {
-      flex-basis: 25%; }
     .story-page .story-byline span {
       font-weight: 300; }
+    .story-page .story-byline .byline-name {
+      margin-bottom: 1.5em; }
+    .story-page .story-byline .ybr-line {
+      margin-top: 1vh;
+      max-width: 10vw; }
   .story-page .story-content {
     font-family: "Georgia", serif;
     grid-area: story-bd; }
     .story-page .story-content a {
       color: #C70032; }
-    .story-page .story-content .story_subhead {
+    .story-page .story-content .story__subhead {
       font-family: "DDinRegular", sans-serif;
-      font-size: 2.8rem;
+      max-width: 50vw;
+      margin: 0 auto;
+      font-size: 2rem;
       justify-content: flex-start;
       align-items: flex-start; }
-      .story-page .story-content .story_subhead .ybr-line {
+      .story-page .story-content .story__subhead .ybr-line {
         margin-top: 1%;
         max-width: 13vw; }
-        .story-page .story-content .story_subhead .ybr-line .ybr-section {
+        .story-page .story-content .story__subhead .ybr-line .ybr-section {
           stroke-width: 4; }
     .story-page .story-content p {
       max-width: 50vw;
@@ -751,28 +755,19 @@ a .hamburger__logo {
 .pull-quote-container {
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  margin: 0 auto; }
+  margin: 5vh 0 5vh 10%; }
   .pull-quote-container p {
-    font-size: 1.7rem;
-    max-width: 92%;
-    margin: 3vh 0; }
+    font-size: 1.5rem;
+    line-height: inherit;
+    align-self: flex-start;
+    margin: 0 0 2vh 0 !important; }
   .pull-quote-container .ybr-line {
     max-width: 30vw;
     align-self: flex-start; }
   .pull-quote-container #pull-quote__attr {
     font-family: "Lato", sans-serif;
-    font-style: italic; }
-
-.story-content .pull-quote-container {
-  margin: 20vh 0; }
-  .story-content .pull-quote-container p {
-    max-width: 75%; }
-    .story-content .pull-quote-container p:first-child {
-      margin-top: 0;
-      margin-left: 0; }
-  .story-content .pull-quote-container .absolute {
-    position: absolute;
-    left: 6%; }
+    font-style: italic;
+    align-self: flex-start; }
 
 /* scrollama */
 #scroll {

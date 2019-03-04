@@ -1,12 +1,13 @@
 .pull-quote-container {
   font-family: $font-pullquote;
   font-weight: $font-weight-bold;
-  margin: 0 auto;
+  margin: 5vh 0 5vh 10%;
 
   p {
-    font-size: 1.7rem;
-    max-width: 92%;
-    margin: 3vh 0;
+    font-size: 1.5rem;
+    line-height: inherit;
+    align-self: flex-start;
+    margin: 0 0 2vh 0 !important;
   }
 
   .ybr-line{
@@ -17,26 +18,7 @@
   #pull-quote__attr{
     font-family: $font-pullquote-name;
     font-style: italic;
+    align-self: flex-start;
   }
 }
 
-.story-content {
-  .pull-quote-container {
-    margin: 20vh 0;
-    
-    p {
-      max-width: 75%;
-
-      &:first-child {
-        margin-top: 0;
-        margin-left: 0;
-      }
-    }
-    .absolute {
-      position: absolute;
-      left: 6%;
-    }
-  }
-
- 
-}

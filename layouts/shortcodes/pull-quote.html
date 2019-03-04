@@ -5,11 +5,9 @@
 {{ $resource := $page.Resources.GetMatch (printf "**%s*" $match )}}
 {{ with $resource }}
 <div class="pull-quote-container flex-column">
-  <div class="absolute">
-    {{ .Content }}
-    {{ partial "ybr-line.html" . }}
-    <div id="pull-quote__attr">{{ .Params.name }}, {{ .Params.title }} {{ .Params.organization }}</div>
-  </div>
+  {{ .Content }}
+  {{ partial "ybr-line.html" . }}
+  <div id="pull-quote__attr">{{ .Params.name }}, {{ .Params.title }} {{ .Params.organization }}</div>
 </div>
 {{ end }}
 {{ end }}
