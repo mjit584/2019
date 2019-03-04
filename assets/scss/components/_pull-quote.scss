@@ -3,7 +3,7 @@
   font-weight: $font-weight-bold;
   margin: 0 auto;
 
-  p{
+  p {
     font-size: 1.7rem;
     max-width: 92%;
     margin: 3vh 0;
@@ -29,6 +29,7 @@
 
       &:first-child {
         margin-top: 0;
+        margin-left: 0;
       }
     }
     .absolute {
