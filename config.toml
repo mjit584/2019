@@ -12,11 +12,15 @@ canonifyURLs = "true"
   [languages.en]
     title = "Uprooted: Venezuelan Families Flee to Colombia"
     weight = "1"
+    languageName = "English"
+    languageCode = "en"
     [languages.en.params]
       
   [languages.es]
-    title = ""
+    title = " "
     weight = "2"
+    languageName = "Español"
+    languageCode = "es"
     [languages.es.params]
       
       [languages.es.params.navigation]
