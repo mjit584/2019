@@ -49,15 +49,12 @@
     font-size: 0.9rem;
     align-items: flex-start;
     font-weight: $font-weight-bold;
+    line-height: $line-height-base;
     grid-area: story-by;
     transition: 1s opacity;
   
     span {
       font-weight: $font-weight-light;
-    }
-
-    .byline-name{
-      margin-bottom: $line-height-base;
     }
 
     .ybr-line{

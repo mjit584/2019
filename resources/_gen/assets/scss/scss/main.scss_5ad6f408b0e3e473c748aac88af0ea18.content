@@ -122,12 +122,11 @@ body {
     font-size: 0.9rem;
     align-items: flex-start;
     font-weight: 700;
+    line-height: 1.5em;
     grid-area: story-by;
     transition: 1s opacity; }
     .story-page .story-byline span {
       font-weight: 300; }
-    .story-page .story-byline .byline-name {
-      margin-bottom: 1.5em; }
     .story-page .story-byline .ybr-line {
       margin-top: 1vh;
       max-width: 10vw; }
