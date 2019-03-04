@@ -101,7 +101,7 @@ body {
   @media screen and (max-width: 800px) {
     .story-page {
       grid-template-columns: 1fr;
-      grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd' 'story-int'; } }
+      grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd'; } }
 
 nav {
   grid-area: nav;
@@ -147,7 +147,7 @@ nav {
     .story-byline .byline-name:last-child {
       margin-bottom: 0; }
   .story-byline span {
-    font-weight: 400; }
+    font-weight: 300; }
 
 .story-content {
   font-family: "Georgia", serif;
@@ -428,11 +428,14 @@ nav {
 
 .video-container {
   transition: 0.1s background-color;
-  height: 80vh; }
+  height: 80vh;
+  margin: 20vh 0; }
   .video-container iframe {
     border: none !important;
     width: 100%;
-    height: 100%; }
+    height: 95%;
+    position: absolute;
+    left: 0; }
 
 .cards.darkened .card::before {
   content: "";

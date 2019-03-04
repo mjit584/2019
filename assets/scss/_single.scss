@@ -15,8 +15,7 @@
       'nav'
       'story-hero'
       'story-by'
-      'story-bd'
-      'story-int';
+      'story-bd';
   }
 }
 
@@ -81,7 +80,7 @@ nav{
   }
 
   span {
-    font-weight: $font-weight-normal;
+    font-weight: $font-weight-light;
   }
 }
 
