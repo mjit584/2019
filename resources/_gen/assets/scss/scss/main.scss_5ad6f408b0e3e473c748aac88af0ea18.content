@@ -94,9 +94,9 @@ body {
 
 .story-page {
   display: grid;
-  grid-template-columns: 6% 22% 22% 22% 22% 6%;
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'nav nav nav nav nav nav' 'story-hero story-hero story-hero story-hero story-hero story-hero' '. story-by story-bd story-bd story-bd .' '. . story-bd story-bd story-bd .' 'story-ft story-ft story-ft story-ft story-ft story-ft';
+  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .story-page {
@@ -118,20 +118,15 @@ body {
       font-family: "Lato", sans-serif; }
   .story-page .story-byline {
     font-family: "Lato", sans-serif;
+    margin-top: 3%;
     font-size: 18px;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-top: 3vw;
     font-weight: 700;
     grid-area: story-by;
     transition: 1s opacity; }
-    .story-page .story-byline .ybr-line {
-      transform: rotate(90deg); }
     .story-page .story-byline .byline-name {
-      flex-basis: 25%;
-      margin-bottom: 3rem; }
-      .story-page .story-byline .byline-name:last-child {
-        margin-bottom: 0; }
+      flex-basis: 25%; }
     .story-page .story-byline span {
       font-weight: 300; }
   .story-page .story-content {
@@ -150,6 +145,8 @@ body {
         .story-page .story-content .story_subhead .ybr-line .ybr-section {
           stroke-width: 4; }
     .story-page .story-content p {
+      max-width: 50vw;
+      line-height: 1.5em;
       margin: 2vw auto;
       transition: 1s opacity; }
       .story-page .story-content p:first-child {
@@ -165,7 +162,8 @@ body {
   .story-page footer {
     grid-area: story-ft;
     height: 30vh;
-    padding: 20vh 0 20vh 0; }
+    margin: 20vh 0;
+    padding: 20vh 0; }
 
 nav {
   grid-area: nav;
@@ -442,13 +440,11 @@ nav {
 .video-container {
   transition: 0.1s background-color;
   height: 80vh;
-  margin: 20vh 0; }
+  margin: 10vh 0; }
   .video-container iframe {
     border: none !important;
     width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0; }
+    height: 100%; }
 
 .cards.darkened .card::before {
   content: "";
@@ -808,11 +804,21 @@ a .hamburger__logo {
   font-size: 2.5rem;
   text-align: center; }
   .footer__stories a {
-    text-decoration: none; }
+    text-decoration: none;
+    width: 100%;
+    height: 100%; }
   .footer__stories .ybr-line {
     max-width: 30vw; }
-  .footer__stories .footer__img img {
-    height: 10vh; }
+
+.footer__img {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1em; }
+  .footer__img .pic {
+    height: 30vh;
+    width: 1fr;
+    background-color: #C70032; }
 
 .footer__social {
   margin-top: 15vh; }

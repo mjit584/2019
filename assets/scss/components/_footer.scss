@@ -3,18 +3,30 @@
   font-size: 2.5rem;
   text-align: center;
   
-  a{
+  a {
     text-decoration: none;
+    width: 100%;
+    height: 100%;
   }
 
-  .ybr-line{
+
+  .ybr-line {
     max-width: 30vw;
   }
 
-  .footer__img{
-    img{
-      height: 10vh;
-    }
+  
+}
+
+.footer__img{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1em;
+
+  .pic{
+    height: 30vh;
+    width: 1fr;
+    background-color: $red;
   }
 }
 
