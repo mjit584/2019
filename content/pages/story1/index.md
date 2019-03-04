@@ -29,7 +29,7 @@ Ut auctor sodales lorem, sit amet dictum risus sodales eu. Cras posuere augue at
 
 {{< vimeo id="266021099" class="video-container flex" >}}
 
-<div class="story_subhead flex-column">Long-Term Risks
+<div class="story__subhead flex-column">Long-Term Risks
   {{< ybr-line >}}
 </div>
 
