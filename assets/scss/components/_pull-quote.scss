@@ -23,9 +23,17 @@
 .story-content {
   .pull-quote-container {
     margin: 20vh 0;
+    p{
+    
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+    .absolute {
+      position: absolute;
+      left: 6%;
+    }
   }
-  .absolute {
-    position: absolute;
-    left: 6%;
-  }
+
+ 
 }

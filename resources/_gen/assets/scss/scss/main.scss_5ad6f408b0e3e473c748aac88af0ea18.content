@@ -756,10 +756,11 @@ a .hamburger__logo {
 
 .story-content .pull-quote-container {
   margin: 20vh 0; }
-
-.story-content .absolute {
-  position: absolute;
-  left: 6%; }
+  .story-content .pull-quote-container p:first-child {
+    margin-top: 0; }
+  .story-content .pull-quote-container .absolute {
+    position: absolute;
+    left: 6%; }
 
 /* scrollama */
 #scroll {
