@@ -5,8 +5,8 @@
 
   p{
     font-size: 1.7rem;
-    max-width: 80%;
-    margin: 0 0 3vh 0;
+    max-width: 92%;
+    margin: 3vh 0;
   }
 
   .ybr-line{
@@ -23,8 +23,10 @@
 .story-content {
   .pull-quote-container {
     margin: 20vh 0;
-    p{
     
+    p {
+      max-width: 75%;
+
       &:first-child {
         margin-top: 0;
       }
