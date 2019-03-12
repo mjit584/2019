@@ -65,7 +65,7 @@ body {
 
 .home #home__intro {
   grid-area: bg-vid;
-  background-image: url(../images/home.jpg); }
+  background-image: url(../images/home2.jpg); }
   .home #home__intro h1 {
     text-transform: uppercase; }
   .home #home__intro .home__logo {
