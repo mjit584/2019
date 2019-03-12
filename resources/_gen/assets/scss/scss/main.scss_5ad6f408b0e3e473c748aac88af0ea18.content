@@ -475,7 +475,7 @@ nav {
     transition: transform .3s ease .2s;
     z-index: 3; }
     .cards .card.hovered::before {
-      background-color: rgba(255, 255, 255, 0.4) !important;
+      background-color: rgba(255, 255, 255, 0.7) !important;
       z-index: 0; }
     .cards .card.hovered .card__hover .card__heading,
     .cards .card.hovered .card__hover .card__title,
