@@ -1,5 +1,5 @@
 <div class="footer__stories">
-  You may also be interested in...
+  Explore more stories
   {{partial "ybr-line.html" . }}
 
 </div>
@@ -8,7 +8,9 @@
   {{ $weight := .Params.weight }}
   {{ range $menu }}
   <a href="{{ .URL }}">
-    <div class="pic"></div>
+    <div class="pic flex">
+      <h3>{{ .Name }}</h3>
+    </div>
   </a>
   {{ end }}
 </div>
@@ -16,4 +18,9 @@
 <div class="footer__social">
   <a href="{{ .URL }}"><img src="../images/logo-footer-black.png" alt="Uprooted footer logo" /></a>
   {{ partial "ybr-line.html" . }}
+  <div class="footer__social-icons flex">
+    <a href="https://facebook.com/uprootedunc" target="_blank"><i class="fab fa-facebook-square"></i></a>
+    <a href="https://instagram.com/uprootedunc" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://twitter.com/@uprootedunc" target="_blank"><i class="fab fa-twitter"></i></a>
+  </div>
 </div>

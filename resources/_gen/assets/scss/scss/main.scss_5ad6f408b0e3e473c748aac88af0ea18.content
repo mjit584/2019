@@ -65,7 +65,7 @@ body {
 
 .home #home__intro {
   grid-area: bg-vid;
-  background-image: url(../images/home-bg.jpeg); }
+  background-image: url(../images/home.jpg); }
   .home #home__intro h1 {
     text-transform: uppercase; }
   .home #home__intro .home__logo {
@@ -165,10 +165,7 @@ body {
       font-size: 3rem;
       float: left; }
   .story-page footer {
-    grid-area: story-ft;
-    height: 30vh;
-    margin: 20vh 0;
-    padding: 20vh 0; }
+    grid-area: story-ft; }
 
 nav {
   grid-area: nav;
@@ -182,17 +179,21 @@ nav {
       justify-content: space-around;
       background-color: rgba(0, 0, 0, 0.5); } }
 
+.about .story-hero {
+  color: #ffffff;
+  height: 100vh; }
+  .about .story-hero .about__heading {
+    font-family: "DDinRegular", sans-serif;
+    margin-top: 8vh;
+    margin-bottom: 1vh; }
+  .about .story-hero .ybr-line {
+    max-width: 30vw;
+    margin-bottom: 3vh; }
+
 .about .about__intro {
   padding-top: 2%; }
   .about .about__intro p {
     max-width: 50vw; }
-  .about .about__intro .about__heading {
-    font-family: "DDinRegular", sans-serif;
-    margin-top: 8vh;
-    margin-bottom: 1vh; }
-  .about .about__intro .ybr-line {
-    max-width: 10vw;
-    margin-bottom: 3vh; }
 
 .about .about__filter {
   font-family: "Lato", sans-serif;
@@ -795,30 +796,32 @@ a .hamburger__logo {
   color: #ffffff;
   transition: color 1s; }
 
-.footer__stories {
-  font-family: "DDinBold", sans-serif;
-  font-size: 2.5rem;
-  text-align: center; }
-  .footer__stories a {
-    text-decoration: none;
+footer {
+  height: 30vh;
+  margin: 20vh 0;
+  padding: 20vh 0; }
+  footer .footer__stories {
+    font-family: "DDinBold", sans-serif;
+    font-size: 2.5rem;
+    text-align: center; }
+    footer .footer__stories a {
+      text-decoration: none;
+      width: 100%;
+      height: 100%; }
+    footer .footer__stories .ybr-line {
+      max-width: 30vw; }
+  footer .footer__img {
     width: 100%;
-    height: 100%; }
-  .footer__stories .ybr-line {
-    max-width: 30vw; }
-
-.footer__img {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 1em; }
-  .footer__img .pic {
-    height: 30vh;
-    width: 1fr;
-    background-color: #C70032; }
-
-.footer__social {
-  margin-top: 15vh; }
-  .footer__social img {
-    max-width: 15vw; }
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1em; }
+    footer .footer__img .pic {
+      height: 30vh;
+      width: 1fr;
+      background-color: #C70032; }
+  footer .footer__social {
+    margin-top: 15vh; }
+    footer .footer__social img {
+      max-width: 15vw; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,21 +1,29 @@
 .about{
 
-  .about__intro{
-    padding-top: 2%;
-    p{
-      max-width: 50vw;
-    }
+  .story-hero {
+    color: $white;
+    height: 100vh;
 
-    .about__heading{
+    .about__heading {
       font-family: $font-content-heading;
       margin-top: 8vh;
       margin-bottom: 1vh;
     }
 
-    .ybr-line{
-      max-width: 10vw;
+    .ybr-line {
+      max-width: 30vw;
       margin-bottom: 3vh;
     }
+  }
+
+  .about__intro {
+    padding-top: 2%;
+    
+    p {
+      max-width: 50vw;
+    }
+
+    
   }
 
   .about__filter{
