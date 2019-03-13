@@ -6,8 +6,8 @@ date: 2019-02-06T13:14:40-05:00
 draft: false
 author: 'Brooke Fisher'
 card: true
-layout: 'interactive'
 image: 'images/cards-interactive.jpeg'
+layout: 'interactive'
 weight: 6
 ---
 

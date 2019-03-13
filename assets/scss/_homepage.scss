@@ -52,14 +52,27 @@
 
   #home__intro {
     grid-area: bg-vid;
-    background-image: url(../images/home2.jpg);
+    background-image: linear-gradient(
+      rgba(8, 19, 58, 0.3),
+      rgba(8, 19, 58, 0.3)
+      ), url(../images/home5.JPG);
+
   
     h1 {
       text-transform: uppercase;
     }
+
+    h2 {
+      font-size: 1.8rem;
+    }
+
+    p {
+      line-height: $line-height-base;
+      font-size: 1.18rem;
+    }
   
     .home__logo{
-      max-width: 35vw;
+      max-width: 40vw;
       height: auto;
 
       @media screen and (max-width: 800px) {
