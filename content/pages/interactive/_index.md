@@ -7,7 +7,6 @@ draft: false
 author: 'Brooke Fisher'
 card: true
 image: 'images/cards-interactive.jpeg'
-layout: 'interactive'
 weight: 6
 ---
 
