@@ -2,10 +2,9 @@
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 100vh auto;
+  grid-template-rows: 100vh;
   grid-template-areas:
-    'chap1 chap2 chap3 chap4'
-    'ft ft ft ft';
+    'chap1 chap2 chap3 chap4';
   
   
   #chap1 {
@@ -27,9 +26,5 @@
   #chap4 {
     grid-area: chap4;
     background-color: $red;
-  }
-
-  footer {
-    grid-area: ft;
   }
 }

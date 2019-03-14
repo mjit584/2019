@@ -274,8 +274,8 @@ nav {
 .interactive {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 100vh auto;
-  grid-template-areas: 'chap1 chap2 chap3 chap4' 'ft ft ft ft'; }
+  grid-template-rows: 100vh;
+  grid-template-areas: 'chap1 chap2 chap3 chap4'; }
   .interactive #chap1 {
     grid-area: chap1;
     background-image: url(../images/home2.jpg);
@@ -289,8 +289,6 @@ nav {
   .interactive #chap4 {
     grid-area: chap4;
     background-color: #C70032; }
-  .interactive footer {
-    grid-area: ft; }
 
 /*!
  * Hamburgers
