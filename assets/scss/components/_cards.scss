@@ -29,7 +29,7 @@
 
     // Add color overlay to hovered card
     &::before {
-      background-color: rgba(255, 255, 255, 0.7)!important;
+      background-color: rgba(255, 255, 255, 0.65)!important;
       z-index: 0;
     }
 
@@ -128,7 +128,6 @@
 
     // Display images behind card text
     .card__img {
-      position: absolute;
       margin: auto;
       width: 100%;
       height: 100%;
