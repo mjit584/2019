@@ -1,0 +1,30 @@
+.interactive {
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100vh;
+  grid-template-areas:
+    'chap1 chap2 chap3 chap4';
+  
+  
+  #chap1 {
+    grid-area: chap1;
+    background-image: url(../images/home2.jpg);
+    background-size: cover;
+  }
+
+  #chap2 {
+    grid-area: chap2;
+    background-color: $blue;
+  }
+
+  #chap3 {
+    grid-area: chap3;
+    background-color: $yellow;
+  }
+  
+  #chap4 {
+    grid-area: chap4;
+    background-color: $red;
+  }
+}

@@ -6,9 +6,9 @@ date: 2019-02-06T13:14:40-05:00
 draft: false
 author: 'Brooke Fisher'
 card: true
-layout: 'interactive'
 image: 'images/cards-interactive.jpeg'
 weight: 6
+layout: 'interactive'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lectus non sem scelerisque elementum. Sed tempor velit non urna lobortis sodales. Nunc vitae lectus sed justo eleifend lacinia sed nec mauris. Quisque pulvinar lorem sed neque sodales, vitae ultricies arcu eleifend. Sed suscipit est nulla, efficitur varius libero ultricies at. Nullam a mollis dui. Donec a felis sapien. Aliquam euismod nec ipsum sit amet consequat. Quisque faucibus arcu at sem congue, eget hendrerit turpis euismod. Praesent eleifend enim sit amet elit viverra, non volutpat diam tempor. Vivamus tempor nisi eget ultrices tristique. Morbi vitae pharetra felis, et faucibus magna. Quisque venenatis, lacus sit amet finibus ornare, massa ante facilisis sapien, quis tempor dui mauris sit amet urna.

@@ -55,11 +55,16 @@ body {
     height: 200vh; } }
 
 .home #home__intro {
-  background-image: url(../images/home.jpg); }
+  background-image: linear-gradient(rgba(8, 19, 58, 0.3), rgba(8, 19, 58, 0.3)), url(../images/home5.JPG); }
   .home #home__intro h1 {
     text-transform: uppercase; }
+  .home #home__intro h2 {
+    font-size: 1.8rem; }
+  .home #home__intro p {
+    line-height: 1.5em;
+    font-size: 1.18rem; }
   .home #home__intro .home__logo {
-    max-width: 35vw;
+    max-width: 40vw;
     height: auto; }
     @media screen and (max-width: 800px) {
       .home #home__intro .home__logo {
@@ -263,6 +268,24 @@ nav {
   .about .about__thanks .about__heading {
     font-family: "DDinRegular", sans-serif; }
 
+.interactive {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100vh;
+  grid-template-areas: 'chap1 chap2 chap3 chap4'; }
+  .interactive #chap1 {
+    grid-area: chap1;
+    background-image: url(../images/home2.jpg);
+    background-size: cover; }
+  .interactive #chap2 {
+    grid-area: chap2;
+    background-color: #1457D3; }
+  .interactive #chap3 {
+    grid-area: chap3;
+    background-color: #Fbbc00; }
+  .interactive #chap4 {
+    grid-area: chap4;
+    background-color: #C70032; }
 /*!
  * Hamburgers
  * @description Tasty CSS-animated hamburgers
