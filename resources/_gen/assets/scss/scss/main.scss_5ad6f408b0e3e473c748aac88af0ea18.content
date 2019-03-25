@@ -28,17 +28,8 @@ body {
   margin: 0 auto; }
 
 .home .home__scroll {
-  display: grid;
   color: #ffffff;
-  grid-template-columns: repeat(8, auto);
-  grid-template-rows: repeat(3, 100vh);
-  grid-template-areas: 'bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid' 'menu menu menu menu menu menu menu menu' 'int int int int int int int int';
-  line-height: 1.5em; }
-  @media screen and (max-width: 800px) {
-    .home .home__scroll {
-      grid-template-columns: 100vw;
-      grid-template-rows: 100vh, 80vh, 80vh, 80vh, 100vh;
-      grid-template-areas: 'bg-vid' 'menu' 'menu' 'menu' 'int'; } }
+  height: 100%; }
 
 @media screen and (max-width: 800px) {
   .home nav {
@@ -64,7 +55,6 @@ body {
     height: 200vh; } }
 
 .home #home__intro {
-  grid-area: bg-vid;
   background-image: url(../images/home.jpg); }
   .home #home__intro h1 {
     text-transform: uppercase; }
@@ -86,10 +76,9 @@ body {
     max-width: 65vw; }
 
 .home #home__cards {
-  grid-area: menu; }
+  margin-bottom: 600px; }
 
 .home #home__about {
-  grid-area: int;
   background-image: url(../images/medellin.jpg); }
 
 .story-page {
@@ -475,7 +464,7 @@ nav {
     transition: transform .3s ease .2s;
     z-index: 3; }
     .cards .card.hovered::before {
-      background-color: rgba(255, 255, 255, 0.7) !important;
+      background-color: rgba(255, 255, 255, 0.65) !important;
       z-index: 0; }
     .cards .card.hovered .card__hover .card__heading,
     .cards .card.hovered .card__hover .card__title,
@@ -528,7 +517,6 @@ nav {
     .cards .card:active .card__base .card__title {
       opacity: 0; }
     .cards .card .card__img {
-      position: absolute;
       margin: auto;
       width: 100%;
       height: 100%;

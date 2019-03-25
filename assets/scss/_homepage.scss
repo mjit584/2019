@@ -1,25 +1,7 @@
 .home {
   .home__scroll {
-    display: grid;
     color: $white;
-    grid-template-columns: repeat(8, auto);
-    grid-template-rows: repeat(3, 100vh);
-    grid-template-areas:
-      'bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid'
-      'menu menu menu menu menu menu menu menu'
-      'int int int int int int int int';
-    line-height: $line-height-base;
-
-    @media screen and (max-width:800px){
-      grid-template-columns: 100vw;
-      grid-template-rows: 100vh, 80vh, 80vh, 80vh, 100vh;
-      grid-template-areas:
-        'bg-vid'
-        'menu'
-        'menu'
-        'menu'
-        'int';
-    }
+    height: 100%;
   }
 
   nav{
@@ -51,7 +33,6 @@
   }
 
   #home__intro {
-    grid-area: bg-vid;
     background-image: url(../images/home.jpg);
   
     h1 {
@@ -86,11 +67,10 @@
   }
 
   #home__cards {
-    grid-area: menu;
+    margin-bottom: 600px;
   }
   
   #home__about {
-    grid-area: int;
     background-image: url(../images/medellin.jpg);
   }
 }
