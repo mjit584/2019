@@ -1,14 +1,29 @@
 {{ define "header_css" }}{{ end }}
-{{ define "body_classes" }}{{ .Title }}{{ end }}
+{{ define "body_classes" }}interactive{{ end }}
 {{ define "header_classes" }}{{ end }}
 
 {{ define "main" }}
-<div class="header" id="header">
+<header class="header" id="header">
   {{ partial "header.html" . }}
-</div>
-This is the Interactive layout
+</header>
 
-<div class="content">
-  {{ .Content }}
-</div>
+<div id="chap1" class="interactive__chap1"></div>
+<div id="chap2" class="interactive__chap2"></div>
+<div id="chap3" class="interactive__chap3"></div>
+<div id="chap4" class="interactive__chap4"></div>
+{{ end }}
+
+{{ define "scripts" }}
+{{ $scripts := resources.Get "js/scripts.js" }}
+{{ $header := resources.Get "js/header.js" }}
+{{ $hamburger := resources.Get "js/hamburger.js" }}
+{{ $interactiveBundle := slice $scripts $header $hamburger | resources.Concat "js/interactiveBundle.js" }}
+{{ if .Site.IsServer }}
+<script type="text/javascript" src="{{ $interactiveBundle.RelPermalink }}">
+</script>
+{{ else }}
+<script type="text/javascript" src="{{ ($interactiveBundle | minify | fingerprint).RelPermalink }}"></script>
+{{ end }}
+{{ block "footer_js" . }}
+{{ end }}
 {{ end }}
