@@ -1,0 +1,5 @@
+$(function(){console.log('Hello world');});console.log('testing to make sure headers.js is linked up');var prevScrollpos=window.pageYOffset;window.onscroll=function(){var currentScrollPos=window.pageYOffset;if(prevScrollpos>currentScrollPos){document.getElementById("header").style.top="0";}else{document.getElementById("header").style.top="-75px";}
+prevScrollpos=currentScrollPos;}
+var storyDropdown=document.getElementById('header__story-dropdown');var mainMenu=document.getElementById('main-menu');storyDropdown.onmouseenter=function(){storyDropdown.classList.toggle('is-active');mainMenu.classList.toggle('open');}
+storyDropdown.onmouseleave=function(){storyDropdown.classList.toggle('is-active');mainMenu.classList.toggle('open');}
+var body=document.querySelector('body');var menuTrigger=document.querySelector('#toggle-main-menu-mobile');var menuContainer=document.querySelector('#main-menu-mobile');menuTrigger.onclick=function(){menuContainer.classList.toggle('open');menuTrigger.classList.toggle('is-active');body.classList.toggle('lock-scroll');}
