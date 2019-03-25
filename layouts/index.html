@@ -16,8 +16,8 @@ families and their adjustments to living in Medellín, Colombia.{{ end}}
 {{ end }}
 
 {{ define "main"}}
-<div class="home__scroll" id="fullpage">
-  <div class="section flex-column bg-cover bg-position-center" id="home__intro">
+<div class="home__scroll">
+  <section class="panel flex-column bg-cover bg-position-center" id="home__intro">
     <nav>
       <!--full screen-->
       <div class="header header--white" id="header">
@@ -31,13 +31,13 @@ families and their adjustments to living in Medellín, Colombia.{{ end}}
     {{ partial "ybr-line.html" . }}
     <h2 class="home__subtitle">{{ .Params.Subtitle }}</h2>
     <div class="home__desc">{{ .Content }}</div>
-  </div>
-  <div class="section" id="home__cards">
+  </section>
+  <section class="panel" id="home__cards">
     {{ partial "home-cards.html" . }}
-  </div>
-  <div class="section flex bg-cover bg-position-center" id="home__about">
+  </section>
+  <section class="panel flex bg-cover bg-position-center" id="home__about">
     {{ partial "home-about.html" . }}
-  </div>
+  </section>
 </div>
 
 {{ end }}
@@ -45,12 +45,11 @@ families and their adjustments to living in Medellín, Colombia.{{ end}}
 {{ define "scripts" }}
 
 {{ $scripts := resources.Get "js/scripts.js" }}
-{{ $fullpage := resources.Get "js/fullpage.js" }}
 {{ $cards := resources.Get "js/cards.js" }}
 {{ $homepage := resources.Get "js/homepage.js" }}
 {{ $header := resources.Get "js/header.js" }}
 {{ $hamburger := resources.Get "js/hamburger.js"}}
-{{ $homepageBundle := slice $scripts $fullpage $cards $homepage $header $hamburger | resources.Concat "js/homepageBundle.js" }}
+{{ $homepageBundle := slice $scripts $cards $homepage $header $hamburger | resources.Concat "js/homepageBundle.js" }}
 
 {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $homepageBundle.RelPermalink }}"></script>

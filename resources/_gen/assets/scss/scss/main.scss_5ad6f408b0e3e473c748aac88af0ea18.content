@@ -28,17 +28,8 @@ body {
   margin: 0 auto; }
 
 .home .home__scroll {
-  display: grid;
   color: #ffffff;
-  grid-template-columns: repeat(8, auto);
-  grid-template-rows: repeat(3, 100vh);
-  grid-template-areas: 'bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid bg-vid' 'menu menu menu menu menu menu menu menu' 'int int int int int int int int';
-  line-height: 1.5em; }
-  @media screen and (max-width: 800px) {
-    .home .home__scroll {
-      grid-template-columns: 100vw;
-      grid-template-rows: 100vh, 80vh, 80vh, 80vh, 100vh;
-      grid-template-areas: 'bg-vid' 'menu' 'menu' 'menu' 'int'; } }
+  height: 100%; }
 
 @media screen and (max-width: 800px) {
   .home nav {
@@ -64,7 +55,6 @@ body {
     height: 200vh; } }
 
 .home #home__intro {
-  grid-area: bg-vid;
   background-image: linear-gradient(rgba(8, 19, 58, 0.3), rgba(8, 19, 58, 0.3)), url(../images/home5.JPG); }
   .home #home__intro h1 {
     text-transform: uppercase; }
@@ -91,22 +81,29 @@ body {
     max-width: 65vw; }
 
 .home #home__cards {
-  grid-area: menu; }
+  margin-bottom: 600px; }
 
 .home #home__about {
-  grid-area: int;
   background-image: url(../images/medellin.jpg); }
 
 .story-page {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
+  grid-template-areas: 'nav nav nav nav'
+ 'story-hero story-hero story-hero story-hero'
+ '. story-by story-by .'
+ 'story-bd story-bd story-bd story-bd'
+ 'story-ft story-ft story-ft story-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .story-page {
       grid-template-columns: 1fr;
-      grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd' 'story-ft'; } }
+      grid-template-areas: 'nav'
+ 'story-hero'
+ 'story-by'
+ 'story-bd'
+ 'story-ft'; } }
   .story-page .story-hero {
     color: #ffffff;
     height: 100vh;
@@ -289,7 +286,6 @@ nav {
   .interactive #chap4 {
     grid-area: chap4;
     background-color: #C70032; }
-
 /*!
  * Hamburgers
  * @description Tasty CSS-animated hamburgers
@@ -499,7 +495,7 @@ nav {
     transition: transform .3s ease .2s;
     z-index: 3; }
     .cards .card.hovered::before {
-      background-color: rgba(255, 255, 255, 0.7) !important;
+      background-color: rgba(255, 255, 255, 0.65) !important;
       z-index: 0; }
     .cards .card.hovered .card__hover .card__heading,
     .cards .card.hovered .card__hover .card__title,
@@ -552,7 +548,6 @@ nav {
     .cards .card:active .card__base .card__title {
       opacity: 0; }
     .cards .card .card__img {
-      position: absolute;
       margin: auto;
       width: 100%;
       height: 100%;
@@ -658,7 +653,8 @@ nav {
     display: grid;
     background: rgba(255, 255, 255, 0.9);
     text-align: center;
-    grid-template-areas: 'ybr-line ybr-line ybr-line ybr-line ybr-line ybr-line' 'story1 story2 story3 story4 story5 interactive'; }
+    grid-template-areas: 'ybr-line ybr-line ybr-line ybr-line ybr-line ybr-line'
+ 'story1 story2 story3 story4 story5 interactive'; }
     .main-menu.open .ybr-line {
       grid-area: ybr-line;
       padding-bottom: 2%; }
