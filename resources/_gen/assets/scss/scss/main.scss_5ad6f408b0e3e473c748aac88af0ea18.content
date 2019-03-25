@@ -85,20 +85,12 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'nav nav nav nav'
- 'story-hero story-hero story-hero story-hero'
- '. story-by story-by .'
- 'story-bd story-bd story-bd story-bd'
- 'story-ft story-ft story-ft story-ft';
+  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .story-page {
       grid-template-columns: 1fr;
-      grid-template-areas: 'nav'
- 'story-hero'
- 'story-by'
- 'story-bd'
- 'story-ft'; } }
+      grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd' 'story-ft'; } }
   .story-page .story-hero {
     color: #ffffff;
     height: 100vh;
@@ -630,8 +622,7 @@ nav {
     display: grid;
     background: rgba(255, 255, 255, 0.9);
     text-align: center;
-    grid-template-areas: 'ybr-line ybr-line ybr-line ybr-line ybr-line ybr-line'
- 'story1 story2 story3 story4 story5 interactive'; }
+    grid-template-areas: 'ybr-line ybr-line ybr-line ybr-line ybr-line ybr-line' 'story1 story2 story3 story4 story5 interactive'; }
     .main-menu.open .ybr-line {
       grid-area: ybr-line;
       padding-bottom: 2%; }
