@@ -24,6 +24,9 @@
   align-items: center;
   justify-content: center; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   margin: 0 auto; }
 
@@ -56,13 +59,6 @@ body {
 
 .home #home__intro {
   background-image: linear-gradient(rgba(8, 19, 58, 0.3), rgba(8, 19, 58, 0.3)), url(../images/home5.JPG); }
-  .home #home__intro h1 {
-    text-transform: uppercase; }
-  .home #home__intro h2 {
-    font-size: 1.8rem; }
-  .home #home__intro p {
-    line-height: 1.5em;
-    font-size: 1.18rem; }
   .home #home__intro .home__logo {
     max-width: 40vw;
     height: auto; }
@@ -70,15 +66,44 @@ body {
       .home #home__intro .home__logo {
         display: none; } }
   .home #home__intro .ybr-line {
-    max-width: 18vw; }
+    width: 100%;
+    margin-top: -5px;
+    max-width: 26vw; }
     @media screen and (max-width: 800px) {
       .home #home__intro .ybr-line {
         display: none; } }
   .home #home__intro .home__subtitle {
-    font-family: "Playfair Display", serif; }
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin: 0 25px 25px 25px;
+    text-align: center; }
+    @media screen and (max-width: 800px) {
+      .home #home__intro .home__subtitle {
+        margin: 25px; } }
   .home #home__intro .home__desc {
     font-family: "Lato", sans-serif;
-    max-width: 65vw; }
+    max-width: 55vw;
+    line-height: 1.5em;
+    font-size: .9rem; }
+    @media screen and (max-width: 800px) {
+      .home #home__intro .home__desc {
+        max-width: 80vw; } }
+  .home #home__intro .home__explore {
+    font-family: "DDinExpBold", sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    text-transform: uppercase; }
+    .home #home__intro .home__explore p {
+      margin-bottom: 10px; }
+    .home #home__intro .home__explore i {
+      color: #ffffff;
+      width: 25px;
+      height: 25px;
+      background: #C70032;
+      border-radius: 100%;
+      padding: 6px 3px 0px 3px;
+      margin: 0 auto; }
 
 .home #home__about {
   background: #ffffff;
@@ -576,8 +601,7 @@ nav {
       font-size: 1rem;
       line-height: 1rem; }
     .cards .card .ybr-line {
-      max-width: 80px;
-      margin-bottom: 10px; }
+      max-width: 80px; }
       .cards .card .ybr-line .ybr-section {
         stroke-width: 5; }
     .cards .card .card__title {
@@ -596,7 +620,7 @@ nav {
       text-transform: uppercase;
       background-color: #C70032;
       border-radius: 30px;
-      height: 25px;
+      height: 28px;
       width: 25px;
       padding: 0 5px;
       overflow: hidden;
@@ -604,7 +628,7 @@ nav {
       margin: 0 auto; }
     .cards .card .card__button a {
       position: absolute;
-      top: 0;
+      top: 5px;
       right: 10px;
       color: #ffffff;
       text-decoration: none; }

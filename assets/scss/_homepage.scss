@@ -38,19 +38,6 @@
       rgba(8, 19, 58, 0.3)
       ), url(../images/home5.JPG);
   
-    h1 {
-      text-transform: uppercase;
-    }
-
-    h2 {
-      font-size: 1.8rem;
-    }
-
-    p {
-      line-height: $line-height-base;
-      font-size: 1.18rem;
-    }
-  
     .home__logo{
       max-width: 40vw;
       height: auto;
@@ -61,7 +48,9 @@
     }
     
     .ybr-line{
-      max-width: 18vw;
+      width: 100%;
+      margin-top: -5px;
+      max-width: 26vw;
       
       @media screen and (max-width: 800px) {
         display: none;
@@ -70,11 +59,46 @@
   
     .home__subtitle {
       font-family: $font-hero-subtitle;
+      font-weight: $font-weight-normal;
+      font-size: 1.8rem;
+      margin: 0 25px 25px 25px;
+      text-align: center;
+
+      @media screen and (max-width: 800px) {
+        margin: 25px;
+      }
     }
   
     .home__desc {
       font-family: $font-hero-desc;
-      max-width: 65vw;
+      max-width: 55vw;
+      line-height: $line-height-base;
+      font-size: .9rem;
+
+      @media screen and (max-width: 800px) {
+        max-width: 80vw;
+      }
+    }
+
+    .home__explore {
+      font-family: $font-button;
+      font-size: 1.3rem;
+      text-align: center;
+      text-transform: uppercase;
+
+      p {
+        margin-bottom: 10px;
+      }
+
+      i {
+        color: $white;
+        width: 25px;
+        height: 25px;
+        background: $red;
+        border-radius: 100%;
+        padding: 6px 3px 0px 3px;
+        margin: 0 auto;
+      }
     }
   }
   

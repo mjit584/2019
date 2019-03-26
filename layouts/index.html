@@ -31,6 +31,10 @@ families and their adjustments to living in Medellín, Colombia.{{ end}}
     {{ partial "ybr-line.html" . }}
     <h2 class="home__subtitle">{{ .Params.Subtitle }}</h2>
     <div class="home__desc">{{ .Content }}</div>
+    <div class="home__explore">
+      <p>Explore</p>
+      <a href="#home__cards"><i class="fas fa-chevron-down"></i></a>
+    </div>
   </section>
   <section class="panel" id="home__cards">
     {{ partial "home-cards.html" . }}
