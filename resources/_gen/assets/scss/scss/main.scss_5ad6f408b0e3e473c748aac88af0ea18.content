@@ -328,6 +328,110 @@ nav {
     grid-area: chap4;
     background-color: #C70032; }
 
+.chap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
+  transition: 0.5s background-color; }
+  @media screen and (max-width: 800px) {
+    .chap {
+      grid-template-columns: 1fr;
+      grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd' 'story-ft'; } }
+  .chap .story-hero {
+    color: #ffffff;
+    height: 100vh;
+    grid-area: story-hero;
+    background-color: #Fbbc00;
+    transition: 1s opacity; }
+    .chap .story-hero .story-hero__title {
+      font-family: "DDinBold", sans-serif;
+      font-size: 3rem;
+      margin-bottom: 1%; }
+    .chap .story-hero .ybr-line {
+      max-width: 30vw; }
+    .chap .story-hero .story-hero__desc {
+      font-family: "Lato", sans-serif; }
+  .chap .story-byline {
+    font-family: "Lato", sans-serif;
+    margin-top: 6vh;
+    font-size: 0.9rem;
+    align-items: flex-start;
+    font-weight: 700;
+    line-height: 1.5em;
+    grid-area: story-by;
+    transition: 1s opacity;
+    margin-bottom: 6vh; }
+    .chap .story-byline span {
+      font-weight: 300; }
+    .chap .story-byline .ybr-line {
+      margin-top: 1vh;
+      max-width: 10vw; }
+  .chap .story-content {
+    font-family: "Georgia", serif;
+    grid-area: story-bd; }
+    .chap .story-content a {
+      color: #C70032; }
+    .chap .story-content .photo-left-vertical, .chap .story-content .photo-right-vertical {
+      display: flex;
+      margin-bottom: 6vh;
+      flex-wrap: wrap; }
+      .chap .story-content .photo-left-vertical p, .chap .story-content .photo-right-vertical p {
+        margin-top: 0; }
+      .chap .story-content .photo-left-vertical .left__photo, .chap .story-content .photo-left-vertical .right__photo, .chap .story-content .photo-right-vertical .left__photo, .chap .story-content .photo-right-vertical .right__photo {
+        flex-basis: 50%; }
+      .chap .story-content .photo-left-vertical .left__photo img, .chap .story-content .photo-left-vertical .right__photo img, .chap .story-content .photo-right-vertical .left__photo img, .chap .story-content .photo-right-vertical .right__photo img {
+        max-width: 90%; }
+      .chap .story-content .photo-left-vertical .left__content, .chap .story-content .photo-left-vertical .right__content, .chap .story-content .photo-right-vertical .left__content, .chap .story-content .photo-right-vertical .right__content {
+        flex-basis: 50%; }
+      .chap .story-content .photo-left-vertical .left__content, .chap .story-content .photo-right-vertical .left__content {
+        justify-content: flex-start;
+        align-items: flex-start; }
+      .chap .story-content .photo-left-vertical .right__content, .chap .story-content .photo-right-vertical .right__content {
+        justify-content: flex-start;
+        align-items: flex-end; }
+    .chap .story-content .story__subhead {
+      font-family: "DDinRegular", sans-serif;
+      max-width: 50vw;
+      margin: 0 auto;
+      font-size: 2rem;
+      justify-content: flex-start;
+      align-items: flex-start;
+      max-width: 50%;
+      margin: 0 auto; }
+      .chap .story-content .story__subhead .ybr-line {
+        margin-top: 1%;
+        max-width: 10vw; }
+        .chap .story-content .story__subhead .ybr-line .ybr-section {
+          stroke-width: 4; }
+    .chap .story-content p {
+      max-width: 50vw;
+      line-height: 1.5em;
+      margin: 2vw auto;
+      transition: 1s opacity; }
+      @media screen and (max-width: 800px) {
+        .chap .story-content p {
+          max-width: 90vw; } }
+    .chap .story-content .ybr-line {
+      transition: 1s opacity; }
+    .chap .story-content .drop-cap:first-letter {
+      font-size: 3rem;
+      float: left; }
+  .chap footer {
+    grid-area: story-ft; }
+
+nav {
+  grid-area: nav;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.3); }
+  @media screen and (max-width: 800px) {
+    nav {
+      width: 100vw;
+      justify-content: space-around;
+      background-color: rgba(0, 0, 0, 0.5); } }
+
 /*!
  * Hamburgers
  * @description Tasty CSS-animated hamburgers

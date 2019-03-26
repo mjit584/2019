@@ -1,0 +1,51 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}chap {{ .Title | lower }}{{ end }}
+{{ define "main" }}
+{{ partial "main-menu-mobile.html" . }}
+<nav>
+  <!--full screen-->
+  <div class="header" id="header">
+    {{ partial "header.html" . }}
+  </div>
+  <!--hamburger-->
+  {{ partial "hamburger.html" . }}
+</nav>
+{{ partial "story-hero.html" (dict "background" .Params.image "heading" .Params.storyHeading "subheading" .Params.storySubheading "content" .) }}
+
+
+<div class="flex-column story-byline">
+  <div class="byline-name" id="byline-vid">photos
+    <span>{{ range .Params.photographer }}{{ . }}, {{end}}
+    </span>
+  </div>
+  <div class="byline-name" id="byline-des">graphics <span>{{ .Params.designer }}</span></div>
+  <div class="byline-name" id="byline-udea">field producers <span>{{ range .Params.udea }}{{ . }}, {{end}}</span></div>
+  {{ partial "ybr-line.html" . }}
+</div>
+
+<div class="story-content">
+  {{ .Content }}
+</div>
+
+<footer class="flex-column">
+  {{ partial "footer.html" . }}
+</footer>
+{{ end }}
+
+{{ define "scripts" }}
+
+{{ $scripts := resources.Get "js/scripts.js" }}
+{{ $header := resources.Get "js/header.js" }}
+{{ $videos := resources.Get "js/videos.js" }}
+{{ $scrollytelly := resources.Get "js/story1-scrollytelly.js" }}
+{{ $hamburger := resources.Get "js/hamburger.js"}}
+{{ $storypageBundle := slice $scripts $header $videos $scrollytelly $hamburger | resources.Concat "js/storypageBundle.js" }}
+{{ block "footer_js" . }}{{ end }}
+
+{{ if .Site.IsServer }}
+<script type="text/javascript" src="{{ $storypageBundle.RelPermalink }}"></script>
+{{ else }}
+<script type="text/javascript" src="{{ ($storypageBundle | minify | fingerprint).RelPermalink }}"></script>
+{{ end }}
+
+{{ end }}
