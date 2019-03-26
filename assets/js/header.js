@@ -12,6 +12,8 @@ window.onscroll = function () {
     document.getElementById("header").style.top = "-75px";
   }
   prevScrollpos = currentScrollPos;
+
+  fillProgress();
 }
 
 

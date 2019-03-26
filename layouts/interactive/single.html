@@ -14,7 +14,7 @@
 
 
 <div class="flex-column story-byline">
-  <div class="byline-name" id="byline-vid">photos
+  <div class="byline-name">photos
     <span>{{ range .Params.photographer }}{{ . }}, {{end}}
     </span>
   </div>
@@ -23,8 +23,12 @@
   {{ partial "ybr-line.html" . }}
 </div>
 
-<div class="story-content">
+<div class="photo__content">
   {{ .Content }}
+</div>
+
+<div class="photo__progress">
+  <div class="progress__bar" id="photo-bar"></div>
 </div>
 
 <footer class="flex-column">
@@ -33,19 +37,17 @@
 {{ end }}
 
 {{ define "scripts" }}
-
 {{ $scripts := resources.Get "js/scripts.js" }}
 {{ $header := resources.Get "js/header.js" }}
-{{ $videos := resources.Get "js/videos.js" }}
-{{ $scrollytelly := resources.Get "js/story1-scrollytelly.js" }}
 {{ $hamburger := resources.Get "js/hamburger.js"}}
-{{ $storypageBundle := slice $scripts $header $videos $scrollytelly $hamburger | resources.Concat "js/storypageBundle.js" }}
+{{ $progressBar := resources.Get "js/progressBar.js" }}
+{{ $intChapPageBundle := slice $scripts $header $hamburger $progressBar | resources.Concat "js/intChapPageBundle.js" }}
 {{ block "footer_js" . }}{{ end }}
 
 {{ if .Site.IsServer }}
-<script type="text/javascript" src="{{ $storypageBundle.RelPermalink }}"></script>
+<script type="text/javascript" src="{{ $intChapPageBundle.RelPermalink }}"></script>
 {{ else }}
-<script type="text/javascript" src="{{ ($storypageBundle | minify | fingerprint).RelPermalink }}"></script>
+<script type="text/javascript" src="{{ ($intChapPageBundle | minify | fingerprint).RelPermalink }}"></script>
 {{ end }}
 
 {{ end }}
