@@ -77,12 +77,45 @@
       max-width: 65vw;
     }
   }
-
-  #home__cards {
-    margin-bottom: 600px;
-  }
   
   #home__about {
-    background-image: url(../images/medellin.jpg);
+    background: $white;
+    color: $black;
+    height: 800px;
+    display: grid;
+    padding-top: 2%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:
+      'story-bd story-bd story-bd story-bd'
+      'story-ft story-ft story-ft story-ft';
+    transition: 0.5s background-color;
+
+    @media screen and (max-width: 800px){
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        'story-bd'
+        'story-ft';
+    }
+
+    .about-content {
+      font-family: $font-content-body;
+      grid-area: story-bd;
+
+      p {
+        max-width: 50vw;
+        line-height: $line-height-base;
+        margin: 2vw auto;
+        transition: 1s opacity;
+    
+        &:first-child{
+          margin-top:3vw;
+        }
+    
+        @media screen and (max-width: 800px){
+          max-width: 90vw;
+        }
+      }
+    }
   }
 }

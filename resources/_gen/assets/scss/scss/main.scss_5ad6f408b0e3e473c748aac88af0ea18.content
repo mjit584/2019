@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Lato");
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:700");
 @font-face {
   font-family: DDinBold;
   src: url("../fonts/d-din/d-din-bold.otf"); }
@@ -80,11 +80,33 @@ body {
     font-family: "Lato", sans-serif;
     max-width: 65vw; }
 
-.home #home__cards {
-  margin-bottom: 600px; }
-
 .home #home__about {
-  background-image: url(../images/medellin.jpg); }
+  background: #ffffff;
+  color: #333333;
+  height: 800px;
+  display: grid;
+  padding-top: 2%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas: 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
+  transition: 0.5s background-color; }
+  @media screen and (max-width: 800px) {
+    .home #home__about {
+      grid-template-columns: 1fr;
+      grid-template-areas: 'story-bd' 'story-ft'; } }
+  .home #home__about .about-content {
+    font-family: "Georgia", serif;
+    grid-area: story-bd; }
+    .home #home__about .about-content p {
+      max-width: 50vw;
+      line-height: 1.5em;
+      margin: 2vw auto;
+      transition: 1s opacity; }
+      .home #home__about .about-content p:first-child {
+        margin-top: 3vw; }
+      @media screen and (max-width: 800px) {
+        .home #home__about .about-content p {
+          max-width: 90vw; } }
 
 .story-page {
   display: grid;
@@ -835,5 +857,23 @@ footer {
     margin-top: 15vh; }
     footer .footer__social img {
       max-width: 15vw; }
+
+.center-quote-container {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  margin: 5vh 0; }
+  .center-quote-container p {
+    font-size: 1.5rem;
+    line-height: inherit;
+    align-self: center;
+    text-align: center;
+    margin: 0 0 2vh 0 !important; }
+  .center-quote-container .ybr-line {
+    max-width: 36vw;
+    align-self: center; }
+  .center-quote-container #pull-quote__attr {
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    align-self: center; }
 
 /*# sourceMappingURL=style.css.map */
