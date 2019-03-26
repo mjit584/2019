@@ -1,6 +1,11 @@
 $(function(){console.log('Hello world');});console.log("cards");$('.card').hover(function(){$(this).toggleClass('hovered');},function(){$(this).toggleClass('hovered');})
 $('.cards').hover(function(){$(this).toggleClass('darkened')},function(){$(this).toggleClass('darkened');})
-let init=function(){console.log("init called");let controller=new ScrollMagic.Controller({globalSceneOptions:{triggerHook:'onLeave'}});let slides=document.querySelectorAll("section.panel");slides.forEach((slide)=>{new ScrollMagic.Scene({triggerElement:slide}).setPin(slide).addTo(controller);});}
+let init=function(){console.log("init called");let controller=new ScrollMagic.Controller({globalSceneOptions:{triggerHook:'onLeave'}});let slides=document.querySelectorAll("section.panel");new ScrollMagic.Scene({triggerElement:slides[0],duration:1}).setPin(slides[0]).addTo(controller);new ScrollMagic.Scene({triggerElement:slides[1],duration:300}).setPin(slides[1]).addTo(controller);let videoTop;let videoHeight;let windowWidth;windowWidth=$(window).width();videoTop=$('#video-top').offset().top;videoHeight=$('iframe').outerHeight();$(window).scroll(function(event){if(windowWidth>1240){goDark();}})
+$(window).resize(function(){windowWidth=$(window).width();videoTop=$('#video-top').offset().top;videoHeight=$('iframe').outerHeight();if(windowWidth>1240){goDark();}else{$('.home').css('background-color','#fff')
+$('p').css('opacity','1')}});function goDark(){var scrollTop=$(this).scrollTop();if(scrollTop>=videoTop-(videoHeight/2)&&scrollTop<=videoTop+(videoHeight/10)){$('#home__about').css('background-color','#000')
+$('p').css('opacity','0')}else if(scrollTop>videoTop+(videoHeight/10)){$('#home__about').css('background-color','#fff')
+$('p').css('opacity','1')}else if(scrollTop<videoTop-(videoHeight/2)){$('#home__about').css('background-color','#fff')
+$('p').css('opacity','1')};};}
 document.addEventListener("DOMContentLoaded",init);console.log('homepage js linked');console.log('testing to make sure headers.js is linked up');var prevScrollpos=window.pageYOffset;window.onscroll=function(){var currentScrollPos=window.pageYOffset;if(prevScrollpos>currentScrollPos){document.getElementById("header").style.top="0";}else{document.getElementById("header").style.top="-75px";}
 prevScrollpos=currentScrollPos;}
 var storyDropdown=document.getElementById('header__story-dropdown');var mainMenu=document.getElementById('main-menu');storyDropdown.onmouseenter=function(){storyDropdown.classList.toggle('is-active');mainMenu.classList.toggle('open');}
