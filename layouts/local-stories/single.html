@@ -2,14 +2,14 @@
 {{ define "body_classes" }}story-page {{ .Title }}{{ end }}
 {{ define "main" }}
 {{ partial "main-menu-mobile.html" . }}
-<nav>
+{{/*  <nav>
   <!--full screen-->
   <div class="header" id="header">
     {{ partial "header.html" . }}
-  </div>
-  <!--hamburger-->
-  {{ partial "hamburger.html" . }}
-</nav>
+</div>
+<!--hamburger-->
+{{ partial "hamburger.html" . }}
+</nav> */}}
 {{ partial "story-hero.html" (dict "background" .Params.image "heading" .Params.storyHeading "subheading" .Params.storySubheading "content" .) }}
 
 
@@ -30,8 +30,16 @@
   {{ .Content }}
 </div>
 
-<footer class="flex-column">
-  {{ partial "footer.html" . }}
+<footer>
+  <div class="footer__social">
+    <a href="{{ .URL }}"><img src="{{ .Site.BaseURL }}images/logo-footer-black.png" alt="Uprooted footer logo" /></a>
+    {{ partial "ybr-line.html" . }}
+    <div class="footer__social-icons flex">
+      <a href="https://facebook.com/uprootedunc" target="_blank"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://instagram.com/uprootedunc" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/@uprootedunc" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+  </div>
 </footer>
 {{ end }}
 
@@ -40,15 +48,14 @@
 {{ $scripts := resources.Get "js/scripts.js" }}
 {{ $header := resources.Get "js/header.js" }}
 {{ $videos := resources.Get "js/videos.js" }}
-{{ $scrollytelly := resources.Get "js/story1-scrollytelly.js" }}
 {{ $hamburger := resources.Get "js/hamburger.js"}}
-{{ $storypageBundle := slice $scripts $header $videos $scrollytelly $hamburger | resources.Concat "js/storypageBundle.js" }}
+{{ $localStoryBundle := slice $scripts $header $videos $hamburger | resources.Concat "js/localStoryBundle.js" }}
 {{ block "footer_js" . }}{{ end }}
 
 {{ if .Site.IsServer }}
-<script type="text/javascript" src="{{ $storypageBundle.RelPermalink }}"></script>
+<script type="text/javascript" src="{{ $localStoryBundle.RelPermalink }}"></script>
 {{ else }}
-<script type="text/javascript" src="{{ ($storypageBundle | minify | fingerprint).RelPermalink }}"></script>
+<script type="text/javascript" src="{{ ($localStoryBundle | minify | fingerprint).RelPermalink }}"></script>
 {{ end }}
 
 {{ end }}
