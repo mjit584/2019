@@ -75,17 +75,24 @@
     }
 
     .photo-left-vertical, .photo-right-vertical {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      display: flex;
       margin-bottom: 6vh;
+      flex-wrap: wrap;
 
       p {
         margin-top: 0;
       }
+
+      .left__photo, .right__photo {
+        flex-basis: 50%;
+      }
       
-      .left__photo img, .right__photo img{
-        width: 30vw;
-        height: auto;
+      .left__photo img, .right__photo img {
+        max-width: 90%;
+      }
+
+      .left__content, .right__content {
+        flex-basis: 50%;
       }
 
       .left__content {
