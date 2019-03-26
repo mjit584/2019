@@ -1,7 +1,6 @@
 footer{
-  height: 30vh;
-  margin:20vh 0;
-  padding: 20vh 0;
+  margin: 0 auto;
+  padding-bottom: 20vh;
 
   .footer__stories{
     font-family: $font-footer;
@@ -36,10 +35,27 @@ footer{
   }
   
   .footer__social{
-    margin-top: 15vh;  
+    margin-top: 15vh; 
+    max-width: 200px; 
   
     img {
-      max-width: 15vw;
+      width: 100%;
+    }
+
+    .ybr-line{
+      width: 75%;
+      display: block;
+      margin: 0 auto;
+
+      .ybr-section {
+        stroke-width: 4px;
+      }
+    }
+
+    .footer__social-icons a {
+      color: $black;
+      font-size: 1.25rem;
+      margin: 18px;
     }
   }
 

@@ -81,26 +81,26 @@
   #home__about {
     background: $white;
     color: $black;
-    height: 800px;
+    height: auto;
     display: grid;
     padding-top: 2%;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, auto);
     grid-template-areas:
-      'story-bd story-bd story-bd story-bd'
-      'story-ft story-ft story-ft story-ft';
+      'about-bd about-bd about-bd about-bd'
+      'about-ft about-ft about-ft about-ft';
     transition: 0.5s background-color;
 
     @media screen and (max-width: 800px){
       grid-template-columns: 1fr;
       grid-template-areas:
-        'story-bd'
-        'story-ft';
+        'about-bd'
+        'about-ft';
     }
 
     .about-content {
       font-family: $font-content-body;
-      grid-area: story-bd;
+      grid-area: about-bd;
 
       p {
         max-width: 50vw;
@@ -117,5 +117,10 @@
         }
       }
     }
+
+    footer{
+      grid-area: about-ft;
+    }
+    
   }
 }

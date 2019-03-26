@@ -31,43 +31,46 @@ let init = function () {
     .setPin(slides[1])
     .addTo(controller);
 
-  // create a scene for every slide
-  // slides.forEach((slide) => {
-  //   let h = slide.clientHeight;
-  //   console.log(slide.clientHeight);
-  //   durat.push(h);
-  // });
-  // slides.forEach((slide, index) => {
-  //   console.log(durat[index]);
-  //   new ScrollMagic.Scene({
-  //     triggerElement: slide,
-  //     duration: durat[index]
-  //   })
-  //     .setPin(slide, {
-  //       pushFollowers: false
-  //     })
-  //     .addTo(controller);
-  // });
+  // Home about video go dark settings
+  let videoTop;
+  let videoHeight;
+  let windowWidth;
+  windowWidth = $(window).width();
+  videoTop = $('#video-top').offset().top;
+  videoHeight = $('iframe').outerHeight();
+  $(window).scroll(function (event) {
+    if (windowWidth > 1240) {
+      goDark();
+    }
+  })
 
+  $(window).resize(function () {
+    windowWidth = $(window).width();
+    videoTop = $('#video-top').offset().top;
+    videoHeight = $('iframe').outerHeight();
+    if (windowWidth > 1240) {
+      goDark();
+    } else {
+      $('.home').css('background-color', '#fff')
+      $('p').css('opacity', '1')
+    }
+  });
+
+  function goDark() {
+    var scrollTop = $(this).scrollTop();
+    // console.log(scrollTop)
+    if (scrollTop >= videoTop - (videoHeight / 2) && scrollTop <= videoTop + (videoHeight / 10)) {
+      $('#home__about').css('background-color', '#000')
+      $('p').css('opacity', '0')
+    } else if (scrollTop > videoTop + (videoHeight / 10)) {
+      $('#home__about').css('background-color', '#fff')
+      $('p').css('opacity', '1')
+    } else if (scrollTop < videoTop - (videoHeight / 2)) {
+      $('#home__about').css('background-color', '#fff')
+      $('p').css('opacity', '1')
+    };
+  };
 }
-
-// if (index === 2) {
-//   new ScrollMagic.Scene({
-//     triggerElement: slide.get(index),
-//     duration: durat[index]
-//   })
-//     .setPin(slide.get(index), {
-//       pushFollowers: false
-//     })
-//     .addTo(controller);
-// } else {
-//   new ScrollMagic.Scene({
-//     triggerElement: slide,
-//   })
-//     .setPin(slide)
-//     .addTo(controller);
-// }
-
 
 document.addEventListener("DOMContentLoaded", init);
 
