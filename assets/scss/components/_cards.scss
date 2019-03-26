@@ -144,7 +144,6 @@
 
     .ybr-line {
       max-width: 80px;
-      margin-bottom: 10px;
 
       .ybr-section {
         stroke-width: 5;
@@ -172,7 +171,7 @@
       text-transform: uppercase;
       background-color: $red;
       border-radius: 30px;
-      height: 25px;
+      height: 28px;
       width: 25px;
       padding: 0 5px;
       overflow: hidden;
@@ -182,7 +181,7 @@
 
     .card__button a {
       position: absolute;
-      top: 0;
+      top: 5px;
       right: 10px;
       color: $white;
       text-decoration: none;

@@ -601,8 +601,7 @@ nav {
       font-size: 1rem;
       line-height: 1rem; }
     .cards .card .ybr-line {
-      max-width: 80px;
-      margin-bottom: 10px; }
+      max-width: 80px; }
       .cards .card .ybr-line .ybr-section {
         stroke-width: 5; }
     .cards .card .card__title {
@@ -621,7 +620,7 @@ nav {
       text-transform: uppercase;
       background-color: #C70032;
       border-radius: 30px;
-      height: 25px;
+      height: 28px;
       width: 25px;
       padding: 0 5px;
       overflow: hidden;
@@ -629,7 +628,7 @@ nav {
       margin: 0 auto; }
     .cards .card .card__button a {
       position: absolute;
-      top: 0;
+      top: 5px;
       right: 10px;
       color: #ffffff;
       text-decoration: none; }
