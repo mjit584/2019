@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Lato");
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700");
 @font-face {
   font-family: DDinBold;
   src: url("../fonts/d-din/d-din-bold.otf"); }
@@ -80,11 +80,35 @@ body {
     font-family: "Lato", sans-serif;
     max-width: 65vw; }
 
-.home #home__cards {
-  margin-bottom: 600px; }
-
 .home #home__about {
-  background-image: url(../images/medellin.jpg); }
+  background: #ffffff;
+  color: #333333;
+  height: auto;
+  display: grid;
+  padding-top: 2%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas: 'about-bd about-bd about-bd about-bd' 'about-ft about-ft about-ft about-ft';
+  transition: 0.5s background-color; }
+  @media screen and (max-width: 800px) {
+    .home #home__about {
+      grid-template-columns: 1fr;
+      grid-template-areas: 'about-bd' 'about-ft'; } }
+  .home #home__about .about-content {
+    font-family: "Georgia", serif;
+    grid-area: about-bd; }
+    .home #home__about .about-content p {
+      max-width: 50vw;
+      line-height: 1.5em;
+      margin: 2vw auto;
+      transition: 1s opacity; }
+      .home #home__about .about-content p:first-child {
+        margin-top: 3vw; }
+      @media screen and (max-width: 800px) {
+        .home #home__about .about-content p {
+          max-width: 90vw; } }
+  .home #home__about footer {
+    grid-area: about-ft; }
 
 .story-page {
   display: grid;
@@ -809,9 +833,8 @@ a .hamburger__logo {
   transition: color 1s; }
 
 footer {
-  height: 30vh;
-  margin: 20vh 0;
-  padding: 20vh 0; }
+  margin: 0 auto;
+  padding-bottom: 20vh; }
   footer .footer__stories {
     font-family: "DDinBold", sans-serif;
     font-size: 2.5rem;
@@ -832,8 +855,37 @@ footer {
       width: 1fr;
       background-color: #C70032; }
   footer .footer__social {
-    margin-top: 15vh; }
+    margin-top: 15vh;
+    max-width: 200px; }
     footer .footer__social img {
-      max-width: 15vw; }
+      width: 100%; }
+    footer .footer__social .ybr-line {
+      width: 75%;
+      display: block;
+      margin: 0 auto; }
+      footer .footer__social .ybr-line .ybr-section {
+        stroke-width: 4px; }
+    footer .footer__social .footer__social-icons a {
+      color: #333333;
+      font-size: 1.25rem;
+      margin: 18px; }
+
+.center-quote-container {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  margin: 5vh 0; }
+  .center-quote-container p {
+    font-size: 1.5rem;
+    line-height: inherit;
+    align-self: center;
+    text-align: center;
+    margin: 0 0 2vh 0 !important; }
+  .center-quote-container .ybr-line {
+    max-width: 36vw;
+    align-self: center; }
+  .center-quote-container #pull-quote__attr {
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    align-self: center; }
 
 /*# sourceMappingURL=style.css.map */

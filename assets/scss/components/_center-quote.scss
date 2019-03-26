@@ -1,0 +1,25 @@
+.center-quote-container {
+  font-family: $font-pullquote;
+  font-weight: $font-weight-bold;
+  margin: 5vh 0;
+
+  p {
+    font-size: 1.5rem;
+    line-height: inherit;
+    align-self: center;
+    text-align: center;
+    margin: 0 0 2vh 0 !important;
+  }
+
+  .ybr-line{
+    max-width: 36vw;
+    align-self: center;
+  }
+
+  #pull-quote__attr{
+    font-family: $font-pullquote-name;
+    font-style: italic;
+    align-self: center;
+  }
+}
+
