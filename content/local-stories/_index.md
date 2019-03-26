@@ -7,7 +7,7 @@ image: "https://brookenf.github.io/uprooted-mejo584/images/cards-story1.jpg"
 storyHeading: "A Helping Hand"
 storySubheading: "Providing assistance to Venezuelans who cross over the border"
 weight: 1
-card: true
+card: false
 author: "Brooklynn Cooper"
 videographer: 
 - "Bryan Cereijo" 

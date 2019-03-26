@@ -5,10 +5,9 @@
   {{ range $menu }}
   <div class='story-{{ .Weight }}{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}'>
     <a href="{{.URL}}">
-      {{ .Pre }}
       <h3>{{ .Name }}</h3>
       <img src="https://brookenf.github.io/uprooted-mejo584/images/medellin.jpg" alt="a picture of medellin" />
-      <p>I'm going to build out this content dynamically, hopefully</p>
+      <p>{{ .Pre }}</p>
     </a>
   </div>
   {{end}}

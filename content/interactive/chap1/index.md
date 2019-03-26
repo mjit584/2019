@@ -7,7 +7,7 @@ image: "/images/chap1-hero.jpg"
 storyHeading: "Remembering Home"
 storySubheading: "Venezuelan families relocate but keep their homes close to their hearts"
 weight: 1
-card: true
+card: false
 photographer: 
 - "Alex Kormann"
 - "Catie Dull"
@@ -17,9 +17,8 @@ udea:
 - "Laura Trujillo Arango"
 - "Juan David Ochoa Jimenez"
 - "Maria Alejandra Cardona Aizpurua"
-layout: 'photo-chap'
 ---
 
-{{< photo-left-vertical "/pages/interactive/chap1" "photo-vertical-1" >}}
+{{< photo-left-vertical "/interactive/chap1" "photo-vertical-1" >}}
 
-{{< photo-right-vertical "/pages/interactive/chap1" "photo-vertical-1" >}}
+{{< photo-right-vertical "/interactive/chap1" "photo-vertical-1" >}}
