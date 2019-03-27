@@ -31,7 +31,7 @@ The music lights up the garage that’s turned into a studio. The walls are cove
 One of those members is Sandra Lopenza, 53; she has danced with the group for 15 years. Lopenza’s daughter, Rosana, is already a member of the group. “She’s an amazing leader who is tolerant, patient and considerate,” said Lopenza. “But above everything else, she’s an amazing person.” She marveled at Kriz’s ability to keep her Venezuelan roots close no matter how long she has been in the U.S.
 
 <div class="pull-quote-container flex-column">
-  <p>I feel a sense of pride to show people here how beautiful Venezuela is despite everything going on.</p>
+  <p>"I feel a sense of pride to show people here how beautiful Venezuela is despite everything going on."</p>
   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="ybr-line"
   x="0px" y="0px" viewBox="0 0 192 10" xml:space="preserve">
     <g>

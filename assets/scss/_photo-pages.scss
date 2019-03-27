@@ -124,18 +124,6 @@
           stroke-width: 4;
         }
       }
-    }
-  
-    p {
-      max-width: 50vw;
-      line-height: $line-height-base;
-      margin: 2vw auto;
-      transition: 1s opacity;
-  
-      @media screen and (max-width: 800px){
-        max-width: 90vw;
-      }
-    }
   
     .ybr-line{
       transition: 1s opacity;
@@ -146,6 +134,60 @@
       float: left;
     }
   }
+
+  .interactive__intro {
+    text-align: center;
+
+    .ybr-line {
+      max-width: 40vw;
+    }
+  }
+
+  .interactive__image {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 6vh;
+
+    p {
+      color: white;
+    }
+    
+    .hidden {
+      display: none;
+    }
+    
+    #room__info {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.7);
+      height: auto;
+      max-width: 900px;
+      width: 90%;
+      position: absolute;
+      top: 0;
+    }
+    
+    @media screen and (max-width:1000px) {
+      #room__info {
+        position: relative;
+        left: 0;
+      }
+    }
+  }
+}
+
+p {
+  max-width: 50vw;
+  line-height: $line-height-base;
+  margin: 2vw auto;
+  transition: 1s opacity;
+
+  @media screen and (max-width: 800px){
+    max-width: 90vw;
+  }
+}
 
   .photo__progress {
     position: fixed;

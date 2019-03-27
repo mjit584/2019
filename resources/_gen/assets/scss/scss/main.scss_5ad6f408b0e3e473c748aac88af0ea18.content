@@ -404,19 +404,46 @@ nav {
         max-width: 10vw; }
         .chap .photo__content .photo__subhead .ybr-line .ybr-section {
           stroke-width: 4; }
-    .chap .photo__content p {
-      max-width: 50vw;
-      line-height: 1.5em;
-      margin: 2vw auto;
-      transition: 1s opacity; }
-      @media screen and (max-width: 800px) {
-        .chap .photo__content p {
-          max-width: 90vw; } }
-    .chap .photo__content .ybr-line {
-      transition: 1s opacity; }
-    .chap .photo__content .drop-cap:first-letter {
-      font-size: 3rem;
-      float: left; }
+      .chap .photo__content .photo__subhead .ybr-line {
+        transition: 1s opacity; }
+      .chap .photo__content .photo__subhead .drop-cap:first-letter {
+        font-size: 3rem;
+        float: left; }
+    .chap .photo__content .interactive__intro {
+      text-align: center; }
+      .chap .photo__content .interactive__intro .ybr-line {
+        max-width: 40vw; }
+    .chap .photo__content .interactive__image {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 6vh; }
+      .chap .photo__content .interactive__image p {
+        color: white; }
+      .chap .photo__content .interactive__image .hidden {
+        display: none; }
+      .chap .photo__content .interactive__image #room__info {
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: auto;
+        max-width: 900px;
+        width: 90%;
+        position: absolute;
+        top: 0; }
+      @media screen and (max-width: 1000px) {
+        .chap .photo__content .interactive__image #room__info {
+          position: relative;
+          left: 0; } }
+  .chap p {
+    max-width: 50vw;
+    line-height: 1.5em;
+    margin: 2vw auto;
+    transition: 1s opacity; }
+    @media screen and (max-width: 800px) {
+      .chap p {
+        max-width: 90vw; } }
   .chap .photo__progress {
     position: fixed;
     width: 100%;
