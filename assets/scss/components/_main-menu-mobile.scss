@@ -6,10 +6,6 @@ $button-height: 27px;
 $button-width: 35px;
 
 .main-menu-mobile {
-  @media screen and (min-width:800px){
-    z-index: -30;
-  }
-
   position: fixed;
   background: $red;
   top: 0;
@@ -24,6 +20,7 @@ $button-width: 35px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  z-index: -30;
 
   &.open {
     opacity: 0.9;

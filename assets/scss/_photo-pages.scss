@@ -207,18 +207,19 @@ p {
   footer{
     grid-area: story-ft;
   }
-}
 
-nav{
-  grid-area: nav;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: rgba(0, 0, 0, 0.3);
-
-  @media screen and (max-width:800px){
-    width: 100vw;
+  nav{
+    grid-area: nav;
+    display: flex;
+    align-items: center;
     justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
+  
+    @media screen and (max-width:800px){
+      width: 100vw;
+      justify-content: space-around;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
   }
 }
+

@@ -7,6 +7,9 @@
       <div class="card__heading">{{ .Params.topic }}</div>
       {{ partial "ybr-line.html" . }}
       <div class="card__title">{{ .Title }}</div>
+      <div class="card__button">
+        <a href="{{.URL}}">Explore &nbsp; <i class="fas fa-arrow-right"></i></a>
+      </div>
     </div>
     <div class="card__hover">
       <div class="card__heading">{{ .Params.topic }}</div>
