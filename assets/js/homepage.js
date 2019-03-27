@@ -31,11 +31,13 @@ let init = function () {
     .setPin(slides[1])
     .addTo(controller);
 
-  if ($(window).width() >= 1024) {
-    controller.enabled(true)
-  } else {
-    controller.enabled(false)
-  }
+  controller.scrollPos(function () {
+    if (window.innerWidth >= 800) {
+      return window.pageYOffset;
+    } else {
+      return 0;
+    }
+  });
 
   // Home about video go dark settings
   let videoTop;
