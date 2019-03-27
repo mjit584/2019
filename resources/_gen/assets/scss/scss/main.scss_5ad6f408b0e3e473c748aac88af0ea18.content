@@ -651,6 +651,9 @@ nav {
   background-color: rgba(0, 0, 0, 0.5);
   transition: background-color .4s;
   z-index: 1; }
+  @media screen and (max-width: 800px) {
+    .cards.darkened .card::before {
+      background-color: transparent; } }
 
 .cards {
   display: grid;
@@ -689,6 +692,14 @@ nav {
   .cards .card {
     position: relative;
     grid-column: span 2; }
+    @media screen and (max-width: 800px) {
+      .cards .card:hover .card__heading,
+      .cards .card:hover .card__title, .cards .card:active .card__heading,
+      .cards .card:active .card__title {
+        color: #333333; }
+      .cards .card:hover .card__button, .cards .card:active .card__button {
+        background: #C70032;
+        color: #ffffff; } }
     .cards .card:hover .card__hover .card__heading,
     .cards .card:hover .card__hover .ybr-line,
     .cards .card:hover .card__hover .card__title,
@@ -719,6 +730,13 @@ nav {
     .cards .card:active .card__base .ybr-line,
     .cards .card:active .card__base .card__title {
       opacity: 0; }
+      @media screen and (max-width: 800px) {
+        .cards .card:hover .card__base .card__heading,
+        .cards .card:hover .card__base .ybr-line,
+        .cards .card:hover .card__base .card__title, .cards .card:active .card__base .card__heading,
+        .cards .card:active .card__base .ybr-line,
+        .cards .card:active .card__base .card__title {
+          opacity: 1; } }
     .cards .card .card__img {
       margin: auto;
       width: 100%;
@@ -740,6 +758,9 @@ nav {
       font-size: 2rem;
       line-height: 1.8rem;
       padding: 40px 25px 15px; }
+      @media screen and (max-width: 800px) {
+        .cards .card .card__title {
+          padding: 20px 25px 15px; } }
     .cards .card .card__desc {
       font-size: 1rem;
       font-family: "Lato", sans-serif;
@@ -756,12 +777,26 @@ nav {
       overflow: hidden;
       white-space: nowrap;
       margin: 0 auto; }
-    .cards .card .card__button a {
-      position: absolute;
-      top: 5px;
-      right: 10px;
-      color: #ffffff;
-      text-decoration: none; }
+      @media screen and (max-width: 800px) {
+        .cards .card .card__button {
+          width: auto;
+          height: auto;
+          padding: 5px 25px;
+          background-color: transparent;
+          border: solid 2px #C70032;
+          transition: background-color .3s, color .3s; } }
+      .cards .card .card__button a {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        color: #ffffff;
+        text-decoration: none; }
+        @media screen and (max-width: 800px) {
+          .cards .card .card__button a {
+            position: static; } }
+      @media screen and (max-width: 800px) {
+        .cards .card .card__button i {
+          display: none; } }
     .cards .card .card__hover,
     .cards .card .card__base {
       position: absolute;
@@ -779,6 +814,13 @@ nav {
       opacity: 0;
       transform: translate3d(0, 20px, 0);
       transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+      @media screen and (max-width: 800px) {
+        .cards .card .card__hover .card__heading,
+        .cards .card .card__hover .ybr-line,
+        .cards .card .card__hover .card__title,
+        .cards .card .card__hover .card__desc,
+        .cards .card .card__hover .card__button {
+          display: none; } }
     .cards .card .card__hover .card__button {
       transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0.35s, transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0.35s, width 0.5s ease 0.8s; }
     .cards .card .card__base .card__heading,
@@ -786,6 +828,16 @@ nav {
     .cards .card .card__base .card__title {
       opacity: 1;
       transition: opacity .5s; }
+      @media screen and (max-width: 800px) {
+        .cards .card .card__base .card__heading,
+        .cards .card .card__base .ybr-line,
+        .cards .card .card__base .card__title {
+          transition: color .3s; } }
+    .cards .card .card__base .card__button {
+      display: none; }
+      @media screen and (max-width: 800px) {
+        .cards .card .card__base .card__button {
+          display: inline-block; } }
 
 .main-menu {
   color: #333333;

@@ -7,6 +7,10 @@
   background-color: rgba(0, 0, 0, 0.5);
   transition: background-color .4s;
   z-index: 1;
+
+  @media screen and (max-width: 800px) {
+    background-color: transparent;
+  }
 }
 
 .cards {
@@ -18,10 +22,8 @@
   @media screen and (max-width:800px){
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 40vh);
-
   }
 
-  // Add scale transform to hovered card
   .card.hovered {
     z-index: 3;
 
@@ -42,6 +44,7 @@
   }
 
   @media screen and (min-width: 800px) {
+    // Add scale transform to hovered card
     .card.hovered {
       transform: scale(1.1, 1.1);
       transition: transform .3s ease .2s;
@@ -78,6 +81,18 @@
     grid-column: span 2;
 
     &:hover, &:active {
+
+      @media screen and (max-width: 800px) {
+        .card__heading,
+        .card__title {
+          color: $black;
+        }
+
+        .card__button {
+          background: $red;
+          color: $white;
+        }
+      }
 
       // Display hover text on card hover
       .card__hover {
@@ -123,6 +138,10 @@
         .ybr-line,
         .card__title {
           opacity: 0;
+
+          @media screen and (max-width: 800px) {
+            opacity: 1;
+          }
         }
 
       }
@@ -160,6 +179,10 @@
       font-size: 2rem;
       line-height: 1.8rem;
       padding: 40px 25px 15px;
+
+      @media screen and (max-width: 800px) {
+        padding: 20px 25px 15px;
+      }
     }
 
     .card__desc {
@@ -180,14 +203,33 @@
       overflow: hidden;
       white-space: nowrap;
       margin: 0 auto;
-    }
 
-    .card__button a {
-      position: absolute;
-      top: 5px;
-      right: 10px;
-      color: $white;
-      text-decoration: none;
+      @media screen and (max-width: 800px) {
+        width: auto;
+        height: auto;
+        padding: 5px 25px;
+        background-color: transparent;
+        border: solid 2px $red;
+        transition: background-color .3s, color .3s;
+      }
+
+      a {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        color: $white;
+        text-decoration: none;
+
+        @media screen and (max-width: 800px) {
+          position: static;
+        }
+      }
+
+      i {
+        @media screen and (max-width: 800px) {
+          display: none;
+        }
+      }
     }
 
     // Vertically and horizontally center card text
@@ -213,6 +255,10 @@
         opacity: 0;
         transform: translate3d(0, 20px, 0);
         transition: opacity .3s cubic-bezier(.4, 0, .2, 1), transform .3s cubic-bezier(.4, 0, .2, 1);
+
+        @media screen and (max-width: 800px) {
+          display: none;
+        }
       }
 
       .card__button {
@@ -229,6 +275,18 @@
       .card__title {
         opacity: 1;
         transition: opacity .5s;
+        
+        @media screen and (max-width: 800px) {
+          transition: color .3s;
+        }
+      }
+
+      .card__button {
+        display: none;
+        
+        @media screen and (max-width: 800px) {
+          display: inline-block;
+        }
       }
 
     }
