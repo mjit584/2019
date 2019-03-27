@@ -394,7 +394,8 @@ nav {
       margin-bottom: 6vh;
       flex-wrap: wrap; }
       .chap .photo__content .photo-left-vertical p, .chap .photo__content .photo-right-vertical p {
-        margin-top: 0; }
+        margin-top: 0;
+        width: 60%; }
       .chap .photo__content .photo-left-vertical .left__photo, .chap .photo__content .photo-left-vertical .right__photo, .chap .photo__content .photo-right-vertical .left__photo, .chap .photo__content .photo-right-vertical .right__photo {
         flex-basis: 50%; }
       .chap .photo__content .photo-left-vertical .left__photo img, .chap .photo__content .photo-left-vertical .right__photo img, .chap .photo__content .photo-right-vertical .left__photo img, .chap .photo__content .photo-right-vertical .right__photo img {
@@ -454,9 +455,7 @@ nav {
           position: relative;
           left: 0; } }
   .chap p {
-    max-width: 50vw;
     line-height: 1.5em;
-    margin: 2vw auto;
     transition: 1s opacity; }
     @media screen and (max-width: 800px) {
       .chap p {
