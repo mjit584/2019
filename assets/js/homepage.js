@@ -31,6 +31,12 @@ let init = function () {
     .setPin(slides[1])
     .addTo(controller);
 
+  if ($(window).width() >= 1024) {
+    controller.enabled(true)
+  } else {
+    controller.enabled(false)
+  }
+
   // Home about video go dark settings
   let videoTop;
   let videoHeight;
