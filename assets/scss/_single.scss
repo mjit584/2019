@@ -127,12 +127,11 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: $yellow;
 
   @media screen and (max-width: 800px){
     width: 100%;
     padding: 10px 25px;
-    background-color: $yellow;
   }
 }
 
