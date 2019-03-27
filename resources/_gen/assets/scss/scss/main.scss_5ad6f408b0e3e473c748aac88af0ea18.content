@@ -751,7 +751,7 @@ nav {
       background-color: #C70032;
       border-radius: 30px;
       height: 28px;
-      width: 25px;
+      width: 35px;
       padding: 0 5px;
       overflow: hidden;
       white-space: nowrap;
