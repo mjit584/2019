@@ -232,12 +232,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: rgba(0, 0, 0, 0.3); }
+  background-color: #Fbbc00; }
   @media screen and (max-width: 800px) {
     nav {
       width: 100%;
-      padding: 10px 25px;
-      background-color: #Fbbc00; } }
+      padding: 10px 25px; } }
 
 .about .story-hero {
   color: #ffffff;
@@ -479,12 +478,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.3); }
+    background-color: #Fbbc00; }
     @media screen and (max-width: 800px) {
       .chap nav {
-        width: 100vw;
-        justify-content: space-around;
-        background-color: rgba(0, 0, 0, 0.5); } }
+        width: 100%;
+        padding: 10px 25px; } }
 
 /*!
  * Hamburgers
@@ -597,6 +595,7 @@ nav {
   position: fixed;
   top: 0;
   transition: top 0.3s;
+  background-color: #Fbbc00;
   color: #333333;
   padding: 0;
   height: 55px;
