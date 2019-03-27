@@ -6,7 +6,7 @@
   <div class='story-{{ .Weight }}{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}'>
     <a href="{{.URL}}">
       <h3>{{ .Name }}</h3>
-      <img src="https://brookenf.github.io/uprooted-mejo584/images/medellin.jpg" alt="a picture of medellin" />
+      <img src="{{ .Post }}" alt="a picture of medellin" />
       <p>{{ .Pre }}</p>
     </a>
   </div>
