@@ -46,10 +46,7 @@ body {
 @media screen and (max-width: 800px) {
   .home nav {
     position: absolute;
-    top: 0;
-    width: 100%;
-    padding: 10px 25px;
-    background-color: transparent; } }
+    top: 0; } }
 
 .home #home__intro,
 .home #home__cards,
@@ -232,11 +229,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #Fbbc00; }
+  background-color: transparent; }
   @media screen and (max-width: 800px) {
     nav {
-      width: 100%;
-      padding: 10px 25px; } }
+      width: 100%; } }
 
 .about .story-hero {
   color: #ffffff;
@@ -477,11 +473,10 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #Fbbc00; }
+    background-color: transparent; }
     @media screen and (max-width: 800px) {
       .chap nav {
-        width: 100%;
-        padding: 10px 25px; } }
+        width: 100%; } }
 
 /*!
  * Hamburgers
@@ -653,6 +648,7 @@ nav {
         padding: 0 5px; }
 
 .header--white {
+  background-color: transparent;
   color: #ffffff; }
   .header--white a, .header--white i {
     color: #ffffff; }
@@ -913,14 +909,12 @@ nav {
 
 .header-mobile {
   color: #333333;
-  background-color: #Fbbc00; }
-  @media screen and (max-width: 800px) {
-    .header-mobile {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      background-color: transparent; } }
+  background-color: #Fbbc00;
+  padding: 10px 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
   .header-mobile a {
     max-width: 35vw;
     font-family: "DDinBold", sans-serif;
@@ -949,9 +943,6 @@ nav {
     .header-mobile .hamburger .hamburger-inner::before,
     .header-mobile .hamburger .hamburger-inner::after {
       background: #333333; }
-    .header-mobile .hamburger .hamburger-inner::after {
-      width: 18px;
-      right: 0; }
     .header-mobile .hamburger.is-active .hamburger-inner::after {
       width: inherit;
       right: unset; }

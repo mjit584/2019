@@ -1,14 +1,11 @@
 .header-mobile {
   color: $black;
   background-color: $yellow;
-
-  @media screen and (max-width: 800px){
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: transparent;
-  }
+  padding: 10px 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
   a {
     max-width: 35vw;
@@ -50,11 +47,6 @@
     .hamburger-inner::before,
     .hamburger-inner::after {
       background: $black;
-    }
-  
-    .hamburger-inner::after {
-      width: 18px;
-      right: 0;
     }
   
     &.is-active {
