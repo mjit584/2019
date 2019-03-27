@@ -17,18 +17,18 @@ let init = function () {
   // get all slides
   let slides = document.querySelectorAll("section.panel");
 
-  new ScrollMagic.Scene({
+  let scene1 = new ScrollMagic.Scene({
     triggerElement: slides[0],
     duration: 1
   })
-    .setPin(slides[0])
+    .setPin(slides[0], { pushFollowers: false })
     .addTo(controller);
 
-  new ScrollMagic.Scene({
+  let scene2 = new ScrollMagic.Scene({
     triggerElement: slides[1],
     duration: 300
   })
-    .setPin(slides[1])
+    .setPin(slides[1], { pushFollowers: false })
     .addTo(controller);
 
   controller.scrollPos(function () {

@@ -37,6 +37,12 @@ body {
   color: #ffffff;
   height: 100%; }
 
+.home .scrollmagic-pin-spacer:nth-of-type(2) {
+  padding-bottom: 300px; }
+  @media screen and (max-width: 800px) {
+    .home .scrollmagic-pin-spacer:nth-of-type(2) {
+      padding-bottom: 0px; } }
+
 @media screen and (max-width: 800px) {
   .home nav {
     position: absolute;
@@ -58,7 +64,7 @@ body {
 
 @media screen and (max-width: 800px) {
   .home #home__cards {
-    height: 200vh; } }
+    height: 250vh; } }
 
 .home #home__intro {
   background-image: linear-gradient(rgba(8, 19, 58, 0.3), rgba(8, 19, 58, 0.3)), url(../images/home5.JPG); }
@@ -656,8 +662,6 @@ nav {
       grid-template-columns: 1fr;
       grid-template-rows: repeat(6, 40vh); } }
   .cards .card.hovered {
-    transform: scale(1.1, 1.1);
-    transition: transform .3s ease .2s;
     z-index: 3; }
     .cards .card.hovered::before {
       background-color: rgba(255, 255, 255, 0.65) !important;
@@ -667,6 +671,9 @@ nav {
     .cards .card.hovered .card__hover .card__desc {
       color: #333333; }
   @media screen and (min-width: 800px) {
+    .cards .card.hovered {
+      transform: scale(1.1, 1.1);
+      transition: transform .3s ease .2s; }
     .cards #card-1.hovered {
       transform-origin: left top; }
     .cards #card-2.hovered {
@@ -705,7 +712,7 @@ nav {
     .cards .card:hover .card__hover .card__desc, .cards .card:active .card__hover .card__desc {
       transition-delay: .35s; }
     .cards .card:hover .card__hover .card__button, .cards .card:active .card__hover .card__button {
-      width: 105px; }
+      width: 115px; }
     .cards .card:hover .card__base .card__heading,
     .cards .card:hover .card__base .ybr-line,
     .cards .card:hover .card__base .card__title, .cards .card:active .card__base .card__heading,

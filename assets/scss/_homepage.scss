@@ -4,6 +4,14 @@
     height: 100%;
   }
 
+  .scrollmagic-pin-spacer:nth-of-type(2) {
+    padding-bottom: 300px;
+
+    @media screen and (max-width: 800px) {
+      padding-bottom: 0px;
+    }
+  }
+
   nav{
     @media screen and (max-width: 800px){
       position: absolute;
@@ -27,7 +35,7 @@
 
   @media screen and (max-width: 800px){
     #home__cards {
-      height: 200vh;
+      height: 250vh;
     }
   }
 
