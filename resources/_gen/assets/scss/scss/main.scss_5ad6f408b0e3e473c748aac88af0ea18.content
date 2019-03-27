@@ -148,7 +148,7 @@ body {
         margin-top: 3vw; }
       @media screen and (max-width: 800px) {
         .home #home__about .about-content p {
-          max-width: 90vw; } }
+          max-width: 80vw; } }
   .home #home__about footer {
     grid-area: about-ft; }
 
