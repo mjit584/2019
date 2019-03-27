@@ -1,12 +1,12 @@
 <div class="container flex">
   <div class="header__logo">
     {{ if .Site.IsServer }}
-    <a href="{{ .Site.BaseURL }}">Uprooted
+    <a class="hamburger__logo" href="{{ .Site.BaseURL }}">Uprooted
       <!-- <img alt="Uprooted Homepage"
           src="{{ .Site.BaseURL }}images/logo-wide-white.png" /> -->
     </a>
     {{ else }}
-    <a href="{{ .Site.Params.gh_pages_URL }}">Uprooted
+    <a class="hamburger__logo" href="{{ .Site.Params.gh_pages_URL }}">Uprooted
       <!-- <img alt="Uprooted Homepage"
           src="{{ .Site.Params.gh_pages_URL }}images/logo-wide-white.png" /> -->
     </a>

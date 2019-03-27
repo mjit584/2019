@@ -129,10 +129,10 @@ nav{
   justify-content: space-around;
   background-color: rgba(0, 0, 0, 0.3);
 
-  @media screen and (max-width:800px){
-    width: 100vw;
-    justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.5);
+  @media screen and (max-width: 800px){
+    width: 100%;
+    padding: 10px 25px;
+    background-color: $yellow;
   }
 }
 
