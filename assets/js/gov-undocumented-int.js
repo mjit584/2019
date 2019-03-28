@@ -6,33 +6,23 @@ $(document).ready(function () {
   $("#r-2-c-2").click(function () {
     $("#PEP-body").fadeIn(300);
   });
-});
 
-$(document).ready(function () {
   $("#PEP-button").click(function () {
     $("#PEP-body").fadeOut(300);
   });
-});
 
-$(document).ready(function () {
   $("#r-2-c-1").click(function () {
     $("#passport-body").fadeIn(300);
   });
-});
 
-$(document).ready(function () {
   $("#passport-button").click(function () {
     $("#passport-body").fadeOut(300);
   });
-});
 
-$(document).ready(function () {
   $("#r-2-c-3").click(function () {
     $("#ID-body").fadeIn(300);
   });
-});
 
-$(document).ready(function () {
   $("#ID-button").click(function () {
     $("#ID-body").fadeOut(300);
   });

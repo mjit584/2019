@@ -1,4 +1,6 @@
 #interactive__gov-undocumented {
+  position: relative;
+  height: 100%;
   transition: 0.7s;
   
   #r-1{
@@ -96,9 +98,8 @@
   
   .information-body {
     z-index: 1000;
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-color: $white;
     display: none;
   }
@@ -211,7 +212,7 @@
     top: 0;
   }
   
-  .dot, .dot-passport {
+  .dot, .dot-passport, .dot-ID {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -221,7 +222,7 @@
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-  .active, .dot:hover, .dot-passport:hover {
+  .active, .dot:hover, .dot-passport:hover, .dot-ID:hover {
     background-color: $grey;
   }
   
