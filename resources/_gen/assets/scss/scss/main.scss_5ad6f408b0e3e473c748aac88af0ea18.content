@@ -190,6 +190,11 @@ body {
   .story-page .story-content {
     font-family: "Georgia", serif;
     grid-area: story-bd; }
+    .story-page .story-content .interactive {
+      max-width: 99vw;
+      transition: 1s opacity;
+      grid-area: 1/5;
+      margin: 6vh 0; }
     .story-page .story-content a {
       color: #C70032; }
     .story-page .story-content .story__subhead {
@@ -1079,6 +1084,350 @@ nav {
 .step.is-active h2 {
   color: #ffffff;
   transition: color 1s; }
+
+#interactive__gov-undocumented {
+  transition: 0.7s;
+  /* slideshow */
+  /* mobile css */ }
+  #interactive__gov-undocumented #r-1 {
+    height: 20%;
+    width: 100%; }
+  #interactive__gov-undocumented .title-svg {
+    height: 200px;
+    padding-top: 5vh;
+    width: 100%; }
+  #interactive__gov-undocumented #r-2 {
+    height: 70%;
+    width: 85%; }
+  #interactive__gov-undocumented #r-2-c-2 {
+    width: 15%;
+    margin-left: 12%;
+    margin-right: 12%; }
+  #interactive__gov-undocumented .document-box {
+    width: 25%;
+    margin-left: 6%;
+    margin-right: 6%;
+    height: 80%;
+    flex-direction: column;
+    border-bottom: solid 2px;
+    border-color: #ffffff; }
+  #interactive__gov-undocumented .document-box:hover {
+    cursor: pointer;
+    border-bottom: solid 2px;
+    border-color: #333333;
+    transition: 0.7s; }
+  #interactive__gov-undocumented .document-img {
+    height: 75%;
+    width: 75%;
+    padding-bottom: 20%; }
+  #interactive__gov-undocumented .passport-svg {
+    height: 100%;
+    width: auto; }
+  #interactive__gov-undocumented .pep-svg {
+    height: 100%;
+    width: auto; }
+  #interactive__gov-undocumented .document-txt {
+    height: 10%;
+    width: 100%; }
+  #interactive__gov-undocumented .document-caption {
+    padding-bottom: 5%;
+    font-size: 24pt;
+    color: #aaa;
+    font-family: "Playfair Display", serif; }
+  #interactive__gov-undocumented #r-3 {
+    height: 10%;
+    width: 100%; }
+  #interactive__gov-undocumented .bottom-text {
+    font-size: 1.3rem;
+    color: #aaa;
+    font-family: "Playfair Display", serif; }
+  #interactive__gov-undocumented .container-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 99vw;
+    z-index: 0; }
+  #interactive__gov-undocumented .information-body {
+    z-index: 1000;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
+    display: none; }
+  #interactive__gov-undocumented .passport-body {
+    z-index: 1200; }
+  #interactive__gov-undocumented .back-button {
+    margin-top: 45px;
+    margin-left: 50px;
+    width: 100px;
+    height: 65px;
+    position: fixed;
+    font-size: 18pt;
+    color: #333333;
+    font-family: "DDinRegular", sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    border: #333333 solid 2px;
+    z-index: 9999; }
+  #interactive__gov-undocumented .back-button:hover {
+    cursor: pointer;
+    background-color: #333333;
+    color: #ffffff;
+    border-bottom: white solid 2px; }
+  #interactive__gov-undocumented .information-title-svg {
+    padding-top: 60px;
+    width: auto;
+    height: 70px; }
+  #interactive__gov-undocumented .information-body-r1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 20vh;
+    width: 100vw; }
+  #interactive__gov-undocumented .information-body-r2 {
+    height: 70vh; }
+  #interactive__gov-undocumented .information-body-r3 {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  #interactive__gov-undocumented .mySlides, #interactive__gov-undocumented .mySlides-passport {
+    width: 100vw;
+    display: none;
+    flex-direction: column; }
+  #interactive__gov-undocumented img {
+    vertical-align: middle; }
+  #interactive__gov-undocumented .prev, #interactive__gov-undocumented .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 20px;
+    margin-top: -22px;
+    color: #333333;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.5s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none; }
+  #interactive__gov-undocumented .next {
+    right: 0;
+    border-radius: 3px 0 0 3px; }
+  #interactive__gov-undocumented .prev:hover, #interactive__gov-undocumented .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff; }
+  #interactive__gov-undocumented .text {
+    color: #ffffff;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center; }
+  #interactive__gov-undocumented .numbertext {
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0; }
+  #interactive__gov-undocumented .dot, #interactive__gov-undocumented .dot-passport {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease; }
+  #interactive__gov-undocumented .active, #interactive__gov-undocumented .dot:hover, #interactive__gov-undocumented .dot-passport:hover {
+    background-color: #aaa; }
+  #interactive__gov-undocumented .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+  #interactive__gov-undocumented .slide-img-pep {
+    width: 25%;
+    height: auto;
+    padding-left: 575x;
+    padding-right: 0px; }
+  #interactive__gov-undocumented .slide-img-calendar {
+    width: 15%;
+    height: auto;
+    padding-left: 125px;
+    padding-right: 75px; }
+  #interactive__gov-undocumented .slide-img-doc {
+    width: 15%;
+    height: auto;
+    padding-left: 125px;
+    padding-right: 75px; }
+  #interactive__gov-undocumented .slide-img-stats {
+    width: 30%;
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px; }
+  #interactive__gov-undocumented .slide-img-ID {
+    width: 25%;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 5px; }
+  #interactive__gov-undocumented .slide-image {
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+  #interactive__gov-undocumented .slide-txt {
+    font-size: 14pt;
+    color: #333333;
+    font-family: "Playfair Display", serif;
+    width: 35vw;
+    padding: 75px; }
+  #interactive__gov-undocumented .slide-txt2 {
+    font-size: 14pt;
+    color: #333333;
+    font-family: "Playfair Display", serif;
+    width: 30vw;
+    padding: 35px;
+    padding-left: 80px; }
+  #interactive__gov-undocumented .slide-img-passport {
+    width: 200px;
+    height: auto;
+    padding-left: 125px;
+    padding-right: 75px; }
+  #interactive__gov-undocumented .slide-img-passport-slide2 {
+    width: 275px;
+    height: auto;
+    padding-left: 125px;
+    padding-right: 75px; }
+  #interactive__gov-undocumented .information-title {
+    padding-top: 50px;
+    margin-left: 22vw;
+    height: 70px;
+    width: 50vw;
+    border-bottom: 10px solid;
+    border-bottom-color: #Fbbc00;
+    font-size: 36pt;
+    color: #333333;
+    font-family: "DDinRegular", sans-serif;
+    font-weight: 700; }
+  #interactive__gov-undocumented .information-title-passport {
+    height: 55px; }
+  #interactive__gov-undocumented .border-blue {
+    border-bottom: 10px solid;
+    border-bottom-color: #1457D3; }
+  #interactive__gov-undocumented .information-title-pep {
+    height: 65px; }
+  #interactive__gov-undocumented .information-title-id {
+    height: 55px; }
+  #interactive__gov-undocumented .border-red {
+    border-bottom: 10px solid;
+    border-bottom-color: #C70032; }
+  @media (max-width: 800px) {
+    #interactive__gov-undocumented #r-2 {
+      flex-direction: column;
+      width: 100%; }
+    #interactive__gov-undocumented .document-img {
+      display: none; }
+    #interactive__gov-undocumented .document-box {
+      width: 75%;
+      border-bottom-width: 0; }
+    #interactive__gov-undocumented .document-box:hover {
+      border-bottom-width: 0; }
+    #interactive__gov-undocumented .title-svg {
+      padding-top: 50px;
+      height: 150px; }
+    #interactive__gov-undocumented .slide-image {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+    #interactive__gov-undocumented .slide-img {
+      height: 20vh;
+      width: auto;
+      padding-top: 50px; }
+    #interactive__gov-undocumented .slide-txt, #interactive__gov-undocumented .slide-txt2 {
+      height: 45vh;
+      width: 70vw;
+      padding-top: 30px;
+      font-size: 15px; }
+    #interactive__gov-undocumented .back-button {
+      margin-left: 0; }
+    #interactive__gov-undocumented .information-title {
+      font-size: 30px;
+      height: 40px;
+      width: 80vw;
+      border-bottom-width: 5px;
+      padding-top: 20px; } }
+  @media (max-width: 500px) {
+    #interactive__gov-undocumented #r-2 {
+      flex-direction: column;
+      width: 100%; }
+    #interactive__gov-undocumented .document-img {
+      display: none; }
+    #interactive__gov-undocumented .title-svg {
+      padding-top: 50px;
+      height: 100px; }
+    #interactive__gov-undocumented .slide-img {
+      display: none; }
+    #interactive__gov-undocumented .slide-txt, #interactive__gov-undocumented .slide-txt2 {
+      font-size: 15px;
+      width: 70vw;
+      padding: 10px; }
+    #interactive__gov-undocumented .bottom-text {
+      font-size: 15px; }
+    #interactive__gov-undocumented .back-button {
+      margin-left: 0;
+      margin-top: 0;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 70px;
+      height: 70px;
+      background-color: #333333;
+      color: #ffffff; }
+    #interactive__gov-undocumented .information-title {
+      font-size: 25px;
+      padding-top: 25px;
+      height: 50px;
+      width: 80vw;
+      border-bottom-width: 5px; }
+    #interactive__gov-undocumented .information-body-r1 {
+      height: 50px; }
+    #interactive__gov-undocumented .slide-image {
+      height: 85vh; }
+    #interactive__gov-undocumented .document-box {
+      width: 75%;
+      margin-left: 6%;
+      margin-right: 6%;
+      height: 50%;
+      flex-direction: column;
+      border-bottom: solid 0px;
+      border-bottom-color: #ffffff; }
+    #interactive__gov-undocumented .document-box:hover {
+      cursor: pointer;
+      border-bottom: solid 0px;
+      border-bottom-color: #ffffff; } }
 
 footer {
   margin: 0 auto;

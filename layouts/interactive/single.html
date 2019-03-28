@@ -40,10 +40,10 @@
 
 {{ define "scripts" }}
 {{ $scripts := resources.Get "js/scripts.js" }}
-{{ $header := resources.Get "js/header.js" }}
+{{ $headerPhoto := resources.Get "js/headerPhoto.js" }}
 {{ $hamburger := resources.Get "js/hamburger.js"}}
 {{ $progressBar := resources.Get "js/progressBar.js" }}
-{{ $intChapPageBundle := slice $scripts $header $hamburger $progressBar | resources.Concat "js/intChapPageBundle.js" }}
+{{ $intChapPageBundle := slice $scripts $headerPhoto $hamburger $progressBar | resources.Concat "js/intChapPageBundle.js" }}
 {{ block "footer_js" . }}{{ end }}
 
 {{ if .Site.IsServer }}

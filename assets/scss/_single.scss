@@ -68,6 +68,15 @@
     font-family: $font-content-body;
     grid-area: story-bd;
 
+    // I created a class called "interactive" that goes on each and every interactive created and it has some global stylings I want to keep for EACH interactive piece so they'll pertain to EVERY interactive
+
+    .interactive {
+      max-width: 99vw;
+      transition: 1s opacity;
+      grid-area: 1/5;
+      margin: 6vh 0;
+    }
+
     a {
       color: $red;
     }
