@@ -1,6 +1,7 @@
+
 // Story 1 Scrollytelly
 
-var container = document.querySelector('#scroll');
+var container = document.getElementById('scroll');
 var text = container.querySelector('.scroll__text');
 var steps = text.querySelectorAll('.step');
 
@@ -10,14 +11,14 @@ var scroller = scrollama();
 // scrollama event handlers
 function handleStepEnter(response) {
   // response = { element, direction, index }
-  console.log(response);
+  // console.log(response);
   // add to color to current step
   response.element.classList.add('is-active');
 }
 
 function handleStepExit(response) {
   // response = { element, direction, index }
-  console.log(response);
+  // console.log(response);
   // remove color from current step
   response.element.classList.remove('is-active');
 }
@@ -35,6 +36,7 @@ function init() {
   scroller.setup({
     step: '.scroll__text .step'
   })
+
     .onStepEnter(handleStepEnter)
     .onStepExit(handleStepExit);
 

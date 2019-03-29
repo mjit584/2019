@@ -1430,6 +1430,17 @@ nav {
       border-bottom: solid 0px;
       border-bottom-color: #ffffff; } }
 
+#photo-int-scrolly {
+  background-color: #C70032;
+  /* Center aligned */ }
+  #photo-int-scrolly section {
+    height: 100%;
+    position: relative;
+    text-align: center; }
+  #photo-int-scrolly section .inner {
+    margin: 0 auto;
+    max-width: 85%; }
+
 footer {
   margin: 0 auto;
   padding-bottom: 20vh; }
