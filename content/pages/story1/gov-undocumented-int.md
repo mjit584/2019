@@ -1,14 +1,19 @@
+---
+title: "Undocumented: The Legal Limbo of Venezuelans in Colombia"
+story: "government & services"
+graphics:
+- "Sally Dillon"
+- "Xiaoke Ji"
+---
+
 <section class="interactive" id="interactive__gov-undocumented">
   <!-- content for passport-->
   <div class="information-body" id="passport-body">
     <div class="back-button" id="passport-button">Back</div>
     <div class="information-body-r1">
       <div class="information-title">Passport</div>
-      <!-- <img class="information-title-svg" src="assets/passport-title.svg" alt="passport"> -->
-
     </div>
-
-    <!-- slideshow goes here -->
+  <!-- slideshow goes here -->
     <div class="information-body-r2">
       <div class="slideshow-container">
         <!-- first slide -->
@@ -19,7 +24,6 @@
               <p>The Venezuelan passport comes in navy blue or burgundy. To obtain a passport, citizens must register
                 for an appointment online between 5:30pm to 5am. Usually there are month-long waits for a follow-up
                 after the first appointment. </p>
-
               <p>Appointments are made through the civil registry agency known as SAIME (Servicio Administrativo de
                 Identificación, Migración y Extranjería). </p>
             </div>
@@ -37,11 +41,9 @@
               <p>However, as of November 1st, 2018, passports must be paid for in the Petro cryptocurrency. The currency
                 is supposed to be backed by oil and mineral reserves. Passports will cost 2 Petros (about 7,200
                 bolivars) which is equivalent to 4 months salary. </p>
-
             </div>
           </div>
         </div>
-
         <div class="mySlides-passport fade">
           <div class="slide-image">
             <img class="slide-img-doc slide-img" src="assets/passport-slide3.svg" alt="document/time">
@@ -55,7 +57,6 @@
             </div>
           </div>
         </div>
-
         <div class="mySlides-passport fade">
           <div class="slide-image">
             <img class="slide-img-stats slide-img slide-img-expiration" src="assets/expiration date.svg" alt="stats">
@@ -70,14 +71,10 @@
             </div>
           </div>
         </div>
-
         <!-- slideshow buttons -->
         <a class="prev" onclick="plusSlidesPassport(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlidesPassport(1)">&#10095;</a>
-
-
+        <a class="next" onclick="plusSlidesPassport(1)">&#10095;</a>      
       </div>
-
       <div style="text-align:center">
         <span class="dot-passport" onclick="currentSlidePassport(1)"></span>
         <span class="dot-passport" onclick="currentSlidePassport(2)"></span>
@@ -85,7 +82,6 @@
         <span class="dot-passport" onclick="currentSlidePassport(4)"></span>
       </div>
     </div>
-
     <!-- bottom caption -->
     <div class="information-body-r3 bottom-text">
       Click the arrows or the dots to navigate.
@@ -93,18 +89,12 @@
   </div>
   <!-- end of content for passport -->
 
-
-
   <!-- content for pep-->
   <div class="information-body" id="PEP-body">
     <div class="back-button" id="PEP-button">Back</div>
     <div class="information-body-r1">
-
-      <div class="information-title border-blue">PEP - "Special Stay Permit"</div>
-
-
+      <div class="information-title border-blue">PEP - "Special Stay Permit"</div>    
     </div>
-
     <!-- slideshow goes here -->
     <div class="information-body-r2">
       <div class="slideshow-container">
@@ -129,7 +119,6 @@
             </div>
           </div>
         </div>
-
         <div class="mySlides fade">
           <div class="slide-image">
             <img class="slide-img-doc slide-img" src="assets/doc.svg" alt="document/time">
@@ -139,7 +128,6 @@
             </div>
           </div>
         </div>
-
         <div class="mySlides fade">
           <div class="slide-image">
             <img class="slide-img-stats slide-img" src="assets/stats.svg" alt="stats">
@@ -150,14 +138,10 @@
             </div>
           </div>
         </div>
-
         <!-- slideshow buttons -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-
       </div>
-
       <div style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
@@ -165,7 +149,6 @@
         <span class="dot" onclick="currentSlide(4)"></span>
       </div>
     </div>
-
     <!-- bottom caption -->
     <div class="information-body-r3 bottom-text">
       Click the arrows or the dots to navigate.
@@ -178,12 +161,8 @@
   <div class="information-body" id="ID-body">
     <div class="back-button" id="ID-button">Back</div>
     <div class="information-body-r1">
-
       <div class="information-title border-red">Venezuelan ID Card</div>
-
-
     </div>
-
     <!-- slideshow goes here -->
     <div class="information-body-r2">
       <div class="slideshow-container">
@@ -205,55 +184,39 @@
             <div class="slide-txt2">
               <p>To obtain a cédula, Venezuelans must be at least nine years old and provide an original birth
                 certificate.
-
-                <p>It’s difficult to go a day without needing a cédula. They are used to make purchases, vote, travel
-                  domestically and internationally, and stay in hotels. </p>
-
-                <p>Cédulas contain a number that is used to identify every citizen.</p>
+              <p>It’s difficult to go a day without needing a cédula. They are used to make purchases, vote, travel domestically and internationally, and stay in hotels. </p>
+              <p>Cédulas contain a number that is used to identify every citizen.</p>
             </div>
           </div>
         </div>
-
         <div class="mySlides-ID fade">
           <div class="slide-image">
             <img class="slide-img-doc slide-img" src="assets/doc.svg" alt="document/time">
             <div class="slide-txt2">
-              <p>It’s becoming almost impossible to get a cédula due to shortage of resources to make the documents.
-                Most offices do not have the printers needed and some that can print ask citizens to bring their own
-                laminator.</p>
-
-              <p>Cédulas were once the main documentation Venezuelan migrants used to legally enter surrounding
-                countries, but now many countries, such as Peru, are requiring a passport because cédulas are easy
-                documents to forge and falsify. </p>
+              <p>It’s becoming almost impossible to get a cédula due to shortage of resources to make the documents. Most offices do not have the printers needed and some that can print ask citizens to bring their own laminator.</p>
+              <p>Cédulas were once the main documentation Venezuelan migrants used to legally enter surrounding countries, but now many countries, such as Peru, are requiring a passport because cédulas are easy documents to forge and falsify. </p>
             </div>
           </div>
         </div>
-
         <div class="mySlides-ID fade">
           <div class="slide-image">
             <img class="slide-img-stats slide-img" src="assets/stats.svg" alt="stats">
             <div class="slide-txt2">
               <p>Starting in December 2016, President Nicolás Maduro rolled a new identity card called the Carnet de la
                 Patria, or “Fatherland Card.” Over half the population has enrolled for the new card.</p>
-
               <p>The new ID card has come under criticism as being a way for the government to monitor citizens and
                 allocate scarce resources. The card gives a lot of personal data, such as location or whether someone
                 voted, to computer services.</p>
-
               <p>Venezuelan officials learned on a trip in 2008 that Chinese company ZTE was developing a system that
                 would help Beijing track its citizens behaviors. About six years later, ZTE was hired to build the
                 fatherland card database. </p>
             </div>
           </div>
         </div>
-
         <!-- slideshow buttons -->
         <a class="prev" onclick="plusSlidesID(-1)">&#10094;</a>
         <a class="next" onclick="plusSlidesID(1)">&#10095;</a>
-
-
       </div>
-
       <div style="text-align:center">
         <span class="dot-ID" onclick="currentSlideID(1)"></span>
         <span class="dot-ID" onclick="currentSlideID(2)"></span>
@@ -261,7 +224,6 @@
         <span class="dot-ID" onclick="currentSlideID(4)"></span>
       </div>
     </div>
-
     <!-- bottom caption -->
     <div class="information-body-r3 bottom-text">
       Click the arrows or the dots to navigate.
@@ -275,34 +237,28 @@
     <div class="container flex" id="r-1"><img class="title-svg" src="assets/main-title.svg" alt="undocumented"></div>
     <div class="container flex" id="r-2">
       <div class="container flex document-box" id="r-2-c-1">
-
         <div class="container document-img">
           <img class="passport-svg" src="assets/passport.svg" alt="passport">
         </div>
         <div class="container flex document-txt">
           <div class="document-caption">Passport</div>
         </div>
-
       </div>
       <div class="container flex document-box" id="r-2-c-2">
-
         <div class="container flex document-img">
           <img class="pep-svg" src="assets/pep.svg" alt="passport">
         </div>
         <div class="container flex document-txt">
           <div class="document-caption">PEP</div>
         </div>
-
       </div>
       <div class="container flex document-box" id="r-2-c-3">
-
         <div class="container flex document-img">
           <img class="cedula-svg" src="assets/cedula.svg" alt="passport">
         </div>
         <div class="container flex document-txt">
           <div class="document-caption">Venezuelan ID</div>
         </div>
-
       </div>
     </div>
     <div class="container flex" id="r-3">
