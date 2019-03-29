@@ -1060,6 +1060,27 @@ nav {
     font-style: italic;
     align-self: flex-start; }
 
+.photo-caption-container {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5em; }
+  .photo-caption-container img {
+    width: 100%; }
+  .photo-caption-container .caption {
+    background-color: #F2F2F2;
+    width: 100%;
+    align-items: flex-start;
+    padding: 5vh 5vw; }
+    .photo-caption-container .caption p {
+      margin: 0; }
+    .photo-caption-container .caption .ybr-line {
+      max-width: 40vw;
+      margin: 2vh 0 1vh 0; }
+      @media screen and (max-width: 800px) {
+        .photo-caption-container .caption .ybr-line {
+          max-width: 15vw; }
+          .photo-caption-container .caption .ybr-line .ybr-section {
+            stroke-width: 5; } }
+
 /* scrollama */
 #scroll {
   position: relative;
