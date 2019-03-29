@@ -1,0 +1,17 @@
+{{ $bundle := .Get 0 }}
+{{ $match := .Get 1 }}
+{{ $page := .Page.Site.GetPage $bundle }}
+{{ with $page }}
+{{ $resource := $page.Resources.GetMatch (printf "**%s*" $match )}}
+{{ with $resource }}
+<div class="photo-caption-container flex-column">
+  <img src="{{ .Params.image }}" alt="{{ .Params.alt }}" />
+  <div class="caption flex-column">
+    <strong>{{ .Params.title | upper }}</strong>
+    {{ .Content }}
+    {{ partial "ybr-line.html" . }}
+    <p><strong>photo by </strong> {{ .Params.photographer }}</p>
+  </div>
+</div>
+{{ end }}
+{{ end }}

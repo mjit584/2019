@@ -24,3 +24,5 @@ udea:
 {{< photo-right-vertical "/interactive/chap1" "photo-vertical-1" >}}
 
 {{< photo-interactive >}}
+
+{{< photo-scrollytelly "interactive/chap1" "photo-scrollytelly-1" >}}

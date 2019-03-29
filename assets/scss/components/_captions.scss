@@ -1,0 +1,36 @@
+.photo-caption-container {
+  font-family: $font-photo-caption; 
+  line-height: $line-height-base;
+  
+
+  img {
+    width:100%;
+  }
+
+  .caption {
+    background-color: $light-grey;
+    width: 100%;
+    align-items: flex-start;
+    padding: 5vh 5vw;
+
+
+    p {
+      margin: 0;
+    }
+
+    .ybr-line {
+      max-width: 40vw;
+      margin: 2vh 0 1vh 0;
+
+      @media screen and (max-width: 800px) {
+        max-width: 15vw;
+
+        .ybr-section {
+          stroke-width: 5;
+        }
+      }
+    }
+  }
+
+ 
+}

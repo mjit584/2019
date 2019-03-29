@@ -1,0 +1,11 @@
+{{ $bundle := .Get 0 }}
+{{ $match := .Get 1 }}
+{{ $page := .Page.Site.GetPage $bundle }}
+{{ with $page }}
+{{ $resource := $page.Resources.GetMatch (printf "**%s*" $match )}}
+{{ with $resource }}
+<div id="photo-int-scrolly">
+  {{ .Content }}
+</div>
+{{ end }}
+{{ end }}
