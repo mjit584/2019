@@ -27,6 +27,9 @@
 * {
   box-sizing: border-box; }
 
+:root {
+  font-size: 16px; }
+
 html {
   scroll-behavior: smooth; }
 
@@ -215,7 +218,8 @@ body {
       max-width: 50vw;
       line-height: 1.5em;
       margin: 2vw auto;
-      transition: 1s opacity; }
+      transition: 1s opacity;
+      font-size: 1.125rem; }
       .story-page .story-content p:first-child {
         margin-top: 3vw; }
       @media screen and (max-width: 800px) {
@@ -1098,10 +1102,10 @@ nav {
 .pull-quote-container {
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  margin: 5vh 0 5vh 10%; }
+  margin: 5vh 0 5vh 6vw; }
   .pull-quote-container p {
-    font-size: 1.5rem;
-    line-height: inherit;
+    font-size: 2.3rem !important;
+    max-width: 60vw !important;
     align-self: flex-start;
     margin: 0 0 2vh 0 !important; }
   .pull-quote-container .ybr-line {
@@ -1118,26 +1122,29 @@ nav {
   width: 70vw;
   margin: 2vh auto;
   align-items: flex-start; }
-  @media screen and (max-width: 800px) {
-    .photo-caption-container {
-      width: 75vw; }
-      .photo-caption-container .caption {
-        width: 100%; } }
   .photo-caption-container img {
     width: 100%; }
   .photo-caption-container .caption {
     background-color: #F2F2F2;
     align-items: flex-start;
     padding: 2vh 15vw 2vh 2vw;
-    margin-top: 2vh; }
+    margin-top: 2vh;
+    font-size: 1rem; }
     .photo-caption-container .caption p {
-      margin: 0; }
+      margin: 0;
+      font-size: inherit; }
     .photo-caption-container .caption .ybr-line {
       max-width: 15vw;
       margin: 2vh 0 1vh 0; }
       @media screen and (max-width: 800px) {
         .photo-caption-container .caption .ybr-line .ybr-section {
           stroke-width: 5; } }
+  @media screen and (max-width: 800px) {
+    .photo-caption-container {
+      width: 75vw; }
+      .photo-caption-container .caption {
+        width: 100%;
+        font-size: 0.75rem; } }
 
 /* scrollama */
 #scroll {

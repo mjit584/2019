@@ -1,11 +1,11 @@
 .pull-quote-container {
   font-family: $font-pullquote;
   font-weight: $font-weight-bold;
-  margin: 5vh 0 5vh 10%;
+  margin: 5vh 0 5vh 6vw;
 
   p {
-    font-size: 1.5rem;
-    line-height: inherit;
+    font-size: 2.3rem !important;
+    max-width: 60vw !important;
     align-self: flex-start;
     margin: 0 0 2vh 0 !important;
   }
