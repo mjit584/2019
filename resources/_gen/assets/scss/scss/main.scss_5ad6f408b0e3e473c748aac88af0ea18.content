@@ -958,10 +958,14 @@ nav {
   .header-mobile--white .hamburger .hamburger-inner::before,
   .header-mobile--white .hamburger .hamburger-inner::after {
     background: #ffffff; }
+  .header-mobile--white .hamburger.is-active .hamburger-inner,
+  .header-mobile--white .hamburger.is-active .hamburger-inner::before,
+  .header-mobile--white .hamburger.is-active .hamburger-inner::after {
+    background: #333333; }
 
 .main-menu-mobile {
   position: fixed;
-  background: #C70032;
+  background: #ffffff;
   top: 0;
   left: 0;
   width: 100%;
@@ -971,8 +975,6 @@ nav {
   transition: opacity 0.35s, visibility 0.35s, height 0.35s;
   overflow: hidden;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   z-index: -30; }
   .main-menu-mobile.open {
@@ -980,6 +982,24 @@ nav {
     display: flex;
     height: 100%;
     z-index: 2; }
+    .main-menu-mobile.open .top-banner {
+      background-color: #Fbbc00;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: 68px;
+      padding: 21px 25px; }
+      .main-menu-mobile.open .top-banner a {
+        max-width: 35vw;
+        font-family: "DDinBold", sans-serif;
+        font-size: 1.5rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #333333;
+        height: auto;
+        z-index: 2; }
+        .main-menu-mobile.open .top-banner a:hover {
+          color: #C70032; }
     .main-menu-mobile.open li {
       animation: fadeInRight 0.5s ease forwards;
       animation-delay: 0.35s; }
@@ -996,11 +1016,12 @@ nav {
       .main-menu-mobile.open li:nth-of-type(7) {
         animation-delay: 0.65s; }
   .main-menu-mobile ul {
-    font-size: 2rem;
-    font-family: "DDinRegular", sans-serif;
-    text-align: center;
+    font-size: 1.6rem;
+    font-family: "Lato", sans-serif;
     list-style: none;
     padding: 0;
+    padding-top: 100px;
+    padding-left: 25px;
     margin: 0;
     flex: 0; }
     .main-menu-mobile ul li {
@@ -1011,7 +1032,7 @@ nav {
       .main-menu-mobile ul li a {
         display: block;
         position: relative;
-        color: #ffffff;
+        color: #333333;
         text-decoration: none;
         overflow: hidden; }
         .main-menu-mobile ul li a:hover::after, .main-menu-mobile ul li a:focus::after, .main-menu-mobile ul li a:active::after {
@@ -1026,6 +1047,37 @@ nav {
           height: 3px;
           background: inherit;
           transition: 0.35s; }
+  .main-menu-mobile .bottom-menu {
+    position: absolute;
+    padding: 50px 25px;
+    align-items: flex-end;
+    justify-content: space-between;
+    bottom: 0;
+    width: 100%; }
+    .main-menu-mobile .bottom-menu a {
+      color: #333333;
+      font-size: 1.6rem;
+      font-family: "Lato", sans-serif;
+      text-decoration: none; }
+    .main-menu-mobile .bottom-menu .social {
+      justify-content: flex-start;
+      margin-top: 25px; }
+      .main-menu-mobile .bottom-menu .social a {
+        margin-right: 25px;
+        color: #ffffff;
+        font-size: 1.5rem;
+        background-color: #333333;
+        padding: 5px;
+        padding-top: 4px;
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        text-align: center; }
+  .main-menu-mobile .header__lang-toggle {
+    cursor: pointer;
+    padding-bottom: 5px; }
+    .main-menu-mobile .header__lang-toggle .header__lang-toggle__en:hover, .main-menu-mobile .header__lang-toggle .header__lang-toggle__es:hover {
+      font-weight: 900; }
 
 @keyframes fadeInRight {
   0% {

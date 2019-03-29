@@ -78,5 +78,13 @@
       background: $white;
     }
 
+    &.is-active {
+      .hamburger-inner,
+      .hamburger-inner::before,
+      .hamburger-inner::after {
+        background: $black;
+      }
+    }
+
   }
 }

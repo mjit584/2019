@@ -1,13 +1,35 @@
 <div id="main-menu-mobile" class="main-menu-mobile">
+  <div class="top-banner">
+    {{ if .Site.IsServer }}
+    <a href="{{ .Site.BaseURL }}">Uprooted
+    </a>
+    {{ else }}
+    <a href="{{ .Site.Params.gh_pages_URL }}">Uprooted
+    </a>
+    {{ end }}
+  </div>
   <ul>
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
     <li class='story-{{ .Weight }}{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}'>
       <a href="{{.URL}}">
-        {{ .Pre }}
         <span>{{ .Name }}</span>
       </a>
     </li>
     {{end}}
   </ul>
+  <div class="bottom-menu flex">
+    <div class="about-social">
+      <a href="/about" class="about">About Us</a>
+      <div class="social flex">
+        <a href="https://facebook.com/uprootedunc" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com/uprootedunc" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/@uprootedunc" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+    <div class="header__lang-toggle">
+      <a href="{{ .Site.BaseURL}}en"><span class="header__lang-toggle__en">EN</span></a> |
+      <a href="{{ .Site.BaseURL}}es"><span class="header__lang-toggle__es">ES</span></a>
+    </div>
+  </div>
 </div>
