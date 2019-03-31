@@ -77,15 +77,15 @@ body {
     @media screen and (max-width: 800px) {
       .home #home__intro .home__logo {
         max-width: 80vw; } }
-  .home #home__intro .ybr-line {
+  .home #home__intro > .ybr-line {
     width: 100%;
     height: 10px;
     margin-top: -5px;
     max-width: 26vw; }
     @media screen and (max-width: 800px) {
-      .home #home__intro .ybr-line {
+      .home #home__intro > .ybr-line {
         max-width: 50vw; } }
-    .home #home__intro .ybr-line .ybr-section {
+    .home #home__intro > .ybr-line .ybr-section {
       stroke-width: 4px; }
   .home #home__intro .home__subtitle {
     font-family: "Playfair Display", serif;
@@ -647,7 +647,7 @@ nav {
         color: #C70032; }
       .header .container .header__story-dropdown i {
         padding-left: 10px; }
-      .header .container .header__story-dropdown div {
+      .header .container .header__story-dropdown .header__stories-button {
         padding: 16px 0; }
     .header .container .header__lang-toggle {
       cursor: pointer; }
@@ -875,51 +875,70 @@ nav {
           display: inline-block; } }
 
 .main-menu {
-  color: #333333;
   display: none;
   position: absolute;
   left: 0;
-  width: 100vw;
-  padding-top: 2%;
+  width: 100%;
   text-align: left; }
-  .main-menu .ybr-line {
-    margin: 0 auto;
-    flex-basis: 100%;
-    max-width: 18vw; }
-  .main-menu a {
-    font-family: "Lato", sans-serif;
-    padding: 10px 14px 10px 14px;
-    display: inline-block;
-    text-decoration: none;
-    color: #333333;
-    text-align: center; }
-    .main-menu a:hover {
-      width: inherit;
-      background: #C70032;
-      color: #ffffff;
-      text-decoration: none; }
-  .main-menu.active > a {
-    background: #C70032;
-    text-decoration: none;
-    color: #ffffff; }
-    .main-menu.active > a:hover {
-      text-decoration: none;
-      background: #C70032;
-      transition: all 225ms ease-in 0s;
-      color: #ffffff; }
   .main-menu.open {
     display: grid;
     background: rgba(255, 255, 255, 0.9);
     text-align: center;
-    grid-template-areas: 'ybr-line ybr-line ybr-line ybr-line ybr-line ybr-line' 'story1 story2 story3 story4 story5 interactive'; }
-    .main-menu.open .ybr-line {
-      grid-area: ybr-line;
-      padding-bottom: 2%; }
-    .main-menu.open img {
-      width: 10vw;
-      height: auto; }
-    .main-menu.open p {
-      text-align: left; }
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: 'story1 story2 story3 story4 story5 interactive'; }
+  .main-menu .main-menu__card {
+    position: relative;
+    height: 40vh;
+    font-family: "Lato", sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    z-index: 0; }
+    .main-menu .main-menu__card::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.5);
+      transition: background-color .4s;
+      z-index: 2; }
+    .main-menu .main-menu__card:hover {
+      color: #333333; }
+      .main-menu .main-menu__card:hover::before {
+        background-color: rgba(255, 255, 255, 0.7);
+        z-index: 1; }
+      .main-menu .main-menu__card:hover .card__desc {
+        display: block; }
+    .main-menu .main-menu__card .card__desc {
+      display: none; }
+  .main-menu .card__img {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0; }
+  .main-menu .card__text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding: 0 15px; }
+    .main-menu .card__text .card__title {
+      font-family: "DDinBold", sans-serif;
+      margin-bottom: 5px; }
+    .main-menu .card__text .ybr-line {
+      width: 50%;
+      height: 10px; }
+      .main-menu .card__text .ybr-line .ybr-section {
+        stroke-width: 3px; }
+    .main-menu .card__text .card__desc {
+      text-align: left;
+      font-family: "Lato", sans-serif; }
 
 .header-mobile {
   color: #333333;
@@ -1544,7 +1563,7 @@ footer {
       display: block; } }
   footer .footer__title {
     margin-top: 25px;
-    font-family: "DDinRegular", sans-serif;
+    font-family: "DDinBold", sans-serif;
     font-size: 2.5rem;
     text-align: center; }
   footer .ybr-line {
@@ -1575,7 +1594,7 @@ footer {
         z-index: -1; }
       footer .footer__cards .footer__card .footer__text {
         position: absolute;
-        font-family: "DDinRegular", sans-serif;
+        font-family: "DDinBold", sans-serif;
         width: 100%;
         color: #ffffff;
         text-align: center;
