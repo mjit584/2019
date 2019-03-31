@@ -1,19 +1,48 @@
-<div class="footer__stories">
-  Explore more stories
+<div class="footer-stories">
+  <div class="footer__title">You may also be interested in...</div>
   {{partial "ybr-line.html" . }}
 
+
+  <div class="footer__cards">
+    {{ $menu := .Site.Menus.main }}
+    {{ $weight := .Params.weight }}
+    {{ range $menu }}
+    {{ if eq $.URL .URL }}
+    {{ else }}
+    <a class="footer__card" href="{{ .URL }}">
+      <img class="footer__img" src="{{ .Post }}">
+      <div class="footer__text flex">
+        <h3>{{ .Name }}</h3>
+      </div>
+    </a>
+    {{ end }}
+    {{ end }}
+  </div>
 </div>
-<div class="footer__img">
-  {{ $menu := .Site.Menus.main }}
-  {{ $weight := .Params.weight }}
-  {{ range $menu }}
-  <a href="{{ .URL }}">
-    <div class="pic flex">
-      <h3>{{ .Name }}</h3>
-    </div>
-  </a>
-  {{ end }}
+
+<div class="footer-stories__mobile">
+
+  <div class="footer__title">Continue reading...</div>
+  {{partial "ybr-line.html" . }}
+
+  <div class="footer__cards">
+    {{ $currentWeight := add .Weight 1 }}
+    {{ range $menu }}
+    {{ if eq $currentWeight 7 }}
+    {{ else }}
+    {{ if eq .Weight $currentWeight }}
+    <a class="footer__card" href="{{ .URL }}">
+      <img class="footer__img" src="{{ .Post }}">
+      <div class="footer__text flex">
+        <h3>{{ .Name }}</h3>
+      </div>
+    </a>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+  </div>
 </div>
+
 
 <div class="footer__line"></div>
 
