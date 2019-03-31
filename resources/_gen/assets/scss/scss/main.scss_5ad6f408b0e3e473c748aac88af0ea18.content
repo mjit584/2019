@@ -666,12 +666,15 @@ nav {
 
 .video-container {
   transition: 0.1s background-color;
-  height: 80vh;
-  margin: 10vh 0; }
+  height: 55vw;
+  max-height: 80vh;
+  max-width: 1200px;
+  margin: 50px auto; }
   .video-container iframe {
     border: none !important;
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    margin: 0 auto; }
 
 .cards.darkened .card::before {
   content: "";
@@ -1545,18 +1548,18 @@ footer {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 1em;
-    margin-bottom: 75px; }
+    margin-bottom: 100px; }
     footer .footer__img .pic {
       height: 30vh;
       width: 1fr;
       background-color: #C70032; }
   footer .footer__line {
     border-bottom: solid 1px #707070;
-    margin: 25px auto;
+    margin: 0 auto;
     width: 60vw; }
   footer .footer__social {
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 50px;
     max-width: 200px; }
     footer .footer__social img {
       width: 100%;

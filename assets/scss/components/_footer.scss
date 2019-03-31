@@ -26,7 +26,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 1em;
-    margin-bottom: 75px;
+    margin-bottom: 100px;
   
     .pic{
       height: 30vh;
@@ -37,13 +37,13 @@ footer{
 
   .footer__line {
     border-bottom: solid 1px #707070;
-    margin: 25px auto;
+    margin: 0 auto;
     width: 60vw;
   }
   
   .footer__social{
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 50px;
     max-width: 200px; 
   
     img {
