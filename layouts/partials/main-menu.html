@@ -1,14 +1,14 @@
 <div id="main-menu" class="main-menu">
-  {{ partial "ybr-line.html" . }}
-  {{ $currentPage := . }}
+  {{ $weight := .Params.weight }}
   {{ $menu := .Site.Menus.main }}
   {{ range $menu }}
-  <div class='story-{{ .Weight }}{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}'>
-    <a href="{{.URL}}">
-      <h3>{{ .Name }}</h3>
-      <img src="{{ .Post }}" alt="a picture of medellin" />
-      <p>{{ .Pre }}</p>
-    </a>
-  </div>
+  <a class="main-menu__card story-{{ .Weight }} {{ if eq .Weight $weight }}active{{ end }}" href="{{.URL}}">
+    <img class="card__img" src="{{ .Post }}" alt="a picture of medellin" />
+    <div class="card__text">
+      <h3 class="card__title">{{ .Name }}</h3>
+      {{ partial "ybr-line.html" }}
+      <p class="card__desc">{{ .Pre }}</p>
+    </div>
+  </a>
   {{end}}
 </div>
