@@ -60,7 +60,7 @@ let init = function () {
       goDark();
     } else {
       $('.home').css('background-color', '#fff')
-      $('p').css('opacity', '1')
+      $('p, footer').css('opacity', '1')
     }
   });
 
@@ -69,13 +69,13 @@ let init = function () {
     // console.log(scrollTop)
     if (scrollTop >= videoTop - (videoHeight / 2) && scrollTop <= videoTop + (videoHeight / 10)) {
       $('#home__about').css('background-color', '#000')
-      $('p').css('opacity', '0')
+      $('p, footer').css('opacity', '0')
     } else if (scrollTop > videoTop + (videoHeight / 10)) {
       $('#home__about').css('background-color', '#fff')
-      $('p').css('opacity', '1')
+      $('p, footer').css('opacity', '1')
     } else if (scrollTop < videoTop - (videoHeight / 2)) {
       $('#home__about').css('background-color', '#fff')
-      $('p').css('opacity', '1')
+      $('p, footer').css('opacity', '1')
     };
   };
 }

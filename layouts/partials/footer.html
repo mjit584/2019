@@ -1,26 +1,57 @@
-<div class="footer__stories">
-  Explore more stories
+<div class="footer-stories">
+  <div class="footer__title">You may also be interested in...</div>
   {{partial "ybr-line.html" . }}
 
-</div>
-<div class="footer__img">
-  {{ $menu := .Site.Menus.main }}
-  {{ $weight := .Params.weight }}
-  {{ range $menu }}
-  <a href="{{ .URL }}">
-    <div class="pic flex">
-      <h3>{{ .Name }}</h3>
-    </div>
-  </a>
-  {{ end }}
+
+  <div class="footer__cards">
+    {{ $menu := .Site.Menus.main }}
+    {{ $weight := .Params.weight }}
+    {{ range $menu }}
+    {{ if eq $.URL .URL }}
+    {{ else }}
+    <a class="footer__card" href="{{ .URL }}">
+      <img class="footer__img" src="{{ .Post }}">
+      <div class="footer__text flex">
+        <h3>{{ .Name }}</h3>
+      </div>
+    </a>
+    {{ end }}
+    {{ end }}
+  </div>
 </div>
 
+<div class="footer-stories__mobile">
+
+  <div class="footer__title">Continue reading...</div>
+  {{partial "ybr-line.html" . }}
+
+  <div class="footer__cards">
+    {{ $currentWeight := add .Weight 1 }}
+    {{ range $menu }}
+    {{ if eq $currentWeight 7 }}
+    {{ else }}
+    {{ if eq .Weight $currentWeight }}
+    <a class="footer__card" href="{{ .URL }}">
+      <img class="footer__img" src="{{ .Post }}">
+      <div class="footer__text flex">
+        <h3>{{ .Name }}</h3>
+      </div>
+    </a>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+  </div>
+</div>
+
+
+<div class="footer__line"></div>
+
 <div class="footer__social">
-  <a href="{{ .URL }}"><img src="/images/logo-footer-black.png" alt="Uprooted footer logo" /></a>
+  <a href="{{ .URL }}"><img src="../images/logo-footer-black.png" alt="Uprooted footer logo" /></a>
   {{ partial "ybr-line.html" . }}
   <div class="footer__social-icons flex">
-    <a href="https://facebook.com/uprootedunc" target="_blank"><i class="fab fa-facebook-square"></i></a>
-    <a href="https://instagram.com/uprootedunc" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://facebook.com/uprootedunc" target="_blank"><i class="fab fa-facebook-f"></i></a>
     <a href="https://twitter.com/@uprootedunc" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://instagram.com/uprootedunc" target="_blank"><i class="fab fa-instagram"></i></a>
   </div>
 </div>
