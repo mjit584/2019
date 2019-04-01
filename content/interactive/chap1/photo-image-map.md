@@ -2,6 +2,7 @@
   <h1>
     Living Day to Day - Friends create a home in <em>Inquilinato</em>
   </h1>
+  {{< ybr-line >}}
   <h2>
     Hover over parts of the picture for more information
   </h2>
@@ -12,7 +13,7 @@
     <defs>
       <style>
         svg#interactive__svg {
-          background-image: url("./assets/photo-interactive.jpg");
+          background-image: url("assets/photo-interactive.jpg");
           background-size: 100% 100%;
           background-repeat: no-repeat;
           max-width: 900px;
