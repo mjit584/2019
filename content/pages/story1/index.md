@@ -29,9 +29,7 @@ Ut auctor sodales lorem, sit amet dictum risus sodales eu. Cras posuere augue at
 
 {{< vimeo id="266021099" class="video-container flex" >}}
 
-<div class="story__subhead flex-column">Long-Term Risks
-  {{< ybr-line >}}
-</div>
+<div class="story__subhead flex-column">Long-Term Risks</div>
 
 Nulla facilisi. <a href="#">Maecenas malesuada</a> scelerisque urna quis tempus. Nullam non quam accumsan, semper libero eget, maximus orci. Praesent non enim lorem. Pellentesque ut suscipit purus. Sed suscipit ligula in mi laoreet molestie. Nulla condimentum congue vestibulum. Pellentesque semper, nibh et imperdiet lobortis, ante odio aliquet justo, varius molestie nibh elit et purus. In placerat quam neque, et posuere massa cursus id. Suspendisse magna augue, fringilla ac odio at, maximus malesuada turpis.
 

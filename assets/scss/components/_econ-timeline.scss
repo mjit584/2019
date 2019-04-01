@@ -1,0 +1,82 @@
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: $font-int-body;
+}
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  background-color: #000;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+.bolivar {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+.bolivar::after {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  right: -15px;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.yellow::after {
+    background-color: $yellow;
+}
+.red::after {
+    background-color: $red;
+}
+.blue::after {
+    background-color: $blue;
+}
+.left {
+  left: 0;
+  text-align:right;
+}
+.right {
+  left: 50%;
+  text-align:left;
+}
+.right::after {
+  left: -20px;
+}
+.timeline-content {
+  padding: 20px 30px;
+  position: relative;
+  border-radius: 6px;
+}
+@media screen and (max-width: 800px) {
+  .timeline::after {
+    left: 31px;
+  }
+  .bolivar {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  .bolivar::before {
+    left: 60px;
+    border: medium solid $white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  .left::after, .right::after {
+    left: 15px;
+  }
+  .right {
+    left: 0%;
+  }
+  .left {
+    text-align:left;
+  }
+}

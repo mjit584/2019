@@ -168,14 +168,20 @@ body {
     grid-area: story-hero;
     background-color: #Fbbc00;
     transition: 1s opacity; }
+    .story-page .story-hero .story-hero__topic p {
+      font-family: "DDinRegular", sans-serif;
+      font-weight: 400;
+      margin: 0;
+      text-transform: uppercase;
+      font-size: 2vw; }
     .story-page .story-hero .story-hero__title {
       font-family: "DDinBold", sans-serif;
-      font-size: 3rem;
+      font-weight: 400;
+      font-size: 7vw;
       margin-bottom: 1%; }
-    .story-page .story-hero .ybr-line {
-      max-width: 30vw; }
     .story-page .story-hero .story-hero__desc {
-      font-family: "Lato", sans-serif; }
+      font-family: "Lato", sans-serif;
+      font-weight: 400; }
   .story-page .story-byline {
     font-family: "Lato", sans-serif;
     margin-top: 6vh;
@@ -190,23 +196,43 @@ body {
     .story-page .story-byline .ybr-line {
       margin-top: 1vh;
       max-width: 10vw; }
+      .story-page .story-byline .ybr-line .ybr-section {
+        stroke-width: 5; }
   .story-page .story-content {
     font-family: "Georgia", serif;
     grid-area: story-bd; }
     .story-page .story-content .interactive {
-      max-width: 99vw;
+      max-width: 100%;
       transition: 1s opacity;
-      margin: 6vh 0; }
+      margin: 6vh 0;
+      text-align: center; }
+      .story-page .story-content .interactive .interactive__title {
+        font-family: "DDinBold", sans-serif;
+        font-size: 2.5vw;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        font-weight: 400; }
+      .story-page .story-content .interactive .interactive__subhead {
+        font-family: "DDinRegular", sans-serif;
+        font-size: 1.8vw;
+        margin-top: 1vh;
+        margin-bottom: 2vh;
+        font-weight: 400; }
+      .story-page .story-content .interactive .interactive__body {
+        font-family: "DDinRegular", sans-serif;
+        font-weight: 400; }
+      .story-page .story-content .interactive .ybr-line {
+        max-width: 25vw;
+        margin-bottom: 2vh; }
     .story-page .story-content a {
       color: #C70032; }
     .story-page .story-content .story__subhead {
       font-family: "DDinRegular", sans-serif;
-      max-width: 50vw;
+      max-width: 55vw;
       margin: 0 auto;
       font-size: 2rem;
       justify-content: flex-start;
       align-items: flex-start;
-      max-width: 50%;
       margin: 0 auto; }
       .story-page .story-content .story__subhead .ybr-line {
         margin-top: 1%;
@@ -214,7 +240,7 @@ body {
         .story-page .story-content .story__subhead .ybr-line .ybr-section {
           stroke-width: 4; }
     .story-page .story-content p {
-      max-width: 50vw;
+      max-width: 55vw;
       line-height: 1.5em;
       margin: 2vw auto;
       transition: 1s opacity;
@@ -331,22 +357,22 @@ nav {
   .about .about__thanks .about__heading {
     font-family: "DDinRegular", sans-serif; }
 
-.interactive {
+.photo-stories {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 100vh;
   grid-template-areas: 'chap1 chap2 chap3 chap4'; }
-  .interactive #chap1 {
+  .photo-stories #chap1 {
     grid-area: chap1;
     background-image: url(../images/home2.jpg);
     background-size: cover; }
-  .interactive #chap2 {
+  .photo-stories #chap2 {
     grid-area: chap2;
     background-color: #1457D3; }
-  .interactive #chap3 {
+  .photo-stories #chap3 {
     grid-area: chap3;
     background-color: #Fbbc00; }
-  .interactive #chap4 {
+  .photo-stories #chap4 {
     grid-area: chap4;
     background-color: #C70032; }
 
@@ -1196,7 +1222,7 @@ nav {
 
 #interactive__gov-undocumented {
   position: relative;
-  height: 100%;
+  max-height: 100vh;
   transition: 0.7s;
   /* slideshow */
   /* mobile css */ }
@@ -1411,8 +1437,7 @@ nav {
     font-size: 14pt;
     color: #333333;
     font-family: "Playfair Display", serif;
-    width: 35vw;
-    padding: 75px; }
+    width: 35vw; }
   #interactive__gov-undocumented .slide-txt2 {
     font-size: 14pt;
     color: #333333;
@@ -1431,7 +1456,6 @@ nav {
     padding-left: 125px;
     padding-right: 75px; }
   #interactive__gov-undocumented .information-title {
-    padding-top: 50px;
     margin-left: 22vw;
     height: 70px;
     width: 50vw;
@@ -1481,7 +1505,7 @@ nav {
       padding-top: 30px;
       font-size: 15px; }
     #interactive__gov-undocumented .back-button {
-      margin-left: 0; }
+      margin-left: 10vh; }
     #interactive__gov-undocumented .information-title {
       font-size: 30px;
       height: 40px;
@@ -1549,6 +1573,82 @@ nav {
   #photo-int-scrolly section .inner {
     margin: 0 auto;
     max-width: 85%; }
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "DDinRegular", sans-serif; }
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  background-color: #000;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px; }
+
+.bolivar {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%; }
+
+.bolivar::after {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  right: -15px;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1; }
+
+.yellow::after {
+  background-color: #Fbbc00; }
+
+.red::after {
+  background-color: #C70032; }
+
+.blue::after {
+  background-color: #1457D3; }
+
+.left {
+  left: 0;
+  text-align: right; }
+
+.right {
+  left: 50%;
+  text-align: left; }
+
+.right::after {
+  left: -20px; }
+
+.timeline-content {
+  padding: 20px 30px;
+  position: relative;
+  border-radius: 6px; }
+
+@media screen and (max-width: 800px) {
+  .timeline::after {
+    left: 31px; }
+  .bolivar {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px; }
+  .bolivar::before {
+    left: 60px;
+    border: medium solid #ffffff;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent; }
+  .left::after, .right::after {
+    left: 15px; }
+  .right {
+    left: 0%; }
+  .left {
+    text-align: left; } }
 
 footer {
   margin: 0 auto;

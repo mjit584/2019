@@ -1,6 +1,6 @@
 #interactive__gov-undocumented {
   position: relative;
-  height: 100%;
+  max-height: 100vh;
   transition: 0.7s;
   
   #r-1{
@@ -294,7 +294,6 @@
     color: $black;
     font-family:  $font-int-gov;
     width: 35vw;
-    padding: 75px;
   }
   
   .slide-txt2 {
@@ -318,11 +317,9 @@
     height: auto;
     padding-left:125px;
     padding-right: 75px;
-  
   }
   
   .information-title {
-    padding-top: 50px;
     margin-left: 22vw;
     height: 70px;
     width: 50vw;
@@ -332,7 +329,6 @@
     color: $black;
     font-family: $font-content-heading;
     font-weight: 700;
-  
   }
   
   .information-title-passport {
@@ -407,7 +403,7 @@
     }
   
     .back-button {
-      margin-left: 0;
+      margin-left: 10vh;
     }
   
     .information-title{
@@ -417,7 +413,6 @@
       border-bottom-width: 5px;
       padding-top: 20px;
     }
-  
   }
   
   

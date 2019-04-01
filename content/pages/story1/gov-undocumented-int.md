@@ -14,7 +14,7 @@ graphics:
       <div class="information-body-r1">
         <div class="information-title">Passport</div>
       </div>
-    <!-- slideshow goes here -->
+      <!-- slideshow goes here -->
       <div class="information-body-r2">
         <div class="slideshow-container">
           <!-- first slide -->
@@ -89,7 +89,6 @@ graphics:
       </div>
     </div>
     <!-- end of content for passport -->
-
     <!-- content for pep-->
     <div class="information-body" id="PEP-body">
       <div class="back-button" id="PEP-button">Back</div>
@@ -156,8 +155,6 @@ graphics:
       </div>
     </div>
     <!-- end of content for pep -->
-
-
     <!-- contont for National id -->
     <div class="information-body" id="ID-body">
       <div class="back-button" id="ID-button">Back</div>
@@ -231,11 +228,10 @@ graphics:
       </div>
     </div>
     <!-- end of content for national ID -->
-
-
     <!-- front page -->
     <div class="container-body">
-      <div class="container flex" id="r-1"><img class="title-svg" src="assets/main-title.svg" alt="undocumented"></div>
+      <div class="container flex" id="r-1">
+      <img class="title-svg" src="assets/main-title.svg" alt="undocumented"></div>
       <div class="container flex" id="r-2">
         <div class="container flex document-box" id="r-2-c-1">
           <div class="container document-img">
