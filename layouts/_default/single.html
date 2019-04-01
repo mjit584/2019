@@ -42,9 +42,9 @@
 {{ $scripts := resources.Get "js/scripts.js" }}
 {{ $header := resources.Get "js/header.js" }}
 {{ $videos := resources.Get "js/videos.js" }}
-{{ $intUndocumented := resources.Get "js/gov-undocumented-int.js" }}
 {{ $hamburger := resources.Get "js/hamburger.js"}}
-{{ $storypageBundle := slice $scripts $header $videos $intUndocumented $hamburger | resources.Concat "js/storypageBundle.js" }}
+{{ $intUndocumented := resources.Get "js/gov-undocumented-int.js" }}
+{{ $storypageBundle := slice $scripts $header $videos $hamburger $intUndocumented | resources.Concat "js/storypageBundle.js" }}
 {{ block "footer_js" . }}{{ end }}
 
 {{ if .Site.IsServer }}
