@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
-@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700");
 @font-face {
   font-family: DDinBold;
@@ -788,7 +788,7 @@ nav {
       .cards .card .ybr-line .ybr-section {
         stroke-width: 5; }
     .cards .card .card__title {
-      font-weight: 700;
+      font-weight: 400;
       font-family: "DDinBold", sans-serif;
       font-size: 2rem;
       line-height: 1.8rem;
