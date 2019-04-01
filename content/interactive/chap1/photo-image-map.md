@@ -2,7 +2,6 @@
   <h1>
     Living Day to Day - Friends create a home in <em>Inquilinato</em>
   </h1>
-  {{ partial "ybr-line.html" . }}
   <h2>
     Hover over parts of the picture for more information
   </h2>
@@ -13,24 +12,21 @@
     <defs>
       <style>
         svg#interactive__svg {
-          background-image: url('/images/photo-interactive.jpg');
+          background-image: url("./assets/photo-interactive.jpg");
           background-size: 100% 100%;
           background-repeat: no-repeat;
           max-width: 900px;
           width: 90%;
         }
-
         polygon {
           fill: transparent;
           cursor: pointer;
           transition: fill 0.2s
         }
-
         svg polygon:focus,
         svg polygon:hover {
           outline: none;
         }
-
         svg polygon:hover {
           fill: rgba(199, 0, 50, 0.36);
           cursor: pointer;

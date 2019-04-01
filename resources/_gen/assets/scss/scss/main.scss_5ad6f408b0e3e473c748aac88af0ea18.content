@@ -327,7 +327,7 @@ nav {
               background-color: #333333; }
 
 .about .about__thanks {
-  background: #ededed;
+  background: #F2F2F2;
   padding: 10vh 0; }
   .about .about__thanks .about__heading {
     font-family: "DDinRegular", sans-serif; }
