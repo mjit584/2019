@@ -3,80 +3,160 @@
   max-width: 1200px;
   margin: 0 auto;
   font-family: $font-int-body;
-}
-.timeline::after {
-  content: '';
-  position: absolute;
-  width: 1px;
-  background-color: #000;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -3px;
-}
-.bolivar {
-  padding: 10px 40px;
-  position: relative;
-  background-color: inherit;
-  width: 50%;
-}
-.bolivar::after {
-  content: '';
-  position: absolute;
-  width: 35px;
-  height: 35px;
-  right: -15px;
-  top: 15px;
-  border-radius: 50%;
-  z-index: 1;
-}
-.yellow::after {
-    background-color: $yellow;
-}
-.red::after {
-    background-color: $red;
-}
-.blue::after {
-    background-color: $blue;
-}
-.left {
-  left: 0;
-  text-align:right;
-}
-.right {
-  left: 50%;
-  text-align:left;
-}
-.right::after {
-  left: -20px;
-}
-.timeline-content {
-  padding: 20px 30px;
-  position: relative;
-  border-radius: 6px;
-}
-@media screen and (max-width: 800px) {
-  .timeline::after {
-    left: 31px;
+ .row {
+   display:flex;
+   justify-content: center;
+   position:relative;
+   overflow:hidden;
+ }
+  h2 {
+    font-size:32px;
+    font-family:"DDinBold", sans-serif;
+    margin-top: 10px;
   }
-  .bolivar {
-    width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
+  h3 {
+    font-family:"DDinBold", sans-serif;
+    font-size:24px;
+    margin-top: 10px;
   }
-  .bolivar::before {
-    left: 60px;
-    border: medium solid $white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+ .caption {
+   font-size: 13px;
+   display:block;
+ }
+  .timeline-image {
+    max-width: 100%;
+    max-height:150px;
   }
-  .left::after, .right::after {
-    left: 15px;
+  h2.yellow {
+    color:$yellow;
   }
-  .right {
-    left: 0%;
+  h2.red {
+    color:$red;
+  }
+  h2.blue {
+    color:$blue;
   }
   .left {
+    text-align:right;
+    width:30%;
+    position: absolute;
+    left: -25%;
+    -webkit-animation: slideleft 0.5s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slideleft 0.5s forwards;
+    animation-delay: 0s;
+  }
+  .right {
     text-align:left;
+    width:30%;
+    position: absolute;
+    right: -25%;
+    -webkit-animation: slideright 0.5s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slideright 0.5s forwards;
+    animation-delay: 0s;
+  }
+  @-webkit-keyframes slideleft {
+      100% { left: 0; }
+  }
+  @keyframes slideleft {
+      100% { left: 0; }
+  }
+  @-webkit-keyframes slideright {
+      100% { right: 0; }
+  }
+  @keyframes slideright {
+      100% { right: 0; }
+  }
+  .dot {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: $yellow;
+    display:inline-block;
+  }
+  .center {
+    width: 50px;
+    border: 1px solid #fff;
+    position: relative;
+    text-align: center;
+    padding-top:30px;
+  }
+  .center:after {
+    content:"";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left:25px;
+    border-left: 1px solid $yellow;
+    transform: translate(-50%);
+  }
+  .yellow .dot {
+    background-color: $yellow;
+  }
+  .blue .dot {
+    background-color: $blue;
+  }
+  .red .dot {
+    background-color: $red;
+  }
+  .yellow .center:after {
+    border-left: 1px solid $yellow;
+  }
+  .blue .center:after {
+    border-left: 1px solid $blue;
+  }
+  .red .center:after {
+    border-left: 1px solid $red;
+  }
+  .timeline-content {
+    padding: 30px;
+    position: relative;
+  }
+}
+@media screen and (max-width: 800px) {
+  .timeline {
+    .row {
+      justify-content: center;
+      flex-flow: column;
+      position:relative;
+      overflow:hidden;
+    }
+    .timeline-content {
+      padding:0px;
+    }
+    .center {
+      display:none;
+    }
+    .left, .right {
+      width:100%;
+      text-align: center;
+    }
+    h2 {
+      position:relative;
+    }
+    h2:after, h2:before {
+      position: absolute;
+      top: 51%;
+      overflow: hidden;
+      width: 50%;
+      height: 1px;
+      content: '\a0';
+      background-color: $yellow;
+    }
+    h2:before {
+      margin-left: -50%;
+      text-align: right;
+    }
+    h2.blue:after, h2.blue:before {
+      background-color: $blue;
+    }
+    h2.red:after, h2.red:before {
+      background-color: $red;
+    }
+    .reorder {
+      flex-direction:column-reverse;
+    }
   }
 }
