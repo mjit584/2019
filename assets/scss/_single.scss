@@ -26,7 +26,7 @@
     grid-area: story-hero;
     background-color: $yellow;
     transition: 1s opacity;
-    
+
     .story-hero__topic p{
       font-family: $font-hero-topic;
       font-weight: $font-weight-normal;
@@ -34,21 +34,21 @@
       text-transform: uppercase;
       font-size: 2vw;
     }
-    
+
     .story-hero__title {
       font-family: $font-hero-title;
       font-weight: $font-weight-normal;
       font-size: 7vw;
       margin-bottom: 1%;
     }
-  
+
     .story-hero__desc {
       font-family: $font-hero-desc;
       font-weight: $font-weight-normal;
     }
-  
+
   }
-  
+
   .story-byline {
     font-family: $font-byline;
     margin-top: 6vh;
@@ -58,7 +58,7 @@
     line-height: $line-height-base;
     grid-area: story-by;
     transition: 1s opacity;
-  
+
     span {
       font-weight: $font-weight-light;
     }
@@ -72,8 +72,8 @@
       }
     }
   }
-  
-  
+
+
   .story-content {
     font-family: $font-content-body;
     grid-area: story-bd;
@@ -101,7 +101,7 @@
         margin-bottom: 2vh;
         font-weight: $font-weight-normal;
       }
-      
+
       .interactive__body {
         font-family: $font-int-body;
         font-weight: $font-weight-normal;
@@ -129,33 +129,33 @@
       .ybr-line {
         margin-top: 1%;
         max-width: 10vw;
-        
+
         .ybr-section{
           stroke-width: 4;
         }
       }
     }
-  
+
     p {
       max-width: 55vw;
       line-height: $line-height-base;
       margin: 2vw auto;
       transition: 1s opacity;
       font-size: 1.125rem;
-  
+
       &:first-child{
         margin-top:3vw;
       }
-  
+
       @media screen and (max-width: 800px){
         max-width: 90vw;
       }
     }
-  
+
     .ybr-line{
       transition: 1s opacity;
     }
-  
+
     .drop-cap:first-letter {
       font-size: 3rem;
       float: left;
@@ -178,5 +178,3 @@ nav{
     width: 100%;
   }
 }
-
-
