@@ -1,6 +1,6 @@
 ---
 title: "A Helping Hand"
-topic: "Health and Safety"
+topic: "Government and Services"
 date: 2019-02-04T21:34:53-05:00
 description: "This is the description for the first story."
 image: "https://brookenf.github.io/uprooted-mejo584/images/cards-story1.jpg"
@@ -8,38 +8,54 @@ storyHeading: "A Helping Hand"
 storySubheading: "Providing assistance to Venezuelans who cross over the border"
 weight: 1
 card: true
-author: "Brooklynn Cooper"
-videographer: 
-- "Bryan Cereijo" 
-- "Abby Cantrell"
-photographer: "Alex Kormann"
-designer: "Kailyn Akers"
+author: "Maria Elena Vizcaino"
+videographer: "Landon Cooper, Jason Armond"
+photographer: ""
+designer: "Sally Dillon, Xiaoke Ji"
 udea: "Laura Andrea Garcia Giraldo"
 ---
 
-<p class="drop-cap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lectus non sem scelerisque elementum. Sed tempor velit non urna lobortis sodales. Nunc vitae lectus sed justo eleifend lacinia sed nec mauris. Quisque pulvinar lorem sed neque sodales, vitae ultricies arcu eleifend. Sed suscipit est nulla, efficitur varius libero ultricies at. Nullam a mollis dui. Donec a felis sapien. Aliquam euismod nec ipsum sit amet consequat. Quisque faucibus arcu at sem congue, eget hendrerit turpis euismod. Praesent eleifend enim sit amet elit viverra, non volutpat diam tempor. Vivamus tempor nisi eget ultrices tristique. Morbi vitae pharetra felis, et faucibus magna. Quisque venenatis, lacus sit amet finibus ornare, massa ante facilisis sapien, quis tempor dui mauris sit amet urna.</p>
+<p class="drop-cap">By 4 p.m., Irelys Rojas begins to fear the end of the day.</p> 
 
-Curabitur porttitor dignissim est vel imperdiet. Praesent ut dapibus purus. Proin pulvinar eget justo vel luctus. Phasellus non pellentesque lorem. Suspendisse nisl neque, pretium sed tristique vitae, accumsan id tellus. Sed dictum faucibus ornare. Sed euismod, augue nec bibendum sollicitudin, mi diam feugiat turpis, a lacinia tortor arcu porttitor nibh. Praesent eros lacus, viverra at lectus et, fermentum placerat est. Mauris massa lorem, mollis egestas aliquet ut, vestibulum vitae elit. Fusce fermentum iaculis neque, non tempus dui imperdiet sed.
+It’s raining, and most restaurants she performs in are empty. She  sits down [where?] to count how much she’s made for that day, [describe her feelings more specifically].
 
-Praesent vel tortor efficitur, lobortis mauris et, imperdiet augue. Phasellus erat tellus, molestie dignissim dapibus in, varius et ex. Aenean laoreet nisi ac mauris consequat fermentum ut vitae odio. In malesuada feugiat justo in pellentesque. Quisque in augue a velit rutrum imperdiet sed ut est. Suspendisse id gravida nulla. In vestibulum erat id dapibus rutrum. Quisque interdum lacus id felis varius, quis convallis neque tincidunt. Donec hendrerit tellus nec maximus feugiat. Vivamus ut diam massa. Nulla non facilisis nisl. Nam vitae dolor erat. Curabitur auctor lacinia dapibus.
+She has $24,000 Colombian pesos, or about $8. 
 
-Ut auctor sodales lorem, sit amet dictum risus sodales eu. Cras posuere augue at lorem lacinia, sit amet placerat urna tempus. Etiam nec placerat justo, congue molestie ex. Pellentesque condimentum at neque sit amet euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean ac nulla sit amet eros gravida auctor quis et metus. Duis placerat tristique ante id fringilla.
+She needed to make $33 that day to afford rent, her metro ticket and a meal for the day. The rest — about $20 —  she planned to send to her parents and three teenage boys back in Margarita, an island off the  northeastern coast of? Venezuela. That $20 could buy them carton of eggs and a liter of milk.
+
+For spends therest of the evening walking the streets of downtown Medellín, hiding her tears between smiles as she loudly greets every vendor on the block selling candy, phone cards, fake jewelry.
+
+She’s only known them since January, when she began to sing in restaurants shortly after arriving in Medellin, Colombia. The TKTK DESCRIBE HER, TK AGE, drags a speaker on wheels behind her as she SINGS TKTK WHAT in TKTK WHAT KINDS OF PLACES.  Colombia. Many of the vendors  also crossed the border without a passport, shutting down the chance of obtaining a work permit in the neighboring country. What did she do back home? Let’s tease out some more details so we care more about her early in the story
 
 <div id="video-top"></div>
 
-{{< vimeo id="266021099" class="video-container flex" >}}
+<!-- Government video goes here -->
+{{< vimeo id="266021099" class="video-container flex" >}} 
 
 <div class="story__subhead flex-column">Long-Term Risks</div>
 
-Nulla facilisi. <a href="#">Maecenas malesuada</a> scelerisque urna quis tempus. Nullam non quam accumsan, semper libero eget, maximus orci. Praesent non enim lorem. Pellentesque ut suscipit purus. Sed suscipit ligula in mi laoreet molestie. Nulla condimentum congue vestibulum. Pellentesque semper, nibh et imperdiet lobortis, ante odio aliquet justo, varius molestie nibh elit et purus. In placerat quam neque, et posuere massa cursus id. Suspendisse magna augue, fringilla ac odio at, maximus malesuada turpis.
+“We’re just waiting for the page to open so we can get a permit,” she said. “Who’s going to want to leave Venezuela without a passport?”  
 
-Donec pulvinar quam felis, vel vestibulum enim laoreet vel. Proin ac lorem congue, pulvinar dui id, vulputate turpis. Vestibulum molestie nibh vel cursus bibendum. Donec nec velit varius, ornare purus ac, aliquam tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eros laoreet, finibus velit a, posuere felis. Maecenas cursus tincidunt felis, vitae pellentesque eros rhoncus varius. Nullam est odio, laoreet at malesuada sollicitudin, pharetra a lectus. Nullam augue nibh, finibus venenatis eleifend consequat, ornare vitae nisl. Mauris ac felis purus. Morbi vel turpis rhoncus, semper lorem ut, sodales velit. Vivamus ac est nec leo scelerisque facilisis ac id lacus. Quisque rutrum non ipsum ut pharetra. Cras vitae ex felis. Pellentesque sit amet erat et dolor semper pharetra.
+Migración Colombia estimates that <a href="#">more than a million Venezuelans have moved to Colombia</a>, and about half remain undocumented, either because they crossed the border illegally, overstayed the stamp in their passports, or didn’t leave Colombia after entering with a Border Mobility Card, an ID provided to residents of border state to move freely along the frontier. 
+
+ --Back story / what she’s gone through-- [I want to make this section about how illegal street vendors are a thing in Colombia anyway, but now there’s competition / can the cops deport Venezuelans for selling candy on the street, what does the law says, etc?] 
+
+All she needed to do was sell her house. When a man offered Irelys $200 for the *description* apartment, she took them without hesitation — it was enough to buy smartphone to keep in touch with her kids, and keep some cash for the trip.  
 
 {{< story-interactives "pages/story1" "gov-undocumented-int" >}}
 
-Sed tincidunt mattis urna, ut fringilla erat lacinia sit amet. Suspendisse in efficitur metus. Mauris hendrerit nunc sit amet purus auctor, eu porttitor urna rutrum. Sed lacinia, mi vitae aliquet volutpat, ligula libero dapibus enim, id pretium magna odio non odio. Duis hendrerit nisi nec lectus porta eleifend. Duis ut venenatis ex, sit amet tempor ligula. Donec vel mi dapibus, pharetra enim quis, tincidunt arcu. Integer semper eleifend lectus, eu consectetur lacus feugiat non. Morbi quis neque et libero varius vehicula.
+<div class="story__subhead flex-column">Long-Term Risks</div>
 
-Curabitur sit amet vestibulum mauris, id tempus magna. Vivamus id nunc nec turpis semper auctor sit amet eget nibh. Nullam at nunc a ligula tempor facilisis sollicitudin eu mauris. Phasellus venenatis mattis porta. Mauris consectetur orci sit amet augue vestibulum tempus. Curabitur lobortis est nisl, eget accumsan lacus tincidunt ac. Phasellus dignissim feugiat dui, venenatis imperdiet nunc porttitor placerat. Vestibulum lobortis eros purus, nec elementum nulla auctor eu. Etiam tempus magna eget nunc porttitor, non ultrices arcu consequat. Nam in ex et eros condimentum porttitor vel vitae ex. Praesent vel nisl nisl. Suspendisse malesuada massa mi, a molestie lorem ultricies ut. Praesent ac dictum purus, efficitur tincidunt magna. Integer ut iaculis sapien, non porttitor justo. Cras accumsan nisl ut lacinia tempor. Nunc ullamcorper nisl ac velit molestie, vitae rutrum augue porta.
+In just four days, she hitchhiked her way into Colombia with only $50 in her pocket, which she paid to a guard in La Guajira to cross through a family home. 
+
+When she saw the abundance of food just a few yards from the border, she felt shame. 
+There was bread, buñuelos, pan de bono, pastelitos, empanadas, and she could afford them. 
+
+Even with her stomach was growling in pain, she chose not to eat that day. Had her children eaten? 
+
+She cried herself to sleep on the bus until 9 p.m. when she finally gave in
+
+She started singing in January after La Paisa, a Colombian woman who controls the informal cookie selling business in Plaza Botero, ratted Irelys out to the cops and they seized her merchandise. The policemen let her go eventually, threatening her with jail/deportationTK if she continued. 
 
 {{< photo-caption "pages/story1" "photo-caption-1" >}}
 
@@ -49,22 +65,4 @@ Quisque eget tortor dignissim dui commodo iaculis. Ut nec varius libero. Nulla u
 
 {{< pull-quote "/pages/story1" "pull-quote-1" >}}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lectus non sem scelerisque elementum. Sed tempor velit non urna lobortis sodales. Nunc vitae lectus sed justo eleifend lacinia sed nec mauris. Quisque pulvinar lorem sed neque sodales, vitae ultricies arcu eleifend. Sed suscipit est nulla, efficitur varius libero ultricies at. Nullam a mollis dui. Donec a felis sapien. Aliquam euismod nec ipsum sit amet consequat. Quisque faucibus arcu at sem congue, eget hendrerit turpis euismod. Praesent eleifend enim sit amet elit viverra, non volutpat diam tempor. Vivamus tempor nisi eget ultrices tristique. Morbi vitae pharetra felis, et faucibus magna. Quisque venenatis, lacus sit amet finibus ornare, massa ante facilisis sapien, quis tempor dui mauris sit amet urna.
-
-Curabitur porttitor dignissim est vel imperdiet. Praesent ut dapibus purus. Proin pulvinar eget justo vel luctus. Phasellus non pellentesque lorem. Suspendisse nisl neque, pretium sed tristique vitae, accumsan id tellus. Sed dictum faucibus ornare. Sed euismod, augue nec bibendum sollicitudin, mi diam feugiat turpis, a lacinia tortor arcu porttitor nibh. Praesent eros lacus, viverra at lectus et, fermentum placerat est. Mauris massa lorem, mollis egestas aliquet ut, vestibulum vitae elit. Fusce fermentum iaculis neque, non tempus dui imperdiet sed.
-
-Praesent vel tortor efficitur, lobortis mauris et, imperdiet augue. Phasellus erat tellus, molestie dignissim dapibus in, varius et ex. Aenean laoreet nisi ac mauris consequat fermentum ut vitae odio. In malesuada feugiat justo in pellentesque. Quisque in augue a velit rutrum imperdiet sed ut est. Suspendisse id gravida nulla. In vestibulum erat id dapibus rutrum. Quisque interdum lacus id felis varius, quis convallis neque tincidunt. Donec hendrerit tellus nec maximus feugiat. Vivamus ut diam massa. Nulla non facilisis nisl. Nam vitae dolor erat. Curabitur auctor lacinia dapibus.
-
-Ut auctor sodales lorem, sit amet dictum risus sodales eu. Cras posuere augue at lorem lacinia, sit amet placerat urna tempus. Etiam nec placerat justo, congue molestie ex. Pellentesque condimentum at neque sit amet euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean ac nulla sit amet eros gravida auctor quis et metus. Duis placerat tristique ante id fringilla.
-
-Nulla facilisi. Maecenas malesuada scelerisque urna quis tempus. Nullam non quam accumsan, semper libero eget, maximus orci. Praesent non enim lorem. Pellentesque ut suscipit purus. Sed suscipit ligula in mi laoreet molestie. Nulla condimentum congue vestibulum. Pellentesque semper, nibh et imperdiet lobortis, ante odio aliquet justo, varius molestie nibh elit et purus. In placerat quam neque, et posuere massa cursus id. Suspendisse magna augue, fringilla ac odio at, maximus malesuada turpis.
-
-Donec pulvinar quam felis, vel vestibulum enim laoreet vel. Proin ac lorem congue, pulvinar dui id, vulputate turpis. Vestibulum molestie nibh vel cursus bibendum. Donec nec velit varius, ornare purus ac, aliquam tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eros laoreet, finibus velit a, posuere felis. Maecenas cursus tincidunt felis, vitae pellentesque eros rhoncus varius. Nullam est odio, laoreet at malesuada sollicitudin, pharetra a lectus. Nullam augue nibh, finibus venenatis eleifend consequat, ornare vitae nisl. Mauris ac felis purus. Morbi vel turpis rhoncus, semper lorem ut, sodales velit. Vivamus ac est nec leo scelerisque facilisis ac id lacus. Quisque rutrum non ipsum ut pharetra. Cras vitae ex felis. Pellentesque sit amet erat et dolor semper pharetra.
-
-Sed tincidunt mattis urna, ut fringilla erat lacinia sit amet. Suspendisse in efficitur metus. Mauris hendrerit nunc sit amet purus auctor, eu porttitor urna rutrum. Sed lacinia, mi vitae aliquet volutpat, ligula libero dapibus enim, id pretium magna odio non odio. Duis hendrerit nisi nec lectus porta eleifend. Duis ut venenatis ex, sit amet tempor ligula. Donec vel mi dapibus, pharetra enim quis, tincidunt arcu. Integer semper eleifend lectus, eu consectetur lacus feugiat non. Morbi quis neque et libero varius vehicula.
-
-Curabitur sit amet vestibulum mauris, id tempus magna. Vivamus id nunc nec turpis semper auctor sit amet eget nibh. Nullam at nunc a ligula tempor facilisis sollicitudin eu mauris. Phasellus venenatis mattis porta. Mauris consectetur orci sit amet augue vestibulum tempus. Curabitur lobortis est nisl, eget accumsan lacus tincidunt ac. Phasellus dignissim feugiat dui, venenatis imperdiet nunc porttitor placerat. Vestibulum lobortis eros purus, nec elementum nulla auctor eu. Etiam tempus magna eget nunc porttitor, non ultrices arcu consequat. Nam in ex et eros condimentum porttitor vel vitae ex. Praesent vel nisl nisl. Suspendisse malesuada massa mi, a molestie lorem ultricies ut. Praesent ac dictum purus, efficitur tincidunt magna. Integer ut iaculis sapien, non porttitor justo. Cras accumsan nisl ut lacinia tempor. Nunc ullamcorper nisl ac velit molestie, vitae rutrum augue porta.
-
-Nunc faucibus aliquet mauris vel fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam odio arcu, efficitur id placerat quis, imperdiet semper justo. Phasellus consectetur justo in posuere laoreet. Nulla fringilla dolor erat, a venenatis velit congue pretium. Vestibulum finibus sem in interdum vestibulum. Ut cursus risus ligula, eu sagittis dolor lobortis a. Sed arcu urna, varius tristique leo at, accumsan gravida velit. Morbi in nisl id quam convallis tincidunt. Integer pharetra viverra tellus eget vulputate. Nunc id mi viverra, pretium lacus in, vulputate ligula. Curabitur ac urna ex.
-
-Quisque eget tortor dignissim dui commodo iaculis. Ut nec varius libero. Nulla ultricies sodales diam, quis pharetra quam malesuada ac. Morbi non fringilla nisl. Sed a turpis non nulla ultrices condimentum sit amet sed nisi. Ut sodales tristique tempor. Quisque efficitur purus enim, non egestas augue finibus quis. Nulla a ipsum dui. Donec euismod, dui vel ultricies euismod, ligula elit hendrerit augue, ut ornare enim neque quis nunc. Phasellus non feugiat ipsum. Mauris tristique felis a est ultricies cursus. Fusce semper, neque eu mattis facilisis, purus nisi fermentum elit, vel commodo urna quam sit amet orci. Duis ipsum turpis, sollicitudin nec euismod venenatis, pharetra eu tellus. Ut efficitur metus ut mauris tempus, ac dictum nibh pharetra.
+Before turning on the speaker in front of the diners, she asks for permission. If granted, she signs a song, and before collecting the tips her livelihood depends on, Irelys reminds the audience, “Good Venezuelans outnumber the bad ones.”

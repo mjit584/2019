@@ -1,61 +1,113 @@
 ---
-title: "Road to Wellness"
+title: "A Mother's Sacrifice"
 topic: "Women's Well-being"
 date: 2019-02-04T21:36:06-05:00
 description: "This is the description for the fifth story."
 image: "https://brookenf.github.io/uprooted-mejo584/images/cards-story5.jpg"
-storyHeading: "Road to Wellness"
-storySubheading: "Waiting on the PEP"
+storyHeading: "A Mother's Sacrifice"
+storySubheading: "A mother gives her all to bring her family together"
 weight: 5
 card: true
 author: "Diane Adame"
-videographer: 
-- Landon Cooper 
-- Ashton Eleazer
-photographer: "Catie Dull"
+videographer: "Zayhra Rodriguez, Haley France"
+designer: "Amy Townsed"
+udea: "Isabella"
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lectus non sem scelerisque elementum. Sed tempor velit non urna lobortis sodales. Nunc vitae lectus sed justo eleifend lacinia sed nec mauris. Quisque pulvinar lorem sed neque sodales, vitae ultricies arcu eleifend. Sed suscipit est nulla, efficitur varius libero ultricies at. Nullam a mollis dui. Donec a felis sapien. Aliquam euismod nec ipsum sit amet consequat. Quisque faucibus arcu at sem congue, eget hendrerit turpis euismod. Praesent eleifend enim sit amet elit viverra, non volutpat diam tempor. Vivamus tempor nisi eget ultrices tristique. Morbi vitae pharetra felis, et faucibus magna. Quisque venenatis, lacus sit amet finibus ornare, massa ante facilisis sapien, quis tempor dui mauris sit amet urna.
+<p class="drop-cap">The sounds of car honks and bicycle bells erupt in the ears of locals and tourists passing through Plaza Botero.</p>
 
-Curabitur porttitor dignissim est vel imperdiet. Praesent ut dapibus purus. Proin pulvinar eget justo vel luctus. Phasellus non pellentesque lorem. Suspendisse nisl neque, pretium sed tristique vitae, accumsan id tellus. Sed dictum faucibus ornare. Sed euismod, augue nec bibendum sollicitudin, mi diam feugiat turpis, a lacinia tortor arcu porttitor nibh. Praesent eros lacus, viverra at lectus et, fermentum placerat est. Mauris massa lorem, mollis egestas aliquet ut, vestibulum vitae elit. Fusce fermentum iaculis neque, non tempus dui imperdiet sed.
+A light breeze fills the air and flows through the skyscraping palm trees of the plaza. It’s cool enough to alleviate the sun’s heat but not cool enough to give one goosebumps. 
 
-Praesent vel tortor efficitur, lobortis mauris et, imperdiet augue. Phasellus erat tellus, molestie dignissim dapibus in, varius et ex. Aenean laoreet nisi ac mauris consequat fermentum ut vitae odio. In malesuada feugiat justo in pellentesque. Quisque in augue a velit rutrum imperdiet sed ut est. Suspendisse id gravida nulla. In vestibulum erat id dapibus rutrum. Quisque interdum lacus id felis varius, quis convallis neque tincidunt. Donec hendrerit tellus nec maximus feugiat. Vivamus ut diam massa. Nulla non facilisis nisl. Nam vitae dolor erat. Curabitur auctor lacinia dapibus.
+But in the land of the eternal spring, the weather is often unpredictable. 
+
+To the left, some hail taxis and sell warmly colored tropical fruits like pineapples and mangos. To the right, many walk toward Plazuela Comercial Gutenberg, a strip mall that leads to the shops and restaurants of Carabobo #51-62. In the middle, a number of tourists walk under the elevated metro track that lines some of Medellín, Colombia’s vivid green hills and brightly colored homes.
+
+Fernando Botero’s statues line each side of the plaza’s entry, creating a catwalk that leads to the plaza’s focal point, Museo de Antioquia, a local art museum.
+
+Fernando Botero is a Colombian figurative artist and sculptor who is known for his signature style, “Boterismo.” This style includes Botero depicting his statues in a large or exaggerated form, making their features, like the eyes and mouth appear small.
+
+Behind a Botero statue of a woman lying nude on a pedestal is a stoop that lines the Museo de Antioquia. 
 
 <div id="video-top"></div>
 
+<!-- Women's video goes here -->
 {{< vimeo id="264156328" class="video-container flex" >}}
 
-Ut auctor sodales lorem, sit amet dictum risus sodales eu. Cras posuere augue at lorem lacinia, sit amet placerat urna tempus. Etiam nec placerat justo, congue molestie ex. Pellentesque condimentum at neque sit amet euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean ac nulla sit amet eros gravida auctor quis et metus. Duis placerat tristique ante id fringilla.
+On this stoop sits another side of the plaza. This side of the plaza remains discrete yet known to the number of men that line it in the late afternoon. This side of the plaza is known well by some Venezuelan women who wish they didn't yet don’t have a choice. 
 
-Nulla facilisi. Maecenas malesuada scelerisque urna quis tempus. Nullam non quam accumsan, semper libero eget, maximus orci. Praesent non enim lorem. Pellentesque ut suscipit purus. Sed suscipit ligula in mi laoreet molestie. Nulla condimentum congue vestibulum. Pellentesque semper, nibh et imperdiet lobortis, ante odio aliquet justo, varius molestie nibh elit et purus. In placerat quam neque, et posuere massa cursus id. Suspendisse magna augue, fringilla ac odio at, maximus malesuada turpis.
+“There are people who think that if you do this, it’s because you like it or you feel good,” said Maria, who asked that her real name not be used. “I do not know other women but in my case, I don’t feel good and I don’t like it at all.”
 
-Donec pulvinar quam felis, vel vestibulum enim laoreet vel. Proin ac lorem congue, pulvinar dui id, vulputate turpis. Vestibulum molestie nibh vel cursus bibendum. Donec nec velit varius, ornare purus ac, aliquam tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eros laoreet, finibus velit a, posuere felis. Maecenas cursus tincidunt felis, vitae pellentesque eros rhoncus varius. Nullam est odio, laoreet at malesuada sollicitudin, pharetra a lectus. Nullam augue nibh, finibus venenatis eleifend consequat, ornare vitae nisl. Mauris ac felis purus. Morbi vel turpis rhoncus, semper lorem ut, sodales velit. Vivamus ac est nec leo scelerisque facilisis ac id lacus. Quisque rutrum non ipsum ut pharetra. Cras vitae ex felis. Pellentesque sit amet erat et dolor semper pharetra.
+Dressed in jean shorts and a camouflage green cold shoulder top, she sits on this stoop every day. She waits in the late afternoon and late into the night for men to ask for “un rato” or a moment. 
 
-{{< story1-scrollytelly >}}
+Maria, 24, is a sex worker. The single mother from Venezuela is living in Medellin without legal permission, and has few other options for supporting herself.
 
-Sed tincidunt mattis urna, ut fringilla erat lacinia sit amet. Suspendisse in efficitur metus. Mauris hendrerit nunc sit amet purus auctor, eu porttitor urna rutrum. Sed lacinia, mi vitae aliquet volutpat, ligula libero dapibus enim, id pretium magna odio non odio. Duis hendrerit nisi nec lectus porta eleifend. Duis ut venenatis ex, sit amet tempor ligula. Donec vel mi dapibus, pharetra enim quis, tincidunt arcu. Integer semper eleifend lectus, eu consectetur lacus feugiat non. Morbi quis neque et libero varius vehicula.
+As Venezuela faces a severe political and economic crisis under President Nicolas Maduro, multiple South American countries have experienced an influx of Venezuelan migrants. Colombia seen the largest influx in the last year, according to a report by the International Organization for Migration. 
 
-Curabitur sit amet vestibulum mauris, id tempus magna. Vivamus id nunc nec turpis semper auctor sit amet eget nibh. Nullam at nunc a ligula tempor facilisis sollicitudin eu mauris. Phasellus venenatis mattis porta. Mauris consectetur orci sit amet augue vestibulum tempus. Curabitur lobortis est nisl, eget accumsan lacus tincidunt ac. Phasellus dignissim feugiat dui, venenatis imperdiet nunc porttitor placerat. Vestibulum lobortis eros purus, nec elementum nulla auctor eu. Etiam tempus magna eget nunc porttitor, non ultrices arcu consequat. Nam in ex et eros condimentum porttitor vel vitae ex. Praesent vel nisl nisl. Suspendisse malesuada massa mi, a molestie lorem ultricies ut. Praesent ac dictum purus, efficitur tincidunt magna. Integer ut iaculis sapien, non porttitor justo. Cras accumsan nisl ut lacinia tempor. Nunc ullamcorper nisl ac velit molestie, vitae rutrum augue porta.
+Of the 1,032,016 Venezuelans that migrated to Colombia in 2018, <a href="#">more than 50 percent were women</a>, according to the Caracas Chronicles, a news and analysis organization in Venezuela. 
 
-Nunc faucibus aliquet mauris vel fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam odio arcu, efficitur id placerat quis, imperdiet semper justo. Phasellus consectetur justo in posuere laoreet. Nulla fringilla dolor erat, a venenatis velit congue pretium. Vestibulum finibus sem in interdum vestibulum. Ut cursus risus ligula, eu sagittis dolor lobortis a. Sed arcu urna, varius tristique leo at, accumsan gravida velit. Morbi in nisl id quam convallis tincidunt. Integer pharetra viverra tellus eget vulputate. Nunc id mi viverra, pretium lacus in, vulputate ligula. Curabitur ac urna ex.
+Maria’s father, WHAT KIND OF JOB DID HE HAVE?, helped support her and her two daughters before the economic crisis hit. But, he had to stop because he no longer had enough money to continue doing so. 
 
-Quisque eget tortor dignissim dui commodo iaculis. Ut nec varius libero. Nulla ultricies sodales diam, quis pharetra quam malesuada ac. Morbi non fringilla nisl. Sed a turpis non nulla ultrices condimentum sit amet sed nisi. Ut sodales tristique tempor. Quisque efficitur purus enim, non egestas augue finibus quis. Nulla a ipsum dui. Donec euismod, dui vel ultricies euismod, ligula elit hendrerit augue, ut ornare enim neque quis nunc. Phasellus non feugiat ipsum. Mauris tristique felis a est ultricies cursus. Fusce semper, neque eu mattis facilisis, purus nisi fermentum elit, vel commodo urna quam sit amet orci. Duis ipsum turpis, sollicitudin nec euismod venenatis, pharetra eu tellus. Ut efficitur metus ut mauris tempus, ac dictum nibh pharetra.
+“I had to beg my neighbors for food and my children cried and begged for food because they were so hungry,” said Maria. She decided TKTK set up her leaving more. How did she feel about that decision?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lectus non sem scelerisque elementum. Sed tempor velit non urna lobortis sodales. Nunc vitae lectus sed justo eleifend lacinia sed nec mauris. Quisque pulvinar lorem sed neque sodales, vitae ultricies arcu eleifend. Sed suscipit est nulla, efficitur varius libero ultricies at. Nullam a mollis dui. Donec a felis sapien. Aliquam euismod nec ipsum sit amet consequat. Quisque faucibus arcu at sem congue, eget hendrerit turpis euismod. Praesent eleifend enim sit amet elit viverra, non volutpat diam tempor. Vivamus tempor nisi eget ultrices tristique. Morbi vitae pharetra felis, et faucibus magna. Quisque venenatis, lacus sit amet finibus ornare, massa ante facilisis sapien, quis tempor dui mauris sit amet urna.
+“I came to make a living and a better life for my children.”
 
-Curabitur porttitor dignissim est vel imperdiet. Praesent ut dapibus purus. Proin pulvinar eget justo vel luctus. Phasellus non pellentesque lorem. Suspendisse nisl neque, pretium sed tristique vitae, accumsan id tellus. Sed dictum faucibus ornare. Sed euismod, augue nec bibendum sollicitudin, mi diam feugiat turpis, a lacinia tortor arcu porttitor nibh. Praesent eros lacus, viverra at lectus et, fermentum placerat est. Mauris massa lorem, mollis egestas aliquet ut, vestibulum vitae elit. Fusce fermentum iaculis neque, non tempus dui imperdiet sed.
+She told her daughters, ages three and five, that she was going to work far away, but would still contact them.
 
-Praesent vel tortor efficitur, lobortis mauris et, imperdiet augue. Phasellus erat tellus, molestie dignissim dapibus in, varius et ex. Aenean laoreet nisi ac mauris consequat fermentum ut vitae odio. In malesuada feugiat justo in pellentesque. Quisque in augue a velit rutrum imperdiet sed ut est. Suspendisse id gravida nulla. In vestibulum erat id dapibus rutrum. Quisque interdum lacus id felis varius, quis convallis neque tincidunt. Donec hendrerit tellus nec maximus feugiat. Vivamus ut diam massa. Nulla non facilisis nisl. Nam vitae dolor erat. Curabitur auctor lacinia dapibus.
+Minutes before her departure on a heart-wrenching day last December, Maria’s family tried to distract her youngest daughter with milk and cookies as she slipped out. The 5-year-old, however, was well-aware she was leaving. 
 
-Ut auctor sodales lorem, sit amet dictum risus sodales eu. Cras posuere augue at lorem lacinia, sit amet placerat urna tempus. Etiam nec placerat justo, congue molestie ex. Pellentesque condimentum at neque sit amet euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean ac nulla sit amet eros gravida auctor quis et metus. Duis placerat tristique ante id fringilla.
+“Mom, don’t go,” she screamed, tears running down her brown cheeks. “Mom, I want to go with you!” She frantically banged on the window as Maria [walked out the door?]
 
-Nulla facilisi. Maecenas malesuada scelerisque urna quis tempus. Nullam non quam accumsan, semper libero eget, maximus orci. Praesent non enim lorem. Pellentesque ut suscipit purus. Sed suscipit ligula in mi laoreet molestie. Nulla condimentum congue vestibulum. Pellentesque semper, nibh et imperdiet lobortis, ante odio aliquet justo, varius molestie nibh elit et purus. In placerat quam neque, et posuere massa cursus id. Suspendisse magna augue, fringilla ac odio at, maximus malesuada turpis.
+“I wonder if my children will miss or remember me,” said Maria.
 
-Donec pulvinar quam felis, vel vestibulum enim laoreet vel. Proin ac lorem congue, pulvinar dui id, vulputate turpis. Vestibulum molestie nibh vel cursus bibendum. Donec nec velit varius, ornare purus ac, aliquam tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eros laoreet, finibus velit a, posuere felis. Maecenas cursus tincidunt felis, vitae pellentesque eros rhoncus varius. Nullam est odio, laoreet at malesuada sollicitudin, pharetra a lectus. Nullam augue nibh, finibus venenatis eleifend consequat, ornare vitae nisl. Mauris ac felis purus. Morbi vel turpis rhoncus, semper lorem ut, sodales velit. Vivamus ac est nec leo scelerisque facilisis ac id lacus. Quisque rutrum non ipsum ut pharetra. Cras vitae ex felis. Pellentesque sit amet erat et dolor semper pharetra.
+But the hardships don’t stop once the border is crossed. Aside from learning a new country's customs and searching for work and housing, societal inequalities follow women throughout the migration process. 
 
-Sed tincidunt mattis urna, ut fringilla erat lacinia sit amet. Suspendisse in efficitur metus. Mauris hendrerit nunc sit amet purus auctor, eu porttitor urna rutrum. Sed lacinia, mi vitae aliquet volutpat, ligula libero dapibus enim, id pretium magna odio non odio. Duis hendrerit nisi nec lectus porta eleifend. Duis ut venenatis ex, sit amet tempor ligula. Donec vel mi dapibus, pharetra enim quis, tincidunt arcu. Integer semper eleifend lectus, eu consectetur lacus feugiat non. Morbi quis neque et libero varius vehicula.
+For women, the inequalities of a machismo society or aggressive masculine pride follow them. These inequalities include unequal salaries, discrimination, harassment, gender violence and a lack of access to sexual and reproductive rights.
 
-Curabitur sit amet vestibulum mauris, id tempus magna. Vivamus id nunc nec turpis semper auctor sit amet eget nibh. Nullam at nunc a ligula tempor facilisis sollicitudin eu mauris. Phasellus venenatis mattis porta. Mauris consectetur orci sit amet augue vestibulum tempus. Curabitur lobortis est nisl, eget accumsan lacus tincidunt ac. Phasellus dignissim feugiat dui, venenatis imperdiet nunc porttitor placerat. Vestibulum lobortis eros purus, nec elementum nulla auctor eu. Etiam tempus magna eget nunc porttitor, non ultrices arcu consequat. Nam in ex et eros condimentum porttitor vel vitae ex. Praesent vel nisl nisl. Suspendisse malesuada massa mi, a molestie lorem ultricies ut. Praesent ac dictum purus, efficitur tincidunt magna. Integer ut iaculis sapien, non porttitor justo. Cras accumsan nisl ut lacinia tempor. Nunc ullamcorper nisl ac velit molestie, vitae rutrum augue porta.
+The potential of xenophobia and a situation of vulnerability is also increased for female migrants.
 
-Nunc faucibus aliquet mauris vel fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam odio arcu, efficitur id placerat quis, imperdiet semper justo. Phasellus consectetur justo in posuere laoreet. Nulla fringilla dolor erat, a venenatis velit congue pretium. Vestibulum finibus sem in interdum vestibulum. Ut cursus risus ligula, eu sagittis dolor lobortis a. Sed arcu urna, varius tristique leo at, accumsan gravida velit. Morbi in nisl id quam convallis tincidunt. Integer pharetra viverra tellus eget vulputate. Nunc id mi viverra, pretium lacus in, vulputate ligula. Curabitur ac urna ex.
+Specifically, as the number of Venezuelan sex workers in Colombia increases, so does the animosity they feel from Colombian sex workers. 
 
-Quisque eget tortor dignissim dui commodo iaculis. Ut nec varius libero. Nulla ultricies sodales diam, quis pharetra quam malesuada ac. Morbi non fringilla nisl. Sed a turpis non nulla ultrices condimentum sit amet sed nisi. Ut sodales tristique tempor. Quisque efficitur purus enim, non egestas augue finibus quis. Nulla a ipsum dui. Donec euismod, dui vel ultricies euismod, ligula elit hendrerit augue, ut ornare enim neque quis nunc. Phasellus non feugiat ipsum. Mauris tristique felis a est ultricies cursus. Fusce semper, neque eu mattis facilisis, purus nisi fermentum elit, vel commodo urna quam sit amet orci. Duis ipsum turpis, sollicitudin nec euismod venenatis, pharetra eu tellus. Ut efficitur metus ut mauris tempus, ac dictum nibh pharetra.
+Venezuelan sex workers are more likely to offer their services for as low as 40,000 pesos ($12), three times less than what a Colombian sex worker charges said Adriaan Alsema, founder of Colombia Reports. In the eyes of Colombian sex workers, such low prices are killing their business.
+
+“Colombian women are very mean to Venezuelan women,” said Maria. “I don’t talk to them and just make my money.”
+
+In Maria’s eyes, this job is for her daughters. In Maria’s heart, it’s a sacrifice that brings her to tears and a feeling of disgust that can’t be washed away. No matter how many showers she takes. 
+
+But these are tears and feelings she is willing to endure if it means reuniting with her children. 
+
+Female Venezuelan migrants typically face difficulty finding a stable, well-paying job. This leads them to resort to sex work. 
+
+Over 35 percent of individuals involved in Colombia’s sex trade are Venezuelan, according to Colombia Reports. 
+
+“After working with these women, I noticed many weren’t sex workers before,” said Melissa Toro, director of Las Guerreras del Centro, an organization in Medellín that works to empower and resignify sex work and sex workers. “Here, we have a very high level of unemployment that is difficult for undocumented immigrants.”
+
+After arriving in Medellín, Maria started selling candy on the street for money. She made enough to pay her 10,000 pesos of a room she rents for 30,000 pesos per night. However, Maria would still go hungry for days and wondering if her daughters were doing the same. 
+
+One month passed and Maria was not making much progress with bringing her children to Medellín. 
+
+But an encounter with a Venezuelan man made her realize that she had another choice. A choice that could quickly earn her more money but at a much higher cost. 
+
+“You could make more money selling yourself like other women in Plaza Botero,” he told her. 
+
+Days later, she was in a hotel room with an unknown Venezuelan man. It was Maria’s first of many “ratos.”  
+
+With a stranger on top of her, her back lays flat on the bed. With his weight being felt on her body, Maria’s eyes focus on the ceiling. Physically, she is there but mentally, she is not. Her body is numb and her mind is racing with one thought. 
+
+“When will it end?”
+
+What is only supposed to be 25 minutes feels like a lifetime of discomfort. 
+
+The end is nearing and his weight slowly lifts off of her body. In contrast, a larger emotional and mental weight falls on her. 
+
+He exits the room, leaving his payment on the table and Maria like a used up product. The hotel room door shuts and Maria’s stomach fills with acid, giving her nausea. Her honey brown skin feels soiled with his touch and it is not long before this disgust consumes her internally.
+
+Certain that she can wash him off, Maria runs home to take a shower. 
+
+For Maria, home in Medellín is a flophouse. A rooming house where she rents one small humid bedroom that she shares with two others. Faintly lit by one lightbulb in the ceiling, a bed inside a dark wooden box spring and a thin mattress pad beside it cover three quarters of the room’s red clay tiled floor. The white walls are dingy and the narrow, chocolate-brown door is closed but the boisterous noise that comes through leaves no room for privacy.  
+
+Maria stands under the warm, steaming water for several minutes. Her effort to feel clean again fails.
+
+She steps out of the shower and stares at the money left by the stranger. Her mindset changes and her motivation for her actions comes to surface.  
+
+“I cried and I thought about my girls and whether or not they were eating,” said Maria. “My hope is to bring the girls here so I can leave this life.”
+
+Little by little, Maria continues to get used to “this life.”

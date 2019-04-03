@@ -1,61 +1,55 @@
 ---
-title: "Providing Necessary Aid"
-topic: "Government Support"
+title: "Greater Than Death"
+topic: "Health and Safety"
 date: 2019-02-04T21:35:29-05:00
 description: "This is the description for the third story."
 image: "https://brookenf.github.io/uprooted-mejo584/images/cards-story3.jpeg"
-storyHeading: "Providing Necessary Aid"
-storySubheading: "Venezuelan Doctor Working as Waiter in Medellin"
+storyHeading: "Greater Than Death"
+storySubheading: "Venezuelan Doctor Working in Medellin"
 weight: 3
 card: true
 author: "Sara Pequeno"
-videographer: 
-- Peggy Mullin 
-- Andie Rea"
-photographer: "Nash Consing"
+videographer: "Tenley Garrett, Peggy Mullin"
+designer: "Carlos Salas"
+udea: "Maria"
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lectus non sem scelerisque elementum. Sed tempor velit non urna lobortis sodales. Nunc vitae lectus sed justo eleifend lacinia sed nec mauris. Quisque pulvinar lorem sed neque sodales, vitae ultricies arcu eleifend. Sed suscipit est nulla, efficitur varius libero ultricies at. Nullam a mollis dui. Donec a felis sapien. Aliquam euismod nec ipsum sit amet consequat. Quisque faucibus arcu at sem congue, eget hendrerit turpis euismod. Praesent eleifend enim sit amet elit viverra, non volutpat diam tempor. Vivamus tempor nisi eget ultrices tristique. Morbi vitae pharetra felis, et faucibus magna. Quisque venenatis, lacus sit amet finibus ornare, massa ante facilisis sapien, quis tempor dui mauris sit amet urna.
+<p class="drop-cap">Marbis Judith Verenzuela knew she had to go back. Her second daughter, Jorlis, had been too weak to cross the border the first time the family tried, TKTK when.</p>
 
-Curabitur porttitor dignissim est vel imperdiet. Praesent ut dapibus purus. Proin pulvinar eget justo vel luctus. Phasellus non pellentesque lorem. Suspendisse nisl neque, pretium sed tristique vitae, accumsan id tellus. Sed dictum faucibus ornare. Sed euismod, augue nec bibendum sollicitudin, mi diam feugiat turpis, a lacinia tortor arcu porttitor nibh. Praesent eros lacus, viverra at lectus et, fermentum placerat est. Mauris massa lorem, mollis egestas aliquet ut, vestibulum vitae elit. Fusce fermentum iaculis neque, non tempus dui imperdiet sed.
+Jorlis, 29, had surgery to remove a brain tumor TK WHEN/how close to crossing attempt, but suffered convulsions for 30 days due to side affects and a lack of  medicine to control them. Jorlis couldn’t recognize her own children, but had TKTK [need to set up more of the events as they tried to leave].
 
-Praesent vel tortor efficitur, lobortis mauris et, imperdiet augue. Phasellus erat tellus, molestie dignissim dapibus in, varius et ex. Aenean laoreet nisi ac mauris consequat fermentum ut vitae odio. In malesuada feugiat justo in pellentesque. Quisque in augue a velit rutrum imperdiet sed ut est. Suspendisse id gravida nulla. In vestibulum erat id dapibus rutrum. Quisque interdum lacus id felis varius, quis convallis neque tincidunt. Donec hendrerit tellus nec maximus feugiat. Vivamus ut diam massa. Nulla non facilisis nisl. Nam vitae dolor erat. Curabitur auctor lacinia dapibus.
+But when the family  got to Simon Bolivar International bridge, the dividing line between the world they knew and the world awaiting, when Jorlis collapsed.
+
+“I thought I was going to lose my daughter at that moment,” Marbis Judith said. “I thought Yorlis was going to die.” 
+
+Two Colombian immigration agents began shouting for a wheelchair. They allowed the family to cross into Colombia, even though they had no papers. They rushed her across the bridge as Marbis Judith grabbed her grandson and granddaughter, and rushed across to the Red Cross in Cúcuta.
+
+“God is very big,” said Marbis Judith. Paraphrase what she meant/more detail
 
 <div id="video-top"></div>
 
+<!-- Health and saftey video go here -->
 {{< vimeo id="263094335" class="video-container flex" >}}
 
-Ut auctor sodales lorem, sit amet dictum risus sodales eu. Cras posuere augue at lorem lacinia, sit amet placerat urna tempus. Etiam nec placerat justo, congue molestie ex. Pellentesque condimentum at neque sit amet euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean ac nulla sit amet eros gravida auctor quis et metus. Duis placerat tristique ante id fringilla.
+When the economy collapsed in Venezuela in 2014, so did the healthcare system. Doctors fled the country. Shelves that were once stocked with medicines sat empty. Most recently, blackouts in the country began Thursday night. At least 13 and as many as 70 people died due to hospital power outages over a four-day period TK WHEN.[do we have more numbers about the extent during the crisis overall?]
 
-Nulla facilisi. Maecenas malesuada scelerisque urna quis tempus. Nullam non quam accumsan, semper libero eget, maximus orci. Praesent non enim lorem. Pellentesque ut suscipit purus. Sed suscipit ligula in mi laoreet molestie. Nulla condimentum congue vestibulum. Pellentesque semper, nibh et imperdiet lobortis, ante odio aliquet justo, varius molestie nibh elit et purus. In placerat quam neque, et posuere massa cursus id. Suspendisse magna augue, fringilla ac odio at, maximus malesuada turpis.
+“In this Venezuela– which used to be so rich– that kids are dying from a lack of medicine?” said Marbis Georgina Zamora Verenzuela, who came with her mother on the first journey. “That you get to a hospital and they don’t have alcohol? That’s a basic thing that a hospital should have. Or some cotton? It’s surprising.”
 
-Donec pulvinar quam felis, vel vestibulum enim laoreet vel. Proin ac lorem congue, pulvinar dui id, vulputate turpis. Vestibulum molestie nibh vel cursus bibendum. Donec nec velit varius, ornare purus ac, aliquam tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eros laoreet, finibus velit a, posuere felis. Maecenas cursus tincidunt felis, vitae pellentesque eros rhoncus varius. Nullam est odio, laoreet at malesuada sollicitudin, pharetra a lectus. Nullam augue nibh, finibus venenatis eleifend consequat, ornare vitae nisl. Mauris ac felis purus. Morbi vel turpis rhoncus, semper lorem ut, sodales velit. Vivamus ac est nec leo scelerisque facilisis ac id lacus. Quisque rutrum non ipsum ut pharetra. Cras vitae ex felis. Pellentesque sit amet erat et dolor semper pharetra.
+Marbis Georgina is sitting in her new family home, an apartment in central Medellín. Her 2-year-old daughter, Judy, sits in her mother’s lap, failing to stay awake while the women cook bollos venezolanos what they will sell in Parque Bolivar.
 
-{{< story1-scrollytelly >}}
+’s daughters, Alma, 5, and Judy, 2, suffer from numerous health problems of their own. Alma has epilepsy. Judy has a tumor above her lip, which developed when she was 15 days old.
 
-Sed tincidunt mattis urna, ut fringilla erat lacinia sit amet. Suspendisse in efficitur metus. Mauris hendrerit nunc sit amet purus auctor, eu porttitor urna rutrum. Sed lacinia, mi vitae aliquet volutpat, ligula libero dapibus enim, id pretium magna odio non odio. Duis hendrerit nisi nec lectus porta eleifend. Duis ut venenatis ex, sit amet tempor ligula. Donec vel mi dapibus, pharetra enim quis, tincidunt arcu. Integer semper eleifend lectus, eu consectetur lacus feugiat non. Morbi quis neque et libero varius vehicula.
+Marbis Georgina had seen her daughter go through nitrogen which cost $1,500 to remove.
 
-Curabitur sit amet vestibulum mauris, id tempus magna. Vivamus id nunc nec turpis semper auctor sit amet eget nibh. Nullam at nunc a ligula tempor facilisis sollicitudin eu mauris. Phasellus venenatis mattis porta. Mauris consectetur orci sit amet augue vestibulum tempus. Curabitur lobortis est nisl, eget accumsan lacus tincidunt ac. Phasellus dignissim feugiat dui, venenatis imperdiet nunc porttitor placerat. Vestibulum lobortis eros purus, nec elementum nulla auctor eu. Etiam tempus magna eget nunc porttitor, non ultrices arcu consequat. Nam in ex et eros condimentum porttitor vel vitae ex. Praesent vel nisl nisl. Suspendisse malesuada massa mi, a molestie lorem ultricies ut. Praesent ac dictum purus, efficitur tincidunt magna. Integer ut iaculis sapien, non porttitor justo. Cras accumsan nisl ut lacinia tempor. Nunc ullamcorper nisl ac velit molestie, vitae rutrum augue porta.
+She decided Medellín was the perfect place for their family when she read online about the reputable doctors that lived in the city.
 
-Nunc faucibus aliquet mauris vel fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam odio arcu, efficitur id placerat quis, imperdiet semper justo. Phasellus consectetur justo in posuere laoreet. Nulla fringilla dolor erat, a venenatis velit congue pretium. Vestibulum finibus sem in interdum vestibulum. Ut cursus risus ligula, eu sagittis dolor lobortis a. Sed arcu urna, varius tristique leo at, accumsan gravida velit. Morbi in nisl id quam convallis tincidunt. Integer pharetra viverra tellus eget vulputate. Nunc id mi viverra, pretium lacus in, vulputate ligula. Curabitur ac urna ex.
+“I felt like she was going to die and I wasn’t going to fulfill my goal of having her by my side. 
 
-Quisque eget tortor dignissim dui commodo iaculis. Ut nec varius libero. Nulla ultricies sodales diam, quis pharetra quam malesuada ac. Morbi non fringilla nisl. Sed a turpis non nulla ultrices condimentum sit amet sed nisi. Ut sodales tristique tempor. Quisque efficitur purus enim, non egestas augue finibus quis. Nulla a ipsum dui. Donec euismod, dui vel ultricies euismod, ligula elit hendrerit augue, ut ornare enim neque quis nunc. Phasellus non feugiat ipsum. Mauris tristique felis a est ultricies cursus. Fusce semper, neque eu mattis facilisis, purus nisi fermentum elit, vel commodo urna quam sit amet orci. Duis ipsum turpis, sollicitudin nec euismod venenatis, pharetra eu tellus. Ut efficitur metus ut mauris tempus, ac dictum nibh pharetra.
+The entire Verenzuela family has lived together 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lectus non sem scelerisque elementum. Sed tempor velit non urna lobortis sodales. Nunc vitae lectus sed justo eleifend lacinia sed nec mauris. Quisque pulvinar lorem sed neque sodales, vitae ultricies arcu eleifend. Sed suscipit est nulla, efficitur varius libero ultricies at. Nullam a mollis dui. Donec a felis sapien. Aliquam euismod nec ipsum sit amet consequat. Quisque faucibus arcu at sem congue, eget hendrerit turpis euismod. Praesent eleifend enim sit amet elit viverra, non volutpat diam tempor. Vivamus tempor nisi eget ultrices tristique. Morbi vitae pharetra felis, et faucibus magna. Quisque venenatis, lacus sit amet finibus ornare, massa ante facilisis sapien, quis tempor dui mauris sit amet urna.
+“I’m running for my life, running for my life, for my grandchildren’s lives, for my family,” Marbis Judith said. “Because I’m a grandmother to 4 children, and that keeps me going. Perhaps it even raised me out of death itself.”
 
-Curabitur porttitor dignissim est vel imperdiet. Praesent ut dapibus purus. Proin pulvinar eget justo vel luctus. Phasellus non pellentesque lorem. Suspendisse nisl neque, pretium sed tristique vitae, accumsan id tellus. Sed dictum faucibus ornare. Sed euismod, augue nec bibendum sollicitudin, mi diam feugiat turpis, a lacinia tortor arcu porttitor nibh. Praesent eros lacus, viverra at lectus et, fermentum placerat est. Mauris massa lorem, mollis egestas aliquet ut, vestibulum vitae elit. Fusce fermentum iaculis neque, non tempus dui imperdiet sed.
+“There’s not a night that goes by where you lay your head on your pillow, or a day you wake up in the morning,” Marbis Judith said. “And you’d love to cross that bridge again and go back to being with your family over there.”
 
-Praesent vel tortor efficitur, lobortis mauris et, imperdiet augue. Phasellus erat tellus, molestie dignissim dapibus in, varius et ex. Aenean laoreet nisi ac mauris consequat fermentum ut vitae odio. In malesuada feugiat justo in pellentesque. Quisque in augue a velit rutrum imperdiet sed ut est. Suspendisse id gravida nulla. In vestibulum erat id dapibus rutrum. Quisque interdum lacus id felis varius, quis convallis neque tincidunt. Donec hendrerit tellus nec maximus feugiat. Vivamus ut diam massa. Nulla non facilisis nisl. Nam vitae dolor erat. Curabitur auctor lacinia dapibus.
+“Mom and Dad make the minimum wage and they have to support their children with their minimum wage and pay for the rent and food,” said Alba Luz Belez, a neighbor of the Verenzuela family. “They just can’t, even if they have a beautiful heart and the best of intentions to help people.”
 
-Ut auctor sodales lorem, sit amet dictum risus sodales eu. Cras posuere augue at lorem lacinia, sit amet placerat urna tempus. Etiam nec placerat justo, congue molestie ex. Pellentesque condimentum at neque sit amet euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean ac nulla sit amet eros gravida auctor quis et metus. Duis placerat tristique ante id fringilla.
-
-Nulla facilisi. Maecenas malesuada scelerisque urna quis tempus. Nullam non quam accumsan, semper libero eget, maximus orci. Praesent non enim lorem. Pellentesque ut suscipit purus. Sed suscipit ligula in mi laoreet molestie. Nulla condimentum congue vestibulum. Pellentesque semper, nibh et imperdiet lobortis, ante odio aliquet justo, varius molestie nibh elit et purus. In placerat quam neque, et posuere massa cursus id. Suspendisse magna augue, fringilla ac odio at, maximus malesuada turpis.
-
-Donec pulvinar quam felis, vel vestibulum enim laoreet vel. Proin ac lorem congue, pulvinar dui id, vulputate turpis. Vestibulum molestie nibh vel cursus bibendum. Donec nec velit varius, ornare purus ac, aliquam tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eros laoreet, finibus velit a, posuere felis. Maecenas cursus tincidunt felis, vitae pellentesque eros rhoncus varius. Nullam est odio, laoreet at malesuada sollicitudin, pharetra a lectus. Nullam augue nibh, finibus venenatis eleifend consequat, ornare vitae nisl. Mauris ac felis purus. Morbi vel turpis rhoncus, semper lorem ut, sodales velit. Vivamus ac est nec leo scelerisque facilisis ac id lacus. Quisque rutrum non ipsum ut pharetra. Cras vitae ex felis. Pellentesque sit amet erat et dolor semper pharetra.
-
-Sed tincidunt mattis urna, ut fringilla erat lacinia sit amet. Suspendisse in efficitur metus. Mauris hendrerit nunc sit amet purus auctor, eu porttitor urna rutrum. Sed lacinia, mi vitae aliquet volutpat, ligula libero dapibus enim, id pretium magna odio non odio. Duis hendrerit nisi nec lectus porta eleifend. Duis ut venenatis ex, sit amet tempor ligula. Donec vel mi dapibus, pharetra enim quis, tincidunt arcu. Integer semper eleifend lectus, eu consectetur lacus feugiat non. Morbi quis neque et libero varius vehicula.
-
-Curabitur sit amet vestibulum mauris, id tempus magna. Vivamus id nunc nec turpis semper auctor sit amet eget nibh. Nullam at nunc a ligula tempor facilisis sollicitudin eu mauris. Phasellus venenatis mattis porta. Mauris consectetur orci sit amet augue vestibulum tempus. Curabitur lobortis est nisl, eget accumsan lacus tincidunt ac. Phasellus dignissim feugiat dui, venenatis imperdiet nunc porttitor placerat. Vestibulum lobortis eros purus, nec elementum nulla auctor eu. Etiam tempus magna eget nunc porttitor, non ultrices arcu consequat. Nam in ex et eros condimentum porttitor vel vitae ex. Praesent vel nisl nisl. Suspendisse malesuada massa mi, a molestie lorem ultricies ut. Praesent ac dictum purus, efficitur tincidunt magna. Integer ut iaculis sapien, non porttitor justo. Cras accumsan nisl ut lacinia tempor. Nunc ullamcorper nisl ac velit molestie, vitae rutrum augue porta.
-
-Nunc faucibus aliquet mauris vel fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam odio arcu, efficitur id placerat quis, imperdiet semper justo. Phasellus consectetur justo in posuere laoreet. Nulla fringilla dolor erat, a venenatis velit congue pretium. Vestibulum finibus sem in interdum vestibulum. Ut cursus risus ligula, eu sagittis dolor lobortis a. Sed arcu urna, varius tristique leo at, accumsan gravida velit. Morbi in nisl id quam convallis tincidunt. Integer pharetra viverra tellus eget vulputate. Nunc id mi viverra, pretium lacus in, vulputate ligula. Curabitur ac urna ex.
-
-Quisque eget tortor dignissim dui commodo iaculis. Ut nec varius libero. Nulla ultricies sodales diam, quis pharetra quam malesuada ac. Morbi non fringilla nisl. Sed a turpis non nulla ultrices condimentum sit amet sed nisi. Ut sodales tristique tempor. Quisque efficitur purus enim, non egestas augue finibus quis. Nulla a ipsum dui. Donec euismod, dui vel ultricies euismod, ligula elit hendrerit augue, ut ornare enim neque quis nunc. Phasellus non feugiat ipsum. Mauris tristique felis a est ultricies cursus. Fusce semper, neque eu mattis facilisis, purus nisi fermentum elit, vel commodo urna quam sit amet orci. Duis ipsum turpis, sollicitudin nec euismod venenatis, pharetra eu tellus. Ut efficitur metus ut mauris tempus, ac dictum nibh pharetra.
+Venezuelans have had different receptions upon
