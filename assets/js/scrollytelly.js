@@ -8,19 +8,11 @@ var controller = new ScrollMagic.Controller();
 
 //pin the intro
 var pinIntroScene = new ScrollMagic.Scene({
-  triggerElement: '#intro',
+  triggerElement: '#scrollytelly-1',
   triggerHook: 0,
-  duration: '30%'
+  duration: '40%'
 })
-  .setPin('#intro', { pushFollowers: false })
-  .addTo(controller);
-
-
-var pinIntroScene2 = new ScrollMagic.Scene({
-  triggerElement: '#text__two',
-  triggerHook: 0.4
-})
-  .setPin('#intro', { pushFollowers: false })
+  .setPin('#scrollytelly-1', { pushFollowers: false })
   .addTo(controller);
 
 
@@ -28,8 +20,8 @@ var pinIntroScene2 = new ScrollMagic.Scene({
 $('.scrollytelly__body').each(function () {
   var ourScene = new ScrollMagic.Scene({
     triggerElement: this.children[0],
-    duration: '80%',
-    triggerHook: 0.8
+    duration: '40%',
+    triggerHook: 0.5,
   })
     .setClassToggle(this, 'fade-in')
     .addTo(controller);

@@ -34,9 +34,6 @@
 
   .interactive__background {
     width: 100%;
-    margin-bottom: 45vh;
-    background-size: contain;
-    background-repeat: no-repeat;
     justify-content: flex-start;
   }
 
@@ -47,7 +44,8 @@
       rgba(255,255,255,0.4),
       rgba(255,255,255,0.4)),
       url('../images/about.jpg');
-    
+      background-size: cover;
+      background-repeat: no-repeat;
   }
 
   .scrollytelly__main {
