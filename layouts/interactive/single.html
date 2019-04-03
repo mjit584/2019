@@ -42,8 +42,8 @@
 {{ $scripts := resources.Get "js/scripts.js" }}
 {{ $headerPhoto := resources.Get "js/headerPhoto.js" }}
 {{ $hamburger := resources.Get "js/hamburger.js" }}
-{{ $scrollytelly := resources.Get "js/photo-scrollytelly.js" }}
 {{ $progressBar := resources.Get "js/progressBar.js" }}
+{{ $scrollytelly := resources.Get "js/scrollytelly.js" }}
 {{ $intChapPageBundle := slice $scripts $headerPhoto $hamburger $scrollytelly $progressBar | resources.Concat "js/intChapPageBundle.js" }}
 {{ block "footer_js" . }}{{ end }}
 

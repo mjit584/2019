@@ -1,0 +1,68 @@
+// I created a class called "interactive" that goes on each and every interactive created and it has some global stylings I want to keep for EACH interactive piece so they'll pertain to EVERY interactive
+
+.interactive {
+  max-width: 100%;
+  transition: 1s opacity;
+  margin: 6vh 0;
+  text-align: center;
+
+  .interactive__title {
+    font-family: $font-int-header;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: $font-weight-normal;
+  }
+
+  .interactive__subhead {
+    font-family: $font-int-subhead;
+    font-size: 1.8vw;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    font-weight: $font-weight-normal;
+  }
+  
+  .interactive__body {
+    font-family: $font-int-body;
+    font-weight: $font-weight-normal;
+  }
+
+  .ybr-line {
+    max-width: 25vw;
+    margin-bottom: 2vh;
+  }
+
+  .interactive__background {
+    width: 100%;
+    margin-bottom: 45vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+  }
+
+  #scrollytelly-1 {
+    background:
+      linear-gradient(
+        0deg,
+      rgba(255,255,255,0.4),
+      rgba(255,255,255,0.4)),
+      url('../images/about.jpg');
+    
+  }
+
+  .scrollytelly__main {
+    max-width: 85%;
+  }
+  
+  .scrollytelly__body {
+    opacity: 0;
+    transform: translateY(50px);
+    padding: 200px 0;
+    transition: all 1s ease-out;
+  }
+
+  #scrollytelly-1 .scrollytelly__body.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -34,7 +34,8 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  margin: 0 auto; }
+  margin: 0 auto;
+  color: #333333; }
 
 .home .home__scroll {
   color: #ffffff;
@@ -201,29 +202,6 @@ body {
   .story-page .story-content {
     font-family: "Georgia", serif;
     grid-area: story-bd; }
-    .story-page .story-content .interactive {
-      max-width: 100%;
-      transition: 1s opacity;
-      margin: 6vh 0;
-      text-align: center; }
-      .story-page .story-content .interactive .interactive__title {
-        font-family: "DDinBold", sans-serif;
-        font-size: 2.5vw;
-        text-transform: uppercase;
-        margin-bottom: 0;
-        font-weight: 400; }
-      .story-page .story-content .interactive .interactive__subhead {
-        font-family: "DDinRegular", sans-serif;
-        font-size: 1.8vw;
-        margin-top: 1vh;
-        margin-bottom: 2vh;
-        font-weight: 400; }
-      .story-page .story-content .interactive .interactive__body {
-        font-family: "DDinRegular", sans-serif;
-        font-weight: 400; }
-      .story-page .story-content .interactive .ybr-line {
-        max-width: 25vw;
-        margin-bottom: 2vh; }
     .story-page .story-content a {
       color: #C70032; }
     .story-page .story-content .story__subhead {
@@ -458,10 +436,6 @@ nav {
       .chap .photo__content .photo__subhead .drop-cap:first-letter {
         font-size: 3rem;
         float: left; }
-    .chap .photo__content .interactive__intro {
-      text-align: center; }
-      .chap .photo__content .interactive__intro .ybr-line {
-        max-width: 40vw; }
     .chap .photo__content .interactive__image {
       position: relative;
       display: flex;
@@ -1148,6 +1122,48 @@ nav {
 .lock-scroll {
   overflow: hidden; }
 
+.interactive {
+  max-width: 100%;
+  transition: 1s opacity;
+  margin: 6vh 0;
+  text-align: center; }
+  .interactive .interactive__title {
+    font-family: "DDinBold", sans-serif;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: 400; }
+  .interactive .interactive__subhead {
+    font-family: "DDinRegular", sans-serif;
+    font-size: 1.8vw;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    font-weight: 400; }
+  .interactive .interactive__body {
+    font-family: "DDinRegular", sans-serif;
+    font-weight: 400; }
+  .interactive .ybr-line {
+    max-width: 25vw;
+    margin-bottom: 2vh; }
+  .interactive .interactive__background {
+    width: 100%;
+    margin-bottom: 45vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: flex-start; }
+  .interactive #scrollytelly-1 {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("../images/about.jpg"); }
+  .interactive .scrollytelly__main {
+    max-width: 85%; }
+  .interactive .scrollytelly__body {
+    opacity: 0;
+    transform: translateY(50px);
+    padding: 200px 0;
+    transition: all 1s ease-out; }
+  .interactive #scrollytelly-1 .scrollytelly__body.fade-in {
+    opacity: 1;
+    transform: translateY(0); }
+
 .pull-quote-container {
   font-family: "Playfair Display", serif;
   font-weight: 700;
@@ -1194,31 +1210,6 @@ nav {
       .photo-caption-container .caption {
         width: 100%;
         font-size: 0.75rem; } }
-
-/* scrollama */
-#scroll {
-  position: relative;
-  background: #333333; }
-
-.scroll__text {
-  position: relative;
-  padding: 0 1rem;
-  margin: 0 auto; }
-
-.step {
-  margin: 2rem auto 4rem auto;
-  text-align: center; }
-  .step p,
-  .step h1,
-  .step h2 {
-    color: #333333;
-    transition: color 1s; }
-
-.step.is-active p,
-.step.is-active h1,
-.step.is-active h2 {
-  color: #ffffff;
-  transition: color 1s; }
 
 #interactive__gov-undocumented {
   position: relative;
@@ -1562,17 +1553,6 @@ nav {
       cursor: pointer;
       border-bottom: solid 0px;
       border-bottom-color: #ffffff; } }
-
-#photo-int-scrolly {
-  background-color: #C70032;
-  /* Center aligned */ }
-  #photo-int-scrolly section {
-    height: 100%;
-    position: relative;
-    text-align: center; }
-  #photo-int-scrolly section .inner {
-    margin: 0 auto;
-    max-width: 85%; }
 
 .timeline {
   position: relative;
