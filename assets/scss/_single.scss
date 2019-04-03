@@ -108,22 +108,30 @@
       transition: 1s opacity;
       font-size: 1.125rem;
 
-      &:first-child{
-        margin-top:3vw;
-      }
-
       @media screen and (max-width: 800px){
         max-width: 90vw;
       }
     }
 
-    .ybr-line{
-      transition: 1s opacity;
+    .drop-cap {
+
+      &:first-child{
+        margin-top:3vh;
+        margin-bottom: 3%;
+      }
+
+      &:first-child:first-letter {
+        float: left;
+        color: $red;
+        font-size: 60px;
+        line-height: 2.8rem;
+        padding-top: 5px;
+        padding-right: 8px;
+      }
     }
 
-    .drop-cap:first-letter {
-      font-size: 3rem;
-      float: left;
+    .ybr-line{
+      transition: 1s opacity;
     }
   }
 
