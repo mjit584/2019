@@ -131,12 +131,14 @@ body {
   padding-top: 2%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, auto);
-  grid-template-areas: 'about-bd about-bd about-bd about-bd' 'about-ft about-ft about-ft about-ft';
+  grid-template-areas: 'about-bd about-bd about-bd about-bd'
+ 'about-ft about-ft about-ft about-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .home #home__about {
       grid-template-columns: 1fr;
-      grid-template-areas: 'about-bd' 'about-ft'; } }
+      grid-template-areas: 'about-bd'
+ 'about-ft'; } }
   .home #home__about .about-content {
     font-family: "Georgia", serif;
     grid-area: about-bd; }
@@ -157,12 +159,20 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
+  grid-template-areas: 'nav nav nav nav'
+ 'story-hero story-hero story-hero story-hero'
+ '. story-by story-by .'
+ 'story-bd story-bd story-bd story-bd'
+ 'story-ft story-ft story-ft story-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .story-page {
       grid-template-columns: 1fr;
-      grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd' 'story-ft'; } }
+      grid-template-areas: 'nav'
+ 'story-hero'
+ 'story-by'
+ 'story-bd'
+ 'story-ft'; } }
   .story-page .story-hero {
     color: #ffffff;
     height: 100vh;
@@ -202,6 +212,12 @@ body {
   .story-page .story-content {
     font-family: "Georgia", serif;
     grid-area: story-bd; }
+    .story-page .story-content .flourish {
+      max-width: 75vw;
+      margin: 4vh auto; }
+      @media screen and (max-width: 800px) {
+        .story-page .story-content .flourish {
+          max-width: 100%; } }
     .story-page .story-content a {
       color: #C70032; }
     .story-page .story-content .story__subhead {
@@ -363,12 +379,20 @@ nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
+  grid-template-areas: 'nav nav nav nav'
+ 'story-hero story-hero story-hero story-hero'
+ '. story-by story-by .'
+ 'story-bd story-bd story-bd story-bd'
+ 'story-ft story-ft story-ft story-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .chap {
       grid-template-columns: 1fr;
-      grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd' 'story-ft'; } }
+      grid-template-areas: 'nav'
+ 'story-hero'
+ 'story-by'
+ 'story-bd'
+ 'story-ft'; } }
   .chap .story-hero {
     color: #ffffff;
     height: 100vh;
@@ -441,7 +465,8 @@ nav {
       .chap .photo__content .photo__subhead .drop-cap:first-letter {
         font-size: 3rem;
         float: left; }
-    .chap .photo__content .interactive__image {
+    .chap .photo__content .
+    __image {
       position: relative;
       display: flex;
       flex-direction: column;

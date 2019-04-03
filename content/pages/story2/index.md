@@ -37,6 +37,7 @@ Venezuela’s inflation rate has been abruptly rising and falling since the late
 
 Just after former President Hugo Chávez’s election in 1999, the global price of oil increased, bringing trillions of dollars into the country’s treasury. He used the money to fund social programs to provide education, medical services and food for low-income communities. At that point, almost 43 percent of Venezuela’s population was below the poverty line.
 
+
 The money also paid for Russian weaponry and extremely discounted oil to allies like Cuba. Chávez started a program called Petrocaribe that allowed Caribbean countries to exchange local goods such as bananas and sugar for oil. The money quickly depleted. By the time oil prices plummeted in 2014, Venezuela couldn’t recover.
 
 {{< story-interactives "pages/story2" "econ-bolivar-int" >}}
@@ -44,6 +45,8 @@ The money also paid for Russian weaponry and extremely discounted oil to allies 
 The country’s central bank stopped releasing economic information such as the inflation rate and public spending in 2014. Now the main legislative body, the National Assembly—controlled by the opposition—publishes data. Venezuela’s GDP has steadily dropped since 2013. By 2017, over 87 percent of the population lived below the poverty line.
 
 President Nicolás Maduro tried to renegotiate international loans in 2017, but U.S. sanctions against the country made it impossible. Venezuela slid further into debt.
+
+{{< story-interactives "pages/story2" "econ-inflation-int" >}}
 
 In January, National Assembly President Juan Guaidó declared himself interim president after Maduro’s second election was deemed rigged. The U.S., Canada, Brazil and about 50 other countries have recognized Guaidó as president. Russia, China and Cuba still support Maduro.
 

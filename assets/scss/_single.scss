@@ -78,6 +78,14 @@
     font-family: $font-content-body;
     grid-area: story-bd;
     
+    .flourish {
+      max-width: 75vw;
+      margin:4vh auto;
+      @media screen and (max-width: 800px){
+          max-width: 100%;
+      }
+    }
+    
     a {
       color: $red;
     }
