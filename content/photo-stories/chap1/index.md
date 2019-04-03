@@ -19,10 +19,10 @@ udea:
 - "Maria Alejandra Cardona Aizpurua"
 ---
 
-{{< photo-left-vertical "/interactive/chap1" "photo-vertical-1" >}}
+{{< photo-left-vertical "/photo-stories/chap1" "photo-vertical-1" >}}
 
-{{< photo-right-vertical "/interactive/chap1" "photo-vertical-1" >}}
+{{< photo-right-vertical "/photo-stories/chap1" "photo-vertical-1" >}}
 
-{{< story-interactives "/interactive/chap1" "photo-image-map" >}}
+{{< story-interactives "/photo-stories/chap1" "photo-image-map" >}}
 
-{{< story-interactives "/interactive/chap1" "photo-scrollytelly-1" >}}
+{{< story-interactives "/photo-stories/chap1" "photo-scrollytelly-1" >}}

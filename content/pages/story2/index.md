@@ -52,6 +52,8 @@ In January, National Assembly President Juan Guaidó declared himself interim pr
 
 Today, a box of cereal in Venezuela costs more than the average person’s monthly salary. People can’t afford housing or toiletries. Guaido has tried to import humanitarian aid, but Maduro’s officials at the Colombian border destroyed trucks full of necessities. Maduro labeled the event as an attempt to overthrow his administration.
 
+{{< story-interactives "pages/story2" "econ-exchange-int" >}}
+
 {{< pull-quote "/pages/story2" "pull-quote-2" >}}
 
 “¡Dale, dale, dale!”

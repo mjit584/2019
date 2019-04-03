@@ -7,10 +7,18 @@
   {{ partial "header.html" . }}
 </header>
 
-<div id="chap1" class="interactive__chap1"></div>
-<div id="chap2" class="interactive__chap2"></div>
-<div id="chap3" class="interactive__chap3"></div>
-<div id="chap4" class="interactive__chap4"></div>
+<div id="chap1" class="interactive__chap1 flex-column">
+  <a href="chap1">Chapter One</a>
+</div>
+<div id="chap2" class="interactive__chap2 flex-column">
+  <a href="chap2">Chapter Two</a>
+</div>
+<div id="chap3" class="interactive__chap3 flex-column">
+  <a href="chap3">Chapter Three</a>
+</div>
+<div id="chap4" class="interactive__chap4 flex-column">
+  <a href="chap4">Chapter Four</a>
+</div>
 {{ end }}
 
 {{ define "scripts" }}

@@ -110,7 +110,7 @@ canonifyURLs = "true"
 
 [[menu.main]]
   name = "Embracing Medellín"
-  url = "/interactive/"
+  url = "/photo-stories/"
   weight = 6
   pre = "The photo story is about this"
   post = "https://brookenf.github.io/uprooted-mejo584/images/cards-interactive.jpeg"
