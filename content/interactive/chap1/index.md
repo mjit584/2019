@@ -25,4 +25,4 @@ udea:
 
 {{< story-interactives "/interactive/chap1" "photo-image-map" >}}
 
-{{< photo-scrollytelly "interactive/chap1" "photo-scrollytelly-1" >}}
+{{< story-interactives "/interactive/chap1" "photo-scrollytelly-1" >}}

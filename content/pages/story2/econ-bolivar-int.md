@@ -9,7 +9,6 @@ graphics:
   <h2 class="interactive__title">Venezuelan Bolívar Timeline</h2>
   <h3 class="interactive__subhead">The Bolívar is an ever-changing currency</h3>
  {{< ybr-line >}}
-
 <div class="timeline">
   <div class="row yellow">
     <div class="timeline-content left">
@@ -89,5 +88,4 @@ graphics:
     </div>
   </div>
 </div>
-
 </section>

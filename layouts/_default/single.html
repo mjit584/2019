@@ -18,8 +18,7 @@
 <div class="flex-column story-byline">
   <div class="byline-name" id="byline-rep">written by <span>{{ .Params.Author }}</span></div>
   <div class="byline-name" id="byline-vid">photo & video
-    <span>{{ range .Params.videographer }}{{ . }}, {{end}}
-      {{ .Params.photographer }}
+    <span>{{ .Params.videographer }} {{ .Params.photographer }}
     </span>
   </div>
   <div class="byline-name" id="byline-des">graphics <span>{{ .Params.designer }}</span></div>

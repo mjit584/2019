@@ -34,7 +34,8 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  margin: 0 auto; }
+  margin: 0 auto;
+  color: #333333; }
 
 .home .home__scroll {
   color: #ffffff;
@@ -130,12 +131,14 @@ body {
   padding-top: 2%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, auto);
-  grid-template-areas: 'about-bd about-bd about-bd about-bd' 'about-ft about-ft about-ft about-ft';
+  grid-template-areas: 'about-bd about-bd about-bd about-bd'
+ 'about-ft about-ft about-ft about-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .home #home__about {
       grid-template-columns: 1fr;
-      grid-template-areas: 'about-bd' 'about-ft'; } }
+      grid-template-areas: 'about-bd'
+ 'about-ft'; } }
   .home #home__about .about-content {
     font-family: "Georgia", serif;
     grid-area: about-bd; }
@@ -156,12 +159,20 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
+  grid-template-areas: 'nav nav nav nav'
+ 'story-hero story-hero story-hero story-hero'
+ '. story-by story-by .'
+ 'story-bd story-bd story-bd story-bd'
+ 'story-ft story-ft story-ft story-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .story-page {
       grid-template-columns: 1fr;
-      grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd' 'story-ft'; } }
+      grid-template-areas: 'nav'
+ 'story-hero'
+ 'story-by'
+ 'story-bd'
+ 'story-ft'; } }
   .story-page .story-hero {
     color: #ffffff;
     height: 100vh;
@@ -201,29 +212,6 @@ body {
   .story-page .story-content {
     font-family: "Georgia", serif;
     grid-area: story-bd; }
-    .story-page .story-content .interactive {
-      max-width: 100%;
-      transition: 1s opacity;
-      margin: 6vh 0;
-      text-align: center; }
-      .story-page .story-content .interactive .interactive__title {
-        font-family: "DDinBold", sans-serif;
-        font-size: 2.5vw;
-        text-transform: uppercase;
-        margin-bottom: 0;
-        font-weight: 400; }
-      .story-page .story-content .interactive .interactive__subhead {
-        font-family: "DDinRegular", sans-serif;
-        font-size: 1.8vw;
-        margin-top: 1vh;
-        margin-bottom: 2vh;
-        font-weight: 400; }
-      .story-page .story-content .interactive .interactive__body {
-        font-family: "DDinRegular", sans-serif;
-        font-weight: 400; }
-      .story-page .story-content .interactive .ybr-line {
-        max-width: 25vw;
-        margin-bottom: 2vh; }
     .story-page .story-content .flourish {
       max-width: 75vw;
       margin: 4vh auto; }
@@ -251,16 +239,21 @@ body {
       margin: 2vw auto;
       transition: 1s opacity;
       font-size: 1.125rem; }
-      .story-page .story-content p:first-child {
-        margin-top: 3vw; }
       @media screen and (max-width: 800px) {
         .story-page .story-content p {
           max-width: 90vw; } }
+    .story-page .story-content .drop-cap:first-child {
+      margin-top: 3vh;
+      margin-bottom: 3%; }
+    .story-page .story-content .drop-cap:first-child:first-letter {
+      float: left;
+      color: #C70032;
+      font-size: 60px;
+      line-height: 2.8rem;
+      padding-top: 5px;
+      padding-right: 8px; }
     .story-page .story-content .ybr-line {
       transition: 1s opacity; }
-    .story-page .story-content .drop-cap:first-letter {
-      font-size: 3rem;
-      float: left; }
   .story-page footer {
     grid-area: story-ft; }
 
@@ -386,12 +379,20 @@ nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
+  grid-template-areas: 'nav nav nav nav'
+ 'story-hero story-hero story-hero story-hero'
+ '. story-by story-by .'
+ 'story-bd story-bd story-bd story-bd'
+ 'story-ft story-ft story-ft story-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .chap {
       grid-template-columns: 1fr;
-      grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd' 'story-ft'; } }
+      grid-template-areas: 'nav'
+ 'story-hero'
+ 'story-by'
+ 'story-bd'
+ 'story-ft'; } }
   .chap .story-hero {
     color: #ffffff;
     height: 100vh;
@@ -464,11 +465,8 @@ nav {
       .chap .photo__content .photo__subhead .drop-cap:first-letter {
         font-size: 3rem;
         float: left; }
-    .chap .photo__content .interactive__intro {
-      text-align: center; }
-      .chap .photo__content .interactive__intro .ybr-line {
-        max-width: 40vw; }
-    .chap .photo__content .interactive__image {
+    .chap .photo__content .
+    __image {
       position: relative;
       display: flex;
       flex-direction: column;
@@ -1154,6 +1152,53 @@ nav {
 .lock-scroll {
   overflow: hidden; }
 
+.interactive {
+  max-width: 100%;
+  transition: 1s opacity;
+  margin: 6vh 0;
+  text-align: center; }
+  .interactive .interactive__title {
+    font-family: "DDinBold", sans-serif;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: 400; }
+  .interactive .interactive__subhead {
+    font-family: "DDinRegular", sans-serif;
+    font-size: 1.8vw;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    font-weight: 400; }
+  .interactive .interactive__body {
+    font-family: "DDinRegular", sans-serif;
+    font-weight: 400; }
+  .interactive .ybr-line {
+    max-width: 25vw;
+    margin-bottom: 2vh; }
+  .interactive .interactive__background {
+    width: 100%;
+    justify-content: flex-start; }
+  .interactive #scrollytelly-1 {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("../images/about.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .interactive .scrollytelly__main {
+    max-width: 85%; }
+  .interactive .scrollytelly__body {
+    opacity: 0;
+    transform: translateY(50px);
+    padding: 200px 0;
+    transition: all 1s ease-out; }
+  .interactive #scrollytelly-1 .scrollytelly__body.fade-in {
+    opacity: 1;
+    transform: translateY(0); }
+  .interactive .flourish {
+    max-width: 75vw;
+    margin: 4vh auto; }
+    @media screen and (max-width: 800px) {
+      .interactive .flourish {
+        max-width: 100%; } }
+
 .pull-quote-container {
   font-family: "Playfair Display", serif;
   font-weight: 700;
@@ -1200,31 +1245,6 @@ nav {
       .photo-caption-container .caption {
         width: 100%;
         font-size: 0.75rem; } }
-
-/* scrollama */
-#scroll {
-  position: relative;
-  background: #333333; }
-
-.scroll__text {
-  position: relative;
-  padding: 0 1rem;
-  margin: 0 auto; }
-
-.step {
-  margin: 2rem auto 4rem auto;
-  text-align: center; }
-  .step p,
-  .step h1,
-  .step h2 {
-    color: #333333;
-    transition: color 1s; }
-
-.step.is-active p,
-.step.is-active h1,
-.step.is-active h2 {
-  color: #ffffff;
-  transition: color 1s; }
 
 #interactive__gov-undocumented {
   position: relative;
@@ -1569,17 +1589,6 @@ nav {
       border-bottom: solid 0px;
       border-bottom-color: #ffffff; } }
 
-#photo-int-scrolly {
-  background-color: #C70032;
-  /* Center aligned */ }
-  #photo-int-scrolly section {
-    height: 100%;
-    position: relative;
-    text-align: center; }
-  #photo-int-scrolly section .inner {
-    margin: 0 auto;
-    max-width: 85%; }
-
 .timeline {
   position: relative;
   max-width: 1200px;
@@ -1716,7 +1725,7 @@ nav {
 
 footer {
   margin: 0 auto;
-  padding-bottom: 20vh; }
+  padding: 17vh 0; }
   footer .footer-stories__mobile {
     display: none; }
   @media screen and (max-width: 800px) {
