@@ -33,7 +33,7 @@ Nulla facilisi. Maecenas malesuada scelerisque urna quis tempus. Nullam non quam
 
 Donec pulvinar quam felis, vel vestibulum enim laoreet vel. Proin ac lorem congue, pulvinar dui id, vulputate turpis. Vestibulum molestie nibh vel cursus bibendum. Donec nec velit varius, ornare purus ac, aliquam tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eros laoreet, finibus velit a, posuere felis. Maecenas cursus tincidunt felis, vitae pellentesque eros rhoncus varius. Nullam est odio, laoreet at malesuada sollicitudin, pharetra a lectus. Nullam augue nibh, finibus venenatis eleifend consequat, ornare vitae nisl. Mauris ac felis purus. Morbi vel turpis rhoncus, semper lorem ut, sodales velit. Vivamus ac est nec leo scelerisque facilisis ac id lacus. Quisque rutrum non ipsum ut pharetra. Cras vitae ex felis. Pellentesque sit amet erat et dolor semper pharetra.
 
-{{< story-interactives "pages/story2" "econ-bolivar-int" >}}
+{{< story-interactives "pages/story2" "econ-inflation-int" >}}
 
 Sed tincidunt mattis urna, ut fringilla erat lacinia sit amet. Suspendisse in efficitur metus. Mauris hendrerit nunc sit amet purus auctor, eu porttitor urna rutrum. Sed lacinia, mi vitae aliquet volutpat, ligula libero dapibus enim, id pretium magna odio non odio. Duis hendrerit nisi nec lectus porta eleifend. Duis ut venenatis ex, sit amet tempor ligula. Donec vel mi dapibus, pharetra enim quis, tincidunt arcu. Integer semper eleifend lectus, eu consectetur lacus feugiat non. Morbi quis neque et libero varius vehicula.
 
@@ -41,9 +41,13 @@ Curabitur sit amet vestibulum mauris, id tempus magna. Vivamus id nunc nec turpi
 
 Nunc faucibus aliquet mauris vel fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam odio arcu, efficitur id placerat quis, imperdiet semper justo. Phasellus consectetur justo in posuere laoreet. Nulla fringilla dolor erat, a venenatis velit congue pretium. Vestibulum finibus sem in interdum vestibulum. Ut cursus risus ligula, eu sagittis dolor lobortis a. Sed arcu urna, varius tristique leo at, accumsan gravida velit. Morbi in nisl id quam convallis tincidunt. Integer pharetra viverra tellus eget vulputate. Nunc id mi viverra, pretium lacus in, vulputate ligula. Curabitur ac urna ex.
 
+{{< story-interactives "pages/story2" "econ-exchange-int" >}}
+
 Quisque eget tortor dignissim dui commodo iaculis. Ut nec varius libero. Nulla ultricies sodales diam, quis pharetra quam malesuada ac. Morbi non fringilla nisl. Sed a turpis non nulla ultrices condimentum sit amet sed nisi. Ut sodales tristique tempor. Quisque efficitur purus enim, non egestas augue finibus quis. Nulla a ipsum dui. Donec euismod, dui vel ultricies euismod, ligula elit hendrerit augue, ut ornare enim neque quis nunc. Phasellus non feugiat ipsum. Mauris tristique felis a est ultricies cursus. Fusce semper, neque eu mattis facilisis, purus nisi fermentum elit, vel commodo urna quam sit amet orci. Duis ipsum turpis, sollicitudin nec euismod venenatis, pharetra eu tellus. Ut efficitur metus ut mauris tempus, ac dictum nibh pharetra.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lectus non sem scelerisque elementum. Sed tempor velit non urna lobortis sodales. Nunc vitae lectus sed justo eleifend lacinia sed nec mauris. Quisque pulvinar lorem sed neque sodales, vitae ultricies arcu eleifend. Sed suscipit est nulla, efficitur varius libero ultricies at. Nullam a mollis dui. Donec a felis sapien. Aliquam euismod nec ipsum sit amet consequat. Quisque faucibus arcu at sem congue, eget hendrerit turpis euismod. Praesent eleifend enim sit amet elit viverra, non volutpat diam tempor. Vivamus tempor nisi eget ultrices tristique. Morbi vitae pharetra felis, et faucibus magna. Quisque venenatis, lacus sit amet finibus ornare, massa ante facilisis sapien, quis tempor dui mauris sit amet urna.
+
+{{< story-interactives "pages/story2" "econ-bolivar-int" >}}
 
 Curabitur porttitor dignissim est vel imperdiet. Praesent ut dapibus purus. Proin pulvinar eget justo vel luctus. Phasellus non pellentesque lorem. Suspendisse nisl neque, pretium sed tristique vitae, accumsan id tellus. Sed dictum faucibus ornare. Sed euismod, augue nec bibendum sollicitudin, mi diam feugiat turpis, a lacinia tortor arcu porttitor nibh. Praesent eros lacus, viverra at lectus et, fermentum placerat est. Mauris massa lorem, mollis egestas aliquet ut, vestibulum vitae elit. Fusce fermentum iaculis neque, non tempus dui imperdiet sed.
 

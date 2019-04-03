@@ -224,6 +224,12 @@ body {
       .story-page .story-content .interactive .ybr-line {
         max-width: 25vw;
         margin-bottom: 2vh; }
+    .story-page .story-content .flourish {
+      max-width: 75vw;
+      margin: 4vh auto; }
+      @media screen and (max-width: 800px) {
+        .story-page .story-content .flourish {
+          max-width: 100%; } }
     .story-page .story-content a {
       color: #C70032; }
     .story-page .story-content .story__subhead {
