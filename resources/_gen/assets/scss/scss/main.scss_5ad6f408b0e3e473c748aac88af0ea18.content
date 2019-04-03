@@ -1167,6 +1167,12 @@ nav {
   .interactive #scrollytelly-1 .scrollytelly__body.fade-in {
     opacity: 1;
     transform: translateY(0); }
+  .interactive .flourish {
+    max-width: 75vw;
+    margin: 4vh auto; }
+    @media screen and (max-width: 800px) {
+      .interactive .flourish {
+        max-width: 100%; } }
 
 .pull-quote-container {
   font-family: "Playfair Display", serif;
@@ -1694,7 +1700,7 @@ nav {
 
 footer {
   margin: 0 auto;
-  padding-bottom: 20vh; }
+  padding: 17vh 0; }
   footer .footer-stories__mobile {
     display: none; }
   @media screen and (max-width: 800px) {
