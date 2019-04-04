@@ -131,12 +131,12 @@ body {
   padding-top: 2%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, auto);
-  grid-template-areas: 'about-bd about-bd about-bd about-bd' 'about-ft about-ft about-ft about-ft';
+  grid-template-areas: 'about-bd about-bd about-bd about-bd' 'about-ft about-ft about-ft about-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .home #home__about {
       grid-template-columns: 1fr;
-      grid-template-areas: 'about-bd' 'about-ft'; } }
+      grid-template-areas: 'about-bd' 'about-ft'; } }
   .home #home__about .about-content {
     font-family: "Georgia", serif;
     grid-area: about-bd; }
@@ -157,21 +157,27 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
+  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .story-page {
       grid-template-columns: 1fr;
-      grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd' 'story-ft'; } }
+      grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd' 'story-ft'; } }
+  .story-page .story-video {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; }
   .story-page .story-hero {
     color: #ffffff;
     height: 100vh;
     grid-area: story-hero;
-    background-color: #Fbbc00;
     transition: 1s opacity; }
     .story-page .story-hero .story-hero__topic p {
       font-family: "DDinRegular", sans-serif;
-      font-weight: 400;
+      font-weight: 700;
       margin: 0;
       text-transform: uppercase;
       font-size: 2vw; }
@@ -363,12 +369,12 @@ nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
+  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .chap {
       grid-template-columns: 1fr;
-      grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd' 'story-ft'; } }
+      grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd' 'story-ft'; } }
   .chap .story-hero {
     color: #ffffff;
     height: 100vh;
