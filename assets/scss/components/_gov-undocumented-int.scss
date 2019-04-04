@@ -139,7 +139,7 @@
   .information-body-r1 {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     height: 20vh;
     width: 100vw;
   }
@@ -242,35 +242,30 @@
   }
   
   .slide-img-pep {
-    width:25%;
     height: auto;
     padding-left:575x;
     padding-right: 0px;
   }
   
   .slide-img-calendar {
-    width:15%;
     height: auto;
     padding-left:125px;
     padding-right: 75px;
   }
   
   .slide-img-doc {
-    width:15%;
     height: auto;
     padding-left:125px;
     padding-right: 75px;
   }
   
   .slide-img-stats {
-    width:30%;
     height: auto;
     padding-left:0px;
     padding-right: 0px;
   }
   
   .slide-img-ID {
-    width:25%;
     height: auto;
     padding-left:50px;
     padding-right: 5px;
@@ -291,36 +286,32 @@
     font-size: 14pt;
     color: $black;
     font-family:  $font-int-gov;
-    width: 35vw;
+    padding-left: 20px;
   }
   
   .slide-txt2 {
     font-size: 14pt;
     color: $black;
     font-family:  $font-int-gov;
-    width: 30vw;
-    padding: 35px;
-    padding-left: 80px;
+    padding-left: 20px;
+    max-width: 60vh;
   }
   
   .slide-img-passport {
-    width:200px;
     height: auto;
     padding-left:125px;
     padding-right: 75px;
   }
   
   .slide-img-passport-slide2 {
-    width:275px;
     height: auto;
     padding-left:125px;
     padding-right: 75px;
   }
   
   .information-title {
-    margin-left: 22vw;
     height: 70px;
-    width: 50vw;
+    width: 30vw;
     border-bottom: 10px solid;
     border-bottom-color: $yellow;
     font-size:36pt;
@@ -387,7 +378,6 @@
   
     .slide-img {
       height: 20vh;
-      width: auto;
       padding-top: 50px;
     }
   
@@ -395,7 +385,6 @@
   
     .slide-txt, .slide-txt2 {
       height: 45vh;
-      width: 70vw;
       padding-top: 30px;
       font-size: 15px;
     }

@@ -54,14 +54,10 @@ function showSlidesPassport(n) {
   dots[slideIndexPassport - 1].className += " active";
 }
 
-const prev = document.querySelectorAll(".prev");
-const next = document.querySelectorAll(".next");
-
-
-
 function plusSlidesPassport(n) {
   console.log('plusSlidesPassport');
   showSlidesPassport(slideIndexPassport += n);
+  console.log(slideIndexPassport + n);
 }
 
 function currentSlidePassport(n) {
@@ -69,18 +65,9 @@ function currentSlidePassport(n) {
   showSlidesPassport(slideIndexPassport = n);
 }
 
-
 // pep-clideshow-js
 var slideIndex = 1;
 showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
 
 function showSlides(n) {
   var i;
@@ -98,19 +85,19 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
+function plusSlides(n) {
+  console.log('plusSlides');
+  showSlides(slideIndex += n);
+  console.log(slideIndex + n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
 // national id slideshow js
 var slideIndexID = 1;
 showSlidesID(slideIndexID);
-
-function plusSlidesID(n) {
-  console.log('plusSlidesID');
-  showSlidesID(slideIndexID += n);
-}
-
-function currentSlideID(n) {
-  console.log('currentSlideID');
-  showSlidesID(slideIndexID = n);
-}
 
 function showSlidesID(n) {
   var i;
@@ -126,4 +113,15 @@ function showSlidesID(n) {
   }
   slides[slideIndexID - 1].style.display = "block";
   dots[slideIndexID - 1].className += " active";
+}
+
+function plusSlidesID(n) {
+  console.log('plusSlidesID');
+  showSlidesID(slideIndexID += n);
+  console.log(slideIndexID + n);
+}
+
+function currentSlideID(n) {
+  console.log('currentSlideID');
+  showSlidesID(slideIndexID = n);
 }
