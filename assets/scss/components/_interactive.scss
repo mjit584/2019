@@ -22,6 +22,10 @@
     margin-bottom: 2vh;
     font-weight: $font-weight-normal;
   }
+
+  .interactive__intro {
+    font-family: $font-int-intro;
+  }
   
   .interactive__body {
     font-family: $font-int-body;
