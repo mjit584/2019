@@ -104,30 +104,32 @@
   .passport-body {
     z-index: 1200;
   }
-  
+
   .back-button {
+    cursor: pointer;
+    margin-left: 5vw;
     margin-top: 45px;
-    margin-left: 50px;
-    width: 100px;
-    height: 65px;
-    font-size: 18pt;
+    width: 80px;
+    font-size: 1.3rem;
     color: $black;
-    font-family: $font-content-heading;
+    font-family: $font-int-gov;
     font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.3s;
-    border: #333333 solid 2px;
-    z-index: 9999;
+    display: inline-block;
+    float: left;
+    transition: border-bottom 0.2s;
   }
   
+  .back-button:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px #333;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out; 
+    transform-origin:  0% 50%;
+  }
   
-  .back-button:hover {
-  cursor: pointer;
-  background-color: $black;
-  color: $white;
-  border-bottom: white solid 2px;
+  .back-button:hover:after {
+    transform: scaleX(1); 
   }
   
   .information-title-svg {

@@ -4,6 +4,7 @@ console.log('script start');
 
 $(document).ready(function () {
   $("#r-2-c-2").click(function () {
+    console.log("clicked on PEP");
     $("#PEP-body").fadeIn(300);
     $(".container-body").css("display", "none");
   });
@@ -15,6 +16,7 @@ $(document).ready(function () {
 
   $("#r-2-c-1").click(function () {
     $("#passport-body").fadeIn(300);
+    console.log("clicked on passport");
     $(".container-body").css("display", "none");
   });
 
@@ -25,6 +27,7 @@ $(document).ready(function () {
 
   $("#r-2-c-3").click(function () {
     $("#ID-body").fadeIn(300);
+    console.log("clicked on ID");
     $(".container-body").css("display", "none");
   });
 
