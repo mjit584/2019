@@ -1,5 +1,5 @@
 <div class="mix about__person {{ .filter }}">
-  <img src="{{ .img }}" alt="{{ .first }}{{ .last }}" />
+  <img src="{{ .img }}" alt="{{ .first }}{{ .last }}" title="An icon that describes me: {{ .symbol }}" />
   <div class="about__info flex-column">
     {{ if eq .website ""}}
     <span class="about__name">{{.first }} {{ .last }}</span>
