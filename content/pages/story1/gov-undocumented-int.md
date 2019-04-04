@@ -10,8 +10,8 @@ graphics:
   <div class="interactive__body" id="interactive__gov-undocumented">
     <!-- content for passport-->
     <div class="information-body" id="passport-body">
-      <div class="back-button" id="passport-button">Back</div>
       <div class="information-body-r1">
+        <div class="back-button" id="passport-button">Back</div>
         <div class="information-title">Passport</div>
       </div>
       <!-- slideshow goes here -->
@@ -76,7 +76,7 @@ graphics:
           <div class="slideshow-buttons flex">
             <a class="prev" onclick="plusSlidesPassport(-1)">&#10094;</a>
             <a class="next" onclick="plusSlidesPassport(1)">&#10095;</a>
-          </div>      
+          </div>
         </div>
         <div style="text-align:center">
           <span class="dot-passport" onclick="currentSlidePassport(1)"></span>
@@ -93,9 +93,9 @@ graphics:
     <!-- end of content for passport -->
     <!-- content for pep-->
     <div class="information-body" id="PEP-body">
-      <div class="back-button" id="PEP-button">Back</div>
       <div class="information-body-r1">
-        <div class="information-title border-blue">PEP - "Special Stay Permit"</div>    
+        <div class="back-button" id="PEP-button">Back</div>
+        <div class="information-title border-blue">PEP - "Special Stay Permit"</div>
       </div>
       <!-- slideshow goes here -->
       <div class="information-body-r2">
@@ -161,8 +161,8 @@ graphics:
     <!-- end of content for pep -->
     <!-- contont for National id -->
     <div class="information-body" id="ID-body">
-      <div class="back-button" id="ID-button">Back</div>
       <div class="information-body-r1">
+        <div class="back-button" id="ID-button">Back</div>
         <div class="information-title border-red">Venezuelan ID Card</div>
       </div>
       <!-- slideshow goes here -->
