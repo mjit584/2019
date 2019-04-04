@@ -5,71 +5,38 @@ console.log('script start');
 $(document).ready(function () {
   $("#r-2-c-2").click(function () {
     $("#PEP-body").fadeIn(300);
+    $(".container-body").css("display", "none");
   });
 
   $("#PEP-button").click(function () {
     $("#PEP-body").fadeOut(300);
+    $(".container-body").css("display", "flex");
   });
 
   $("#r-2-c-1").click(function () {
     $("#passport-body").fadeIn(300);
+    $(".container-body").css("display", "none");
   });
 
   $("#passport-button").click(function () {
     $("#passport-body").fadeOut(300);
+    $(".container-body").css("display", "flex");
   });
 
   $("#r-2-c-3").click(function () {
     $("#ID-body").fadeIn(300);
+    $(".container-body").css("display", "none");
   });
 
   $("#ID-button").click(function () {
     $("#ID-body").fadeOut(300);
+    $(".container-body").css("display", "flex");
   });
 });
-
-
-// var slideIndex = 1;
-// showSlides(slideIndex);
-//
-// function plusSlides(n) {
-//   showSlides(slideIndex += n);
-// }
-//
-// function currentSlide(n) {
-//   showSlides(slideIndex = n);
-// }
-//
-// function showSlides(n) {
-//   var i;
-//   var slides = document.getElementsByClassName("mySlides");
-//   var dots = document.getElementsByClassName("dot");
-//   if (n > slides.length) {slideIndex = 1}
-//   if (n < 1) {slideIndex = slides.length}
-//   for (i = 0; i < slides.length; i++) {
-//       slides[i].style.display = "none";
-//   }
-//   for (i = 0; i < dots.length; i++) {
-//       dots[i].className = dots[i].className.replace(" active", "");
-//   }
-//   slides[slideIndex-1].style.display = "block";
-//   dots[slideIndex-1].className += " active";
-// }
-
 
 // passport-slideshow-js
 var slideIndexPassport = 1;
 showSlidesPassport(slideIndexPassport);
-
-function plusSlidesPassport(n) {
-  console.log('plusSlidesPassport');
-  showSlidesPassport(slideIndexPassport += n);
-}
-
-function currentSlidePassport(n) {
-  console.log('currentSlidePassport');
-  showSlidesPassport(slideIndexPassport = n);
-}
 
 function showSlidesPassport(n) {
   var i;
@@ -85,6 +52,21 @@ function showSlidesPassport(n) {
   }
   slides[slideIndexPassport - 1].style.display = "block";
   dots[slideIndexPassport - 1].className += " active";
+}
+
+const prev = document.querySelectorAll(".prev");
+const next = document.querySelectorAll(".next");
+
+
+
+function plusSlidesPassport(n) {
+  console.log('plusSlidesPassport');
+  showSlidesPassport(slideIndexPassport += n);
+}
+
+function currentSlidePassport(n) {
+  console.log('currentSlidePassport');
+  showSlidesPassport(slideIndexPassport = n);
 }
 
 

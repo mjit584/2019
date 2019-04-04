@@ -7,7 +7,7 @@ graphics:
 ---
 
 <section class="interactive">
-  <div id="interactive__gov-undocumented">
+  <div class="interactive__body" id="interactive__gov-undocumented">
     <!-- content for passport-->
     <div class="information-body" id="passport-body">
       <div class="back-button" id="passport-button">Back</div>
@@ -73,8 +73,10 @@ graphics:
             </div>
           </div>
           <!-- slideshow buttons -->
-          <a class="prev" onclick="plusSlidesPassport(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlidesPassport(1)">&#10095;</a>      
+          <div class="slideshow-buttons flex">
+            <a class="prev" onclick="plusSlidesPassport(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlidesPassport(1)">&#10095;</a>
+          </div>      
         </div>
         <div style="text-align:center">
           <span class="dot-passport" onclick="currentSlidePassport(1)"></span>
@@ -139,8 +141,10 @@ graphics:
             </div>
           </div>
           <!-- slideshow buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <div class="slideshow-buttons flex">
+            <a class="prev" onclick="plusSlidesPassport(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlidesPassport(1)">&#10095;</a>
+          </div>
         </div>
         <div style="text-align:center">
           <span class="dot" onclick="currentSlide(1)"></span>
@@ -212,8 +216,10 @@ graphics:
             </div>
           </div>
           <!-- slideshow buttons -->
-          <a class="prev" onclick="plusSlidesID(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlidesID(1)">&#10095;</a>
+          <div class="slideshow-buttons flex">
+            <a class="prev" onclick="plusSlidesPassport(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlidesPassport(1)">&#10095;</a>
+          </div>
         </div>
         <div style="text-align:center">
           <span class="dot-ID" onclick="currentSlideID(1)"></span>
@@ -230,35 +236,39 @@ graphics:
     <!-- end of content for national ID -->
     <!-- front page -->
     <div class="container-body">
-      <div class="container flex" id="r-1">
-      <img class="title-svg" src="assets/main-title.svg" alt="undocumented"></div>
-      <div class="container flex" id="r-2">
-        <div class="container flex document-box" id="r-2-c-1">
-          <div class="container document-img">
+      <div class="flex-column" id="r-1">
+      <div class="interactive__header">
+        <h2 class="interactive__title">Undocumented</h2>
+        <h3 class="interactive__subhead">The Legal Limbo of Venezuelans in Colombia</h3>
+        {{< ybr-line >}}
+      </div>
+      <div class="flex" id="r-2">
+        <div class="flex document-box" id="r-2-c-1">
+          <div class="document-img">
             <img class="passport-svg" src="assets/passport.svg" alt="passport">
           </div>
-          <div class="container flex document-txt">
+          <div class="flex document-txt">
             <div class="document-caption">Passport</div>
           </div>
         </div>
-        <div class="container flex document-box" id="r-2-c-2">
-          <div class="container flex document-img">
+        <div class="flex document-box" id="r-2-c-2">
+          <div class="flex document-img">
             <img class="pep-svg" src="assets/pep.svg" alt="passport">
           </div>
-          <div class="container flex document-txt">
+          <div class="flex document-txt">
             <div class="document-caption">PEP</div>
           </div>
         </div>
-        <div class="container flex document-box" id="r-2-c-3">
-          <div class="container flex document-img">
+        <div class="flex document-box" id="r-2-c-3">
+          <div class="flex document-img">
             <img class="cedula-svg" src="assets/cedula.svg" alt="passport">
           </div>
-          <div class="container flex document-txt">
+          <div class="flex document-txt">
             <div class="document-caption">Venezuelan ID</div>
           </div>
         </div>
       </div>
-      <div class="container flex" id="r-3">
+      <div class="flex" id="r-3">
         <div class="bottom-text">Click to explore the documentation</div>
       </div>
     </div>
