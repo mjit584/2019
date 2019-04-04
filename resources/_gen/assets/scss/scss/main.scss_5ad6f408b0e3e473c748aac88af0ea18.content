@@ -571,6 +571,263 @@ nav {
   .hamburger--slider.is-active .hamburger-inner::after {
     transform: translate3d(0, -16px, 0) rotate(-90deg); }
 
+.interactive .interactive__health .container {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.interactive .interactive__health #r-1 {
+  height: 45vh;
+  width: 100vw; }
+
+.interactive .interactive__health #r-2 {
+  height: 15vh;
+  width: 65vw;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333333;
+  padding-bottom: 50px; }
+
+.interactive .interactive__health #r-3 {
+  height: 100vh;
+  width: 70vw;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center; }
+
+.interactive .interactive__health #r-4 {
+  height: 5vh;
+  width: 100vw; }
+
+.interactive .interactive__health .card-front {
+  margin: 75px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.1);
+  z-index: 1000; }
+
+.interactive .interactive__health .card-flipped {
+  top: 60vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.interactive .interactive__health #card-sh {
+  width: 400px;
+  height: 600px; }
+
+.interactive .interactive__health #card-back-sh {
+  width: 400px;
+  height: 600px;
+  position: relative; }
+
+.interactive .interactive__health #card-ch {
+  width: 400px;
+  height: 850px;
+  position: relative; }
+
+.interactive .interactive__health #card-back-ch {
+  width: 400px;
+  height: 850px; }
+
+.interactive .interactive__health #sh-r-1 {
+  color: #C70032; }
+
+.interactive .interactive__health #sh-r-2 {
+  height: 250px;
+  width: 100%;
+  background-color: #C70032;
+  justify-content: flex-start; }
+
+.interactive .interactive__health #ch-r-2 {
+  height: 500px;
+  width: 100%;
+  background-color: #1457D3;
+  justify-content: flex-start; }
+
+.interactive .interactive__health #ch-r-2-r2 {
+  width: 100%;
+  flex-direction: row; }
+
+.interactive .interactive__health #ch-r-3-r2 {
+  flex-direction: row; }
+
+.interactive .interactive__health .card-front-icons {
+  height: 120px;
+  width: 100%;
+  flex-direction: row; }
+
+.interactive .interactive__health #sh-r-3 {
+  height: 200px; }
+
+.interactive .interactive__health .card-text-large {
+  font-family: 'Lato', sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0; }
+
+.interactive .interactive__health .card-text-small {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #333333;
+  margin: 0;
+  padding: 0; }
+
+.interactive .interactive__health .card-icon {
+  margin: 12px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: white; }
+
+.interactive .interactive__health .card-icon-svg {
+  width: 70px;
+  height: auto;
+  padding: 20px; }
+
+.interactive .interactive__health .card-learn-more {
+  width: 150px;
+  height: auto;
+  cursor: pointer; }
+
+.interactive .interactive__health .main-title {
+  width: 50vw;
+  height: auto; }
+
+.interactive .interactive__health .card-front-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  height: 70px;
+  width: 100%; }
+
+.interactive .interactive__health .card-back-title-sh {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  flex-direction: row;
+  font-weight: 700;
+  font-size: 20px;
+  height: 70px;
+  width: 400px;
+  color: white;
+  background-color: #C70032;
+  /* display: none; */ }
+
+.interactive .interactive__health .card-back-title-ch {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  height: 70px;
+  width: 100%;
+  color: white;
+  background-color: #1457D3; }
+
+.interactive .interactive__health .card-front-body-sh {
+  height: 530px;
+  width: 400px;
+  justify-content: flex-start; }
+
+.interactive .interactive__health .card-front-body-ch {
+  height: 780px;
+  width: 400px;
+  justify-content: flex-start; }
+
+.interactive .interactive__health .card-back-body {
+  position: absolute;
+  height: 530px;
+  width: 400px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; }
+
+.interactive .interactive__health #card-back-body-ch {
+  height: 780px; }
+
+.interactive .interactive__health .card-back-body-text {
+  padding-top: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 15.5px;
+  width: 80%;
+  line-height: 1.4;
+  color: #333333; }
+
+.interactive .interactive__health #ch-r-1 {
+  color: #1457D3; }
+
+.interactive .interactive__health .card-front-subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  height: 75px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; }
+
+.interactive .interactive__health .background-blur {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  z-index: -1000;
+  background-color: rgba(0, 0, 0, 0.1);
+  filter: blur(150px);
+  -webkit-filter: blur(150px); }
+
+.interactive .interactive__health .spacer-height {
+  height: 50px; }
+
+.interactive .interactive__health .blue {
+  color: #1457D3; }
+
+.interactive .interactive__health .red {
+  color: #C70032; }
+
+.interactive .interactive__health .close-svg {
+  right: 20px;
+  position: absolute;
+  width: 20px;
+  height: auto;
+  cursor: pointer; }
+
+.interactive .interactive__health .sh-hidden {
+  display: flex;
+  margin: 0 auto; }
+
+.interactive .interactive__health .ch-hidden {
+  display: flex; }
+
+.interactive .interactive__health .card-back-body {
+  background-color: white; }
+
+.interactive .interactive__health .hidden {
+  display: none; }
+
+@media (max-width: 800px) {
+  .interactive .interactive__health .main-title {
+    width: 70vw; }
+  .interactive .interactive__health #r-3 {
+    margin-top: 80vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .interactive .interactive__health .card-front {
+    margin: 0;
+    padding: 0;
+    width: 70vw;
+    height: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh; } }
+
 .bg-contain {
   background-size: contain; }
 
@@ -1145,6 +1402,8 @@ nav {
     margin-top: 1vh;
     margin-bottom: 2vh;
     font-weight: 400; }
+  .interactive .interactive__intro {
+    font-family: "Lato", sans-serif; }
   .interactive .interactive__body {
     font-family: "Lato", sans-serif;
     font-weight: 400; }

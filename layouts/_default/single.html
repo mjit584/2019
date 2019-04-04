@@ -1,5 +1,5 @@
 {{ define "header_css" }}{{ end }}
-{{ define "body_classes" }}story-page {{ .Title }}{{ end }}
+{{ define "body_classes" }}story-page {{ .Title | lower }}{{ end }}
 {{ define "main" }}
 {{ partial "main-menu-mobile.html" . }}
 <nav>
@@ -43,13 +43,52 @@
 {{ $videos := resources.Get "js/videos.js" }}
 {{ $hamburger := resources.Get "js/hamburger.js"}}
 {{ $govUndocumented := resources.Get "js/gov-undocumented-int.js" }}
-{{ $storypageBundle := slice $scripts $header $videos $hamburger $govUndocumented | resources.Concat "js/storypageBundle.js" }}
-{{ block "footer_js" . }}{{ end }}
+{{ $healthInt := resources.Get "js/health-int.js" }}
+{{ if eq .Weight 3}}
+{{ $healthBundle := slice $scripts $header $videos $hamburger $healthInt | resources.Concat "js/healthBundle.js" }}
 
 {{ if .Site.IsServer }}
-<script type="text/javascript" src="{{ $storypageBundle.RelPermalink }}"></script>
+<script type="text/javascript" src="{{ $healthBundle.RelPermalink }}"></script>
 {{ else }}
-<script type="text/javascript" src="{{ ($storypageBundle | minify | fingerprint).RelPermalink }}"></script>
+<script type="text/javascript" src="{{ ($healthBundle | minify | fingerprint).RelPermalink }}"></script>
 {{ end }}
+{{ else if eq .Weight 1 }}
+{{ $govBundle := slice $scripts $header $videos $hamburger $govUndocumented | resources.Concat "js/storypageBundle.js" }}
+
+{{ if .Site.IsServer }}
+<script type="text/javascript" src="{{ $govBundle.RelPermalink }}"></script>
+{{ else }}
+<script type="text/javascript" src="{{ ($govBundle | minify | fingerprint).RelPermalink }}"></script>
+{{ end }}
+
+{{else if eq .Weight 2}}
+{{ $econBundle := slice $scripts $header $videos $hamburger | resources.Concat "js/storypageBundle.js" }}
+
+{{ if .Site.IsServer }}
+<script type="text/javascript" src="{{ $econBundle.RelPermalink }}"></script>
+{{ else }}
+<script type="text/javascript" src="{{ ($econBundle | minify | fingerprint).RelPermalink }}"></script>
+{{ end }}
+
+{{else if eq .Weight 4}}
+
+{{ $childrenBundle := slice $scripts $header $videos $hamburger | resources.Concat "js/storypageBundle.js" }}
+
+{{ if .Site.IsServer }}
+<script type="text/javascript" src="{{ $childrenBundle.RelPermalink }}"></script>
+{{ else }}
+<script type="text/javascript" src="{{ ($childrenBundle | minify | fingerprint).RelPermalink }}"></script>
+{{ end }}
+
+{{else if eq .Weight 5}}
+{{ $womenBundle := slice $scripts $header $videos $hamburger | resources.Concat "js/storypageBundle.js" }}
+
+{{ if .Site.IsServer }}
+<script type="text/javascript" src="{{ $womenBundle.RelPermalink }}"></script>
+{{ else }}
+<script type="text/javascript" src="{{ ($womenBundle | minify | fingerprint).RelPermalink }}"></script>
+{{ end }}
+{{ end }}
+{{ block "footer_js" . }}{{ end }}
 
 {{ end }}
