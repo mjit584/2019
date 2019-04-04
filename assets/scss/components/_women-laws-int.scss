@@ -1,0 +1,67 @@
+#womenSlider {
+  width: 75%;
+  margin: 0 auto;
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    background: #46BF21;
+    border-radius: 5px;
+    margin: 20px 0 40px 0;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 35px;
+    height: 35px;
+    border: 0;
+    border-radius: 50%;
+    background: #333;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 35px;
+    height: 35px;
+    border: 0;
+    background: #333;
+    cursor: pointer;
+}
+.sliderlabels {
+  display:grid;
+  grid-template-columns: 25% 50% 25%;
+  p {
+    margin:0;
+    font-weight: 200;
+  }
+}
+#category {
+  text-align:left;
+}
+.laws {
+  display:grid;
+  grid-template-columns: 25% 75%;
+  grid-gap:3vw;
+}
+.map {
+  text-align: center;
+  font-weight: 700;
+  img {
+    max-width:100%;
+  }
+}
+.desc p {
+  margin:1vw 0;
+  font-size:1em;
+}
+}
