@@ -13,20 +13,22 @@
 {{ partial "story-hero.html" (dict "background" .Params.image "heading" .Params.storyHeading "subheading" .Params.storySubheading "content" .) }}
 
 <section class="about__intro flex-column">
+  <h1 class="about__heading">About Us</h1>
   {{ .Content }}
-  <h1 class="about__heading">Meet the Team</h1>
-  {{ partial "ybr-line.html" . }}
+  <h2 class="about__heading">Meet the Team</h2>
 </section>
 
 <div class="container">
   <div id="team">
-    <div class="controls about__filter flex">
-      <div data-filter="all">Everyone</div>
-      <div data-filter=".photovid">Photo/Video</div>
-      <div data-filter=".rep">Reporters</div>
-      <div data-filter=".int">Interactive</div>
-      <div data-filter=".coach">Coaches</div>
-      <div data-filter=".field">Field Producers</div>
+    <div class="about__filter-container">
+      <div class="controls about__filter flex">
+        <div data-filter="all">Everyone</div>
+        <div data-filter=".photovid">Photo/Video</div>
+        <div data-filter=".rep">Reporters</div>
+        <div data-filter=".int">Interactive</div>
+        <div data-filter=".coach">Coaches</div>
+        <div data-filter=".field">Field Producers</div>
+      </div>
     </div>
 
     <div class="about__content flex">
@@ -36,10 +38,6 @@
     </div>
   </div>
 </div>
-
-<section class="about__thanks">
-  <h1 class="about__heading">Special Thanks</h1>
-</section>
 
 <footer class="flex-column">
   {{ partial "footer.html" . }}

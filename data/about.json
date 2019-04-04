@@ -10,7 +10,8 @@
     "linkedin": "https://www.linkedin.com/in/diane-adame-a99a52150/",
     "gh": "",
     "website": "http://dianeadame.com/",
-    "img": "https://i2.wp.com/dianeadame.com/wp-content/uploads/2019/01/IMG_0098.jpg?w=408"
+    "img": "assets/diane-headshot.jpg",
+    "desc": "Hello! My name is Diane and I am a Senior Reporting and Public Policy student. The thought of my next meal keeps me going and if I had to describe my life in three words, it would be bylines, headlines and deadlines."
   },
   {
     "first": "Kailyn",
@@ -23,7 +24,8 @@
     "linkedin": "",
     "gh": "",
     "website": "",
-    "img": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/50330383_2228381767183069_8225561609695657984_n.jpg?_nc_cat=104&_nc_ht=scontent-iad3-1.xx&oh=809169abc7eeed217355718a4a4fab55&oe=5CE61203"
+    "img": "assets/kailee-headshot.jpg",
+    "desc": "Hello! I'm Kailee and a Senior MEJO Major. Design is my ish. If I had a time machine, I would've done the \"tiny kitchen\" videos first."
   },
   {
     "first": "Abby",
@@ -36,7 +38,8 @@
     "linkedin": "",
     "gh": "",
     "website": "abbyrcantrell.com",
-    "img": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/44393547_10217245574275408_8193586325501247488_n.jpg?_nc_cat=108&_nc_ht=scontent-iad3-1.xx&oh=cd9b5f70748860453ab673be5c73172c&oe=5D1DF79D"
+    "img": "assets/abby-headshot.jpg",
+    "desc": "I'm Abby, a junior Journalism and Politcal Science double major. I love dogs, naps and pizza."
   },
   {
     "first": "Bryan",
@@ -49,7 +52,8 @@
     "linkedin": "",
     "gh": "",
     "website": "",
-    "img": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/27858459_594885550862267_668154742617364354_n.jpg?_nc_cat=107&_nc_ht=scontent-iad3-1.xx&oh=6c135262a476191a463223bd9321f9b3&oe=5D22D75B"
+    "img": "assets/bryan-headshot.jpg",
+    "desc": "I'm Bryan Cereijo, a Visual Communications graduate student. I am a Cuban-American visual storyteller from Miami, FL. I am specifically interested in narratives that relate to sports and culture."
   },
   {
     "first": "Nash",
@@ -62,7 +66,8 @@
     "linkedin": "https://www.linkedin.com/in/nashconsing/",
     "gh": "",
     "website": "https://www.nashconsing.com/",
-    "img": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/31390023_2049757128385743_1825989473066763137_n.jpg?_nc_cat=111&_nc_ht=scontent-iad3-1.xx&oh=f606ac6cdbf53ae3a99cd8636f70a0e2&oe=5D24BD95"
+    "img": "assets/nash-headshot.jpg",
+    "desc": "I'm a sophomore Mejo and Comm double major, Frank Ocean stan and a cuddler of all dogs. Shout out to my goodboys Xavier, Yoda and Jerome."
   },
   {
     "first": "Brooklynn",
@@ -75,7 +80,8 @@
     "linkedin": "https://www.linkedin.com/in/brooklynncooper/",
     "gh": "",
     "website": "",
-    "img": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/38854596_1874352829278099_2644837820039954432_n.jpg?_nc_cat=101&_nc_ht=scontent-iad3-1.xx&oh=4e94d02602bf9fb87fb9d7b3cc12c2ec&oe=5CEF32D8"
+    "img": "assets/brooklynn-headshot.jpg",
+    "desc": "I'm Brooklynn, a senior studying journalism with a concentration in reporting and Hispanic Linguistics. I'm the 6-year reigning president of my personal Justin Bieber stan club and also an Oreo enthusiast."
   },
   {
     "first": "Landon",
@@ -88,7 +94,8 @@
     "linkedin": "https://www.linkedin.com/in/landon-cooper",
     "gh": "",
     "website": "http://landoncoopermedia.com",
-    "img": "https://media.licdn.com/dms/image/C4D03AQHiD4UZwwue1A/profile-displayphoto-shrink_800_800/0?e=1556755200&v=beta&t=bSfTNsGkJCwepJKlPyIhwebZPr0A-nekJzDksXchCk4"
+    "img": "assets/landon-headshot.jpg",
+    "desc": "Hey everybody, I'm Landon and I'm a photographer and videographer. I have no children but I'm sublime at Dad jokes. I love long walks on the beach, taking portraits and telling stories."
   },
   {
     "first": "Sally",
@@ -101,7 +108,8 @@
     "linkedin": "https://www.linkedin.com/in/sally-dillon-423183111/",
     "gh": "",
     "website": "https://dillons789.wixsite.com/portfolio",
-    "img": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/17342945_678781162305636_5655537990280682503_n.jpg?_nc_cat=111&_nc_ht=scontent-iad3-1.xx&oh=b0d0f40945b5ea57fdec575fa0100cee&oe=5D1765D2"
+    "img": "assets/sally-headshot.jpg",
+    "desc": "I'm Sally, a Graphic Design and French major. I'm a senior but more of a senior citizen at heart. I am a paper hoarder and my favorite color is butter yellow"
   },
   {
     "first": "Catie",
@@ -114,7 +122,8 @@
     "linkedin": "https://www.linkedin.com/in/catie-dull-56377b15b/",
     "gh": "",
     "website": "http://dullcatie.com/",
-    "img": "https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/24172880_1678847852168216_5203791197314264401_o.jpg?_nc_cat=109&_nc_ht=scontent-iad3-1.xx&oh=d84ead3f3cecd7e0f9749e4fd3fac2be&oe=5CE0FF50"
+    "img": "assets/catie-headshot.jpg",
+    "desc": "I'm Catie, a senior photo & video journalist. I love my fat cat and my home at Wrightsville Beach. I'm a weirdo who loves to travel with my camera around my neck!"
   },
   {
     "first": "Ashton",
@@ -127,7 +136,8 @@
     "linkedin": "https://www.linkedin.com/in/ashtoneleazer/",
     "gh": "",
     "website": "https://www.ashtoneleazer.com/",
-    "img": "https://media.licdn.com/dms/image/C5603AQEzcJCP03CuEQ/profile-displayphoto-shrink_800_800/0?e=1556755200&v=beta&t=ynSZCCpakC_zMLi95YU3rISWviViSmTB3TLgJvuByNI"
+    "img": "assets/ashton-headshot.jpg",
+    "desc": "I'm Ashton, studying Photo and Video Journalism and Dramatic Art. I love taking analog photographs, journaling for my future memoir and going on spontaneous trips everywhere from the local farmer's market to the Himalayas. "
   },
   {
     "first": "Brooke",
@@ -140,7 +150,8 @@
     "linkedin": "https://linkedin.com/in/brooke-n-fisher",
     "gh": "https://github.com/brookenf",
     "website": "http://brookesnook.us",
-    "img": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/44896708_2145928272098168_5145241997358923776_n.jpg?_nc_cat=109&_nc_ht=scontent-iad3-1.xx&oh=7136ff8a0fb4479aadb432ace7b31fb8&oe=5D1C8983"
+    "img": "assets/brooke-headshot.jpg",
+    "desc": "I’m Brooke, senior Interactive Multimedia major. When I’m not coding, you can find me writing, cooking or cheering on the UNC basketball team from the band section."
   },
   {
     "first": "Haley",
@@ -153,7 +164,8 @@
     "linkedin": "",
     "gh": "",
     "website": "",
-    "img": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/28577772_1735368613191138_3785315761960322135_n.jpg?_nc_cat=109&_nc_ht=scontent-iad3-1.xx&oh=c8f4400840bb6ff788647a098fd82406&oe=5CE16B76"
+    "img": "assets/haley-headshot.jpg",
+    "desc": "My name is Haley, and I'm studying Media and Journalism with a Social and Economic Justice minor. I love DJ-ing on our student radio station and am a pro at making annoying puns. "
   },
   {
     "first": "Tenley",
@@ -166,7 +178,8 @@
     "linkedin": "",
     "gh": "",
     "website": "",
-    "img": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/51182363_10216810966240153_3283584385638465536_n.jpg?_nc_cat=100&_nc_ht=scontent-iad3-1.xx&oh=71c2897f1e0b5e2008cae40b38e9fab1&oe=5CEADD24"
+    "img": "assets/tenley-headshot.jpg",
+    "desc": "I'm a senior Visual Communication major who believes everyone should take time off from school before graduating. Seriously. Just do it. I enjoy solo trips to concerts, napping in the middle of the day and being vulnerable with people. "
   },
   {
     "first": "Xiaoke",
@@ -179,7 +192,8 @@
     "linkedin": "https://www.linkedin.com/in/xiaoke-ji-a90057105/",
     "gh": "https://github.com/aryaswanie",
     "website": "https://www.aryaswanie.com/",
-    "img": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/49804355_1231460997002041_2550487881151938560_n.jpg?_nc_cat=100&_nc_ht=scontent-iad3-1.xx&oh=2082251815962ec554d3c5d0d47d3fef&oe=5D1FD104"
+    "img": "assets/arya-headshot.jpg",
+    "desc": "I'm Xiaoke, a senior Media Design student. I have a nickname, Arya, because she's my alter ego in Game of Thrones and also because only Mandarin-speaking people know how to pronouce my name. My favorite working field is animation & game design."
   },
   {
     "first": "Alex",
@@ -192,7 +206,8 @@
     "linkedin": "",
     "gh": "",
     "website": "",
-    "img": "https://media.licdn.com/dms/image/C4E03AQExnwNDmoVGKg/profile-displayphoto-shrink_800_800/0?e=1556755200&v=beta&t=kqk5qFJg532LGeTkLauYhSGHeEqY6rkgGumU-lXOO5c"
+    "img": "assets/alex-headshot.jpg",
+    "desc": "Hey! I'm Alex, a senior Photojournalism major and History minor from New Jersey. I love Star Wars, spicy food and dogs. All my work is in memory of my father, Russ."
   },
   {
     "first": "Lyric",
@@ -205,7 +220,8 @@
     "linkedin": "https://www.linkedin.com/in/lyriclin/",
     "gh": "",
     "website": "http://lyriclin.com/",
-    "img": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/22815322_1578531932194857_6172893524707468977_n.jpg?_nc_cat=108&_nc_ht=scontent-iad3-1.xx&oh=f99c2379d2e3d091941ad3692799f55f&oe=5D17FF7D"
+    "img": "assets/lyric-headshot.jpg",
+    "desc": "Hi! I'm Lyric, a junior Advertising and Public Relations major. I consider myself a “Type A Granola.” Free-spirited but on a schedule. Lover of pups, the color yellow, and cotton candy sunsets."
   },
   {
     "first": "Patty",
@@ -218,7 +234,8 @@
     "linkedin": "https://www.linkedin.com/in/thepattymatos/",
     "gh": "",
     "website": "http://thepattymatos.com",
-    "img": "https://media.licdn.com/dms/image/C4E03AQETqeJZozWHaQ/profile-displayphoto-shrink_800_800/0?e=1556755200&v=beta&t=rdUL3luQx7L1C1LjoYpcrZwVSwzNvSrpyBY-LelymYo"
+    "img": "assets/patty-headshot.jpg",
+    "desc": "I'm Patty, a senior Public Relations and Social and Economic Justice student from Caracas. I'm the team's resident tuitera, a relentless Scorpio, and an avid lover of pop music. Bring me crunchy snacks, please."
   },
   {
     "first": "Patsy",
@@ -231,7 +248,8 @@
     "linkedin": "https://www.linkedin.com/in/patsy-montesinos/",
     "gh": "",
     "website": "http://www.patsymaldonado.com/",
-    "img": "https://media.licdn.com/dms/image/C4D03AQFygB-ue00nTA/profile-displayphoto-shrink_800_800/0?e=1556755200&v=beta&t=v7ZPaVQYSiGuBOHa0UiVmd8OG5DyHfBi5J5LGk32HJc"
+    "img": "assets/patsy-headshot.jpg",
+    "desc": "I'm Patsy, the girl who straddles the borders but also loves the mix of her culturas. I am a Media and Journalism major with a minor in Latino/a Studies. Painter, dancer, soccer player and Rayo's (AKA my horse) mom."
   },
   {
     "first": "Peggy",
@@ -244,7 +262,8 @@
     "linkedin": "",
     "gh": "",
     "website": "",
-    "img": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/36176489_1094210897383981_3953160625919623168_n.jpg?_nc_cat=108&_nc_ht=scontent-iad3-1.xx&oh=012d3710f85c5e7900b5721600082be8&oe=5CE1EE61"
+    "img": "assets/peggy-headshot.jpg",
+    "desc": "Hey! I'm Peggy, a senior Environmental Science and Photo/Video nerd. I geek out over many things, including (but not limited to) algae, music, dogs, and the unbelievable power of storytelling."
   },
   {
     "first": "Sara",
@@ -257,7 +276,8 @@
     "linkedin": "",
     "gh": "",
     "website": "",
-    "img": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/45046247_1978493055553839_1250272749461438464_n.jpg?_nc_cat=105&_nc_ht=scontent-iad3-1.xx&oh=66af121cf2e987e835b02590b3cb328e&oe=5CE4393B"
+    "img": "assets/sara-headshot.jpg",
+    "desc": "My name is Sara and I'm a senior Reporting and Political Science student. Yes, my last name does mean \"small\" in Spanish. Yes, I am 4'11\"."
   },
   {
     "first": "Tamara",
@@ -270,7 +290,8 @@
     "linkedin": "https://www.linkedin.com/in/tamara-rice-841211/",
     "gh": "",
     "website": "",
-    "img": "https://media.licdn.com/dms/image/C4E03AQGl6Ey3Gdytlg/profile-displayphoto-shrink_800_800/0?e=1556755200&v=beta&t=ZhrgDVrNm1ZyuKzBJrtwncnjxeUlL3e9NJ5MMajVe40"
+    "img": "assets/tamara-headshot.jpg",
+    "desc": "I'm Tamara, the interactive coach for Uprooted. I love finding ways to tell stories in visual and interactive ways and I'm always inspired by the energy and committment my students bring to their work."
   },
   {
     "first": "Zayrha",
@@ -283,7 +304,8 @@
     "linkedin": "https://www.linkedin.com/in/zayrha-rodriguez-086189106/",
     "gh": "",
     "website": "http://zayrharodriguez.com/",
-    "img": "https://media.licdn.com/dms/image/C5603AQEZuwR1hvTGGQ/profile-displayphoto-shrink_800_800/0?e=1556755200&v=beta&t=d_ZDGv-ViWkoePUA1NSI412DgbsEW8sZgjWH2elPPNE"
+    "img": "assets/zayrha-headshot.jpg",
+    "desc": "I was born in Bogotá, Colombia, and when I was 14 I moved to Miami. I'm currently a junior Photo and Video Journalism major with a History minor. In my free time, I like to dance with Que Rico, pet all the doggos and eat papitas."
   },
   {
     "first": "Carlos",
@@ -296,7 +318,8 @@
     "linkedin": "http://www.linkedin.com/in/cdsalas",
     "gh": "",
     "website": "http://www.theAbsurd.co",
-    "img": "https://media.licdn.com/dms/image/C4E03AQHMKpzFEfyXPA/profile-displayphoto-shrink_800_800/0?e=1556755200&v=beta&t=LiAag_5gJl-3VBXTKCr5Fe6cUruvytp4_juiUE4FUVw"
+    "img": "assets/carlos-headshot.jpg",
+    "desc": "Hi I'm Carlos. I'm a UX/UI designer born in San Cristóbal, Venezuela and raised in North Carolina. When I'm not making cool things for the interwebs I'm probably just cuddling with my dog, Jagger. My role model is Danny Phantom."
   },
   {
     "first": "Amy",
@@ -309,7 +332,8 @@
     "linkedin": "https://www.linkedin.com/in/amygtownsend",
     "gh": "https://github.com/amygtownsend",
     "website": "http://amygtownsend.com",
-    "img": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/45830250_2348700565144315_5181753033305882624_o.jpg?_nc_cat=111&_nc_ht=scontent-iad3-1.xx&oh=90ee61a9f6779912c3dd291282ebc0c6&oe=5D21ACF2"
+    "img": "assets/amy-headshot.jpg",
+    "desc": "I'm Amy, a front-end web developer studying Interactive Multimedia and Information Science. Dancer, singer and lover of puzzles/games, blankets, my cat and Avatar: The Last Airbender."
   },
   {
     "first": "Maria Elena",
@@ -322,6 +346,147 @@
     "linkedin": "https://www.linkedin.com/in/maria-elena-vizcaino-b0738810a/",
     "gh": "",
     "website": "http://www.mariaevizcaino.com/",
-    "img": "https://media.licdn.com/dms/image/C5603AQFVoQ6edikatw/profile-displayphoto-shrink_800_800/0?e=1556755200&v=beta&t=VhCiCibQDVEOooN1qN4luLW63xsXJeXW5b9uJmIt7k8"
+    "img": "assets/maria-headshot.jpg",
+    "desc": "I am a journalist born and raised in Caracas, Venezuela. Sophomore year of high school I moved to Miami, Florida, and now I’ve traded the beach and the heat for the mountains and the chilly breeze of North Carolina.  If I'm not asking questions, find me eating arepas or compulsively cleaning my house."
+  },
+  {
+    "first": "Jason",
+    "last": "Armond",
+    "role": "Videographer",
+    "filter": "photovid",
+    "fb": "https://www.facebook.com/jasonarmond",
+    "twitter": "https://twitter.com/jasonarmond",
+    "instagram": "https://www.instagram.com/jasonarmondphotography/",
+    "linkedin": "https://www.linkedin.com/in/jasonarmond/",
+    "gh": "",
+    "website": "https://www.jasonarmondphoto.com/",
+    "img": "assets/jason-headshot.jpg",
+    "desc": "Waiting for my bio..."
+  },
+  {
+    "first": "Chris",
+    "last": "Carmichael",
+    "role": "Photo/Video Coach",
+    "filter": "coach",
+    "fb": "",
+    "twitter": "https://twitter.com/ChrisCarmichael",
+    "instagram": "",
+    "linkedin": "https://www.instagram.com/jchriscarmichael/",
+    "gh": "",
+    "website": "http://www.jchriscarmichael.com/",
+    "img": "assets/chris-headshot.jpg",
+    "desc": "Waiting for my bio..."
+  },
+  {
+    "first": "Paul",
+    "last": "Cuadros",
+    "role": "Reporting Coach",
+    "filter": "coach",
+    "fb": "",
+    "twitter": "",
+    "instagram": "",
+    "linkedin": "",
+    "gh": "",
+    "website": "",
+    "img": "assets/pat-headshot.jpg",
+    "desc": "Waiting for my bio..."
+  },
+  {
+    "first": "Pat",
+    "last": "Davison",
+    "role": "Executive Producer, Photo/Video Coach",
+    "filter": "coach",
+    "fb": "https://www.facebook.com/patrickdrewdavison",
+    "twitter": "",
+    "instagram": "https://www.instagram.com/patdavison/",
+    "linkedin": "https://www.linkedin.com/in/patrickdavison/",
+    "gh": "",
+    "website": "http://www.mariaevizcaino.com/",
+    "img": "assets/pat-headshot.jpg",
+    "desc": "Waiting on my bio..."
+  },
+  {
+    "first": "Kate",
+    "last": "Sheppard",
+    "role": "Reporting Coach",
+    "filter": "coach",
+    "fb": "",
+    "twitter": "https://twitter.com/kate_sheppard",
+    "instagram": "",
+    "linkedin": "https://www.linkedin.com/in/maria-elena-vizcaino-b0738810a/",
+    "gh": "",
+    "website": "http://www.mariaevizcaino.com/",
+    "img": "assets/pat-headshot.jpg",
+    "desc": "Waiting on my bio..."
+  },
+  {
+    "first": "Andrea",
+    "last": "Orozco Sáenz",
+    "role": "Photographer, Translator",
+    "filter": "field",
+    "fb": "https://www.facebook.com/andrea10saenz",
+    "twitter": "https://twitter.com/@andrea95orozco",
+    "instagram": "https://instagram.com/andrea95orozco",
+    "linkedin": "",
+    "gh": "",
+    "website": "",
+    "img": "assets/andrea-headshot.jpg",
+    "desc": "I'm Andrea, journalism student with focus on photography and video. I also play rugby and work as a researcher for a TV program."
+  },
+  {
+    "first": "Martin",
+    "last": "Villaneda Gomez",
+    "role": "Photographer, Translator, Guide",
+    "filter": "field",
+    "fb": "https://www.facebook.com/martin.villaneda.5",
+    "twitter": "https://twitter.com/martinvillaneda?lang=en",
+    "instagram": "https://www.instagram.com/martinvillanedag/",
+    "linkedin": "https://ec.linkedin.com/in/martin-villaneda-454b80a8",
+    "gh": "",
+    "website": "",
+    "img": "assets/martin-headshot.jpg",
+    "desc": "I'm Martín Villaneda, Colombian student of Journalism at Universidad Pontificia Bolivariana in Medellín and a photojournalist. I speak four languages: English, French, Italian and Spanish, my native language. I'm 20 years old, and someday I'll win a World Press Photography award."
+  },
+  {
+    "first": "Juan David",
+    "last": "Ochoa Jiménez",
+    "role": "Translator, Guide, Reporter",
+    "filter": "field",
+    "fb": "https://www.facebook.com/ochoajz",
+    "twitter": "https://twitter.com/Sr_Ochoa8a",
+    "instagram": "https://www.instagram.com/sr.ochoa/",
+    "linkedin": "",
+    "gh": "",
+    "website": "",
+    "img": "assets/juan-headshot.jpg",
+    "desc": "Hey there! I'm Juan, a Social Communication student. I'm 20 years old and I'm a politics and history lover. I have three beautiful and fluffy cats (if I had a bigger house, I would have more!) I like to learn about EVERYTHING, that's why I enjoy meeting people from other countries. I also like dance, play video games and walk through the city."
+  },
+  {
+    "first": "Laura",
+    "last": "Trujillo Arango",
+    "role": "Translator, Guide, Reporter",
+    "filter": "field",
+    "fb": "https://www.facebook.com/laura.trujilloarango",
+    "twitter": "https://twitter.com/LauraTrujilloAr",
+    "instagram": "https://www.instagram.com/lauratrua/",
+    "linkedin": "",
+    "gh": "",
+    "website": "",
+    "img": "assets/laura-headshot.jpg",
+    "desc": "My name is Laura, I'm a first year Social Comunication and Journalism student at UPB. I really love dogs and I'm 18 yers old (until April, at least). Apart from English and Spanish, I also speak Portuguese. I really love and enjoy writing, reading and learning new things on a daily basis."
+  },
+  {
+    "first": "Laura Andrea",
+    "last": "García Giraldo",
+    "role": "Translator, Guide, Reporter",
+    "filter": "field",
+    "fb": "",
+    "twitter": "",
+    "instagram": "https://www.instagram.com/plie_releve_chasse/",
+    "linkedin": "",
+    "gh": "",
+    "website": "",
+    "img": "assets/lauragarcia-headshot.jpg",
+    "desc": ""
   }
 ]
