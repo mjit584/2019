@@ -1556,25 +1556,26 @@ nav {
   #interactive__gov-undocumented .passport-body {
     z-index: 1200; }
   #interactive__gov-undocumented .back-button {
-    margin-top: 45px;
-    margin-left: 50px;
-    width: 100px;
-    height: 65px;
-    font-size: 18pt;
-    color: #333333;
-    font-family: "DDinBold", sans-serif;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.3s;
-    border: #333333 solid 2px;
-    z-index: 9999; }
-  #interactive__gov-undocumented .back-button:hover {
     cursor: pointer;
-    background-color: #333333;
-    color: #ffffff;
-    border-bottom: white solid 2px; }
+    margin-left: 5vw;
+    margin-top: 45px;
+    width: 80px;
+    font-size: 1.3rem;
+    color: #333333;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    float: left;
+    transition: border-bottom 0.2s; }
+  #interactive__gov-undocumented .back-button:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px #333;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+    transform-origin: 0% 50%; }
+  #interactive__gov-undocumented .back-button:hover:after {
+    transform: scaleX(1); }
   #interactive__gov-undocumented .information-title-svg {
     padding-top: 60px;
     width: auto;
