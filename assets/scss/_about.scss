@@ -1,4 +1,7 @@
 .about{
+  font-family: $font-about-info;
+  font-size: 1rem;
+  line-height: 1.5rem;
 
   .story-hero {
     color: $white;
@@ -18,68 +21,83 @@
 
   .about__intro {
     padding-top: 2%;
+    margin: 0 35px;
+    margin-top: 25px;
+
+    .about__heading {
+      font-size: 2.25rem;
+      font-family: $font-content-heading;
+    }
     
     p {
-      max-width: 50vw;
-    }
-
-    
+      max-width: 50rem;
+      margin-bottom: 50px;
+    }  
   }
 
-  .about__filter{
-    font-family: $font-about-info;
-    width: 70%;
-    margin: 2vh 0;
+  .about__filter-container {
+    margin: 2rem 0;
     z-index: 3;
-    justify-content: space-around;
-    align-content: baseline;
-    padding: 3vh 15%;
+    padding: 3vh 35px;
     background: #ededed;
 
-    div{
-      cursor: pointer;
-
-      &:hover{
-        font-weight: bold; 
+    .about__filter{
+      font-family: $font-about-info;
+      justify-content: space-around;
+      align-content: baseline;
+      flex-wrap: wrap;
+      max-width: 50rem;
+      margin: 0 auto;
+  
+      div{
+        cursor: pointer;
+        margin: 10px;
+  
+        &:hover{
+          font-weight: bold; 
+          padding-bottom: 1px;
+          border-bottom: solid 1.2px $red;
+        }
+      }
+  
+  
+      .mixitup-control-active{
+        font-weight: bolder; 
         padding-bottom: 1px;
         border-bottom: solid 1.2px $red;
       }
     }
-
-
-    .mixitup-control-active{
-      font-weight: bolder; 
-      padding-bottom: 1px;
-      border-bottom: solid 1.2px $red;
-    }
   }
 
   .about__content{
-    display: grid;
-    max-width: 66vw;
+    // display: grid;
+    // max-width: 66vw;
+    // margin: 0 auto;
+    // font-family: $font-content-body;
+    // grid-template-columns: repeat(2, 1fr); 
+    // grid-gap: 1rem;
+    // grid-template-rows: repeat(5, auto);
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 50rem;
     margin: 0 auto;
-    font-family: $font-content-body;
-    grid-template-columns: repeat(2, 1fr); 
-    grid-gap: 1rem;
-    grid-template-rows: repeat(5, auto);
 
     .about__person{
-      
-      padding: 2vh 0;
+      flex-basis: 25rem;
+      padding: 2vh 35px;
       border-radius: 10px;
       margin-bottom: 2%;
 
       img{
-        width: 150px;
-        height: 150px;
+        width: 100%;
+        height: auto;
         object-fit: cover;
-        border-radius: 50%;
-        margin-right: 2vh;
+        margin-bottom: 10px;
       }
 
       .about__info {
         font-family: $font-about-info;
-        align-items: flex-start;
+        align-items: center;
 
         a{
           text-decoration: none;
@@ -99,22 +117,20 @@
           color: #7b7b7b;
           font-size: 0.9rem;
           margin-bottom: 2vh;
+          font-style: italic;
         }
 
         .about__links {
-          width: 100%;
           a {
-            color: $white;
+            color: $red;
             i {
               text-align: center;
-              height:26px;
-              width: 26px;
-              border-radius: 50%;
-              padding: 5px;
-              background-color: $red;
+              height: 1.5rem;
+              width: 1.5rem;
+              font-size: 1.25rem;
 
               &:hover {
-                background-color: $black;
+                color: $black;
               }
             }
           }

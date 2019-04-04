@@ -1,4 +1,4 @@
-<div class="mix about__person flex {{ .filter }}">
+<div class="mix about__person {{ .filter }}">
   <img src="{{ .img }}" alt="{{ .first }}{{ .last }}" />
   <div class="about__info flex-column">
     {{ if eq .website ""}}
@@ -26,7 +26,7 @@
       {{end}}
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>{{ .desc }}</p>
     </div>
   </div>
 </div>
