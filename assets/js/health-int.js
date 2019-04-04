@@ -2,20 +2,20 @@
 // Health interactive
 console.log('script start');
 
-$("#learn-more-sh").click(function () {
+$("#card-sh").mouseenter(function () {
   $(".sh-hidden").fadeIn(300);
   $(".sh-hidden").css("display", "flex");
 });
 
-$("#card-back-sh-close").click(function () {
+$("#card-back-body-sh").mouseleave(function () {
   $(".sh-hidden").fadeOut(300);
 });
 
-$("#learn-more-ch").click(function () {
+$("#card-ch").mouseenter(function () {
   $(".ch-hidden").fadeIn(300);
   $(".ch-hidden").css("display", "flex");
 });
 
-$("#card-back-ch-close").click(function () {
+$("#card-back-body-ch").mouseleave(function () {
   $(".ch-hidden").fadeOut(300);
 });

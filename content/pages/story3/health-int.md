@@ -12,69 +12,50 @@ graphics:
     {{< ybr-line >}}
     <p class="interactive__intro">Under Colombian law, every documented resident is required to have basic medical, dental, and vision healthcare coverage. Those who can afford the minimum for contributory healthcare must buy it, while those who can’t afford it can apply to receive free subsidized healthcare.</p>
     <p class="interactive__intro">Click the cards below to learn more about the different healthcare options available to Colombian residents:</p>
-    <div class="flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-        </div>
-        <div class="flip-card-back">
-          <h1>John Doe</h1> 
-          <p>Architect & Engineer</p> 
-          <p>We love that guy</p>
-        </div>
-      </div>
-    </div>
     <div class="container flex" id="r-3">
-      <div class="card-inner">
-        <div class="card-front" id="card-sh">
-          <div class="flex card-front-title" id="sh-r-1">
-            <div class="container flex card-back-title-sh sh-hidden hidden" >
-              SUBSIDIZED HEALTHCARE
-              <img class="close-svg" id="card-back-sh-close" src="assets/close.svg" alt="close">
-            </div>
-              SUBSIDIZED HEALTHCARE
-          </div>
-            <div class="container card-front-body-sh">
-            <div class="container flex-column" id="sh-r-2">
-              <div class="container flex card-front-subtitle" id="sh-r-2-r1">BASIC COVERAGE</div>
-              <div class="container flex-column card-front-icons" id="sh-r-2-r2">
-                <div class="container card-icon flex-column" id="sh-r-2-r2-c1">
-                  <img class="card-icon-svg" src="assets/basic-medical.svg" alt="basic-medical">
-                  Basic Medical
-                </div>
-                <div class="container card-icon flex-column" id="sh-r-2-r2-c2">
-                  <img class="card-icon-svg" src="assets/basic-dental.svg" alt="basic-dental">
-                  Basic Dental
-                </div>
-                <div class="container card-icon flex-column" id="sh-r-2-r2-c3">
-                  <img class="card-icon-svg" src="assets/basic-vision.svg" alt="basic-vision">
-                  Basic Vision
-                </div>
-              </div>
-            </div>
-            <div class="container" id="sh-r-3">
-              <p class="card-text-large red">FREE</p>
-              <p class="card-text-small">for qualifying residents*</p>
-            </div>
-            <div class="container" id="sh-r-4">
-              <img class="card-learn-more" id="learn-more-sh" src="assets/learn-more-red.svg" alt="learn more">
-            </div>
-          </div>
-        </div>
-        <div class="container card-back-body sh-hidden hidden"> 
+      <div class="card-front" id="card-sh">
+        <div class="flex card-front-title" id="sh-r-1">
           <div class="container flex card-back-title-sh sh-hidden hidden" >
             SUBSIDIZED HEALTHCARE
-            <img class="close-svg" id="card-back-sh-close" src="assets/close.svg" alt="close">
           </div>
-          <div class="card-back-body-text">
-            <p>The <strong>System for the Selection of Beneficiaries of Social Programs </strong>(Sisbén) assigns Colombian residents to free government-subsidized health and social programs based on need.</p>
-            <p>Residents who qualify are eligible to receive free basic healthcare coverage through government contracts established with private insurers. Most health subsidies are received by poverty-stricken Colombians, but a large influx of documented Venezuelan immigrants has strained an already-struggling system.</p>
-          <p>Like the Verenzuela family , most Venezuelan migrants are unable to afford private insurance and many face the additional challenge of being undocumented and ineligible for Sisbén coverage.  To be considered for free healthcare access under the Sisben, they must be issued a <strong>Special Permit of Permanence</strong> (PEP).</p>
+            SUBSIDIZED HEALTHCARE
+        </div>
+          <div class="container card-front-body-sh">
+            <div class="container card-back-body sh-hidden hidden" id="card-back-body-sh"> 
+              <div class="card-back-body-text">
+                <p>The <strong>System for the Selection of Beneficiaries of Social Programs </strong>(Sisbén) assigns Colombian residents to free government-subsidized health and social programs based on need.</p>
+                <p>Residents who qualify are eligible to receive free basic healthcare coverage through government contracts established with private insurers. Most health subsidies are received by poverty-stricken Colombians, but a large influx of documented Venezuelan immigrants has strained an already-struggling system.</p>
+              <p>Like the Verenzuela family , most Venezuelan migrants are unable to afford private insurance and many face the additional challenge of being undocumented and ineligible for Sisbén coverage.  To be considered for free healthcare access under the Sisben, they must be issued a <strong>Special Permit of Permanence</strong> (PEP).</p>
+              </div>
+            </div>
+          <div class="container flex-column" id="sh-r-2">
+            <div class="container flex card-front-subtitle" id="sh-r-2-r1">BASIC COVERAGE</div>
+            <div class="container flex-column card-front-icons" id="sh-r-2-r2">
+              <div class="container card-icon flex-column" id="sh-r-2-r2-c1">
+                <img class="card-icon-svg" src="assets/basic-medical.svg" alt="basic-medical">
+                Basic Medical
+              </div>
+              <div class="container card-icon flex-column" id="sh-r-2-r2-c2">
+                <img class="card-icon-svg" src="assets/basic-dental.svg" alt="basic-dental">
+                Basic Dental
+              </div>
+              <div class="container card-icon flex-column" id="sh-r-2-r2-c3">
+                <img class="card-icon-svg" src="assets/basic-vision.svg" alt="basic-vision">
+                Basic Vision
+              </div>
+            </div>
+          </div>
+          <div class="container" id="sh-r-3">
+            <p class="card-text-large red">FREE</p>
+            <p class="card-text-small">for qualifying residents*</p>
+          </div>
+          <div class="container" id="sh-r-4">
+            <img class="card-learn-more" id="learn-more-sh" src="assets/learn-more-red.svg" alt="learn more">
           </div>
         </div>
       </div>
       <div class="card-front" id="card-ch">
-        <div class="flex card-front-title blue" id="ch-r-1"> <div class="container flex card-back-title-ch ch-hidden hidden" >CONTRIBUTORY HEALTHCARE<img class="close-svg" id="card-back-ch-close" src="assets/close.svg" alt="close"></div> CONTRIBUTORY HEALTHCARE</div>
+        <div class="flex card-front-title blue" id="ch-r-1"> <div class="container flex card-back-title-ch ch-hidden hidden" >CONTRIBUTORY HEALTHCARE</div> CONTRIBUTORY HEALTHCARE</div>
         <div class="container card-front-body-ch">
           <div class="container card-back-body ch-hidden hidden" id="card-back-body-ch">
              <div class="card-back-body-text">
