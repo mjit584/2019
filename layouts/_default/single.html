@@ -43,6 +43,7 @@
 {{ $videos := resources.Get "js/videos.js" }}
 {{ $hamburger := resources.Get "js/hamburger.js"}}
 {{ $govUndocumented := resources.Get "js/gov-undocumented-int.js" }}
+{{ $womenInt := resources.Get "js/women-int.js" }}
 {{ $healthInt := resources.Get "js/health-int.js" }}
 {{ if eq .Weight 3}}
 {{ $healthBundle := slice $scripts $header $videos $hamburger $healthInt | resources.Concat "js/healthBundle.js" }}
@@ -81,7 +82,7 @@
 {{ end }}
 
 {{else if eq .Weight 5}}
-{{ $womenBundle := slice $scripts $header $videos $hamburger | resources.Concat "js/storypageBundle.js" }}
+{{ $womenBundle := slice $scripts $header $videos $hamburger $womenInt | resources.Concat "js/storypageBundle.js" }}
 
 {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $womenBundle.RelPermalink }}"></script>

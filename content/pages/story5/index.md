@@ -42,6 +42,8 @@ Maria, 24, is a sex worker. The single mother from Venezuela is living in Medell
 
 As Venezuela faces a severe political and economic crisis under President Nicolas Maduro, multiple South American countries have experienced an influx of Venezuelan migrants. Colombia seen the largest influx in the last year, according to a report by the International Organization for Migration.
 
+{{< story-interactives "pages/story5" "women-laws-int" >}}
+
 Of the 1,032,016 Venezuelans that migrated to Colombia in 2018, <a href="#">more than 50 percent were women</a>, according to the Caracas Chronicles, a news and analysis organization in Venezuela.
 
 Maria’s father, WHAT KIND OF JOB DID HE HAVE?, helped support her and her two daughters before the economic crisis hit. But, he had to stop because he no longer had enough money to continue doing so.
