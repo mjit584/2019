@@ -192,15 +192,6 @@
     color: $white;
   }
   
-  .text {
-    color: $white;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
   
   .numbertext {
     color: $white;
@@ -282,6 +273,10 @@
   
   }
   
+  .slide-txt, .slide-txt2 {
+    text-align: left;
+  }
+
   .slide-txt {
     font-size: 14pt;
     color: $black;

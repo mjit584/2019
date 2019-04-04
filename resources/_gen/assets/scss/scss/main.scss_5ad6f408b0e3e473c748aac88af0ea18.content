@@ -1132,7 +1132,7 @@ nav {
   transition: 1s opacity;
   margin: 6vh 0;
   text-align: center;
-  font-family: "DDinRegular", sans-serif; }
+  font-family: "Lato", sans-serif; }
   .interactive .interactive__title {
     font-family: "DDinBold", sans-serif;
     font-size: 2.5vw;
@@ -1146,7 +1146,7 @@ nav {
     margin-bottom: 2vh;
     font-weight: 400; }
   .interactive .interactive__body {
-    font-family: "DDinRegular", sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 400; }
   .interactive .ybr-line {
     max-width: 25vw;
@@ -1264,19 +1264,19 @@ nav {
   #interactive__gov-undocumented .document-txt {
     height: 10%;
     width: 100%;
-    font-family: "DDinRegular", sans-serif; }
+    font-family: "Lato", sans-serif; }
   #interactive__gov-undocumented .document-caption {
     padding-bottom: 5%;
     font-size: 24pt;
     color: #aaa;
-    font-family: "DDinRegular", sans-serif; }
+    font-family: "Lato", sans-serif; }
   #interactive__gov-undocumented #r-3 {
     margin-top: 4vh;
     width: 100%; }
   #interactive__gov-undocumented .bottom-text {
     font-size: 1.3rem;
     color: #aaa;
-    font-family: "DDinRegular", sans-serif; }
+    font-family: "Lato", sans-serif; }
   #interactive__gov-undocumented .container-body {
     display: flex;
     flex-direction: column;
@@ -1359,14 +1359,6 @@ nav {
   #interactive__gov-undocumented .prev:hover, #interactive__gov-undocumented .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
     color: #ffffff; }
-  #interactive__gov-undocumented .text {
-    color: #ffffff;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center; }
   #interactive__gov-undocumented .numbertext {
     color: #ffffff;
     font-size: 12px;
@@ -1428,15 +1420,17 @@ nav {
     flex-direction: row;
     justify-content: center;
     align-items: center; }
+  #interactive__gov-undocumented .slide-txt, #interactive__gov-undocumented .slide-txt2 {
+    text-align: left; }
   #interactive__gov-undocumented .slide-txt {
     font-size: 14pt;
     color: #333333;
-    font-family: "DDinRegular", sans-serif;
+    font-family: "Lato", sans-serif;
     padding-left: 20px; }
   #interactive__gov-undocumented .slide-txt2 {
     font-size: 14pt;
     color: #333333;
-    font-family: "DDinRegular", sans-serif;
+    font-family: "Lato", sans-serif;
     padding-left: 20px;
     max-width: 60vh; }
   #interactive__gov-undocumented .slide-img-passport {
@@ -1553,7 +1547,7 @@ nav {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  font-family: "DDinRegular", sans-serif; }
+  font-family: "Lato", sans-serif; }
   .timeline .row {
     display: flex;
     justify-content: center;

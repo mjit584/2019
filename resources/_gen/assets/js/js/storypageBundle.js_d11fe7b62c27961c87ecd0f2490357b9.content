@@ -12,19 +12,19 @@ if(n<1){slideIndexPassport=slides.length}
 for(i=0;i<slides.length;i++){slides[i].style.display="none";}
 for(i=0;i<dots.length;i++){dots[i].className=dots[i].className.replace(" active","");}
 slides[slideIndexPassport-1].style.display="block";dots[slideIndexPassport-1].className+=" active";}
-const prev=document.querySelectorAll(".prev");const next=document.querySelectorAll(".next");function plusSlidesPassport(n){console.log('plusSlidesPassport');showSlidesPassport(slideIndexPassport+=n);}
+function plusSlidesPassport(n){console.log('plusSlidesPassport');showSlidesPassport(slideIndexPassport+=n);console.log(slideIndexPassport+n);}
 function currentSlidePassport(n){console.log('currentSlidePassport');showSlidesPassport(slideIndexPassport=n);}
-var slideIndex=1;showSlides(slideIndex);function plusSlides(n){showSlides(slideIndex+=n);}
-function currentSlide(n){showSlides(slideIndex=n);}
-function showSlides(n){var i;var slides=document.getElementsByClassName("mySlides");var dots=document.getElementsByClassName("dot");if(n>slides.length){slideIndex=1}
+var slideIndex=1;showSlides(slideIndex);function showSlides(n){var i;var slides=document.getElementsByClassName("mySlides");var dots=document.getElementsByClassName("dot");if(n>slides.length){slideIndex=1}
 if(n<1){slideIndex=slides.length}
 for(i=0;i<slides.length;i++){slides[i].style.display="none";}
 for(i=0;i<dots.length;i++){dots[i].className=dots[i].className.replace(" active","");}
 slides[slideIndex-1].style.display="block";dots[slideIndex-1].className+=" active";}
-var slideIndexID=1;showSlidesID(slideIndexID);function plusSlidesID(n){console.log('plusSlidesID');showSlidesID(slideIndexID+=n);}
-function currentSlideID(n){console.log('currentSlideID');showSlidesID(slideIndexID=n);}
-function showSlidesID(n){var i;var slides=$(".mySlides-ID");var dots=$(".dot-ID");if(n>slides.length){slideIndexID=1}
+function plusSlides(n){console.log('plusSlides');showSlides(slideIndex+=n);console.log(slideIndex+n);}
+function currentSlide(n){showSlides(slideIndex=n);}
+var slideIndexID=1;showSlidesID(slideIndexID);function showSlidesID(n){var i;var slides=$(".mySlides-ID");var dots=$(".dot-ID");if(n>slides.length){slideIndexID=1}
 if(n<1){slideIndexID=slides.length}
 for(i=0;i<slides.length;i++){slides[i].style.display="none";}
 for(i=0;i<dots.length;i++){dots[i].className=dots[i].className.replace(" active","");}
 slides[slideIndexID-1].style.display="block";dots[slideIndexID-1].className+=" active";}
+function plusSlidesID(n){console.log('plusSlidesID');showSlidesID(slideIndexID+=n);console.log(slideIndexID+n);}
+function currentSlideID(n){console.log('currentSlideID');showSlidesID(slideIndexID=n);}
