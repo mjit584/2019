@@ -19,7 +19,7 @@ Jorlis, 29, had surgery to remove a brain tumor TK WHEN/how close to crossing at
 
 But when the family  got to Simon Bolivar International bridge, the dividing line between the world they knew and the world awaiting, when Jorlis collapsed.
 
-“I thought I was going to lose my daughter at that moment,” Marbis Judith said. “I thought Yorlis was going to die.” 
+“I thought I was going to lose my daughter at that moment,” Marbis Judith said. “I thought Yorlis was going to die.”
 
 Two Colombian immigration agents began shouting for a wheelchair. They allowed the family to cross into Colombia, even though they had no papers. They rushed her across the bridge as Marbis Judith grabbed her grandson and granddaughter, and rushed across to the Red Cross in Cúcuta.
 
@@ -34,6 +34,8 @@ When the economy collapsed in Venezuela in 2014, so did the healthcare system. D
 
 “In this Venezuela– which used to be so rich– that kids are dying from a lack of medicine?” said Marbis Georgina Zamora Verenzuela, who came with her mother on the first journey. “That you get to a hospital and they don’t have alcohol? That’s a basic thing that a hospital should have. Or some cotton? It’s surprising.”
 
+{{< story-interactives "pages/story3" "health-int" >}}
+
 Marbis Georgina is sitting in her new family home, an apartment in central Medellín. Her 2-year-old daughter, Judy, sits in her mother’s lap, failing to stay awake while the women cook bollos venezolanos what they will sell in Parque Bolivar.
 
 ’s daughters, Alma, 5, and Judy, 2, suffer from numerous health problems of their own. Alma has epilepsy. Judy has a tumor above her lip, which developed when she was 15 days old.
@@ -42,9 +44,9 @@ Marbis Georgina had seen her daughter go through nitrogen which cost $1,500 to r
 
 She decided Medellín was the perfect place for their family when she read online about the reputable doctors that lived in the city.
 
-“I felt like she was going to die and I wasn’t going to fulfill my goal of having her by my side. 
+“I felt like she was going to die and I wasn’t going to fulfill my goal of having her by my side.
 
-The entire Verenzuela family has lived together 
+The entire Verenzuela family has lived together
 
 “I’m running for my life, running for my life, for my grandchildren’s lives, for my family,” Marbis Judith said. “Because I’m a grandmother to 4 children, and that keeps me going. Perhaps it even raised me out of death itself.”
 
