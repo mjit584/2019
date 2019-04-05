@@ -21,10 +21,10 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
 
 {{< center-quote "/photo-stories/chap1" "pull-quote-1" >}}
 
-{{< photo-left-vertical "/photo-stories/chap1" "photo-vertical-1" >}}
-
-{{< photo-right-vertical "/photo-stories/chap1" "photo-vertical-1" >}}
+{{< photo-diptych-vert "/photo-stories/chap1" "photo-diptych-1" >}}
 
 {{< story-interactives "/photo-stories/chap1" "photo-image-map" >}}
+
+{{< story-interactives "/photo-stories/chap1" "photo-migration-int" >}}
 
 {{< story-interactives "/photo-stories/chap1" "photo-scrollytelly-1" >}}

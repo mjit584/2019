@@ -1,0 +1,14 @@
+.photo__diptych-vert {
+  .photo__diptych-container {
+    background-color: $black;
+    justify-content: space-around;
+      max-width: 80vw;
+      padding: 2% 0;
+
+    img {
+      flex-basis: 50%;
+      max-width: 46%;
+      object-fit: cover;
+    }
+  }
+}

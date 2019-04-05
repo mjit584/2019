@@ -608,250 +608,6 @@ nav {
   .hamburger--slider.is-active .hamburger-inner::after {
     transform: translate3d(0, -16px, 0) rotate(-90deg); }
 
-.interactive__health {
-  /* This container is needed to position the front and back side */
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  /* Position the front and back side */
-  /* Style the front side (fallback if image is missing) */
-  /* Style the back side */ }
-  .interactive__health .flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 200px;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px;
-    /* Remove this if you don't want the 3D effect */ }
-  .interactive__health .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d; }
-  .interactive__health .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg); }
-  .interactive__health .flip-card-front, .interactive__health .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden; }
-  .interactive__health .flip-card-front {
-    background-color: #bbb;
-    color: black; }
-  .interactive__health .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
-    transform: rotateY(180deg); }
-  .interactive__health #r-1 {
-    height: 45vh;
-    width: 100vw; }
-  .interactive__health #r-2 {
-    height: 15vh;
-    width: 65vw;
-    align-items: flex-start;
-    justify-content: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: #333333;
-    padding-bottom: 50px; }
-  .interactive__health #r-3 {
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center; }
-  .interactive__health #r-4 {
-    height: 5vh;
-    width: 100vw; }
-  .interactive__health .card-front {
-    margin: 75px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.1);
-    z-index: 1000; }
-  .interactive__health .card-flipped {
-    top: 60vh;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-  .interactive__health #card-sh {
-    width: 400px; }
-  .interactive__health #card-back-sh {
-    width: 400px;
-    height: 600px;
-    position: relative; }
-  .interactive__health #card-ch {
-    width: 400px;
-    height: 850px;
-    position: relative; }
-  .interactive__health #card-back-ch {
-    width: 400px;
-    height: 850px; }
-  .interactive__health #sh-r-1 {
-    color: #C70032; }
-  .interactive__health #sh-r-2 {
-    height: 250px;
-    width: 100%;
-    background-color: #C70032;
-    justify-content: flex-start; }
-  .interactive__health #sh-r-3 {
-    margin: 3vh 0; }
-    .interactive__health #sh-r-3 p {
-      margin: 0 auto; }
-  .interactive__health #sh-r-4 {
-    margin: 3vh 0; }
-  .interactive__health #ch-r-2 {
-    height: 500px;
-    width: 100%;
-    background-color: #1457D3;
-    justify-content: flex-start; }
-  .interactive__health #ch-r-2-r2 {
-    width: 100%;
-    flex-direction: row; }
-  .interactive__health #comp-plan, .interactive__health #prepaid-plan {
-    flex-basis: 50%; }
-  .interactive__health #ch-r-3-r2 {
-    flex-direction: row; }
-  .interactive__health .card-front-icons {
-    height: 120px;
-    width: 100%;
-    flex-direction: row; }
-  .interactive__health .card-text-large {
-    font-family: 'Lato', sans-serif;
-    font-size: 32px;
-    font-weight: 900;
-    margin: 0;
-    padding: 0; }
-  .interactive__health .card-text-small {
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    color: #333333;
-    margin: 0;
-    padding: 0; }
-  .interactive__health .card-icon {
-    flex-basis: 33%;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    color: white; }
-  .interactive__health .card-icon-svg {
-    width: 70px;
-    height: auto;
-    padding: 5%; }
-  .interactive__health .card-learn-more {
-    width: 150px;
-    height: auto;
-    cursor: pointer; }
-  .interactive__health .main-title {
-    width: 50vw;
-    height: auto; }
-  .interactive__health .card-front-title {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    height: 70px;
-    width: 100%; }
-  .interactive__health .card-back-title-sh {
-    position: absolute;
-    font-family: 'Roboto', sans-serif;
-    flex-direction: row;
-    font-weight: 700;
-    font-size: 20px;
-    height: 70px;
-    width: 400px;
-    color: white;
-    background-color: #C70032;
-    /* display: none; */ }
-  .interactive__health .card-back-title-ch {
-    position: absolute;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    height: 70px;
-    width: 100%;
-    color: white;
-    background-color: #1457D3; }
-  .interactive__health .card-front-body-sh {
-    width: 400px;
-    height: 630px;
-    justify-content: flex-start; }
-  .interactive__health .card-front-body-ch {
-    height: 780px;
-    width: 400px;
-    justify-content: flex-start; }
-  .interactive__health .card-back-body {
-    position: absolute;
-    height: 630px;
-    width: 400px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; }
-  .interactive__health #card-back-body-ch {
-    height: 780px; }
-  .interactive__health .card-back-body-text {
-    text-align: left;
-    font-family: 'Lato', sans-serif;
-    font-size: 15.5px;
-    padding: 0 20px;
-    line-height: 1.4;
-    color: #333333; }
-    .interactive__health .card-back-body-text p {
-      margin: 5% 0; }
-  .interactive__health #ch-r-1 {
-    color: #1457D3; }
-  .interactive__health .card-front-subtitle {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    color: white;
-    height: 75px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row; }
-  .interactive__health .background-blur {
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    z-index: -1000;
-    background-color: rgba(0, 0, 0, 0.1);
-    filter: blur(150px);
-    -webkit-filter: blur(150px); }
-  .interactive__health .spacer-height {
-    height: 50px; }
-  .interactive__health .blue {
-    color: #1457D3; }
-  .interactive__health .red {
-    color: #C70032; }
-  .interactive__health .close-svg {
-    right: 20px;
-    position: absolute;
-    width: 20px;
-    height: auto;
-    cursor: pointer; }
-  .interactive__health .card-back-body {
-    background-color: white; }
-  .interactive__health .hidden {
-    display: none; }
-  @media (max-width: 800px) {
-    .interactive__health .main-title {
-      width: 70vw; }
-    .interactive__health #r-3 {
-      margin-top: 80vh;
-      width: 100vw;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
-    .interactive__health .card-front {
-      margin: 0;
-      padding: 0;
-      width: 70vw;
-      height: auto;
-      margin-top: 10vh;
-      margin-bottom: 10vh; } }
-
 .bg-contain {
   background-size: contain; }
 
@@ -1510,6 +1266,260 @@ nav {
       .photo-caption-container .caption {
         width: 100%;
         font-size: 0.75rem; } }
+
+.photo__diptych-vert .photo__diptych-container {
+  background-color: #333333;
+  justify-content: space-around;
+  max-width: 80vw;
+  padding: 2% 0; }
+  .photo__diptych-vert .photo__diptych-container img {
+    flex-basis: 50%;
+    max-width: 46%;
+    object-fit: cover; }
+
+.interactive__health {
+  /* This container is needed to position the front and back side */
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  /* Position the front and back side */
+  /* Style the front side (fallback if image is missing) */
+  /* Style the back side */ }
+  .interactive__health .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */ }
+  .interactive__health .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d; }
+  .interactive__health .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg); }
+  .interactive__health .flip-card-front, .interactive__health .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; }
+  .interactive__health .flip-card-front {
+    background-color: #bbb;
+    color: black; }
+  .interactive__health .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg); }
+  .interactive__health #r-1 {
+    height: 45vh;
+    width: 100vw; }
+  .interactive__health #r-2 {
+    height: 15vh;
+    width: 65vw;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    padding-bottom: 50px; }
+  .interactive__health #r-3 {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center; }
+  .interactive__health #r-4 {
+    height: 5vh;
+    width: 100vw; }
+  .interactive__health .card-front {
+    margin: 75px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.1);
+    z-index: 1000; }
+  .interactive__health .card-flipped {
+    top: 60vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .interactive__health #card-sh {
+    width: 400px; }
+  .interactive__health #card-back-sh {
+    width: 400px;
+    height: 600px;
+    position: relative; }
+  .interactive__health #card-ch {
+    width: 400px;
+    height: 850px;
+    position: relative; }
+  .interactive__health #card-back-ch {
+    width: 400px;
+    height: 850px; }
+  .interactive__health #sh-r-1 {
+    color: #C70032; }
+  .interactive__health #sh-r-2 {
+    height: 250px;
+    width: 100%;
+    background-color: #C70032;
+    justify-content: flex-start; }
+  .interactive__health #sh-r-3 {
+    margin: 3vh 0; }
+    .interactive__health #sh-r-3 p {
+      margin: 0 auto; }
+  .interactive__health #sh-r-4 {
+    margin: 3vh 0; }
+  .interactive__health #ch-r-2 {
+    height: 500px;
+    width: 100%;
+    background-color: #1457D3;
+    justify-content: flex-start; }
+  .interactive__health #ch-r-2-r2 {
+    width: 100%;
+    flex-direction: row; }
+  .interactive__health #comp-plan, .interactive__health #prepaid-plan {
+    flex-basis: 50%; }
+  .interactive__health #ch-r-3-r2 {
+    flex-direction: row; }
+  .interactive__health .card-front-icons {
+    height: 120px;
+    width: 100%;
+    flex-direction: row; }
+  .interactive__health .card-text-large {
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0; }
+  .interactive__health .card-text-small {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    margin: 0;
+    padding: 0; }
+  .interactive__health .card-icon {
+    flex-basis: 33%;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: white; }
+  .interactive__health .card-icon-svg {
+    width: 70px;
+    height: auto;
+    padding: 5%; }
+  .interactive__health .card-learn-more {
+    width: 150px;
+    height: auto;
+    cursor: pointer; }
+  .interactive__health .main-title {
+    width: 50vw;
+    height: auto; }
+  .interactive__health .card-front-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    height: 70px;
+    width: 100%; }
+  .interactive__health .card-back-title-sh {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: row;
+    font-weight: 700;
+    font-size: 20px;
+    height: 70px;
+    width: 400px;
+    color: white;
+    background-color: #C70032;
+    /* display: none; */ }
+  .interactive__health .card-back-title-ch {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    height: 70px;
+    width: 100%;
+    color: white;
+    background-color: #1457D3; }
+  .interactive__health .card-front-body-sh {
+    width: 400px;
+    height: 630px;
+    justify-content: flex-start; }
+  .interactive__health .card-front-body-ch {
+    height: 780px;
+    width: 400px;
+    justify-content: flex-start; }
+  .interactive__health .card-back-body {
+    position: absolute;
+    height: 630px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; }
+  .interactive__health #card-back-body-ch {
+    height: 780px; }
+  .interactive__health .card-back-body-text {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 15.5px;
+    padding: 0 20px;
+    line-height: 1.4;
+    color: #333333; }
+    .interactive__health .card-back-body-text p {
+      margin: 5% 0; }
+  .interactive__health #ch-r-1 {
+    color: #1457D3; }
+  .interactive__health .card-front-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    height: 75px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; }
+  .interactive__health .background-blur {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    z-index: -1000;
+    background-color: rgba(0, 0, 0, 0.1);
+    filter: blur(150px);
+    -webkit-filter: blur(150px); }
+  .interactive__health .spacer-height {
+    height: 50px; }
+  .interactive__health .blue {
+    color: #1457D3; }
+  .interactive__health .red {
+    color: #C70032; }
+  .interactive__health .close-svg {
+    right: 20px;
+    position: absolute;
+    width: 20px;
+    height: auto;
+    cursor: pointer; }
+  .interactive__health .card-back-body {
+    background-color: white; }
+  .interactive__health .hidden {
+    display: none; }
+  @media (max-width: 800px) {
+    .interactive__health .main-title {
+      width: 70vw; }
+    .interactive__health #r-3 {
+      margin-top: 80vh;
+      width: 100vw;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    .interactive__health .card-front {
+      margin: 0;
+      padding: 0;
+      width: 70vw;
+      height: auto;
+      margin-top: 10vh;
+      margin-bottom: 10vh; } }
 
 #interactive__gov-undocumented {
   position: relative;
