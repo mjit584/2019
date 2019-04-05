@@ -3,7 +3,7 @@ title: "What They Carry"
 topic: "Photo Stories"
 date: 2019-02-04T21:34:53-05:00
 description: "This is the description for the first story."
-image: "/images/chap1-hero.jpg"
+image: "/images/photo-chap-1-hero.jpg"
 storyHeading: "What They Carry"
 storySubheading: "Venezuelans travel to Medellín clutching some things with a tighter grip.
 Venezuelans travel across the border with their family and possessions in tow."
@@ -26,8 +26,6 @@ As resources dwindle, violence erupts, and corruption becomes rampant, Venezuela
 
 <!-- this one is to show how horizontal photos will be presented -->
 {{< photo-diptych "/photo-stories/chap1" "photo-diptych-2" >}}
-
-{{< story-interactives "/photo-stories/chap1" "photo-image-map" >}}
 
 {{< story-interactives "/photo-stories/chap1" "photo-migration-int" >}}
 

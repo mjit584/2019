@@ -3,7 +3,7 @@ title: "A Family, Together"
 topic: "Photo Stories"
 date: 2019-02-04T21:34:53-05:00
 description: "This is the description for the first story."
-image: "/images/chap1-hero.jpg"
+image: "/images/photo-chap-3-hero.jpg"
 storyHeading: "A Family, Together"
 storySubheading: "A family struggles to survive, having arrived in Medellin ten days prior"
 weight: 3
@@ -19,12 +19,9 @@ After traveling hundreds of miles on foot, a group of five Venezuelans, who toge
 
 <div class="photo__line"></div>
 
-{{< photo-caption "/photo-stories/chap2" "photo-caption-1" >}}
+{{< story-interactives "/photo-stories/chap3" "photo-image-map" >}}
 
 <div class="photo__line"></div>
 
-{{< photo-caption-vert "/photo-stories/chap2" "photo-caption-vert-1" >}}
 
 <div class="photo__line"></div>
-
-{{< story-interactives "/photo-stories/chap1" "photo-migration-int" >}}

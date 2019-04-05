@@ -107,7 +107,7 @@
 
     .photo__line {
       border-bottom: solid 1px #707070;
-      margin: 8vh auto;
+      margin: 12vh auto;
       width: 84vw;
     }
 
@@ -201,6 +201,43 @@ p {
 
   footer{
     grid-area: story-ft;
+
+    .footer__photo {
+      // background-color: $yellow;
+      padding-bottom: 30vh;
+      justify-content: space-around;
+      font-family: $font-footer;
+      width: 100%;
+      flex-wrap: wrap;
+      margin-bottom: 5vh;
+
+      h1 {
+        flex-basis: 100%;
+        font-size: 2.4rem;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 5vh;
+        color: $red;
+      }
+
+      .footer__prev:after, .footer__next:after {
+        display: block;
+        content: '';
+        border-bottom: solid 3px #333;
+        transform: scaleX(0);
+        transition: transform 250ms ease-in-out;
+        transform-origin:  0% 50%;
+      }
+
+      .footer__prev:hover:after, .footer__next:hover:after {
+        transform: scaleX(1);
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
   }
 
   nav{
