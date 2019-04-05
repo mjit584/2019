@@ -247,6 +247,17 @@ body {
       padding-right: 8px; }
     .story-page .story-content .ybr-line {
       transition: 1s opacity; }
+  .story-page .photo__progress {
+    position: fixed;
+    width: 100%;
+    height: 1vh;
+    background: #ddd;
+    bottom: 0;
+    z-index: 1; }
+    .story-page .photo__progress .progress__bar {
+      height: 1vh;
+      background: #1457D3;
+      width: 0%; }
   .story-page footer {
     grid-area: story-ft; }
 
@@ -420,6 +431,15 @@ nav {
     grid-area: story-bd; }
     .chap .photo__content a {
       color: #C70032; }
+    .chap .photo__content p {
+      max-width: 50vw;
+      line-height: 1.5em;
+      margin: 2vw auto;
+      transition: 1s opacity;
+      font-size: 1.125rem; }
+      @media screen and (max-width: 800px) {
+        .chap .photo__content p {
+          max-width: 90vw; } }
     .chap .photo__content .photo-left-vertical, .chap .photo__content .photo-right-vertical {
       display: flex;
       margin-bottom: 6vh;
@@ -1457,6 +1477,7 @@ nav {
     margin: 0 auto; }
   .pull-quote-container #pull-quote__attr {
     font-family: "Lato", sans-serif;
+    font-weight: 400;
     font-style: italic;
     align-self: flex-start; }
 
@@ -2032,7 +2053,7 @@ footer {
   font-weight: 700;
   margin: 5vh 0; }
   .center-quote-container p {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
     line-height: inherit;
     align-self: center;
     text-align: center;
@@ -2042,6 +2063,7 @@ footer {
     align-self: center; }
   .center-quote-container #pull-quote__attr {
     font-family: "Lato", sans-serif;
+    font-weight: 400;
     font-style: italic;
     align-self: center; }
 

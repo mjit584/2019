@@ -7,6 +7,9 @@
 <div class="center-quote-container flex-column">
   {{ .Content }}
   {{ partial "ybr-line.html" . }}
+  {{ if ne .Params.age "undefined" }}
+  <div id="pull-quote__attr">{{ .Params.name }}, {{ .Params.age }}</div>
+  {{end}}
 </div>
 {{ end }}
 {{ end }}

@@ -80,6 +80,18 @@
       color: $red;
     }
 
+    p {
+      max-width: 50vw;
+      line-height: $line-height-base;
+      margin: 2vw auto;
+      transition: 1s opacity;
+      font-size: 1.125rem;
+
+      @media screen and (max-width: 800px){
+        max-width: 90vw;
+      }
+    }
+
     .photo-left-vertical, .photo-right-vertical {
       display: flex;
       margin-bottom: 6vh;
