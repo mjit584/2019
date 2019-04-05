@@ -1,14 +1,27 @@
-.photo__diptych-vert {
+.photo__diptych {
+
   .photo__diptych-container {
     background-color: $black;
-    justify-content: space-around;
-      max-width: 80vw;
-      padding: 2% 0;
+    justify-content: space-evenly;
+    max-width: 80vw;
+    padding: 2% 0;
+    align-items: flex-start;
 
     img {
       flex-basis: 50%;
       max-width: 46%;
       object-fit: cover;
+    }
+  }
+
+  .photo__diptych-caption {
+    width: 80vw;
+
+    p {
+      margin-left: 0;
+      font-style: italic;
+      font-family: $font-photo-caption;
+      font-size: 1rem;
     }
   }
 }

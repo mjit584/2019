@@ -13,15 +13,13 @@ designer: "Brooke Fisher"
 udea: "Laura Trujillo Arango, Juan Ochoa, Maria Alejandra Cardona Aizpurua"
 ---
 
-Story articles will be very content-heavy as we have to incorporate long-text, photos and short video into a single page without breaking up the content too much. The main focus of the content will be placed on the long-text and the video (which will be placed near the top of the page for all stories) as this is the most time-consuming content to consume. The story article will also have 2-3 photos along with an infographic will be used as supplement to the text. Links to other pages or sites will be <a href="#">displayed in red body text like this.</a>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus erat diam, accumsan ullamcorper porta a, fermentum hendrerit dui. Ut sit amet velit et turpis ornare pellentesque non quis elit. Sed elementum enim eget tellus aliquam, eget consectetur eros viverra. Etiam a dui aliquet, vehicula lorem condimentum, dapibus urna. Quisque quis ornare elit. Cras tortor ipsum, congue ut rutrum et, tempus quis metus. Vestibulum pellentesque tellus leo, sed auctor dolor ullamcorper non. Ut tempus velit ac lorem laoreet malesuada. Donec ut metus at nisl aliquet iaculis nec nec dui.
-
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+As resources dwindle, violence erupts, and corruption becomes rampant, Venezuelans cope with the reality of leaving their home. They are forced to leave nearly everything behind in search of a safer life. However, some items are held near and dear as families and individuals escape the turmoil that has overridden their country. Venezuelans hold these items close to their heart while they hope for the day that their country will return to peace.
 
 {{< center-quote "/photo-stories/chap1" "pull-quote-1" >}}
 
-{{< photo-diptych-vert "/photo-stories/chap1" "photo-diptych-1" >}}
+{{< photo-diptych "/photo-stories/chap1" "photo-diptych-1" >}}
+
+{{< photo-diptych "/photo-stories/chap1" "photo-diptych-2" >}}
 
 {{< story-interactives "/photo-stories/chap1" "photo-image-map" >}}
 
