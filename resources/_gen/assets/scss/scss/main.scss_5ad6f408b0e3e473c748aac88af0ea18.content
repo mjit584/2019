@@ -440,6 +440,11 @@ nav {
       @media screen and (max-width: 800px) {
         .chap .photo__content p {
           max-width: 90vw; } }
+    .chap .photo__content .photo__line {
+      border-bottom: solid 1px #707070;
+      margin: 0 auto;
+      margin-top: 25px;
+      width: 84vw; }
     .chap .photo__content .photo-left-vertical, .chap .photo__content .photo-right-vertical {
       display: flex;
       margin-bottom: 6vh;
@@ -1267,24 +1272,25 @@ nav {
         width: 100%;
         font-size: 0.75rem; } }
 
-.photo__diptych .photo__diptych-container {
-  background-color: #333333;
-  justify-content: space-evenly;
-  max-width: 80vw;
-  padding: 2% 0;
-  align-items: flex-start; }
-  .photo__diptych .photo__diptych-container img {
-    flex-basis: 50%;
-    max-width: 46%;
-    object-fit: cover; }
-
-.photo__diptych .photo__diptych-caption {
-  width: 80vw; }
-  .photo__diptych .photo__diptych-caption p {
-    margin-left: 0;
-    font-style: italic;
-    font-family: "Lato", sans-serif;
-    font-size: 1rem; }
+.photo__diptych {
+  margin-top: 5%; }
+  .photo__diptych .photo__diptych-container {
+    background-color: #333333;
+    justify-content: space-evenly;
+    max-width: 78vw;
+    padding: 2% 0;
+    align-items: flex-start; }
+    .photo__diptych .photo__diptych-container img {
+      flex-basis: 50%;
+      max-width: 46%;
+      object-fit: cover; }
+  .photo__diptych .photo__diptych-caption {
+    width: 78vw; }
+    .photo__diptych .photo__diptych-caption p {
+      margin-left: 0;
+      font-style: italic;
+      font-family: "Lato", sans-serif;
+      font-size: 1rem; }
 
 .interactive__health {
   /* This container is needed to position the front and back side */

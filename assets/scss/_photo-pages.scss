@@ -92,6 +92,13 @@
       }
     }
 
+    .photo__line {
+      border-bottom: solid 1px #707070;
+      margin: 0 auto;
+      margin-top: 25px;
+      width: 84vw;
+    }
+
     .photo-left-vertical, .photo-right-vertical {
       display: flex;
       margin-bottom: 6vh;

@@ -1,11 +1,12 @@
 ---
-title: "Journey From Home"
+title: "What They Carry"
 topic: "Photo Stories"
 date: 2019-02-04T21:34:53-05:00
 description: "This is the description for the first story."
 image: "/images/chap1-hero.jpg"
-storyHeading: "Journey From Home"
-storySubheading: "Venezuelan families relocate but keep their homes close to their hearts"
+storyHeading: "What They Carry"
+storySubheading: "Venezuelans travel to Medellín clutching some things with a tighter grip.
+Venezuelans travel across the border with their family and possessions in tow."
 weight: 1
 card: false
 photographer: "Alex Kormann, Nash Consing, Catie Dull"
@@ -17,8 +18,13 @@ As resources dwindle, violence erupts, and corruption becomes rampant, Venezuela
 
 {{< center-quote "/photo-stories/chap1" "pull-quote-1" >}}
 
+<!-- this one is for Kiara -->
 {{< photo-diptych "/photo-stories/chap1" "photo-diptych-1" >}}
 
+<div class="photo__line"></div>
+
+
+<!-- this one is to show how horizontal photos will be presented -->
 {{< photo-diptych "/photo-stories/chap1" "photo-diptych-2" >}}
 
 {{< story-interactives "/photo-stories/chap1" "photo-image-map" >}}

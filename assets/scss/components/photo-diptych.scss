@@ -1,9 +1,10 @@
 .photo__diptych {
+  margin-top: 5%;
 
   .photo__diptych-container {
     background-color: $black;
     justify-content: space-evenly;
-    max-width: 80vw;
+    max-width: 78vw;
     padding: 2% 0;
     align-items: flex-start;
 
@@ -15,7 +16,7 @@
   }
 
   .photo__diptych-caption {
-    width: 80vw;
+    width: 78vw;
 
     p {
       margin-left: 0;
