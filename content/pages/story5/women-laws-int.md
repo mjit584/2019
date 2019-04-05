@@ -21,7 +21,7 @@ graphics:
    <div id="category">
      <div class='laws'>
        <div class='map'>
-         <img src='/story5/assets/venezuela.png'>
+         <img src='assets/venezuela.png'>
          <p>VENEZUELA</p>
        </div>
        <div class='desc'>How it’s regulated: Venezuela’s Ministry of Health and Social Development (Ministerio de Salud y Desarrollo Social) requires that women working as sex workers in nightclubs have a free monthly health check.</div>
