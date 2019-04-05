@@ -6,11 +6,8 @@
 {{ with $resource }}
 <div class="photo-caption-container flex-column">
   <img src="{{ .Params.image }}" alt="{{ .Params.alt }}" />
-  <div class="caption flex-column">
-    <strong>{{ .Params.title | upper }}</strong>
+  <div class="caption flex">
     {{ .Content }}
-    {{ partial "ybr-line.html" . }}
-    <p><strong>photo by </strong> {{ .Params.photographer }}</p>
   </div>
 </div>
 {{ end }}

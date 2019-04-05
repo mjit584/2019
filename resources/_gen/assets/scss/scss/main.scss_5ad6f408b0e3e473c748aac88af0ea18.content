@@ -461,25 +461,6 @@ nav {
       margin: 0 auto;
       margin-top: 25px;
       width: 84vw; }
-    .chap .photo__content .photo-left-vertical, .chap .photo__content .photo-right-vertical {
-      display: flex;
-      margin-bottom: 6vh;
-      flex-wrap: wrap; }
-      .chap .photo__content .photo-left-vertical p, .chap .photo__content .photo-right-vertical p {
-        margin-top: 0;
-        width: 60%; }
-      .chap .photo__content .photo-left-vertical .left__photo, .chap .photo__content .photo-left-vertical .right__photo, .chap .photo__content .photo-right-vertical .left__photo, .chap .photo__content .photo-right-vertical .right__photo {
-        flex-basis: 50%; }
-      .chap .photo__content .photo-left-vertical .left__photo img, .chap .photo__content .photo-left-vertical .right__photo img, .chap .photo__content .photo-right-vertical .left__photo img, .chap .photo__content .photo-right-vertical .right__photo img {
-        max-width: 90%; }
-      .chap .photo__content .photo-left-vertical .left__content, .chap .photo__content .photo-left-vertical .right__content, .chap .photo__content .photo-right-vertical .left__content, .chap .photo__content .photo-right-vertical .right__content {
-        flex-basis: 50%; }
-      .chap .photo__content .photo-left-vertical .left__content, .chap .photo__content .photo-right-vertical .left__content {
-        justify-content: flex-start;
-        align-items: flex-start; }
-      .chap .photo__content .photo-left-vertical .right__content, .chap .photo__content .photo-right-vertical .right__content {
-        justify-content: flex-start;
-        align-items: flex-end; }
     .chap .photo__content .photo__subhead {
       font-family: "DDinBold", sans-serif;
       max-width: 50vw;
@@ -1203,7 +1184,7 @@ nav {
     margin-top: 1vh;
     margin-bottom: 2vh;
     font-weight: 400; }
-  .interactive p.interactive-intro {
+  .interactive .interactive-intro {
     font-family: "Lato", sans-serif;
     margin-top: 0; }
   .interactive .interactive__body {
