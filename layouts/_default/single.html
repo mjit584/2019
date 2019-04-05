@@ -54,7 +54,7 @@
 <script type="text/javascript" src="{{ ($healthBundle | minify | fingerprint).RelPermalink }}"></script>
 {{ end }}
 {{ else if eq .Weight 1 }}
-{{ $govBundle := slice $scripts $header $videos $hamburger $govUndocumented | resources.Concat "js/storypageBundle.js" }}
+{{ $govBundle := slice $scripts $header $videos $hamburger $govUndocumented | resources.Concat "js/govBundle.js" }}
 
 {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $govBundle.RelPermalink }}"></script>
@@ -63,7 +63,7 @@
 {{ end }}
 
 {{else if eq .Weight 2}}
-{{ $econBundle := slice $scripts $header $videos $hamburger | resources.Concat "js/storypageBundle.js" }}
+{{ $econBundle := slice $scripts $header $videos $hamburger | resources.Concat "js/econBundle.js" }}
 
 {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $econBundle.RelPermalink }}"></script>
@@ -73,7 +73,7 @@
 
 {{else if eq .Weight 4}}
 
-{{ $childrenBundle := slice $scripts $header $videos $hamburger | resources.Concat "js/storypageBundle.js" }}
+{{ $childrenBundle := slice $scripts $header $videos $hamburger | resources.Concat "js/childrenBundle.js" }}
 
 {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $childrenBundle.RelPermalink }}"></script>
@@ -82,7 +82,7 @@
 {{ end }}
 
 {{else if eq .Weight 5}}
-{{ $womenBundle := slice $scripts $header $videos $hamburger $womenInt | resources.Concat "js/storypageBundle.js" }}
+{{ $womenBundle := slice $scripts $header $videos $hamburger $womenInt | resources.Concat "js/wonenBundle.js" }}
 
 {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $womenBundle.RelPermalink }}"></script>

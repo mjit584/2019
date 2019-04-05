@@ -23,8 +23,9 @@
     font-weight: $font-weight-normal;
   }
 
-  .interactive__intro {
+  p.interactive-intro {
     font-family: $font-int-intro;
+    margin-top: 0;
   }
   
   .interactive__body {

@@ -131,12 +131,12 @@ body {
   padding-top: 2%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, auto);
-  grid-template-areas: 'about-bd about-bd about-bd about-bd' 'about-ft about-ft about-ft about-ft';
+  grid-template-areas: 'about-bd about-bd about-bd about-bd' 'about-ft about-ft about-ft about-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .home #home__about {
       grid-template-columns: 1fr;
-      grid-template-areas: 'about-bd' 'about-ft'; } }
+      grid-template-areas: 'about-bd' 'about-ft'; } }
   .home #home__about .about-content {
     font-family: "Georgia", serif;
     grid-area: about-bd; }
@@ -157,12 +157,12 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
+  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .story-page {
       grid-template-columns: 1fr;
-      grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd' 'story-ft'; } }
+      grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd' 'story-ft'; } }
   .story-page .story-video {
     position: absolute;
     top: 0px;
@@ -373,12 +373,12 @@ nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
+  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .chap {
       grid-template-columns: 1fr;
-      grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd' 'story-ft'; } }
+      grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd' 'story-ft'; } }
   .chap .story-hero {
     color: #ffffff;
     height: 100vh;
@@ -1399,8 +1399,9 @@ nav {
     margin-top: 1vh;
     margin-bottom: 2vh;
     font-weight: 400; }
-  .interactive .interactive__intro {
-    font-family: "Lato", sans-serif; }
+  .interactive p.interactive-intro {
+    font-family: "Lato", sans-serif;
+    margin-top: 0; }
   .interactive .interactive__body {
     font-family: "Lato", sans-serif;
     font-weight: 400; }
@@ -1881,6 +1882,58 @@ nav {
     background-color: #C70032; }
   .timeline .reorder {
     flex-direction: column-reverse; } }
+
+#womenSlider {
+  width: 75%;
+  margin: 0 auto; }
+  #womenSlider .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    background: #46BF21;
+    border-radius: 5px;
+    margin: 20px 0 40px 0;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s; }
+  #womenSlider .slider:hover {
+    opacity: 1; }
+  #womenSlider .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 35px;
+    height: 35px;
+    border: 0;
+    border-radius: 50%;
+    background: #333;
+    cursor: pointer; }
+  #womenSlider .slider::-moz-range-thumb {
+    width: 35px;
+    height: 35px;
+    border: 0;
+    background: #333;
+    cursor: pointer; }
+  #womenSlider .sliderlabels {
+    display: grid;
+    grid-template-columns: 25% 50% 25%; }
+    #womenSlider .sliderlabels p {
+      margin: 0;
+      font-weight: 200; }
+  #womenSlider #category {
+    text-align: left; }
+  #womenSlider .laws {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-gap: 3vw; }
+  #womenSlider .map {
+    text-align: center;
+    font-weight: 700; }
+    #womenSlider .map img {
+      max-width: 100%; }
+  #womenSlider .desc p {
+    margin: 1vw 0;
+    font-size: 1em; }
 
 footer {
   margin: 0 auto;
