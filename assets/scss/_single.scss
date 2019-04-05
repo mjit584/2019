@@ -58,9 +58,9 @@
   .story-byline {
     font-family: $font-byline;
     background-color: $light-grey;
-    padding: 3%;
+    padding: 2%;
     margin: 6vh 0;
-    max-width: 40%;
+    width: 40%;
     font-size: 12px;
     align-items: flex-start;
     font-weight: $font-weight-bold;
@@ -78,6 +78,19 @@
 
       .ybr-section {
         stroke-width: 7;
+      }
+    }
+
+    @media screen and (max-width: 800px) {
+      margin: 4% auto;
+      width: 90vw;
+
+      .ybr-line {
+        max-width: 40vw;
+
+        .ybr-section {
+          stroke-width: 4;
+        }
       }
     }
   }

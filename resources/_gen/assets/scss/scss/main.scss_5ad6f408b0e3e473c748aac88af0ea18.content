@@ -192,9 +192,9 @@ body {
   .story-page .story-byline {
     font-family: "Lato", sans-serif;
     background-color: #F2F2F2;
-    padding: 3%;
+    padding: 2%;
     margin: 6vh 0;
-    max-width: 40%;
+    width: 40%;
     font-size: 12px;
     align-items: flex-start;
     font-weight: 700;
@@ -208,6 +208,14 @@ body {
       max-width: 10vw; }
       .story-page .story-byline .ybr-line .ybr-section {
         stroke-width: 7; }
+    @media screen and (max-width: 800px) {
+      .story-page .story-byline {
+        margin: 4% auto;
+        width: 90vw; }
+        .story-page .story-byline .ybr-line {
+          max-width: 40vw; }
+          .story-page .story-byline .ybr-line .ybr-section {
+            stroke-width: 4; } }
   .story-page .story-content {
     font-family: "Georgia", serif;
     grid-area: story-bd; }
@@ -426,6 +434,14 @@ nav {
       max-width: 10vw; }
       .chap .story-byline .ybr-line .ybr-section {
         stroke-width: 7; }
+    @media screen and (max-width: 800px) {
+      .chap .story-byline {
+        margin: 4% auto;
+        max-width: 90vw; }
+        .chap .story-byline .ybr-line {
+          max-width: 40vw; }
+          .chap .story-byline .ybr-line .ybr-section {
+            stroke-width: 4; } }
   .chap .photo__content {
     font-family: "Georgia", serif;
     grid-area: story-bd; }
@@ -1279,18 +1295,26 @@ nav {
     justify-content: space-evenly;
     max-width: 78vw;
     padding: 2% 0;
-    align-items: flex-start; }
+    align-items: flex-start;
+    flex-wrap: wrap; }
+    @media screen and (max-width: 800px) {
+      .photo__diptych .photo__diptych-container {
+        max-width: 90vw; } }
     .photo__diptych .photo__diptych-container img {
-      flex-basis: 50%;
-      max-width: 46%;
-      object-fit: cover; }
+      max-width: 46%; }
   .photo__diptych .photo__diptych-caption {
     width: 78vw; }
+    @media screen and (max-width: 800px) {
+      .photo__diptych .photo__diptych-caption {
+        width: 90vw; } }
     .photo__diptych .photo__diptych-caption p {
       margin-left: 0;
       font-style: italic;
       font-family: "Lato", sans-serif;
       font-size: 1rem; }
+      @media screen and (max-width: 800px) {
+        .photo__diptych .photo__diptych-caption p {
+          font-size: 0.8rem; } }
 
 .interactive__health {
   /* This container is needed to position the front and back side */
