@@ -1,7 +1,6 @@
 ---
 title: "Here is the title of the photo"
-image: "/images/about.jpg"
+image: "assets/kiara-diptych-1.JPG"
 alt: "undefined"
-photographer: "Tenley Garrett"
 ---
 Hello, this will be the image caption here!

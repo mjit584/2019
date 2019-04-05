@@ -458,8 +458,7 @@ nav {
           max-width: 90vw; } }
     .chap .photo__content .photo__line {
       border-bottom: solid 1px #707070;
-      margin: 0 auto;
-      margin-top: 25px;
+      margin: 8vh auto;
       width: 84vw; }
     .chap .photo__content .photo__subhead {
       font-family: "DDinBold", sans-serif;
