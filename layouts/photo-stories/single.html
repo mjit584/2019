@@ -32,6 +32,17 @@
 </div>
 
 <footer class="flex-column">
+  <div class="footer__photo">
+
+    <div class="prev">
+      {{if .NextInSection}}<a href="{{.NextInSection.Permalink}}"><i class="fas fa-chevron-left"></i>
+        {{.NextInSection.Title}}</a>{{end}}
+    </div>
+    <div class="prev">
+      {{if .PrevInSection}}<a href="{{.PrevInSection.Permalink}}">{{.PrevInSection.Title}} <i
+          class="fas fa-chevron-right"></i></a>{{end}}
+    </div>
+  </div>
   {{ partial "footer.html" . }}
 </footer>
 {{ end }}

@@ -1,5 +1,5 @@
 ---
-title: "Photo Scrollytelly 1"
+intTitle: "Photo Scrollytelly 1"
 ---
 <section class="interactive">
   <h2 class="interactive__title">Photo Scrollytelly 1</h2>

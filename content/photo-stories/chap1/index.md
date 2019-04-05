@@ -31,4 +31,4 @@ As resources dwindle, violence erupts, and corruption becomes rampant, Venezuela
 
 {{< story-interactives "/photo-stories/chap1" "photo-migration-int" >}}
 
-{{< story-interactives "/photo-stories/chap1" "photo-scrollytelly-1" >}}
+<!-- {{< story-interactives "/photo-stories/chap1" "photo-scrollytelly-1" >}} -->
