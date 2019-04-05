@@ -6,7 +6,7 @@ description: "This is the description for the first story."
 image: "/images/chap1-hero.jpg"
 storyHeading: "A New Home"
 storySubheading: "An inside look into where migrants live after leaving home"
-weight: 1
+weight: 2
 card: false
 photographer: "Alex Kormann, Nash Consing, Catie Dull"
 designer: "Brooke Fisher"
@@ -23,8 +23,8 @@ After leaving behind their home country, where most Venezuelan immigrants spent 
 
 <div class="photo__line"></div>
 
-{{< photo-caption "/photo-stories/chap2" "photo-caption-2" >}}
+{{< photo-caption-vert "/photo-stories/chap2" "photo-caption-vert-1" >}}
+
+<div class="photo__line"></div>
 
 {{< story-interactives "/photo-stories/chap1" "photo-migration-int" >}}
-
-{{< story-interactives "/photo-stories/chap1" "photo-scrollytelly-1" >}}
