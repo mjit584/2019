@@ -16,12 +16,10 @@
 
 
 <div class="flex-column story-byline">
-  <div class="byline-name">photos
-    <span>{{ range .Params.photographer }}{{ . }}, {{end}}
-    </span>
+  <div class="byline-name">photos by <span>{{ .Params.photographer }}</span>
   </div>
-  <div class="byline-name" id="byline-des">graphics <span>{{ .Params.designer }}</span></div>
-  <div class="byline-name" id="byline-udea">field producers <span>{{ range .Params.udea }}{{ . }}, {{end}}</span></div>
+  <div class="byline-name" id="byline-des">graphics by <span>{{ .Params.designer }}</span></div>
+  <div class="byline-name" id="byline-udea">field producers <span>{{ .Params.udea }}</span></div>
   {{ partial "ybr-line.html" . }}
 </div>
 

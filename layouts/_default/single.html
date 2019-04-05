@@ -17,11 +17,10 @@
 
 <div class="flex-column story-byline">
   <div class="byline-name" id="byline-rep">written by <span>{{ .Params.Author }}</span></div>
-  <div class="byline-name" id="byline-vid">photo & video
-    <span>{{ .Params.videographer }} {{ .Params.photographer }}
+  <div class="byline-name" id="byline-vid">photo & video by <span>{{ .Params.videographer }} {{ .Params.photographer }}
     </span>
   </div>
-  <div class="byline-name" id="byline-des">graphics <span>{{ .Params.designer }}</span></div>
+  <div class="byline-name" id="byline-des">graphics by <span>{{ .Params.designer }}</span></div>
   {{ if ne .Params.udea "undefined" }}<div class="byline-name" id="byline-udea">field producer
     <span>{{ .Params.udea }}</span></div>{{ end }}
   {{ partial "ybr-line.html" . }}

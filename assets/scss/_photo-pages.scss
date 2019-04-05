@@ -46,22 +46,28 @@
   
   .story-byline {
     font-family: $font-byline;
-    margin-top: 6vh;
-    font-size: 0.9rem;
+    background-color: $light-grey;
+    padding: 2%;
+    margin: 6vh 0;
+    max-width: 40%;
+    font-size: 12px;
     align-items: flex-start;
     font-weight: $font-weight-bold;
     line-height: $line-height-base;
     grid-area: story-by;
     transition: 1s opacity;
-    margin-bottom: 6vh;
   
     span {
       font-weight: $font-weight-light;
     }
 
-    .ybr-line{
+    .ybr-line {
       margin-top: 1vh;
       max-width: 10vw;
+
+      .ybr-section {
+        stroke-width: 7;
+      }
     }
   }
   
