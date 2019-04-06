@@ -4,12 +4,15 @@ graphic: "Brooke Fisher"
 ---
 <section class="interactive">
     <h2 class="interactive__title">
-      Living Day to Day - Friends create a home in <em>Inquilinato</em>
+      Living Day to Day
     </h2>
     <h3 class="interactive__subhead">
-      Hover over parts of the picture for more information
+      Friends create a home in <em>Inquilinato</em>
     </h3>
     {{< ybr-line >}}
+    <p class="interactive__intro">
+      Hover over parts of the picture for more information
+    </h3>
   <div class="interactive__image interactive__body">
     <svg id="interactive__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
       viewBox="0 0 1154 758">

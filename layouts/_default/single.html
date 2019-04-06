@@ -17,11 +17,10 @@
 
 <div class="flex-column story-byline">
   <div class="byline-name" id="byline-rep">written by <span>{{ .Params.Author }}</span></div>
-  <div class="byline-name" id="byline-vid">photo & video
-    <span>{{ .Params.videographer }} {{ .Params.photographer }}
+  <div class="byline-name" id="byline-vid">photo & video by <span>{{ .Params.videographer }} {{ .Params.photographer }}
     </span>
   </div>
-  <div class="byline-name" id="byline-des">graphics <span>{{ .Params.designer }}</span></div>
+  <div class="byline-name" id="byline-des">graphics by <span>{{ .Params.designer }}</span></div>
   {{ if ne .Params.udea "undefined" }}<div class="byline-name" id="byline-udea">field producer
     <span>{{ .Params.udea }}</span></div>{{ end }}
   {{ partial "ybr-line.html" . }}
@@ -29,6 +28,10 @@
 
 <div class="story-content">
   {{ .Content }}
+</div>
+
+<div class="photo__progress">
+  <div class="progress__bar" id="photo-bar"></div>
 </div>
 
 <footer class="flex-column">
@@ -40,20 +43,26 @@
 
 {{ $scripts := resources.Get "js/scripts.js" }}
 {{ $header := resources.Get "js/header.js" }}
+{{ $progressBar := resources.Get "js/progressBar.js" }}
 {{ $videos := resources.Get "js/videos.js" }}
 {{ $hamburger := resources.Get "js/hamburger.js"}}
 {{ $govUndocumented := resources.Get "js/gov-undocumented-int.js" }}
+{{ $womenInt := resources.Get "js/women-int.js" }}
 {{ $healthInt := resources.Get "js/health-int.js" }}
+
+<!-- weight 3 = health story -->
 {{ if eq .Weight 3}}
-{{ $healthBundle := slice $scripts $header $videos $hamburger $healthInt | resources.Concat "js/healthBundle.js" }}
+{{ $healthBundle := slice $scripts $header $progressBar $videos $hamburger $healthInt | resources.Concat "js/healthBundle.js" }}
 
 {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $healthBundle.RelPermalink }}"></script>
 {{ else }}
 <script type="text/javascript" src="{{ ($healthBundle | minify | fingerprint).RelPermalink }}"></script>
 {{ end }}
+
+<!-- Weight 1 = government story -->
 {{ else if eq .Weight 1 }}
-{{ $govBundle := slice $scripts $header $videos $hamburger $govUndocumented | resources.Concat "js/storypageBundle.js" }}
+{{ $govBundle := slice $scripts $header $progressBar $videos $hamburger $govUndocumented | resources.Concat "js/govBundle.js" }}
 
 {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $govBundle.RelPermalink }}"></script>
@@ -61,8 +70,9 @@
 <script type="text/javascript" src="{{ ($govBundle | minify | fingerprint).RelPermalink }}"></script>
 {{ end }}
 
+<!-- Weight 2 = econ story -->
 {{else if eq .Weight 2}}
-{{ $econBundle := slice $scripts $header $videos $hamburger | resources.Concat "js/storypageBundle.js" }}
+{{ $econBundle := slice $scripts $header $progressBar $videos $hamburger | resources.Concat "js/econBundle.js" }}
 
 {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $econBundle.RelPermalink }}"></script>
@@ -70,9 +80,10 @@
 <script type="text/javascript" src="{{ ($econBundle | minify | fingerprint).RelPermalink }}"></script>
 {{ end }}
 
+<!-- Weight 4 = children story -->
 {{else if eq .Weight 4}}
 
-{{ $childrenBundle := slice $scripts $header $videos $hamburger | resources.Concat "js/storypageBundle.js" }}
+{{ $childrenBundle := slice $scripts $header $progressBar $videos $hamburger | resources.Concat "js/childrenBundle.js" }}
 
 {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $childrenBundle.RelPermalink }}"></script>
@@ -80,14 +91,17 @@
 <script type="text/javascript" src="{{ ($childrenBundle | minify | fingerprint).RelPermalink }}"></script>
 {{ end }}
 
+<!-- Weight 5 = women story -->
 {{else if eq .Weight 5}}
-{{ $womenBundle := slice $scripts $header $videos $hamburger | resources.Concat "js/storypageBundle.js" }}
+{{ $womenBundle := slice $scripts $header $progressBar $videos $hamburger $womenInt | resources.Concat "js/wonenBundle.js" }}
 
 {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $womenBundle.RelPermalink }}"></script>
 {{ else }}
 <script type="text/javascript" src="{{ ($womenBundle | minify | fingerprint).RelPermalink }}"></script>
 {{ end }}
+
+<!-- End of the conditional logic to only build out specific js files on each story page -->
 {{ end }}
 {{ block "footer_js" . }}{{ end }}
 

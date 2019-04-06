@@ -23,8 +23,9 @@
     font-weight: $font-weight-normal;
   }
 
-  .interactive__intro {
+  .interactive-intro {
     font-family: $font-int-intro;
+    margin-top: 0;
   }
   
   .interactive__body {
@@ -73,6 +74,7 @@
 .flourish {
   max-width: 75vw;
   margin:4vh auto;
+
   @media screen and (max-width: 800px){
       max-width: 100%;
   }

@@ -46,22 +46,41 @@
   
   .story-byline {
     font-family: $font-byline;
-    margin-top: 6vh;
-    font-size: 0.9rem;
+    background-color: $light-grey;
+    padding: 2%;
+    margin: 6vh 0;
+    max-width: 40%;
+    font-size: 12px;
     align-items: flex-start;
     font-weight: $font-weight-bold;
     line-height: $line-height-base;
     grid-area: story-by;
     transition: 1s opacity;
-    margin-bottom: 6vh;
   
     span {
       font-weight: $font-weight-light;
     }
 
-    .ybr-line{
+    .ybr-line {
       margin-top: 1vh;
       max-width: 10vw;
+
+      .ybr-section {
+        stroke-width: 7;
+      }
+    }
+
+    @media screen and (max-width: 800px) {
+      margin: 4% auto;
+      max-width: 90vw;
+
+      .ybr-line {
+        max-width: 40vw;
+
+        .ybr-section {
+          stroke-width: 4;
+        }
+      }
     }
   }
   
@@ -74,37 +93,22 @@
       color: $red;
     }
 
-    .photo-left-vertical, .photo-right-vertical {
-      display: flex;
-      margin-bottom: 6vh;
-      flex-wrap: wrap;
+    p {
+      max-width: 50vw;
+      line-height: $line-height-base;
+      margin: 2vw auto;
+      transition: 1s opacity;
+      font-size: 1.125rem;
 
-      p {
-        margin-top: 0;
-        width: 60%;
+      @media screen and (max-width: 800px){
+        max-width: 90vw;
       }
+    }
 
-      .left__photo, .right__photo {
-        flex-basis: 50%;
-      }
-      
-      .left__photo img, .right__photo img {
-        max-width: 90%;
-      }
-
-      .left__content, .right__content {
-        flex-basis: 50%;
-      }
-
-      .left__content {
-        justify-content: flex-start;
-        align-items: flex-start;
-      }
-      
-      .right__content {
-        justify-content: flex-start;
-        align-items: flex-end;
-      }
+    .photo__line {
+      border-bottom: solid 1px #707070;
+      margin: 8vh auto;
+      width: 84vw;
     }
 
     .photo__subhead {
@@ -189,7 +193,7 @@ p {
     z-index: 1;
 
     .progress__bar {
-      height: 1vh;
+      height: 0.7vh;
       background: $blue;
       width: 0%;
     }

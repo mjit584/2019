@@ -1,24 +1,25 @@
 #interactive__gov-undocumented {
   position: relative;
-  max-height: 100vh;
   transition: 0.7s;
-  
+  margin:0 auto;
+  width:75%;
+
   #r-1{
     height: 20%;
     width: 100%;
   }
-  
+
   #r-2{
     height: 70%;
     width: 85%;
   }
-  
+
   #r-2-c-2 {
     width: 15%;
     margin-left: 12%;
     margin-right: 12%;
   }
-  
+
   .document-box {
     width: 25%;
     margin-left: 6%;
@@ -27,57 +28,56 @@
     border-bottom: solid 2px;
     border-color: $white;
   }
-  
+
   .document-box:hover {
     cursor: pointer;
     border-bottom: solid 2px;
     border-color: $black;
     transition: 0.7s;
   }
-  
+
   .document-img {
     height: 75%;
     width: 75%;
     padding-bottom: 20%;
   }
-  
+
   .passport-svg {
     height: 100%;
     width: auto;
   }
-  
+
   .pep-svg {
     height: 100%;
     width: auto;
   }
-  
-  
+
+
   .document-txt {
     height: 10%;
     width: 100%;
     font-family: $font-int-gov;
   }
-  
+
   .document-caption{
     padding-bottom: 5%;
-    font-size: 24pt;
-    color: $grey;
-    font-family:  $font-int-gov;
+    font-size: 17pt;
+    font-family: $font-hero-topic;
   }
-  
-  
+
+
   #r-3{
     margin-top: 4vh;
     width: 100%;
   }
-  
+
   .bottom-text {
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: $grey;
-    font-family:  $font-int-gov;
+    font-style: italic;
+    font-family:  'Lato', sans-serif;
   }
-  
-  
+
   .container-body {
     display: flex;
     flex-direction: column;
@@ -92,78 +92,62 @@
       margin-bottom: 4vh;
     }
   }
-  
   .information-body {
-    z-index: 1000;
-    height: 100%;
-    width: 100%;
-    background-color: $white;
     display: none;
+    margin: 10vh 0;
   }
-  
   .passport-body {
     z-index: 1200;
   }
-  
   .back-button {
-    margin-top: 45px;
-    margin-left: 50px;
-    width: 100px;
-    height: 65px;
-    font-size: 18pt;
+    cursor: pointer;
     color: $black;
-    font-family: $font-content-heading;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.3s;
-    border: #333333 solid 2px;
-    z-index: 9999;
+    font-family: 'Lato', sans-serif;
+    transition: border-bottom 0.2s;
+    position:absolute;
+    left:0;
   }
-  
-  
-  .back-button:hover {
-  cursor: pointer;
-  background-color: $black;
-  color: $white;
-  border-bottom: white solid 2px;
+
+  .back-button:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px #333;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+    transform-origin:  0% 50%;
   }
-  
+
+  .back-button:hover:after {
+    transform: scaleX(1);
+  }
+
   .information-title-svg {
     padding-top:60px;
     width: auto;
     height: 70px;
   }
-  
+
   .information-body-r1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 20vh;
-    width: 100vw;
   }
-  
-  .information-body-r2 {
-    height: 70vh;
-  }
-  
   .information-body-r3 {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
-  
+
+
   /* slideshow */
   .mySlides, .mySlides-passport {
-    width: 100vw;
+    // width: 100vw;
     display: none;
     flex-direction: column;
-  
+
   }
   img {vertical-align: middle;}
-  
+
   .slideshow-buttons {
     justify-content: space-between;
   }
@@ -181,18 +165,18 @@
     border-radius: 0 3px 3px 0;
     user-select: none;
   }
-  
+
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
-  
+
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
     color: $white;
   }
-  
-  
+
+
   .numbertext {
     color: $white;
     font-size: 12px;
@@ -200,230 +184,155 @@
     position: absolute;
     top: 0;
   }
-  
+
   .dot, .dot-passport, .dot-ID {
     cursor: pointer;
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: $grey;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
   }
   .active, .dot:hover, .dot-passport:hover, .dot-ID:hover {
-    background-color: $grey;
+    background-color: $yellow;
   }
-  
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
+
   @-webkit-keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
   }
-  
+
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
   }
-  
-  .slide-img-pep {
-    height: auto;
-    padding-left:575x;
-    padding-right: 0px;
-  }
-  
-  .slide-img-calendar {
-    height: auto;
-    padding-left:125px;
-    padding-right: 75px;
-  }
-  
   .slide-img-doc {
-    height: auto;
-    padding-left:125px;
-    padding-right: 75px;
+    max-width: 100%;
   }
-  
-  .slide-img-stats {
-    height: auto;
-    padding-left:0px;
-    padding-right: 0px;
-  }
-  
+
   .slide-img-ID {
     height: auto;
     padding-left:50px;
     padding-right: 5px;
-  
-  }
-  
-  .slide-image {
-    width: 100vw;
-    height: 65vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  
-  }
-  
-  .slide-txt, .slide-txt2 {
-    text-align: left;
+
   }
 
-  .slide-txt {
+  .slide-image {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-gap:1vw;
+    text-align: right;
+    margin:40px 0;
+    img {
+      max-height: 200px;
+      max-width:100%;
+      float:right;
+    }
+  }
+
+  .slide-txt, .slide-txt2 {
+    text-align: left;
     font-size: 14pt;
     color: $black;
     font-family:  $font-int-gov;
-    padding-left: 20px;
+    padding-right: 70px;
+    p {
+      margin-top:0;
+    }
   }
-  
   .slide-txt2 {
-    font-size: 14pt;
-    color: $black;
-    font-family:  $font-int-gov;
-    padding-left: 20px;
-    max-width: 60vh;
+    padding-left:30px;
   }
-  
-  .slide-img-passport {
-    height: auto;
-    padding-left:125px;
-    padding-right: 75px;
-  }
-  
-  .slide-img-passport-slide2 {
-    height: auto;
-    padding-left:125px;
-    padding-right: 75px;
-  }
-  
+
   .information-title {
-    height: 70px;
-    width: 30vw;
-    border-bottom: 10px solid;
+    border-bottom: 5px solid;
     border-bottom-color: $yellow;
-    font-size:36pt;
+    font-size:2.5vw;
     color: $black;
     font-family: $font-content-heading;
     font-weight: 700;
+    padding:10px 0;
   }
-  
+
   .information-title-passport {
     height: 55px;
   }
-  
+
   .border-blue {
-      border-bottom: 10px solid;
+      border-bottom: 5px solid;
       border-bottom-color: $blue;
   }
-  
+
   .information-title-pep {
     height: 65px;
   }
-  
+
   .information-title-id {
     height: 55px;
   }
-  
+
   .border-red {
-    border-bottom: 10px solid;
+    border-bottom: 5px solid;
     border-bottom-color: $red;
   }
-  
-  
+
+}
   /* mobile css */
-  
-  @media (max-width: 800px) {
-  
+
+@media (max-width: 800px) {
+  #interactive__gov-undocumented {
+    width:100%;
+
     #r-2 {
       flex-direction: column;
-      width: 100%;
+      width: 100;
+      margin: 0 10vw;
     }
-  
-    .document-img {
-      display: none;
+    .slide-image {
+      grid-template-columns: 1fr;
     }
-  
+    .document-img img {
+      max-height:150px;
+    }
+
     .document-box {
-      width: 75%;
       border-bottom-width: 0;
     }
-  
+
     .document-box:hover {
       border-bottom-width: 0;
     }
-  
-    .title-svg {
-      padding-top: 50px;
-      height: 150px;
-    }
-  
-    .slide-image {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-  
-    .slide-img {
-      height: 20vh;
-      padding-top: 50px;
-    }
-  
-  
-  
     .slide-txt, .slide-txt2 {
-      height: 45vh;
-      padding-top: 30px;
-      font-size: 15px;
+      padding:0 10vw
     }
-  
+
     .back-button {
-      margin-left: 10vh;
+      margin-left: 5vh;
     }
-  
+
     .information-title{
       font-size: 30px;
-      height: 40px;
-      width: 80vw;
       border-bottom-width: 5px;
-      padding-top: 20px;
     }
   }
-  
-  
+
+
   @media (max-width: 500px) {
-  
+
     #r-2 {
       flex-direction: column;
       width: 100%;
     }
-  
-    .document-img {
-      display: none;
-    }
-  
     .slide-img {
       display: none;
     }
-  
-  
-    .slide-txt, .slide-txt2 {
-      font-size: 15px;
-      width: 70vw;
-      padding: 10px;
-    }
-  
+
     .bottom-text {
       font-size: 15px;
     }
-  
+
     .back-button {
       margin-left: 0;
       margin-top: 0;
@@ -436,7 +345,7 @@
       background-color: $black;
       color: $white;
     }
-  
+
     .information-title{
       font-size: 25px;
       padding-top: 25px;
@@ -444,15 +353,14 @@
       width: 80vw;
       border-bottom-width: 5px;
     }
-  
+
     .information-body-r1 {
       height: 50px;
     }
-  
+
     .slide-image {
       height: 85vh;
     }
-  
     .document-box {
       width: 75%;
       margin-left: 6%;
@@ -462,7 +370,7 @@
       border-bottom: solid 0px;
       border-bottom-color: $white;
     }
-  
+
     .document-box:hover {
       cursor: pointer;
       border-bottom: solid 0px;

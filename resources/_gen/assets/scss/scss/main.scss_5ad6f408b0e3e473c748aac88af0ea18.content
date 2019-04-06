@@ -194,8 +194,11 @@ body {
       font-weight: 400; }
   .story-page .story-byline {
     font-family: "Lato", sans-serif;
-    margin-top: 6vh;
-    font-size: 0.9rem;
+    background-color: #F2F2F2;
+    padding: 2%;
+    margin: 6vh 0;
+    width: 40%;
+    font-size: 12px;
     align-items: flex-start;
     font-weight: 700;
     line-height: 1.5em;
@@ -207,7 +210,15 @@ body {
       margin-top: 1vh;
       max-width: 10vw; }
       .story-page .story-byline .ybr-line .ybr-section {
-        stroke-width: 5; }
+        stroke-width: 7; }
+    @media screen and (max-width: 800px) {
+      .story-page .story-byline {
+        margin: 4% auto;
+        width: 90vw; }
+        .story-page .story-byline .ybr-line {
+          max-width: 40vw; }
+          .story-page .story-byline .ybr-line .ybr-section {
+            stroke-width: 4; } }
   .story-page .story-content {
     font-family: "Georgia", serif;
     grid-area: story-bd; }
@@ -247,6 +258,17 @@ body {
       padding-right: 8px; }
     .story-page .story-content .ybr-line {
       transition: 1s opacity; }
+  .story-page .photo__progress {
+    position: fixed;
+    width: 100%;
+    height: 1vh;
+    background: #ddd;
+    bottom: 0;
+    z-index: 1; }
+    .story-page .photo__progress .progress__bar {
+      height: 0.7vh;
+      background: #1457D3;
+      width: 0%; }
   .story-page footer {
     grid-area: story-ft; }
 
@@ -398,43 +420,49 @@ nav {
       font-family: "Lato", sans-serif; }
   .chap .story-byline {
     font-family: "Lato", sans-serif;
-    margin-top: 6vh;
-    font-size: 0.9rem;
+    background-color: #F2F2F2;
+    padding: 2%;
+    margin: 6vh 0;
+    max-width: 40%;
+    font-size: 12px;
     align-items: flex-start;
     font-weight: 700;
     line-height: 1.5em;
     grid-area: story-by;
-    transition: 1s opacity;
-    margin-bottom: 6vh; }
+    transition: 1s opacity; }
     .chap .story-byline span {
       font-weight: 300; }
     .chap .story-byline .ybr-line {
       margin-top: 1vh;
       max-width: 10vw; }
+      .chap .story-byline .ybr-line .ybr-section {
+        stroke-width: 7; }
+    @media screen and (max-width: 800px) {
+      .chap .story-byline {
+        margin: 4% auto;
+        max-width: 90vw; }
+        .chap .story-byline .ybr-line {
+          max-width: 40vw; }
+          .chap .story-byline .ybr-line .ybr-section {
+            stroke-width: 4; } }
   .chap .photo__content {
     font-family: "Georgia", serif;
     grid-area: story-bd; }
     .chap .photo__content a {
       color: #C70032; }
-    .chap .photo__content .photo-left-vertical, .chap .photo__content .photo-right-vertical {
-      display: flex;
-      margin-bottom: 6vh;
-      flex-wrap: wrap; }
-      .chap .photo__content .photo-left-vertical p, .chap .photo__content .photo-right-vertical p {
-        margin-top: 0;
-        width: 60%; }
-      .chap .photo__content .photo-left-vertical .left__photo, .chap .photo__content .photo-left-vertical .right__photo, .chap .photo__content .photo-right-vertical .left__photo, .chap .photo__content .photo-right-vertical .right__photo {
-        flex-basis: 50%; }
-      .chap .photo__content .photo-left-vertical .left__photo img, .chap .photo__content .photo-left-vertical .right__photo img, .chap .photo__content .photo-right-vertical .left__photo img, .chap .photo__content .photo-right-vertical .right__photo img {
-        max-width: 90%; }
-      .chap .photo__content .photo-left-vertical .left__content, .chap .photo__content .photo-left-vertical .right__content, .chap .photo__content .photo-right-vertical .left__content, .chap .photo__content .photo-right-vertical .right__content {
-        flex-basis: 50%; }
-      .chap .photo__content .photo-left-vertical .left__content, .chap .photo__content .photo-right-vertical .left__content {
-        justify-content: flex-start;
-        align-items: flex-start; }
-      .chap .photo__content .photo-left-vertical .right__content, .chap .photo__content .photo-right-vertical .right__content {
-        justify-content: flex-start;
-        align-items: flex-end; }
+    .chap .photo__content p {
+      max-width: 50vw;
+      line-height: 1.5em;
+      margin: 2vw auto;
+      transition: 1s opacity;
+      font-size: 1.125rem; }
+      @media screen and (max-width: 800px) {
+        .chap .photo__content p {
+          max-width: 90vw; } }
+    .chap .photo__content .photo__line {
+      border-bottom: solid 1px #707070;
+      margin: 8vh auto;
+      width: 84vw; }
     .chap .photo__content .photo__subhead {
       font-family: "DDinBold", sans-serif;
       max-width: 50vw;
@@ -491,7 +519,7 @@ nav {
     bottom: 0;
     z-index: 1; }
     .chap .photo__progress .progress__bar {
-      height: 1vh;
+      height: 0.7vh;
       background: #1457D3;
       width: 0%; }
   .chap footer {
@@ -583,250 +611,6 @@ nav {
     opacity: 0; }
   .hamburger--slider.is-active .hamburger-inner::after {
     transform: translate3d(0, -16px, 0) rotate(-90deg); }
-
-.interactive__health {
-  /* This container is needed to position the front and back side */
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  /* Position the front and back side */
-  /* Style the front side (fallback if image is missing) */
-  /* Style the back side */ }
-  .interactive__health .flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 200px;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px;
-    /* Remove this if you don't want the 3D effect */ }
-  .interactive__health .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d; }
-  .interactive__health .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg); }
-  .interactive__health .flip-card-front, .interactive__health .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden; }
-  .interactive__health .flip-card-front {
-    background-color: #bbb;
-    color: black; }
-  .interactive__health .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
-    transform: rotateY(180deg); }
-  .interactive__health #r-1 {
-    height: 45vh;
-    width: 100vw; }
-  .interactive__health #r-2 {
-    height: 15vh;
-    width: 65vw;
-    align-items: flex-start;
-    justify-content: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: #333333;
-    padding-bottom: 50px; }
-  .interactive__health #r-3 {
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center; }
-  .interactive__health #r-4 {
-    height: 5vh;
-    width: 100vw; }
-  .interactive__health .card-front {
-    margin: 75px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.1);
-    z-index: 1000; }
-  .interactive__health .card-flipped {
-    top: 60vh;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-  .interactive__health #card-sh {
-    width: 400px; }
-  .interactive__health #card-back-sh {
-    width: 400px;
-    height: 600px;
-    position: relative; }
-  .interactive__health #card-ch {
-    width: 400px;
-    height: 850px;
-    position: relative; }
-  .interactive__health #card-back-ch {
-    width: 400px;
-    height: 850px; }
-  .interactive__health #sh-r-1 {
-    color: #C70032; }
-  .interactive__health #sh-r-2 {
-    height: 250px;
-    width: 100%;
-    background-color: #C70032;
-    justify-content: flex-start; }
-  .interactive__health #sh-r-3 {
-    margin: 3vh 0; }
-    .interactive__health #sh-r-3 p {
-      margin: 0 auto; }
-  .interactive__health #sh-r-4 {
-    margin: 3vh 0; }
-  .interactive__health #ch-r-2 {
-    height: 500px;
-    width: 100%;
-    background-color: #1457D3;
-    justify-content: flex-start; }
-  .interactive__health #ch-r-2-r2 {
-    width: 100%;
-    flex-direction: row; }
-  .interactive__health #comp-plan, .interactive__health #prepaid-plan {
-    flex-basis: 50%; }
-  .interactive__health #ch-r-3-r2 {
-    flex-direction: row; }
-  .interactive__health .card-front-icons {
-    height: 120px;
-    width: 100%;
-    flex-direction: row; }
-  .interactive__health .card-text-large {
-    font-family: 'Lato', sans-serif;
-    font-size: 32px;
-    font-weight: 900;
-    margin: 0;
-    padding: 0; }
-  .interactive__health .card-text-small {
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    color: #333333;
-    margin: 0;
-    padding: 0; }
-  .interactive__health .card-icon {
-    flex-basis: 33%;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    color: white; }
-  .interactive__health .card-icon-svg {
-    width: 70px;
-    height: auto;
-    padding: 5%; }
-  .interactive__health .card-learn-more {
-    width: 150px;
-    height: auto;
-    cursor: pointer; }
-  .interactive__health .main-title {
-    width: 50vw;
-    height: auto; }
-  .interactive__health .card-front-title {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    height: 70px;
-    width: 100%; }
-  .interactive__health .card-back-title-sh {
-    position: absolute;
-    font-family: 'Roboto', sans-serif;
-    flex-direction: row;
-    font-weight: 700;
-    font-size: 20px;
-    height: 70px;
-    width: 400px;
-    color: white;
-    background-color: #C70032;
-    /* display: none; */ }
-  .interactive__health .card-back-title-ch {
-    position: absolute;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    height: 70px;
-    width: 100%;
-    color: white;
-    background-color: #1457D3; }
-  .interactive__health .card-front-body-sh {
-    width: 400px;
-    height: 630px;
-    justify-content: flex-start; }
-  .interactive__health .card-front-body-ch {
-    height: 780px;
-    width: 400px;
-    justify-content: flex-start; }
-  .interactive__health .card-back-body {
-    position: absolute;
-    height: 630px;
-    width: 400px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; }
-  .interactive__health #card-back-body-ch {
-    height: 780px; }
-  .interactive__health .card-back-body-text {
-    text-align: left;
-    font-family: 'Lato', sans-serif;
-    font-size: 15.5px;
-    padding: 0 20px;
-    line-height: 1.4;
-    color: #333333; }
-    .interactive__health .card-back-body-text p {
-      margin: 5% 0; }
-  .interactive__health #ch-r-1 {
-    color: #1457D3; }
-  .interactive__health .card-front-subtitle {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    color: white;
-    height: 75px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row; }
-  .interactive__health .background-blur {
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    z-index: -1000;
-    background-color: rgba(0, 0, 0, 0.1);
-    filter: blur(150px);
-    -webkit-filter: blur(150px); }
-  .interactive__health .spacer-height {
-    height: 50px; }
-  .interactive__health .blue {
-    color: #1457D3; }
-  .interactive__health .red {
-    color: #C70032; }
-  .interactive__health .close-svg {
-    right: 20px;
-    position: absolute;
-    width: 20px;
-    height: auto;
-    cursor: pointer; }
-  .interactive__health .card-back-body {
-    background-color: white; }
-  .interactive__health .hidden {
-    display: none; }
-  @media (max-width: 800px) {
-    .interactive__health .main-title {
-      width: 70vw; }
-    .interactive__health #r-3 {
-      margin-top: 80vh;
-      width: 100vw;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
-    .interactive__health .card-front {
-      margin: 0;
-      padding: 0;
-      width: 70vw;
-      height: auto;
-      margin-top: 10vh;
-      margin-bottom: 10vh; } }
 
 .bg-contain {
   background-size: contain; }
@@ -1411,8 +1195,9 @@ nav {
     margin-top: 1vh;
     margin-bottom: 2vh;
     font-weight: 400; }
-  .interactive .interactive__intro {
-    font-family: "Lato", sans-serif; }
+  .interactive .interactive-intro {
+    font-family: "Lato", sans-serif;
+    margin-top: 0; }
   .interactive .interactive__body {
     font-family: "Lato", sans-serif;
     font-weight: 400; }
@@ -1461,6 +1246,7 @@ nav {
     margin: 0 auto; }
   .pull-quote-container #pull-quote__attr {
     font-family: "Lato", sans-serif;
+    font-weight: 400;
     font-style: italic;
     align-self: flex-start; }
 
@@ -1473,11 +1259,10 @@ nav {
   .photo-caption-container img {
     width: 100%; }
   .photo-caption-container .caption {
-    background-color: #F2F2F2;
     align-items: flex-start;
-    padding: 2vh 15vw 2vh 2vw;
-    margin-top: 2vh;
-    font-size: 1rem; }
+    margin-top: 1vh;
+    font-size: 1rem;
+    font-style: italic; }
     .photo-caption-container .caption p {
       margin: 0;
       font-size: inherit; }
@@ -1494,12 +1279,284 @@ nav {
         width: 100%;
         font-size: 0.75rem; } }
 
+.photo__diptych {
+  margin-top: 5%; }
+  .photo__diptych .photo__diptych-container {
+    background-color: #333333;
+    justify-content: space-evenly;
+    max-width: 78vw;
+    padding: 2% 0;
+    align-items: flex-start;
+    flex-wrap: wrap; }
+    @media screen and (max-width: 800px) {
+      .photo__diptych .photo__diptych-container {
+        max-width: 90vw; } }
+    .photo__diptych .photo__diptych-container img {
+      max-width: 46%; }
+  .photo__diptych .photo__diptych-caption {
+    width: 78vw; }
+    @media screen and (max-width: 800px) {
+      .photo__diptych .photo__diptych-caption {
+        width: 90vw; } }
+    .photo__diptych .photo__diptych-caption p {
+      margin-left: 0;
+      font-style: italic;
+      font-family: "Lato", sans-serif;
+      font-size: 1rem; }
+      @media screen and (max-width: 800px) {
+        .photo__diptych .photo__diptych-caption p {
+          font-size: 0.8rem; } }
+
+.interactive__health {
+  /* This container is needed to position the front and back side */
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  /* Position the front and back side */
+  /* Style the front side (fallback if image is missing) */
+  /* Style the back side */ }
+  .interactive__health .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */ }
+  .interactive__health .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d; }
+  .interactive__health .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg); }
+  .interactive__health .flip-card-front, .interactive__health .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; }
+  .interactive__health .flip-card-front {
+    background-color: #bbb;
+    color: black; }
+  .interactive__health .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg); }
+  .interactive__health #r-1 {
+    height: 45vh;
+    width: 100vw; }
+  .interactive__health #r-2 {
+    height: 15vh;
+    width: 65vw;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    padding-bottom: 50px; }
+  .interactive__health #r-3 {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center; }
+  .interactive__health #r-4 {
+    height: 5vh;
+    width: 100vw; }
+  .interactive__health .card-front {
+    margin: 75px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.1);
+    z-index: 1000; }
+  .interactive__health .card-flipped {
+    top: 60vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .interactive__health #card-sh {
+    width: 400px; }
+  .interactive__health #card-back-sh {
+    width: 400px;
+    height: 600px;
+    position: relative; }
+  .interactive__health #card-ch {
+    width: 400px;
+    height: 850px;
+    position: relative; }
+  .interactive__health #card-back-ch {
+    width: 400px;
+    height: 850px; }
+  .interactive__health #sh-r-1 {
+    color: #C70032; }
+  .interactive__health #sh-r-2 {
+    height: 250px;
+    width: 100%;
+    background-color: #C70032;
+    justify-content: flex-start; }
+  .interactive__health #sh-r-3 {
+    margin: 3vh 0; }
+    .interactive__health #sh-r-3 p {
+      margin: 0 auto; }
+  .interactive__health #sh-r-4 {
+    margin: 3vh 0; }
+  .interactive__health #ch-r-2 {
+    height: 500px;
+    width: 100%;
+    background-color: #1457D3;
+    justify-content: flex-start; }
+  .interactive__health #ch-r-2-r2 {
+    width: 100%;
+    flex-direction: row; }
+  .interactive__health #comp-plan, .interactive__health #prepaid-plan {
+    flex-basis: 50%; }
+  .interactive__health #ch-r-3-r2 {
+    flex-direction: row; }
+  .interactive__health .card-front-icons {
+    height: 120px;
+    width: 100%;
+    flex-direction: row; }
+  .interactive__health .card-text-large {
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0; }
+  .interactive__health .card-text-small {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    margin: 0;
+    padding: 0; }
+  .interactive__health .card-icon {
+    flex-basis: 33%;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: white; }
+  .interactive__health .card-icon-svg {
+    width: 70px;
+    height: auto;
+    padding: 5%; }
+  .interactive__health .card-learn-more {
+    width: 150px;
+    height: auto;
+    cursor: pointer; }
+  .interactive__health .main-title {
+    width: 50vw;
+    height: auto; }
+  .interactive__health .card-front-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    height: 70px;
+    width: 100%; }
+  .interactive__health .card-back-title-sh {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: row;
+    font-weight: 700;
+    font-size: 20px;
+    height: 70px;
+    width: 400px;
+    color: white;
+    background-color: #C70032;
+    /* display: none; */ }
+  .interactive__health .card-back-title-ch {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    height: 70px;
+    width: 100%;
+    color: white;
+    background-color: #1457D3; }
+  .interactive__health .card-front-body-sh {
+    width: 400px;
+    height: 630px;
+    justify-content: flex-start; }
+  .interactive__health .card-front-body-ch {
+    height: 780px;
+    width: 400px;
+    justify-content: flex-start; }
+  .interactive__health .card-back-body {
+    position: absolute;
+    height: 630px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; }
+  .interactive__health #card-back-body-ch {
+    height: 780px; }
+  .interactive__health .card-back-body-text {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 15.5px;
+    padding: 0 20px;
+    line-height: 1.4;
+    color: #333333; }
+    .interactive__health .card-back-body-text p {
+      margin: 5% 0; }
+  .interactive__health #ch-r-1 {
+    color: #1457D3; }
+  .interactive__health .card-front-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    height: 75px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; }
+  .interactive__health .background-blur {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    z-index: -1000;
+    background-color: rgba(0, 0, 0, 0.1);
+    filter: blur(150px);
+    -webkit-filter: blur(150px); }
+  .interactive__health .spacer-height {
+    height: 50px; }
+  .interactive__health .blue {
+    color: #1457D3; }
+  .interactive__health .red {
+    color: #C70032; }
+  .interactive__health .close-svg {
+    right: 20px;
+    position: absolute;
+    width: 20px;
+    height: auto;
+    cursor: pointer; }
+  .interactive__health .card-back-body {
+    background-color: white; }
+  .interactive__health .hidden {
+    display: none; }
+  @media (max-width: 800px) {
+    .interactive__health .main-title {
+      width: 70vw; }
+    .interactive__health #r-3 {
+      margin-top: 80vh;
+      width: 100vw;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    .interactive__health .card-front {
+      margin: 0;
+      padding: 0;
+      width: 70vw;
+      height: auto;
+      margin-top: 10vh;
+      margin-bottom: 10vh; } }
+
 #interactive__gov-undocumented {
   position: relative;
-  max-height: 100vh;
   transition: 0.7s;
-  /* slideshow */
-  /* mobile css */ }
+  margin: 0 auto;
+  width: 75%;
+  /* slideshow */ }
   #interactive__gov-undocumented #r-1 {
     height: 20%;
     width: 100%; }
@@ -1538,16 +1595,16 @@ nav {
     font-family: "Lato", sans-serif; }
   #interactive__gov-undocumented .document-caption {
     padding-bottom: 5%;
-    font-size: 24pt;
-    color: #aaa;
-    font-family: "Lato", sans-serif; }
+    font-size: 17pt;
+    font-family: "DDinRegular", sans-serif; }
   #interactive__gov-undocumented #r-3 {
     margin-top: 4vh;
     width: 100%; }
   #interactive__gov-undocumented .bottom-text {
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #aaa;
-    font-family: "Lato", sans-serif; }
+    font-style: italic;
+    font-family: 'Lato', sans-serif; }
   #interactive__gov-undocumented .container-body {
     display: flex;
     flex-direction: column;
@@ -1560,33 +1617,26 @@ nav {
     #interactive__gov-undocumented .container-body .interactive__header {
       margin-bottom: 4vh; }
   #interactive__gov-undocumented .information-body {
-    z-index: 1000;
-    height: 100%;
-    width: 100%;
-    background-color: #ffffff;
-    display: none; }
+    display: none;
+    margin: 10vh 0; }
   #interactive__gov-undocumented .passport-body {
     z-index: 1200; }
   #interactive__gov-undocumented .back-button {
-    margin-top: 45px;
-    margin-left: 50px;
-    width: 100px;
-    height: 65px;
-    font-size: 18pt;
-    color: #333333;
-    font-family: "DDinBold", sans-serif;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.3s;
-    border: #333333 solid 2px;
-    z-index: 9999; }
-  #interactive__gov-undocumented .back-button:hover {
     cursor: pointer;
-    background-color: #333333;
-    color: #ffffff;
-    border-bottom: white solid 2px; }
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+    transition: border-bottom 0.2s;
+    position: absolute;
+    left: 0; }
+  #interactive__gov-undocumented .back-button:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px #333;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+    transform-origin: 0% 50%; }
+  #interactive__gov-undocumented .back-button:hover:after {
+    transform: scaleX(1); }
   #interactive__gov-undocumented .information-title-svg {
     padding-top: 60px;
     width: auto;
@@ -1594,17 +1644,12 @@ nav {
   #interactive__gov-undocumented .information-body-r1 {
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 20vh;
-    width: 100vw; }
-  #interactive__gov-undocumented .information-body-r2 {
-    height: 70vh; }
+    justify-content: center; }
   #interactive__gov-undocumented .information-body-r3 {
     display: flex;
     justify-content: center;
     align-items: center; }
   #interactive__gov-undocumented .mySlides, #interactive__gov-undocumented .mySlides-passport {
-    width: 100vw;
     display: none;
     flex-direction: column; }
   #interactive__gov-undocumented img {
@@ -1641,17 +1686,12 @@ nav {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: #aaa;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease; }
   #interactive__gov-undocumented .active, #interactive__gov-undocumented .dot:hover, #interactive__gov-undocumented .dot-passport:hover, #interactive__gov-undocumented .dot-ID:hover {
-    background-color: #aaa; }
-  #interactive__gov-undocumented .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s; }
+    background-color: #Fbbc00; }
 
 @-webkit-keyframes fade {
   from {
@@ -1664,155 +1704,118 @@ nav {
     opacity: .4; }
   to {
     opacity: 1; } }
-  #interactive__gov-undocumented .slide-img-pep {
-    height: auto;
-    padding-left: 575x;
-    padding-right: 0px; }
-  #interactive__gov-undocumented .slide-img-calendar {
-    height: auto;
-    padding-left: 125px;
-    padding-right: 75px; }
   #interactive__gov-undocumented .slide-img-doc {
-    height: auto;
-    padding-left: 125px;
-    padding-right: 75px; }
-  #interactive__gov-undocumented .slide-img-stats {
-    height: auto;
-    padding-left: 0px;
-    padding-right: 0px; }
+    max-width: 100%; }
   #interactive__gov-undocumented .slide-img-ID {
     height: auto;
     padding-left: 50px;
     padding-right: 5px; }
   #interactive__gov-undocumented .slide-image {
-    width: 100vw;
-    height: 65vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; }
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-gap: 1vw;
+    text-align: right;
+    margin: 40px 0; }
+    #interactive__gov-undocumented .slide-image img {
+      max-height: 200px;
+      max-width: 100%;
+      float: right; }
   #interactive__gov-undocumented .slide-txt, #interactive__gov-undocumented .slide-txt2 {
-    text-align: left; }
-  #interactive__gov-undocumented .slide-txt {
+    text-align: left;
     font-size: 14pt;
     color: #333333;
     font-family: "Lato", sans-serif;
-    padding-left: 20px; }
+    padding-right: 70px; }
+    #interactive__gov-undocumented .slide-txt p, #interactive__gov-undocumented .slide-txt2 p {
+      margin-top: 0; }
   #interactive__gov-undocumented .slide-txt2 {
-    font-size: 14pt;
-    color: #333333;
-    font-family: "Lato", sans-serif;
-    padding-left: 20px;
-    max-width: 60vh; }
-  #interactive__gov-undocumented .slide-img-passport {
-    height: auto;
-    padding-left: 125px;
-    padding-right: 75px; }
-  #interactive__gov-undocumented .slide-img-passport-slide2 {
-    height: auto;
-    padding-left: 125px;
-    padding-right: 75px; }
+    padding-left: 30px; }
   #interactive__gov-undocumented .information-title {
-    height: 70px;
-    width: 30vw;
-    border-bottom: 10px solid;
+    border-bottom: 5px solid;
     border-bottom-color: #Fbbc00;
-    font-size: 36pt;
+    font-size: 2.5vw;
     color: #333333;
     font-family: "DDinBold", sans-serif;
-    font-weight: 700; }
+    font-weight: 700;
+    padding: 10px 0; }
   #interactive__gov-undocumented .information-title-passport {
     height: 55px; }
   #interactive__gov-undocumented .border-blue {
-    border-bottom: 10px solid;
+    border-bottom: 5px solid;
     border-bottom-color: #1457D3; }
   #interactive__gov-undocumented .information-title-pep {
     height: 65px; }
   #interactive__gov-undocumented .information-title-id {
     height: 55px; }
   #interactive__gov-undocumented .border-red {
-    border-bottom: 10px solid;
+    border-bottom: 5px solid;
     border-bottom-color: #C70032; }
-  @media (max-width: 800px) {
+
+/* mobile css */
+@media (max-width: 800px) {
+  #interactive__gov-undocumented {
+    width: 100%; }
     #interactive__gov-undocumented #r-2 {
       flex-direction: column;
-      width: 100%; }
-    #interactive__gov-undocumented .document-img {
-      display: none; }
+      width: 100;
+      margin: 0 10vw; }
+    #interactive__gov-undocumented .slide-image {
+      grid-template-columns: 1fr; }
+    #interactive__gov-undocumented .document-img img {
+      max-height: 150px; }
     #interactive__gov-undocumented .document-box {
-      width: 75%;
       border-bottom-width: 0; }
     #interactive__gov-undocumented .document-box:hover {
       border-bottom-width: 0; }
-    #interactive__gov-undocumented .title-svg {
-      padding-top: 50px;
-      height: 150px; }
-    #interactive__gov-undocumented .slide-image {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; }
-    #interactive__gov-undocumented .slide-img {
-      height: 20vh;
-      padding-top: 50px; }
     #interactive__gov-undocumented .slide-txt, #interactive__gov-undocumented .slide-txt2 {
-      height: 45vh;
-      padding-top: 30px;
-      font-size: 15px; }
+      padding: 0 10vw; }
     #interactive__gov-undocumented .back-button {
-      margin-left: 10vh; }
+      margin-left: 5vh; }
     #interactive__gov-undocumented .information-title {
       font-size: 30px;
-      height: 40px;
-      width: 80vw;
-      border-bottom-width: 5px;
-      padding-top: 20px; } }
-  @media (max-width: 500px) {
-    #interactive__gov-undocumented #r-2 {
-      flex-direction: column;
-      width: 100%; }
-    #interactive__gov-undocumented .document-img {
-      display: none; }
-    #interactive__gov-undocumented .slide-img {
-      display: none; }
-    #interactive__gov-undocumented .slide-txt, #interactive__gov-undocumented .slide-txt2 {
-      font-size: 15px;
-      width: 70vw;
-      padding: 10px; }
-    #interactive__gov-undocumented .bottom-text {
-      font-size: 15px; }
-    #interactive__gov-undocumented .back-button {
-      margin-left: 0;
-      margin-top: 0;
-      font-size: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 70px;
-      height: 70px;
-      background-color: #333333;
-      color: #ffffff; }
-    #interactive__gov-undocumented .information-title {
-      font-size: 25px;
-      padding-top: 25px;
-      height: 50px;
-      width: 80vw;
-      border-bottom-width: 5px; }
-    #interactive__gov-undocumented .information-body-r1 {
-      height: 50px; }
-    #interactive__gov-undocumented .slide-image {
-      height: 85vh; }
-    #interactive__gov-undocumented .document-box {
-      width: 75%;
-      margin-left: 6%;
-      margin-right: 6%;
-      height: 50%;
-      flex-direction: column;
-      border-bottom: solid 0px;
-      border-bottom-color: #ffffff; }
-    #interactive__gov-undocumented .document-box:hover {
-      cursor: pointer;
-      border-bottom: solid 0px;
-      border-bottom-color: #ffffff; } }
+      border-bottom-width: 5px; } }
+
+@media (max-width: 800px) and (max-width: 500px) {
+  #r-2 {
+    flex-direction: column;
+    width: 100%; }
+  .slide-img {
+    display: none; }
+  .bottom-text {
+    font-size: 15px; }
+  .back-button {
+    margin-left: 0;
+    margin-top: 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background-color: #333333;
+    color: #ffffff; }
+  .information-title {
+    font-size: 25px;
+    padding-top: 25px;
+    height: 50px;
+    width: 80vw;
+    border-bottom-width: 5px; }
+  .information-body-r1 {
+    height: 50px; }
+  .slide-image {
+    height: 85vh; }
+  .document-box {
+    width: 75%;
+    margin-left: 6%;
+    margin-right: 6%;
+    height: 50%;
+    flex-direction: column;
+    border-bottom: solid 0px;
+    border-bottom-color: #ffffff; }
+  .document-box:hover {
+    cursor: pointer;
+    border-bottom: solid 0px;
+    border-bottom-color: #ffffff; } }
 
 .timeline {
   position: relative;
@@ -1948,6 +1951,58 @@ nav {
   .timeline .reorder {
     flex-direction: column-reverse; } }
 
+#womenSlider {
+  width: 75%;
+  margin: 0 auto; }
+  #womenSlider .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    background: #46BF21;
+    border-radius: 5px;
+    margin: 20px 0 40px 0;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s; }
+  #womenSlider .slider:hover {
+    opacity: 1; }
+  #womenSlider .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 35px;
+    height: 35px;
+    border: 0;
+    border-radius: 50%;
+    background: #333;
+    cursor: pointer; }
+  #womenSlider .slider::-moz-range-thumb {
+    width: 35px;
+    height: 35px;
+    border: 0;
+    background: #333;
+    cursor: pointer; }
+  #womenSlider .sliderlabels {
+    display: grid;
+    grid-template-columns: 25% 50% 25%; }
+    #womenSlider .sliderlabels p {
+      margin: 0;
+      font-weight: 200; }
+  #womenSlider #category {
+    text-align: left; }
+  #womenSlider .laws {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-gap: 3vw; }
+  #womenSlider .map {
+    text-align: center;
+    font-weight: 700; }
+    #womenSlider .map img {
+      max-width: 100%; }
+  #womenSlider .desc p {
+    margin: 1vw 0;
+    font-size: 1em; }
+
 footer {
   margin: 0 auto;
   padding: 17vh 0; }
@@ -2038,7 +2093,7 @@ footer {
   font-weight: 700;
   margin: 5vh 0; }
   .center-quote-container p {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
     line-height: inherit;
     align-self: center;
     text-align: center;
@@ -2048,6 +2103,7 @@ footer {
     align-self: center; }
   .center-quote-container #pull-quote__attr {
     font-family: "Lato", sans-serif;
+    font-weight: 400;
     font-style: italic;
     align-self: center; }
 

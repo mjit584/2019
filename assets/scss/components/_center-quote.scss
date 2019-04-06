@@ -4,7 +4,7 @@
   margin: 5vh 0;
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
     line-height: inherit;
     align-self: center;
     text-align: center;
@@ -18,6 +18,7 @@
 
   #pull-quote__attr{
     font-family: $font-pullquote-name;
+    font-weight: $font-weight-normal;
     font-style: italic;
     align-self: center;
   }
