@@ -379,17 +379,24 @@ nav {
   grid-template-areas: 'chap1 chap2 chap3 chap4'; }
   .photo-stories #chap1 {
     grid-area: chap1;
-    background-image: url(../images/home2.jpg);
-    background-size: cover; }
+    background-image: url(../images/photo-chap-1-hero.jpg);
+    background-size: cover;
+    background-position: center; }
   .photo-stories #chap2 {
     grid-area: chap2;
-    background-color: #1457D3; }
+    background-image: url(../images/photo-chap-2-hero.jpg);
+    background-size: cover;
+    background-position: center; }
   .photo-stories #chap3 {
     grid-area: chap3;
-    background-color: #Fbbc00; }
+    background-image: url(../images/photo-chap-3-hero.jpg);
+    background-size: cover;
+    background-position: center; }
   .photo-stories #chap4 {
     grid-area: chap4;
-    background-color: #C70032; }
+    background-image: url(../images/photo-chap-4-hero.jpg);
+    background-size: cover;
+    background-position: center; }
 
 .chap {
   display: grid;

@@ -8,22 +8,29 @@
   
   #chap1 {
     grid-area: chap1;
-    background-image: url(../images/home2.jpg);
+    background-image: url(../images/photo-chap-1-hero.jpg);
     background-size: cover;
+    background-position: center;
   }
 
   #chap2 {
     grid-area: chap2;
-    background-color: $blue;
+    background-image: url(../images/photo-chap-2-hero.jpg);
+    background-size: cover;
+    background-position: center;
   }
 
   #chap3 {
     grid-area: chap3;
-    background-color: $yellow;
+    background-image: url(../images/photo-chap-3-hero.jpg);
+    background-size: cover;
+    background-position: center;
   }
   
   #chap4 {
     grid-area: chap4;
-    background-color: $red;
+    background-image: url(../images/photo-chap-4-hero.jpg);
+    background-size: cover;
+    background-position: center;
   }
 }
