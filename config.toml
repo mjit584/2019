@@ -81,32 +81,32 @@ canonifyURLs = "true"
   post = "https://brookenf.github.io/uprooted-mejo584/images/cards-story1.jpg"
 
 [[menu.main]]
-  name = "Wasted Skills Abound"
+  name = "Making It Work"
   url = "/story2/"
   weight = 2
   pre = "The second story is about this"
   post = "https://brookenf.github.io/uprooted-mejo584/images/cards-story2.jpeg"
 
 [[menu.main]]
-  name = "Providing Necessary Aid"
+  name = "Greater Than Death"
   url = "/story3/"
   weight = 3
   pre = "The third story is about this"
   post = "https://brookenf.github.io/uprooted-mejo584/images/cards-story3.jpeg"
 
 [[menu.main]]
-  name = "Generation in Limbo"
+  name = "The Cost of Dreams"
   url = "/story4/"
   weight = 4 
   pre = "The fourth story is about this"
-  post = "https://brookenf.github.io/uprooted-mejo584/images/cards-story4.jpg"
+  post = "/images/education-homepagestill.png"
 
 [[menu.main]]
-  name = "Road to Wellness"
+  name = "A Mother's Sacrifice"
   url = "/story5/"
   weight = 5
   pre = "The fifth story is about this"
-  post = "https://brookenf.github.io/uprooted-mejo584/images/cards-story5.jpg"
+  post = "/images/women-homepagestill.jpg"
 
 [[menu.main]]
   name = "Embracing Medellín"
