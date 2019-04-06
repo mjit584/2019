@@ -4,8 +4,7 @@ topic: "Health and Safety"
 date: 2019-02-04T21:35:29-05:00
 description: "This is the description for the third story."
 video: "../story3/assets/health-headervideo.mp4"
-image: https://brookenf.github.io/uprooted-mejo584/images/cards-story3.jpeg
-storyHeading: "Greater Than Death"
+image: "/story3/assets/health-homepagestill.jpg"
 storySubheading: "Venezuelan Doctor Working in Medellin"
 weight: 3
 card: true

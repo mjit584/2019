@@ -85,14 +85,14 @@ canonifyURLs = "true"
   url = "/story2/"
   weight = 2
   pre = "The second story is about this"
-  post = "https://brookenf.github.io/uprooted-mejo584/images/cards-story2.jpeg"
+  post = "/images/econ-homepagestill.jpg"
 
 [[menu.main]]
   name = "Greater Than Death"
   url = "/story3/"
   weight = 3
   pre = "The third story is about this"
-  post = "https://brookenf.github.io/uprooted-mejo584/images/cards-story3.jpeg"
+  post = "/images/health-homepagestill.jpg"
 
 [[menu.main]]
   name = "The Cost of Dreams"
@@ -113,7 +113,7 @@ canonifyURLs = "true"
   url = "/photo-stories/"
   weight = 6
   pre = "The photo story is about this"
-  post = "https://brookenf.github.io/uprooted-mejo584/images/cards-interactive.jpeg"
+  post = "/images/photo-stories-homepagestill.jpg"
 
 [permalinks]
   post = "/:slug"

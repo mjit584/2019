@@ -169,7 +169,10 @@ body {
   .story-page .story-hero {
     color: #ffffff;
     height: 100vh;
+    text-align: center;
+    padding: 25px;
     grid-area: story-hero;
+    justify-content: flex-start;
     transition: 1s opacity; }
     .story-page .story-hero .story-video {
       position: absolute;
@@ -183,17 +186,26 @@ body {
       object-position: top left; }
     .story-page .story-hero .video-5 {
       object-position: top center; }
-    .story-page .story-hero .story-hero__topic p {
-      font-family: "DDinRegular", sans-serif;
-      font-weight: 700;
-      margin: 0;
-      text-transform: uppercase;
-      font-size: 2vw; }
+    .story-page .story-hero .story-hero__topic {
+      text-align: center;
+      margin-top: 4.5rem; }
+      .story-page .story-hero .story-hero__topic p {
+        font-family: "DDinRegular", sans-serif;
+        font-weight: 700;
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 1.2rem; }
+      .story-page .story-hero .story-hero__topic .ybr-line {
+        height: 10px;
+        width: 35%; }
+        .story-page .story-hero .story-hero__topic .ybr-line .ybr-section {
+          stroke-width: 4; }
     .story-page .story-hero .story-hero__title {
       font-family: "DDinBold", sans-serif;
       font-weight: 400;
-      font-size: 7vw;
-      margin-bottom: 1%; }
+      font-size: calc(3rem + 3vw);
+      margin-bottom: 0;
+      margin-top: 25vh; }
     .story-page .story-hero .story-hero__desc {
       font-family: "Lato", sans-serif;
       font-weight: 400; }
@@ -826,7 +838,9 @@ nav {
       transform-origin: right bottom; } }
   .cards .card {
     position: relative;
-    grid-column: span 2; }
+    grid-column: span 2;
+    width: 100%;
+    height: 100%; }
     @media screen and (max-width: 800px) {
       .cards .card:hover .card__heading,
       .cards .card:hover .card__title, .cards .card:active .card__heading,
@@ -884,9 +898,10 @@ nav {
       font-size: 1rem;
       line-height: 1rem; }
     .cards .card .ybr-line {
-      max-width: 80px; }
+      max-width: 80px;
+      height: 10px; }
       .cards .card .ybr-line .ybr-section {
-        stroke-width: 5; }
+        stroke-width: 3; }
     .cards .card .card__title {
       font-weight: 400;
       font-family: "DDinBold", sans-serif;

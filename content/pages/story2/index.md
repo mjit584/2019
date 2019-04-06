@@ -4,7 +4,7 @@ topic: "Economics"
 date: 2019-02-04T21:35:11-05:00
 description: "This is the description for the second story."
 video: "../story2/assets/econ-headervideo.mp4"
-image: "https://brookenf.github.io/uprooted-mejo584/images/cards-story2.jpeg"
+image: "/story2/assets/econ-homepagestill.jpg"
 storyHeading: "Making It Work"
 storySubheading: "Venezuelans find family and friends in soccer league"
 weight: 2
