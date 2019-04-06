@@ -12,7 +12,7 @@
     {{ partial "hamburger.html" . }}
   </div>
 </nav>
-{{ partial "story-hero.html" (dict "background" .Params.image "heading" .Params.storyHeading "subheading" .Params.storySubheading "topic" .Params.topic "content" .) }}
+{{ partial "story-hero.html" (dict "number" .Params.weight "background" .Params.video "heading" .Params.storyHeading "subheading" .Params.storySubheading "topic" .Params.topic "content" .) }}
 
 
 <div class="flex-column story-byline">

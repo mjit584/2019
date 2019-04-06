@@ -19,19 +19,27 @@
       'story-bd'
       'story-ft';
   }
-  .story-video {
-    position: absolute; // Play the video in full screen mode
-    top: 0px;
-    left: 0px;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1; // Put the video behind all other elements
-  }
   .story-hero {
     color: $white;
     height: 100vh;
     grid-area: story-hero;
     transition: 1s opacity;
+
+    .story-video {
+      position: absolute; // Play the video in full screen mode
+      top: 0px;
+      left: 0px;
+      z-index: -1; // Put the video behind all other elements
+      width: 100%;
+      height: 100%;
+      border-radius: 1px;
+      object-fit: cover;
+      object-position: top left;
+    }
+
+    .video-5 {
+      object-position: top center;
+    }
 
     .story-hero__topic p{
       font-family: $font-hero-topic;
