@@ -166,18 +166,23 @@ body {
     .story-page {
       grid-template-columns: 1fr;
       grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd' 'story-ft'; } }
-  .story-page .story-video {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1; }
   .story-page .story-hero {
     color: #ffffff;
     height: 100vh;
     grid-area: story-hero;
     transition: 1s opacity; }
+    .story-page .story-hero .story-video {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      border-radius: 1px;
+      object-fit: cover;
+      object-position: top left; }
+    .story-page .story-hero .video-5 {
+      object-position: top center; }
     .story-page .story-hero .story-hero__topic p {
       font-family: "DDinRegular", sans-serif;
       font-weight: 700;
