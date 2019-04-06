@@ -7,9 +7,7 @@ layout: 'home-about'
 
 {{<  center-quote "pages/home-about" "home-about-pull" >}}
 
-This is a short introduction about the team, our backgrounds and the various different skillsets we bring to the project.
-
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+Medellín is the second largest city in Colombia and one of the most populous areas for Venezuelan immigrants. The metropolitan area provided our team with ample access to Venezuelans without the safety concerns of a border city. Our hope is that the stories we gathered in Colombia will shed a light and inspire positive change for the millions of Venezuelans displaced by the humanitarian crisis in their home country.
 
 <div id="video-top"></div>
 
