@@ -22,7 +22,10 @@
   .story-hero {
     color: $white;
     height: 100vh;
+    text-align: center;
+    padding: 25px;
     grid-area: story-hero;
+    justify-content: flex-start;
     transition: 1s opacity;
 
     .story-video {
@@ -41,19 +44,34 @@
       object-position: top center;
     }
 
-    .story-hero__topic p{
+    .story-hero__topic {
+      text-align: center;
+      margin-top: 4.5rem;
+
+      p {
       font-family: $font-hero-topic;
       font-weight: $font-weight-bold;
       margin: 0;
       text-transform: uppercase;
-      font-size: 2vw;
+      font-size: 1.2rem;
+      }
+
+      .ybr-line {
+        height: 10px;
+        width: 35%;
+
+        .ybr-section {
+          stroke-width: 4;
+        }
+      }
     }
 
     .story-hero__title {
       font-family: $font-hero-title;
       font-weight: $font-weight-normal;
-      font-size: 7vw;
-      margin-bottom: 1%;
+      font-size: calc(3rem + 3vw);
+      margin-bottom: 0;
+      margin-top: 25vh;
     }
 
     .story-hero__desc {
