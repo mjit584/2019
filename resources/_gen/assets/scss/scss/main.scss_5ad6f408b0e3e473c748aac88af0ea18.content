@@ -387,17 +387,24 @@ nav {
   grid-template-areas: 'chap1 chap2 chap3 chap4'; }
   .photo-stories #chap1 {
     grid-area: chap1;
-    background-image: url(../images/home2.jpg);
-    background-size: cover; }
+    background-image: url(../images/photo-chap-1-hero.jpg);
+    background-size: cover;
+    background-position: center; }
   .photo-stories #chap2 {
     grid-area: chap2;
-    background-color: #1457D3; }
+    background-image: url(../images/photo-chap-2-hero.jpg);
+    background-size: cover;
+    background-position: center; }
   .photo-stories #chap3 {
     grid-area: chap3;
-    background-color: #Fbbc00; }
+    background-image: url(../images/photo-chap-3-hero.jpg);
+    background-size: cover;
+    background-position: center; }
   .photo-stories #chap4 {
     grid-area: chap4;
-    background-color: #C70032; }
+    background-image: url(../images/photo-chap-4-hero.jpg);
+    background-size: cover;
+    background-position: center; }
 
 .chap {
   display: grid;
@@ -466,7 +473,7 @@ nav {
           max-width: 90vw; } }
     .chap .photo__content .photo__line {
       border-bottom: solid 1px #707070;
-      margin: 8vh auto;
+      margin: 12vh auto;
       width: 84vw; }
     .chap .photo__content .photo__subhead {
       font-family: "DDinBold", sans-serif;
@@ -529,6 +536,32 @@ nav {
       width: 0%; }
   .chap footer {
     grid-area: story-ft; }
+    .chap footer .footer__photo {
+      padding-bottom: 30vh;
+      justify-content: space-around;
+      font-family: "DDinBold", sans-serif;
+      width: 100%;
+      flex-wrap: wrap;
+      margin-bottom: 5vh; }
+      .chap footer .footer__photo h1 {
+        flex-basis: 100%;
+        font-size: 2.4rem;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 5vh;
+        color: #C70032; }
+      .chap footer .footer__photo .footer__prev:after, .chap footer .footer__photo .footer__next:after {
+        display: block;
+        content: '';
+        border-bottom: solid 3px #333;
+        transform: scaleX(0);
+        transition: transform 250ms ease-in-out;
+        transform-origin: 0% 50%; }
+      .chap footer .footer__photo .footer__prev:hover:after, .chap footer .footer__photo .footer__next:hover:after {
+        transform: scaleX(1); }
+      .chap footer .footer__photo a {
+        color: inherit;
+        text-decoration: none; }
   .chap nav {
     grid-area: nav;
     display: flex;
@@ -1211,9 +1244,9 @@ nav {
     margin-top: 1vh;
     margin-bottom: 2vh;
     font-weight: 400; }
-  .interactive .interactive-intro {
+  .interactive .interactive__intro {
     font-family: "Lato", sans-serif;
-    margin-top: 0; }
+    margin-top: 0 !important; }
   .interactive .interactive__body {
     font-family: "Lato", sans-serif;
     font-weight: 400; }
@@ -1292,6 +1325,35 @@ nav {
     .photo-caption-container {
       width: 75vw; }
       .photo-caption-container .caption {
+        width: 100%;
+        font-size: 0.75rem; } }
+
+.photo-caption-container-vert {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5em;
+  width: 40vw;
+  margin: 2vh auto;
+  align-items: flex-start; }
+  .photo-caption-container-vert img {
+    width: 100%; }
+  .photo-caption-container-vert .caption {
+    align-items: flex-start;
+    margin-top: 1vh;
+    font-size: 1rem;
+    font-style: italic; }
+    .photo-caption-container-vert .caption p {
+      margin: 0;
+      font-size: inherit; }
+    .photo-caption-container-vert .caption .ybr-line {
+      max-width: 15vw;
+      margin: 2vh 0 1vh 0; }
+      @media screen and (max-width: 800px) {
+        .photo-caption-container-vert .caption .ybr-line .ybr-section {
+          stroke-width: 5; } }
+  @media screen and (max-width: 800px) {
+    .photo-caption-container-vert {
+      width: 75vw; }
+      .photo-caption-container-vert .caption {
         width: 100%;
         font-size: 0.75rem; } }
 

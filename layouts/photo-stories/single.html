@@ -12,7 +12,7 @@
     {{ partial "hamburger.html" . }}
   </div>
 </nav>
-{{ partial "story-hero.html" (dict "background" .Params.image "heading" .Params.storyHeading "subheading" .Params.storySubheading "content" .) }}
+{{ partial "photo-hero.html" (dict "background" .Params.image "heading" .Params.storyHeading "subheading" .Params.storySubheading "content" .) }}
 
 
 <div class="flex-column story-byline">
@@ -25,6 +25,8 @@
 
 <div class="photo__content">
   {{ .Content }}
+
+  <div class="photo__line"></div>
 </div>
 
 <div class="photo__progress">
@@ -32,6 +34,20 @@
 </div>
 
 <footer class="flex-column">
+  <div class="footer__photo flex">
+    <h1>Read other chapters of The Journey</h1>
+    <div class="footer__prev">
+      {{if .NextInSection}}
+      <a href="{{.NextInSection.Permalink}}"><i class="fas fa-chevron-left"></i>
+        {{.NextInSection.Title}}
+      </a>
+      {{end}}
+    </div>
+    <div class="footer__next">
+      {{if .PrevInSection}}<a href="{{.PrevInSection.Permalink}}">{{.PrevInSection.Title}} <i
+          class="fas fa-chevron-right"></i></a>{{end}}
+    </div>
+  </div>
   {{ partial "footer.html" . }}
 </footer>
 {{ end }}

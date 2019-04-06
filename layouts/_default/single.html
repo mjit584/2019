@@ -14,7 +14,6 @@
 </nav>
 {{ partial "story-hero.html" (dict "number" .Params.weight "background" .Params.video "heading" .Params.storyHeading "subheading" .Params.storySubheading "topic" .Params.topic "content" .) }}
 
-
 <div class="flex-column story-byline">
   <div class="byline-name" id="byline-rep">written by <span>{{ .Params.Author }}</span></div>
   <div class="byline-name" id="byline-vid">photo & video by <span>{{ .Params.videographer }} {{ .Params.photographer }}

@@ -1,5 +1,5 @@
 ---
-title: "Living Day to Day"
+intTitle: "Living Day to Day"
 graphic: "Brooke Fisher"
 ---
 <section class="interactive">

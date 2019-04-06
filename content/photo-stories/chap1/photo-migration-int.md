@@ -1,5 +1,5 @@
 ---
-title: "Where Venezuelan Migrants are moving to across the globe"
+intTitle: "Where Venezuelan Migrants are moving to across the globe"
 story: "Photo Series"
 graphics: "Kailee Akers"
 ---
