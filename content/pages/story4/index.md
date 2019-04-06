@@ -3,7 +3,7 @@ title: "The Cost of Dreams"
 topic: "Children and Education"
 date: 2019-02-04T21:35:51-05:00
 description: "This is the description for the fourth story."
-video: "/story4/assets/education-headervideo.mp4"
+video: "../story4/assets/education-headervideo.mp4"
 image: "/story4/assets/education-homepagestill.png"
 storyHeading: "The Cost of Dreams"
 storySubheading: "Hundreds of Venezuelan children are working instead of hitting the books"

@@ -990,7 +990,7 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    padding: 0 25px; }
+    padding: 0 10%; }
     .main-menu .card__text .card__title {
       font-family: "DDinBold", sans-serif;
       margin-bottom: 5px; }
