@@ -19,12 +19,25 @@ After leaving behind their home country, where most Venezuelan immigrants spent 
 
 <div class="photo__line"></div>
 
+<!-- Andrea's home -->
 {{< photo-caption "/photo-stories/chap2" "photo-caption-1" >}}
 
 <div class="photo__line"></div>
 
-{{< photo-caption-vert "/photo-stories/chap2" "photo-caption-vert-1" >}}
+<!-- Naiomi's room -->
+{{< photo-caption "/photo-stories/chap2" "photo-caption-2" >}}
 
 <div class="photo__line"></div>
 
-{{< story-interactives "/photo-stories/chap1" "photo-migration-int" >}}
+<!-- Deylena and Jonathan's home -->
+{{< photo-caption-vert "/photo-stories/chap2" "photo-caption-3-vert" >}}
+
+<div class="photo__line"></div>
+
+<!-- Marisela's home -->
+{{< photo-caption "/photo-stories/chap2" "photo-caption-4" >}}
+
+<div class="photo__line"></div>
+
+<!-- Friends living in inquilinato -->
+{{< photo-caption "/photo-stories/chap2" "photo-caption-5" >}}
