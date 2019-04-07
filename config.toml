@@ -74,45 +74,45 @@ canonifyURLs = "true"
     help = "Help"
 
 [[menu.main]]
-	name = "A Helping Hand"
+	name = "This is the first story description"
 	url = "/story1/"
   weight = 1
-  pre = "The first story is about this"
+  pre = "<h3 class='footer__story-topic'>Government Support</h3><p class='footer__story-title'>A Helping Hand</p>"
   post = "https://brookenf.github.io/uprooted-mejo584/images/cards-story1.jpg"
 
 [[menu.main]]
-  name = "Making It Work"
+  name = "This is the second story description"
   url = "/story2/"
   weight = 2
-  pre = "The second story is about this"
+  pre = "<h3 class='footer__story-topic'>Economy</h3><p class='footer__story-title'>Making It Work</p>"
   post = "/images/econ-homepagestill.jpg"
 
 [[menu.main]]
-  name = "Greater Than Death"
+  name = "This is the third story description"
   url = "/story3/"
   weight = 3
-  pre = "The third story is about this"
+  pre = "<h3 class='footer__story-topic'>Healthcare</h3><p class='footer__story-title'>Greater Than Death</p>"
   post = "/images/health-homepagestill.jpg"
 
 [[menu.main]]
-  name = "The Cost of Dreams"
+  name = "This is the fourth story description"
   url = "/story4/"
   weight = 4 
-  pre = "The fourth story is about this"
+  pre = "<h3 class='footer__story-topic'>Education</h3><p class='footer__story-title'>The Cost of Dreams</p>"
   post = "/images/education-homepagestill.png"
 
 [[menu.main]]
-  name = "A Mother's Sacrifice"
+  name = "This is the fifth story description"
   url = "/story5/"
   weight = 5
-  pre = "The fifth story is about this"
+  pre = "<h3 class='footer__story-topic'>Women</h3><p class='footer__story-title'>A Mother's Sacrifice</p>"
   post = "/images/women-homepagestill.jpg"
 
 [[menu.main]]
-  name = "Embracing Medellín"
+  name = "This is the photo stories description"
   url = "/photo-stories/"
   weight = 6
-  pre = "The photo story is about this"
+  pre = "<h3 class='footer__story-topic'>Photo Stories</h3><p class='footer__story-title'>Embracing Medellín</p>"
   post = "/images/photo-stories-homepagestill.jpg"
 
 [permalinks]

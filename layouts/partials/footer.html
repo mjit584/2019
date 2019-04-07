@@ -1,18 +1,24 @@
 <div class="footer-stories">
-  <div class="footer__title">You may also be interested in...</div>
-  {{partial "ybr-line.html" . }}
+  <div class="footer__title">Read more...</div>
 
 
-  <div class="footer__cards">
+  <div class="footer__cards flex">
     {{ $menu := .Site.Menus.main }}
+    {{ $topic := .Params.topic }}
     {{ $weight := .Params.weight }}
     {{ range $menu }}
     {{ if eq $.URL .URL }}
+    <a class="footer__card active" href="{{ .URL }}">
+      <img class="footer__img" src="{{ .Post }}">
+      <div class="footer__text">
+        {{ .Pre }}
+      </div>
+    </a>
     {{ else }}
     <a class="footer__card" href="{{ .URL }}">
       <img class="footer__img" src="{{ .Post }}">
-      <div class="footer__text flex">
-        <h3>{{ .Name }}</h3>
+      <div class="footer__text">
+        {{ .Pre }}
       </div>
     </a>
     {{ end }}
