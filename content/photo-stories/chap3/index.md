@@ -22,6 +22,3 @@ After traveling hundreds of miles on foot, a group of five Venezuelans, who toge
 {{< story-interactives "/photo-stories/chap3" "photo-image-map" >}}
 
 <div class="photo__line"></div>
-
-
-<div class="photo__line"></div>

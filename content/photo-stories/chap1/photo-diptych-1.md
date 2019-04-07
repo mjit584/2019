@@ -1,6 +1,6 @@
 ---
-img1: "assets/kiara-diptych-1.JPG"
-img2: "assets/kiara-diptych-2.JPG"
+img1: "assets/kiara-diptych-1.jpg"
+img2: "assets/kiara-diptych-2.jpg"
 alt1: "undefined"
 alt2: "undefined" 
 ---
