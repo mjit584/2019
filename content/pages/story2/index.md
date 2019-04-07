@@ -1,6 +1,6 @@
 ---
 title: "Making It Work"
-topic: "Economics"
+topic: "Economy"
 date: 2019-02-04T21:35:11-05:00
 description: "This is the description for the second story."
 video: "../story2/assets/econ-headervideo.mp4"

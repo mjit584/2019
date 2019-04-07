@@ -1,18 +1,18 @@
 ---
-title: "Road to Wellness"
-topic: "Women's Well-being"
+title: "A Mother's Sacrifice"
+topic: "Las Mujeres"
 date: 2019-02-04T21:36:06-05:00
 description: "This is the description for the fifth story."
-image: "https://brookenf.github.io/uprooted-mejo584/images/cards-story5.jpg"
-storyHeading: "Road to Wellness"
-storySubheading: "Waiting on the PEP"
+video: "../story5/assets/women-headervideo2.mp4"
+image: "/story5/assets/women-homepagestill.jpg"
+storyHeading: "A Mother's Sacrifice"
+storySubheading: "A mother gives her all to bring her family together"
 weight: 5
 card: true
 author: "Diane Adame"
-videographer: 
-- Landon Cooper 
-- Ashton Eleazer
-photographer: "Catie Dull"
+videographer: "Zayhra Rodriguez, Haley France"
+designer: "Amy Townsed"
+udea: "Margarita"
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lectus non sem scelerisque elementum. Sed tempor velit non urna lobortis sodales. Nunc vitae lectus sed justo eleifend lacinia sed nec mauris. Quisque pulvinar lorem sed neque sodales, vitae ultricies arcu eleifend. Sed suscipit est nulla, efficitur varius libero ultricies at. Nullam a mollis dui. Donec a felis sapien. Aliquam euismod nec ipsum sit amet consequat. Quisque faucibus arcu at sem congue, eget hendrerit turpis euismod. Praesent eleifend enim sit amet elit viverra, non volutpat diam tempor. Vivamus tempor nisi eget ultrices tristique. Morbi vitae pharetra felis, et faucibus magna. Quisque venenatis, lacus sit amet finibus ornare, massa ante facilisis sapien, quis tempor dui mauris sit amet urna.
 

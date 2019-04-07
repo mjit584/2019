@@ -1,62 +1,66 @@
 ---
-title: "Wasted Skills Abound"
-topic: "Employment"
+title: "Resolviendo"
+topic: "Economía"
 date: 2019-02-04T21:35:11-05:00
 description: "This is the description for the second story."
-image: "https://brookenf.github.io/uprooted-mejo584/images/cards-story2.jpeg"
-storyHeading: "Wasted Skills Abound"
-storySubheading: "3 Generations of Venezuelan women grow roots in Colombia"
+video: "../story2/assets/econ-headervideo.mp4"
+image: "/story2/assets/econ-homepagestill.jpg"
+storyHeading: "Making It Work"
+storySubheading: "Venezuelans find family and friends in soccer league"
 weight: 2
 card: true
-author: "Maria Vizcaino"
-videographer: 
-- Tenley Garrett 
-- Jason Armond
-photographer: "Catie Dull"
+author: "Brooklynn Cooper"
+videographer: "Bryan Cereijo, Abby Cantrell"
+designer: "Kailee Akers"
+udea: "Martín Villaneda"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lectus non sem scelerisque elementum. Sed tempor velit non urna lobortis sodales. Nunc vitae lectus sed justo eleifend lacinia sed nec mauris. Quisque pulvinar lorem sed neque sodales, vitae ultricies arcu eleifend. Sed suscipit est nulla, efficitur varius libero ultricies at. Nullam a mollis dui. Donec a felis sapien. Aliquam euismod nec ipsum sit amet consequat. Quisque faucibus arcu at sem congue, eget hendrerit turpis euismod. Praesent eleifend enim sit amet elit viverra, non volutpat diam tempor. Vivamus tempor nisi eget ultrices tristique. Morbi vitae pharetra felis, et faucibus magna. Quisque venenatis, lacus sit amet finibus ornare, massa ante facilisis sapien, quis tempor dui mauris sit amet urna.
+<p class="drop-cap">“¡Hay que terminar!”</p>
 
-Curabitur porttitor dignissim est vel imperdiet. Praesent ut dapibus purus. Proin pulvinar eget justo vel luctus. Phasellus non pellentesque lorem. Suspendisse nisl neque, pretium sed tristique vitae, accumsan id tellus. Sed dictum faucibus ornare. Sed euismod, augue nec bibendum sollicitudin, mi diam feugiat turpis, a lacinia tortor arcu porttitor nibh. Praesent eros lacus, viverra at lectus et, fermentum placerat est. Mauris massa lorem, mollis egestas aliquet ut, vestibulum vitae elit. Fusce fermentum iaculis neque, non tempus dui imperdiet sed.
+“You have to finish!” Soccer players with Adidas-striped shoulders shout from the sidelines as their teammates complete a four-on-four drill. The next wave of defenders entering the field cause black turf beads to fly through the Medellín night sky. One, wearing all white save for his neon yellow cleats, slides toward the ball, tripping up the offensive player looking for an open man.
 
-Praesent vel tortor efficitur, lobortis mauris et, imperdiet augue. Phasellus erat tellus, molestie dignissim dapibus in, varius et ex. Aenean laoreet nisi ac mauris consequat fermentum ut vitae odio. In malesuada feugiat justo in pellentesque. Quisque in augue a velit rutrum imperdiet sed ut est. Suspendisse id gravida nulla. In vestibulum erat id dapibus rutrum. Quisque interdum lacus id felis varius, quis convallis neque tincidunt. Donec hendrerit tellus nec maximus feugiat. Vivamus ut diam massa. Nulla non facilisis nisl. Nam vitae dolor erat. Curabitur auctor lacinia dapibus.
+“¡Sigue jugando!”
+
+“Keep playing!” The ball travels like a current between the defender’s feet, and he dribbles it to safety. A whistle signals the end of the play.
+
+The defender, Laurenti Velasquez, jogs off the field, content. When he’s playing soccer, he feels in control—of himself, of his surroundings. Nothing else matters. Not the anger he feels knowing his children are 900 miles away. Not the sadness thinking about the empty-shelved supermarkets in his home country. Not Venezuela’s unfathomable 10 million percent inflation rate that climbs higher daily.
+
+But when  he leaves the field, everything comes back. TK. TK. The home he left behind. The 25-year-old immigrated to Colombia in 2016, but he thinks about Venezuela every day. He has to. His two children, 3 and 5, are still there, and so is his mother. Every month, he sends 380,000 pesos ($119) to his children, about 40 percent of his salary.
+
+Hundreds of thousands of Venezuelans share Velasquez’s story. In the last five years, inflation has risen from 57 percent to 10 million percent, causing more than 3 million Venezuelans to flee the country. Over a third of them are in Colombia. Although over 10 percent of the country has emigrated, the rest remain in Venezuela, unable to pay for groceries, medication and other necessities. Most (get numbers) of them rely on remittances from loved ones. In 2018 alone, economists estimated that Venezuelans living abroad sent more than $1 billion to relatives unable to leave.
 
 <div id="video-top"></div>
 
+<!-- Economic story video goes here -->
 {{< vimeo id="264260511" class="video-container flex" >}}
 
-Ut auctor sodales lorem, sit amet dictum risus sodales eu. Cras posuere augue at lorem lacinia, sit amet placerat urna tempus. Etiam nec placerat justo, congue molestie ex. Pellentesque condimentum at neque sit amet euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean ac nulla sit amet eros gravida auctor quis et metus. Duis placerat tristique ante id fringilla.
+Venezuela’s inflation rate has been abruptly rising and falling since the late 1980s. One of the most significant jumps happened in 1989, when the rate increased from 11 percent to almost 85 percent. The country’s GDP was at one of its lowest points, and the government responded by removing gasoline subsidies. Venezuela has the largest oil reserves in the world, and people were used to getting gas for almost nothing. Riots broke out across the country, killing hundreds of people.
 
-Nulla facilisi. Maecenas malesuada scelerisque urna quis tempus. Nullam non quam accumsan, semper libero eget, maximus orci. Praesent non enim lorem. Pellentesque ut suscipit purus. Sed suscipit ligula in mi laoreet molestie. Nulla condimentum congue vestibulum. Pellentesque semper, nibh et imperdiet lobortis, ante odio aliquet justo, varius molestie nibh elit et purus. In placerat quam neque, et posuere massa cursus id. Suspendisse magna augue, fringilla ac odio at, maximus malesuada turpis.
+Just after former President Hugo Chávez’s election in 1999, the global price of oil increased, bringing trillions of dollars into the country’s treasury. He used the money to fund social programs to provide education, medical services and food for low-income communities. At that point, almost 43 percent of Venezuela’s population was below the poverty line.
 
-Donec pulvinar quam felis, vel vestibulum enim laoreet vel. Proin ac lorem congue, pulvinar dui id, vulputate turpis. Vestibulum molestie nibh vel cursus bibendum. Donec nec velit varius, ornare purus ac, aliquam tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eros laoreet, finibus velit a, posuere felis. Maecenas cursus tincidunt felis, vitae pellentesque eros rhoncus varius. Nullam est odio, laoreet at malesuada sollicitudin, pharetra a lectus. Nullam augue nibh, finibus venenatis eleifend consequat, ornare vitae nisl. Mauris ac felis purus. Morbi vel turpis rhoncus, semper lorem ut, sodales velit. Vivamus ac est nec leo scelerisque facilisis ac id lacus. Quisque rutrum non ipsum ut pharetra. Cras vitae ex felis. Pellentesque sit amet erat et dolor semper pharetra.
 
-{{< story1-scrollytelly >}}
+The money also paid for Russian weaponry and extremely discounted oil to allies like Cuba. Chávez started a program called Petrocaribe that allowed Caribbean countries to exchange local goods such as bananas and sugar for oil. The money quickly depleted. By the time oil prices plummeted in 2014, Venezuela couldn’t recover.
 
-Sed tincidunt mattis urna, ut fringilla erat lacinia sit amet. Suspendisse in efficitur metus. Mauris hendrerit nunc sit amet purus auctor, eu porttitor urna rutrum. Sed lacinia, mi vitae aliquet volutpat, ligula libero dapibus enim, id pretium magna odio non odio. Duis hendrerit nisi nec lectus porta eleifend. Duis ut venenatis ex, sit amet tempor ligula. Donec vel mi dapibus, pharetra enim quis, tincidunt arcu. Integer semper eleifend lectus, eu consectetur lacus feugiat non. Morbi quis neque et libero varius vehicula.
+{{< story-interactives "pages/story2" "econ-bolivar-int" >}}
 
-Curabitur sit amet vestibulum mauris, id tempus magna. Vivamus id nunc nec turpis semper auctor sit amet eget nibh. Nullam at nunc a ligula tempor facilisis sollicitudin eu mauris. Phasellus venenatis mattis porta. Mauris consectetur orci sit amet augue vestibulum tempus. Curabitur lobortis est nisl, eget accumsan lacus tincidunt ac. Phasellus dignissim feugiat dui, venenatis imperdiet nunc porttitor placerat. Vestibulum lobortis eros purus, nec elementum nulla auctor eu. Etiam tempus magna eget nunc porttitor, non ultrices arcu consequat. Nam in ex et eros condimentum porttitor vel vitae ex. Praesent vel nisl nisl. Suspendisse malesuada massa mi, a molestie lorem ultricies ut. Praesent ac dictum purus, efficitur tincidunt magna. Integer ut iaculis sapien, non porttitor justo. Cras accumsan nisl ut lacinia tempor. Nunc ullamcorper nisl ac velit molestie, vitae rutrum augue porta.
+The country’s central bank stopped releasing economic information such as the inflation rate and public spending in 2014. Now the main legislative body, the National Assembly—controlled by the opposition—publishes data. Venezuela’s GDP has steadily dropped since 2013. By 2017, over 87 percent of the population lived below the poverty line.
 
-Nunc faucibus aliquet mauris vel fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam odio arcu, efficitur id placerat quis, imperdiet semper justo. Phasellus consectetur justo in posuere laoreet. Nulla fringilla dolor erat, a venenatis velit congue pretium. Vestibulum finibus sem in interdum vestibulum. Ut cursus risus ligula, eu sagittis dolor lobortis a. Sed arcu urna, varius tristique leo at, accumsan gravida velit. Morbi in nisl id quam convallis tincidunt. Integer pharetra viverra tellus eget vulputate. Nunc id mi viverra, pretium lacus in, vulputate ligula. Curabitur ac urna ex.
+President Nicolás Maduro tried to renegotiate international loans in 2017, but U.S. sanctions against the country made it impossible. Venezuela slid further into debt.
 
-Quisque eget tortor dignissim dui commodo iaculis. Ut nec varius libero. Nulla ultricies sodales diam, quis pharetra quam malesuada ac. Morbi non fringilla nisl. Sed a turpis non nulla ultrices condimentum sit amet sed nisi. Ut sodales tristique tempor. Quisque efficitur purus enim, non egestas augue finibus quis. Nulla a ipsum dui. Donec euismod, dui vel ultricies euismod, ligula elit hendrerit augue, ut ornare enim neque quis nunc. Phasellus non feugiat ipsum. Mauris tristique felis a est ultricies cursus. Fusce semper, neque eu mattis facilisis, purus nisi fermentum elit, vel commodo urna quam sit amet orci. Duis ipsum turpis, sollicitudin nec euismod venenatis, pharetra eu tellus. Ut efficitur metus ut mauris tempus, ac dictum nibh pharetra.
+{{< story-interactives "pages/story2" "econ-inflation-int" >}}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lectus non sem scelerisque elementum. Sed tempor velit non urna lobortis sodales. Nunc vitae lectus sed justo eleifend lacinia sed nec mauris. Quisque pulvinar lorem sed neque sodales, vitae ultricies arcu eleifend. Sed suscipit est nulla, efficitur varius libero ultricies at. Nullam a mollis dui. Donec a felis sapien. Aliquam euismod nec ipsum sit amet consequat. Quisque faucibus arcu at sem congue, eget hendrerit turpis euismod. Praesent eleifend enim sit amet elit viverra, non volutpat diam tempor. Vivamus tempor nisi eget ultrices tristique. Morbi vitae pharetra felis, et faucibus magna. Quisque venenatis, lacus sit amet finibus ornare, massa ante facilisis sapien, quis tempor dui mauris sit amet urna.
+In January, National Assembly President Juan Guaidó declared himself interim president after Maduro’s second election was deemed rigged. The U.S., Canada, Brazil and about 50 other countries have recognized Guaidó as president. Russia, China and Cuba still support Maduro.
 
-Curabitur porttitor dignissim est vel imperdiet. Praesent ut dapibus purus. Proin pulvinar eget justo vel luctus. Phasellus non pellentesque lorem. Suspendisse nisl neque, pretium sed tristique vitae, accumsan id tellus. Sed dictum faucibus ornare. Sed euismod, augue nec bibendum sollicitudin, mi diam feugiat turpis, a lacinia tortor arcu porttitor nibh. Praesent eros lacus, viverra at lectus et, fermentum placerat est. Mauris massa lorem, mollis egestas aliquet ut, vestibulum vitae elit. Fusce fermentum iaculis neque, non tempus dui imperdiet sed.
+Today, a box of cereal in Venezuela costs more than the average person’s monthly salary. People can’t afford housing or toiletries. Guaido has tried to import humanitarian aid, but Maduro’s officials at the Colombian border destroyed trucks full of necessities. Maduro labeled the event as an attempt to overthrow his administration.
 
-Praesent vel tortor efficitur, lobortis mauris et, imperdiet augue. Phasellus erat tellus, molestie dignissim dapibus in, varius et ex. Aenean laoreet nisi ac mauris consequat fermentum ut vitae odio. In malesuada feugiat justo in pellentesque. Quisque in augue a velit rutrum imperdiet sed ut est. Suspendisse id gravida nulla. In vestibulum erat id dapibus rutrum. Quisque interdum lacus id felis varius, quis convallis neque tincidunt. Donec hendrerit tellus nec maximus feugiat. Vivamus ut diam massa. Nulla non facilisis nisl. Nam vitae dolor erat. Curabitur auctor lacinia dapibus.
+{{< story-interactives "pages/story2" "econ-exchange-int" >}}
 
-Ut auctor sodales lorem, sit amet dictum risus sodales eu. Cras posuere augue at lorem lacinia, sit amet placerat urna tempus. Etiam nec placerat justo, congue molestie ex. Pellentesque condimentum at neque sit amet euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean ac nulla sit amet eros gravida auctor quis et metus. Duis placerat tristique ante id fringilla.
+{{< pull-quote "/pages/story2" "pull-quote-2" >}}
 
-Nulla facilisi. Maecenas malesuada scelerisque urna quis tempus. Nullam non quam accumsan, semper libero eget, maximus orci. Praesent non enim lorem. Pellentesque ut suscipit purus. Sed suscipit ligula in mi laoreet molestie. Nulla condimentum congue vestibulum. Pellentesque semper, nibh et imperdiet lobortis, ante odio aliquet justo, varius molestie nibh elit et purus. In placerat quam neque, et posuere massa cursus id. Suspendisse magna augue, fringilla ac odio at, maximus malesuada turpis.
+“¡Dale, dale, dale!”
 
-Donec pulvinar quam felis, vel vestibulum enim laoreet vel. Proin ac lorem congue, pulvinar dui id, vulputate turpis. Vestibulum molestie nibh vel cursus bibendum. Donec nec velit varius, ornare purus ac, aliquam tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eros laoreet, finibus velit a, posuere felis. Maecenas cursus tincidunt felis, vitae pellentesque eros rhoncus varius. Nullam est odio, laoreet at malesuada sollicitudin, pharetra a lectus. Nullam augue nibh, finibus venenatis eleifend consequat, ornare vitae nisl. Mauris ac felis purus. Morbi vel turpis rhoncus, semper lorem ut, sodales velit. Vivamus ac est nec leo scelerisque facilisis ac id lacus. Quisque rutrum non ipsum ut pharetra. Cras vitae ex felis. Pellentesque sit amet erat et dolor semper pharetra.
+“Go, go, go!” Velasquez stands beside the goal, shifting his weight from one Adidas cleat to the other while he waits for the next rotation in the drill. His coach walks toward the middle of the field, unfazed by the players scrambling for the ball around him. Once he reaches the half field line, he scans the scene in front of him, watching the men for technique.
 
-Sed tincidunt mattis urna, ut fringilla erat lacinia sit amet. Suspendisse in efficitur metus. Mauris hendrerit nunc sit amet purus auctor, eu porttitor urna rutrum. Sed lacinia, mi vitae aliquet volutpat, ligula libero dapibus enim, id pretium magna odio non odio. Duis hendrerit nisi nec lectus porta eleifend. Duis ut venenatis ex, sit amet tempor ligula. Donec vel mi dapibus, pharetra enim quis, tincidunt arcu. Integer semper eleifend lectus, eu consectetur lacus feugiat non. Morbi quis neque et libero varius vehicula.
+“Allí está.”
 
-Curabitur sit amet vestibulum mauris, id tempus magna. Vivamus id nunc nec turpis semper auctor sit amet eget nibh. Nullam at nunc a ligula tempor facilisis sollicitudin eu mauris. Phasellus venenatis mattis porta. Mauris consectetur orci sit amet augue vestibulum tempus. Curabitur lobortis est nisl, eget accumsan lacus tincidunt ac. Phasellus dignissim feugiat dui, venenatis imperdiet nunc porttitor placerat. Vestibulum lobortis eros purus, nec elementum nulla auctor eu. Etiam tempus magna eget nunc porttitor, non ultrices arcu consequat. Nam in ex et eros condimentum porttitor vel vitae ex. Praesent vel nisl nisl. Suspendisse malesuada massa mi, a molestie lorem ultricies ut. Praesent ac dictum purus, efficitur tincidunt magna. Integer ut iaculis sapien, non porttitor justo. Cras accumsan nisl ut lacinia tempor. Nunc ullamcorper nisl ac velit molestie, vitae rutrum augue porta.
-
-Nunc faucibus aliquet mauris vel fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam odio arcu, efficitur id placerat quis, imperdiet semper justo. Phasellus consectetur justo in posuere laoreet. Nulla fringilla dolor erat, a venenatis velit congue pretium. Vestibulum finibus sem in interdum vestibulum. Ut cursus risus ligula, eu sagittis dolor lobortis a. Sed arcu urna, varius tristique leo at, accumsan gravida velit. Morbi in nisl id quam convallis tincidunt. Integer pharetra viverra tellus eget vulputate. Nunc id mi viverra, pretium lacus in, vulputate ligula. Curabitur ac urna ex.
-
-Quisque eget tortor dignissim dui commodo iaculis. Ut nec varius libero. Nulla ultricies sodales diam, quis pharetra quam malesuada ac. Morbi non fringilla nisl. Sed a turpis non nulla ultrices condimentum sit amet sed nisi. Ut sodales tristique tempor. Quisque efficitur purus enim, non egestas augue finibus quis. Nulla a ipsum dui. Donec euismod, dui vel ultricies euismod, ligula elit hendrerit augue, ut ornare enim neque quis nunc. Phasellus non feugiat ipsum. Mauris tristique felis a est ultricies cursus. Fusce semper, neque eu mattis facilisis, purus nisi fermentum elit, vel commodo urna quam sit amet orci. Duis ipsum turpis, sollicitudin nec euismod venenatis, pharetra eu tellus. Ut efficitur metus ut mauris tempus, ac dictum nibh pharetra.
+“There it is.”  The coach nods, and another whistle ends the drill.

@@ -77,7 +77,7 @@ canonifyURLs = "true"
 	name = "This is the first story description"
 	url = "/story1/"
   weight = 1
-  pre = "<h3 class='footer__story-topic'>Government Support</h3><p class='footer__story-title'>A Helping Hand</p>"
+  pre = "<h3 class='footer__story-topic'>Government Support</h3><p class='footer__story-title'>Finding Your Voice</p>"
   post = "https://brookenf.github.io/uprooted-mejo584/images/cards-story1.jpg"
 
 [[menu.main]]
