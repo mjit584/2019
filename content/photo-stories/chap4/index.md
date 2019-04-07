@@ -19,12 +19,30 @@ Creating a new life in a new country is no easy feat, especially for the Venezue
 
 <div class="photo__line"></div>
 
-{{< photo-caption "/photo-stories/chap2" "photo-caption-1" >}}
+<h2 class="photo__subhead flex">Linelvy Rivas</h2>
+{{< photo-caption-vert "/photo-stories/chap4" "photo-caption-1-vert" >}}
 
 <div class="photo__line"></div>
 
-{{< photo-caption-vert "/photo-stories/chap2" "photo-caption-vert-1" >}}
+<h2 class="photo__subhead flex">Richard Javier Fariñas Herrera</h2>
+{{< photo-caption-vert "/photo-stories/chap4" "photo-caption-2-vert" >}}
 
 <div class="photo__line"></div>
 
-{{< story-interactives "/photo-stories/chap1" "photo-migration-int" >}}
+<h2 class="photo__subhead flex">Oneidys Alejandra Rodríguez</h2>
+{{< photo-caption-vert "/photo-stories/chap4" "photo-caption-3-vert" >}}
+
+<div class="photo__line"></div>
+
+<h2 class="photo__subhead flex">Jonathan Freites</h2>
+{{< photo-caption-vert "/photo-stories/chap4" "photo-caption-4-vert" >}}
+
+<div class="photo__line"></div>
+
+<h2 class="photo__subhead flex">Rui Pereira</h2>
+{{< photo-caption-vert "/photo-stories/chap4" "photo-caption-5-vert" >}}
+
+<div class="photo__line"></div>
+
+<h2 class="photo__subhead flex">Raul Vargas</h2>
+{{< photo-caption-vert "/photo-stories/chap4" "photo-caption-6-vert" >}}

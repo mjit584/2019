@@ -489,23 +489,8 @@ nav {
       width: 84vw; }
     .chap .photo__content .photo__subhead {
       font-family: "DDinBold", sans-serif;
-      max-width: 50vw;
-      margin: 0 auto;
-      font-size: 2rem;
-      justify-content: flex-start;
-      align-items: flex-start;
-      max-width: 50%;
-      margin: 0 auto; }
-      .chap .photo__content .photo__subhead .ybr-line {
-        margin-top: 1%;
-        max-width: 10vw; }
-        .chap .photo__content .photo__subhead .ybr-line .ybr-section {
-          stroke-width: 4; }
-      .chap .photo__content .photo__subhead .ybr-line {
-        transition: 1s opacity; }
-      .chap .photo__content .photo__subhead .drop-cap:first-letter {
-        font-size: 3rem;
-        float: left; }
+      margin: 2% auto;
+      font-size: 2rem; }
     .chap .photo__content .interactive__image {
       position: relative;
       display: flex;
