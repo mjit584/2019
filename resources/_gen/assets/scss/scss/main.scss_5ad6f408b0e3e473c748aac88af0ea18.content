@@ -284,7 +284,7 @@ body {
     z-index: 1; }
     .story-page .photo__progress .progress__bar {
       height: 0.7vh;
-      background: #1457D3;
+      background: #Fbbc00;
       width: 0%; }
   .story-page footer {
     grid-area: story-ft; }
@@ -529,7 +529,7 @@ nav {
     z-index: 1; }
     .chap .photo__progress .progress__bar {
       height: 0.7vh;
-      background: #1457D3;
+      background: #Fbbc00;
       width: 0%; }
   .chap footer {
     grid-area: story-ft; }
