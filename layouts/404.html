@@ -1,0 +1,45 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}error-page{{ end }}
+{{ define "main" }}
+{{ partial "main-menu-mobile.html" . }}
+<nav>
+  <!--full screen-->
+  <div class="header" id="header">
+    {{ partial "header.html" . }}
+  </div>
+  <!--hamburger-->
+  <div class="header-mobile" id="hamburger">
+    {{ partial "hamburger.html" . }}
+  </div>
+</nav>
+
+<section class="error__container">
+  <div class="error__text flex-column">
+    <h2>Hey, you've come to the wrong place!</h2>
+    <p>We're so glad you're checking out our website, Uprooted, so while you're a little lost, enjoy these
+      behind-the-scenes photos</p>
+  </div>
+</section>
+
+
+<footer class="flex-column">
+  {{ partial "footer.html" . }}
+</footer>
+
+{{ end }}
+
+{{define "scripts" }}
+{{ $scripts := resources.Get "js/scripts.js" }}
+{{ $header := resources.Get "js/header.js" }}
+{{ $hamburger := resources.Get "js/hamburger.js"}}
+{{ $404 := resources.Get "js/404.js"}}
+{{ $404bundle := slice $scripts $header $hamburger $404 | resources.Concat "js/404bundle.js" }}
+
+
+{{ if .Site.IsServer }}
+<script type="text/javascript" src="{{ $404bundle.RelPermalink }}"></script>
+{{ else }}
+<script type="text/javascript" src="{{ ($404bundle | minify | fingerprint).RelPermalink }}"></script>
+{{ end }}
+
+{{end }}

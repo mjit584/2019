@@ -92,7 +92,7 @@
 
 <!-- Weight 5 = women story -->
 {{else if eq .Weight 5}}
-{{ $womenBundle := slice $scripts $header $progressBar $videos $hamburger $womenInt | resources.Concat "js/wonenBundle.js" }}
+{{ $womenBundle := slice $scripts $header $progressBar $videos $hamburger $womenInt | resources.Concat "js/womenBundle.js" }}
 
 {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $womenBundle.RelPermalink }}"></script>
