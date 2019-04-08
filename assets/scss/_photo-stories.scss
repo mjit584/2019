@@ -1,36 +1,124 @@
 .photo-stories {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 100vh;
-  grid-template-areas:
-    'chap1 chap2 chap3 chap4';
-  
-  
-  #chap1 {
-    grid-area: chap1;
-    background-image: url(../images/photo-chap-1-hero.jpg);
-    background-size: cover;
-    background-position: center;
-  }
+  .photo-stories__menu {
+    margin: auto;
+    margin-top: 55px;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
 
-  #chap2 {
-    grid-area: chap2;
-    background-image: url(../images/photo-chap-2-hero.jpg);
-    background-size: cover;
-    background-position: center;
-  }
+    @media screen and (max-width: 800px) {
+      margin-top: 0;
+      height: calc(100vh - 68px);
+    }
 
-  #chap3 {
-    grid-area: chap3;
-    background-image: url(../images/photo-chap-3-hero.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-  
-  #chap4 {
-    grid-area: chap4;
-    background-image: url(../images/photo-chap-4-hero.jpg);
-    background-size: cover;
-    background-position: center;
+    .photo-stories__chap {
+      position: relative;
+      flex-basis: 20vw;
+      margin: 10vh 1rem;
+      height: calc(80vh - 55px);
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+
+      @media screen and (max-width: 800px) {
+        height: auto;
+        margin: 0;
+        flex-basis: 100%;
+        height: 25%;
+      }
+
+      &::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-image: 
+        linear-gradient(
+          rgba(0, 0, 0, .75),
+          rgba(0, 0, 0, 0)
+         );
+        z-index: 0;
+      }
+
+      &:hover,
+      &:active {
+        &::before {
+          background-image: 
+          linear-gradient(
+            rgba(255, 255, 255, 1),
+            rgba(255, 255, 255, .5)
+          );
+        }
+
+        .chap__text {
+          color: $black;
+
+          .chap__button {
+            width: 115px;
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+          }
+        }
+      }
+
+      .chap__img {
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+      }
+
+      .chap__text {
+        position: absolute;
+        top: 5%; left: 0; right: 0; bottom: 10%;
+        justify-content: space-between;
+        font-family: $font-card-title;
+        color: $white;
+
+        .ybr-line {
+          height: 10px;
+          max-width: 50%;
+
+          .ybr-section {
+            stroke-width: 3;
+          }
+        }
+
+        .chap__title {
+          margin-bottom: .5rem;
+        }
+
+        .chap__button {
+          font-family: $font-button;
+          position: relative;
+          text-transform: uppercase;
+          background-color: $red;
+          border-radius: 30px;
+          height: 28px;
+          width: 35px;
+          padding: 0 5px;
+          overflow: hidden;
+          white-space: nowrap;
+          margin: 0 auto;
+          opacity: 0;
+          transform: translate3d(0, 20px, 0);
+          transition: opacity .3s cubic-bezier(.4, 0, .2, 1), transform .3s cubic-bezier(.4, 0, .2, 1), width .5s ease .5s;
+
+          @media screen and (max-width: 800px) {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+          }
+
+          a {
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            color: $white;
+            text-decoration: none;
+          }
+        }
+      }
+    }
   }
 }

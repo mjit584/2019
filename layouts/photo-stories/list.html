@@ -1,23 +1,68 @@
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}photo-stories{{ end }}
 {{ define "header_classes" }}{{ end }}
-
 {{ define "main" }}
-<header class="header" id="header">
-  {{ partial "header.html" . }}
-</header>
+{{ partial "main-menu-mobile.html" . }}
+<nav>
+  <!--full screen-->
+  <div class="header" id="header">
+    {{ partial "header.html" . }}
+  </div>
+  <!--hamburger-->
+  <div class="header-mobile" id="hamburger">
+    {{ partial "hamburger.html" . }}
+  </div>
+</nav>
 
-<div id="chap1" class="interactive__chap1 flex-column">
-  <a href="chap1">Chapter One</a>
-</div>
-<div id="chap2" class="interactive__chap2 flex-column">
-  <a href="chap2">Chapter Two</a>
-</div>
-<div id="chap3" class="interactive__chap3 flex-column">
-  <a href="chap3">Chapter Three</a>
-</div>
-<div id="chap4" class="interactive__chap4 flex-column">
-  <a href="chap4">Chapter Four</a>
+<div class="photo-stories__menu flex">
+  <div id="chap1" class="photo-stories__chap">
+    <img class="chap__img" src="/images/photo-chap-1-hero.jpg">
+    <div class="chap__text flex-column">
+      <div>
+        <h3 class="chap__title">What They Carry</h3>
+        {{ partial "ybr-line.html" }}
+      </div>
+      <div class="chap__button">
+        <a href="chap1">Explore &nbsp; <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+  <div id="chap2" class="photo-stories__chap">
+    <img class="chap__img" src="/images/photo-chap-2-hero.jpg">
+    <div class="chap__text flex-column">
+      <div>
+        <h3 class="chap__title">A New Home</h3>
+        {{ partial "ybr-line.html" }}
+      </div>
+      <div class="chap__button">
+        <a href="chap2">Explore &nbsp; <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+  <div id="chap3" class="photo-stories__chap">
+    <img class="chap__img" src="/images/photo-chap-3-hero.jpg">
+    <div class="chap__text flex-column">
+      <div>
+        <h3 class="chap__title">A Family, Together</h3>
+        {{ partial "ybr-line.html" }}
+      </div>
+      <div class="chap__button">
+        <a href="chap3">Explore &nbsp; <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+  <div id="chap4" class="photo-stories__chap">
+    <img class="chap__img" src="/images/photo-chap-4-hero.jpg">
+    <div class="chap__text flex-column">
+      <div>
+        <h3 class="chap__title">Making It In Medellín</h3>
+        {{ partial "ybr-line.html" }}
+      </div>
+      <div class="chap__button">
+        <a href="chap4">Explore &nbsp; <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
 </div>
 {{ end }}
 
