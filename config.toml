@@ -77,42 +77,42 @@ canonifyURLs = "true"
 	name = "This is the first story description"
 	url = "/story1/"
   weight = 1
-  pre = "<h3 class='footer__story-topic'>Government Support</h3><p class='footer__story-title'>Finding Your Voice</p>"
+  pre = "<p class='story-topic'>Government Support</p><h3 class='story-title'>Finding Your Voice</h3>"
   post = "https://brookenf.github.io/uprooted-mejo584/images/cards-story1.jpg"
 
 [[menu.main]]
   name = "This is the second story description"
   url = "/story2/"
   weight = 2
-  pre = "<h3 class='footer__story-topic'>Economy</h3><p class='footer__story-title'>Making It Work</p>"
+  pre = "<p class='story-topic'>Economy</p><h3 class='story-title'>Making It Work</h3>"
   post = "/images/econ-homepagestill.jpg"
 
 [[menu.main]]
   name = "This is the third story description"
   url = "/story3/"
   weight = 3
-  pre = "<h3 class='footer__story-topic'>Healthcare</h3><p class='footer__story-title'>Greater Than Death</p>"
+  pre = "<p class='story-topic'>Healthcare</p><h3 class='story-title'>Greater Than Death</h3>"
   post = "/images/health-homepagestill.jpg"
 
 [[menu.main]]
   name = "This is the fourth story description"
   url = "/story4/"
   weight = 4 
-  pre = "<h3 class='footer__story-topic'>Education</h3><p class='footer__story-title'>The Cost of Dreams</p>"
+  pre = "<p class='story-topic'>Education</p><h3 class='story-title'>The Cost of Dreams</h3>"
   post = "/images/education-homepagestill.png"
 
 [[menu.main]]
   name = "This is the fifth story description"
   url = "/story5/"
   weight = 5
-  pre = "<h3 class='footer__story-topic'>Women</h3><p class='footer__story-title'>A Mother's Sacrifice</p>"
+  pre = "<p class='story-topic'>Women</p><h3 class='story-title'>A Mother's Sacrifice</h3>"
   post = "/images/women-homepagestill.jpg"
 
 [[menu.main]]
   name = "This is the photo stories description"
   url = "/photo-stories/"
   weight = 6
-  pre = "<h3 class='footer__story-topic'>Photo Stories</h3><p class='footer__story-title'>Embracing Medellín</p>"
+  pre = "<p class='story-topic'>Photo Stories</p><h3 class='story-title'>Embracing Medellín</h3>"
   post = "/images/photo-stories-homepagestill.jpg"
 
 [permalinks]

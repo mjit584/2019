@@ -79,7 +79,11 @@
     z-index: 1;
     padding: 0 10%;
 
-    .card__title {
+    .story-topic {
+      display: none;
+    }
+
+    .story-title {
       font-family: $font-card-title;
       margin-bottom: 5px;
     }

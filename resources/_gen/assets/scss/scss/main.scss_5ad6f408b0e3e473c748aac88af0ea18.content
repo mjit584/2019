@@ -1029,7 +1029,9 @@ nav {
     transform: translate(-50%, -50%);
     z-index: 1;
     padding: 0 10%; }
-    .main-menu .card__text .card__title {
+    .main-menu .card__text .story-topic {
+      display: none; }
+    .main-menu .card__text .story-title {
       font-family: "DDinBold", sans-serif;
       margin-bottom: 5px; }
     .main-menu .card__text .ybr-line {
@@ -2118,11 +2120,11 @@ footer {
         font-family: "DDinBold", sans-serif;
         color: #333333;
         transition: all .25s; }
-        footer .footer__cards .footer__card .footer__text .footer__story-topic {
+        footer .footer__cards .footer__card .footer__text .story-topic {
           text-transform: uppercase;
           font-size: .75rem;
           margin-bottom: .2rem; }
-        footer .footer__cards .footer__card .footer__text .footer__story-title {
+        footer .footer__cards .footer__card .footer__text .story-title {
           margin-top: 0;
           font-size: 1.375rem; }
   footer .footer__line {
