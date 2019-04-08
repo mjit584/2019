@@ -1,0 +1,152 @@
+#interactive__gov-birthright {
+  position: relative;
+  transition: 0.7s;
+  margin:0 auto;
+  width:75%;
+
+.interactive__intro {
+   text-align: left;
+}
+.bottom-text {
+    font-size: 1rem;
+    color: #aaa;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+}
+  /* slideshow */
+  .mySlides-birthright {
+    // width: 100vw;
+    display: none;
+    flex-direction: column;
+    min-height:400px;
+  }
+  img {vertical-align: middle;}
+
+  .slideshow-buttons {
+    justify-content: space-between;
+  }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 20px;
+    margin-top: -22px;
+    color: $black;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.5s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: $white;
+  }
+
+.dot-Birthright {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: $grey;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+.dot-Birthright:hover {
+    background-color: $yellow;
+  }
+
+  .slide-image {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-gap:1vw;
+    text-align: right;
+    margin:40px 0;
+    img {
+      max-height: 200px;
+      max-width:100%;
+      float:right;
+    }
+  }
+
+  .slide-txt, .slide-txt2 {
+    text-align: left;
+    font-size: 14pt;
+    color: $black;
+    font-family:  $font-int-gov;
+    padding-right: 70px;
+    p {
+      margin-top:0;
+    }
+  }
+  .slide-txt2 {
+    padding-left:30px;
+  }
+}
+  /* mobile css */
+
+@media (max-width: 800px) {
+  #interactive__gov-undocumented {
+    width:100%;
+
+    #r-2 {
+      flex-direction: column;
+      width: 100;
+      margin: 0 10vw;
+    }
+    .slide-image {
+      grid-template-columns: 1fr;
+    }
+    .document-img img {
+      max-height:150px;
+    }
+
+    .document-box {
+      border-bottom-width: 0;
+    }
+
+    .document-box:hover {
+      border-bottom-width: 0;
+    }
+    .slide-txt, .slide-txt2 {
+      padding:0 10vw
+    }
+
+    .back-button {
+      margin-left: 5vh;
+    }
+
+    .information-title{
+      font-size: 30px;
+      border-bottom-width: 5px;
+    }
+  }
+
+
+  @media (max-width: 500px) {
+
+    #r-2 {
+      flex-direction: column;
+      width: 100%;
+    }
+    .slide-img {
+      display: none;
+    }
+
+    .bottom-text {
+      font-size: 15px;
+    }
+
+    .slide-image {
+      height: 85vh;
+    }
+  }
+}
