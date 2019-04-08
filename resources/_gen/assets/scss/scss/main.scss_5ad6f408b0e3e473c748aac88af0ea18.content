@@ -1323,7 +1323,8 @@ nav {
     font-weight: 400; }
   .interactive .interactive__intro {
     font-family: "Lato", sans-serif;
-    margin-top: 0 !important; }
+    margin-top: 0 !important;
+    font-size: 1.2rem; }
   .interactive .interactive__body {
     font-family: "Lato", sans-serif;
     font-weight: 400; }
@@ -1976,6 +1977,112 @@ nav {
     cursor: pointer;
     border-bottom: solid 0px;
     border-bottom-color: #ffffff; } }
+
+#interactive__gov-birthright {
+  position: relative;
+  transition: 0.7s;
+  margin: 0 auto;
+  width: 75%;
+  /* slideshow */ }
+  #interactive__gov-birthright .interactive__intro {
+    text-align: left; }
+  #interactive__gov-birthright .bottom-text {
+    font-size: 1rem;
+    color: #aaa;
+    font-style: italic; }
+  #interactive__gov-birthright .mySlides-birthright {
+    display: none;
+    flex-direction: column;
+    min-height: 400px; }
+  #interactive__gov-birthright img {
+    vertical-align: middle; }
+  #interactive__gov-birthright .slideshow-buttons {
+    justify-content: space-between; }
+  #interactive__gov-birthright .prev, #interactive__gov-birthright .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 20px;
+    margin-top: -22px;
+    color: #333333;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.5s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none; }
+  #interactive__gov-birthright .next {
+    right: 0;
+    border-radius: 3px 0 0 3px; }
+  #interactive__gov-birthright .prev:hover, #interactive__gov-birthright .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff; }
+  #interactive__gov-birthright .dot-Birthright {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #aaa;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease; }
+  #interactive__gov-birthright .active {
+    background-color: #Fbbc00; }
+  #interactive__gov-birthright .slide-image {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-gap: 1vw;
+    text-align: right;
+    margin: 40px 0; }
+    #interactive__gov-birthright .slide-image img {
+      max-height: 200px;
+      max-width: 100%;
+      float: right; }
+  #interactive__gov-birthright .slide-txt, #interactive__gov-birthright .slide-txt2 {
+    text-align: left;
+    font-size: 14pt;
+    color: #333333;
+    font-family: "Lato", sans-serif;
+    padding-right: 70px; }
+    #interactive__gov-birthright .slide-txt p, #interactive__gov-birthright .slide-txt2 p {
+      margin-top: 0; }
+  #interactive__gov-birthright .slide-txt2 {
+    padding-left: 30px; }
+
+/* mobile css */
+@media (max-width: 800px) {
+  #interactive__gov-undocumented {
+    width: 100%; }
+    #interactive__gov-undocumented #r-2 {
+      flex-direction: column;
+      width: 100;
+      margin: 0 10vw; }
+    #interactive__gov-undocumented .slide-image {
+      grid-template-columns: 1fr; }
+    #interactive__gov-undocumented .document-img img {
+      max-height: 150px; }
+    #interactive__gov-undocumented .document-box {
+      border-bottom-width: 0; }
+    #interactive__gov-undocumented .document-box:hover {
+      border-bottom-width: 0; }
+    #interactive__gov-undocumented .slide-txt, #interactive__gov-undocumented .slide-txt2 {
+      padding: 0 10vw; }
+    #interactive__gov-undocumented .back-button {
+      margin-left: 5vh; }
+    #interactive__gov-undocumented .information-title {
+      font-size: 30px;
+      border-bottom-width: 5px; } }
+
+@media (max-width: 800px) and (max-width: 500px) {
+  #r-2 {
+    flex-direction: column;
+    width: 100%; }
+  .slide-img {
+    display: none; }
+  .bottom-text {
+    font-size: 15px; }
+  .slide-image {
+    height: 85vh; } }
 
 .timeline {
   position: relative;

@@ -128,6 +128,7 @@ function currentSlideID(n) {
   console.log('currentSlideID');
   showSlidesID(slideIndexID = n);
 }
+
 // BIRTHRIGHT id slideshow js
 var slideIndexBirthright = 1;
 showSlidesBirthright(slideIndexBirthright);

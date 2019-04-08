@@ -11,7 +11,6 @@
     font-size: 1rem;
     color: #aaa;
     font-style: italic;
-    font-family: 'Lato', sans-serif;
 }
   /* slideshow */
   .mySlides-birthright {
@@ -60,7 +59,8 @@
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-.dot-Birthright:hover {
+  
+  .active{
     background-color: $yellow;
   }
 
@@ -81,7 +81,7 @@
     text-align: left;
     font-size: 14pt;
     color: $black;
-    font-family:  $font-int-gov;
+    font-family:  $font-int-body;
     padding-right: 70px;
     p {
       margin-top:0;

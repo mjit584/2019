@@ -8,8 +8,6 @@ graphics:
 
 <section class="interactive">
   <div class="interactive__body" id="interactive__gov-birthright">
-
-
         <!-- front page -->
         <div class="container-body">
           <div class="flex-column" id="r-1">
@@ -17,9 +15,8 @@ graphics:
             <h2 class="interactive__title">Birthright Citizenship</h2>
             <h3 class="interactive__subhead">The Legal Limbo of Venezuelans babies born in Colombia</h3>
             {{< ybr-line >}}
-            <div class="interactive__intro">Birthright citizenship is the common term to refer to jus soli, meaning “right of the soil” — the right of anyone born in the territory of a state to nationality or citizenship.<br><br>
-
-            While United States grants unconditional citizenship by birth, most countries use a system of “citizenship by blood” — meaning that a person born in that country would only be considered as a citizen if one (or both) of their parents has citizenship.</div>
+            <div class="interactive__intro">Birthright citizenship is the common term to refer to <em>jus soli</em>, meaning “right of the soil," or the right of anyone born in the territory of a state to nationality or citizenship.<br><br>
+            While the United States grants unconditional citizenship by birth, most countries use a system of “citizenship by blood," meaning that a person born in that country would only be considered as a citizen if one (or both) of their parents has citizenship.</div>
           </div>
         </div>
       </div>
@@ -37,9 +34,8 @@ graphics:
             <div class="slide-image">
               <img class="slide-img-doc slide-img" src="assets/colombia.svg" alt="Colombia">
               <div class="slide-txt">
-                <p>Colombia has what we could call as “conditional” birthright citizenship. To obtain the Colombian citizenship at birth, one must have at least one parent a Colombian citizen or a Colombian legal resident.</p>
-
-                <p>Unfortunately, many Venezuelan migrants do not fit into this description.</p>
+                <p>Colombia has “conditional” birthright citizenship. To obtain Colombian citizenship at birth, one must have at least one parent that is a Colombian citizen or a Colombian legal resident.</p>
+                <p>Unfortunately, many Venezuelan migrants do not fit this description.</p>
               </div>
             </div>
           </div>
@@ -47,8 +43,8 @@ graphics:
             <div class="slide-image">
               <img class="slide-img-stats slide-img slide-img-expiration" src="assets/baby.svg" alt="Baby">
               <div class="slide-txt">
-                <p>In order to get citizenship for a baby born in Colombia by Venezuelan parents, one of the parents has to have residency documentation, or the special stay permit known as PEP.</p>
-                <p>Many Venezuelans have missed the PEP applications and stayed in other forms of documentation, and their new born babies become stateless.</p>
+                <p>In order for citizenship to be granted to a baby born in Colombia by Venezuelan parents, one of the parents must have either documentation of residency or a special stay permit, known as the PEP.</p>
+                <p>Many Venezuelans have missed the PEP application deadline, and remain in the country under other forms of documentation, but their newborn babies are considered "stateless," as the parents cannot claim Colombian citizenship for their child.</p>
               </div>
             </div>
           </div>
@@ -69,5 +65,4 @@ graphics:
         Click the arrows or the dots to navigate.
       </div>
     <!-- end of content for passport -->
-
 </section>
