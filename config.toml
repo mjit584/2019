@@ -115,28 +115,28 @@ canonifyURLs = "true"
     name = "This is the first chapter of the photo stories"
     url = "/what-they-carry/"
     weight = 1
-    pre = "<p class='story-topic'>Photo Series</p><h3 class='story-title'>What They Carry</h3>"
+    pre = "<p class='story-topic'>Chapter One</p><h3 class='story-title'>What They Carry</h3>"
     post = "/images/photo-chap-1-hero.jpg"
 
   [[menu.photo]]
     name = "This is the second chapter of the photo stories"
     url = "/a-new-home/"
     weight = 2
-    pre = "<p class='story-topic'>Photo Series</p><h3 class='story-title'>A New Home</h3>"
+    pre = "<p class='story-topic'>Chapter Two</p><h3 class='story-title'>A New Home</h3>"
     post = "/images/photo-chap-2-hero.jpg"
 
   [[menu.photo]]
     name = "This is the third chapter of the photo stories"
     url = "/a-family-together/"
     weight = 3
-    pre = "<p class='story-topic'>Photo Series</p><h3 class='story-title'>A Family, Together</h3>"
+    pre = "<p class='story-topic'>Chapter Three</p><h3 class='story-title'>A Family, Together</h3>"
     post = "/images/photo-chap-3-hero.jpg"
 
   [[menu.photo]]
     name = "This is the fourth chapter of the photo stories"
     url = "/making-it-in-medellin/"
     weight = 4
-    pre = "<p class='story-topic'>Photo Series</p><h3 class='story-title'>Making it in Medellín</h3>"
+    pre = "<p class='story-topic'>Chapter Four</p><h3 class='story-title'>Making it in Medellín</h3>"
     post = "/images/photo-chap-4-hero.jpg"
  
 
