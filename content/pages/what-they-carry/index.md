@@ -1,13 +1,13 @@
 ---
-title: "What They Carry"
-topic: "Photo Stories"
+title: "Photo Journey"
+topic: "Photo Series"
 date: 2019-02-04T21:34:53-05:00
 description: "This is the description for the first story."
 image: "/images/photo-chap-1-hero.jpg"
 storyHeading: "What They Carry"
 storySubheading: "Venezuelans travel to Medellín clutching some things with a tighter grip"
-weight: 1
-card: false
+weight: 6
+card: true
 photographer: "Alex Kormann, Nash Consing, Catie Dull"
 designer: "Brooke Fisher"
 udea: "Laura Trujillo Arango, Juan Ochoa, Maria Alejandra Cardona Aizpurua"

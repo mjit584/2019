@@ -483,27 +483,44 @@ nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
+  grid-template-areas: 'nav nav nav nav' 'photo-hero photo-hero photo-hero photo-hero' '. photo-by photo-by .' 'photo-bd photo-bd photo-bd photo-bd' 'photo-ft photo-ft photo-ft photo-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .chap {
       grid-template-columns: 1fr;
-      grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd' 'story-ft'; } }
-  .chap .story-hero {
+      grid-template-areas: 'nav' 'photo-hero' 'photo-by' 'photo-bd' 'photo-ft'; } }
+  .chap .photo-hero {
     color: #ffffff;
     height: 100vh;
-    grid-area: story-hero;
-    background-color: #Fbbc00;
+    text-align: center;
+    padding: 25px;
+    grid-area: photo-hero;
+    justify-content: flex-start;
     transition: 1s opacity; }
-    .chap .story-hero .story-hero__title {
+    .chap .photo-hero .photo-hero__topic {
+      text-align: center;
+      margin-top: 4.5rem; }
+      .chap .photo-hero .photo-hero__topic p {
+        font-family: "DDinRegular", sans-serif;
+        font-weight: 700;
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 1.2rem; }
+      .chap .photo-hero .photo-hero__topic .ybr-line {
+        height: 10px;
+        width: 35%; }
+        .chap .photo-hero .photo-hero__topic .ybr-line .ybr-section {
+          stroke-width: 4; }
+    .chap .photo-hero .photo-hero__title {
       font-family: "DDinBold", sans-serif;
-      font-size: 3rem;
-      margin-bottom: 1%; }
-    .chap .story-hero .ybr-line {
-      max-width: 30vw; }
-    .chap .story-hero .story-hero__desc {
-      font-family: "Lato", sans-serif; }
-  .chap .story-byline {
+      font-weight: 400;
+      font-size: calc(3rem + 3vw);
+      margin-bottom: 0;
+      margin-top: 25vh; }
+    .chap .photo-hero .photo-hero__desc {
+      font-family: "Lato", sans-serif;
+      font-weight: 400; }
+  .chap .photo-byline {
     font-family: "Lato", sans-serif;
     background-color: #F2F2F2;
     padding: 2%;
@@ -513,26 +530,26 @@ nav {
     align-items: flex-start;
     font-weight: 700;
     line-height: 1.5em;
-    grid-area: story-by;
+    grid-area: photo-by;
     transition: 1s opacity; }
-    .chap .story-byline span {
+    .chap .photo-byline span {
       font-weight: 300; }
-    .chap .story-byline .ybr-line {
+    .chap .photo-byline .ybr-line {
       margin-top: 1vh;
       max-width: 10vw; }
-      .chap .story-byline .ybr-line .ybr-section {
+      .chap .photo-byline .ybr-line .ybr-section {
         stroke-width: 7; }
     @media screen and (max-width: 800px) {
-      .chap .story-byline {
+      .chap .photo-byline {
         margin: 4% auto;
         max-width: 90vw; }
-        .chap .story-byline .ybr-line {
+        .chap .photo-byline .ybr-line {
           max-width: 40vw; }
-          .chap .story-byline .ybr-line .ybr-section {
+          .chap .photo-byline .ybr-line .ybr-section {
             stroke-width: 4; } }
   .chap .photo__content {
     font-family: "Georgia", serif;
-    grid-area: story-bd; }
+    grid-area: photo-bd; }
     .chap .photo__content a {
       color: #C70032; }
     .chap .photo__content p {
@@ -593,7 +610,7 @@ nav {
       background: #Fbbc00;
       width: 0%; }
   .chap footer {
-    grid-area: story-ft; }
+    grid-area: photo-ft; }
     .chap footer .footer__photo {
       padding-bottom: 30vh;
       justify-content: space-around;
@@ -2157,6 +2174,9 @@ nav {
 footer {
   margin: 0 auto;
   padding: 17vh 0; }
+  footer a {
+    color: inherit;
+    text-decoration: none; }
   footer .footer__stories.footer__stories--mobile {
     display: none; }
     footer .footer__stories.footer__stories--mobile .footer__title {
@@ -2229,6 +2249,13 @@ footer {
       margin: 0 auto; }
       footer .footer__social .ybr-line .ybr-section {
         stroke-width: 4px; }
+    footer .footer__social .footer__about {
+      text-align: center;
+      font-family: "DDinBold", sans-serif;
+      margin-top: 3vh;
+      font-size: 1.3rem; }
+      footer .footer__social .footer__about a:hover {
+        color: #C70032; }
     footer .footer__social .footer__social-icons a {
       color: #333333;
       font-size: 1.1rem;

@@ -104,13 +104,6 @@ canonifyURLs = "true"
     pre = "<p class='story-topic'>Women</p><h3 class='story-title'>A Mother's Sacrifice</h3>"
     post = "/images/women-homepagestill.jpg"
 
-# [[menu.main]]
-#   name = "This is the photo stories description"
-#   url = "/photo-stories/"
-#   weight = 6
-#   pre = "<p class='story-topic'>Photo Stories</p><h3 class='story-title'>Embracing Medellín</h3>"
-#   post = "/images/photo-stories-homepagestill.jpg"
-
   [[menu.photo]]
     name = "This is the first chapter of the photo stories"
     url = "/what-they-carry/"
