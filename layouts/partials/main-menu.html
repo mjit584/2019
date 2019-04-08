@@ -5,9 +5,9 @@
   <a class="main-menu__card story-{{ .Weight }} {{ if eq .Weight $weight }}active{{ end }}" href="{{.URL}}">
     <img class="card__img" src="{{ .Post }}" alt="a picture of medellin" />
     <div class="card__text">
-      <h3 class="card__title">{{ .Name }}</h3>
+      {{ .Pre }}
       {{ partial "ybr-line.html" }}
-      <p class="card__desc">{{ .Pre }}</p>
+      <p class="card__desc">{{ .Name }}</p>
     </div>
   </a>
   {{end}}

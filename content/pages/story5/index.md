@@ -1,6 +1,6 @@
 ---
 title: "A Mother's Sacrifice"
-topic: "Women's Well-being"
+topic: "Women"
 date: 2019-02-04T21:36:06-05:00
 description: "This is the description for the fifth story."
 video: "../story5/assets/women-headervideo2.mp4"
@@ -12,7 +12,7 @@ card: true
 author: "Diane Adame"
 videographer: "Zayhra Rodriguez, Haley France"
 designer: "Amy Townsed"
-udea: "Isabella"
+udea: "Margarita"
 ---
 <p class="drop-cap">The sounds of car honks and bicycle bells erupt in the ears of locals and tourists passing through Plaza Botero.</p>
 
