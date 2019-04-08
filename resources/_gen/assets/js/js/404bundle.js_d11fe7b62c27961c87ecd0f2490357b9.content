@@ -1,0 +1,9 @@
+$(function(){console.log('Hello world');});console.log('testing to make sure headers.js is linked up');var prevScrollpos=window.pageYOffset;window.onscroll=function(){var currentScrollPos=window.pageYOffset;if(prevScrollpos>currentScrollPos){document.getElementById("header").style.top="0";}else{document.getElementById("header").style.top="-75px";}
+prevScrollpos=currentScrollPos;fillProgress();}
+var storyDropdown=document.getElementById('header__story-dropdown');var mainMenu=document.getElementById('main-menu');storyDropdown.onmouseenter=function(){storyDropdown.classList.toggle('is-active');mainMenu.classList.toggle('open');}
+storyDropdown.onmouseleave=function(){storyDropdown.classList.toggle('is-active');mainMenu.classList.toggle('open');}
+var photoDropdown=document.getElementById('header__photo-dropdown');var photoMainMenu=document.getElementById('main-menu-photos');photoDropdown.onmouseenter=function(){photoDropdown.classList.toggle('is-active');photoMainMenu.classList.toggle('open');}
+photoDropdown.onmouseleave=function(){photoDropdown.classList.toggle('is-active');photoMainMenu.classList.toggle('open');}
+var body=document.querySelector('body');var menuTrigger=document.querySelector('#toggle-main-menu-mobile');var menuContainer=document.querySelector('#main-menu-mobile');menuTrigger.onclick=function(){menuContainer.classList.toggle('open');menuTrigger.classList.toggle('is-active');body.classList.toggle('lock-scroll');}
+var images=['404-bts-1.JPG','404-bts-2.JPG','404-bts-3.JPG'];var randomImg=images[Math.floor(Math.random()*images.length)]
+console.log('We picked you out a new photo',randomImg);$('<img alt="This image is a behind-the-scenes exclusive of the Uprooted team" src="https://brookenf.github.io/uprooted-mejo584/images/404/'+randomImg+'">').appendTo('.error__container');
