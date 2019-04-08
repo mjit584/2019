@@ -10,9 +10,10 @@ var controller = new ScrollMagic.Controller();
 var pinIntroScene = new ScrollMagic.Scene({
   triggerElement: '#scrollytelly-1',
   triggerHook: 0,
-  duration: '40%'
+  duration: 10
 })
-  .setPin('#scrollytelly-1', { pushFollowers: false })
+  .setPin('#scrollytelly-1', { pushfollowers: false })
+  .setClassToggle("#scrollytelly-1", "background-attachment")
   .addTo(controller);
 
 
@@ -26,3 +27,4 @@ $('.scrollytelly__body').each(function () {
     .setClassToggle(this, 'fade-in')
     .addTo(controller);
 });
+
