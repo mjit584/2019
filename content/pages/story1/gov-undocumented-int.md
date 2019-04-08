@@ -182,7 +182,7 @@ graphics:
           <!-- second slide -->
           <div class="mySlides-ID fade">
             <div class="slide-image">
-              <img class="slide-img-calendar slide-img" src="assets/calendar.svg" alt="calendar">
+              <img class="slide-img-calendar slide-img" src="assets/cedule-groceries.svg" alt="calendar">
               <div class="slide-txt2">
                 <p>To obtain a cédula, Venezuelans must be at least nine years old and provide an original birth
                   certificate.
@@ -193,7 +193,7 @@ graphics:
           </div>
           <div class="mySlides-ID fade">
             <div class="slide-image">
-              <img class="slide-img-doc slide-img" src="assets/doc.svg" alt="document/time">
+              <img class="slide-img-doc slide-img" src="assets/printer.svg" alt="document/time">
               <div class="slide-txt2">
                 <p>It’s becoming almost impossible to get a cédula due to shortage of resources to make the documents. Most offices do not have the printers needed and some that can print ask citizens to bring their own laminator.</p>
                 <p>Cédulas were once the main documentation Venezuelan migrants used to legally enter surrounding countries, but now many countries, such as Peru, are requiring a passport because cédulas are easy documents to forge and falsify. </p>
@@ -202,7 +202,7 @@ graphics:
           </div>
           <div class="mySlides-ID fade">
             <div class="slide-image">
-              <img class="slide-img-stats slide-img" src="assets/stats.svg" alt="stats">
+              <img class="slide-img-stats slide-img" src="assets/carnet-de-la-patria.svg" alt="stats">
               <div class="slide-txt2">
                 <p>Starting in December 2016, President Nicolás Maduro rolled a new identity card called the Carnet de la
                   Patria, or “Fatherland Card.” Over half the population has enrolled for the new card.</p>
