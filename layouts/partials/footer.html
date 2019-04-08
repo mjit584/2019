@@ -1,6 +1,5 @@
-<div class="footer-stories">
+<div class="footer__stories">
   <div class="footer__title">Read more...</div>
-
 
   <div class="footer__cards flex">
     {{ $menu := .Site.Menus.main }}
@@ -26,24 +25,23 @@
   </div>
 </div>
 
-<div class="footer-stories__mobile">
+<div class="footer__stories footer__stories--mobile">
+  <div class="footer__title">Read more...</div>
 
-  <div class="footer__title">You may also be interested in...</div>
-  {{partial "ybr-line.html" . }}
-
-  <div class="footer__cards">
-    {{ $currentWeight := add .Weight 1 }}
+  <div class="footer__cards flex">
     {{ range $menu }}
-    {{ if eq $currentWeight 7 }}
-    {{ else }}
-    {{ if eq .Weight $currentWeight }}
-    <a class="footer__card" href="{{ .URL }}">
-      <img class="footer__img" src="{{ .Post }}">
-      <div class="footer__text flex">
-        <h3>{{ .Name }}</h3>
+    {{ if eq $.URL .URL }}
+    <a class="footer__card active" href="{{ .URL }}">
+      <div class="footer__text">
+        {{ .Pre }}
       </div>
     </a>
-    {{ end }}
+    {{ else }}
+    <a class="footer__card" href="{{ .URL }}">
+      <div class="footer__text">
+        {{ .Pre }}
+      </div>
+    </a>
     {{ end }}
     {{ end }}
   </div>
