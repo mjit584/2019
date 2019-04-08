@@ -15,7 +15,7 @@ designer: "Kailee Akers"
 udea: "Martín Villaneda"
 ---
 
-<p class="drop-cap">“¡Hay que terminar!”</p>
+“¡Hay que terminar!”
 
 “You have to finish!” Soccer players with Adidas-striped shoulders shout from the sidelines as their teammates complete a four-on-four drill. The next wave of defenders entering the field cause black turf beads to fly through the Medellín night sky. One, wearing all white save for his neon yellow cleats, slides toward the ball, tripping up the offensive player looking for an open man.
 

@@ -14,7 +14,7 @@ videographer: "Tenley Garrett, Peggy Mullin"
 designer: "Carlos Salas"
 udea: "Maria"
 ---
-<p class="drop-cap">Marbis Judith Verenzuela knew she had to go back. Her second daughter, Jorlis, had been too weak to cross the border the first time the family tried, TKTK when.</p>
+Marbis Judith Verenzuela knew she had to go back. Her second daughter, Jorlis, had been too weak to cross the border the first time the family tried, TKTK when.
 
 Jorlis, 29, had surgery to remove a brain tumor TK WHEN/how close to crossing attempt, but suffered convulsions for 30 days due to side affects and a lack of  medicine to control them. Jorlis couldn’t recognize her own children, but had TKTK [need to set up more of the events as they tried to leave].
 

@@ -161,23 +161,6 @@
       }
     }
 
-    .drop-cap {
-
-      &:first-child{
-        margin-top:3vh;
-        margin-bottom: 3%;
-      }
-
-      &:first-child:first-letter {
-        float: left;
-        color: $red;
-        font-size: 60px;
-        line-height: 2.8rem;
-        padding-top: 5px;
-        padding-right: 8px;
-      }
-    }
-
     .ybr-line{
       transition: 1s opacity;
     }
