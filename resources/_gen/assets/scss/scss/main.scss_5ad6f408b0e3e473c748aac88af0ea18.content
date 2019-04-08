@@ -392,31 +392,92 @@ nav {
     .about .about__thanks .about__heading {
       font-family: "DDinBold", sans-serif; }
 
-.photo-stories {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 100vh;
-  grid-template-areas: 'chap1 chap2 chap3 chap4'; }
-  .photo-stories #chap1 {
-    grid-area: chap1;
-    background-image: url(../images/photo-chap-1-hero.jpg);
+.photo-stories .photo-stories__menu {
+  margin: auto;
+  margin-top: 55px;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap; }
+  @media screen and (max-width: 800px) {
+    .photo-stories .photo-stories__menu {
+      margin-top: 0;
+      height: calc(100vh - 68px); } }
+  .photo-stories .photo-stories__menu .photo-stories__chap {
+    position: relative;
+    flex-basis: 20vw;
+    margin: 10vh 1rem;
+    height: calc(80vh - 55px);
     background-size: cover;
-    background-position: center; }
-  .photo-stories #chap2 {
-    grid-area: chap2;
-    background-image: url(../images/photo-chap-2-hero.jpg);
-    background-size: cover;
-    background-position: center; }
-  .photo-stories #chap3 {
-    grid-area: chap3;
-    background-image: url(../images/photo-chap-3-hero.jpg);
-    background-size: cover;
-    background-position: center; }
-  .photo-stories #chap4 {
-    grid-area: chap4;
-    background-image: url(../images/photo-chap-4-hero.jpg);
-    background-size: cover;
-    background-position: center; }
+    background-position: center;
+    text-align: center; }
+    @media screen and (max-width: 800px) {
+      .photo-stories .photo-stories__menu .photo-stories__chap {
+        height: auto;
+        margin: 0;
+        flex-basis: 100%;
+        height: 25%; } }
+    .photo-stories .photo-stories__menu .photo-stories__chap::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+      z-index: 0; }
+    .photo-stories .photo-stories__menu .photo-stories__chap:hover::before, .photo-stories .photo-stories__menu .photo-stories__chap:active::before {
+      background-image: linear-gradient(white, rgba(255, 255, 255, 0.5)); }
+    .photo-stories .photo-stories__menu .photo-stories__chap:hover .chap__text, .photo-stories .photo-stories__menu .photo-stories__chap:active .chap__text {
+      color: #333333; }
+      .photo-stories .photo-stories__menu .photo-stories__chap:hover .chap__text .chap__button, .photo-stories .photo-stories__menu .photo-stories__chap:active .chap__text .chap__button {
+        width: 115px;
+        opacity: 1;
+        transform: translate3d(0, 0, 0); }
+    .photo-stories .photo-stories__menu .photo-stories__chap .chap__img {
+      margin: auto;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1; }
+    .photo-stories .photo-stories__menu .photo-stories__chap .chap__text {
+      position: absolute;
+      top: 5%;
+      left: 0;
+      right: 0;
+      bottom: 10%;
+      justify-content: space-between;
+      font-family: "DDinBold", sans-serif;
+      color: #ffffff; }
+      .photo-stories .photo-stories__menu .photo-stories__chap .chap__text .ybr-line {
+        height: 10px;
+        max-width: 50%; }
+        .photo-stories .photo-stories__menu .photo-stories__chap .chap__text .ybr-line .ybr-section {
+          stroke-width: 3; }
+      .photo-stories .photo-stories__menu .photo-stories__chap .chap__text .chap__title {
+        margin-bottom: .5rem; }
+      .photo-stories .photo-stories__menu .photo-stories__chap .chap__text .chap__button {
+        font-family: "DDinExpBold", sans-serif;
+        position: relative;
+        text-transform: uppercase;
+        background-color: #C70032;
+        border-radius: 30px;
+        height: 28px;
+        width: 35px;
+        padding: 0 5px;
+        overflow: hidden;
+        white-space: nowrap;
+        margin: 0 auto;
+        opacity: 0;
+        transform: translate3d(0, 20px, 0);
+        transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), width 0.5s ease 0.5s; }
+        @media screen and (max-width: 800px) {
+          .photo-stories .photo-stories__menu .photo-stories__chap .chap__text .chap__button {
+            opacity: 1;
+            transform: translate3d(0, 0, 0); } }
+        .photo-stories .photo-stories__menu .photo-stories__chap .chap__text .chap__button a {
+          position: absolute;
+          top: 5px;
+          right: 10px;
+          color: #ffffff;
+          text-decoration: none; }
 
 .chap {
   display: grid;
