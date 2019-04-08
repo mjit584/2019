@@ -128,3 +128,30 @@ function currentSlideID(n) {
   console.log('currentSlideID');
   showSlidesID(slideIndexID = n);
 }
+// BIRTHRIGHT id slideshow js
+var slideIndexBirthright = 1;
+showSlidesBirthright(slideIndexBirthright);
+
+function showSlidesBirthright(n) {
+  var i;
+  var slides = $(".mySlides-birthright");
+  var dots = $(".dot-Birthright");
+  if (n > slides.length) { slideIndexBirthright = 1 }
+  if (n < 1) { slideIndexBirthright = slides.length }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndexBirthright - 1].style.display = "block";
+  dots[slideIndexBirthright - 1].className += " active";
+}
+
+function plusSlidesBirthright(n) {
+  showSlidesBirthright(slideIndexBirthright += n);
+}
+
+function currentSlideBirthright(n) {
+  showSlidesBirthright(slideIndexBirthright = n);
+}
