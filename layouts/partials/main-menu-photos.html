@@ -1,6 +1,6 @@
-<div id="main-menu" class="main-menu">
+<div id="main-menu-photos" class="main-menu">
   {{ $weight := .Params.weight }}
-  {{ $menu := .Site.Menus.main }}
+  {{ $menu := .Site.Menus.photo }}
   {{ range $menu }}
   <a class="main-menu__card story-{{ .Weight }} {{ if eq .Weight $weight }}active{{ end }}" href="{{.URL}}">
     <img class="card__img" src="{{ .Post }}" alt="A picture of a scene from the streets of Medellín, Colombia" />

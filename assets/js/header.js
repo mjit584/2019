@@ -30,4 +30,16 @@ storyDropdown.onmouseleave = function () {
   mainMenu.classList.toggle('open');
 }
 
+var photoDropdown = document.getElementById('header__photo-dropdown');
+var photoMainMenu = document.getElementById('main-menu-photos');
+photoDropdown.onmouseenter = function () {
+  photoDropdown.classList.toggle('is-active');
+  photoMainMenu.classList.toggle('open');
+}
+
+photoDropdown.onmouseleave = function () {
+  photoDropdown.classList.toggle('is-active');
+  photoMainMenu.classList.toggle('open');
+}
+
 

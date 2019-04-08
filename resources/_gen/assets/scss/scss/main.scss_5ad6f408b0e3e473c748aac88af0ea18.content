@@ -770,25 +770,25 @@ nav {
         width: 100%;
         height: 100%; }
     .header .container .header__nav {
-      flex-basis: 500px;
+      flex-basis: 700px;
       height: 100%;
       justify-content: flex-end; }
     .header .container .header__nav > * {
       flex-basis: 25%;
       padding-top: 4px;
       text-align: center; }
-    .header .container .header__story-dropdown {
+    .header .container .header__story-dropdown, .header .container .header__photo-dropdown {
       text-align: center;
       transition: ease 0.1s;
       cursor: pointer; }
-      .header .container .header__story-dropdown.is-active {
+      .header .container .header__story-dropdown.is-active, .header .container .header__photo-dropdown.is-active {
         background: rgba(255, 255, 255, 0.9);
         color: #C70032; }
-      .header .container .header__story-dropdown:hover i {
+      .header .container .header__story-dropdown:hover i, .header .container .header__photo-dropdown:hover i {
         color: #C70032; }
-      .header .container .header__story-dropdown i {
+      .header .container .header__story-dropdown i, .header .container .header__photo-dropdown i {
         padding-left: 10px; }
-      .header .container .header__story-dropdown .header__stories-button {
+      .header .container .header__story-dropdown .header__stories-button, .header .container .header__story-dropdown .header__photo-button, .header .container .header__photo-dropdown .header__stories-button, .header .container .header__photo-dropdown .header__photo-button {
         padding: 16px 0; }
     .header .container .header__lang-toggle {
       cursor: pointer; }
@@ -1036,6 +1036,13 @@ nav {
         .cards .card .card__base .card__button {
           display: inline-block; } }
 
+#main-menu-photos.open {
+  display: grid;
+  background: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: 'chap1 chap2 chap3 chap4'; }
+
 .main-menu {
   display: none;
   position: absolute;
@@ -1046,8 +1053,8 @@ nav {
     display: grid;
     background: rgba(255, 255, 255, 0.9);
     text-align: center;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-areas: 'story1 story2 story3 story4 story5 interactive'; }
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: 'story1 story2 story3 story4 story5'; }
   .main-menu .main-menu__card {
     position: relative;
     height: 40vh;
