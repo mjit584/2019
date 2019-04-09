@@ -2270,6 +2270,94 @@ nav {
     margin: 1vw 0;
     font-size: 1em; }
 
+@media screen and (max-width: 800px) {
+  .venn-diagram {
+    height: 60vh; } }
+
+.vd-circle {
+  stroke-width: 4;
+  transition: all .5s;
+  cursor: pointer; }
+
+.vd-big {
+  fill-opacity: .75; }
+
+.vd-small {
+  fill-opacity: 1; }
+
+.vd-yellow {
+  fill: #Fbbc00;
+  stroke: #ffffff; }
+
+.vd-blue {
+  fill: #1457D3;
+  stroke: #ffffff; }
+
+.vdt-heading,
+.vdt-subheading,
+.vdt-def {
+  font-family: "DDinBold", sans-serif;
+  pointer-events: none;
+  transition: all .3s; }
+
+.vdt-heading {
+  font-size: 1.5rem; }
+
+.vdt-subheading, .vdt-def {
+  font-size: 1.25rem; }
+
+.vdt-def {
+  opacity: 0;
+  font-family: "DDinRegular", sans-serif;
+  font-size: 1.45rem; }
+  .vdt-def .vdt-term {
+    font-family: "DDinBold", sans-serif; }
+
+.vdt-black {
+  fill: #333333; }
+
+.vdt-white {
+  fill: #ffffff; }
+
+.vdt-middle {
+  width: 50px; }
+
+.vd-prostitution:hover {
+  stroke: #1457D3; }
+  .vd-prostitution:hover ~ .vdt-prostitution {
+    font-size: 1.7rem;
+    fill: #1457D3; }
+
+.vd-sex-trafficking:hover {
+  stroke: #Fbbc00; }
+  .vd-sex-trafficking:hover ~ .vdt-sex-trafficking {
+    font-size: 1.7rem;
+    fill: #Fbbc00; }
+
+.vd-sex-tourism1:hover {
+  stroke: #1457D3; }
+  .vd-sex-tourism1:hover ~ .vdt-sex-tourism1 {
+    font-size: 1.45rem;
+    fill: #1457D3; }
+
+.vd-sex-worker1:hover {
+  stroke: #1457D3; }
+  .vd-sex-worker1:hover ~ .vdt-sex-worker1 {
+    font-size: 1.45rem;
+    fill: #1457D3; }
+
+.vd-sex-tourism2:hover {
+  stroke: #Fbbc00; }
+  .vd-sex-tourism2:hover ~ .vdt-sex-tourism2 {
+    font-size: 1.45rem;
+    fill: #Fbbc00; }
+
+.vd-sex-worker2:hover {
+  stroke: #Fbbc00; }
+  .vd-sex-worker2:hover ~ .vdt-sex-worker2 {
+    font-size: 1.45rem;
+    fill: #Fbbc00; }
+
 footer {
   margin: 0 auto;
   padding: 17vh 0; }
