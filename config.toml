@@ -95,7 +95,7 @@ canonifyURLs = "true"
     url = "/story4/"
     weight = 4 
     pre = "<p class='story-topic'>Education</p><h3 class='story-title'>The Cost of Dreams</h3>"
-    post = "/images/education-homepagestill.png"
+    post = "/images/education-homepagestill.jpg"
 
   [[menu.main]]
     name = "This is the fifth story description"
