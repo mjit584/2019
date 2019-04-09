@@ -886,7 +886,7 @@ nav {
     position: relative;
     grid-column: span 2;
     width: 100%;
-    height: 100%; }
+    height: 50vh; }
     @media screen and (max-width: 800px) {
       .cards .card:hover .card__heading,
       .cards .card:hover .card__title, .cards .card:active .card__heading,
