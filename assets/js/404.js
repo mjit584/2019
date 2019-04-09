@@ -31,7 +31,7 @@ var quotes = [
   'Ashton: "I love manspreading."',
   'Chris: "If it was actually raining men, \'Hallelujah\' would be my last reaction."',
   '*at the Panama airport chaos* Peggy: "I\'ve never wanted to see the skyline of Newark, NJ more."',
-  '*watching safety instruction video on plane* Nash: "I feel like this just ives you false hope."',
+  '*watching safety instruction video on plane* Nash: "I feel like this just gives you false hope."',
   'Alex: "I\'d like to file a complaint for emotional trauma from start to finish."',
   'Peggy: "They took my Colombian honey, but they can never take my spirit!"'
 ]

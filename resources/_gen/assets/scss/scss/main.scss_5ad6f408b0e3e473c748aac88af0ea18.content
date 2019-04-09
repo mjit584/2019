@@ -2401,7 +2401,8 @@ footer {
   color: #ffffff; }
   @media screen and (max-width: 800px) {
     .error-page .error__container {
-      height: 100vh; } }
+      height: 100vh;
+      overflow-y: hidden; } }
   .error-page .error__container .error__text {
     position: absolute;
     width: 100%;

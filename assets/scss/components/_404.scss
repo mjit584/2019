@@ -12,6 +12,7 @@
 
     @media screen and (max-width: 800px) {
       height: 100vh;
+      overflow-y: hidden;
     }
 
     .error__text {
