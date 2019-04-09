@@ -3,7 +3,7 @@
   {{ $menu := .Site.Menus.main }}
   {{ range $menu }}
   <a class="main-menu__card story-{{ .Weight }} {{ if eq .Weight $weight }}active{{ end }}" href="{{.URL}}">
-    <img class="card__img" src="{{ .Post }}" alt="a picture of medellin" />
+    <img class="card__img" src="{{ .Post }}" alt="A picture of a scene from the streets of Medellín, Colombia" />
     <div class="card__text">
       {{ .Pre }}
       {{ partial "ybr-line.html" }}

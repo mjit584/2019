@@ -14,7 +14,7 @@ videographer: "Zayhra Rodriguez, Haley France"
 designer: "Amy Townsed"
 udea: "Margarita"
 ---
-<p class="drop-cap">The sounds of car honks and bicycle bells erupt in the ears of locals and tourists passing through Plaza Botero.</p>
+The sounds of car honks and bicycle bells erupt in the ears of locals and tourists passing through Plaza Botero.
 
 A light breeze fills the air and flows through the skyscraping palm trees of the plaza. It’s cool enough to alleviate the sun’s heat but not cool enough to give one goosebumps.
 

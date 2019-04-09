@@ -86,7 +86,7 @@
     background-color: $light-grey;
     padding: 2%;
     margin: 6vh 0;
-    width: 40%;
+    width: 47%;
     font-size: 12px;
     align-items: flex-start;
     font-weight: $font-weight-bold;
@@ -158,23 +158,6 @@
 
       @media screen and (max-width: 800px){
         max-width: 90vw;
-      }
-    }
-
-    .drop-cap {
-
-      &:first-child{
-        margin-top:3vh;
-        margin-bottom: 3%;
-      }
-
-      &:first-child:first-letter {
-        float: left;
-        color: $red;
-        font-size: 60px;
-        line-height: 2.8rem;
-        padding-top: 5px;
-        padding-right: 8px;
       }
     }
 

@@ -1,6 +1,11 @@
 footer {
   margin: 0 auto;
   padding: 17vh 0;
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
 
   .footer__stories {
 
@@ -25,6 +30,7 @@ footer {
           }
         }
     }
+
     .footer__title{
       margin: 25px auto;
       font-family: $font-footer;
@@ -120,6 +126,18 @@ footer {
         stroke-width: 4px;
       }
     }
+
+    .footer__about {
+      text-align: center;
+      font-family: $font-footer;
+      margin-top: 3vh;
+      font-size: 1.3rem;
+
+      a:hover {
+        color: $red;
+      }
+    }
+    
 
     .footer__social-icons a {
       color: $black;

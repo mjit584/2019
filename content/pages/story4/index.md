@@ -14,7 +14,7 @@ videographer: "Andie Rea, Ashton Eleazer"
 designer: "Lyric Lin, Patty Matos"
 udea: "Maria"
 ---
-<p class="drop-cap">It took four arepas to fill Jeham Carlos Rosa’s stomach back in Venezuela, when he was six years old. But he decided to get by on just two as his parents struggled to keep enough food in the house to feed the family, leaving him feeling hungry. Three years later, Rosa recalls the difficult decisions he made behind his parents back before he and his mother fled to Medellin. His mother, Alejandrina, sits next to him crying as she hears her son’s tender sacrifice for the first time.</p>
+It took four arepas to fill Jeham Carlos Rosa’s stomach back in Venezuela, when he was six years old. But he decided to get by on just two as his parents struggled to keep enough food in the house to feed the family, leaving him feeling hungry. Three years later, Rosa recalls the difficult decisions he made behind his parents back before he and his mother fled to Medellin. His mother, Alejandrina, sits next to him crying as she hears her son’s tender sacrifice for the first time.
 
 The pair moved to Colombia temporarily in October 2018, along with his grandmother and a family friend. He sits with his mother on the only bed in their tiny one-bedroom rental that is thinner than a pillow and feels as hard as a brick. Jeham is thin and short for a 9-year-old boy, with a charismatic smile and a tenacious old soul.
 

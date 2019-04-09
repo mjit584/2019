@@ -10,4 +10,6 @@ document.addEventListener("DOMContentLoaded",init);console.log('homepage js link
 prevScrollpos=currentScrollPos;fillProgress();}
 var storyDropdown=document.getElementById('header__story-dropdown');var mainMenu=document.getElementById('main-menu');storyDropdown.onmouseenter=function(){storyDropdown.classList.toggle('is-active');mainMenu.classList.toggle('open');}
 storyDropdown.onmouseleave=function(){storyDropdown.classList.toggle('is-active');mainMenu.classList.toggle('open');}
+var photoDropdown=document.getElementById('header__photo-dropdown');var photoMainMenu=document.getElementById('main-menu-photos');photoDropdown.onmouseenter=function(){photoDropdown.classList.toggle('is-active');photoMainMenu.classList.toggle('open');}
+photoDropdown.onmouseleave=function(){photoDropdown.classList.toggle('is-active');photoMainMenu.classList.toggle('open');}
 var body=document.querySelector('body');var menuTrigger=document.querySelector('#toggle-main-menu-mobile');var menuContainer=document.querySelector('#main-menu-mobile');menuTrigger.onclick=function(){menuContainer.classList.toggle('open');menuTrigger.classList.toggle('is-active');body.classList.toggle('lock-scroll');}

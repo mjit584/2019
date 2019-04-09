@@ -5,7 +5,7 @@ date: 2019-02-04T21:34:53-05:00
 description: "This is the description for the first story."
 video: "../story1/assets/gov-headervideo.mp4"
 image: "https://brookenf.github.io/uprooted-mejo584/images/cards-story1.jpg"
-storyHeading: "A Helping Hand"
+storyHeading: "Finding Your Voice"
 storySubheading: "Providing assistance to Venezuelans who cross over the border"
 weight: 1
 card: true
@@ -16,7 +16,7 @@ designer: "Sally Dillon, Xiaoke Ji"
 udea: "Laura Andrea Garcia Giraldo"
 ---
 
-<p class="drop-cap">By 4 p.m., Irelys Rojas begins to fear the end of the day.</p>
+By 4 p.m., Irelys Rojas begins to fear the end of the day.
 
 It’s raining, and most restaurants she performs in are empty. She  sits down [where?] to count how much she’s made for that day, [describe her feelings more specifically].
 
@@ -61,6 +61,8 @@ She started singing in January after La Paisa, a Colombian woman who controls th
 {{< photo-caption "pages/story1" "photo-caption-1" >}}
 
 Nunc faucibus aliquet mauris vel fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam odio arcu, efficitur id placerat quis, imperdiet semper justo. Phasellus consectetur justo in posuere laoreet. Nulla fringilla dolor erat, a venenatis velit congue pretium. Vestibulum finibus sem in interdum vestibulum. Ut cursus risus ligula, eu sagittis dolor lobortis a. Sed arcu urna, varius tristique leo at, accumsan gravida velit. Morbi in nisl id quam convallis tincidunt. Integer pharetra viverra tellus eget vulputate. Nunc id mi viverra, pretium lacus in, vulputate ligula. Curabitur ac urna ex.
+
+{{< story-interactives "pages/story1" "gov-birthrite-int" >}}
 
 Quisque eget tortor dignissim dui commodo iaculis. Ut nec varius libero. Nulla ultricies sodales diam, quis pharetra quam malesuada ac. Morbi non fringilla nisl. Sed a turpis non nulla ultrices condimentum sit amet sed nisi. Ut sodales tristique tempor. Quisque efficitur purus enim, non egestas augue finibus quis. Nulla a ipsum dui. Donec euismod, dui vel ultricies euismod, ligula elit hendrerit augue, ut ornare enim neque quis nunc. Phasellus non feugiat ipsum. Mauris tristique felis a est ultricies cursus. Fusce semper, neque eu mattis facilisis, purus nisi fermentum elit, vel commodo urna quam sit amet orci. Duis ipsum turpis, sollicitudin nec euismod venenatis, pharetra eu tellus. Ut efficitur metus ut mauris tempus, ac dictum nibh pharetra.
 

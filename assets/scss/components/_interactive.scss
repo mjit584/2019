@@ -9,7 +9,7 @@
 
   .interactive__title {
     font-family: $font-int-header;
-    font-size: 2.5vw;
+    font-size: 2.5rem;
     text-transform: uppercase;
     margin-bottom: 0;
     font-weight: $font-weight-normal;
@@ -17,7 +17,7 @@
 
   .interactive__subhead {
     font-family: $font-int-subhead;
-    font-size: 1.8vw;
+    font-size: 1.8rem;
     margin-top: 1vh;
     margin-bottom: 2vh;
     font-weight: $font-weight-normal;
@@ -26,6 +26,7 @@
   .interactive__intro {
     font-family: $font-int-intro;
     margin-top: 0 !important;
+    font-size: 1.2rem;
   }
   
   .interactive__body {
@@ -36,6 +37,17 @@
   .ybr-line {
     max-width: 25vw;
     margin-bottom: 2vh;
+
+    .ybr-section {
+      stroke-width: 3;
+    }
+
+    @media screen and (max-width: 800px){
+      max-width: 40vw;
+      .ybr-section {
+        stroke-width: 5;
+      }
+    }
   }
 
   .interactive__background {
@@ -44,14 +56,19 @@
   }
 
   #scrollytelly-1 {
+    background-color: $black;
     background:
       linear-gradient(
         0deg,
       rgba(255,255,255,0.4),
       rgba(255,255,255,0.4)),
       url('../images/about.jpg');
-      background-size: cover;
+      background-size: contain;
       background-repeat: no-repeat;
+  }
+
+  .backgorund-attachment {
+    background-attachment: fixed;
   }
 
   .scrollytelly__main {

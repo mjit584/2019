@@ -2,6 +2,7 @@
   position: relative;
   transition: 0.7s;
   margin:0 auto;
+  text-align: center;
   width:75%;
 
   #r-1{
@@ -56,13 +57,11 @@
   .document-txt {
     height: 10%;
     width: 100%;
-    font-family: $font-int-gov;
   }
 
   .document-caption{
     padding-bottom: 5%;
     font-size: 17pt;
-    font-family: $font-hero-topic;
   }
 
 
@@ -75,7 +74,6 @@
     font-size: 1rem;
     color: $grey;
     font-style: italic;
-    font-family:  'Lato', sans-serif;
   }
 
   .container-body {
@@ -102,7 +100,6 @@
   .back-button {
     cursor: pointer;
     color: $black;
-    font-family: 'Lato', sans-serif;
     transition: border-bottom 0.2s;
     position:absolute;
     left:0;
@@ -236,7 +233,6 @@
     text-align: left;
     font-size: 14pt;
     color: $black;
-    font-family:  $font-int-gov;
     padding-right: 70px;
     p {
       margin-top:0;
@@ -251,7 +247,6 @@
     border-bottom-color: $yellow;
     font-size:2.5vw;
     color: $black;
-    font-family: $font-content-heading;
     font-weight: 700;
     padding:10px 0;
   }

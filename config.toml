@@ -50,12 +50,6 @@ canonifyURLs = "true"
   url = "/es/story5/"
   weight = 5
 
-[[languages.es.menu.main]]
-  name = "Embracing Medellín"
-  url = "/es/interactive/"
-  weight = 6
-
-
 [params]
   google_analytics_id = ""
   gh_pages_URL = "https://brookenf.github.io/uprooted-mejo584/"
@@ -73,47 +67,71 @@ canonifyURLs = "true"
   [params.navigation]
     help = "Help"
 
-[[menu.main]]
-	name = "This is the first story description"
-	url = "/story1/"
-  weight = 1
-  pre = "<p class='story-topic'>Government Support</p><h3 class='story-title'>Finding Your Voice</h3>"
-  post = "https://brookenf.github.io/uprooted-mejo584/images/cards-story1.jpg"
 
-[[menu.main]]
-  name = "This is the second story description"
-  url = "/story2/"
-  weight = 2
-  pre = "<p class='story-topic'>Economy</p><h3 class='story-title'>Making It Work</h3>"
-  post = "/images/econ-homepagestill.jpg"
+[menu]
+  [[menu.main]]
+    name = "This is the first story description"
+    url = "/story1/"
+    weight = 1
+    pre = "<p class='story-topic'>Government Support</p><h3 class='story-title'>Finding Your Voice</h3>"
+    post = "https://brookenf.github.io/uprooted-mejo584/images/cards-story1.jpg"
 
-[[menu.main]]
-  name = "This is the third story description"
-  url = "/story3/"
-  weight = 3
-  pre = "<p class='story-topic'>Healthcare</p><h3 class='story-title'>Greater Than Death</h3>"
-  post = "/images/health-homepagestill.jpg"
+  [[menu.main]]
+    name = "This is the second story description"
+    url = "/story2/"
+    weight = 2
+    pre = "<p class='story-topic'>Economy</p><h3 class='story-title'>Making It Work</h3>"
+    post = "/images/econ-homepagestill.jpg"
 
-[[menu.main]]
-  name = "This is the fourth story description"
-  url = "/story4/"
-  weight = 4 
-  pre = "<p class='story-topic'>Education</p><h3 class='story-title'>The Cost of Dreams</h3>"
-  post = "/images/education-homepagestill.png"
+  [[menu.main]]
+    name = "This is the third story description"
+    url = "/story3/"
+    weight = 3
+    pre = "<p class='story-topic'>Healthcare</p><h3 class='story-title'>Greater Than Death</h3>"
+    post = "/images/health-homepagestill.jpg"
 
-[[menu.main]]
-  name = "This is the fifth story description"
-  url = "/story5/"
-  weight = 5
-  pre = "<p class='story-topic'>Women</p><h3 class='story-title'>A Mother's Sacrifice</h3>"
-  post = "/images/women-homepagestill.jpg"
+  [[menu.main]]
+    name = "This is the fourth story description"
+    url = "/story4/"
+    weight = 4 
+    pre = "<p class='story-topic'>Education</p><h3 class='story-title'>The Cost of Dreams</h3>"
+    post = "/images/education-homepagestill.png"
 
-[[menu.main]]
-  name = "This is the photo stories description"
-  url = "/photo-stories/"
-  weight = 6
-  pre = "<p class='story-topic'>Photo Stories</p><h3 class='story-title'>Embracing Medellín</h3>"
-  post = "/images/photo-stories-homepagestill.jpg"
+  [[menu.main]]
+    name = "This is the fifth story description"
+    url = "/story5/"
+    weight = 5
+    pre = "<p class='story-topic'>Women</p><h3 class='story-title'>A Mother's Sacrifice</h3>"
+    post = "/images/women-homepagestill.jpg"
+
+  [[menu.photo]]
+    name = "This is the first chapter of the photo stories"
+    url = "/what-they-carry/"
+    weight = 1
+    pre = "<p class='story-topic'>Chapter One</p><h3 class='story-title'>What They Carry</h3>"
+    post = "/images/photo-chap-1-hero.jpg"
+
+  [[menu.photo]]
+    name = "This is the second chapter of the photo stories"
+    url = "/a-new-home/"
+    weight = 2
+    pre = "<p class='story-topic'>Chapter Two</p><h3 class='story-title'>A New Home</h3>"
+    post = "/images/photo-chap-2-hero.jpg"
+
+  [[menu.photo]]
+    name = "This is the third chapter of the photo stories"
+    url = "/a-family-together/"
+    weight = 3
+    pre = "<p class='story-topic'>Chapter Three</p><h3 class='story-title'>A Family, Together</h3>"
+    post = "/images/photo-chap-3-hero.jpg"
+
+  [[menu.photo]]
+    name = "This is the fourth chapter of the photo stories"
+    url = "/making-it-in-medellin/"
+    weight = 4
+    pre = "<p class='story-topic'>Chapter Four</p><h3 class='story-title'>Making it in Medellín</h3>"
+    post = "/images/photo-chap-4-hero.jpg"
+ 
 
 [permalinks]
   post = "/:slug"

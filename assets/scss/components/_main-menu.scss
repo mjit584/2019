@@ -1,3 +1,15 @@
+#main-menu-photos {
+
+  &.open {
+    display: grid;
+    background: rgba(255,255,255,0.9);
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      'chap1 chap2 chap3 chap4';
+  }
+}
+
 .main-menu {
   display: none;
   position: absolute;
@@ -5,13 +17,13 @@
   width: 100%;
   text-align: left;
 
-  &.open{
+  &.open {
     display: grid;
     background: rgba(255,255,255,0.9);
     text-align: center;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-areas:
-      'story1 story2 story3 story4 story5 interactive';
+      'story1 story2 story3 story4 story5';
   }
 
   .main-menu__card {

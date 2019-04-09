@@ -11,58 +11,57 @@ card: false
 photographer: "Alex Kormann, Nash Consing, Catie Dull"
 designer: "Brooke Fisher"
 udea: "Laura Trujillo Arango, Juan Ochoa, Maria Alejandra Cardona Aizpurua"
+layout: 'photo-pages'
 ---
 
 After traveling hundreds of miles on foot, a group of five Venezuelans, who together call themselves a family, arrived in Medellin on February 27th. Before leaving their homes, they all held different, honest jobs including food service and hair care but were all laid off over the course of the last year due to a crumbling economy. Now in Colombia, the family works 15 hour days asking for money in exchange for small candies on the street in order to make enough money to afford food and a tiny room to sleep in each night.
 
-{{< center-quote "/photo-stories/chap1" "pull-quote-1" >}}
+<div class="photo__line"></div>
+
+{{< photo-caption "/pages/a-family-together" "photo-caption-1" >}}
 
 <div class="photo__line"></div>
 
-{{< photo-caption "/photo-stories/chap3" "photo-caption-1" >}}
+{{< photo-caption "/pages/a-family-together" "photo-caption-2" >}}
 
 <div class="photo__line"></div>
 
-{{< photo-caption "/photo-stories/chap3" "photo-caption-2" >}}
+{{< photo-caption "/pages/a-family-together" "photo-caption-3" >}}
 
 <div class="photo__line"></div>
 
-{{< photo-caption "/photo-stories/chap3" "photo-caption-3" >}}
+{{< photo-caption-vert "/pages/a-family-together" "photo-caption-4-vert" >}}
 
 <div class="photo__line"></div>
 
-{{< photo-caption-vert "/photo-stories/chap3" "photo-caption-4-vert" >}}
+{{< photo-caption-vert "/pages/a-family-together" "photo-caption-5-vert" >}}
 
 <div class="photo__line"></div>
 
-{{< photo-caption-vert "/photo-stories/chap3" "photo-caption-5-vert" >}}
+{{< photo-caption "/pages/a-family-together" "photo-caption-6" >}}
 
 <div class="photo__line"></div>
 
-{{< photo-caption "/photo-stories/chap3" "photo-caption-6" >}}
+{{< photo-caption "/pages/a-family-together" "photo-caption-7" >}}
 
 <div class="photo__line"></div>
 
-{{< photo-caption "/photo-stories/chap3" "photo-caption-7" >}}
+{{< photo-caption "/pages/a-family-together" "photo-caption-8" >}}
 
 <div class="photo__line"></div>
 
-{{< photo-caption "/photo-stories/chap3" "photo-caption-8" >}}
-
-<div class="photo__line"></div>
-
-{{< photo-caption "/photo-stories/chap3" "photo-caption-9" >}}
+{{< photo-caption "/pages/a-family-together" "photo-caption-9" >}}
 
 <div class="photo__line"></div>
 
 Living in a tiny room, the friends spend the night in places known as <em>inquilinato</em>, small rooms that can be rented out daily. For about $10 USD, the friends have a place to lay their heads at night. Most rooms offer only a small bed, a dresser and a TV. Hundreds of Venezuelans who have made their way to Colombia find themselves living in such places because they have little money to rent out proper homes.
 
-{{< story-interactives "/photo-stories/chap3" "photo-image-map" >}}
+{{< story-interactives "/pages/a-family-together" "photo-image-map" >}}
 
 <div class="photo__line"></div>
 
-{{< photo-caption "/photo-stories/chap3" "photo-caption-10" >}}
+{{< photo-caption "/pages/a-family-together" "photo-caption-10" >}}
 
 <div class="photo__line"></div>
 
-{{< photo-caption "/photo-stories/chap3" "photo-caption-12" >}}
+{{< photo-caption "/pages/a-family-together" "photo-caption-12" >}}

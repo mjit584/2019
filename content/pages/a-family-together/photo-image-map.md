@@ -27,6 +27,8 @@ graphic: "Brooke Fisher"
           }
           polygon {
             fill: transparent;
+            stroke: #f9bc15;
+            stroke-width: 2;
             cursor: pointer;
             transition: fill 0.2s
           }
