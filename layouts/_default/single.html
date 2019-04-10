@@ -49,6 +49,7 @@
 {{ $womenInt := resources.Get "js/women-int.js" }}
 {{ $healthInt := resources.Get "js/health-int.js" }}
 
+
 <!-- weight 3 = health story -->
 {{ if eq .Weight 3}}
 {{ $healthBundle := slice $scripts $header $progressBar $videos $hamburger $healthInt | resources.Concat "js/healthBundle.js" }}

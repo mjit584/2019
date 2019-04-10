@@ -13,7 +13,6 @@ var pinIntroScene = new ScrollMagic.Scene({
   duration: 10
 })
   .setPin('#scrollytelly-1', { pushfollowers: false })
-  .setClassToggle("#scrollytelly-1", "background-attachment")
   .addTo(controller);
 
 
