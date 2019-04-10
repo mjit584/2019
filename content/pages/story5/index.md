@@ -69,6 +69,8 @@ The potential of xenophobia and a situation of vulnerability is also increased f
 
 Specifically, as the number of Venezuelan sex workers in Colombia increases, so does the animosity they feel from Colombian sex workers.
 
+{{< story-interactives "pages/story5" "women-defs-int" >}}
+
 Venezuelan sex workers are more likely to offer their services for as low as 40,000 pesos ($12), three times less than what a Colombian sex worker charges said Adriaan Alsema, founder of Colombia Reports. In the eyes of Colombian sex workers, such low prices are killing their business.
 
 “Colombian women are very mean to Venezuelan women,” said Maria. “I don’t talk to them and just make my money.”
