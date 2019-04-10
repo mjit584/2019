@@ -1,0 +1,122 @@
+.venn-diagram {
+  @media screen and (max-width: 800px) {
+    height: 60vh;
+  }
+}
+
+.vd-circle {
+  stroke-width: 4;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.vd-big {
+  fill-opacity: .75;
+}
+
+.vd-small {
+  fill-opacity: 1;
+}
+
+.vd-yellow {
+  fill: $yellow;
+  stroke: $white;
+}
+
+.vd-blue {
+  fill: $blue;
+  stroke: $white;
+}
+
+.vdt-heading,
+.vdt-subheading,
+.vdt-def {
+  font-family: $font-int-header;
+  
+  pointer-events: none;
+  transition: all .3s;
+}
+
+.vdt-heading {
+  font-size: 1.5rem;
+}
+
+.vdt-subheading, .vdt-def {
+  font-size: 1.25rem;
+}
+
+.vdt-def {
+  opacity: 0;
+  font-family: $font-int-subhead;
+  font-size: 1.45rem;
+
+  .vdt-term {
+    font-family: $font-int-header;
+  }
+}
+
+.vdt-black {
+  fill: $black;
+}
+
+.vdt-white {
+  fill: $white;
+}
+
+.vdt-middle {
+  width: 50px;
+}
+
+.vd-prostitution:hover {
+  stroke: $blue;
+  
+  &~.vdt-prostitution {
+    font-size: 1.7rem;
+    fill: $blue;
+  }
+}
+
+.vd-sex-trafficking:hover {
+  stroke: $yellow;
+  
+  &~.vdt-sex-trafficking {
+    font-size: 1.7rem;
+    fill: $yellow;
+  }
+}
+
+.vd-sex-tourism1:hover {
+  stroke: $blue;
+  
+  &~.vdt-sex-tourism1 {
+    font-size: 1.45rem;
+    fill: $blue;
+  }
+}
+
+.vd-sex-worker1:hover {
+  stroke: $blue;
+  
+  &~.vdt-sex-worker1 {
+    font-size: 1.45rem;
+    fill: $blue;
+  }
+}
+
+.vd-sex-tourism2:hover {
+  stroke: $yellow;
+  
+  &~.vdt-sex-tourism2 {
+    font-size: 1.45rem;
+    fill: $yellow;
+  }
+}
+
+.vd-sex-worker2:hover {
+  stroke: $yellow;
+  
+  &~.vdt-sex-worker2 {
+    font-size: 1.45rem;
+    fill: $yellow;
+  }
+}

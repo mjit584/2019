@@ -1,4 +1,3 @@
-
 var slider = document.getElementById("myRange");
 var output = slider.value;
 var category = document.getElementById("category");
