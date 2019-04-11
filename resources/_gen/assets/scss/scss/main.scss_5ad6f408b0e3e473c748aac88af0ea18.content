@@ -37,12 +37,7 @@ body {
   margin: 0 auto;
   color: #333333; }
 
-.home .home__scroll {
-  color: #ffffff;
-  height: 100%;
-  position: relative; }
-
-.home .home__overlay {
+.home__overlay {
   position: fixed;
   z-index: 3;
   background-color: rgba(255, 255, 255, 0.5);
@@ -50,6 +45,11 @@ body {
   width: 100%;
   height: 100%;
   overflow: scroll; }
+
+.home .home__scroll {
+  color: #ffffff;
+  height: 100%;
+  position: relative; }
 
 .home .scrollmagic-pin-spacer:nth-of-type(2) {
   padding-bottom: 300px; }
@@ -635,12 +635,12 @@ nav {
   .chap .photo__progress {
     position: fixed;
     width: 100%;
-    height: 1.7vh;
+    height: 2vh;
     background: #ddd;
     bottom: 0;
     z-index: 1; }
     .chap .photo__progress .progress__bar {
-      height: 1.7vh;
+      height: 2vh;
       background: #Fbbc00;
       width: 0%; }
   .chap footer {
@@ -1588,8 +1588,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.1);
-    z-index: 1000; }
+    box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.1); }
   .interactive__health .card-flipped {
     top: 60vh;
     position: absolute;
