@@ -1,12 +1,12 @@
 ---
-title: "A Mother's Sacrifice"
+title: "El Sacrificio de una Madre"
 topic: "Las Mujeres"
 date: 2019-02-04T21:36:06-05:00
-description: "This is the description for the fifth story."
+description: "A mother’s effort to provide and reunite with her children."
 video: "../story5/assets/women-headervideo2.mp4"
 image: "/story5/assets/women-homepagestill.jpg"
-storyHeading: "A Mother's Sacrifice"
-storySubheading: "A mother gives her all to bring her family together"
+storyHeading: "El Sacrificio de una Madre"
+storySubheading: "A mother’s effort to provide and reunite with her children."
 weight: 5
 card: true
 author: "Diane Adame"

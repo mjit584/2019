@@ -1,12 +1,12 @@
 ---
-title: "Greater Than Death"
+title: "La Necesidad Más Grande"
 topic: "Salud"
 date: 2019-02-04T21:35:29-05:00
-description: "This is the description for the third story."
+description: "A family’s sacrifice for their children’s health still has roadblocks."
 video: "../story3/assets/health-headervideo.mp4"
 image: "/story3/assets/health-homepagestill.jpg"
-storyHeading: "Greater Than Death"
-storySubheading: "Venezuelan Doctor Working in Medellin"
+storyHeading: "La Necesidad Más Grande"
+storySubheading: "A family’s sacrifice for their children’s health still has roadblocks."
 weight: 3
 card: true
 author: "Sara Pequeno"

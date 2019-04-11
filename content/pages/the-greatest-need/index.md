@@ -1,13 +1,13 @@
 
 ---
 title: "The Greatest Need"
-topic: "Healthcare"
+topic: "Health"
 date: 2019-02-04T21:35:29-05:00
 description: "A family’s sacrifice for their children’s health still has roadblocks."
 video: "../the-greatest-need/assets/health-headervideo.mp4"
 image: "/the-greatest-need/assets/health-homepagestill.jpg"
 storyHeading: "The Greatest Need"
-storySubheading: "A family’s sacrifice for their children’s health still has roadblocks"
+storySubheading: "A family’s sacrifice for their children’s health still has roadblocks."
 weight: 3
 card: true
 author: "Sara Pequeno"
