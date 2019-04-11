@@ -3,7 +3,7 @@ title: "A Family, Together"
 topic: "Photo Stories"
 date: 2019-02-04T21:34:53-05:00
 description: "This is the description for the first story."
-image: "/images/photo-chap-3-hero.jpg"
+image: "../images/photo-chap-3-hero.jpg"
 storyHeading: "A Family, Together"
 storySubheading: "A family struggles to survive, having arrived in Medellin ten days prior"
 weight: 3

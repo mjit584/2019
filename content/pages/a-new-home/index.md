@@ -3,7 +3,7 @@ title: "A New Home"
 topic: "Photo Stories"
 date: 2019-02-04T21:34:53-05:00
 description: "This is the description for the first story."
-image: "/images/photo-chap-2-hero.jpg"
+image: "../images/photo-chap-2-hero.jpg"
 storyHeading: "A New Home"
 storySubheading: "An inside look into where migrants live after leaving home"
 weight: 2
