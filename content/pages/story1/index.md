@@ -66,6 +66,6 @@ Nunc faucibus aliquet mauris vel fermentum. Lorem ipsum dolor sit amet, consecte
 
 Quisque eget tortor dignissim dui commodo iaculis. Ut nec varius libero. Nulla ultricies sodales diam, quis pharetra quam malesuada ac. Morbi non fringilla nisl. Sed a turpis non nulla ultrices condimentum sit amet sed nisi. Ut sodales tristique tempor. Quisque efficitur purus enim, non egestas augue finibus quis. Nulla a ipsum dui. Donec euismod, dui vel ultricies euismod, ligula elit hendrerit augue, ut ornare enim neque quis nunc. Phasellus non feugiat ipsum. Mauris tristique felis a est ultricies cursus. Fusce semper, neque eu mattis facilisis, purus nisi fermentum elit, vel commodo urna quam sit amet orci. Duis ipsum turpis, sollicitudin nec euismod venenatis, pharetra eu tellus. Ut efficitur metus ut mauris tempus, ac dictum nibh pharetra.
 
-{{< pull-quote "/pages/story1" "pull-quote-1" >}}
+{{< center-quote "/pages/story1" "pull-quote-1" >}}
 
 Before turning on the speaker in front of the diners, she asks for permission. If granted, she signs a song, and before collecting the tips her livelihood depends on, Irelys reminds the audience, “Good Venezuelans outnumber the bad ones.”

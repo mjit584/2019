@@ -913,17 +913,15 @@ nav {
     .cards .card:active .card__hover .card__button {
       opacity: 1;
       transform: translate3d(0, 0, 0); }
-    .cards .card:hover .card__hover .card__heading, .cards .card:active .card__hover .card__heading {
-      transition-delay: .25s; }
     .cards .card:hover .card__hover .ybr-line, .cards .card:active .card__hover .ybr-line {
-      transition-delay: .3s; }
+      transition-delay: .05s; }
     .cards .card:hover .card__hover .card__title, .cards .card:active .card__hover .card__title {
-      transition-delay: .35s;
+      transition-delay: .1s;
       font-size: 2.5rem;
       line-height: 2.3rem;
       padding: 0 50px 10px; }
     .cards .card:hover .card__hover .card__desc, .cards .card:active .card__hover .card__desc {
-      transition-delay: .35s; }
+      transition-delay: .1s; }
     .cards .card:hover .card__hover .card__button, .cards .card:active .card__hover .card__button {
       width: 115px; }
     .cards .card:hover .card__base .card__heading,
@@ -968,7 +966,8 @@ nav {
       font-size: 1rem;
       font-family: "Lato", sans-serif;
       font-weight: 700;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      padding: 0 25px; }
     .cards .card .card__button {
       font-family: "DDinExpBold", sans-serif;
       position: relative;
