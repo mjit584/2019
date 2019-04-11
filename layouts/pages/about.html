@@ -10,7 +10,7 @@
   <!--hamburger-->
   {{ partial "hamburger.html" . }}
 </nav>
-{{ partial "story-hero.html" (dict "background" .Params.image "heading" .Params.storyHeading "subheading" .Params.storySubheading "content" .) }}
+{{ partial "story-hero.html" (dict "layout" .Params.layout "image" .Params.image "heading" .Params.storyHeading "subheading" .Params.storySubheading "content" .) }}
 
 <section class="about__intro flex-column">
   <h1 class="about__heading">About Us</h1>

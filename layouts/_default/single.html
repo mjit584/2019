@@ -1,6 +1,7 @@
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}story-page {{ .Title | lower }}{{ end }}
 {{ define "main" }}
+<div class="home__overlay" id="home-overlay"></div>
 {{ partial "main-menu-mobile.html" . }}
 <nav>
   <!--full screen-->

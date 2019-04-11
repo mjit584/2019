@@ -5,7 +5,7 @@ date: 2019-02-04T21:35:11-05:00
 description: "This is the description for the second story."
 video: "../story2/assets/econ-headervideo.mp4"
 image: "/story2/assets/econ-homepagestill.jpg"
-storyHeading: "Making It Work"
+storyHeading: "Resolviendo"
 storySubheading: "Venezuelans find family and friends in soccer league"
 weight: 2
 card: true
@@ -55,7 +55,7 @@ Today, a box of cereal in Venezuela costs more than the average person’s month
 
 {{< story-interactives "pages/story2" "econ-exchange-int" >}}
 
-{{< pull-quote "/pages/story2" "pull-quote-2" >}}
+{{< center-quote "/pages/story2" "pull-quote-2" >}}
 
 “¡Dale, dale, dale!”
 

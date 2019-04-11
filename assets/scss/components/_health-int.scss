@@ -83,7 +83,6 @@
     flex-direction: column;
     justify-content: flex-start;
     box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, .1);
-    // z-index: 1000;
   }
 
   .card-flipped {
@@ -360,13 +359,13 @@
       align-items: center;
     }
 
-    .card-front {
-      // margin: 0;
-      // padding: 0;
-      // width: 100vw;
-      // height: auto;
-      // margin-top: 10vh;
-      // margin-bottom: 10vh;
-    }
+    // .card-front {
+    //   // margin: 0;
+    //   // padding: 0;
+    //   // width: 100vw;
+    //   // height: auto;
+    //   // margin-top: 10vh;
+    //   // margin-bottom: 10vh;
+    // }
   }
 }

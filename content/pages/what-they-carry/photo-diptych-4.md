@@ -1,6 +1,6 @@
 ---
-img1: "assets/andrea-diptych-1.jpg"
-img2: "assets/andrea-diptych-2.jpg"
+img1: "assets/andrea_diptych1.jpg"
+img2: "assets/andrea_diptych2.jpg"
 alt1: "undefined"
 alt2: "undefined" 
 ---

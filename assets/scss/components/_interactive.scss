@@ -1,5 +1,15 @@
 // I created a class called "interactive" that goes on each and every interactive created and it has some global stylings I want to keep for EACH interactive piece so they'll pertain to EVERY interactive
 
+.divider {
+  border-bottom: solid 1px #707070;
+  margin: 10vh auto;
+  width: 60vw;
+
+  @media screen and (max-width: 800px) {
+    width: 75vw;
+  }
+}
+
 .interactive {
   max-width: 100%;
   transition: 1s opacity;
@@ -11,7 +21,7 @@
     font-family: $font-int-header;
     font-size: 2.5rem;
     text-transform: uppercase;
-    margin-bottom: 0;
+    margin: 0;
     font-weight: $font-weight-normal;
   }
 

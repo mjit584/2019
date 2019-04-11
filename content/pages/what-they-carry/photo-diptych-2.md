@@ -1,6 +1,6 @@
 ---
-img1: "assets/deylena-diptych-1.jpg"
-img2: "assets/deylena-diptych-2.jpg"
+img1: "assets/deylena_diptych1.jpg"
+img2: "assets/deylena_diptych2.jpg"
 alt1: "undefined"
 alt2: "undefined" 
 ---
