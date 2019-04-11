@@ -3,8 +3,8 @@ title: "A Mother's Sacrifice"
 topic: "Women"
 date: 2019-02-04T21:36:06-05:00
 description: "This is the description for the fifth story."
-video: "../story5/assets/women-headervideo2.mp4"
-image: "/story5/assets/women-homepagestill.jpg"
+video: "../a-mothers-sacrifice/assets/women-headervideo2.mp4"
+image: "/a-mothers-sacrifice/assets/women-homepagestill.jpg"
 storyHeading: "A Mother's Sacrifice"
 storySubheading: "A mother gives her all to bring her family together"
 weight: 5
@@ -43,7 +43,7 @@ Maria, 24, is a sex worker. The single mother from Venezuela is living in Medell
 
 As Venezuela faces a severe political and economic crisis under President Nicolas Maduro, multiple South American countries have experienced an influx of Venezuelan migrants. Colombia seen the largest influx in the last year, according to a report by the International Organization for Migration.
 
-{{< story-interactives "pages/story5" "women-laws-int" >}}
+{{< story-interactives "pages/a-mothers-sacrifice" "women-laws-int" >}}
 
 Of the 1,032,016 Venezuelans that migrated to Colombia in 2018, <a href="#">more than 50 percent were women</a>, according to the Caracas Chronicles, a news and analysis organization in Venezuela.
 
@@ -69,7 +69,7 @@ The potential of xenophobia and a situation of vulnerability is also increased f
 
 Specifically, as the number of Venezuelan sex workers in Colombia increases, so does the animosity they feel from Colombian sex workers.
 
-{{< story-interactives "pages/story5" "women-defs-int" >}}
+{{< story-interactives "pages/a-mothers-sacrifice" "women-defs-int" >}}
 
 Venezuelan sex workers are more likely to offer their services for as low as 40,000 pesos ($12), three times less than what a Colombian sex worker charges said Adriaan Alsema, founder of Colombia Reports. In the eyes of Colombian sex workers, such low prices are killing their business.
 

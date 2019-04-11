@@ -1,12 +1,13 @@
+
 ---
-title: "Greater Than Death"
+title: "The Greatest Need"
 topic: "Healthcare"
 date: 2019-02-04T21:35:29-05:00
-description: "This is the description for the third story."
-video: "../story3/assets/health-headervideo.mp4"
-image: "/story3/assets/health-homepagestill.jpg"
-storyHeading: "Greater Than Death"
-storySubheading: "Venezuelan Doctor Working in Medellin"
+description: "A family’s sacrifice for their children’s health still has roadblocks."
+video: "../the-greatest-need/assets/health-headervideo.mp4"
+image: "/the-greatest-need/assets/health-homepagestill.jpg"
+storyHeading: "The Greatest Need"
+storySubheading: "A family’s sacrifice for their children’s health still has roadblocks"
 weight: 3
 card: true
 author: "Sara Pequeno"
@@ -35,7 +36,7 @@ When the economy collapsed in Venezuela in 2014, so did the healthcare system. D
 
 “In this Venezuela– which used to be so rich– that kids are dying from a lack of medicine?” said Marbis Georgina Zamora Verenzuela, who came with her mother on the first journey. “That you get to a hospital and they don’t have alcohol? That’s a basic thing that a hospital should have. Or some cotton? It’s surprising.”
 
-{{< story-interactives "pages/story3" "health-int" >}}
+{{< story-interactives "pages/the-greatest-need" "health-int" >}}
 
 Marbis Georgina is sitting in her new family home, an apartment in central Medellín. Her 2-year-old daughter, Judy, sits in her mother’s lap, failing to stay awake while the women cook bollos venezolanos what they will sell in Parque Bolivar.
 

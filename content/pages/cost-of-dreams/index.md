@@ -2,11 +2,11 @@
 title: "The Cost of Dreams"
 topic: "Education"
 date: 2019-02-04T21:35:51-05:00
-description: "This is the description for the fourth story."
-video: "../story4/assets/education-headervideo.mp4"
-image: "/story4/assets/education-homepagestill.jpg"
+description: "Children sacrifice their education to help their families"
+video: "../cost-of-dreams/assets/education-headervideo.mp4"
+image: "/cost-of-dreams/assets/education-homepagestill.jpg"
 storyHeading: "The Cost of Dreams"
-storySubheading: "Hundreds of Venezuelan children are working instead of hitting the books"
+storySubheading: "Children sacrifice their education to help their families"
 weight: 4
 card: true
 author: "Patsy Montesinos"
