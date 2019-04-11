@@ -591,12 +591,12 @@ nav {
   .chap .photo__progress {
     position: fixed;
     width: 100%;
-    height: 1vh;
+    height: 2vh;
     background: #ddd;
     bottom: 0;
     z-index: 1; }
     .chap .photo__progress .progress__bar {
-      height: 0.7vh;
+      height: 2vh;
       background: #Fbbc00;
       width: 0%; }
   .chap footer {
@@ -873,6 +873,9 @@ nav {
     .cards .card.hovered .card__hover .card__title,
     .cards .card.hovered .card__hover .card__desc {
       color: #333333; }
+    .cards .card.hovered .card__hover .card__desc {
+      max-width: 90%;
+      margin: 2% auto; }
   @media screen and (min-width: 800px) {
     .cards .card.hovered {
       transform: scale(1.1, 1.1);

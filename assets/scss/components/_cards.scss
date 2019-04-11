@@ -59,6 +59,11 @@
       .card__desc {
         color: $black;
       }
+
+      .card__desc {
+        max-width: 90%;
+        margin: 2% auto;
+      }
     }
 
   }
