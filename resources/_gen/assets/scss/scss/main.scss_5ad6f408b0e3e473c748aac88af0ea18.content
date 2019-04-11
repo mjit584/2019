@@ -1305,6 +1305,14 @@ nav {
 .lock-scroll {
   overflow: hidden; }
 
+.divider {
+  border-bottom: solid 1px #707070;
+  margin: 10vh auto;
+  width: 60vw; }
+  @media screen and (max-width: 800px) {
+    .divider {
+      width: 75vw; } }
+
 .interactive {
   max-width: 100%;
   transition: 1s opacity;
@@ -1315,7 +1323,7 @@ nav {
     font-family: "DDinBold", sans-serif;
     font-size: 2.5rem;
     text-transform: uppercase;
-    margin-bottom: 0;
+    margin: 0;
     font-weight: 400; }
   .interactive .interactive__subhead {
     font-family: "DDinRegular", sans-serif;

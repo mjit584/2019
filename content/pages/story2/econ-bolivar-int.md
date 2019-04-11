@@ -4,7 +4,7 @@ story: "Employment"
 graphics:
 - "Kailee Akers"
 ---
-
+<div class="divider"></div>
 <section class="interactive">
   <h2 class="interactive__title">Venezuelan Bolívar Timeline</h2>
   <h3 class="interactive__subhead">The Bolívar is an ever-changing currency</h3>
@@ -89,3 +89,4 @@ graphics:
   </div>
 </div>
 </section>
+<div class="divider"></div>
