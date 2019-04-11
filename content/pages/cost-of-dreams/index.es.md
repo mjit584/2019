@@ -1,12 +1,12 @@
 ---
-title: "The Cost of Dreams"
+title: "Lo que Cuestan los Sueños"
 topic: "Educación"
 date: 2019-02-04T21:35:51-05:00
-description: "This is the description for the fourth story."
+description: "Los niños sacrifican su educación para apoyar a sus familias."
 video: "../story4/assets/education-headervideo.mp4"
 image: "/story4/assets/education-homepagestill.png"
-storyHeading: "The Cost of Dreams"
-storySubheading: "Hundreds of Venezuelan children are working instead of hitting the books"
+storyHeading: "Lo que Cuestan los Sueños"
+storySubheading: "Los niños sacrifican su educación para apoyar a sus familias."
 weight: 4
 card: true
 author: "Patsy Montesinos"

@@ -1,12 +1,12 @@
 ---
 title: "Encontrando tu Voz"
-topic: "Gobierno"
+topic: "Documentación"
 date: 2019-02-04T21:34:53-05:00
-description: "This is the description for the first story."
+description: "Undocumented Venezuelans find their livelihood by singing on the street."
 video: "../story1/assets/gov-headervideo.mp4"
-image: "https://brookenf.github.io/uprooted-mejo584/images/cards-story1.jpg"
-storyHeading: "A Helping Hand"
-storySubheading: "Providing assistance to Venezuelans who cross over the border"
+image: "/story1/assets/gov-homepagestill.jpg"
+storyHeading: "Encontrando tu Voz"
+storySubheading: "Undocumented Venezuelans find their livelihood by singing on the street."
 weight: 1
 card: true
 author: "Maria Elena Vizcaino"
