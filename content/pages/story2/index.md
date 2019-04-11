@@ -55,7 +55,7 @@ Today, a box of cereal in Venezuela costs more than the average person’s month
 
 {{< story-interactives "pages/story2" "econ-exchange-int" >}}
 
-{{< pull-quote "/pages/story2" "pull-quote-2" >}}
+{{< center-quote "/pages/story2" "pull-quote-2" >}}
 
 “¡Dale, dale, dale!”
 
