@@ -109,7 +109,7 @@
 
     @media screen and (max-width: 800px) {
       margin: 4% auto;
-      width: 90vw;
+      width: 75vw;
 
       .ybr-line {
         max-width: 40vw;
@@ -139,6 +139,10 @@
       align-items: flex-start;
       margin: 0 auto;
 
+      @media screen and (max-width: 800px) {
+        max-width: 75vw;
+      }
+
       .ybr-line {
         margin-top: 1%;
         max-width: 10vw;
@@ -157,7 +161,7 @@
       font-size: 1.125rem;
 
       @media screen and (max-width: 800px){
-        max-width: 90vw;
+        max-width: 75vw;
       }
     }
 
