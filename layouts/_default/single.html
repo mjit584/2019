@@ -49,6 +49,7 @@
 {{ $govUndocumented := resources.Get "js/gov-undocumented-int.js" }}
 {{ $womenInt := resources.Get "js/women-int.js" }}
 {{ $healthInt := resources.Get "js/health-int.js" }}
+{{ $edInt := resources.Get "js/scrollytelly.js" }}
 
 
 <!-- weight 3 = health story -->
@@ -84,7 +85,7 @@
 <!-- Weight 4 = children story -->
 {{else if eq .Weight 4}}
 
-{{ $childrenBundle := slice $scripts $header $progressBar $videos $hamburger | resources.Concat "js/childrenBundle.js" }}
+{{ $childrenBundle := slice $scripts $header $progressBar $videos $hamburger $edInt | resources.Concat "js/childrenBundle.js" }}
 
 {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $childrenBundle.RelPermalink }}"></script>
