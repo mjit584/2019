@@ -27,3 +27,11 @@ $('.scrollytelly__body').each(function () {
     .addTo(controller);
 });
 
+function showBubble(ID) {
+  var x = document.getElementById(ID);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}

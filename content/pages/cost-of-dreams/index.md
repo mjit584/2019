@@ -27,6 +27,8 @@ But even though Jeham has more food in Medellin, it comes at a price. Instead of
 
 The Medellin Education System says every migrant children who seeks education is given the opportunity however; Like Jeham, there are many Venezuelan youth not attending school or at risk of losing their access to education in Colombia because they fear deportation, not having enough resources, or not affording daily food and transportation costs. According to The International Rescue Committee, roughly 50 percent of Venezuelan Kids in Colombia are not enrolled in school.
 
+{{< story-interactives "pages/cost-of-dreams" "openarms" >}}
+
 Alejandrina started selling coffee in Parque Berrio. Dressed in soccer jerseys, Jeham  would accompany her as she struggled to make enough money.
 After TK how long, to start selling candy in the park.
 
@@ -39,6 +41,8 @@ At only 9, Jeham now makes most of the income for his family; however; he has be
 Jeham attended a private school in back in Venezuela, wherewhile Alejandrina was the principle. As the economic crisis grew, their home was destroyed. “Above everything, it affected my family,” Alejandrina says. “Maybe because we didn’t know how to handle it.” She was forced to find a second job as a teacher in a public school, but had to move to a new town and and pledge loyalty to Hugo Chavez, the TKTK role.
 
 Rosa’s education was also affected when he had no other option but to attend a public school. He said the experience at the public school was so much harder because he says his classmates weren’t able to afford anything. “I felt really bad, sometimes they [his friends] brought a banana and that was what they ate the whole day,” said Rosa. His mom agrees.
+
+{{< story-interactives "pages/cost-of-dreams" "ed-truancy-int" >}}
 
 Alejandrina is currently on maternity leave, due with her second child in June. She wishes not to use her last name because if the government found out she left Venezuela, she would be fired. Fearing the possibility of losing her job, the pair left without anyone knowing or getting their passport stamped. With the hopes of returning to her home country, she did not file for any permit, help, or education for the family.
 
