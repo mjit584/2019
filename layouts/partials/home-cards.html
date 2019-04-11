@@ -2,7 +2,11 @@
 
   {{ range where .Site.Pages.ByWeight "Params.card" true }}
   <div class="card" id="card-{{.Params.weight}}">
+    {{if ne .Params.weight 6}}
     <img class="card__img" src="{{ .Params.image }}" alt="Venezuela">
+    {{else}}
+    <img class="card__img" src="{{ .Params.imageHome }}" alt="Venezuela">
+    {{end}}
     <div class="card__base">
       <div class="card__heading">{{ .Params.topic }}</div>
       {{ partial "ybr-line.html" . }}

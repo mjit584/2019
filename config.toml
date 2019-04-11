@@ -116,7 +116,7 @@ canonifyURLs = "true"
     url = "/a-new-home/"
     weight = 2
     pre = "<p class='story-topic'>Chapter Two</p><h3 class='story-title'>A New Home</h3>"
-    post = "/images/photo-chap-2-hero.jpg"
+    post = "/images/photo-homepagephoto.jpg"
 
   [[menu.photo]]
     name = "This is the third chapter of the photo stories"
