@@ -1481,7 +1481,7 @@ nav {
   /* Style the back side */ }
   .interactive__health .flip-card {
     background-color: transparent;
-    width: 300px;
+    width: 40%;
     height: 200px;
     border: 1px solid #f1f1f1;
     perspective: 1000px;
@@ -1493,6 +1493,10 @@ nav {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d; }
+  .interactive__health .bottom-text {
+    color: #aaa;
+    font-style: italic;
+    font-size: 1rem; }
   .interactive__health .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg); }
   .interactive__health .flip-card-front, .interactive__health .flip-card-back {
@@ -1528,13 +1532,12 @@ nav {
     height: 5vh;
     width: 100vw; }
   .interactive__health .card-front {
-    margin: 75px;
+    margin: 2%;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.1);
-    z-index: 1000; }
+    box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.1); }
   .interactive__health .card-flipped {
     top: 60vh;
     position: absolute;
@@ -1542,17 +1545,18 @@ nav {
     justify-content: center;
     align-items: center; }
   .interactive__health #card-sh {
-    width: 400px; }
+    width: 40%;
+    position: relative; }
   .interactive__health #card-back-sh {
-    width: 400px;
+    width: 40%;
     height: 600px;
     position: relative; }
   .interactive__health #card-ch {
-    width: 400px;
-    height: 850px;
+    width: 40%;
+    height: 700px;
     position: relative; }
   .interactive__health #card-back-ch {
-    width: 400px;
+    width: 600px;
     height: 850px; }
   .interactive__health #sh-r-1 {
     color: #C70032; }
@@ -1624,7 +1628,7 @@ nav {
     font-weight: 700;
     font-size: 20px;
     height: 70px;
-    width: 400px;
+    width: 100%;
     color: white;
     background-color: #C70032;
     /* display: none; */ }
@@ -1638,32 +1642,32 @@ nav {
     color: white;
     background-color: #1457D3; }
   .interactive__health .card-front-body-sh {
-    width: 400px;
-    height: 630px;
+    width: 100%;
+    min-height: 530px;
     justify-content: flex-start; }
   .interactive__health .card-front-body-ch {
-    height: 780px;
-    width: 400px;
+    width: 100%;
     justify-content: flex-start; }
   .interactive__health .card-back-body {
     position: absolute;
-    height: 630px;
-    width: 400px;
+    min-height: 430px;
+    width: 100%;
     background-color: white;
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: flex-start; }
   .interactive__health #card-back-body-ch {
-    height: 780px; }
-  .interactive__health .card-back-body-text {
+    height: 650px; }
+  .interactive__health .card-back-body-text p {
     text-align: left;
     font-family: 'Lato', sans-serif;
-    font-size: 15.5px;
+    font-size: 1.125rem;
     padding: 0 20px;
     line-height: 1.4;
     color: #333333; }
-    .interactive__health .card-back-body-text p {
-      margin: 5% 0; }
+    @media (max-width: 1080px) {
+      .interactive__health .card-back-body-text p {
+        font-size: 1rem; } }
   .interactive__health #ch-r-1 {
     color: #1457D3; }
   .interactive__health .card-front-subtitle {
@@ -1701,21 +1705,15 @@ nav {
   .interactive__health .hidden {
     display: none; }
   @media (max-width: 800px) {
-    .interactive__health .main-title {
-      width: 70vw; }
+    .interactive__health #card-sh, .interactive__health #card-ch {
+      width: 90%;
+      margin: 10px; }
+    .interactive__health .card-front-body-sh {
+      min-height: 430px; }
     .interactive__health #r-3 {
-      margin-top: 80vh;
-      width: 100vw;
       flex-direction: column;
       justify-content: center;
-      align-items: center; }
-    .interactive__health .card-front {
-      margin: 0;
-      padding: 0;
-      width: 70vw;
-      height: auto;
-      margin-top: 10vh;
-      margin-bottom: 10vh; } }
+      align-items: center; } }
 
 #interactive__gov-undocumented {
   position: relative;
