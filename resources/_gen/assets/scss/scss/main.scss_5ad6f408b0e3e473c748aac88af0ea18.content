@@ -174,21 +174,33 @@ body {
     grid-area: story-hero;
     justify-content: flex-start;
     transition: 1s opacity; }
+    @media screen and (max-width: 800px) {
+      .story-page .story-hero {
+        height: calc(100vh - 68px); } }
     .story-page .story-hero .story-video {
       position: absolute;
       top: 0px;
       left: 0px;
       z-index: -1;
       width: 100%;
-      height: 100%;
+      height: auto;
+      max-height: 100%;
       border-radius: 1px;
       object-fit: cover;
       object-position: top left; }
+      @media screen and (max-width: 800px) {
+        .story-page .story-hero .story-video {
+          margin-top: 68px;
+          height: 30vh; } }
     .story-page .story-hero .video-5 {
       object-position: top center; }
     .story-page .story-hero .story-hero__topic {
       text-align: center;
-      margin-top: 4.5rem; }
+      margin-top: 15vh; }
+      @media screen and (max-width: 800px) {
+        .story-page .story-hero .story-hero__topic {
+          margin-top: 30vh;
+          color: #333333; } }
       .story-page .story-hero .story-hero__topic p {
         font-family: "DDinRegular", sans-serif;
         font-weight: 700;
@@ -197,7 +209,7 @@ body {
         font-size: 1.2rem; }
       .story-page .story-hero .story-hero__topic .ybr-line {
         height: 10px;
-        width: 35%; }
+        width: 25%; }
         .story-page .story-hero .story-hero__topic .ybr-line .ybr-section {
           stroke-width: 4; }
     .story-page .story-hero .story-hero__title {
@@ -206,9 +218,16 @@ body {
       font-size: calc(3rem + 3vw);
       margin-bottom: 0;
       margin-top: 25vh; }
+      @media screen and (max-width: 800px) {
+        .story-page .story-hero .story-hero__title {
+          margin-top: 5px;
+          color: #333333; } }
     .story-page .story-hero .story-hero__desc {
       font-family: "Lato", sans-serif;
       font-weight: 400; }
+      @media screen and (max-width: 800px) {
+        .story-page .story-hero .story-hero__desc {
+          color: #333333; } }
   .story-page .story-byline {
     font-family: "Lato", sans-serif;
     background-color: #F2F2F2;
@@ -231,7 +250,7 @@ body {
     @media screen and (max-width: 800px) {
       .story-page .story-byline {
         margin: 4% auto;
-        width: 90vw; }
+        width: 75vw; }
         .story-page .story-byline .ybr-line {
           max-width: 40vw; }
           .story-page .story-byline .ybr-line .ybr-section {
@@ -249,6 +268,9 @@ body {
       justify-content: flex-start;
       align-items: flex-start;
       margin: 0 auto; }
+      @media screen and (max-width: 800px) {
+        .story-page .story-content .story__subhead {
+          max-width: 75vw; } }
       .story-page .story-content .story__subhead .ybr-line {
         margin-top: 1%;
         max-width: 10vw; }
@@ -262,18 +284,18 @@ body {
       font-size: 1.125rem; }
       @media screen and (max-width: 800px) {
         .story-page .story-content p {
-          max-width: 90vw; } }
+          max-width: 75vw; } }
     .story-page .story-content .ybr-line {
       transition: 1s opacity; }
   .story-page .photo__progress {
     position: fixed;
     width: 100%;
-    height: 1vh;
+    height: 2vh;
     background: #ddd;
     bottom: 0;
     z-index: 1; }
     .story-page .photo__progress .progress__bar {
-      height: 0.7vh;
+      height: 2vh;
       background: #Fbbc00;
       width: 0%; }
   .story-page footer {
@@ -1305,6 +1327,14 @@ nav {
 .lock-scroll {
   overflow: hidden; }
 
+.divider {
+  border-bottom: solid 1px #707070;
+  margin: 10vh auto;
+  width: 60vw; }
+  @media screen and (max-width: 800px) {
+    .divider {
+      width: 75vw; } }
+
 .interactive {
   max-width: 100%;
   transition: 1s opacity;
@@ -1315,7 +1345,7 @@ nav {
     font-family: "DDinBold", sans-serif;
     font-size: 2.5rem;
     text-transform: uppercase;
-    margin-bottom: 0;
+    margin: 0;
     font-weight: 400; }
   .interactive .interactive__subhead {
     font-family: "DDinRegular", sans-serif;
@@ -1414,7 +1444,7 @@ nav {
           stroke-width: 5; } }
   @media screen and (max-width: 800px) {
     .photo-caption-container {
-      width: 75vw; }
+      width: 90vw; }
       .photo-caption-container .caption {
         width: 100%;
         font-size: 0.75rem; } }
@@ -1443,7 +1473,7 @@ nav {
           stroke-width: 5; } }
   @media screen and (max-width: 800px) {
     .photo-caption-container-vert {
-      width: 75vw; }
+      width: 90vw; }
       .photo-caption-container-vert .caption {
         width: 100%;
         font-size: 0.75rem; } }

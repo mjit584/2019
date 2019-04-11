@@ -5,7 +5,7 @@ graphics:
 - "Carlos Salas"
 - "Sally Dillon"
 ---
-
+<div class="divider"></div>
 <section class="interactive" id="womenSlider2">
   <h2 class="interactive__title">Prostitution Vs. Sex Trafficking</h2><br/>
   {{< ybr-line >}}
@@ -42,3 +42,4 @@ graphics:
     </script>
   </svg>
 </section>
+<div class="divider"></div>
