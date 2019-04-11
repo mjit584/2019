@@ -20,15 +20,18 @@ window.onscroll = function () {
 
 var storyDropdown = document.getElementById('header__story-dropdown');
 var mainMenu = document.getElementById('main-menu');
+var overlay = document.getElementById("home-overlay");
 
 storyDropdown.onmouseenter = function () {
   storyDropdown.classList.toggle('is-active');
   mainMenu.classList.toggle('open');
+  overlay.classList.toggle("overlay");
 }
 
 storyDropdown.onmouseleave = function () {
   storyDropdown.classList.toggle('is-active');
   mainMenu.classList.toggle('open');
+  overlay.classList.toggle("overlay");
 }
 
 var photoDropdown = document.getElementById('header__photo-dropdown');
@@ -36,13 +39,11 @@ var photoMainMenu = document.getElementById('main-menu-photos');
 photoDropdown.onmouseenter = function () {
   photoDropdown.classList.toggle('is-active');
   photoMainMenu.classList.toggle('open');
-  overlay.style.display = "block";
 }
 
 photoDropdown.onmouseleave = function () {
   photoDropdown.classList.toggle('is-active');
   photoMainMenu.classList.toggle('open');
-  overlay.style.display = "none";
 }
 
 
