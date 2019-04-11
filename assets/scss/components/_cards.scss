@@ -127,24 +127,20 @@
           transform: translate3d(0, 0, 0);
         }
 
-        .card__heading {
-          transition-delay: .25s;
-        }
-
         .ybr-line {
-          transition-delay: .3s;
+          transition-delay: .05s;
         }
 
         // Increase title font size on card hover
         .card__title {
-          transition-delay: .35s;
+          transition-delay: .1s;
           font-size: 2.5rem;
           line-height: 2.3rem;
           padding: 0 50px 10px;
         }
 
         .card__desc {
-          transition-delay: .35s;
+          transition-delay: .1s;
         }
 
         .card__button {
@@ -213,6 +209,7 @@
       font-family: $font-card-desc;
       font-weight: $font-weight-bold;
       margin-bottom: 10px;
+      padding: 0 25px;
     }
 
     .card__button {
