@@ -1390,7 +1390,7 @@ nav {
 .photo-caption-container {
   font-family: "Lato", sans-serif;
   line-height: 1.5em;
-  width: 70vw;
+  width: 63vw;
   margin: 2vh auto;
   align-items: flex-start; }
   .photo-caption-container img {
@@ -1402,6 +1402,7 @@ nav {
     font-style: italic; }
     .photo-caption-container .caption p {
       margin: 0;
+      max-width: 100%;
       font-size: inherit; }
     .photo-caption-container .caption .ybr-line {
       max-width: 15vw;
@@ -1419,11 +1420,11 @@ nav {
 .photo-caption-container-vert {
   font-family: "Lato", sans-serif;
   line-height: 1.5em;
-  width: 40vw;
-  margin: 2vh auto;
-  align-items: flex-start; }
+  margin: 2vh auto; }
   .photo-caption-container-vert img {
-    width: 100%; }
+    height: 80vh;
+    max-height: 1000px;
+    width: auto; }
   .photo-caption-container-vert .caption {
     align-items: flex-start;
     margin-top: 1vh;
