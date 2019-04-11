@@ -174,21 +174,33 @@ body {
     grid-area: story-hero;
     justify-content: flex-start;
     transition: 1s opacity; }
+    @media screen and (max-width: 800px) {
+      .story-page .story-hero {
+        height: calc(100vh - 68px); } }
     .story-page .story-hero .story-video {
       position: absolute;
       top: 0px;
       left: 0px;
       z-index: -1;
       width: 100%;
-      height: 100%;
+      height: auto;
+      max-height: 100%;
       border-radius: 1px;
       object-fit: cover;
       object-position: top left; }
+      @media screen and (max-width: 800px) {
+        .story-page .story-hero .story-video {
+          margin-top: 68px;
+          height: 30vh; } }
     .story-page .story-hero .video-5 {
       object-position: top center; }
     .story-page .story-hero .story-hero__topic {
       text-align: center;
-      margin-top: 4.5rem; }
+      margin-top: 15vh; }
+      @media screen and (max-width: 800px) {
+        .story-page .story-hero .story-hero__topic {
+          margin-top: 30vh;
+          color: #333333; } }
       .story-page .story-hero .story-hero__topic p {
         font-family: "DDinRegular", sans-serif;
         font-weight: 700;
@@ -197,7 +209,7 @@ body {
         font-size: 1.2rem; }
       .story-page .story-hero .story-hero__topic .ybr-line {
         height: 10px;
-        width: 35%; }
+        width: 25%; }
         .story-page .story-hero .story-hero__topic .ybr-line .ybr-section {
           stroke-width: 4; }
     .story-page .story-hero .story-hero__title {
@@ -206,9 +218,16 @@ body {
       font-size: calc(3rem + 3vw);
       margin-bottom: 0;
       margin-top: 25vh; }
+      @media screen and (max-width: 800px) {
+        .story-page .story-hero .story-hero__title {
+          margin-top: 5px;
+          color: #333333; } }
     .story-page .story-hero .story-hero__desc {
       font-family: "Lato", sans-serif;
       font-weight: 400; }
+      @media screen and (max-width: 800px) {
+        .story-page .story-hero .story-hero__desc {
+          color: #333333; } }
   .story-page .story-byline {
     font-family: "Lato", sans-serif;
     background-color: #F2F2F2;
