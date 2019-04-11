@@ -29,10 +29,9 @@
 }
 
 .scrollytelly__body {
-  // opacity: .6;
-  // transform: translateY(50px);
+  opacity: 0;
   padding: 200px 0;
-  transition: all 1s ease-out;
+  transition: opacity 1s ease-out;
 
   @media (max-width:800px) {
     img {
@@ -47,8 +46,7 @@
 }
 
 #scrollytelly-1 .scrollytelly__body.fade-in {
-  // opacity: 1;
-  // transform: translateY(0);
+  opacity: 1;
 }
 .bubbles-container {
   position:relative;
