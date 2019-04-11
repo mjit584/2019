@@ -29,7 +29,7 @@ After leaving behind their home country, where most Venezuelan immigrants spent 
 <div class="photo__line"></div>
 
 <!-- Deylena and Jonathan's home -->
-{{< photo-caption-vert "/pages/a-new-home" "photo-caption-3-vert" >}}
+{{< photo-caption "/pages/a-new-home" "photo-caption-3" >}}
 
 <div class="photo__line"></div>
 
