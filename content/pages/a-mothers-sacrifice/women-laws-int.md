@@ -5,7 +5,7 @@ graphics:
 - "Carlos Salas"
 - "Sally Dillon"
 ---
-
+<div class="divider"></div>
 <section class="interactive" id="womenSlider">
   <h2 class="interactive__title">The Legal Status of Prostitution</h2><br/>
   {{< ybr-line >}}
@@ -30,3 +30,4 @@ graphics:
  </div>
 
 </section>
+<div class="divider"></div>

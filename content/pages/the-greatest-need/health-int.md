@@ -4,7 +4,7 @@ story: "Heath"
 graphics:
 - "Carlos Salas"
 ---
-
+<div class="divider"></div>
 <section class="interactive">
   <div class="interactive__health">
     <h2 class="interactive__title">Colombian Healthcare</h2>
@@ -107,3 +107,4 @@ graphics:
       <div class="background-blur"></div>
   </div>
 </section>
+<div class="divider"></div>
