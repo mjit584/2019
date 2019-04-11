@@ -85,21 +85,21 @@ canonifyURLs = "true"
 
   [[menu.main]]
     name = "This is the third story description"
-    url = "/story3/"
+    url = "/the-greatest-need/"
     weight = 3
-    pre = "<p class='story-topic'>Healthcare</p><h3 class='story-title'>Greater Than Death</h3>"
+    pre = "<p class='story-topic'>Health</p><h3 class='story-title'>The Greatest Need</h3>"
     post = "/images/health-homepagestill.jpg"
 
   [[menu.main]]
     name = "This is the fourth story description"
-    url = "/story4/"
+    url = "/cost-of-dreams/"
     weight = 4 
     pre = "<p class='story-topic'>Education</p><h3 class='story-title'>The Cost of Dreams</h3>"
     post = "/images/education-homepagestill.jpg"
 
   [[menu.main]]
     name = "This is the fifth story description"
-    url = "/story5/"
+    url = "/a-mothers-sacrifice/"
     weight = 5
     pre = "<p class='story-topic'>Women</p><h3 class='story-title'>A Mother's Sacrifice</h3>"
     post = "/images/women-homepagestill.jpg"

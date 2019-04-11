@@ -30,7 +30,7 @@ After traveling hundreds of miles on foot, a group of five Venezuelans, who toge
 
 <div class="photo__line"></div>
 
-{{< photo-caption-vert "/pages/a-family-together" "photo-caption-4-vert" >}}
+{{< photo-caption "/pages/a-family-together" "photo-caption-4" >}}
 
 <div class="photo__line"></div>
 
@@ -51,12 +51,6 @@ After traveling hundreds of miles on foot, a group of five Venezuelans, who toge
 <div class="photo__line"></div>
 
 {{< photo-caption "/pages/a-family-together" "photo-caption-9" >}}
-
-<div class="photo__line"></div>
-
-Living in a tiny room, the friends spend the night in places known as <em>inquilinato</em>, small rooms that can be rented out daily. For about $10 USD, the friends have a place to lay their heads at night. Most rooms offer only a small bed, a dresser and a TV. Hundreds of Venezuelans who have made their way to Colombia find themselves living in such places because they have little money to rent out proper homes.
-
-{{< story-interactives "/pages/a-family-together" "photo-image-map" >}}
 
 <div class="photo__line"></div>
 
