@@ -16,38 +16,38 @@ families and their adjustments to living in Medellín, Colombia.{{ end}}
 {{ end }}
 
 {{ define "main"}}
-<div class="home__scroll">
-  <div class="home__overlay" id="home-overlay">
-    <section class="panel flex-column bg-cover bg-position-center" id="home__intro">
-      <nav>
-        <!--full screen-->
-        <div class="header" id="header">
-          {{ partial "header.html" . }}
-        </div>
-        <!--hamburger-->
-        <div class="header-mobile" id="hamburger">
-          {{ partial "hamburger.html" . }}
-        </div>
-      </nav>
-      {{ partial "main-menu-mobile.html" . }}
-      <img class="home__logo" src="./images/uprooted-logo-gif.gif" alt="Uprooted UNC logo" />
-      {{ partial "ybr-line.html" . }}
-      <h2 class="home__subtitle">{{ .Params.Subtitle }}</h2>
-      <div class="home__desc">{{ .Content }}</div>
-      <div class="home__explore">
-        <p>Explore</p>
-        <a href="#home__cards"><i class="fas fa-chevron-down"></i></a>
-      </div>
-    </section>
-
-    <section class="panel" id="home__cards">
-      {{ partial "home-cards.html" . }}
-    </section>
-
-    <section class="panel flex bg-cover bg-position-center" id="home__about">
-      {{ partial "home-about.html" . }}
-    </section>
+<div class="home__overlay" id="home-overlay"></div>
+<nav>
+  <!--full screen-->
+  <div class="header" id="header">
+    {{ partial "header.html" . }}
   </div>
+  <!--hamburger-->
+  <div class="header-mobile" id="hamburger">
+    {{ partial "hamburger.html" . }}
+  </div>
+</nav>
+
+<div class="home__scroll">
+  <section class="panel flex-column bg-cover bg-position-center" id="home__intro">
+    {{ partial "main-menu-mobile.html" . }}
+    <img class="home__logo" src="./images/uprooted-logo-gif.gif" alt="Uprooted UNC logo" />
+    {{ partial "ybr-line.html" . }}
+    <h2 class="home__subtitle">{{ .Params.Subtitle }}</h2>
+    <div class="home__desc">{{ .Content }}</div>
+    <div class="home__explore">
+      <p>Explore</p>
+      <a href="#home__cards"><i class="fas fa-chevron-down"></i></a>
+    </div>
+  </section>
+
+  <section class="panel" id="home__cards">
+    {{ partial "home-cards.html" . }}
+  </section>
+
+  <section class="panel flex bg-cover bg-position-center" id="home__about">
+    {{ partial "home-about.html" . }}
+  </section>
 </div>
 
 {{ end }}
