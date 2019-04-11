@@ -11,7 +11,7 @@ graphics:
     <h3 class="interactive__subhead">Analyzing Coverage Options</h3>
     {{< ybr-line >}}
     <p class="interactive__intro">Under Colombian law, every documented resident is required to have basic medical, dental, and vision healthcare coverage. Those who can afford the minimum for contributory healthcare must buy it, while those who can’t afford it can apply to receive free subsidized healthcare.</p>
-    <p class="interactive__intro">Click the cards below to learn more about the different healthcare options available to Colombian residents:</p>
+    <p class="interactive__intro bottom-text">Hover over the cards below to learn more.</p>
     <div class="container flex" id="r-3">
       <div class="card-front" id="card-sh">
         <div class="flex card-front-title" id="sh-r-1">
@@ -21,7 +21,7 @@ graphics:
             SUBSIDIZED HEALTHCARE
         </div>
           <div class="container card-front-body-sh">
-            <div class="container card-back-body sh-hidden hidden" id="card-back-body-sh"> 
+            <div class="container card-back-body sh-hidden hidden" id="card-back-body-sh">
               <div class="card-back-body-text">
                 <p>The <strong>System for the Selection of Beneficiaries of Social Programs </strong>(Sisbén) assigns Colombian residents to free government-subsidized health and social programs based on need.</p>
                 <p>Residents who qualify are eligible to receive free basic healthcare coverage through government contracts established with private insurers. Most health subsidies are received by poverty-stricken Colombians, but a large influx of documented Venezuelan immigrants has strained an already-struggling system.</p>
@@ -49,9 +49,9 @@ graphics:
             <p class="card-text-large red">FREE</p>
             <p class="card-text-small">for qualifying residents*</p>
           </div>
-          <div class="container" id="sh-r-4">
+          <!-- <div class="container" id="sh-r-4">
             <img class="card-learn-more" id="learn-more-sh" src="assets/learn-more-red.svg" alt="learn more">
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="card-front" id="card-ch">
@@ -99,9 +99,9 @@ graphics:
           <p class="card-text-large blue">12.5% </p>
           <p class="card-text-small">of Gross Monthly Income </p>
         </div>
-        <div class="container" id="sh-r-4">
+        <!-- <div class="container" id="sh-r-4">
           <img class="card-learn-more" id="learn-more-ch" src="assets/learn-more-blue.svg" alt="learn more">
-        </div>
+        </div> -->
         </div>
       </div>
       <div class="background-blur"></div>
