@@ -43,8 +43,7 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
   display: none;
   width: 100%;
-  height: 100%;
-  overflow: scroll; }
+  height: 100%; }
 
 .home .home__scroll {
   color: #ffffff;
@@ -170,12 +169,12 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. story-by story-by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
+  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. by by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .story-page {
       grid-template-columns: 1fr;
-      grid-template-areas: 'nav' 'story-hero' 'story-by' 'story-bd' 'story-ft'; } }
+      grid-template-areas: 'nav' 'story-hero' 'by' 'story-bd' 'story-ft'; } }
   .story-page .story-hero {
     color: #ffffff;
     height: 100vh;
@@ -238,33 +237,6 @@ body {
       @media screen and (max-width: 800px) {
         .story-page .story-hero .story-hero__desc {
           color: #333333; } }
-  .story-page .story-byline {
-    font-family: "Lato", sans-serif;
-    background-color: #F2F2F2;
-    padding: 2%;
-    margin: 6vh 0;
-    width: 47%;
-    font-size: 12px;
-    align-items: flex-start;
-    font-weight: 700;
-    line-height: 1.5em;
-    grid-area: story-by;
-    transition: 1s opacity; }
-    .story-page .story-byline span {
-      font-weight: 300; }
-    .story-page .story-byline .ybr-line {
-      margin-top: 1vh;
-      max-width: 10vw; }
-      .story-page .story-byline .ybr-line .ybr-section {
-        stroke-width: 7; }
-    @media screen and (max-width: 800px) {
-      .story-page .story-byline {
-        margin: 4% auto;
-        width: 75vw; }
-        .story-page .story-byline .ybr-line {
-          max-width: 40vw; }
-          .story-page .story-byline .ybr-line .ybr-section {
-            stroke-width: 4; } }
   .story-page .story-content {
     font-family: "Georgia", serif;
     grid-area: story-bd; }
@@ -326,20 +298,19 @@ nav {
   font-size: 1rem;
   line-height: 1.5rem; }
   .about .story-hero {
+    width: 100%;
+    padding-top: 50%;
     position: relative; }
-    .about .story-hero:before {
-      display: block;
-      content: "";
-      width: 100%;
-      padding-top: 66.66666667%; }
-    .about .story-hero > .hero__img-container {
+    .about .story-hero .hero__img-container {
       position: absolute;
       top: 0;
       right: 0;
       bottom: 0;
       left: 0; }
-      .about .story-hero > .hero__img-container img {
-        max-width: 100%; }
+      .about .story-hero .hero__img-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
     .about .story-hero .about__heading {
       font-family: "DDinBold", sans-serif;
       margin-top: 8vh;
@@ -517,12 +488,12 @@ nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'nav nav nav nav' 'photo-hero photo-hero photo-hero photo-hero' '. photo-by photo-by .' 'photo-bd photo-bd photo-bd photo-bd' 'photo-ft photo-ft photo-ft photo-ft';
+  grid-template-areas: 'nav nav nav nav' 'photo-hero photo-hero photo-hero photo-hero' '. by by .' 'photo-bd photo-bd photo-bd photo-bd' 'photo-ft photo-ft photo-ft photo-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .chap {
       grid-template-columns: 1fr;
-      grid-template-areas: 'nav' 'photo-hero' 'photo-by' 'photo-bd' 'photo-ft'; } }
+      grid-template-areas: 'nav' 'photo-hero' 'by' 'photo-bd' 'photo-ft'; } }
   .chap .photo-hero {
     color: #ffffff;
     height: 100vh;
@@ -588,7 +559,7 @@ nav {
       color: #C70032; }
     .chap .photo__content p {
       max-width: 50vw;
-      line-height: 1.5em;
+      line-height: 1.2rem;
       margin: 2vw auto;
       transition: 1s opacity;
       font-size: 1.125rem; }
@@ -597,7 +568,7 @@ nav {
           max-width: 90vw; } }
     .chap .photo__content .photo__line {
       border-bottom: solid 1px #707070;
-      margin: 12vh auto;
+      margin: 6vh auto;
       width: 84vw; }
     .chap .photo__content .photo__subhead {
       font-family: "DDinBold", sans-serif;
@@ -1424,6 +1395,34 @@ nav {
     font-style: italic;
     align-self: flex-start; }
 
+.byline {
+  font-family: "Lato", sans-serif;
+  background-color: #F2F2F2;
+  padding: 2%;
+  margin: 6vh 0;
+  width: 63%;
+  font-size: 12px;
+  align-items: flex-start;
+  font-weight: 700;
+  line-height: 1.5em;
+  grid-area: by;
+  transition: 1s opacity; }
+  .byline span {
+    font-weight: 300; }
+  .byline .ybr-line {
+    margin-top: 1vh;
+    max-width: 10vw; }
+    .byline .ybr-line .ybr-section {
+      stroke-width: 7; }
+  @media screen and (max-width: 800px) {
+    .byline {
+      margin: 4% auto;
+      width: 75vw; }
+      .byline .ybr-line {
+        max-width: 40vw; }
+        .byline .ybr-line .ybr-section {
+          stroke-width: 4; } }
+
 .photo-caption-container {
   font-family: "Lato", sans-serif;
   line-height: 1.5em;
@@ -2147,10 +2146,14 @@ nav {
 .scrollytelly__main {
   max-width: 85%; }
 
+#scrollytelly__title {
+  margin-top: 5%; }
+
 .scrollytelly__body {
-  opacity: 0;
   padding: 200px 0;
-  transition: opacity 1s ease-out; }
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease-out; }
   @media (max-width: 800px) {
     .scrollytelly__body img {
       max-width: 100%; } }
@@ -2160,8 +2163,9 @@ nav {
   font-style: italic;
   padding-top: 2vh; }
 
-#scrollytelly-1 .scrollytelly__body.fade-in {
-  opacity: 1; }
+.scrollytelly__body.fade-in {
+  opacity: 1;
+  transform: translateY(0); }
 
 .bubbles-container {
   position: relative;
@@ -2171,8 +2175,11 @@ nav {
   display: none;
   position: absolute;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   top: 40%;
   left: 0;
+  right: 0;
   background-color: #fff;
   border: 2px solid #Fbbc00;
   color: #333333;
@@ -2185,6 +2192,7 @@ nav {
   .bubble .scrolly__source {
     text-align: right; }
   .bubble .closebubble {
+    cursor: pointer;
     font-size: 2rem;
     font-family: "DDinBold", sans-serif;
     text-align: right; }

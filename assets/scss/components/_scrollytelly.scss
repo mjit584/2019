@@ -24,14 +24,20 @@
   font-size:.8rem;
   padding-top:2vh;
 }
+
 .scrollytelly__main {
   max-width: 85%;
 }
 
+#scrollytelly__title {
+  margin-top: 5%;
+}
+
 .scrollytelly__body {
-  opacity: 0;
   padding: 200px 0;
-  transition: opacity 1s ease-out;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease-out;
 
   @media (max-width:800px) {
     img {
@@ -45,19 +51,25 @@
   padding-top:2vh;
 }
 
-#scrollytelly-1 .scrollytelly__body.fade-in {
+.scrollytelly__body.fade-in {
   opacity: 1;
+  transform: translateY(0);
 }
+
 .bubbles-container {
   position:relative;
   width:100%;
 }
+
 .bubble {
   display:none;
   position:absolute;
   width:100%;
+  margin-left: auto;
+  margin-right: auto;
   top:40%;
   left:0;
+  right: 0;
   background-color:#fff;
   border:2px solid $yellow;
   color:$black;
@@ -68,10 +80,12 @@
   img {
     margin: 10px auto;
   }
+
   .scrolly__source {
     text-align:right;
   }
   .closebubble {
+    cursor: pointer;
     font-size:2rem;
     font-family:$font-hero-title;
     text-align:right;

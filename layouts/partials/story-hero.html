@@ -6,11 +6,11 @@
     <!-- Video is embedded in the WEBM format -->
     <source src="{{ .background }}" type="video/mp4">
   </video>
-  {{end}}
   <div class="story-hero__topic">
     <p>{{ .topic }}</p>
     {{ partial "ybr-line.html" . }}
   </div>
   <h1 class="story-hero__title">{{ .heading }}</h1>
   <h3 class="story-hero__desc">{{ .subheading }}</h3>
+  {{end}}
 </div>
