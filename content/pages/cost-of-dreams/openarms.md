@@ -11,7 +11,7 @@ intTitle: "Photo Scrollytelly 1"
           <div class="interactive__intro">Medellín Education System welcomes Venezuelan refugees</div>
         </div>
         <div class="scrollytelly__body flex-column">
-          <div class="scrolly__text">100% of migrant children who seek education in Medellín, Colombia are given the opportunity. </div>
+          <div class="scrolly__text"><strong>100%</strong> of migrant children who seek education in Medellín, Colombia are given the opportunity. </div>
           <img src="assets/Screen1.png">
           <div class="scrolly__source">*Data from the Medellín Ministry of Education</div>
         </div>
@@ -25,7 +25,7 @@ intTitle: "Photo Scrollytelly 1"
         </div>
         <div class="scrollytelly__body flex-column">
           <div class="scrolly__text">
-            Migration affects attendance in the education system for Venezuelan children and teens, with absence rates of around <strong>40%</strong> among all migrants.
+            Migration affects attendance in the education system for Venezuelan children and teens, with absence rates around <strong>40%</strong> among all migrants.
             </div>
           <img src="assets/Screen3.png">
           <div class="scrolly__source">*Data from The World Bank</div>
