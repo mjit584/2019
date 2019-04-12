@@ -1,6 +1,6 @@
 
 //Add your images, we'll set the path in the next step
-var images = ['404-bts-1.JPG', '404-bts-2.JPG', '404-bts-3.JPG'];
+var images = ['404-bts-1.JPG', '404-bts-2.JPG', '404-bts-3.JPG', '404-bts-4.jpg', '404-bts-5.jpg', '404-bts-6.jpg', '404-bts-7.jpg'];
 var quotes = [
   'Brooke to Alex: "We talked about this! Are you a 12-year-old boy?"',
   'Brooke: "It\'s greener than I thoguht Texas would be."',
@@ -42,6 +42,6 @@ var randomImg = images[Math.floor(Math.random() * images.length)];
 var randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
 console.log('We picked you out a new photo', randomImg);
 console.log('We picked you out a new quote', randomQuote);
-$('<img alt="This image is a behind-the-scenes exclusive of the Uprooted team" src="https://brookenf.github.io/uprooted-mejo584/images/404/' + randomImg + '">').appendTo('.error__container');
+document.getElementsByClassName("error__container")[0].style.backgroundImage = `url('../images/404/${randomImg}')`;
 
 $(`<p>${randomQuote}</p>`).appendTo('.error__text');
