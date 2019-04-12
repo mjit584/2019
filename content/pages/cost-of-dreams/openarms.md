@@ -5,7 +5,7 @@ intTitle: "Photo Scrollytelly 1"
   <div class="interactive__body">
     <div class="interactive__background flex-column" id="scrollytelly-1">
       <div class="scrollytelly__main">
-        <div class="scrollytelly__body flex-column">
+        <div id ="scrollytelly__title"class="flex-column">
           <img src="assets/TitleCard.png">
           <h2 class="interactive__title">OPEN ARMS</h2>
           <div class="interactive__intro">Medellín Education System welcomes Venezuelan refugees</div>
@@ -40,14 +40,12 @@ intTitle: "Photo Scrollytelly 1"
             <img src="assets/Bubbles2.png" onclick="showBubble('resources')">
             <img src="assets/Bubbles3.png" onclick="showBubble('hunger')">
             <img src="assets/Bubbles4.png" onclick="showBubble('transportation')">
-
             <div id="deportation" class="bubble scrolly__text">
               <div class="closebubble" onclick="showBubble('deportation')">X</div>
               It is estimated that 104,173 children do not have legal documents that grant them access to many government services. This includes passports, TMF (border mobility card) or foreigners identification cards. When a Venezuelan child enters school in Colombia, it must be legally reported to immigration with official documentation. Because of this, many children do not pursue education due to fear of deportation.<br>
               <div class="center"><img src="assets/Notecard1.png"></div>
               <div class="scrolly__source">*Data from the Medellín Ministry of Education</div>
             </div>
-
             <div id="resources" class="bubble scrolly__text">
               <div class="closebubble" onclick="showBubble('resources')">X</div>
               Parents fortunate enough to find a classroom for their children have trouble affording uniforms and school supplies.<br><br>
@@ -58,14 +56,12 @@ intTitle: "Photo Scrollytelly 1"
               </div>
               <div class="scrolly__source">*Data from The New Humanitarian and The Human Rights Watch</div>
             </div>
-
             <div id="hunger" class="bubble scrolly__text">
               <div class="closebubble" onclick="showBubble('hunger')">X</div>
               Proper feeding contributes not only to the permanence of children in the educational system, but also to improving their school performance. Kids who go to school hungry may suffer an inability to concentrate and often fall behind academically.  <br>
               <div class="center"><img src="assets/Notecard3.png"></div>
               <div class="scrolly__source">*Data from The Colombia Ministry of Education</div>
             </div>
-
             <div id="transportation" class="bubble scrolly__text">
               <div class="closebubble" onclick="showBubble('transportation')">X</div>
               A bus cost for children to get to school is 1,100 COP, about 35 cents in the United States. Most children choose to walk to school to save money, and trips to school can take up to 30 minutes by foot. Along the border, children walk up to 6 miles each way across the Simón Bolívar bridge from Venezuela to Colombia, and each trip takes about 2 hours. <br>

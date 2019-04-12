@@ -1,6 +1,6 @@
 ---
 title: "Photo Journey"
-topic: "Photo Series"
+topic: "Photo Journey"
 date: 2019-02-04T21:34:53-05:00
 description: "This is the description for the first story."
 image: "../images/photo-chap-1-hero.jpg"
@@ -59,5 +59,3 @@ As resources dwindle, violence erupts, and corruption becomes rampant, Venezuela
 Venezuelans have been traveling across the country to find a better place to live. <a href="https://www.nytimes.com/2019/02/20/world/americas/venezuela-refugees-colombia.html" target="_blank">Over three million Venezuelans</a> have left the country, with many of them staying in neighboring country Colombia. Colombia has taken in over one million Venezuelans, and it is projected by 2021 that nearly 4 million Venezuelans could be living in Colombia. While the financial strain on Colombia has been felt, the government has left the borders fairly open, and Colombians have welcomed their Venezuelan brothers and sisters into the country. 
 
 {{< story-interactives "/pages/what-they-carry" "photo-migration-int" >}}
-
-{{< story-interactives "/pages/what-they-carry" "photo-scrollytelly-1" >}}

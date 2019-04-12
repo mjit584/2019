@@ -1,6 +1,7 @@
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}error-page{{ end }}
 {{ define "main" }}
+<div class="home__overlay" id="home-overlay"></div>
 {{ partial "main-menu-mobile.html" . }}
 <nav>
   <!--full screen-->
@@ -13,7 +14,7 @@
   </div>
 </nav>
 
-<section class="error__container">
+<section class="error__container bg-cover bg-position-center">
   <div class="error__text flex-column">
     <h2>Hey, you've come to the wrong place!</h2>
     <p>We're so glad you're checking out our website, Uprooted, so while you're a little lost, enjoy these
