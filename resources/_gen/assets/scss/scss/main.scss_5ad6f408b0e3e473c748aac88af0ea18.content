@@ -43,8 +43,7 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
   display: none;
   width: 100%;
-  height: 100%;
-  overflow: scroll; }
+  height: 100%; }
 
 .home .home__scroll {
   color: #ffffff;
@@ -2147,10 +2146,14 @@ nav {
 .scrollytelly__main {
   max-width: 85%; }
 
+#scrollytelly__title {
+  margin-top: 5%; }
+
 .scrollytelly__body {
-  opacity: 0;
   padding: 200px 0;
-  transition: opacity 1s ease-out; }
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease-out; }
   @media (max-width: 800px) {
     .scrollytelly__body img {
       max-width: 100%; } }
@@ -2160,8 +2163,9 @@ nav {
   font-style: italic;
   padding-top: 2vh; }
 
-#scrollytelly-1 .scrollytelly__body.fade-in {
-  opacity: 1; }
+.scrollytelly__body.fade-in {
+  opacity: 1;
+  transform: translateY(0); }
 
 .bubbles-container {
   position: relative;
@@ -2171,8 +2175,11 @@ nav {
   display: none;
   position: absolute;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   top: 40%;
   left: 0;
+  right: 0;
   background-color: #fff;
   border: 2px solid #Fbbc00;
   color: #333333;
@@ -2185,6 +2192,7 @@ nav {
   .bubble .scrolly__source {
     text-align: right; }
   .bubble .closebubble {
+    cursor: pointer;
     font-size: 2rem;
     font-family: "DDinBold", sans-serif;
     text-align: right; }
