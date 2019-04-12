@@ -55,18 +55,22 @@
 .bubble {
   display:none;
   position:absolute;
-  width:100%;
-  top:40%;
+  background: url('/cost-of-dreams/assets/NotebookPaper.png') no-repeat;
+  background-size:cover;
+  top:10%;
   left:0;
+  max-width:100%;
   background-color:#fff;
-  border:2px solid $yellow;
   color:$black;
-  padding:4%;
+  padding:4% 150px;
   text-align:left;
   font-size:1.3rem;
   line-height:1.3em;
   img {
     margin: 10px auto;
+  }
+  .center {
+    text-align:center;
   }
   .scrolly__source {
     text-align:right;
