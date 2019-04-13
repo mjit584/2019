@@ -2,11 +2,11 @@
 title: "Making It Work"
 topic: "Economy"
 date: 2019-02-04T21:35:11-05:00
-description: "This is the description for the second story."
+description: "A soccer team finds a home away from home."
 video: "../story2/assets/econ-headervideo.mp4"
 image: "/story2/assets/econ-homepagestill.jpg"
 storyHeading: "Making It Work"
-storySubheading: "Venezuelans find family and friends in soccer league"
+storySubheading: "A soccer team finds a home away from home."
 weight: 2
 card: true
 author: "Brooklynn Cooper"
