@@ -2174,21 +2174,24 @@ nav {
 .bubble {
   display: none;
   position: absolute;
-  width: 100%;
+  background: url("/cost-of-dreams/assets/NotebookPaper.png") no-repeat;
+  background-size: cover;
+  top: 10%;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  top: 40%;
   left: 0;
   right: 0;
   background-color: #fff;
-  border: 2px solid #Fbbc00;
   color: #333333;
-  padding: 4%;
+  padding: 2% 150px;
   text-align: left;
   font-size: 1.3rem;
-  line-height: 1.3em; }
+  line-height: 1.7em; }
   .bubble img {
     margin: 10px auto; }
+  .bubble .center {
+    text-align: center; }
   .bubble .scrolly__source {
     text-align: right; }
   .bubble .closebubble {
@@ -2363,6 +2366,7 @@ nav {
     background: #333;
     cursor: pointer; }
   #womenSlider .sliderlabels {
+    margin-top: 25px;
     display: grid;
     grid-template-columns: 25% 50% 25%; }
     #womenSlider .sliderlabels p {
@@ -2374,6 +2378,10 @@ nav {
     display: grid;
     grid-template-columns: 25% 75%;
     grid-gap: 3vw; }
+    @media screen and (max-width: 800px) {
+      #womenSlider .laws {
+        grid-template-columns: 100%;
+        grid-gap: 0; } }
   #womenSlider .map {
     text-align: center;
     font-weight: 700; }
