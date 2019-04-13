@@ -37,6 +37,49 @@ $(document).ready(function () {
   });
 });
 
+// slidebuttons
+$(document).ready(function() {
+
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > $("#passport-body-top").offset().top-250 && $(window).scrollTop() < $("#passport-body-bottom").offset().top-350) {
+      console.log('test');
+      $("#passport-slide-buttons").css("opacity", "1");
+    }
+    else {
+      console.log('test2');
+      $("#passport-slide-buttons").css("opacity", "0");
+    }
+  });
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > $("#pep-body-top").offset().top-250 && $(window).scrollTop() < $("#pep-body-bottom").offset().top-350) {
+      console.log('test');
+      $("#pep-slide-buttons").css("opacity", "1");
+    }
+    else {
+      console.log('test2');
+      $("#pep-slide-buttons").css("opacity", "0");
+    }
+  });
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > $("#ID-body-top").offset().top-250 && $(window).scrollTop() < $("#ID-body-bottom").offset().top-350) {
+      console.log('test');
+      $("#ID-slide-buttons").css("opacity", "1");
+    }
+    else {
+      console.log('test2');
+      $("#ID-slide-buttons").css("opacity", "0");
+    }
+  });
+
+
+
+});
+
+
+
 // passport-slideshow-js
 var slideIndexPassport = 1;
 showSlidesPassport(slideIndexPassport);
@@ -53,7 +96,7 @@ function showSlidesPassport(n) {
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndexPassport - 1].style.display = "block";
+  slides[slideIndexPassport - 1].style.display = "flex";
   dots[slideIndexPassport - 1].className += " active";
 }
 
@@ -84,7 +127,7 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex - 1].style.display = "block";
+  slides[slideIndex - 1].style.display = "flex";
   dots[slideIndex - 1].className += " active";
 }
 
@@ -114,7 +157,7 @@ function showSlidesID(n) {
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndexID - 1].style.display = "block";
+  slides[slideIndexID - 1].style.display = "flex";
   dots[slideIndexID - 1].className += " active";
 }
 
@@ -130,6 +173,25 @@ function currentSlideID(n) {
 }
 
 // BIRTHRIGHT id slideshow js
+
+$(document).ready(function() {
+
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > $("#birthright-body-top").offset().top-250 && $(window).scrollTop() < $("#birthright-body-bottom").offset().top-350) {
+      console.log('test');
+      $("#birthright-slide-buttons").css("opacity", "1");
+    }
+    else {
+      console.log('test2');
+      $("#birthright-slide-buttons").css("opacity", "0");
+    }
+  });
+
+
+});
+
+
 var slideIndexBirthright = 1;
 showSlidesBirthright(slideIndexBirthright);
 
@@ -145,7 +207,7 @@ function showSlidesBirthright(n) {
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndexBirthright - 1].style.display = "block";
+  slides[slideIndexBirthright - 1].style.display = "flex";
   dots[slideIndexBirthright - 1].className += " active";
 }
 
