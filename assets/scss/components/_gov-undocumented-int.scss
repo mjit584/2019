@@ -164,12 +164,13 @@
 
   .slideshow-buttons {
     position: fixed;
+    display: flex;
     top: 50%;
     justify-content: space-between;
     width: 75%;
-    opacity: 0;
-    transition: 0.5s;
+    opacity: 1;
   }
+
   .prev, .next {
     cursor: pointer;
     top: 50%;

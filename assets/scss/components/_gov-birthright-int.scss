@@ -14,11 +14,12 @@
 }
 
 .slideshow-buttons {
+  display: none;
   position: fixed;
   top: 50%;
   justify-content: space-between;
   width: 75%;
-  opacity: 0;
+  opacity: 1;
   transition: 0.5s;
 }
 

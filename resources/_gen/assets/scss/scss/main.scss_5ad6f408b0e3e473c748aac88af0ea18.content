@@ -1831,11 +1831,11 @@ nav {
     vertical-align: middle; }
   #interactive__gov-undocumented .slideshow-buttons {
     position: fixed;
+    display: flex;
     top: 50%;
     justify-content: space-between;
     width: 75%;
-    opacity: 0;
-    transition: 0.5s; }
+    opacity: 1; }
   #interactive__gov-undocumented .prev, #interactive__gov-undocumented .next {
     cursor: pointer;
     top: 50%;
@@ -2024,11 +2024,12 @@ nav {
     color: #aaa;
     font-style: italic; }
   #interactive__gov-birthright .slideshow-buttons {
+    display: none;
     position: fixed;
     top: 50%;
     justify-content: space-between;
     width: 75%;
-    opacity: 0;
+    opacity: 1;
     transition: 0.5s; }
   #interactive__gov-birthright .mySlides-birthright {
     display: none;
