@@ -1,0 +1,39 @@
+.byline {
+  font-family: $font-byline;
+  background-color: $light-grey;
+  padding: 2%;
+  margin: 6vh 0;
+  width: 63%;
+  font-size: 12px;
+  align-items: flex-start;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-base;
+  grid-area: by;
+  transition: 1s opacity;
+
+  span {
+    font-weight: $font-weight-light;
+  }
+
+  .ybr-line {
+    margin-top: 1vh;
+    max-width: 10vw;
+
+    .ybr-section {
+      stroke-width: 7;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    margin: 4% auto;
+    width: 75vw;
+
+    .ybr-line {
+      max-width: 40vw;
+
+      .ybr-section {
+        stroke-width: 4;
+      }
+    }
+  }
+}

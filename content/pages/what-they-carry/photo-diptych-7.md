@@ -1,6 +1,6 @@
 ---
-img1: "assets/carlos-diptych-1.jpg"
-img2: "assets/carlos-diptych-2.jpg"
+img1: "assets/amalia_diptych1.jpg"
+img2: "assets/amalia_diptych2.jpg"
 alt1: "undefined"
 alt2: "undefined" 
 ---

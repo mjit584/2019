@@ -4,10 +4,10 @@ story: "Employment"
 graphics:
 - "Kailee Akers"
 ---
-
+<div class="divider"></div>
 <section class="interactive">
   <h2 class="interactive__title">Venezuelan Bolívar Timeline</h2>
-  <h3 class="interactive__subhead">The Bolívar is an ever-changing currency</h3>
+  <h3 class="interactive__subhead">The bolívar is an ever-changing currency</h3>
  {{< ybr-line >}}
 <div class="timeline">
   <div class="row yellow">
@@ -52,7 +52,7 @@ graphics:
   <div class="row blue reorder">
     <div class="timeline-content left">
       <h3>Bolívar fuerte</h3>
-      <p>Economic inlfation strikes again, requiring larger coins and bank notes to be issued.</p>
+      <p>Economic inflation strikes again, requiring larger coins and bank notes to be issued.</p>
     </div>
     <div class="center"><span class="dot"></span></div>
     <div class="timeline-content right">
@@ -89,3 +89,4 @@ graphics:
   </div>
 </div>
 </section>
+<div class="divider"></div>

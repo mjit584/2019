@@ -1,0 +1,99 @@
+#scrollytelly-1 {
+  background-color: $black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color:#fff;
+}
+
+.background-attachment {
+  background-attachment: fixed;
+}
+.scrolly__text {
+  font-size:1.8rem;
+  font-family: $font-hero-topic;
+  padding-bottom:2vh;
+  max-width:75%;
+  strong {
+    font-family:$font-hero-title;
+  }
+  @media (max-width:800px) {
+      max-width:100%;
+  }
+}
+.scrolly__source {
+  font-size:.8rem;
+  padding-top:2vh;
+}
+
+.scrollytelly__main {
+  max-width: 85%;
+}
+
+#scrollytelly__title {
+  margin-top: 5%;
+}
+
+.scrollytelly__body {
+  padding: 200px 0;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease-out;
+
+  @media (max-width:800px) {
+    img {
+      max-width:100%;
+    }
+  }
+}
+.scrolly__instructions {
+  font-size:1rem;
+  font-style:italic;
+  padding-top:2vh;
+}
+
+.scrollytelly__body.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.bubbles-container {
+  position:relative;
+  width:100%;
+}
+
+.bubble {
+  display:none;
+  position:absolute;
+  background: url('/cost-of-dreams/assets/NotebookPaper.png') no-repeat;
+  background-size:cover;
+  top:10%;
+  max-width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  left:0;
+  right: 0;
+  background-color:#fff;
+  color:$black;
+  padding:2% 150px;
+  text-align:left;
+  font-size:1.3rem;
+  line-height:1.7em;
+  img {
+    margin: 10px auto;
+  }
+
+  .center {
+    text-align:center;
+  }
+  
+  .scrolly__source {
+    text-align:right;
+  }
+  .closebubble {
+    cursor: pointer;
+    font-size:2rem;
+    font-family:$font-hero-title;
+    text-align:right;
+  }
+
+}

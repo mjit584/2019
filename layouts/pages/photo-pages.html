@@ -1,6 +1,7 @@
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}chap {{ .Title | lower }}{{ end }}
 {{ define "main" }}
+<div class="home__overlay" id="home-overlay"></div>
 {{ partial "main-menu-mobile.html" . }}
 <nav>
   <!--full screen-->
@@ -15,7 +16,7 @@
 {{ partial "photo-hero.html" (dict "number" .Params.weight "background" .Params.image "heading" .Params.storyHeading "subheading" .Params.storySubheading "topic" .Params.topic "content" .) }}
 
 
-<div class="flex-column photo-byline">
+<div class="flex-column byline">
   <div class="byline-name">photos by <span>{{ .Params.photographer }}</span>
   </div>
   <div class="byline-name" id="byline-des">graphics by <span>{{ .Params.designer }}</span></div>

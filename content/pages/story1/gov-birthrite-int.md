@@ -5,7 +5,7 @@ graphics:
 - "Sally Dillon"
 - "Xiaoke Ji"
 ---
-
+<div class="divider"></div>
 <section class="interactive">
   <div class="interactive__body" id="interactive__gov-birthright">
         <!-- front page -->
@@ -66,3 +66,4 @@ graphics:
       </div>
     <!-- end of content for passport -->
 </section>
+<div class="divider"></div>

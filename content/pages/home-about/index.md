@@ -5,7 +5,9 @@ card: false
 layout: 'home-about'
 ---
 
-Medellín is the second largest city in Colombia and one of the most populous areas for Venezuelan immigrants. The metropolitan area provided our team with ample access to Venezuelans without the safety concerns of a border city. Our hope is that the stories we gathered in Colombia will shed a light and inspire positive change for the millions of Venezuelans displaced by the humanitarian crisis in their home country.
+Why Medellín?
+
+An estimated 40,000 Venezuelans are crossing the border into Colombia every day. Even in Medellín, the country’s second largest city located 600 miles from the border, the mass migration has had a significant impact. Our stories highlight not just the humanitarian crisis of people flowing across the border every day, but what life is like for these families as they settle into a new country.
 
 <div id="video-top"></div>
 

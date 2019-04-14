@@ -1,6 +1,7 @@
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}story-page {{ .Title | lower }}{{ end }}
 {{ define "main" }}
+<div class="home__overlay" id="home-overlay"></div>
 {{ partial "main-menu-mobile.html" . }}
 <nav>
   <!--full screen-->
@@ -14,7 +15,7 @@
 </nav>
 {{ partial "story-hero.html" (dict "number" .Params.weight "background" .Params.video "heading" .Params.storyHeading "subheading" .Params.storySubheading "topic" .Params.topic "content" .) }}
 
-<div class="flex-column story-byline">
+<div class="flex-column byline">
   <div class="byline-name" id="byline-rep">written by <span>{{ .Params.Author }}</span></div>
   <div class="byline-name" id="byline-vid">photo & video by <span>{{ .Params.videographer }} {{ .Params.photographer }}
     </span>
@@ -48,6 +49,8 @@
 {{ $govUndocumented := resources.Get "js/gov-undocumented-int.js" }}
 {{ $womenInt := resources.Get "js/women-int.js" }}
 {{ $healthInt := resources.Get "js/health-int.js" }}
+{{ $edInt := resources.Get "js/scrollytelly.js" }}
+
 
 <!-- weight 3 = health story -->
 {{ if eq .Weight 3}}
@@ -82,7 +85,7 @@
 <!-- Weight 4 = children story -->
 {{else if eq .Weight 4}}
 
-{{ $childrenBundle := slice $scripts $header $progressBar $videos $hamburger | resources.Concat "js/childrenBundle.js" }}
+{{ $childrenBundle := slice $scripts $header $progressBar $videos $hamburger $edInt | resources.Concat "js/childrenBundle.js" }}
 
 {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $childrenBundle.RelPermalink }}"></script>
