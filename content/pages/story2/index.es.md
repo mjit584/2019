@@ -2,11 +2,11 @@
 title: "Resolviendo"
 topic: "Economía"
 date: 2019-02-04T21:35:11-05:00
-description: "This is the description for the second story."
+description: "Un equipo de fútbol encuentra un hogar nuevo."
 video: "../story2/assets/econ-headervideo.mp4"
 image: "/story2/assets/econ-homepagestill.jpg"
 storyHeading: "Resolviendo"
-storySubheading: "Venezuelans find family and friends in soccer league"
+storySubheading: "Un equipo de fútbol encuentra un hogar nuevo."
 weight: 2
 card: true
 author: "Brooklynn Cooper"
