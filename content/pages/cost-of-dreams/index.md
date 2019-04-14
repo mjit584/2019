@@ -23,7 +23,7 @@ But even though Jeham has more food in Medellin, it comes at a price. Instead of
 <div id="video-top"></div>
 
 <!-- Children and education video goes here -->
-{{< vimeo id="265319522" class="video-container flex" >}}
+{{< vimeo id="329725078" class="video-container flex" >}}
 
 The Medellin Education System says every migrant children who seeks education is given the opportunity however; Like Jeham, there are many Venezuelan youth not attending school or at risk of losing their access to education in Colombia because they fear deportation, not having enough resources, or not affording daily food and transportation costs. According to The International Rescue Committee, roughly 50 percent of Venezuelan Kids in Colombia are not enrolled in school.
 
