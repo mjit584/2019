@@ -24,7 +24,17 @@ graphics:
          <img src='assets/venezuela.png'>
          <p>VENEZUELA</p>
        </div>
-       <div class='desc'>How it’s regulated: Venezuela’s Ministry of Health and Social Development (Ministerio de Salud y Desarrollo Social) requires that women working as sex workers in nightclubs have a free monthly health check.</div>
+       <div class='desc'>
+        <h3>Regulation</h3>
+        <p>The regulations mentioned only concern prohibiting the prostitution and corruption of minors.</p>
+        <h3>Major City</h3>
+        <p>Caracas</p>
+        <h3>By the Numbers</h3>
+        <ul>
+          <li>600,000: the number of women predicted to be trafficked by 2020. Impoverished and indigenous populations are especially vulnerable.</li>
+          <li>755: the cost in U.S. dollars a pack of 36 condoms was sold for online. With high costs and shortages of condoms and contraceptives, safe sex is incredibly costly.</li>
+        </ul>
+       </div>
      </div>
    </div>
  </div>

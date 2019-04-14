@@ -12,18 +12,25 @@
     color: #aaa;
     font-style: italic;
 }
+
+.slideshow-buttons {
+  display: none;
+  position: fixed;
+  top: 50%;
+  justify-content: space-between;
+  width: 75%;
+  opacity: 1;
+  transition: 0.5s;
+}
+
   /* slideshow */
   .mySlides-birthright {
-    // width: 100vw;
     display: none;
     flex-direction: column;
-    min-height:400px;
   }
   img {vertical-align: middle;}
 
-  .slideshow-buttons {
-    justify-content: space-between;
-  }
+
   .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -35,13 +42,12 @@
     font-weight: bold;
     font-size: 24px;
     transition: 0.5s ease;
-    border-radius: 0 3px 3px 0;
+    border-radius: 3px 3px 3px 3px;
     user-select: none;
   }
 
   .next {
     right: 0;
-    border-radius: 3px 0 0 3px;
   }
 
   .prev:hover, .next:hover {
@@ -59,15 +65,23 @@
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-  
+
   .active{
     background-color: $yellow;
+  }
+
+  .slideshow-container {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
   }
 
   .slide-image {
     display: grid;
     grid-template-columns: 25% 75%;
-    grid-gap:1vw;
+    grid-gap:7vw;
     text-align: right;
     margin:40px 0;
     img {
@@ -78,27 +92,31 @@
   }
 
   .slide-txt, .slide-txt2 {
+    width: 80%;
     text-align: left;
     font-size: 14pt;
     color: $black;
     font-family:  $font-int-body;
-    padding-right: 70px;
     p {
       margin-top:0;
     }
   }
-  .slide-txt2 {
-    padding-left:30px;
+  .flourish-embed {
+    min-width: 60vw ;
   }
-}
   /* mobile css */
 
-@media (max-width: 800px) {
+@media (max-width: 800px)and (min-width: 500px) {
+
+
+
+
   #interactive__gov-undocumented {
     width:100%;
 
+
     #r-2 {
-      flex-direction: column;
+      // flex-direction: column;
       width: 100;
       margin: 0 10vw;
     }
@@ -128,10 +146,23 @@
       font-size: 30px;
       border-bottom-width: 5px;
     }
+
+    .flourish-embed {
+      min-width: 600px;
+    }
+
+    .slideshow-buttons {
+      width: 100%;
+    }
   }
+}
 
 
   @media (max-width: 500px) {
+
+    .slideshow-buttons {
+      width: 100%;
+    }
 
     #r-2 {
       flex-direction: column;
@@ -145,8 +176,6 @@
       font-size: 15px;
     }
 
-    .slide-image {
-      height: 85vh;
-    }
   }
+
 }

@@ -10,7 +10,7 @@ graphics:
   <div class="interactive__body" id="interactive__gov-undocumented">
     <!-- content for passport-->
     <div class="information-body" id="passport-body">
-      <div class="information-body-r1">
+      <div class="information-body-r1" id="passport-body-top">
         <div class="back-button" id="passport-button">Back</div>
         <div class="information-title">Passport</div>
       </div>
@@ -56,8 +56,8 @@ graphics:
             </div>
           </div>
           <div class="mySlides-passport fade">
-            <div class="slide-image">
-              <img class="slide-img-stats slide-img slide-img-expiration" src="assets/expiration date.svg" alt="stats">
+            <div class="slide-image slide-img-expiration">
+              <img class="slide-img-stats slide-img " src="assets/expiration date.svg" alt="stats">
               <div class="slide-txt">
                 <p>Passports are becoming nearly impossible to get due to the lack of resources to make the documents,
                   unaffordable prices and administrative inefficiencies. </p>
@@ -70,7 +70,7 @@ graphics:
             </div>
           </div>
           <!-- slideshow buttons -->
-          <div class="slideshow-buttons flex">
+          <div class="slideshow-buttons flex" id="passport-slide-buttons">
             <a class="prev" onclick="plusSlidesPassport(-1)">&#10094;</a>
             <a class="next" onclick="plusSlidesPassport(1)">&#10095;</a>
           </div>
@@ -83,27 +83,26 @@ graphics:
         </div>
       </div>
       <!-- bottom caption -->
-      <div class="information-body-r3 bottom-text">
+      <div class="information-body-r3 bottom-text" id="passport-body-bottom">
         Click the arrows or the dots to navigate
       </div>
     </div>
     <!-- end of content for passport -->
     <!-- content for pep-->
     <div class="information-body" id="PEP-body">
-      <div class="information-body-r1">
+      <div class="information-body-r1" id="pep-body-top">
         <div class="back-button" id="PEP-button">Back</div>
-        <div class="information-title border-blue">PEP - "Special Stay Permit"</div>
+        <div class="information-title border-blue">PEP</div>
       </div>
       <!-- slideshow goes here -->
       <div class="information-body-r2">
         <div class="slideshow-container">
           <!-- first slide -->
           <div class="mySlides fade">
-            <div class="slide-image">
+            <div class="slide-image slide-image-pep">
               <img class="slide-img-pep slide-img" src="assets/pep.svg" alt="pep">
-              <div class="slide-txt2">
-                PEP is short for <em>Permiso Especial de Permanencia</em>, which is Spanish for Special Permit of Permanence. It is a
-                special permit granted to Venezuelans who seek refuge in Colombia.
+              <div class="slide-txt">
+                <p>PEP is short for <em>Permiso Especial de Permanencia</em>, which is Spanish for Special Permit of Permanence. It is a special permit granted to Venezuelans who seek refuge in Colombia.</p>
               </div>
             </div>
           </div>
@@ -128,16 +127,16 @@ graphics:
             </div>
           </div>
           <div class="mySlides fade">
-            <div class="slide-image">
+            <div class="slide-image ">
               <img class="slide-img-stats slide-img" src="assets/stats.svg" alt="stats">
-              <div class="slide-txt2">
+              <div class="slide-txt">
                 <p>As of December 2018, <strong>1,174,743</strong> Venezuelans have migrated to Colombia. Only <strong>45.6%</strong> of them have obtained the PEP.</p>
                 <p>In total, more half of the Venezuelans in Colombia are undocumented.</p>
               </div>
             </div>
           </div>
           <!-- slideshow buttons -->
-          <div class="slideshow-buttons flex">
+          <div class="slideshow-buttons flex" id="pep-slide-buttons">
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
           </div>
@@ -150,23 +149,23 @@ graphics:
         </div>
       </div>
       <!-- bottom caption -->
-      <div class="information-body-r3 bottom-text">
+      <div class="information-body-r3 bottom-text" id="pep-body-bottom">
         Click the arrows or the dots to navigate
       </div>
     </div>
     <!-- end of content for pep -->
     <!-- contont for National id -->
     <div class="information-body" id="ID-body">
-      <div class="information-body-r1">
+      <div class="information-body-r1" id="ID-body-top">
         <div class="back-button" id="ID-button">Back</div>
-        <div class="information-title border-red">Venezuelan ID Card</div>
+        <div class="information-title border-red">Venezuelan ID</div>
       </div>
       <!-- slideshow goes here -->
       <div class="information-body-r2">
         <div class="slideshow-container">
           <!-- first slide -->
           <div class="mySlides-ID fade">
-            <div class="slide-image">
+            <div class="slide-image slide-image-ID flex">
               <img class="slide-img-ID slide-img" src="assets/cedula.svg" alt="pep">
               <div class="slide-txt2">
                 <p>A Venezuelan ID Card, also known as a <em>Cédula de Identidad</em>, is the national identity card Venezuela’s
@@ -177,18 +176,18 @@ graphics:
           </div>
           <!-- second slide -->
           <div class="mySlides-ID fade">
-            <div class="slide-image">
-              <img class="slide-img-calendar slide-img" src="assets/cedule-groceries.svg" alt="calendar">
+            <div class="slide-image flex">
+              <img class="slide-img-calendar slide-img " src="assets/cedule-groceries.svg" alt="calendar">
               <div class="slide-txt2">
                 <p>To obtain a cédula, Venezuelans must be at least nine years old and provide an original birth
                   certificate.
                 <p>It’s difficult to go a day without needing a cédula. They are used to make purchases, vote, travel domestically and internationally and stay in hotels. </p>
-                <p>Cédulas contain a number that is used to identify every citizen.</p>
+                <p>Cédulas contain a number that is used to identify every citizen. </p>
               </div>
             </div>
           </div>
           <div class="mySlides-ID fade">
-            <div class="slide-image">
+            <div class="slide-image flex">
               <img class="slide-img-doc slide-img" src="assets/printer.svg" alt="document/time">
               <div class="slide-txt2">
                 <p>It’s becoming almost impossible to obtain a cédula due to the shortage of resources to make the documents. Most offices do not have the printers needed to print the cédula, and some offices are asking citizens to bring their own laminator.</p>
@@ -197,7 +196,7 @@ graphics:
             </div>
           </div>
           <div class="mySlides-ID fade">
-            <div class="slide-image">
+            <div class="slide-image flex">
               <img class="slide-img-stats slide-img" src="assets/carnet-de-la-patria.svg" alt="stats">
               <div class="slide-txt2">
                 <p>Starting in December 2016, President Nicolás Maduro rolled out a new identity card called the <em>Carnet de la
@@ -212,7 +211,7 @@ graphics:
             </div>
           </div>
           <!-- slideshow buttons -->
-          <div class="slideshow-buttons flex">
+          <div class="slideshow-buttons flex" id="ID-slide-buttons">
             <a class="prev" onclick="plusSlidesID(-1)">&#10094;</a>
             <a class="next" onclick="plusSlidesID(1)">&#10095;</a>
           </div>
@@ -225,7 +224,7 @@ graphics:
         </div>
       </div>
       <!-- bottom caption -->
-      <div class="information-body-r3 bottom-text">
+      <div class="information-body-r3 bottom-text" id="ID-body-bottom">
         Click the arrows or the dots to navigate
       </div>
     </div>
