@@ -21,7 +21,7 @@ graphics:
         </div>
       </div>
       <!-- slideshow goes here -->
-        <div class="slideshow-container">
+        <div class="slideshow-container" id="birthright-body-top">
           <!-- first slide -->
           <div class="mySlides-birthright">
               <div class=" flourish flourish-embed flourish-chart" data-src="visualisation/259647"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
@@ -31,7 +31,7 @@ graphics:
               <div class="flourish flourish-embed flourish-chart" data-src="visualisation/248457"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
           </div>
           <div class="mySlides-birthright">
-            <div class="slide-image">
+            <div class="slide-image flex">
               <img class="slide-img-doc slide-img" src="assets/colombia.svg" alt="Colombia">
               <div class="slide-txt">
                 <p>Colombia has “conditional” birthright citizenship. To obtain Colombian citizenship at birth, one must have at least one parent that is a Colombian citizen or a Colombian legal resident.</p>
@@ -40,7 +40,7 @@ graphics:
             </div>
           </div>
           <div class="mySlides-birthright">
-            <div class="slide-image">
+            <div class="slide-image flex">
               <img class="slide-img-stats slide-img slide-img-expiration" src="assets/baby.svg" alt="Baby">
               <div class="slide-txt">
                 <p>In order for citizenship to be granted to a baby born in Colombia by Venezuelan parents, one of the parents must have either documentation of residency or a special stay permit, known as the PEP.</p>
@@ -49,7 +49,7 @@ graphics:
             </div>
           </div>
           <!-- slideshow buttons -->
-          <div class="slideshow-buttons flex">
+          <div class="slideshow-buttons flex" id="birthright-slide-buttons">
             <a class="prev" onclick="plusSlidesBirthright(-1)">&#10094;</a>
             <a class="next" onclick="plusSlidesBirthright(1)">&#10095;</a>
           </div>
@@ -61,7 +61,7 @@ graphics:
           <span class="dot-Birthright" onclick="currentSlideBirthright(4)"></span>
         </div>
       <!-- bottom caption -->
-      <div class="bottom-text">
+      <div class="bottom-text" id="birthright-body-bottom">
         Click the arrows or the dots to navigate.
       </div>
     <!-- end of content for passport -->
