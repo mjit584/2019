@@ -99,7 +99,7 @@ body {
     .home #home__intro > .ybr-line .ybr-section {
       stroke-width: 4px; }
   .home #home__intro .home__subtitle {
-    font-family: "Playfair Display", serif;
+    font-family: "DDinRegular", serif;
     font-weight: 400;
     font-size: 1.8rem;
     margin: 0 25px 10px 25px;
@@ -142,16 +142,32 @@ body {
   display: grid;
   padding-top: 2%;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, auto);
-  grid-template-areas: 'about-bd about-bd about-bd about-bd' 'about-ft about-ft about-ft about-ft';
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: 'about-bd about-bd about-bd about-bd'
+ 'about-help about-help about-help about-help'
+ 'about-ft about-ft about-ft about-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .home #home__about {
       grid-template-columns: 1fr;
-      grid-template-areas: 'about-bd' 'about-ft'; } }
-  .home #home__about .about-content {
+      grid-template-areas: 'about-bd'
+ 'about-help'
+ 'about-ft'; } }
+  .home #home__about p {
+    max-width: 50vw;
+    line-height: 1.5em;
     font-family: "Georgia", serif;
+    margin: 2vw auto;
+    transition: 1s opacity; }
+    .home #home__about p:first-child {
+      margin-top: 3vw; }
+    @media screen and (max-width: 800px) {
+      .home #home__about p {
+        max-width: 80vw; } }
+  .home #home__about .about-content {
     grid-area: about-bd; }
+  .home #home__about .about-help {
+    grid-area: about-help; }
     .home #home__about .about-content .home__subhead {
       font-family: "DDinRegular", sans-serif;
       max-width: 50vw;
@@ -182,12 +198,20 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. by by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
+  grid-template-areas: 'nav nav nav nav'
+ 'story-hero story-hero story-hero story-hero'
+ '. by by .'
+ 'story-bd story-bd story-bd story-bd'
+ 'story-ft story-ft story-ft story-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .story-page {
       grid-template-columns: 1fr;
-      grid-template-areas: 'nav' 'story-hero' 'by' 'story-bd' 'story-ft'; } }
+      grid-template-areas: 'nav'
+ 'story-hero'
+ 'by'
+ 'story-bd'
+ 'story-ft'; } }
   .story-page .story-hero {
     color: #ffffff;
     height: 100vh;
@@ -518,12 +542,20 @@ nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'nav nav nav nav' 'photo-hero photo-hero photo-hero photo-hero' '. by by .' 'photo-bd photo-bd photo-bd photo-bd' 'photo-ft photo-ft photo-ft photo-ft';
+  grid-template-areas: 'nav nav nav nav'
+ 'photo-hero photo-hero photo-hero photo-hero'
+ '. by by .'
+ 'photo-bd photo-bd photo-bd photo-bd'
+ 'photo-ft photo-ft photo-ft photo-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .chap {
       grid-template-columns: 1fr;
-      grid-template-areas: 'nav' 'photo-hero' 'by' 'photo-bd' 'photo-ft'; } }
+      grid-template-areas: 'nav'
+ 'photo-hero'
+ 'by'
+ 'photo-bd'
+ 'photo-ft'; } }
   .chap .photo-hero {
     color: #ffffff;
     height: 100vh;
