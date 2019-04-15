@@ -597,12 +597,8 @@ nav {
         .chap .photo__content .interactive__image #room__info {
           position: relative;
           left: 0; } }
-  .chap p {
-    line-height: 1.5em;
-    transition: 1s opacity; }
-    @media screen and (max-width: 800px) {
-      .chap p {
-        max-width: 90vw; } }
+  .chap .center-quote-container p {
+    line-height: 1.5em; }
   .chap .photo__progress {
     position: fixed;
     width: 100%;
