@@ -186,7 +186,9 @@ body {
       .home #home__about .about-help .about-orgs .orgs {
         flex-basis: 25%; }
         .home #home__about .about-help .about-orgs .orgs img {
-          width: 50%; }
+          width: 53%; }
+          .home #home__about .about-help .about-orgs .orgs img:last-of-type {
+            width: 35%; }
         .home #home__about .about-help .about-orgs .orgs .orgs__name {
           flex-basis: 100%;
           margin-top: 2%;

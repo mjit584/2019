@@ -201,8 +201,14 @@
           flex-basis: 25%;
 
           img {
-            width: 50%;
+            width: 53%;
+
+            &:last-of-type {
+              width: 35%;
+            }
           }
+
+          
 
           .orgs__name {
             flex-basis: 100%;
