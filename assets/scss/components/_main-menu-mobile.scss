@@ -8,10 +8,13 @@ $button-width: 35px;
 .main-menu-mobile {
   position: fixed;
   background: $white;
+  color: $black;
+  font-size: 1.25rem;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
+  padding: 75px 35px 35px 35px;
   opacity: 0;
   display: none;
   transition: opacity 0.35s, visibility 0.35s, height 0.35s;
@@ -21,96 +24,117 @@ $button-width: 35px;
   z-index: -30;
 
   &.open {
-    opacity: 0.9;
+    opacity: 0.95;
     display: flex;
     height: 100%;
     z-index: 2;
   }
 
-  .top-banner {
-    background-color: $yellow;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 68px;
-    padding: 21px 25px;
+  a {
+    color: $black;
+    text-decoration: none;
+    font-family: $font-nav-mobile;
+    font-weight: normal;
+    font-size: 1.25rem;
+  }
 
-    a {
-      max-width: 35vw;
-      font-family: $font-logo;
-      font-size: 1.5rem;
-      text-decoration: none;
-      text-transform: uppercase;
-      color: $black;
-      height: auto;
-      z-index: 2;
+  .inner-menu {
+    margin-top: 1rem;
 
-      &:hover {
-        color: $red;
+    .inner-menu-button {
+      display: block;
+      border: none;
+      background: none;
+      padding: 0;
+
+      &:focus {
+        outline: none;
+      }
+
+      .inner-menu-title {
+        font-family: $font-hero-heading;
+        font-size: 1.25rem;
+        text-transform: uppercase;
+        margin: 0;
+        margin-bottom: -5px;
+        color: $black;
+      }
+  
+      .inner-menu-arrow {
+        margin-left: 5px;
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -webkit-transform: rotate(0deg); /* Safari 3-8 */
+        transform: rotate(0deg);
+        transition: transform .3s;
+
+        &.turn {
+          -ms-transform: rotate(180deg); /* IE 9 */
+          -webkit-transform: rotate(180deg); /* Safari 3-8 */
+          transform: rotate(180deg);
+        }
       }
     }
-  }
 
-  li {
-    animation: fadeInRight 0.5s ease forwards;
-    animation-delay: 0.35s;
-    &:nth-of-type(2) {
-      animation-delay: 0.4s;
+    .ybr-line {
+      width: 16vw;
+      height: 10px;
+      
+      .ybr-section {
+        stroke-width: 4;
+      }
     }
-    &:nth-of-type(3) {
-      animation-delay: 0.45s;
-    }
-    &:nth-of-type(4) {
-      animation-delay: 0.5s;
-    }
-    &:nth-of-type(5) {
-      animation-delay: 0.55s;
-    }
-    &:nth-of-type(6) {
-      animation-delay: 0.6s;
-    }
-    &:nth-of-type(7) {
-      animation-delay: 0.65s;
-    }
-  }
+  
+    .inner-menu-items {
+      display: none;
 
-  ul {
-    font-size: 1.6rem;
-    font-family: $font-nav-mobile;
-    list-style: none;
-    padding: 0;
-    padding-top: 100px;
-    padding-left: 25px;
-    margin: 0;
-    flex: 0;
-
-    li {
-      display: block;
-      position: relative;
-      opacity: 0;
-      margin-bottom: 3vh;
-      a {
+      &.show {
         display: block;
-        position: relative;
-        color: $black;
-        text-decoration: none;
-        overflow: hidden;
-        &:hover::after,
-        &:focus::after,
-        &:active::after {
-          width: 100%;
-        }
 
-        &::after {
-          content: '';
-          position: absolute;
-          bottom: 0;
-          left: 50%;
-          width: 0%;
-          transform: translateX(-50%);
-          height: 3px;
-          background: inherit;
-          transition: 0.35s;
+        .inner-menu-item {
+          animation: fadeInRight 0.6s ease forwards;
+          animation-delay: 0s;
+
+          &:focus {
+            color: $red;
+            outline: none;
+          }
+
+          &:nth-of-type(2) {
+            animation-delay: 0.1s;
+          }
+          &:nth-of-type(3) {
+            animation-delay: 0.2s;
+          }
+          &:nth-of-type(4) {
+            animation-delay: 0.3s;
+          }
+          &:nth-of-type(5) {
+            animation-delay: 0.4s;
+          }
+          &:nth-of-type(6) {
+            animation-delay: 0.5s;
+          }
+          &:nth-of-type(7) {
+            animation-delay: 0.6s;
+          }
+        }
+      }
+  
+      .inner-menu-item {
+        padding: 5px 0;
+        display: block;
+        overflow: hidden;
+        opacity: 0;
+
+        .story-topic {
+          display: none;
+        }
+      
+        .story-title {
+          font-family: $font-nav-mobile;
+          font-weight: normal;
+          font-size: 1.25rem;
+          margin: 0;
         }
       }
     }
@@ -118,34 +142,28 @@ $button-width: 35px;
 
   .bottom-menu {
     position: absolute;
-    padding: 50px 25px 25px;
-    align-items: flex-end;
-    justify-content: space-between;
-    bottom: 0;
-    width: 100%;
-
-    a {
-      color: $black;
-      font-size: 1.6rem;
-      font-family: $font-nav-mobile;
-      text-decoration: none;
-    }
+    bottom: 35px;
+    left: 35px;
+    right: 35px;
 
     .social {
       justify-content: flex-start;
-      margin-top: 25px;
+      margin-top: 15px;
 
-      a {
+      .social-icon {
         margin-right: 25px;
         color: $white;
         font-size: 1.5rem;
-        background-color: $black;
-        padding: 5px;
-        padding-top: 4px;
+        background-color: $red;
+        padding: 8px;
         height: 40px;
         width: 40px;
         border-radius: 100%;
         text-align: center;
+
+        &:focus {
+          background-color: $black;
+        }
       }
     }
   }
