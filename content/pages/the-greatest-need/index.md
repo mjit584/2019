@@ -20,6 +20,8 @@ Marbis Judith Verenzuela knew she had to go back. Her second daughter, Jorlis, h
 
 Jorlis, 29, had surgery to remove a brain tumor TK WHEN/how close to crossing attempt, but suffered convulsions for 30 days due to side affects and a lack of  medicine to control them. Jorlis couldn’t recognize her own children, but had TKTK [need to set up more of the events as they tried to leave].
 
+{{< photo-caption "pages/the-greatest-need" "photo-caption-1" >}}
+
 But when the family  got to Simon Bolivar International bridge, the dividing line between the world they knew and the world awaiting, when Jorlis collapsed.
 
 “I thought I was going to lose my daughter at that moment,” Marbis Judith said. “I thought Yorlis was going to die.”
@@ -49,11 +51,15 @@ She decided Medellín was the perfect place for their family when she read onlin
 
 “I felt like she was going to die and I wasn’t going to fulfill my goal of having her by my side.
 
+{{< photo-caption "pages/the-greatest-need" "photo-caption-2" >}}
+
 The entire Verenzuela family has lived together
 
 “I’m running for my life, running for my life, for my grandchildren’s lives, for my family,” Marbis Judith said. “Because I’m a grandmother to 4 children, and that keeps me going. Perhaps it even raised me out of death itself.”
 
 “There’s not a night that goes by where you lay your head on your pillow, or a day you wake up in the morning,” Marbis Judith said. “And you’d love to cross that bridge again and go back to being with your family over there.”
+
+{{< photo-caption "pages/the-greatest-need" "photo-caption-3" >}}
 
 “Mom and Dad make the minimum wage and they have to support their children with their minimum wage and pay for the rent and food,” said Alba Luz Belez, a neighbor of the Verenzuela family. “They just can’t, even if they have a beautiful heart and the best of intentions to help people.”
 

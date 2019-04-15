@@ -15,6 +15,7 @@ videographer: "Zayhra Rodriguez, Haley France"
 designer: "Amy Townsed"
 udea: "Margarita"
 ---
+
 The sounds of car honks and bicycle bells erupt in the ears of locals and tourists passing through Plaza Botero.
 
 A light breeze fills the air and flows through the skyscraping palm trees of the plaza. It’s cool enough to alleviate the sun’s heat but not cool enough to give one goosebumps.
@@ -22,6 +23,8 @@ A light breeze fills the air and flows through the skyscraping palm trees of the
 But in the land of the eternal spring, the weather is often unpredictable.
 
 To the left, some hail taxis and sell warmly colored tropical fruits like pineapples and mangos. To the right, many walk toward Plazuela Comercial Gutenberg, a strip mall that leads to the shops and restaurants of Carabobo #51-62. In the middle, a number of tourists walk under the elevated metro track that lines some of Medellín, Colombia’s vivid green hills and brightly colored homes.
+
+{{< photo-caption "pages/a-mothers-sacrifice" "photo-caption-1" >}}
 
 Fernando Botero’s statues line each side of the plaza’s entry, creating a catwalk that leads to the plaza’s focal point, Museo de Antioquia, a local art museum.
 
@@ -38,6 +41,8 @@ On this stoop sits another side of the plaza. This side of the plaza remains dis
 
 “There are people who think that if you do this, it’s because you like it or you feel good,” said Maria, who asked that her real name not be used. “I do not know other women but in my case, I don’t feel good and I don’t like it at all.”
 
+{{< photo-caption-vert "pages/a-mothers-sacrifice" "photo-caption-2" >}}
+
 Dressed in jean shorts and a camouflage green cold shoulder top, she sits on this stoop every day. She waits in the late afternoon and late into the night for men to ask for “un rato” or a moment.
 
 Maria, 24, is a sex worker. The single mother from Venezuela is living in Medellin without legal permission, and has few other options for supporting herself.
@@ -53,6 +58,8 @@ Maria’s father, WHAT KIND OF JOB DID HE HAVE?, helped support her and her two 
 “I had to beg my neighbors for food and my children cried and begged for food because they were so hungry,” said Maria. She decided TKTK set up her leaving more. How did she feel about that decision?
 
 “I came to make a living and a better life for my children.”
+
+{{< photo-caption "pages/a-mothers-sacrifice" "photo-caption-3" >}}
 
 She told her daughters, ages three and five, that she was going to work far away, but would still contact them.
 
