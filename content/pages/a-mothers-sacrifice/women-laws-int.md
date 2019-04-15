@@ -25,11 +25,12 @@ graphics:
          <p>VENEZUELA</p>
        </div>
        <div class='desc'>
-        <p>The prostitution of minors (younger than 16 years old) is illegal.</p>
+        <p>Prostitution is <strong>legal</strong> for those over the age of 16. </h3>
         <h3>Did You Know?</h3>
         <ul>
-          <li>A pack of 36 condoms was sold online for the equivalent of $755. This reflects the growing cost of safe sex in Venezuela which is leading to a spike in sexually transmitted diseases and teen pregnancies.</li>
-          <li>Traffickers are targeting Venezuelan women, especially of poor and indigenous populations, and forcing them into prostitution. They promise clothes, food and lodging which causes many women to become trapped and feel indebted. In one study, attorneys Beatriz Borge and Lilian Aya found that the number of sex-trafficked women has more than doubled since 2016.</li>
+          <li>A pack of 36 condoms was sold online for  roughly $755. This reflects the growing cost of safe sex in Venezuela, leading to a spike in sexually transmitted disease and teen pregnancies. </li>
+          <li>Traffickers are targeting Venezuelan women, mostly of poor and indigenous populations. They promise clothes, food and lodging which causes many women to become trapped. Researchers have found that the number of sex-trafficked women has more than doubled since 2016.
+</li>
         </ul>
        </div>
      </div>
