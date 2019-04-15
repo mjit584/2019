@@ -1,60 +1,69 @@
-.photo__hero-img {
-  display: block;
-  position: absolute; // Play the video in full screen mode
-  top: 0px;
-  left: 0px;
-  z-index: -1; // Put the video behind all other elements
-  width: 100%;
-  height: auto;
-  max-height: 100%;
-  border-radius: 1px;
-  object-fit: cover;
-  object-position: center;
-
-  @media screen and (max-width: 800px) {
-    margin-top: 68px;
-    height: 30vh;
-  }
-}
-
-
-.photo__line {
-  border-bottom: solid 1px #707070;
-  margin: 6vh auto;
-  width: 84vw;
-}
-
-.interactive__image {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  margin-bottom: 6vh;
-
-  p {
-    color: white;
+.photo {
+  .overlay {
+    background-image: linear-gradient(
+    rgba(0,0,0,0.1),
+    rgba(0,0,0,0.1)
+    );
   }
   
-  .hidden {
-    display: none;
-  }
-  
-  #room__info {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
+  .photo__hero-img {
+    background-color: $yellow;
+    display: block;
+    position: absolute; // Play the video in full screen mode
+    top: 0px;
+    left: 0px;
+    z-index: -1; // Put the video behind all other elements
+    width: 100%;
     height: auto;
-    max-width: 900px;
-    width: 90%;
-    position: absolute;
-    top: 0;
-  }
+    max-height: 100%;
+    border-radius: 1px;
+    object-fit: cover;
+    object-position: center;
   
-  @media screen and (max-width:1000px) {
-    #room__info {
-      position: relative;
-      left: 0;
+    @media screen and (max-width: 800px) {
+      margin-top: 68px;
+      height: 30vh;
     }
   }
+  
+  
+  .photo__line {
+    border-bottom: solid 1px #707070;
+    margin: 6vh auto;
+    width: 84vw;
+  }
+  
+  .interactive__image {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 6vh;
+  
+    p {
+      color: white;
+    }
+    
+    .hidden {
+      display: none;
+    }
+    
+    #room__info {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.7);
+      height: auto;
+      max-width: 900px;
+      width: 90%;
+      position: absolute;
+      top: 0;
+    }
+    
+    @media screen and (max-width:1000px) {
+      #room__info {
+        position: relative;
+        left: 0;
+      }
+    }
+  }  
 }
-

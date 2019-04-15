@@ -1,5 +1,5 @@
 {{ define "header_css" }}{{ end }}
-{{ define "body_classes" }}story-page{{ end }}
+{{ define "body_classes" }}story-page photo{{ end }}
 {{ define "main" }}
 <div class="home__overlay" id="home-overlay"></div>
 {{ partial "main-menu-mobile.html" . }}
@@ -33,7 +33,7 @@
   <img class="story-end-icon" src="{{ .Site.BaseURL}}images/end-story-icon.svg">
 </div>
 
-<div class="photo__progress">
+<div class="progress">
   <div class="progress__bar" id="photo-bar"></div>
 </div>
 
