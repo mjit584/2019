@@ -1,8 +1,17 @@
+.scrollytelly__gradient-top {
+  background-image: linear-gradient(
+    rgba(51,51,51,0),
+    rgba(51,51,51,1)
+  );
+  width: 100%;
+  height: 50px;
+}
+
 #scrollytelly-1 {
   background-color: $black;
-    background-size: contain;
-    background-repeat: no-repeat;
-    color:#fff;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: $white;
 }
 
 .background-attachment {
@@ -64,7 +73,7 @@
 .bubble {
   display:none;
   position:absolute;
-  background: url('/cost-of-dreams/assets/NotebookPaper.png') no-repeat;
+  background: url('../cost-of-dreams/assets/NotebookPaper.png') no-repeat;
   background-size:cover;
   top:10%;
   max-width:100%;

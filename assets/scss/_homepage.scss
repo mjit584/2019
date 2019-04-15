@@ -13,6 +13,22 @@
     height: 100%;
     position: relative;
   }
+  
+  .home__subhead {
+    font-family: $font-subhead;
+    max-width: 50vw;
+    margin: 3vh auto;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-weight: $font-weight-normal;
+    transition: 1s opacity;
+    text-align: center;
+
+    @media screen and (max-width: 800px) {
+      max-width: 75vw;
+    }
+  }
 
   .scrollmagic-pin-spacer:nth-of-type(2) {
     padding-bottom: 300px;
@@ -174,26 +190,45 @@
 
     .about-help {
       grid-area: about-help;
+
+      .about-orgs {
+        text-align: center;
+        width: 75vw;
+        margin: 0 auto;
+        align-items: baseline;
+
+        .orgs {
+          flex-basis: 25%;
+
+          img {
+            width: 53%;
+
+            &:last-of-type {
+              width: 35%;
+            }
+          }
+
+          
+
+          .orgs__name {
+            flex-basis: 100%;
+            margin-top: 2%;
+            font-family: $font-subhead;
+          }
+        }
+
+        @media screen and (max-width: 800px) {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, auto);
+            grid-gap: 1rem;
+        }
+      }
     }
 
     .about-title {
       font-family: $font-hero-heading;
       text-align: center;
-      .home__subhead {
-        font-family: $font-subhead;
-        max-width: 50vw;
-        margin: 3vh auto;
-        font-size: 2rem;
-        justify-content: center;
-        align-items: center;
-        font-weight: $font-weight-normal;
-        transition: 1s opacity;
-        text-align: center;
-    
-        @media screen and (max-width: 800px) {
-          max-width: 75vw;
-        }
-      }
 
       p {
         max-width: 50vw;
