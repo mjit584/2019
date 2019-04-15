@@ -1,5 +1,5 @@
 ---
-title: "Photo Journey"
+title: "The Journey"
 topic: "Photo Journey"
 date: 2019-02-04T21:34:53-05:00
 description: "Snapshots of Venezuelan migrants and their new lives in Medellin."
