@@ -1,7 +1,15 @@
 <div class="flex-column hero-image story-hero bg-cover bg-position-center">
-  {{ if eq .layout "about"}}
+  {{ if eq .layout "about" }}
   <div class="hero__img-container"><img src="{{.image}}" alt="A photo of the MEJO 584 team" /></div>
-  {{else}}
+  {{ else if eq .layout "photo-pages" }}
+  <img class="photo__hero-img" src="{{.image}}" alt="{{.alt}}" />
+  <div class="story-hero__topic">
+    <p>{{ .topic }}</p>
+    {{ partial "ybr-line.html" . }}
+  </div>
+  <h1 class="story-hero__title">{{ .heading }}</h1>
+  <h3 class="story-hero__desc">{{ .subheading }}</h3>
+  {{ else }}
   <video class="story-video video-{{ .number }}" autoplay>
     <!-- Video is embedded in the WEBM format -->
     <source src="{{ .background }}" type="video/mp4">

@@ -10,9 +10,9 @@ graphic: "Brooke Fisher"
       Friends create a home in <em>Inquilinato</em>
     </h3>
     {{< ybr-line >}}
-    <p class="interactive__intro">
+    <div class="interactive__instructions">
       Hover and click over parts of the picture for more information.
-    </h3>
+    </div>
   <div class="interactive__image interactive__body">
     <svg id="interactive__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
       viewBox="0 0 1154 758">

@@ -474,262 +474,51 @@ nav {
     .about .about__thanks .about__heading {
       font-family: "DDinBold", sans-serif; }
 
-.photo-stories .photo-stories__menu {
-  margin: auto;
-  margin-top: 55px;
+.photo__hero-img {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
   width: 100%;
-  align-items: center;
-  flex-wrap: wrap; }
+  height: auto;
+  max-height: 100%;
+  border-radius: 1px;
+  object-fit: cover;
+  object-position: center; }
   @media screen and (max-width: 800px) {
-    .photo-stories .photo-stories__menu {
-      margin-top: 0;
-      height: calc(100vh - 68px); } }
-  .photo-stories .photo-stories__menu .photo-stories__chap {
-    position: relative;
-    flex-basis: 20vw;
-    margin: 10vh 1rem;
-    height: calc(80vh - 55px);
-    background-size: cover;
-    background-position: center;
-    text-align: center; }
-    @media screen and (max-width: 800px) {
-      .photo-stories .photo-stories__menu .photo-stories__chap {
-        height: auto;
-        margin: 0;
-        flex-basis: 100%;
-        height: 25%; } }
-    .photo-stories .photo-stories__menu .photo-stories__chap::before {
-      content: "";
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-      z-index: 0; }
-    .photo-stories .photo-stories__menu .photo-stories__chap:hover::before, .photo-stories .photo-stories__menu .photo-stories__chap:active::before {
-      background-image: linear-gradient(white, rgba(255, 255, 255, 0.5)); }
-    .photo-stories .photo-stories__menu .photo-stories__chap:hover .chap__text, .photo-stories .photo-stories__menu .photo-stories__chap:active .chap__text {
-      color: #333333; }
-      .photo-stories .photo-stories__menu .photo-stories__chap:hover .chap__text .chap__button, .photo-stories .photo-stories__menu .photo-stories__chap:active .chap__text .chap__button {
-        width: 115px;
-        opacity: 1;
-        transform: translate3d(0, 0, 0); }
-    .photo-stories .photo-stories__menu .photo-stories__chap .chap__img {
-      margin: auto;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      z-index: -1; }
-    .photo-stories .photo-stories__menu .photo-stories__chap .chap__text {
-      position: absolute;
-      top: 5%;
-      left: 0;
-      right: 0;
-      bottom: 10%;
-      justify-content: space-between;
-      font-family: "DDinBold", sans-serif;
-      color: #ffffff; }
-      .photo-stories .photo-stories__menu .photo-stories__chap .chap__text .ybr-line {
-        height: 10px;
-        max-width: 50%; }
-        .photo-stories .photo-stories__menu .photo-stories__chap .chap__text .ybr-line .ybr-section {
-          stroke-width: 3; }
-      .photo-stories .photo-stories__menu .photo-stories__chap .chap__text .chap__title {
-        margin-bottom: .5rem; }
-      .photo-stories .photo-stories__menu .photo-stories__chap .chap__text .chap__button {
-        font-family: "DDinExpBold", sans-serif;
-        position: relative;
-        text-transform: uppercase;
-        background-color: #C70032;
-        border-radius: 30px;
-        height: 28px;
-        width: 35px;
-        padding: 0 5px;
-        overflow: hidden;
-        white-space: nowrap;
-        margin: 0 auto;
-        opacity: 0;
-        transform: translate3d(0, 20px, 0);
-        transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), width 0.5s ease 0.5s; }
-        @media screen and (max-width: 800px) {
-          .photo-stories .photo-stories__menu .photo-stories__chap .chap__text .chap__button {
-            opacity: 1;
-            transform: translate3d(0, 0, 0); } }
-        .photo-stories .photo-stories__menu .photo-stories__chap .chap__text .chap__button a {
-          position: absolute;
-          top: 5px;
-          right: 10px;
-          color: #ffffff;
-          text-decoration: none; }
+    .photo__hero-img {
+      margin-top: 68px;
+      height: 30vh; } }
 
-.chap {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'nav nav nav nav' 'photo-hero photo-hero photo-hero photo-hero' '. by by .' 'photo-bd photo-bd photo-bd photo-bd' 'photo-ft photo-ft photo-ft photo-ft';
-  transition: 0.5s background-color; }
-  @media screen and (max-width: 800px) {
-    .chap {
-      grid-template-columns: 1fr;
-      grid-template-areas: 'nav' 'photo-hero' 'by' 'photo-bd' 'photo-ft'; } }
-  .chap .photo-hero {
-    color: #ffffff;
-    height: 100vh;
+.photo__line {
+  border-bottom: solid 1px #707070;
+  margin: 6vh auto;
+  width: 84vw; }
+
+.interactive__image {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 6vh; }
+  .interactive__image p {
+    color: white; }
+  .interactive__image .hidden {
+    display: none; }
+  .interactive__image #room__info {
     text-align: center;
-    padding: 25px;
-    grid-area: photo-hero;
-    justify-content: flex-start;
-    transition: 1s opacity; }
-    .chap .photo-hero .photo-hero__topic {
-      text-align: center;
-      margin-top: 4.5rem; }
-      .chap .photo-hero .photo-hero__topic p {
-        font-family: "DDinRegular", sans-serif;
-        font-weight: 700;
-        margin: 0;
-        text-transform: uppercase;
-        font-size: 1.2rem; }
-      .chap .photo-hero .photo-hero__topic .ybr-line {
-        height: 10px;
-        width: 35%; }
-        .chap .photo-hero .photo-hero__topic .ybr-line .ybr-section {
-          stroke-width: 4; }
-    .chap .photo-hero .photo-hero__title {
-      font-family: "DDinBold", sans-serif;
-      font-weight: 400;
-      font-size: calc(3rem + 3vw);
-      margin-bottom: 0;
-      margin-top: 25vh; }
-    .chap .photo-hero .photo-hero__desc {
-      font-family: "Lato", sans-serif;
-      font-weight: 400; }
-  .chap .photo-byline {
-    font-family: "Lato", sans-serif;
-    background-color: #F2F2F2;
-    padding: 2%;
-    margin: 6vh 0;
-    width: 47%;
-    font-size: 12px;
-    align-items: flex-start;
-    font-weight: 700;
-    line-height: 1.5em;
-    grid-area: photo-by;
-    transition: 1s opacity; }
-    .chap .photo-byline span {
-      font-weight: 300; }
-    .chap .photo-byline .ybr-line {
-      margin-top: 1vh;
-      max-width: 10vw; }
-      .chap .photo-byline .ybr-line .ybr-section {
-        stroke-width: 7; }
-    @media screen and (max-width: 800px) {
-      .chap .photo-byline {
-        margin: 4% auto;
-        max-width: 90vw; }
-        .chap .photo-byline .ybr-line {
-          max-width: 40vw; }
-          .chap .photo-byline .ybr-line .ybr-section {
-            stroke-width: 4; } }
-  .chap .photo__content {
-    font-family: "Georgia", serif;
-    grid-area: photo-bd; }
-    .chap .photo__content a {
-      color: #C70032; }
-    .chap .photo__content p {
-      max-width: 50vw;
-      line-height: 1.5em;
-      margin: 2vw auto;
-      transition: 1s opacity;
-      font-size: 1.125rem; }
-      @media screen and (max-width: 800px) {
-        .chap .photo__content p {
-          max-width: 90vw; } }
-    .chap .photo__content .photo__diptych p {
-      max-width: 100vw; }
-    .chap .photo__content .photo__line {
-      border-bottom: solid 1px #707070;
-      margin: 6vh auto;
-      width: 84vw; }
-    .chap .photo__content .photo__subhead {
-      font-family: "DDinBold", sans-serif;
-      margin: 2% auto;
-      font-size: 2rem; }
-    .chap .photo__content .interactive__image {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: auto;
+    max-width: 900px;
+    width: 90%;
+    position: absolute;
+    top: 0; }
+  @media screen and (max-width: 1000px) {
+    .interactive__image #room__info {
       position: relative;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      margin-bottom: 6vh; }
-      .chap .photo__content .interactive__image p {
-        color: white; }
-      .chap .photo__content .interactive__image .hidden {
-        display: none; }
-      .chap .photo__content .interactive__image #room__info {
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.7);
-        height: auto;
-        max-width: 900px;
-        width: 90%;
-        position: absolute;
-        top: 0; }
-      @media screen and (max-width: 1000px) {
-        .chap .photo__content .interactive__image #room__info {
-          position: relative;
-          left: 0; } }
-    .chap .photo__content .story-end-icon {
-      display: block;
-      max-width: 50px;
-      margin: 3rem auto; }
-  .chap .center-quote-container p {
-    line-height: 1.5em; }
-  .chap .photo__progress {
-    position: fixed;
-    width: 100%;
-    height: 2vh;
-    background: #ddd;
-    bottom: 0;
-    z-index: 1; }
-    .chap .photo__progress .progress__bar {
-      height: 2vh;
-      background: #Fbbc00;
-      width: 0%; }
-  .chap footer {
-    grid-area: photo-ft; }
-    .chap footer .footer__photo {
-      padding-bottom: 30vh;
-      justify-content: space-around;
-      font-family: "DDinBold", sans-serif;
-      width: 100%;
-      flex-wrap: wrap;
-      margin-bottom: 5vh; }
-      .chap footer .footer__photo h1 {
-        flex-basis: 100%;
-        font-size: 2.4rem;
-        text-align: center;
-        margin-top: 0;
-        margin-bottom: 5vh;
-        color: #C70032; }
-      .chap footer .footer__photo .footer__prev:after, .chap footer .footer__photo .footer__next:after {
-        display: block;
-        content: '';
-        border-bottom: solid 3px #333;
-        transform: scaleX(0);
-        transition: transform 250ms ease-in-out;
-        transform-origin: 0% 50%; }
-      .chap footer .footer__photo .footer__prev:hover:after, .chap footer .footer__photo .footer__next:hover:after {
-        transform: scaleX(1); }
-      .chap footer .footer__photo a {
-        color: inherit;
-        text-decoration: none; }
-  .chap nav {
-    grid-area: nav;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: transparent; }
-    @media screen and (max-width: 800px) {
-      .chap nav {
-        width: 100%; } }
+      left: 0; } }
 
 /*!
  * Hamburgers
@@ -1437,6 +1226,10 @@ nav {
     font-family: "Lato", sans-serif;
     margin-top: 0 !important;
     font-size: 1.2rem; }
+  .interactive .interactive__instructions {
+    font-style: italic;
+    color: #aaa;
+    margin-bottom: 2%; }
   .interactive .interactive__body {
     font-family: "Lato", sans-serif;
     font-weight: 400; }
@@ -1589,6 +1382,7 @@ nav {
       .photo__diptych .photo__diptych-caption {
         width: 90vw; } }
     .photo__diptych .photo__diptych-caption p {
+      max-width: 100vw;
       margin-left: 0;
       font-style: italic;
       font-family: "Lato", sans-serif;
