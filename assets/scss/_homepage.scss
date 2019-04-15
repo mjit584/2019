@@ -190,6 +190,34 @@
 
     .about-help {
       grid-area: about-help;
+
+      .about-orgs {
+        text-align: center;
+        width: 75vw;
+        margin: 0 auto;
+        align-items: baseline;
+
+        .orgs {
+          flex-basis: 25%;
+
+          img {
+            width: 50%;
+          }
+
+          .orgs__name {
+            flex-basis: 100%;
+            margin-top: 2%;
+            font-family: $font-subhead;
+          }
+        }
+
+        @media screen and (max-width: 800px) {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, auto);
+            grid-gap: 1rem;
+        }
+      }
     }
 
     .about-title {

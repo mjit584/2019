@@ -178,6 +178,25 @@ body {
     grid-area: about-bd; }
   .home #home__about .about-help {
     grid-area: about-help; }
+    .home #home__about .about-help .about-orgs {
+      text-align: center;
+      width: 75vw;
+      margin: 0 auto;
+      align-items: baseline; }
+      .home #home__about .about-help .about-orgs .orgs {
+        flex-basis: 25%; }
+        .home #home__about .about-help .about-orgs .orgs img {
+          width: 50%; }
+        .home #home__about .about-help .about-orgs .orgs .orgs__name {
+          flex-basis: 100%;
+          margin-top: 2%;
+          font-family: "DDinRegular", sans-serif; }
+      @media screen and (max-width: 800px) {
+        .home #home__about .about-help .about-orgs {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(3, auto);
+          grid-gap: 1rem; } }
   .home #home__about .about-title {
     font-family: "DDinBold", sans-serif;
     text-align: center; }
