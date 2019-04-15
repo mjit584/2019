@@ -41,7 +41,7 @@ On this stoop sits another side of the plaza. This side of the plaza remains dis
 
 “There are people who think that if you do this, it’s because you like it or you feel good,” said Maria, who asked that her real name not be used. “I do not know other women but in my case, I don’t feel good and I don’t like it at all.”
 
-{{< photo-caption "pages/a-mothers-sacrifice" "photo-caption-2" >}}
+{{< photo-caption-vert "pages/a-mothers-sacrifice" "photo-caption-2" >}}
 
 Dressed in jean shorts and a camouflage green cold shoulder top, she sits on this stoop every day. She waits in the late afternoon and late into the night for men to ask for “un rato” or a moment.
 
