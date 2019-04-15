@@ -5,7 +5,7 @@ card: false
 layout: 'home-about'
 ---
 
-Why Medellín?
+<h2 class="about-title">Why Medellín?</h2>
 
 An estimated 40,000 Venezuelans are crossing the border into Colombia every day. Even in Medellín, the country’s second largest city located 600 miles from the border, the mass migration has had a significant impact. Our stories highlight not just the humanitarian crisis of people flowing across the border every day, but what life is like for these families as they settle into a new country.
 
