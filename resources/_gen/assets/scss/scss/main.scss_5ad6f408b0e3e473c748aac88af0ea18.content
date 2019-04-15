@@ -401,9 +401,10 @@ nav {
     .about .about__intro .about__heading {
       font-size: 2.25rem;
       font-family: "DDinBold", sans-serif; }
+    .about .about__intro h2.about__heading {
+      margin-top: 50px; }
     .about .about__intro p {
-      max-width: 50rem;
-      margin-bottom: 50px; }
+      max-width: 50rem; }
   .about .about__filter-container {
     margin: 2rem 0;
     z-index: 3;
