@@ -4,6 +4,7 @@ topic: "Economy"
 date: 2019-02-04T21:35:11-05:00
 description: "A soccer team finds a home away from home."
 video: "../story2/assets/econ-headervideo.mp4"
+headerStill: "../story2/assets/econ-headerstill.jpg"
 image: "/story2/assets/econ-homepagestill.jpg"
 storyHeading: "Making It Work"
 storySubheading: "A soccer team finds a home away from home."
