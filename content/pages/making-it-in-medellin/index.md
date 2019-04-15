@@ -6,6 +6,7 @@ description: "This is the description for the first story."
 image: "../images/photo-chap-4-hero.jpg"
 storyHeading: "Making in in Medellín"
 storySubheading: "The success stories of Venezuelan immigrants in a new country"
+heroAlt: "A group of workers smile and pose in front of a restaurant sign that reads 'Della Nonna'"
 weight: 4
 card: false
 photographer: "Nash Consing, Catie Dull"

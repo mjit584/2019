@@ -4,7 +4,7 @@ topic: "Photo Journey"
 date: 2019-02-04T21:34:53-05:00
 description: "Snapshots of Venezuelan migrants and their new lives in Medellin."
 image: "../images/photo-chap-1-hero.jpg"
-heroAlt: ""
+heroAlt: "A woman sits on her bed holding her three children"
 imageHome: "./images/photo-homepagephoto.jpg"
 storyHeading: "What They Carry"
 storySubheading: "Venezuelans travel to Medellín clutching some things with a tighter grip."

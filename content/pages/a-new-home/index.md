@@ -6,6 +6,7 @@ description: "This is the description for the first story."
 image: "../images/photo-chap-2-hero.jpg"
 storyHeading: "A New Home"
 storySubheading: "An inside look into where migrants live after leaving home"
+heroAlt: "A family stands on the roof of their apartment building."
 weight: 2
 card: false
 photographer: "Alex Kormann"
