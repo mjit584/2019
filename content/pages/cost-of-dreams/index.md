@@ -4,6 +4,7 @@ topic: "Education"
 date: 2019-02-04T21:35:51-05:00
 description: "Children sacrifice their education to help their families."
 video: "../cost-of-dreams/assets/education-headervideo.mp4"
+headerStill: "../cost-of-dreams/assets/education-headerstill.jpg"
 image: "/cost-of-dreams/assets/education-homepagestill.jpg"
 storyHeading: "The Cost of Dreams"
 storySubheading: "Children sacrifice their education to help their families."

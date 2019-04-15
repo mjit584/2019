@@ -1,10 +1,10 @@
-
 ---
 title: "The Greatest Need"
 topic: "Health"
 date: 2019-02-04T21:35:29-05:00
 description: "A family’s sacrifice for their children’s health still has roadblocks."
 video: "../the-greatest-need/assets/health-headervideo.mp4"
+headerStill: "../the-greatest-need/assets/health-headerstill.jpg"
 image: "/the-greatest-need/assets/health-homepagestill.jpg"
 storyHeading: "The Greatest Need"
 storySubheading: "A family’s sacrifice for their children’s health still has roadblocks."
@@ -15,6 +15,7 @@ videographer: "Tenley Garrett, Peggy Mullin"
 designer: "Carlos Salas"
 udea: "Maria"
 ---
+
 Marbis Judith Verenzuela knew she had to go back. Her second daughter, Jorlis, had been too weak to cross the border the first time the family tried, TKTK when.
 
 Jorlis, 29, had surgery to remove a brain tumor TK WHEN/how close to crossing attempt, but suffered convulsions for 30 days due to side affects and a lack of  medicine to control them. Jorlis couldn’t recognize her own children, but had TKTK [need to set up more of the events as they tried to leave].
