@@ -11,7 +11,7 @@ slider.oninput = function () {
 	'use strict';
 	output = this.value;
 	if (this.value < 25) {
-		category.innerHTML = "<div class='laws'><div class='map'><img src='assets/venezuela.png'><p>VENEZUELA</p></div><div class='desc'><h3>Regulation</h3><p>The regulations mentioned only concern prohibiting the prostitution and corruption of minors.</p><h3>Major City</h3><p>Caracas</p><h3>By the Numbers</h3><ul><li>600,000: the number of women predicted to be trafficked by 2020. Impoverished and indigenous populations are especially vulnerable.</li><li>755: the cost in U.S. dollars a pack of 36 condoms was sold for online. With high costs and shortages of condoms and contraceptives, safe sex is incredibly costly.</li></ul></div></div>";
+		category.innerHTML = "<div class='laws'><div class='map'><img src='assets/venezuela.png'><p>VENEZUELA</p></div><div class='desc'><p>The prostitution of minors (younger than 16 years old) is illegal.</p><h3>Did You Know?</h3><ul><li>A pack of 36 condoms was sold online for the equivalent of $755. This reflects the growing cost of safe sex in Venezuela which is leading to a spike in sexually transmitted diseases and teen pregnancies.</li><li>Traffickers are targeting Venezuelan women, especially of poor and indigenous populations, and forcing them into prostitution. They promise clothes, food and lodging which causes many women to become trapped and feel indebted. In one study, attorneys Beatriz Borge and Lilian Aya found that the number of sex-trafficked women has more than doubled since 2016.</li></ul></div></div>";
 		slider.style.background = "#46BF21";
 		legal.style.fontWeight = "700";
 		depends.style.fontWeight = "200";

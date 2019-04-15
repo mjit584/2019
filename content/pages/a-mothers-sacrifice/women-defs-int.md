@@ -23,7 +23,7 @@ graphics:
     <text class="vdt-subheading vdt-black vdt-sex-tourism1" x="128" y="278" fill="black" text-anchor="middle">Sex Tourism</text>
     <text class="vdt-subheading vdt-black vdt-sex-worker1" x="272" y="120" fill="black" text-anchor="middle">Sex Worker</text>
     <text class="vdt-subheading vdt-white vdt-sex-tourism2" x="686" y="430" fill="black" text-anchor="middle">Sex Tourism</text>
-    <text class="vdt-subheading vdt-white vdt-sex-worker2" x="542" y="588" fill="black" text-anchor="middle">Sex Worker</text>
+    <text class="vdt-subheading vdt-white vdt-sex-worker2" x="542" y="575" fill="black" text-anchor="middle">Involuntary<tspan x="542" y="601" text-anchor="middle">Sex Worker</tspan></text>
     <text class="vdt-def" id="prostitution-def" x="0" y="600" fill="black"><tspan class="vdt-term">Prostitution:</tspan> Engaging in sexual <tspan x="0" y="630">activity for payment</tspan></text>
     <text class="vdt-def" id="sex-trafficking-def" x="0" y="600" fill="black"><tspan class="vdt-term">Sex Trafficking:</tspan> Someone uses <tspan x="0" y="630">force, fraud or coercion to cause</tspan> <tspan x="0" y="660">a commercial sex act (which includes</tspan> <tspan x="0" y="690">pornography, prostitution and sexual</tspan> <tspan x="0" y="720">performance in exchange for an item of value)</tspan></text>
     <text class="vdt-def" id="sex-tourism-def" x="0" y="600" fill="black"><tspan class="vdt-term">Sex Tourism:</tspan> Travel specifically <tspan x="0" y="630">arranged for, or planned by, travelers</tspan> <tspan x="0" y="660">to facilitate the procurement of sex</tspan></text>
