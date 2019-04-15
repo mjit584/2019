@@ -1307,7 +1307,7 @@ nav {
   font-family: "Lato", sans-serif;
   line-height: 1.5em;
   width: 63vw;
-  margin: 2vh auto;
+  margin: 10vh auto;
   align-items: flex-start; }
   .photo-caption-container img {
     width: 100%; }
