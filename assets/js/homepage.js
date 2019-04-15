@@ -61,7 +61,7 @@ let init = function () {
       goDark();
     } else {
       $('.home').css('background-color', '#fff')
-      $('p, footer').css('opacity', '1')
+      $('p, h1, h2, h3, h4, h5, h6, footer, .about-help').css('opacity', '1')
     }
   });
 
@@ -70,13 +70,13 @@ let init = function () {
     // console.log(scrollTop)
     if (scrollTop >= videoTop - (videoHeight / 2) && scrollTop <= videoTop + (videoHeight / 10)) {
       $('#home__about').css('background-color', '#000')
-      $('p, footer').css('opacity', '0')
+      $('p, h1, h2, h3, h4, h5, h6, footer, .about-help').css('opacity', '0')
     } else if (scrollTop > videoTop + (videoHeight / 10)) {
       $('#home__about').css('background-color', '#fff')
-      $('p, footer').css('opacity', '1')
+      $('p, h1, h2, h3, h4, h5, h6, footer, .about-help').css('opacity', '1')
     } else if (scrollTop < videoTop - (videoHeight / 2)) {
       $('#home__about').css('background-color', '#fff')
-      $('p, footer').css('opacity', '1')
+      $('p, h1, h2, h3, h4, h5, h6, footer, .about-help').css('opacity', '1')
     };
   };
 }
