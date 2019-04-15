@@ -152,6 +152,19 @@ body {
   .home #home__about .about-content {
     font-family: "Georgia", serif;
     grid-area: about-bd; }
+    .home #home__about .about-content .home__subhead {
+      font-family: "DDinRegular", sans-serif;
+      max-width: 50vw;
+      margin: 3vh auto;
+      font-size: 2rem;
+      justify-content: center;
+      align-items: center;
+      font-weight: 400;
+      transition: 1s opacity;
+      text-align: center; }
+      @media screen and (max-width: 800px) {
+        .home #home__about .about-content .home__subhead {
+          max-width: 75vw; } }
     .home #home__about .about-content p {
       max-width: 50vw;
       line-height: 1.5em;
@@ -253,11 +266,6 @@ body {
       @media screen and (max-width: 800px) {
         .story-page .story-content .story__subhead {
           max-width: 75vw; } }
-      .story-page .story-content .story__subhead .ybr-line {
-        margin-top: 1%;
-        max-width: 10vw; }
-        .story-page .story-content .story__subhead .ybr-line .ybr-section {
-          stroke-width: 4; }
     .story-page .story-content p {
       max-width: 50vw;
       line-height: 1.5em;
