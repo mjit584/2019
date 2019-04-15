@@ -4,6 +4,7 @@ topic: "Documentation"
 date: 2019-02-04T21:34:53-05:00
 description: "Undocumented Venezuelans find their livelihood by singing on the street."
 video: "../story1/assets/gov-headervideo.mp4"
+headerStill: "../story1/assets/documentation-headerstill.jpg"
 image: "/story1/assets/gov-homepagestill.jpg"
 storyHeading: "Finding Your Voice"
 storySubheading: "Undocumented Venezuelans find their livelihood by singing on the street."

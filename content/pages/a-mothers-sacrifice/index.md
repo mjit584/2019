@@ -4,6 +4,7 @@ topic: "Women"
 date: 2019-02-04T21:36:06-05:00
 description: "A mother’s effort to provide and reunite with her children."
 video: "../a-mothers-sacrifice/assets/women-headervideo2.mp4"
+headerStill: "../a-mothers-sacrifice/assets/women-headerstill.jpg"
 image: "/a-mothers-sacrifice/assets/women-homepagestill.jpg"
 storyHeading: "A Mother's Sacrifice"
 storySubheading: "A mother’s effort to provide and reunite with her children."
