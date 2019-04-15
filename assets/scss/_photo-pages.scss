@@ -174,14 +174,11 @@
     }
   }
 
-p {
-  line-height: $line-height-base;
-  transition: 1s opacity;
-
-  @media screen and (max-width: 800px){
-    max-width: 90vw;
+  .center-quote-container {
+    p {
+      line-height: $line-height-base;
+    }
   }
-}
 
   .photo__progress {
     position: fixed;
