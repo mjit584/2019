@@ -168,6 +168,12 @@
     .ybr-line{
       transition: 1s opacity;
     }
+
+    .story-end-icon {
+      display: block;
+      max-width: 50px;
+      margin: 3rem auto;
+    }
   }
 
   .photo__progress {
@@ -184,7 +190,6 @@
       width: 0%;
     }
   }
-
 
   footer{
     grid-area: story-ft;
