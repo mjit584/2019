@@ -8,8 +8,8 @@ storyHeading: "A Family, Together"
 storySubheading: "A family struggles to survive, having arrived in Medellin ten days prior"
 weight: 3
 card: false
-photographer: "Alex Kormann, Nash Consing, Catie Dull"
-designer: "Brooke Fisher"
+photographer: "Alex Kormann"
+designer: "undefined"
 udea: "Laura Trujillo Arango, Juan Ochoa, Maria Alejandra Cardona Aizpurua"
 layout: 'photo-pages'
 ---

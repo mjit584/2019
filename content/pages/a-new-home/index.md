@@ -8,7 +8,7 @@ storyHeading: "A New Home"
 storySubheading: "An inside look into where migrants live after leaving home"
 weight: 2
 card: false
-photographer: "Alex Kormann, Nash Consing, Catie Dull"
+photographer: "Alex Kormann"
 designer: "Brooke Fisher"
 udea: "Laura Trujillo Arango, Juan Ochoa, Maria Alejandra Cardona Aizpurua"
 layout: 'photo-pages'

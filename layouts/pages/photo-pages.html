@@ -17,9 +17,13 @@
 
 
 <div class="flex-column byline">
-  <div class="byline-name">photos by <span>{{ .Params.photographer }}</span>
+  <div class="byline-name">photos by
+    <span>{{ .Params.photographer }}</span>
   </div>
+  {{ if eq .Params.designer "undefined" }}
+  {{ else }}
   <div class="byline-name" id="byline-des">graphics by <span>{{ .Params.designer }}</span></div>
+  {{ end }}
   <div class="byline-name" id="byline-udea">field producers <span>{{ .Params.udea }}</span></div>
   {{ partial "ybr-line.html" . }}
 </div>

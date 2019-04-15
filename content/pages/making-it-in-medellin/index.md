@@ -8,8 +8,8 @@ storyHeading: "Making in in Medellín"
 storySubheading: "The success stories of Venezuelan immigrants in a new country"
 weight: 4
 card: false
-photographer: "Alex Kormann, Nash Consing, Catie Dull"
-designer: "Brooke Fisher"
+photographer: "Nash Consing, Catie Dull"
+designer: "undefined"
 udea: "Laura Trujillo Arango, Juan Ochoa, Maria Alejandra Cardona Aizpurua"
 layout: 'photo-pages'
 ---
