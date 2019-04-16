@@ -118,7 +118,7 @@ graphic: "Brooke Fisher"
   // On click, the infomration appears
   floorCircle.onclick = function () {
     var html = '';
-    html += '<p>Many Venezuelans rent out <em>Inquilinato</em>, or daily rooms, to sleep in during the night. The rooms are on average 2 meters by 2 meters or 43 square feet. Multiple families usually sleep in one room. Rooms cost an average of $10 USD. The group of friends, Carlos Gabedes, Jonelle Gabedes, Michael Sanchez, Yuneda Nelo, and Genesis Moreno, sells candy on the street to make ends meet.</p>';
+    html += '<p>Many Venezuelans rent out <em>Inquilinato</em>, or daily rooms, to sleep in. Rooms cost an average of $10 USD per day. Even though one room averages just 2 meters by 2 meters (43 square feet), it usually houses multiple families at a time</p>';
     if (infoBox.innerHTML != html) {
       infoBox.innerHTML = html;
     } else {
@@ -128,7 +128,7 @@ graphic: "Brooke Fisher"
 
   bedCircle.onclick = function () {
     var html = '';
-    html += '<p>Each room has one bed in them. At night, the friends pull out rollaway beds to sleep on. Venezuelans in these types of living situations often develop bed sores and rashes from close sleeping quarters.</p>';
+    html += '<p>Each room has one bed, so at night, the friends pull out rollaway beds to sleep on. It is common to develop bed sores and rashes from sleeping in such tight quarters.</p>';
     if (infoBox.innerHTML != html) {
       infoBox.innerHTML = html;
     } else {
@@ -138,7 +138,7 @@ graphic: "Brooke Fisher"
 
   bagsCircle.onclick = function () {
     var html = '';
-    html += '<p>Venezuelans are escaping across the border with the clothes on their backs and a handful of suitcases, backpacks and duffle bags as they cross over the Venezuela-Colombia border by foot.</p>';
+    html += '<p>Venezuelans crossing over the border by foot leave with the clothes on their back and the few items they can stuff into a handful of suitcases, backpacks or duffel bags.</p>';
     if (infoBox.innerHTML != html) {
       infoBox.innerHTML = html;
     } else {
@@ -148,7 +148,7 @@ graphic: "Brooke Fisher"
 
   wallCircle.onclick = function () {
     var html = '';
-    html += '<p>There are no windows in this tiny room, which is a part of a hall-style dorm. The only entertainment in the room is a small TV atop a dresser which everyone in the room shares. </p>';
+    html += '<p>There are no windows in this tiny room, which is part of a hall-style dorm. The only entertainment is a small TV atop a dresser which everyone in the room shares.</p>';
     if (infoBox.innerHTML != html) {
       infoBox.innerHTML = html;
     } else {
