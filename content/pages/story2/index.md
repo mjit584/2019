@@ -33,7 +33,7 @@ Hundreds of thousands of Venezuelans share Velasquez’s story. In the last five
 <div id="video-top"></div>
 
 <!-- Economic story video goes here -->
-{{< vimeo id="264260511" class="video-container flex" >}}
+{{< vimeo id="329817257" class="video-container flex" >}}
 
 Venezuela’s inflation rate has been abruptly rising and falling since the late 1980s. One of the most significant jumps happened in 1989, when the rate increased from 11 percent to almost 85 percent. The country’s GDP was at one of its lowest points, and the government responded by removing gasoline subsidies. Venezuela has the largest oil reserves in the world, and people were used to getting gas for almost nothing. Riots broke out across the country, killing hundreds of people.
 

@@ -184,6 +184,7 @@ body {
       margin: 0 auto;
       align-items: baseline; }
       .home #home__about .about-help .about-orgs .orgs {
+        cursor: pointer;
         flex-basis: 25%; }
         .home #home__about .about-help .about-orgs .orgs img {
           width: 55%; }

@@ -33,7 +33,7 @@ Two Colombian immigration agents began shouting for a wheelchair. They allowed t
 <div id="video-top"></div>
 
 <!-- Health and saftey video go here -->
-{{< vimeo id="263094335" class="video-container flex" >}}
+{{< vimeo id="329861334" class="video-container flex" >}}
 
 When the economy collapsed in Venezuela in 2014, so did the healthcare system. Doctors fled the country. Shelves that were once stocked with medicines sat empty. Most recently, blackouts in the country began Thursday night. At least 13 and as many as 70 people died due to hospital power outages over a four-day period TK WHEN.[do we have more numbers about the extent during the crisis overall?]
 
