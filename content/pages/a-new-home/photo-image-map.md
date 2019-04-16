@@ -86,38 +86,34 @@ graphic: "Brooke Fisher"
   var bagsCircle = document.getElementById('dot-bags');
   var infoBox = document.getElementById('room__info');
 
-  // Use mouse enter and mouse leave to add fill colors to each part
-  floorCircle.onmouseenter = function () {
-    floor.style.fill = "rgba(199, 0, 50, 0.36)";
+  
+  /**
+   * Puts a red overlay onto parts of the image when hovered
+   * @params {object} picSection 
+  */
+  function hoverRed(picSection) {
+    picSection.style.fill = "rgba(199, 0, 50, 0.36)";
   }
 
-  floorCircle.onmouseleave = function () {
-    floor.style.fill = "rgba(199, 0, 50, 0)";
+  function stopHover(picSection) {
+    picSection.style.fill = "rgba(199, 0, 50, 0)";
   }
 
-  wallCircle.onmouseenter = function () {
-    wall.style.fill = "rgba(199, 0, 50, 0.36)";
-  }
+  floorCircle.onmouseenter = function () { hoverRed(floor) };
 
-  wallCircle.onmouseleave = function () {
-    wall.style.fill = "rgba(199, 0, 50, 0)";
-  }
+  floorCircle.onmouseleave = function () { stopHover(floor) };
 
-  bagsCircle.onmouseenter = function () {
-    bags.style.fill = "rgba(199, 0, 50, 0.36)";
-  }
+  wallCircle.onmouseenter = function () { hoverRed(wall) };
 
-  bagsCircle.onmouseleave = function () {
-    bags.style.fill = "rgba(199, 0, 50, 0)";
-  }
+  wallCircle.onmouseleave = function () { stopHover(wall) };
 
-  bedCircle.onmouseenter = function () {
-    bed.style.fill = "rgba(199, 0, 50, 0.36)";
-  }
+  bagsCircle.onmouseenter = function () { hoverRed(bags) };
 
-  bedCircle.onmouseleave = function () {
-    bed.style.fill = "rgba(199, 0, 50, 0)";
-  }
+  bagsCircle.onmouseleave = function () { stopHover(bags) };
+
+  bedCircle.onmouseenter = function () { hoverRed(bed) };
+
+  bedCircle.onmouseleave = function () { stopHover(bed) };
 
   // On click, the infomration appears
   floorCircle.onclick = function () {
