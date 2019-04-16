@@ -11,7 +11,7 @@ graphic: "Brooke Fisher"
     </h3>
     {{< ybr-line >}}
     <div class="interactive__instructions">
-      Hover and click over parts of the picture for more information.
+      Hover and click over the red circles for more information.
     </div>
   <div class="interactive__image interactive__body">
     <svg id="interactive__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"

@@ -509,7 +509,8 @@ nav {
   justify-content: flex-start;
   margin-bottom: 6vh; }
   .photo .interactive__image p {
-    color: white; }
+    color: white;
+    max-width: 100vw; }
   .photo .interactive__image .hidden {
     display: none; }
   .photo .interactive__image #room__info {
