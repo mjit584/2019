@@ -9,7 +9,7 @@ graphics:
 <section class="interactive" id="womenSlider">
   <h2 class="interactive__title">The Legal Status of Prostitution</h2><br/>
   {{< ybr-line >}}
-  <p class="interactive__intro">Prostitution exists on a spectrum when it comes to the law. Drag the slider below to explore the status of prostitution in Venezuela, Colombia, and the United States. </p>
+  <p class="interactive__intro">Prostitution exists on a spectrum when it comes to the law. Drag the slider below to explore the status of prostitution in Venezuela, Colombia and the United States. </p>
 
  <div id="slidecontainer">
    <div class="sliderlabels">
@@ -29,7 +29,7 @@ graphics:
         <h3>Did You Know?</h3>
         <ul>
           <li>A pack of 36 condoms was sold online for  roughly $755. This reflects the growing cost of safe sex in Venezuela, leading to a spike in sexually transmitted disease and teen pregnancies. </li>
-          <li>Traffickers are targeting Venezuelan women, mostly of poor and indigenous populations. They promise clothes, food and lodging which causes many women to become trapped. Researchers have found that the number of sex-trafficked women has more than doubled since 2016.
+          <li>Traffickers are targeting Venezuelan women, mostly of poor and indigenous populations. They promise clothes, food and lodging, which causes many women to become trapped. Researchers have found that the number of sex-trafficked women has more than doubled since 2016.
 </li>
         </ul>
        </div>
