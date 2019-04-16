@@ -85,6 +85,8 @@ graphic: "Brooke Fisher"
   var wallCircle = document.getElementById('dot-wall');
   var bagsCircle = document.getElementById('dot-bags');
   var infoBox = document.getElementById('room__info');
+  var svg = document.querySelector('svg');
+  var svgPos = svg.getBoundingClientRect();
 
   
   /**
@@ -117,12 +119,15 @@ graphic: "Brooke Fisher"
 
   // On click, the infomration appears
   floorCircle.onclick = function () {
+    var floorCircPos = floorCircle.getBoundingClientRect();
+    console.log(floorCircPos);
     var html = '';
     html += '<p>Many Venezuelans rent out <em>Inquilinato</em>, or daily rooms, to sleep in. Rooms cost an average of $10 USD per day. Even though one room averages just 2 meters by 2 meters (43 square feet), it usually houses multiple families at a time</p>';
     if (infoBox.innerHTML != html) {
       infoBox.innerHTML = html;
     } else {
       infoBox.classList.toggle('hidden');
+      infoBox.style.top = floorCircPos.x;
     }
   }
 
