@@ -51,6 +51,7 @@
 {{ $womenInt := resources.Get "js/women-int.js" }}
 {{ $healthInt := resources.Get "js/health-int.js" }}
 {{ $edInt := resources.Get "js/scrollytelly.js" }}
+{{ $econInt := resources.Get "js/econ-int.js"}}
 
 
 <!-- weight 3 = health story -->
@@ -75,7 +76,7 @@
 
 <!-- Weight 2 = econ story -->
 {{else if eq .Weight 2}}
-{{ $econBundle := slice $scripts $header $progressBar $videos $hamburger | resources.Concat "js/econBundle.js" }}
+{{ $econBundle := slice $scripts $header $progressBar $videos $hamburger $econInt | resources.Concat "js/econBundle.js" }}
 
 {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $econBundle.RelPermalink }}"></script>

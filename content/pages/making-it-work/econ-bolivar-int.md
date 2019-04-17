@@ -1,9 +1,9 @@
 ---
 title: "Venezuelan Bolívar Timeline"
 story: "Employment"
-graphics:
-- "Kailee Akers"
+graphics: "Kailee Akers"
 ---
+<div id="bolivar-timeline"></div>
 <div class="divider"></div>
 <section class="interactive">
   <h2 class="interactive__title">Venezuelan Bolívar Timeline</h2>
@@ -22,7 +22,6 @@ graphics:
       <p>The Bolívar (Bs.) was a stable currency pegged to silver, gold, and the US dollar.</p>
     </div>
   </div>
-
   <div class="row yellow reorder">
     <div class="timeline-content left">
       <h3>Bolívar</h3>
@@ -35,7 +34,6 @@ graphics:
       <span class="caption">Bolívar Bank Notes (Bs.)</span>
     </div>
   </div>
-
   <div class="row blue">
     <div class="timeline-content left">
       <h2 class="blue">&nbsp;&nbsp;2008&nbsp;&nbsp;</h2>
@@ -48,7 +46,6 @@ graphics:
         <p>The Bolívar fuerte (BsF.) replaced the Bolívar, taking off three zeros from the currency.  Inflation remained even though the numbers were smaller.</p>
     </div>
   </div>
-
   <div class="row blue reorder">
     <div class="timeline-content left">
       <h3>Bolívar fuerte</h3>
@@ -61,7 +58,6 @@ graphics:
       <span class="caption">Bolívar Fuerte Bank Notes (BsF.)</span>
     </div>
   </div>
-
   <div class="row red">
     <div class="timeline-content left">
       <h2 class="red">&nbsp;&nbsp;2018&nbsp;&nbsp;</h2>
@@ -74,7 +70,6 @@ graphics:
       <p>The Bolívar soberano (BsS.) replaced the Bolívar fuerte and took five zeros off the currency. </p>
     </div>
   </div>
-
   <div class="row red reorder">
     <div class="timeline-content left">
       <h3>Bolívar soberano</h3>
