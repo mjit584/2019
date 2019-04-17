@@ -9,7 +9,7 @@ graphics:
 <section class="interactive">
   <div class="interactive__body" id="interactive__gov-birthright">
         <!-- front page -->
-        <div class="container-body">
+        <div class="container-body-birthright">
           <div class="flex-column" id="r-1">
           <div class="interactive__header">
             <h2 class="interactive__title">Birthright Citizenship</h2>

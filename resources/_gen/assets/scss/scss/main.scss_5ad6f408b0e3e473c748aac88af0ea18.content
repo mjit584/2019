@@ -169,20 +169,12 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'nav nav nav nav'
- 'story-hero story-hero story-hero story-hero'
- '. by by .'
- 'story-bd story-bd story-bd story-bd'
- 'story-ft story-ft story-ft story-ft';
+  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. by by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .story-page {
       grid-template-columns: 1fr;
-      grid-template-areas: 'nav'
-       'story-hero'
-       'by'
-       'story-bd'
-       'story-ft'; } }
+      grid-template-areas: 'nav' 'story-hero' 'by' 'story-bd' 'story-ft'; } }
   .story-page .story-hero {
     color: #ffffff;
     height: 100vh;
@@ -496,20 +488,12 @@ nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: 'nav nav nav nav'
- 'photo-hero photo-hero photo-hero photo-hero'
- '. by by .'
- 'photo-bd photo-bd photo-bd photo-bd'
- 'photo-ft photo-ft photo-ft photo-ft';
+  grid-template-areas: 'nav nav nav nav' 'photo-hero photo-hero photo-hero photo-hero' '. by by .' 'photo-bd photo-bd photo-bd photo-bd' 'photo-ft photo-ft photo-ft photo-ft';
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .chap {
       grid-template-columns: 1fr;
-      grid-template-areas: 'nav'
-         'photo-hero'
-         'by'
-         'photo-bd'
-         'photo-ft'; } }
+      grid-template-areas: 'nav' 'photo-hero' 'by' 'photo-bd' 'photo-ft'; } }
   .chap .photo-hero {
     color: #ffffff;
     height: 100vh;
@@ -1786,7 +1770,6 @@ nav {
     margin-left: 12%;
     margin-right: 12%; }
   #interactive__gov-undocumented .slideshow-container {
-    min-height: 460px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1844,16 +1827,22 @@ nav {
     margin: 10vh 0; }
   #interactive__gov-undocumented .passport-body {
     z-index: 1200; }
+  #interactive__gov-undocumented .back-button-row {
+    margin-bottom: 50px; }
   #interactive__gov-undocumented .back-button {
+    font-family: ddinexpbold,sans-serif;
+    text-transform: uppercase;
+    padding: 10px 10px;
     cursor: pointer;
-    color: #333333;
+    background: #C70032;
+    color: #ffffff;
     transition: border-bottom 0.2s;
-    position: absolute;
-    left: 0; }
+    width: 115px;
+    border-radius: 30px; }
   #interactive__gov-undocumented .back-button:after {
     display: block;
     content: '';
-    border-bottom: solid 3px #333;
+    border-bottom: solid 3px white;
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
     transform-origin: 0% 50%; }
@@ -1991,6 +1980,10 @@ nav {
     display: flex !important; }
   #interactive__gov-undocumented .hide {
     display: none !important; }
+  #interactive__gov-undocumented .sources {
+    width: 100%;
+    text-align: left;
+    font-style: italic; }
 
 /* mobile css */
 @media (max-width: 800px) and (min-width: 500px) {
@@ -2082,6 +2075,17 @@ nav {
     width: 75%;
     opacity: 1;
     transition: 0.5s; }
+  #interactive__gov-birthright .container-body-birthright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh 0;
+    padding: 0;
+    width: 100%;
+    z-index: 0; }
+    #interactive__gov-birthright .container-body-birthright .interactive__header {
+      margin-bottom: 4vh; }
   #interactive__gov-birthright .mySlides-birthright {
     display: none;
     flex-direction: column; }
@@ -2117,7 +2121,6 @@ nav {
   #interactive__gov-birthright .active {
     background-color: #Fbbc00; }
   #interactive__gov-birthright .slideshow-container {
-    min-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center; }
@@ -2141,6 +2144,8 @@ nav {
       margin-top: 0; }
   #interactive__gov-birthright .flourish-embed {
     min-width: 60vw; }
+  #interactive__gov-birthright .show {
+    display: block; }
   @media (max-width: 800px) and (min-width: 500px) {
     #interactive__gov-birthright #interactive__gov-undocumented {
       width: 100%; }
@@ -2158,7 +2163,7 @@ nav {
       #interactive__gov-birthright #interactive__gov-undocumented .slide-txt, #interactive__gov-birthright #interactive__gov-undocumented .slide-txt2 {
         padding: 0 10vw; }
       #interactive__gov-birthright #interactive__gov-undocumented .back-button {
-        margin-left: 5vh; }
+        margin-left: 0 auto; }
       #interactive__gov-birthright #interactive__gov-undocumented .information-title {
         font-size: 30px;
         border-bottom-width: 5px; }
@@ -2175,6 +2180,7 @@ nav {
     #interactive__gov-birthright .slide-img {
       display: none; }
     #interactive__gov-birthright .bottom-text {
+      margin-top: 4vh;
       font-size: 15px; } }
 
 #scrollytelly-1 {
@@ -2232,21 +2238,24 @@ nav {
 .bubble {
   display: none;
   position: absolute;
-  width: 100%;
+  background: url("/cost-of-dreams/assets/NotebookPaper.png") no-repeat;
+  background-size: cover;
+  top: 10%;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  top: 40%;
   left: 0;
   right: 0;
   background-color: #fff;
-  border: 2px solid #Fbbc00;
   color: #333333;
-  padding: 4%;
+  padding: 2% 150px;
   text-align: left;
   font-size: 1.3rem;
-  line-height: 1.3em; }
+  line-height: 1.7em; }
   .bubble img {
     margin: 10px auto; }
+  .bubble .center {
+    text-align: center; }
   .bubble .scrolly__source {
     text-align: right; }
   .bubble .closebubble {
