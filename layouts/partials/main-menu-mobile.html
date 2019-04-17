@@ -1,35 +1,46 @@
 <div id="main-menu-mobile" class="main-menu-mobile">
-  <div class="top-banner">
-    {{ if .Site.IsServer }}
-    <a href="{{ .Site.BaseURL }}">Uprooted
-    </a>
-    {{ else }}
-    <a href="{{ .Site.Params.gh_pages_URL }}">Uprooted
-    </a>
-    {{ end }}
-  </div>
-  <ul>
-    {{ $currentPage := . }}
-    {{ range .Site.Menus.main }}
-    <li class="story-{{ .Weight }}">
-      <a href="{{.URL}}">
-        <span>{{ .Name }}</span>
-      </a>
-    </li>
-    {{end}}
-  </ul>
-  <div class="bottom-menu flex">
-    <div class="about-social">
-      <a href="/about" class="about">About Us</a>
-      <div class="social flex">
-        <a href="https://facebook.com/uprootedunc" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://instagram.com/uprootedunc" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://twitter.com/@uprootedunc" target="_blank"><i class="fab fa-twitter"></i></a>
-      </div>
+  <div class="inner-menu">
+    <button onclick="showStoryMenu()" class="inner-menu-button" id="stories-menu-button" type="button" aria-label="Menu"
+      aria-controls="navigation" aria-expanded="true/false">
+      <h2 class="inner-menu-title">Stories
+        <i id="story-menu-arrow" class="inner-menu-arrow fa fa-angle-down"></i>
+      </h2>
+    </button>
+    {{ partial "ybr-line.html" }}
+    <div class="inner-menu-items" id="story-menu-items">
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+      <a class="inner-menu-item" href="{{.URL}}">{{ .Pre }}</a>
+      {{end}}
     </div>
-    <div class="header__lang-toggle">
-      <a href="{{ .Site.BaseURL}}en"><span class="header__lang-toggle__en">EN</span></a> |
-      <a href="{{ .Site.BaseURL}}es"><span class="header__lang-toggle__es">ES</span></a>
+  </div>
+  <div class="inner-menu">
+    <button onclick="showPhotoMenu()" class="inner-menu-button" id="photo-menu-button" type="button" aria-label="Menu"
+      aria-controls="navigation" aria-expanded="true/false">
+      <h2 class="inner-menu-title">Photo Journey
+        <i id="photo-menu-arrow" class="inner-menu-arrow fa fa-angle-down"></i>
+      </h2>
+    </button>
+    {{ partial "ybr-line.html" }}
+    <div class="inner-menu-items" id="photo-menu-items">
+      {{ range .Site.Menus.photo }}
+      <a class="inner-menu-item" href="{{.URL}}">{{ .Pre }}</a>
+      </li>
+      {{end}}
+    </div>
+  </div>
+  <div class="bottom-menu">
+    <div class="about-social">
+      <div class="header__lang-toggle">
+        <a href="{{ .Site.BaseURL}}en"><span class="header__lang-toggle__en">EN</span></a> |
+        <a href="{{ .Site.BaseURL}}es"><span class="header__lang-toggle__es">ES</span></a>
+      </div>
+      <a href="/about" class="about">About Us</a>
+      <div class="social">
+        <a href="https://facebook.com/uprootedunc" target="_blank"><i class="social-icon fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com/uprootedunc" target="_blank"><i class="social-icon fab fa-instagram"></i></a>
+        <a href="https://twitter.com/@uprootedunc" target="_blank"><i class="social-icon fab fa-twitter"></i></a>
+      </div>
     </div>
   </div>
 </div>

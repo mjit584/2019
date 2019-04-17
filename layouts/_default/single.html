@@ -1,5 +1,5 @@
 {{ define "header_css" }}{{ end }}
-{{ define "body_classes" }}story-page {{ .Title | lower }}{{ end }}
+{{ define "body_classes" }}story-page{{ end }}
 {{ define "main" }}
 <div class="home__overlay" id="home-overlay"></div>
 {{ partial "main-menu-mobile.html" . }}
@@ -13,7 +13,7 @@
     {{ partial "hamburger.html" . }}
   </div>
 </nav>
-{{ partial "story-hero.html" (dict "number" .Params.weight "background" .Params.video "heading" .Params.storyHeading "subheading" .Params.storySubheading "topic" .Params.topic "content" .) }}
+{{ partial "story-hero.html" (dict "number" .Params.weight "still" .Params.headerStill "background" .Params.video "heading" .Params.storyHeading "subheading" .Params.storySubheading "topic" .Params.topic "content" .) }}
 
 <div class="flex-column byline">
   <div class="byline-name" id="byline-rep">written by <span>{{ .Params.Author }}</span></div>
@@ -28,9 +28,10 @@
 
 <div class="story-content">
   {{ .Content }}
+  <img class="story-end-icon" src="{{ .Site.BaseURL}}images/end-story-icon.svg">
 </div>
 
-<div class="photo__progress">
+<div class="progress">
   <div class="progress__bar" id="photo-bar"></div>
 </div>
 

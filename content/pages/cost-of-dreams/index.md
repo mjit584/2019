@@ -4,6 +4,7 @@ topic: "Education"
 date: 2019-02-04T21:35:51-05:00
 description: "Children sacrifice their education to help their families."
 video: "../cost-of-dreams/assets/education-headervideo.mp4"
+headerStill: "../cost-of-dreams/assets/education-headerstill.jpg"
 image: "/cost-of-dreams/assets/education-homepagestill.jpg"
 storyHeading: "The Cost of Dreams"
 storySubheading: "Children sacrifice their education to help their families."
@@ -14,16 +15,19 @@ videographer: "Andie Rea, Ashton Eleazer"
 designer: "Lyric Lin, Patty Matos"
 udea: "Maria"
 ---
+
 It took four arepas to fill Jeham Carlos Rosa’s stomach back in Venezuela, when he was six years old. But he decided to get by on just two as his parents struggled to keep enough food in the house to feed the family, leaving him feeling hungry. Three years later, Rosa recalls the difficult decisions he made behind his parents back before he and his mother fled to Medellin. His mother, Alejandrina, sits next to him crying as she hears her son’s tender sacrifice for the first time.
 
 The pair moved to Colombia temporarily in October 2018, along with his grandmother and a family friend. He sits with his mother on the only bed in their tiny one-bedroom rental that is thinner than a pillow and feels as hard as a brick. Jeham is thin and short for a 9-year-old boy, with a charismatic smile and a tenacious old soul.
+
+{{< photo-caption "pages/cost-of-dreams" "photo-caption-1" >}}
 
 But even though Jeham has more food in Medellin, it comes at a price. Instead of going to school, he sells “confetti” or candy, in Parque Berrio, a park known for drugs, gangs, and prostitution in order to feed himself and his family. Rosa says he did not leave Venezuela intending to work, for him it was an exciting adventure. However, when he arrived in Colombia, there was a different reality.
 
 <div id="video-top"></div>
 
 <!-- Children and education video goes here -->
-{{< vimeo id="265319522" class="video-container flex" >}}
+{{< vimeo id="329725078" class="video-container flex" >}}
 
 The Medellin Education System says every migrant children who seeks education is given the opportunity however; Like Jeham, there are many Venezuelan youth not attending school or at risk of losing their access to education in Colombia because they fear deportation, not having enough resources, or not affording daily food and transportation costs. According to The International Rescue Committee, roughly 50 percent of Venezuelan Kids in Colombia are not enrolled in school.
 
@@ -56,11 +60,15 @@ Lisbeth Marcana was a teacher in Venezuela for 25 years before she arrived to Me
 
 “They have a strong level of malnutrition, that there growth and cognitive development is not the same,” says Marcana. “Instead of thinking about math, they’re thinking about food.”
 
+{{< photo-caption "pages/cost-of-dreams" "photo-caption-2" >}}
+
 She says that although President Nicolas Maduro created a program called PAE (School Food Program,) it is not enough. The food arrives every eight days and most of the fruit is damaged. Not only that but Marcana says the food was only enough for 200 children at the school of 1000 students. The school was forced to prioritize the students who spent the most time there and then then what was left over was for the youngest students.
 
 During her years of teaching in Venezuela the curriculum changed. Marcana says in 1996 they used to work with pedagogical classroom projects until 2006 when it was changed into the Bolivarian curriculum. “They removed some of the most important content,” says Marcana. “They focused more on the social and political education.” Instead of focusing on teaching spanish she said she would have to teach her children about socialist “heroes” like Ezequiel Zamora.
 
 The government also changed the standards for how children were held back in schools. In the new system the teacher first has to have permission of the parents and then permission of the government. “It’s too much money that teacher do not have. As a result every student passes,” says Marcana. As a teacher she recognized how students mentality was influenced by the government. The kids would constantly ask her why they weren’t equal to everyone if they lived in a socialistic society. “He brought two colors to class, I’m going to take one away from him because we are equal and so he has to have one and I have to have one,” her kids would say.
+
+{{< photo-caption "pages/cost-of-dreams" "photo-caption-3" >}}
 
 Although Marcana says she really wanted to help her students, the money she made was not enough. Every two weeks she would receive a paycheck of 18,000 bolivares which was enough for half a kilogram of cheese. She too recalls student fainting during the anthem, classes, or at anytime. All the teachers would come together and talk about who could help this student by pitching food for the student.
 

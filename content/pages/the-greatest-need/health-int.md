@@ -25,7 +25,7 @@ graphics:
               <div class="card-back-body-text">
                 <p>The <strong>System for the Selection of Beneficiaries of Social Programs </strong>(Sisbén) assigns Colombian residents to free government-subsidized health and social programs based on need.</p>
                 <p>Residents who qualify are eligible to receive free basic healthcare coverage through government contracts established with private insurers. Most health subsidies are received by poverty-stricken Colombians, but a large influx of documented Venezuelan immigrants has strained an already-struggling system.</p>
-              <p>Like the Verenzuela family , most Venezuelan migrants are unable to afford private insurance and many face the additional challenge of being undocumented and ineligible for Sisbén coverage.  To be considered for free healthcare access under the Sisben, they must be issued a <strong>Special Permit of Permanence</strong> (PEP).</p>
+              <p>Like the Verenzuela family, most Venezuelan migrants are unable to afford private insurance and many face the additional challenge of being undocumented and ineligible for Sisbén coverage.  To be considered for free healthcare access under the Sisben, they must be issued a <strong>Special Permit of Permanence</strong> (PEP).</p>
               </div>
             </div>
           <div class="container flex-column" id="sh-r-2">

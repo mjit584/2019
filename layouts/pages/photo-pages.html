@@ -1,5 +1,5 @@
 {{ define "header_css" }}{{ end }}
-{{ define "body_classes" }}chap {{ .Title | lower }}{{ end }}
+{{ define "body_classes" }}story-page photo{{ end }}
 {{ define "main" }}
 <div class="home__overlay" id="home-overlay"></div>
 {{ partial "main-menu-mobile.html" . }}
@@ -13,24 +13,27 @@
     {{ partial "hamburger.html" . }}
   </div>
 </nav>
-{{ partial "photo-hero.html" (dict "number" .Params.weight "background" .Params.image "heading" .Params.storyHeading "subheading" .Params.storySubheading "topic" .Params.topic "content" .) }}
+{{ partial "story-hero.html" (dict "alt" .Params.heroAlt "layout" .Params.layout "image" .Params.image "heading" .Params.storyHeading "subheading" .Params.storySubheading "topic" .Params.topic "content" .) }}
 
 
 <div class="flex-column byline">
-  <div class="byline-name">photos by <span>{{ .Params.photographer }}</span>
+  <div class="byline-name">photos by
+    <span>{{ .Params.photographer }}</span>
   </div>
+  {{ if eq .Params.designer "undefined" }}
+  {{ else }}
   <div class="byline-name" id="byline-des">graphics by <span>{{ .Params.designer }}</span></div>
+  {{ end }}
   <div class="byline-name" id="byline-udea">field producers <span>{{ .Params.udea }}</span></div>
   {{ partial "ybr-line.html" . }}
 </div>
 
-<div class="photo__content">
+<div class="story-content">
   {{ .Content }}
-
-  <div class="photo__line"></div>
+  <img class="story-end-icon" src="{{ .Site.BaseURL}}images/end-story-icon.svg">
 </div>
 
-<div class="photo__progress">
+<div class="progress">
   <div class="progress__bar" id="photo-bar"></div>
 </div>
 

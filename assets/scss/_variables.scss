@@ -1,12 +1,12 @@
 //colors
-$red: #C70032;
-$blue: #1457D3;
-$yellow: #Fbbc00;
+$red: #c70032;
+$blue: #1457d3;
+$yellow: #fbbc00;
 $white: #ffffff;
 $black: #333333;
 $primary: #af4efa;
 $grey: #aaa;
-$light-grey: #F2F2F2;
+$light-grey: #f2f2f2;
 
 //links
 $link-color: inherit;
@@ -15,45 +15,46 @@ $link-hover-color: lighten($primary, 20%);
 $link-hover-decoration: underline;
 
 //fonts
-@font-face{
+@font-face {
   font-family: DDinBold;
-  src: url('../fonts/d-din/d-din-bold.otf');
+  src: url("../fonts/d-din/d-din-bold.otf");
 }
 
-@font-face{
+@font-face {
   font-family: DDinRegular;
-  src: url('../fonts/d-din/d-din.otf');
+  src: url("../fonts/d-din/d-din.otf");
 }
 
-@font-face{
+@font-face {
   font-family: DDinExpBold;
-  src: url('../fonts/d-din/D-DINExp-Bold.otf');
+  src: url("../fonts/d-din/D-DINExp-Bold.otf");
 }
 
-$font-nav: 'Lato', sans-serif;
-$font-nav-mobile: 'Lato', sans-serif;
-$font-logo: 'DDinBold', sans-serif;
-$font-button: 'DDinExpBold', sans-serif;
-$font-hero-heading: 'DDinBold', sans-serif;
-$font-hero-title: 'DDinBold', sans-serif;
-$font-hero-topic: 'DDinRegular', sans-serif;
-$font-hero-subtitle: 'Playfair Display', serif;
-$font-hero-desc: 'Lato', sans-serif;
-$font-card-heading: 'DDinBold', sans-serif;
-$font-card-title: 'DDinBold', sans-serif;
-$font-card-desc: 'Lato', sans-serif;
-$font-byline: 'Lato', sans-serif;
-$font-content-heading: 'DDinBold', sans-serif;
-$font-content-body: 'Georgia', serif;
-$font-int-header: 'DDinBold', sans-serif;
-$font-int-subhead: 'DDinRegular', sans-serif;
-$font-int-intro: 'Lato', sans-serif;
-$font-int-body: 'Lato', sans-serif;
-$font-pullquote: 'Playfair Display', serif;
-$font-pullquote-name: 'Lato', sans-serif;
-$font-photo-caption: 'Lato', sans-serif;
-$font-about-info: 'Lato', sans-serif;
-$font-footer: 'DDinBold', sans-serif;
+$font-nav: "Lato", sans-serif;
+$font-subhead: "DDinBold", sans-serif;
+$font-nav-mobile: "Lato", sans-serif;
+$font-logo: "DDinBold", sans-serif;
+$font-button: "DDinExpBold", sans-serif;
+$font-hero-heading: "DDinBold", sans-serif;
+$font-hero-title: "DDinBold", sans-serif;
+$font-hero-topic: "DDinRegular", sans-serif;
+$font-hero-subtitle: "DDinRegular", serif;
+$font-hero-desc: "Lato", sans-serif;
+$font-card-heading: "DDinBold", sans-serif;
+$font-card-title: "DDinBold", sans-serif;
+$font-card-desc: "Lato", sans-serif;
+$font-byline: "Lato", sans-serif;
+$font-content-heading: "DDinBold", sans-serif;
+$font-content-body: "Georgia", serif;
+$font-int-header: "DDinBold", sans-serif;
+$font-int-subhead: "DDinRegular", sans-serif;
+$font-int-intro: "Lato", sans-serif;
+$font-int-body: "Lato", sans-serif;
+$font-pullquote: "Playfair Display", serif;
+$font-pullquote-name: "Lato", sans-serif;
+$font-photo-caption: "Lato", sans-serif;
+$font-about-info: "Lato", sans-serif;
+$font-footer: "DDinBold", sans-serif;
 
 $font-size-base: 1rem; // Assumes the browser default, typically `16px`
 $font-weight-thin: 100;
@@ -62,31 +63,35 @@ $font-weight-normal: 400;
 $font-weight-bold: 700;
 $font-weight-black: 900;
 $font-weight-base: $font-weight-normal;
+
+// Line height
 $line-height-base: 1.5em;
-$line-height-photo: 1.2rem;
 
 $spacer: 1rem;
 $spacers: ();
-$spacers: map-merge((0: 0,
-1: 10px,
-2: 20px,
-3: 30px,
-4: 40px,
-5: 50px,
-6: 60px,
-7: 70px,
-8: 80px,
-9: 90px,
-10: 100px,
-11: 110px,
-12: 120px,
-13: 130px,
-14: 140px,
-15: 150px,
-16: 160px,
-17: 170px,
-18: 180px,
-19: 190px,
-20: 200px,
-),
-$spacers);
+$spacers: map-merge(
+  (
+    0: 0,
+    1: 10px,
+    2: 20px,
+    3: 30px,
+    4: 40px,
+    5: 50px,
+    6: 60px,
+    7: 70px,
+    8: 80px,
+    9: 90px,
+    10: 100px,
+    11: 110px,
+    12: 120px,
+    13: 130px,
+    14: 140px,
+    15: 150px,
+    16: 160px,
+    17: 170px,
+    18: 180px,
+    19: 190px,
+    20: 200px
+  ),
+  $spacers
+);

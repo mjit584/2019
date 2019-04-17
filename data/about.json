@@ -11,7 +11,7 @@
     "gh": "",
     "website": "http://dianeadame.com/",
     "img": "assets/diane-headshot.jpg",
-    "desc": "Hello! My name is Diane and I am a senior reporting and public policy student. The thought of my next meal keeps me going and if I had to describe my life in three words, it would be bylines, headlines and deadlines.",
+    "desc": "Hello! My name is Diane, and I am a senior reporting and public policy student. The thought of my next meal keeps me going and if I had to describe my life in three words, it would be bylines, headlines and deadlines.",
     "symbol": "An avocado"
   },
   {
@@ -58,6 +58,21 @@
     "img": "assets/abby-headshot.jpg",
     "desc": "I'm Abby, a junior journalism and politcal science double major. I love dogs, naps and pizza.",
     "symbol": ""
+  },
+  {
+    "first": "María Alejandra",
+    "last": "Cardona Aizpurua",
+    "role": "Field Producer",
+    "filter": "field",
+    "fb": "https://www.facebook.com/mcardonaaizpurua",
+    "twitter": "https://twitter.com/Mariaizpu07",
+    "instagram": "https://www.instagram.com/maria.aizpurua5/?hl=es-la",
+    "linkedin": "",
+    "gh": "",
+    "website": "https://opinionescriollas.blogspot.com/",
+    "img": "assets/mariaalejandra-headshot.jpg",
+    "desc": "I'm Maria Alejandra Cardona Aizpurúa, a student of journalism and social communication from Medellín. I'm in love with the culture of my country, and I believe in the change. I'm passionate about telling stories with a camara or with written words and I love to learn and know the world by traveling.",
+    "symbol": "A mountain of Antioquia"
   },
   {
     "first": "Chris",
@@ -131,7 +146,7 @@
     "gh": "",
     "website": "http://landoncoopermedia.com",
     "img": "assets/landon-headshot.jpg",
-    "desc": "Hey everybody, I'm Landon and I'm a photographer and videographer. I have no children but I'm sublime at dad jokes. I love long walks on the beach, taking portraits and telling stories.",
+    "desc": "Hey everybody, I'm Landon, and I'm a photographer and videographer. I have no children, but I'm sublime at dad jokes. I love long walks on the beach, taking portraits and telling stories.",
     "symbol": ""
   },
   {
@@ -140,12 +155,12 @@
     "role": "Reporting Coach",
     "filter": "coach",
     "fb": "",
-    "twitter": "",
+    "twitter": "https://twitter.com/losjetssoccer",
     "instagram": "",
     "linkedin": "",
     "gh": "",
     "website": "",
-    "img": "assets/pat-headshot.jpg",
+    "img": "assets/silhouette-headshot-man.png",
     "desc": "I am an associate professor, investigative reporter and author with a focus on issues of race and poverty in America. I love fútbol and storytelling.",
     "symbol": ""
   },
@@ -176,7 +191,7 @@
     "gh": "",
     "website": "https://dillons789.wixsite.com/portfolio",
     "img": "assets/sally-headshot.jpg",
-    "desc": "I'm Sally, a graphic design and French major. I'm a senior but more of a senior citizen at heart. I am a paper hoarder and my favorite color is butter yellow.",
+    "desc": "I'm Sally, a graphic design and French major. I'm a senior but more of a senior citizen at heart. I am a paper hoarder, and my favorite color is butter yellow.",
     "symbol": "an orange"
   },
   {
@@ -191,7 +206,7 @@
     "gh": "",
     "website": "http://www.dullcatie.com/",
     "img": "assets/catie-headshot.jpg",
-    "desc": "I'm Catie, a senior photo & video journalist. I love my fat cat and my home at Wrightsville Beach. I'm a weirdo who loves to travel with my camera around my neck!",
+    "desc": "I'm Catie, a senior photo and video journalist. I love my fat cat and my home at Wrightsville Beach. I'm a weirdo who loves to travel with my camera around my neck!",
     "symbol": "an arrow (i swear im not basic)"
   },
   {
@@ -236,8 +251,23 @@
     "gh": "",
     "website": "http://www.haleyfrance.com/portfolio/",
     "img": "assets/haley-headshot.jpg",
-    "desc": "My name is Haley, and I'm studying media and journalism with a social and economic justice minor. I love DJ-ing on our student radio station and am a pro at making annoying puns.",
+    "desc": "My name is Haley, and I'm studying media and journalism with a social and economic justice minor. I love DJing on our student radio station and am a pro at making annoying puns.",
     "symbol": "a converse"
+  },
+  {
+    "first": "Laura Andrea",
+    "last": "García Giraldo",
+    "role": "Field Producer",
+    "filter": "field",
+    "fb": "",
+    "twitter": "",
+    "instagram": "https://www.instagram.com/plie_releve_chasse/",
+    "linkedin": "",
+    "gh": "",
+    "website": "",
+    "img": "assets/lauragarcia-headshot.jpg",
+    "desc": "If there were words to describe my contradictory self I would say I’m a passionate about movement (ballet dancer) with some senses for storytelling.",
+    "symbol": ""
   },
   {
     "first": "Tenley",
@@ -296,7 +326,7 @@
     "gh": "",
     "website": "http://lyriclin.com/",
     "img": "assets/lyric-headshot.jpg",
-    "desc": "Hi! I'm Lyric, a junior advertising and public relations major. I consider myself a “Type A Granola”: Free-spirited but on a schedule. Lover of pups, the color yellow, and cotton candy sunsets.",
+    "desc": "Hi! I'm Lyric, a junior advertising and public relations major. I consider myself a “Type A Granola”: Free-spirited but on a schedule. Lover of pups, the color yellow and cotton candy sunsets.",
     "symbol": "sunflower"
   },
   {
@@ -341,8 +371,38 @@
     "gh": "",
     "website": "http://www.peggymullin.com/",
     "img": "assets/peggy-headshot.jpg",
-    "desc": "Hey! I'm Peggy, a senior environmental science and photo/video nerd. I geek out over many things, including (but not limited to) algae, music, dogs, and the unbelievable power of storytelling.",
+    "desc": "Hey! I'm Peggy, a senior environmental science and photo/video nerd. I geek out over many things, including (but not limited to) algae, music, dogs and the unbelievable power of storytelling.",
     "symbol": "a lil mountain like dis"
+  },
+  {
+    "first": "Juan David",
+    "last": "Ochoa Jiménez",
+    "role": "Field Producer",
+    "filter": "field",
+    "fb": "https://www.facebook.com/ochoajz",
+    "twitter": "https://twitter.com/Sr_Ochoa8a",
+    "instagram": "https://www.instagram.com/sr.ochoa/",
+    "linkedin": "",
+    "gh": "",
+    "website": "",
+    "img": "assets/juan-headshot.jpg",
+    "desc": "Hey there! I'm Juan, a social communication student. I'm 20 years old, and I'm a politics and history lover. I have three beautiful and fluffy cats (if I had a bigger house, I would have more!) I like to learn about EVERYTHING, and that's why I enjoy meeting people from other countries. I also like dancing, playing video games and walking through the city.",
+    "symbol": ""
+  },
+  {
+    "first": "Andrea",
+    "last": "Orozco Sáenz",
+    "role": "Field Producer",
+    "filter": "field",
+    "fb": "https://www.facebook.com/andrea10saenz",
+    "twitter": "https://twitter.com/@andrea95orozco",
+    "instagram": "https://instagram.com/andrea95orozco",
+    "linkedin": "",
+    "gh": "",
+    "website": "",
+    "img": "assets/andrea-headshot.jpg",
+    "desc": "I'm Andrea, a journalism student with a focus on photography and video. I also play rugby and work as a researcher for a TV program.",
+    "symbol": ""
   },
   {
     "first": "Sara",
@@ -356,8 +416,38 @@
     "gh": "",
     "website": "http://sarapequeno.com",
     "img": "assets/sara-headshot.jpg",
-    "desc": "My name is Sara and I'm a senior reporting and political science student. Yes, my last name does mean \"small\" in Spanish. Yes, I am 4'11\".",
+    "desc": "My name is Sara, and I'm a senior reporting and political science student. Yes, my last name does mean \"small\" in Spanish. Yes, I am 4'11\".",
     "symbol": "a cat !! (if it matters i'd prefer a black cat)"
+  },
+  {
+    "first": "Andie",
+    "last": "Rea",
+    "role": "Videographer",
+    "filter": "photovid",
+    "fb": "",
+    "twitter": "",
+    "instagram": "https://www.instagram.com/andierea/?hl=en",
+    "linkedin": "https://www.linkedin.com/in/andie-rea-6197a5150",
+    "gh": "",
+    "website": "AndieRea.com",
+    "img": "assets/andie-headshot.jpg",
+    "desc": "I am a visual media creator inspired by the power of story to shape ideas and create change. I enjoy adventures with my family and trying new foods.",
+    "symbol": ""
+  },
+  {
+    "first": "Margarita María",
+    "last": "Restrepo",
+    "role": "Field Producer",
+    "filter": "field",
+    "fb": "",
+    "twitter": "",
+    "instagram": "https://www.instagram.com/margrpo/",
+    "linkedin": "",
+    "gh": "",
+    "website": "",
+    "img": "assets/margarita-headshot.jpg",
+    "desc": "",
+    "symbol": ""
   },
   {
     "first": "Tamara",
@@ -371,7 +461,7 @@
     "gh": "",
     "website": "",
     "img": "assets/tamara-headshot.jpg",
-    "desc": "I'm Tamara, the interactive coach for Uprooted. I love finding ways to tell stories in visual and interactive ways and I'm always inspired by the energy and committment my students bring to their work.",
+    "desc": "I'm Tamara, the interactive coach for Uprooted. I love finding ways to tell stories in visual and interactive ways, and I'm always inspired by the energy and commitment my students bring to their work.",
     "symbol": ""
   },
   {
@@ -415,8 +505,8 @@
     "linkedin": "https://www.linkedin.com/in/kate-sheppard-088409a/",
     "gh": "",
     "website": "",
-    "img": "assets/pat-headshot.jpg",
-    "desc": "I am a Teaching Associate Professor in the School of Media and Journalism and a senior enterprise editor at HuffPost. When I am not wrangling commas, I am wrangling my two small humans.",
+    "img": "assets/silhouette-headshot-woman.png",
+    "desc": "I am a teaching associate professor in the School of Media and Journalism and a senior enterprise editor at HuffPost. When I am not wrangling commas, I am wrangling my two small humans.",
     "symbol": ""
   },
   {
@@ -435,49 +525,19 @@
     "symbol": "lime"
   },
   {
-    "first": "Maria Elena",
-    "last": "Vizcaino",
-    "role": "Reporter, Translator",
-    "filter": "rep",
-    "fb": "",
-    "twitter": "https://twitter.com/vizcainomariae",
-    "instagram": "",
-    "linkedin": "https://www.linkedin.com/in/maria-elena-vizcaino-b0738810a/",
-    "gh": "",
-    "website": "http://www.mariaevizcaino.com/",
-    "img": "assets/maria-headshot.jpg",
-    "desc": "I am a journalist born and raised in Caracas, Venezuela. Sophomore year of high school I moved to Miami, Florida, and now I’ve traded the beach and the heat for the mountains and the chilly breeze of North Carolina.  If I'm not asking questions, find me eating arepas or compulsively cleaning my house.",
-    "symbol": ""
-  },
-  {
-    "first": "Andie",
-    "last": "Rea",
-    "role": "Videographer",
-    "filter": "photovid",
-    "fb": "",
-    "twitter": "",
-    "instagram": "https://www.instagram.com/andierea/?hl=en",
-    "linkedin": "https://www.linkedin.com/in/andie-rea-6197a5150",
-    "gh": "",
-    "website": "AndieRea.com",
-    "img": "assets/andie-headshot.jpg",
-    "desc": "I am a visual media creator inspired by the power of story to shape ideas and create change. I enjoy adventures with my family and trying new foods.",
-    "symbol": ""
-  },
-  {
-    "first": "Andrea",
-    "last": "Orozco Sáenz",
+    "first": "Laura",
+    "last": "Trujillo Arango",
     "role": "Field Producer",
     "filter": "field",
-    "fb": "https://www.facebook.com/andrea10saenz",
-    "twitter": "https://twitter.com/@andrea95orozco",
-    "instagram": "https://instagram.com/andrea95orozco",
+    "fb": "https://www.facebook.com/laura.trujilloarango",
+    "twitter": "https://twitter.com/LauraTrujilloAr",
+    "instagram": "https://www.instagram.com/lauratrua/",
     "linkedin": "",
     "gh": "",
     "website": "",
-    "img": "assets/andrea-headshot.jpg",
-    "desc": "I'm Andrea, a journalism student with a focus on photography and video. I also play rugby and work as a researcher for a TV program.",
-    "symbol": ""
+    "img": "assets/laura-headshot.jpg",
+    "desc": "My name is Laura, I'm a first year social comunication and journalism student at UPB. I really love dogs, and I'm 18 years old (until April, at least). Apart from English and Spanish, I also speak Portuguese. I really love and enjoy writing, reading and learning new things on a daily basis.",
+    "symbol": "Pepe (my english bulldog, he's old)"
   },
   {
     "first": "Martin",
@@ -495,78 +555,18 @@
     "symbol": ""
   },
   {
-    "first": "Juan David",
-    "last": "Ochoa Jiménez",
-    "role": "Field Producer",
-    "filter": "field",
-    "fb": "https://www.facebook.com/ochoajz",
-    "twitter": "https://twitter.com/Sr_Ochoa8a",
-    "instagram": "https://www.instagram.com/sr.ochoa/",
-    "linkedin": "",
-    "gh": "",
-    "website": "",
-    "img": "assets/juan-headshot.jpg",
-    "desc": "Hey there! I'm Juan, a social communication student. I'm 20 years old and I'm a politics and history lover. I have three beautiful and fluffy cats (if I had a bigger house, I would have more!) I like to learn about EVERYTHING, that's why I enjoy meeting people from other countries. I also like dance, play video games and walk through the city.",
-    "symbol": ""
-  },
-  {
-    "first": "Laura",
-    "last": "Trujillo Arango",
-    "role": "Field Producer",
-    "filter": "field",
-    "fb": "https://www.facebook.com/laura.trujilloarango",
-    "twitter": "https://twitter.com/LauraTrujilloAr",
-    "instagram": "https://www.instagram.com/lauratrua/",
-    "linkedin": "",
-    "gh": "",
-    "website": "",
-    "img": "assets/laura-headshot.jpg",
-    "desc": "My name is Laura, I'm a first year social comunication and journalism student at UPB. I really love dogs and I'm 18 yers old (until April, at least). Apart from English and Spanish, I also speak Portuguese. I really love and enjoy writing, reading and learning new things on a daily basis.",
-    "symbol": "Pepe (my english bulldog, he's old)"
-  },
-  {
-    "first": "Laura Andrea",
-    "last": "García Giraldo",
-    "role": "Field Producer",
-    "filter": "field",
+    "first": "Maria Elena",
+    "last": "Vizcaino",
+    "role": "Reporter, Translator",
+    "filter": "rep",
     "fb": "",
-    "twitter": "",
-    "instagram": "https://www.instagram.com/plie_releve_chasse/",
-    "linkedin": "",
-    "gh": "",
-    "website": "",
-    "img": "assets/lauragarcia-headshot.jpg",
-    "desc": "If there were words to describe my contradictory self I would say I’m a passionate about movement (ballet dancer) with some senses for storytelling.",
-    "symbol": ""
-  },
-  {
-    "first": "Margarita María",
-    "last": "Restrepo",
-    "role": "Field Producer",
-    "filter": "field",
-    "fb": "",
-    "twitter": "",
-    "instagram": "https://www.instagram.com/margrpo/",
-    "linkedin": "",
-    "gh": "",
-    "website": "",
-    "img": "assets/pat-headshot.jpg",
-    "desc": "",
-    "symbol": ""
-  },
-  {
-    "first": "María Alejandra",
-    "last": "Cardona Aizpurua",
-    "role": "Field Producer",
-    "filter": "field",
-    "fb": "",
-    "twitter": "",
+    "twitter": "https://twitter.com/vizcainomariae",
     "instagram": "",
-    "linkedin": "",
+    "linkedin": "https://www.linkedin.com/in/maria-elena-vizcaino-b0738810a/",
     "gh": "",
-    "website": "",
-    "img": "assets/pat-headshot.jpg",
-    "desc": "",
+    "website": "http://www.mariaevizcaino.com/",
+    "img": "assets/maria-headshot.jpg",
+    "desc": "I am a journalist born and raised in Caracas, Venezuela. Sophomore year of high school I moved to Miami, Florida, and now I’ve traded the beach and the heat for the mountains and the chilly breeze of North Carolina. If I'm not asking questions, find me eating arepas or compulsively cleaning my house.",
     "symbol": ""
   }
 ]

@@ -39,6 +39,12 @@
     font-size: 1.2rem;
   }
 
+  .interactive__instructions {
+    font-style: italic;
+    color: $grey;
+    margin-bottom: 2%;
+  }
+
   .interactive__body {
     font-family: $font-int-body;
     font-weight: $font-weight-normal;

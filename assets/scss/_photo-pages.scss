@@ -1,254 +1,81 @@
-.chap {
-
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, auto);
-  grid-template-areas:
-    'nav nav nav nav'
-    'photo-hero photo-hero photo-hero photo-hero'
-    '. by by .'
-    'photo-bd photo-bd photo-bd photo-bd'
-    'photo-ft photo-ft photo-ft photo-ft';
-  transition: 0.5s background-color;
-
-  @media screen and (max-width: 800px){
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      'nav'
-      'photo-hero'
-      'by'
-      'photo-bd'
-      'photo-ft';
-  }
-
-  .photo-hero {
-    color: $white;
-    height: 100vh;
-    text-align: center;
-    padding: 25px;
-    grid-area: photo-hero;
-    justify-content: flex-start;
-    transition: 1s opacity;
-
-    .photo-hero__topic {
-      text-align: center;
-      margin-top: 4.5rem;
-
-      p {
-      font-family: $font-hero-topic;
-      font-weight: $font-weight-bold;
+.photo {
+  // .overlay {
+  //   background-image: linear-gradient(
+  //   rgba(0,0,0,0.1),
+  //   rgba(0,0,0,0.1)
+  //   );
+  // }
+  
+  .photo__hero-img {
+    background-color: $yellow;
+    display: block;
+    position: relative; // Play the video in full screen mode
+    margin-top: 55px;
+    top: 0px;
+    left: 0px;
+    z-index: -1; // Put the video behind all other elements
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    border-radius: 1px;
+    object-fit: cover;
+    object-position: bottom;
+  
+    @media screen and (max-width: 800px) {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 30vh;
+      border-radius: none;
       margin: 0;
-      text-transform: uppercase;
-      font-size: 1.2rem;
-      }
-
-      .ybr-line {
-        height: 10px;
-        width: 35%;
-
-        .ybr-section {
-          stroke-width: 4;
-        }
-      }
+      z-index: 0;
+      object-fit: cover;
+    }
+  }
+  
+  
+  .photo__line {
+    border-bottom: solid 1px #707070;
+    margin: 6vh auto;
+    width: 84vw;
+  }
+  
+  .interactive__image {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6vh;
+  
+    p {
+      color: $black;
+      max-width: 100vw;
+      font-family: $font-int-body;
     }
     
-    .photo-hero__title {
-      font-family: $font-hero-title;
-      font-weight: $font-weight-normal;
-      font-size: calc(3rem + 3vw);
-      margin-bottom: 0;
-      margin-top: 25vh;
+    .hidden {
+      display: none;
     }
-
-    .photo-hero__desc {
-      font-family: $font-hero-desc;
-      font-weight: $font-weight-normal;
+    
+    #room__info {
+      text-align: center;
+      background-color: $white;
+      height: auto;
+      max-width: 500px;
+      width: 90%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-right: auto;
+      margin-left: auto;
     }
-  }
-  
-  .photo-byline {
-    font-family: $font-byline;
-    background-color: $light-grey;
-    padding: 2%;
-    margin: 6vh 0;
-    width: 47%;
-    font-size: 12px;
-    align-items: flex-start;
-    font-weight: $font-weight-bold;
-    line-height: $line-height-base;
-    grid-area: photo-by;
-    transition: 1s opacity;
-  
-    span {
-      font-weight: $font-weight-light;
-    }
-
-    .ybr-line {
-      margin-top: 1vh;
-      max-width: 10vw;
-
-      .ybr-section {
-        stroke-width: 7;
-      }
-    }
-
-    @media screen and (max-width: 800px) {
-      margin: 4% auto;
-      max-width: 90vw;
-
-      .ybr-line {
-        max-width: 40vw;
-
-        .ybr-section {
-          stroke-width: 4;
-        }
-      }
-    }
-  }
-  
-  
-  .photo__content {
-    font-family: $font-content-body;
-    grid-area: photo-bd;
-
-    a {
-      color: $red;
-    }
-
-    p {
-      max-width: 50vw;
-      line-height: $line-height-photo;
-      margin: 2vw auto;
-      transition: 1s opacity;
-      font-size: 1.125rem;
-
-      @media screen and (max-width: 800px){
-        max-width: 90vw;
-      }
-    }
-
-    .photo__line {
-      border-bottom: solid 1px #707070;
-      margin: 6vh auto;
-      width: 84vw;
-    }
-
-    .photo__subhead {
-      font-family: $font-content-heading;
-      margin: 2% auto;
-      font-size: 2rem;
-    }
-
-    .interactive__image {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      margin-bottom: 6vh;
-
-      p {
-        color: white;
-      }
-      
-      .hidden {
-        display: none;
-      }
-      
+    
+    @media screen and (max-width:1000px) {
       #room__info {
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.7);
-        height: auto;
-        max-width: 900px;
-        width: 90%;
-        position: absolute;
-        top: 0;
-      }
-      
-      @media screen and (max-width:1000px) {
-        #room__info {
-          position: relative;
-          left: 0;
-        }
+        position: relative;
+        left: 0;
       }
     }
-  }
-
-p {
-  line-height: $line-height-base;
-  transition: 1s opacity;
-
-  @media screen and (max-width: 800px){
-    max-width: 90vw;
-  }
+  }  
 }
-
-  .photo__progress {
-    position: fixed;
-    width: 100%;
-    height: 2vh;
-    background: #ddd;
-    bottom: 0;
-    z-index: 1;
-
-    .progress__bar {
-      height: 2vh;
-      background: $yellow;
-      width: 0%;
-    }
-  }
-
-  footer{
-    grid-area: photo-ft;
-
-    .footer__photo {
-      // background-color: $yellow;
-      padding-bottom: 30vh;
-      justify-content: space-around;
-      font-family: $font-footer;
-      width: 100%;
-      flex-wrap: wrap;
-      margin-bottom: 5vh;
-
-      h1 {
-        flex-basis: 100%;
-        font-size: 2.4rem;
-        text-align: center;
-        margin-top: 0;
-        margin-bottom: 5vh;
-        color: $red;
-      }
-
-      .footer__prev:after, .footer__next:after {
-        display: block;
-        content: '';
-        border-bottom: solid 3px #333;
-        transform: scaleX(0);
-        transition: transform 250ms ease-in-out;
-        transform-origin:  0% 50%;
-      }
-
-      .footer__prev:hover:after, .footer__next:hover:after {
-        transform: scaleX(1);
-      }
-
-      a {
-        color: inherit;
-        text-decoration: none;
-      }
-    }
-  }
-
-  nav{
-    grid-area: nav;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: transparent;
-  
-    @media screen and (max-width:800px){
-      width: 100%;
-    }
-  }
-}
-

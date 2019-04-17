@@ -3,8 +3,9 @@ title: "Finding Your Voice"
 topic: "Documentation"
 date: 2019-02-04T21:34:53-05:00
 description: "Undocumented Venezuelans find their livelihood by singing on the street."
-video: "../story1/assets/gov-headervideo.mp4"
-image: "/story1/assets/gov-homepagestill.jpg"
+video: "../finding-your-voice/assets/gov-headervideo.mp4"
+headerStill: "../finding-your-voice/assets/documentation-headerstill.jpg"
+image: "/finding-your-voice/assets/gov-homepagestill.jpg"
 storyHeading: "Finding Your Voice"
 storySubheading: "Undocumented Venezuelans find their livelihood by singing on the street."
 weight: 1
@@ -43,7 +44,7 @@ Migración Colombia estimates that <a href="#">more than a million Venezuelans h
 
 All she needed to do was sell her house. When a man offered Irelys $200 for the *description* apartment, she took them without hesitation — it was enough to buy smartphone to keep in touch with her kids, and keep some cash for the trip.  
 
-{{< story-interactives "pages/story1" "gov-undocumented-int" >}}
+{{< story-interactives "pages/finding-your-voice" "gov-undocumented-int" >}}
 
 <div class="story__subhead flex-column">Long-Term Risks</div>
 
@@ -58,14 +59,14 @@ She cried herself to sleep on the bus until 9 p.m. when she finally gave in
 
 She started singing in January after La Paisa, a Colombian woman who controls the informal cookie selling business in Plaza Botero, ratted Irelys out to the cops and they seized her merchandise. The policemen let her go eventually, threatening her with jail/deportationTK if she continued.
 
-{{< photo-caption "pages/story1" "photo-caption-1" >}}
+{{< photo-caption "pages/finding-your-voice" "photo-caption-1" >}}
 
 Nunc faucibus aliquet mauris vel fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam odio arcu, efficitur id placerat quis, imperdiet semper justo. Phasellus consectetur justo in posuere laoreet. Nulla fringilla dolor erat, a venenatis velit congue pretium. Vestibulum finibus sem in interdum vestibulum. Ut cursus risus ligula, eu sagittis dolor lobortis a. Sed arcu urna, varius tristique leo at, accumsan gravida velit. Morbi in nisl id quam convallis tincidunt. Integer pharetra viverra tellus eget vulputate. Nunc id mi viverra, pretium lacus in, vulputate ligula. Curabitur ac urna ex.
 
-{{< story-interactives "pages/story1" "gov-birthrite-int" >}}
+{{< story-interactives "pages/finding-your-voice" "gov-birthrite-int" >}}
 
 Quisque eget tortor dignissim dui commodo iaculis. Ut nec varius libero. Nulla ultricies sodales diam, quis pharetra quam malesuada ac. Morbi non fringilla nisl. Sed a turpis non nulla ultrices condimentum sit amet sed nisi. Ut sodales tristique tempor. Quisque efficitur purus enim, non egestas augue finibus quis. Nulla a ipsum dui. Donec euismod, dui vel ultricies euismod, ligula elit hendrerit augue, ut ornare enim neque quis nunc. Phasellus non feugiat ipsum. Mauris tristique felis a est ultricies cursus. Fusce semper, neque eu mattis facilisis, purus nisi fermentum elit, vel commodo urna quam sit amet orci. Duis ipsum turpis, sollicitudin nec euismod venenatis, pharetra eu tellus. Ut efficitur metus ut mauris tempus, ac dictum nibh pharetra.
 
-{{< center-quote "/pages/story1" "pull-quote-1" >}}
+{{< center-quote "/pages/finding-your-voice" "pull-quote-1" >}}
 
 Before turning on the speaker in front of the diners, she asks for permission. If granted, she signs a song, and before collecting the tips her livelihood depends on, Irelys reminds the audience, “Good Venezuelans outnumber the bad ones.”

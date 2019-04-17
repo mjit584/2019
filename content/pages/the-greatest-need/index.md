@@ -1,10 +1,10 @@
-
 ---
 title: "The Greatest Need"
 topic: "Health"
 date: 2019-02-04T21:35:29-05:00
 description: "A family’s sacrifice for their children’s health still has roadblocks."
 video: "../the-greatest-need/assets/health-headervideo.mp4"
+headerStill: "../the-greatest-need/assets/health-headerstill.jpg"
 image: "/the-greatest-need/assets/health-homepagestill.jpg"
 storyHeading: "The Greatest Need"
 storySubheading: "A family’s sacrifice for their children’s health still has roadblocks."
@@ -15,9 +15,12 @@ videographer: "Tenley Garrett, Peggy Mullin"
 designer: "Carlos Salas"
 udea: "Maria"
 ---
+
 Marbis Judith Verenzuela knew she had to go back. Her second daughter, Jorlis, had been too weak to cross the border the first time the family tried, TKTK when.
 
 Jorlis, 29, had surgery to remove a brain tumor TK WHEN/how close to crossing attempt, but suffered convulsions for 30 days due to side affects and a lack of  medicine to control them. Jorlis couldn’t recognize her own children, but had TKTK [need to set up more of the events as they tried to leave].
+
+{{< photo-caption "pages/the-greatest-need" "photo-caption-1" >}}
 
 But when the family  got to Simon Bolivar International bridge, the dividing line between the world they knew and the world awaiting, when Jorlis collapsed.
 
@@ -30,7 +33,7 @@ Two Colombian immigration agents began shouting for a wheelchair. They allowed t
 <div id="video-top"></div>
 
 <!-- Health and saftey video go here -->
-{{< vimeo id="263094335" class="video-container flex" >}}
+{{< vimeo id="329861334" class="video-container flex" >}}
 
 When the economy collapsed in Venezuela in 2014, so did the healthcare system. Doctors fled the country. Shelves that were once stocked with medicines sat empty. Most recently, blackouts in the country began Thursday night. At least 13 and as many as 70 people died due to hospital power outages over a four-day period TK WHEN.[do we have more numbers about the extent during the crisis overall?]
 
@@ -48,11 +51,15 @@ She decided Medellín was the perfect place for their family when she read onlin
 
 “I felt like she was going to die and I wasn’t going to fulfill my goal of having her by my side.
 
+{{< photo-caption "pages/the-greatest-need" "photo-caption-2" >}}
+
 The entire Verenzuela family has lived together
 
 “I’m running for my life, running for my life, for my grandchildren’s lives, for my family,” Marbis Judith said. “Because I’m a grandmother to 4 children, and that keeps me going. Perhaps it even raised me out of death itself.”
 
 “There’s not a night that goes by where you lay your head on your pillow, or a day you wake up in the morning,” Marbis Judith said. “And you’d love to cross that bridge again and go back to being with your family over there.”
+
+{{< photo-caption "pages/the-greatest-need" "photo-caption-3" >}}
 
 “Mom and Dad make the minimum wage and they have to support their children with their minimum wage and pay for the rent and food,” said Alba Luz Belez, a neighbor of the Verenzuela family. “They just can’t, even if they have a beautiful heart and the best of intentions to help people.”
 
