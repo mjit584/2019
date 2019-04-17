@@ -28,21 +28,20 @@ The defender, Laurenti Velasquez, jogs off the field, content. When he’s playi
 
 But when  he leaves the field, everything comes back. TK. TK. The home he left behind. The 25-year-old immigrated to Colombia in 2016, but he thinks about Venezuela every day. He has to. His two children, 3 and 5, are still there, and so is his mother. Every month, he sends 380,000 pesos ($119) to his children, about 40 percent of his salary.
 
-Hundreds of thousands of Venezuelans share Velasquez’s story. In the last five years, inflation has risen from 57 percent to 10 million percent, causing more than 3 million Venezuelans to flee the country. Over a third of them are in Colombia. Although over 10 percent of the country has emigrated, the rest remain in Venezuela, unable to pay for groceries, medication and other necessities. Most (get numbers) of them rely on remittances from loved ones. In 2018 alone, economists estimated that Venezuelans living abroad sent more than $1 billion to relatives unable to leave.
-
 <div id="video-top"></div>
 
 <!-- Economic story video goes here -->
 {{< vimeo id="329817257" class="video-container flex" >}}
 
+Hundreds of thousands of Venezuelans share Velasquez’s story. In the last five years, inflation has risen from 57 percent to 10 million percent, causing more than 3 million Venezuelans to flee the country. Over a third of them are in Colombia. Although over 10 percent of the country has emigrated, the rest remain in Venezuela, unable to pay for groceries, medication and other necessities. Most (get numbers) of them rely on remittances from loved ones. In 2018 alone, economists estimated that Venezuelans living abroad sent more than $1 billion to relatives unable to leave.
+
 Venezuela’s inflation rate has been abruptly rising and falling since the late 1980s. One of the most significant jumps happened in 1989, when the rate increased from 11 percent to almost 85 percent. The country’s GDP was at one of its lowest points, and the government responded by removing gasoline subsidies. Venezuela has the largest oil reserves in the world, and people were used to getting gas for almost nothing. Riots broke out across the country, killing hundreds of people.
 
 Just after former President Hugo Chávez’s election in 1999, the global price of oil increased, bringing trillions of dollars into the country’s treasury. He used the money to fund social programs to provide education, medical services and food for low-income communities. At that point, almost 43 percent of Venezuela’s population was below the poverty line.
 
+{{< story-interactives "pages/making-it-work" "econ-bolivar-int" >}}
 
 The money also paid for Russian weaponry and extremely discounted oil to allies like Cuba. Chávez started a program called Petrocaribe that allowed Caribbean countries to exchange local goods such as bananas and sugar for oil. The money quickly depleted. By the time oil prices plummeted in 2014, Venezuela couldn’t recover.
-
-{{< story-interactives "pages/making-it-work" "econ-bolivar-int" >}}
 
 The country’s central bank stopped releasing economic information such as the inflation rate and public spending in 2014. Now the main legislative body, the National Assembly—controlled by the opposition—publishes data. Venezuela’s GDP has steadily dropped since 2013. By 2017, over 87 percent of the population lived below the poverty line.
 

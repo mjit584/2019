@@ -2169,6 +2169,10 @@ nav {
     font-family: "DDinBold", sans-serif;
     text-align: right; }
 
+#bolivar-timeline {
+  margin-top: -10%;
+  padding-bottom: 10%; }
+
 .timeline {
   position: relative;
   max-width: 1200px;
@@ -2202,21 +2206,11 @@ nav {
   .timeline .left {
     text-align: right;
     width: 30%;
-    position: absolute;
-    left: -25%;
-    -webkit-animation: slideleft 0.5s forwards;
-    -webkit-animation-delay: 1s;
-    animation: slideleft 0.5s forwards;
-    animation-delay: 0s; }
+    position: absolute; }
   .timeline .right {
     text-align: left;
     width: 30%;
-    position: absolute;
-    right: -25%;
-    -webkit-animation: slideright 0.5s forwards;
-    -webkit-animation-delay: 1s;
-    animation: slideright 0.5s forwards;
-    animation-delay: 0s; }
+    position: absolute; }
 
 @-webkit-keyframes slideleft {
   100% {
@@ -2241,7 +2235,6 @@ nav {
     display: inline-block; }
   .timeline .center {
     width: 50px;
-    border: 1px solid #fff;
     position: relative;
     text-align: center;
     padding-top: 30px; }
@@ -2268,7 +2261,8 @@ nav {
     border-left: 1px solid #c70032; }
   .timeline .timeline-content {
     padding: 30px;
-    position: relative; }
+    position: relative;
+    opacity: 0; }
 
 @media screen and (max-width: 800px) {
   .timeline .row {
