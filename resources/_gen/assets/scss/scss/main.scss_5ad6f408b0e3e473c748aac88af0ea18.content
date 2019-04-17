@@ -158,16 +158,12 @@ body {
   padding-top: 2%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, auto);
-  grid-template-areas: "about-bd about-bd about-bd about-bd"
- "about-help about-help about-help about-help"
- "about-ft about-ft about-ft about-ft";
+  grid-template-areas: "about-bd about-bd about-bd about-bd" "about-help about-help about-help about-help" "about-ft about-ft about-ft about-ft";
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .home #home__about {
       grid-template-columns: 1fr;
-      grid-template-areas: "about-bd"
- "about-help"
- "about-ft"; } }
+      grid-template-areas: "about-bd" "about-help" "about-ft"; } }
   .home #home__about p {
     max-width: 50vw;
     line-height: 1.5em;
@@ -230,20 +226,12 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: "nav nav nav nav"
- "story-hero story-hero story-hero story-hero"
- ". by by ."
- "story-bd story-bd story-bd story-bd"
- "story-ft story-ft story-ft story-ft";
+  grid-template-areas: "nav nav nav nav" "story-hero story-hero story-hero story-hero" ". by by ." "story-bd story-bd story-bd story-bd" "story-ft story-ft story-ft story-ft";
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .story-page {
       grid-template-columns: 1fr;
-      grid-template-areas: "nav"
- "story-hero"
- "by"
- "story-bd"
- "story-ft"; } }
+      grid-template-areas: "nav" "story-hero" "by" "story-bd" "story-ft"; } }
   .story-page .story-hero {
     color: #ffffff;
     height: auto;
@@ -497,12 +485,14 @@ nav {
     .about .about__thanks .about__heading {
       font-family: "DDinBold", sans-serif; }
 
+.photo .overlay {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); }
+
 .photo .photo__hero-img {
   background-color: #fbbc00;
   display: block;
   position: relative;
-  margin-top: 55px;
-  top: 0px;
+  top: 0;
   left: 0px;
   z-index: -1;
   width: 100%;
@@ -510,7 +500,7 @@ nav {
   max-height: 100%;
   border-radius: 1px;
   object-fit: cover;
-  object-position: bottom; }
+  object-position: top center; }
   @media screen and (max-width: 800px) {
     .photo .photo__hero-img {
       position: absolute;
@@ -1291,27 +1281,6 @@ nav {
     .flourish {
       max-width: 100%; } }
 
-.pull-quote-container {
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
-  margin: 5vh auto; }
-  .pull-quote-container p {
-    font-size: 1.5rem !important;
-    line-height: 2rem;
-    max-width: 50rem !important;
-    align-self: flex-start;
-    text-align: center;
-    margin: 0 0 2vh 0 !important; }
-  .pull-quote-container .ybr-line {
-    max-width: 30vw;
-    align-self: flex-start;
-    margin: 0 auto; }
-  .pull-quote-container #pull-quote__attr {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    align-self: flex-start; }
-
 .byline {
   font-family: "Lato", sans-serif;
   background-color: #f2f2f2;
@@ -1752,7 +1721,7 @@ nav {
     text-transform: uppercase;
     padding: 10px 10px;
     cursor: pointer;
-    background: #C70032;
+    background: #c70032;
     color: #ffffff;
     transition: border-bottom 0.2s;
     width: 115px;
@@ -2139,11 +2108,13 @@ nav {
   margin-top: 5%; }
 
 .scrollytelly__body {
-  padding: 200px 0;
+  padding: 100px 0;
   opacity: 0;
   transform: translateY(50px);
   transition: all 1s ease-out; }
-  @media (max-width: 800px) {
+  .scrollytelly__body img {
+    max-height: 70vh; }
+  @media screen and (max-width: 800px) {
     .scrollytelly__body img {
       max-width: 100%; } }
 
@@ -2158,7 +2129,16 @@ nav {
 
 .bubbles-container {
   position: relative;
-  width: 100%; }
+  width: 75%;
+  justify-content: space-around; }
+  .bubbles-container .bubble__img {
+    width: 10vw;
+    transition: .3s width ease-in-out; }
+    .bubbles-container .bubble__img:hover {
+      width: 15vw; }
+    @media screen and (max-width: 800px) {
+      .bubbles-container .bubble__img:hover {
+        width: 10vw; } }
 
 .bubble {
   display: none;
@@ -2581,9 +2561,15 @@ footer {
     align-self: center;
     text-align: center;
     margin: 0 0 2vh 0 !important; }
+    @media screen and (max-width: 800px) {
+      .center-quote-container p {
+        max-width: 90vw !important; } }
   .center-quote-container .ybr-line {
     max-width: 36vw;
     align-self: center; }
+    @media screen and (max-width: 800px) {
+      .center-quote-container .ybr-line .ybr-section {
+        stroke-width: 5; } }
   .center-quote-container #pull-quote__attr {
     font-family: "Lato", sans-serif;
     font-weight: 400;
