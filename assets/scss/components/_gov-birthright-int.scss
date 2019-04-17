@@ -2,12 +2,12 @@
   position: relative;
   transition: 0.7s;
   margin:0 auto;
-  width:75%;
 
 .interactive__intro {
    text-align: left;
 }
 .bottom-text {
+    margin: 4vh;
     font-size: 1rem;
     color: #aaa;
     font-style: italic;
@@ -28,7 +28,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10vh 0;
+  // margin: 10vh 0;
   padding: 0;
   width: 100%;
   z-index: 0;

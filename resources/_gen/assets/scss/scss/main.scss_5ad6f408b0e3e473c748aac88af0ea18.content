@@ -158,12 +158,12 @@ body {
   padding-top: 2%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, auto);
-  grid-template-areas: "about-bd about-bd about-bd about-bd" "about-help about-help about-help about-help" "about-ft about-ft about-ft about-ft";
+  grid-template-areas: "about-bd about-bd about-bd about-bd" "about-help about-help about-help about-help" "about-ft about-ft about-ft about-ft";
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .home #home__about {
       grid-template-columns: 1fr;
-      grid-template-areas: "about-bd" "about-help" "about-ft"; } }
+      grid-template-areas: "about-bd" "about-help" "about-ft"; } }
   .home #home__about p {
     max-width: 50vw;
     line-height: 1.5em;
@@ -226,12 +226,12 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: "nav nav nav nav" "story-hero story-hero story-hero story-hero" ". by by ." "story-bd story-bd story-bd story-bd" "story-ft story-ft story-ft story-ft";
+  grid-template-areas: "nav nav nav nav" "story-hero story-hero story-hero story-hero" ". by by ." "story-bd story-bd story-bd story-bd" "story-ft story-ft story-ft story-ft";
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .story-page {
       grid-template-columns: 1fr;
-      grid-template-areas: "nav" "story-hero" "by" "story-bd" "story-ft"; } }
+      grid-template-areas: "nav" "story-hero" "by" "story-bd" "story-ft"; } }
   .story-page .story-hero {
     color: #ffffff;
     height: auto;
@@ -1239,20 +1239,24 @@ nav {
   font-family: "Lato", sans-serif; }
   .interactive .interactive__title {
     font-family: "DDinBold", sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-transform: uppercase;
-    margin: 0;
+    margin: 0 auto;
     font-weight: 400; }
   .interactive .interactive__subhead {
     font-family: "DDinRegular", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    margin: auto;
     margin-top: 1vh;
     margin-bottom: 2vh;
     font-weight: 400; }
   .interactive .interactive__intro {
     font-family: "Lato", sans-serif;
     margin-top: 0 !important;
-    font-size: 1.2rem; }
+    font-size: 1.2rem;
+    max-width: 75%;
+    margin: 2vw auto;
+    text-align: left; }
   .interactive .interactive__instructions {
     font-style: italic;
     color: #aaa;
@@ -1420,7 +1424,8 @@ nav {
   .interactive__health .bottom-text {
     color: #aaa;
     font-style: italic;
-    font-size: 1rem; }
+    font-size: 1rem;
+    text-align: center; }
   .interactive__health .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg); }
   .interactive__health .flip-card-front, .interactive__health .flip-card-back {
@@ -1945,12 +1950,12 @@ nav {
   position: relative;
   transition: 0.7s;
   margin: 0 auto;
-  width: 75%;
   /* slideshow */
   /* mobile css */ }
   #interactive__gov-birthright .interactive__intro {
     text-align: left; }
   #interactive__gov-birthright .bottom-text {
+    margin: 4vh;
     font-size: 1rem;
     color: #aaa;
     font-style: italic; }
@@ -1967,7 +1972,6 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10vh 0;
     padding: 0;
     width: 100%;
     z-index: 0; }
