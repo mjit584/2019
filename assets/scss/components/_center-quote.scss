@@ -9,11 +9,21 @@
     align-self: center;
     text-align: center;
     margin: 0 0 2vh 0 !important;
+
+    @media screen and (max-width: 800px) {
+      max-width: 90vw !important;
+    }
   }
 
   .ybr-line{
     max-width: 36vw;
     align-self: center;
+
+    @media screen and (max-width: 800px) {
+      .ybr-section {
+        stroke-width: 5;
+      }
+    } 
   }
 
   #pull-quote__attr{

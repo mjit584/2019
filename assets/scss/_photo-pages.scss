@@ -1,25 +1,24 @@
 .photo {
-  // .overlay {
-  //   background-image: linear-gradient(
-  //   rgba(0,0,0,0.1),
-  //   rgba(0,0,0,0.1)
-  //   );
-  // }
+  .overlay {
+    background-image: linear-gradient(
+    rgba(0,0,0,0.1),
+    rgba(0,0,0,0.1)
+    );
+  }
   
   .photo__hero-img {
     background-color: $yellow;
     display: block;
-    position: relative; // Play the video in full screen mode
-    margin-top: 55px;
-    top: 0px;
+    position: relative;
+    top: 0;
     left: 0px;
-    z-index: -1; // Put the video behind all other elements
+    z-index: -1;
     width: 100%;
     height: auto;
     max-height: 100%;
     border-radius: 1px;
     object-fit: cover;
-    object-position: bottom;
+    object-position: top center;
   
     @media screen and (max-width: 800px) {
       position: absolute;

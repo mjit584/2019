@@ -87,6 +87,12 @@
     &:hover {
       width: 15vw;
     }
+
+    @media screen and (max-width: 800px) {
+      &:hover {
+        width: 10vw;
+      }
+    }
   }
 
   

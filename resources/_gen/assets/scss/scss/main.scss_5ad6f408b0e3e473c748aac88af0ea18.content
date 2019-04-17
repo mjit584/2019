@@ -485,12 +485,14 @@ nav {
     .about .about__thanks .about__heading {
       font-family: "DDinBold", sans-serif; }
 
+.photo .overlay {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); }
+
 .photo .photo__hero-img {
   background-color: #fbbc00;
   display: block;
   position: relative;
-  margin-top: 55px;
-  top: 0px;
+  top: 0;
   left: 0px;
   z-index: -1;
   width: 100%;
@@ -498,7 +500,7 @@ nav {
   max-height: 100%;
   border-radius: 1px;
   object-fit: cover;
-  object-position: bottom; }
+  object-position: top center; }
   @media screen and (max-width: 800px) {
     .photo .photo__hero-img {
       position: absolute;
@@ -1278,27 +1280,6 @@ nav {
   @media screen and (max-width: 800px) {
     .flourish {
       max-width: 100%; } }
-
-.pull-quote-container {
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
-  margin: 5vh auto; }
-  .pull-quote-container p {
-    font-size: 1.5rem !important;
-    line-height: 2rem;
-    max-width: 50rem !important;
-    align-self: flex-start;
-    text-align: center;
-    margin: 0 0 2vh 0 !important; }
-  .pull-quote-container .ybr-line {
-    max-width: 30vw;
-    align-self: flex-start;
-    margin: 0 auto; }
-  .pull-quote-container #pull-quote__attr {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    align-self: flex-start; }
 
 .byline {
   font-family: "Lato", sans-serif;
@@ -2155,6 +2136,9 @@ nav {
     transition: .3s width ease-in-out; }
     .bubbles-container .bubble__img:hover {
       width: 15vw; }
+    @media screen and (max-width: 800px) {
+      .bubbles-container .bubble__img:hover {
+        width: 10vw; } }
 
 .bubble {
   display: none;
@@ -2577,9 +2561,15 @@ footer {
     align-self: center;
     text-align: center;
     margin: 0 0 2vh 0 !important; }
+    @media screen and (max-width: 800px) {
+      .center-quote-container p {
+        max-width: 90vw !important; } }
   .center-quote-container .ybr-line {
     max-width: 36vw;
     align-self: center; }
+    @media screen and (max-width: 800px) {
+      .center-quote-container .ybr-line .ybr-section {
+        stroke-width: 5; } }
   .center-quote-container #pull-quote__attr {
     font-family: "Lato", sans-serif;
     font-weight: 400;
