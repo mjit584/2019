@@ -11,7 +11,6 @@ graphics:
     <!-- content for passport-->
     <div class="information-body" id="passport-body">
       <div class="information-body-r1" id="passport-body-top">
-        <div class="back-button" id="passport-button">Back</div>
         <div class="information-title">Passport</div>
       </div>
       <!-- slideshow goes here -->
@@ -66,6 +65,7 @@ graphics:
                 <p>Starting in early March of 2019, the Colombian government extended the validity of Venezuelan passports
                   to two years past the expiration date. More than 500,000 Venezuelans could benefit from this decision.
                 </p>
+                <p class="sources">* Data from Migracion Colombia</p>
               </div>
             </div>
           </div>
@@ -75,6 +75,7 @@ graphics:
             <a class="next" onclick="plusSlidesPassport(1)">&#10095;</a>
           </div>
         </div>
+        <div class="back-button-row flex"><div class="back-button" id="passport-button">Back</div></div>
         <div style="text-align:center">
           <span class="dot-passport" onclick="currentSlidePassport(1)"></span>
           <span class="dot-passport" onclick="currentSlidePassport(2)"></span>
@@ -91,7 +92,6 @@ graphics:
     <!-- content for pep-->
     <div class="information-body" id="PEP-body">
       <div class="information-body-r1" id="pep-body-top">
-        <div class="back-button" id="PEP-button">Back</div>
         <div class="information-title border-blue">PEP</div>
       </div>
       <!-- slideshow goes here -->
@@ -132,6 +132,7 @@ graphics:
               <div class="slide-txt">
                 <p>As of December 2018, <strong>1,174,743</strong> Venezuelans have migrated to Colombia. Only <strong>45.6%</strong> of them have obtained the PEP.</p>
                 <p>In total, more half of the Venezuelans in Colombia are undocumented.</p>
+                <p class="sources">* Data from Migracion Colombia</p>
               </div>
             </div>
           </div>
@@ -141,6 +142,7 @@ graphics:
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
           </div>
         </div>
+        <div class="back-button-row flex"><div class="back-button" id="PEP-button">Back</div></div>
         <div style="text-align:center">
           <span class="dot" onclick="currentSlide(1)"></span>
           <span class="dot" onclick="currentSlide(2)"></span>
@@ -157,7 +159,6 @@ graphics:
     <!-- contont for National id -->
     <div class="information-body" id="ID-body">
       <div class="information-body-r1" id="ID-body-top">
-        <div class="back-button" id="ID-button">Back</div>
         <div class="information-title border-red">Venezuelan ID</div>
       </div>
       <!-- slideshow goes here -->
@@ -207,6 +208,7 @@ graphics:
                 <p>Venezuelan officials learned on a trip in 2008 that Chinese company ZTE was developing a system that
                   would help Beijing track its citizens' behaviors. About six years later, ZTE was hired to build the
                   fatherland card database. </p>
+                  <p class="sources">* Data from Migracion Colombia</p>
               </div>
             </div>
           </div>
@@ -216,6 +218,7 @@ graphics:
             <a class="next" onclick="plusSlidesID(1)">&#10095;</a>
           </div>
         </div>
+        <div class="back-button-row flex"><div class="back-button" id="ID-button">Back</div></div>
         <div style="text-align:center">
           <span class="dot-ID" onclick="currentSlideID(1)"></span>
           <span class="dot-ID" onclick="currentSlideID(2)"></span>

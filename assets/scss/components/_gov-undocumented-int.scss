@@ -22,8 +22,6 @@
   }
 
   .slideshow-container {
-    // height: 65vh;
-    min-height: 460px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,18 +108,27 @@
   .passport-body {
     z-index: 1200;
   }
+
+  .back-button-row {
+    margin-bottom: 50px;
+
+  }
   .back-button {
+    font-family: ddinexpbold,sans-serif;
+    text-transform: uppercase;
+    padding: 10px 10px;
     cursor: pointer;
-    color: $black;
+    background: $red;
+    color: $white;
     transition: border-bottom 0.2s;
-    position:absolute;
-    left:0;
+    width: 115px;
+    border-radius: 30px;
   }
 
   .back-button:after {
     display: block;
     content: '';
-    border-bottom: solid 3px #333;
+    border-bottom: solid 3px white;
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
     transform-origin:  0% 50%;
@@ -318,6 +325,12 @@
     display: none !important;
   }
 
+  .sources {
+    width: 100%;
+    text-align: left;
+    font-style: italic;
+  }
+
 }
   /* mobile css */
 
@@ -427,13 +440,9 @@
       height: 50px;
     }
 
-    .slideshow-container {
-    }
-
     .slideshow-buttons {
         width: 100% !important;
       }
-
 
     .document-box {
       width: 75%;

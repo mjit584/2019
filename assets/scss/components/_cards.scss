@@ -45,7 +45,7 @@
 
     // Add color overlay to hovered card
     &::before {
-      background-image: 
+      background-image:
       linear-gradient(
         rgba(255, 255, 255, 1),
         rgba(255, 255, 255, .5)
@@ -100,7 +100,7 @@
       transform-origin: right bottom;
     }
   }
-  
+
   .card {
     position: relative;
     grid-column: span 2;
@@ -301,7 +301,7 @@
       .card__title {
         opacity: 1;
         transition: opacity .5s;
-        
+
         @media screen and (max-width: 800px) {
           transition: color .3s;
         }
@@ -309,7 +309,7 @@
 
       .card__button {
         display: none;
-        
+
         @media screen and (max-width: 800px) {
           display: inline-block;
         }
