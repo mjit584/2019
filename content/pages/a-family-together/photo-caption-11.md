@@ -2,4 +2,4 @@
 image: "assets/Photo_Chapter3_11.jpg"
 alt: "A man is silhouetted as he walks down the street"
 ---
-Carlos (center) watches TV while Jonelle and Yuneda kiss in the corner of the bed and Michael and Genesis rest on a thin foam mattress they share each night on the remaining floor space. The rest of their belongings are stacked on the nightstand or tucked up against the walls.
+Jonelle Gabedes walks down the street alone in the morning to go back to the shelter to retrieve a bag they left behind the night before.

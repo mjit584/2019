@@ -17,46 +17,26 @@ layout: 'photo-pages'
 
 After traveling hundreds of miles on foot, a group of five Venezuelans, who together call themselves a family, arrived in Medellin on February 27th. Before leaving their homes, they all held different, honest jobs including food service and hair care but were all laid off over the course of the last year due to a crumbling economy. Now in Colombia, the family works 15 hour days asking for money in exchange for small candies on the street in order to make enough money to afford food and a tiny room to sleep in each night.
 
-
-
 {{< photo-caption "/pages/a-family-together" "photo-caption-1" >}}
-
-
 
 {{< photo-caption "/pages/a-family-together" "photo-caption-2" >}}
 
-
-
 {{< photo-caption "/pages/a-family-together" "photo-caption-3" >}}
-
-
 
 {{< photo-caption "/pages/a-family-together" "photo-caption-4" >}}
 
-
-
 {{< photo-caption-vert "/pages/a-family-together" "photo-caption-5-vert" >}}
-
-
 
 {{< photo-caption "/pages/a-family-together" "photo-caption-6" >}}
 
-
-
 {{< photo-caption "/pages/a-family-together" "photo-caption-7" >}}
-
-
 
 {{< photo-caption "/pages/a-family-together" "photo-caption-8" >}}
 
-
-
 {{< photo-caption "/pages/a-family-together" "photo-caption-9" >}}
-
-
 
 {{< photo-caption "/pages/a-family-together" "photo-caption-10" >}}
 
-
+{{< photo-caption "/pages/a-family-together" "photo-caption-11" >}}
 
 {{< photo-caption "/pages/a-family-together" "photo-caption-12" >}}
