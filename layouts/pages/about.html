@@ -8,7 +8,9 @@
     {{ partial "header.html" . }}
   </div>
   <!--hamburger-->
-  {{ partial "hamburger.html" . }}
+  <div class="header-mobile" id="hamburger">
+    {{ partial "hamburger.html" . }}
+  </div>
 </nav>
 {{ partial "story-hero.html" (dict "layout" .Params.layout "image" .Params.image "heading" .Params.storyHeading "subheading" .Params.storySubheading "content" .) }}
 
