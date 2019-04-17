@@ -2,11 +2,11 @@
 title: "Resolviendo"
 topic: "Economía"
 date: 2019-02-04T21:35:11-05:00
-description: "Un equipo de fútbol encuentra un hogar nuevo."
+description: "Venezolanos encuentran camaradería, familia y apoyo a través del deporte."
 video: "../story2/assets/econ-headervideo.mp4"
 image: "/story2/assets/econ-homepagestill.jpg"
 storyHeading: "Resolviendo"
-storySubheading: "Un equipo de fútbol encuentra un hogar nuevo."
+storySubheading: "Venezolanos encuentran camaradería, familia y apoyo a través del deporte."
 weight: 2
 card: true
 author: "Brooklynn Cooper"

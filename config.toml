@@ -77,7 +77,7 @@ canonifyURLs = "true"
     post = "/images/gov-homepagestill.jpg"
 
   [[menu.main]]
-    name = "A soccer team finds a home away from home."
+    name = "Venezuelans find camaraderie, family and support through sport."
     url = "/making-it-work/"
     weight = 2
     pre = "<p class='story-topic'>Economy</p><h3 class='story-title'>Making It Work</h3>"
