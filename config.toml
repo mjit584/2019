@@ -71,14 +71,14 @@ canonifyURLs = "true"
 [menu]
   [[menu.main]]
     name = "Undocumented Venezuelans find their livelihood by singling on the street."
-    url = "/story1/"
+    url = "/finding-your-voice/"
     weight = 1
     pre = "<p class='story-topic'>Documentation</p><h3 class='story-title'>Finding Your Voice</h3>"
     post = "/images/gov-homepagestill.jpg"
 
   [[menu.main]]
     name = "A soccer team finds a home away from home."
-    url = "/story2/"
+    url = "/making-it-work/"
     weight = 2
     pre = "<p class='story-topic'>Economy</p><h3 class='story-title'>Making It Work</h3>"
     post = "/images/econ-homepagestill.jpg"
