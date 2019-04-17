@@ -49,12 +49,16 @@
 }
 
 .scrollytelly__body {
-  padding: 200px 0;
+  padding: 100px 0;
   opacity: 0;
   transform: translateY(50px);
   transition: all 1s ease-out;
 
-  @media (max-width:800px) {
+  img {
+    max-height: 70vh;
+  }
+
+  @media screen and (max-width: 800px) {
     img {
       max-width:100%;
     }
@@ -73,7 +77,19 @@
 
 .bubbles-container {
   position:relative;
-  width:100%;
+  width:75%;
+  justify-content: space-around;
+
+  .bubble__img {
+    width: 10vw;
+    transition: .3s width ease-in-out;
+
+    &:hover {
+      width: 15vw;
+    }
+  }
+
+  
 }
 
 .bubble {
