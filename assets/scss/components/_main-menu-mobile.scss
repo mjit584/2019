@@ -6,14 +6,15 @@ $button-height: 27px;
 $button-width: 35px;
 
 .main-menu-mobile {
-  position: fixed;
+  position: absolute;
   background: $white;
   color: $black;
   font-size: 1.25rem;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   padding: 75px 35px 35px 35px;
   opacity: 0;
   display: none;
@@ -26,8 +27,10 @@ $button-width: 35px;
   &.open {
     opacity: 0.95;
     display: flex;
-    height: 100%;
+    min-height: 100vh;
+    height: auto;
     z-index: 2;
+    overflow: hidden;
   }
 
   a {
@@ -59,13 +62,13 @@ $button-width: 35px;
         margin-bottom: -5px;
         color: $black;
       }
-  
+
       .inner-menu-arrow {
         margin-left: 5px;
         -ms-transform: rotate(0deg); /* IE 9 */
         -webkit-transform: rotate(0deg); /* Safari 3-8 */
         transform: rotate(0deg);
-        transition: transform .3s;
+        transition: transform 0.3s;
 
         &.turn {
           -ms-transform: rotate(180deg); /* IE 9 */
@@ -78,12 +81,12 @@ $button-width: 35px;
     .ybr-line {
       width: 16vw;
       height: 10px;
-      
+
       .ybr-section {
         stroke-width: 4;
       }
     }
-  
+
     .inner-menu-items {
       display: none;
 
@@ -119,7 +122,7 @@ $button-width: 35px;
           }
         }
       }
-  
+
       .inner-menu-item {
         padding: 5px 0;
         display: block;
@@ -129,7 +132,7 @@ $button-width: 35px;
         .story-topic {
           display: none;
         }
-      
+
         .story-title {
           font-family: $font-nav-mobile;
           font-weight: normal;
@@ -141,10 +144,7 @@ $button-width: 35px;
   }
 
   .bottom-menu {
-    position: absolute;
-    bottom: 35px;
-    left: 35px;
-    right: 35px;
+    margin-top: 25px;
 
     .social {
       justify-content: flex-start;
@@ -168,11 +168,12 @@ $button-width: 35px;
     }
   }
 
-  .header__lang-toggle{
+  .header__lang-toggle {
     cursor: pointer;
     padding-bottom: 5px;
 
-    .header__lang-toggle__en:hover, .header__lang-toggle__es:hover{
+    .header__lang-toggle__en:hover,
+    .header__lang-toggle__es:hover {
       font-weight: 900;
     }
   }
