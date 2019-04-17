@@ -3,9 +3,9 @@ title: "Making It Work"
 topic: "Economy"
 date: 2019-02-04T21:35:11-05:00
 description: "A soccer team finds a home away from home."
-video: "../story2/assets/econ-headervideo.mp4"
-headerStill: "../story2/assets/econ-headerstill.jpg"
-image: "/story2/assets/econ-homepagestill.jpg"
+video: "../making-it-work/assets/econ-headervideo.mp4"
+headerStill: "../making-it-work/assets/econ-headerstill.jpg"
+image: "/making-it-work/assets/econ-homepagestill.jpg"
 storyHeading: "Making It Work"
 storySubheading: "A soccer team finds a home away from home."
 weight: 2
@@ -42,21 +42,21 @@ Just after former President Hugo Chávez’s election in 1999, the global price 
 
 The money also paid for Russian weaponry and extremely discounted oil to allies like Cuba. Chávez started a program called Petrocaribe that allowed Caribbean countries to exchange local goods such as bananas and sugar for oil. The money quickly depleted. By the time oil prices plummeted in 2014, Venezuela couldn’t recover.
 
-{{< story-interactives "pages/story2" "econ-bolivar-int" >}}
+{{< story-interactives "pages/making-it-work" "econ-bolivar-int" >}}
 
 The country’s central bank stopped releasing economic information such as the inflation rate and public spending in 2014. Now the main legislative body, the National Assembly—controlled by the opposition—publishes data. Venezuela’s GDP has steadily dropped since 2013. By 2017, over 87 percent of the population lived below the poverty line.
 
 President Nicolás Maduro tried to renegotiate international loans in 2017, but U.S. sanctions against the country made it impossible. Venezuela slid further into debt.
 
-{{< story-interactives "pages/story2" "econ-inflation-int" >}}
+{{< story-interactives "pages/making-it-work" "econ-inflation-int" >}}
 
 In January, National Assembly President Juan Guaidó declared himself interim president after Maduro’s second election was deemed rigged. The U.S., Canada, Brazil and about 50 other countries have recognized Guaidó as president. Russia, China and Cuba still support Maduro.
 
 Today, a box of cereal in Venezuela costs more than the average person’s monthly salary. People can’t afford housing or toiletries. Guaido has tried to import humanitarian aid, but Maduro’s officials at the Colombian border destroyed trucks full of necessities. Maduro labeled the event as an attempt to overthrow his administration.
 
-{{< story-interactives "pages/story2" "econ-exchange-int" >}}
+{{< story-interactives "pages/making-it-work" "econ-exchange-int" >}}
 
-{{< center-quote "/pages/story2" "pull-quote-2" >}}
+{{< center-quote "/pages/making-it-work" "pull-quote-2" >}}
 
 “¡Dale, dale, dale!”
 

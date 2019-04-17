@@ -4,7 +4,7 @@ topic: "Photo Journey"
 date: 2019-02-04T21:34:53-05:00
 description: "This is the description for the first story."
 image: "../images/photo-chap-4-hero.jpg"
-storyHeading: "Making in in Medellín"
+storyHeading: "Making it in Medellín"
 storySubheading: "The success stories of Venezuelan immigrants in a new country"
 heroAlt: "A group of workers smile and pose in front of a restaurant sign that reads 'Della Nonna'"
 weight: 4

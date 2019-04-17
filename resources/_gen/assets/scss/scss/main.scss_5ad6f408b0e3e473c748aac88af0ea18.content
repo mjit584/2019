@@ -158,12 +158,20 @@ body {
   padding-top: 2%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, auto);
+<<<<<<< HEAD
   grid-template-areas: "about-bd about-bd about-bd about-bd" "about-help about-help about-help about-help" "about-ft about-ft about-ft about-ft";
+=======
+  grid-template-areas: 'about-bd about-bd about-bd about-bd' 'about-help about-help about-help about-help' 'about-ft about-ft about-ft about-ft';
+>>>>>>> a0afe04f4ff88c5a550542e786a2edfe0a9996ad
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .home #home__about {
       grid-template-columns: 1fr;
+<<<<<<< HEAD
       grid-template-areas: "about-bd" "about-help" "about-ft"; } }
+=======
+      grid-template-areas: 'about-bd' 'about-help' 'about-ft'; } }
+>>>>>>> a0afe04f4ff88c5a550542e786a2edfe0a9996ad
   .home #home__about p {
     max-width: 50vw;
     line-height: 1.5em;
@@ -226,12 +234,20 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
+<<<<<<< HEAD
   grid-template-areas: "nav nav nav nav" "story-hero story-hero story-hero story-hero" ". by by ." "story-bd story-bd story-bd story-bd" "story-ft story-ft story-ft story-ft";
+=======
+  grid-template-areas: 'nav nav nav nav' 'story-hero story-hero story-hero story-hero' '. by by .' 'story-bd story-bd story-bd story-bd' 'story-ft story-ft story-ft story-ft';
+>>>>>>> a0afe04f4ff88c5a550542e786a2edfe0a9996ad
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .story-page {
       grid-template-columns: 1fr;
+<<<<<<< HEAD
       grid-template-areas: "nav" "story-hero" "by" "story-bd" "story-ft"; } }
+=======
+      grid-template-areas: 'nav' 'story-hero' 'by' 'story-bd' 'story-ft'; } }
+>>>>>>> a0afe04f4ff88c5a550542e786a2edfe0a9996ad
   .story-page .story-hero {
     color: #ffffff;
     height: auto;
@@ -496,7 +512,7 @@ nav {
   max-height: 100%;
   border-radius: 1px;
   object-fit: cover;
-  object-position: center; }
+  object-position: bottom; }
   @media screen and (max-width: 800px) {
     .photo .photo__hero-img {
       margin-top: 68px;
