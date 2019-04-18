@@ -57,6 +57,8 @@ The entire Verenzuela family has lived together
 
 “I’m running for my life, running for my life, for my grandchildren’s lives, for my family,” Marbis Judith said. “Because I’m a grandmother to 4 children, and that keeps me going. Perhaps it even raised me out of death itself.”
 
+{{< photo-diptych "pages/greater-than-death" "photo-diptych-1" >}}
+
 “There’s not a night that goes by where you lay your head on your pillow, or a day you wake up in the morning,” Marbis Judith said. “And you’d love to cross that bridge again and go back to being with your family over there.”
 
 {{< photo-caption "pages/greater-than-death" "photo-caption-3" >}}
