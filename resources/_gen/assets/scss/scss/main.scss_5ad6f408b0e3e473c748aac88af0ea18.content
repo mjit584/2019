@@ -289,6 +289,8 @@ body {
       @media screen and (max-width: 800px) {
         .story-page .story-hero .story-hero__topic {
           margin-top: 35vh;
+          text-align: left;
+          width: 75vw;
           color: #333333;
           position: static; } }
       .story-page .story-hero .story-hero__topic p {
@@ -320,6 +322,7 @@ body {
           .story-page .story-hero .story-hero__heading .story-hero__title {
             margin-top: 10px;
             max-width: 75vw;
+            text-align: left;
             font-size: 2.25rem;
             color: #333333; } }
       .story-page .story-hero .story-hero__heading .story-hero__desc {
@@ -339,11 +342,11 @@ body {
     .story-page .story-content .story__subhead {
       font-family: "DDinBold", sans-serif;
       max-width: 50vw;
-      margin: 0 auto;
       font-size: 2rem;
       justify-content: flex-start;
       align-items: flex-start;
-      margin: 0 auto; }
+      margin: 0 auto;
+      margin-bottom: 15px; }
       @media screen and (max-width: 800px) {
         .story-page .story-content .story__subhead {
           max-width: 75vw; } }
