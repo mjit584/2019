@@ -16,76 +16,156 @@ designer: "Lyric Lin, Patty Matos"
 udea: "Maria"
 ---
 
-It took four arepas to fill Jeham Carlos Rosa’s stomach back in Venezuela, when he was six years old. But he decided to get by on just two as his parents struggled to keep enough food in the house to feed the family, leaving him feeling hungry. Three years later, Rosa recalls the difficult decisions he made behind his parents back before he and his mother fled to Medellin. His mother, Alejandrina, sits next to him crying as she hears her son’s tender sacrifice for the first time.
+It took four arepas to fill 6-year-old Jeham Carlos’ stomach. But he decided to get by on just two because his parents struggled to keep enough food in their house back home in Venezuela.
 
-The pair moved to Colombia temporarily in October 2018, along with his grandmother and a family friend. He sits with his mother on the only bed in their tiny one-bedroom rental that is thinner than a pillow and feels as hard as a brick. Jeham is thin and short for a 9-year-old boy, with a charismatic smile and a tenacious old soul.
+He never told his parents he was still hungry. He didn't want them to worry. They had enough worries already. Three years later, his mother, Alejandrina, cries as she hears her son talk about this tender sacrifice for the first time.
 
-{{< photo-caption "pages/cost-of-dreams" "photo-caption-1" >}}
+Jeham, a thin, slight boy, has more food in Medellín, but it comes at a price. Alejandrina, who has dark black curls and hazel eyes, started selling coffee in Parque Berrio after the family first arrived October 2018, but it wasn't enough to support them. Jeham would sit on a dark green bench next to her, watching his mom struggle. He asked if he could sell candy or “confetti” –  he couldn’t stand to see how hard his mom worked and not do anything to help her.
 
-But even though Jeham has more food in Medellin, it comes at a price. Instead of going to school, he sells “confetti” or candy, in Parque Berrio, a park known for drugs, gangs, and prostitution in order to feed himself and his family. Rosa says he did not leave Venezuela intending to work, for him it was an exciting adventure. However, when he arrived in Colombia, there was a different reality.
+Now, instead of going to school, he sells heart-shaped red lollipops in a park with trees and sculptures – the kind of park where families might picnic. But locally, it's associated with drugs, gangs and prostitution. The gang activity scares him, but he can’t think of another way to help his mother.
 
 <div id="video-top"></div>
 
 <!-- Children and education video goes here -->
 {{< vimeo id="329725078" class="video-container flex" >}}
 
-The Medellin Education System says every migrant children who seeks education is given the opportunity however; Like Jeham, there are many Venezuelan youth not attending school or at risk of losing their access to education in Colombia because they fear deportation, not having enough resources, or not affording daily food and transportation costs. According to The International Rescue Committee, roughly 50 percent of Venezuelan Kids in Colombia are not enrolled in school.
+Alejandrina says she was apprehensive at first about Jeham working. 
+
+“It was hard in the beginning. As a mother, I felt bad,” she said. “I used to say ‘God, he is just a kid and doesn’t deserve this type of life.’” 
+
+Now, Alejandrina says she feels proud of Jeham’s strength.
+
+The Medellín education system says every migrant child who seeks education is given the opportunity, but many Venezuelan youths like Jeham are not attending school, or are at risk of dropping out due to the lack of resources. Others do not enroll in school because they fear deportation or not having enough funds for school supplies, daily food and transportation costs. According to the International Rescue Committee, roughly 50 percent of Venezuelan children in Colombia are not enrolled in school.
 
 {{< story-interactives "pages/cost-of-dreams" "openarms" >}}
 
-Alejandrina started selling coffee in Parque Berrio. Dressed in soccer jerseys, Jeham  would accompany her as she struggled to make enough money.
-After TK how long, to start selling candy in the park.
+At age 9, Jeham is the household's only source of income. On a good day, he brings in 30,000 pesos, about $10. Two dollars goes toward rent; the rest is spent on food, electricity, water and savings for medication. 
 
-Alejandrina says she was apprehensive at first. “It was hard in the beginning .... as a mother, I felt bad,” she said. “ I used to say ‘God, he is just a kid and doesn’t deserve this type of life.’ Now, I feel proud because I see how much strength he shows.”
+Jeham has managed to save 40,000 pesos in the last month. He used it to buy a Game Boy, his only source of distraction and fun. 
 
-At only 9, Jeham now makes most of the income for his family; however; he has been saving money to reward his inner child. His perseverance and dedication helped him buy a game boy and toys that he plans to take back for his cousins.
+“I bought a toy for my cousin back home,” Jeham said. “I could never afford toys in Venezuela.”
 
-<div class="story__subhead flex-column">Education in Venezuela</div>
+<!--This is the first photo - Jeham-->
+{{< photo-caption "pages/cost-of-dreams" "photo-caption-1" >}}
 
-Jeham attended a private school in back in Venezuela, wherewhile Alejandrina was the principle. As the economic crisis grew, their home was destroyed. “Above everything, it affected my family,” Alejandrina says. “Maybe because we didn’t know how to handle it.” She was forced to find a second job as a teacher in a public school, but had to move to a new town and and pledge loyalty to Hugo Chavez, the TKTK role.
+They share a one-bedroom rental in Medellín with Alejandrina's mother and a family friend.
 
-Rosa’s education was also affected when he had no other option but to attend a public school. He said the experience at the public school was so much harder because he says his classmates weren’t able to afford anything. “I felt really bad, sometimes they [his friends] brought a banana and that was what they ate the whole day,” said Rosa. His mom agrees.
+It’s a small, bare house with red brick walls, some of which have peeling paint with cracks. The kitchen consists of a white plastic sink, a single electric burner, a mini fridge and four plates – just enough for the four people that live there.
+
+It has one bed where Jeham and Alejandrina sleep. It’s the size of a twin college dorm bed, and feels thinner than a pillow and as hard as granite. Jeham’s grandmother and the family’s friend sleep on the rigid red and white tile floor.
+
+The move is supposed to be temporary. Alejandrina plans to make enough money to buy supplies for the birth of her second child, due in June, and return home. Due to shortages and soaring inflation, pregnant women are expected to purchase the medication and any other materials their doctors might need. Alejandrina’s close friend died shortly after giving birth because the doctors did not have antibiotics to provide to her.
+
+Alejandrina is on maternity leave from her job as a public school teacher. She did not want to use her last name because if the government found out she left Venezuela, she would be fired. She and her family left without telling anyone and did not get their passports stamped at the border or file for work permits, so they’re not on record for crossing. But she's adamant that her child be born in Venezuela, so the child can have citizenship. 
+
+“There is no birth citizen right in Colombia,” Alejandrina said. “So giving birth here was not a possibility.”
+
+<div class="story__subhead flex-column">Every student passes</div>
+
+As Venezuelans tried to overcome the economic and political crisis, Jeham's family wrestled to get through. Eventually, Jeham’s parents split. 
+
+“Maybe because we didn’t know how to handle it,” Alejandrina said.
+
+Before the separation, Jeham attended a private school in Venezuela, where Alejandrina was the principal. But as food, medication and money became scarce, Alejandrina was forced to find a second job as a teacher in a public school. Her family is known to be strong supporters of the opposition so, for her to get the job, she had to move to a new town and pledge loyalty to Hugo Chávez.
+
+In 2006 the education system changed in Venezuela, and the government used teachers to spread propaganda. 
+
+Lisbeth Marcana was a public school teacher in Venezuela for 25 years before immigrating to Medellín in May 2018. She says the government removed some of the most critical materials. Instead of focusing on teaching Spanish, she was forced to teach her students about “socialist heroes” in Venezuela like Ezequiel Zamora.
+
+<!-- 2nd photo - Lisbeth -->
+{{< photo-caption "pages/cost-of-dreams" "photo-caption-2" >}}
+
+The standards for holding children back in school also changed. Under the new system, teachers must first get parental consent and then the permission of the government. 
+
+“As a result, every student passes,” says Marcana.
+ 
+Spending so much time with each other, the kids noticed the disparity between each other, even as they were being taught the tenets of socialism. The kids would constantly ask Marcana why they weren’t equal to everyone if they lived in a socialist society. 
+
+“He brought two colors to class; I’m going to take one away from him because we are equal and so he has to have one, and I have to have one,” her kids would say.
+
+Alejandrina has experience in the public and private education systems. She said children in  both systems suffer from the crisis. The children she oversaw in private school had everything in regards to food, school supplies and shoes but were affected psychologically.
+
+{{< center-quote "pages/cost-of-dreams" "pull-quote-alejandrina" >}}
+
+But the children she teaches in public school were even more affected. 
+
+“When we came back from summer, the kids were skinnier and unrecognizable,” Alejandrina said. 
+
+They had no school supplies, shoes or food. As a teacher, she had to excuse students as young as fourth graders who arrived late because they were taking care of their younger siblings.
 
 {{< story-interactives "pages/cost-of-dreams" "ed-truancy-int" >}}
 
-Alejandrina is currently on maternity leave, due with her second child in June. She wishes not to use her last name because if the government found out she left Venezuela, she would be fired. Fearing the possibility of losing her job, the pair left without anyone knowing or getting their passport stamped. With the hopes of returning to her home country, she did not file for any permit, help, or education for the family.
+Jeham saw the disparities among his classmates, too. 
 
-Alejandrina immigrated to Colombia [when] hoping to make enough money to cover the supplies for the birth. She says pregnant women are expected to bring materials that doctors use during the surgery. “There is no birth citizen right in Colombia,” she says. “So giving birth here was not a possibility.”
+“I felt awful. Sometimes they brought a banana, and that was what they ate the whole day,” Jeham said.
 
-Alejandrina says she saw both the public and private schools suffer from the crisis. She says the kids she oversaw in the private school had everything in regards to food, school supplies, shoes, but were affected psychologically. “A lot of them cry in the classrooms because they miss their parents who left them to give them the life they have,” says Alejandrina.
+According to an investigation by The New York Times, 21 doctors across Venezuela said children with severe malnutrition are swamping their emergency rooms, a condition rarely seen before the crisis. 
 
-But Alejandrina says the kids she teaches in the public school are even more affected. “When we came back from summer, the kids were skinnier and unrecognizable,” she says. They had no school supplies, shoes, nutritional and psychological effects. Alejandra had to accept kids as young as fourth grade arriving late because they were taking care of their younger siblings.
+Marcana says children are the most affected during the crisis.
 
-Lisbeth Marcana was a teacher in Venezuela for 25 years before she arrived to Medellin in May 2018. She says children are the most affected during the crisis. “It’s hard to see a child faint during the national anthem because he has not eaten,” Marcana says. Most kids would save their only meal for dinner or have the water that was left over while cooking with salt for breakfast and lunch.
+{{< center-quote "pages/cost-of-dreams" "pull-quote-marcana" >}}
 
-“They have a strong level of malnutrition, that there growth and cognitive development is not the same,” says Marcana. “Instead of thinking about math, they’re thinking about food.”
+Most children would save their only meal for dinner or have the water that was left over from  cooking with salt for breakfast and lunch.
 
-{{< photo-caption "pages/cost-of-dreams" "photo-caption-2" >}}
+“They have a strong level of malnutrition, that their growth and cognitive development is not the same,” Marcana said. “Instead of thinking about math, they’re thinking about food.”
 
-She says that although President Nicolas Maduro created a program called PAE (School Food Program,) it is not enough. The food arrives every eight days and most of the fruit is damaged. Not only that but Marcana says the food was only enough for 200 children at the school of 1000 students. The school was forced to prioritize the students who spent the most time there and then then what was left over was for the youngest students.
+She says that although President Nicolás Maduro created a program called Programa de Alimentación Escolar (School Nutrition Program), it’s not enough. The food arrives every eight days, and most of the fruit is damaged. Marcana says the food was just enough for 200 children at her school of 1,000 students. The school was forced to prioritize the students who spent the most time there and what was left over was for the youngest students.
 
-During her years of teaching in Venezuela the curriculum changed. Marcana says in 1996 they used to work with pedagogical classroom projects until 2006 when it was changed into the Bolivarian curriculum. “They removed some of the most important content,” says Marcana. “They focused more on the social and political education.” Instead of focusing on teaching spanish she said she would have to teach her children about socialist “heroes” like Ezequiel Zamora.
+Although teachers like Marcana and Alejandrina wanted to help their students, their paychecks weren’t enough. Every two weeks, teachers receive 18,000 Bolívares, barely enough for half a kilogram of cheese. 
 
-The government also changed the standards for how children were held back in schools. In the new system the teacher first has to have permission of the parents and then permission of the government. “It’s too much money that teacher do not have. As a result every student passes,” says Marcana. As a teacher she recognized how students mentality was influenced by the government. The kids would constantly ask her why they weren’t equal to everyone if they lived in a socialistic society. “He brought two colors to class, I’m going to take one away from him because we are equal and so he has to have one and I have to have one,” her kids would say.
+<div class="story__subhead flex-column">'Their lives have completely changed'</div>
 
+Today, Marcana cleans houses because she wasn’t able to transfer her teaching degree from Venezuela to Colombia. In her free time, she helps Venezuelan children immigrating to Medellín who are not adapting to their new schools. 
+
+“Their lives are completely changed,” Marcana said. “When a Venezuelan child approaches you … he’s been asking you for help.” 
+
+The Ministry of Education in Medellín says Mayor Federico Gutiérrez promised access to education to every migrant child. Today, there are more than 8,900 Venezuelan children enrolled in the Medellín Education System. Although many Colombians think Venezuelan children are taking away the education of Colombian kids, the Ministry of Education says it’s not true. 
+
+“I want to clarify that none of the Venezuelan kids are taking away the spots of the Colombian kids,” said Julian Henao Zapata, a coordinator. Currently, Medellín has a capacity of 333,000 children, and only 308,000 are enrolled.
+
+The Ministry of Education believes school is the best strategy of security to keep children away from drugs, gangs and other problems that can occur to vulnerable children. 
+
+“The education right is a fundamental right that is not bound to any migratory status,” says Viviana Palacio Revello of communications. “The Medellín Education System has been opened to the Venezuelan immigrant kids despite the immigration status they have.”
+
+That hasn’t always been the case. Lack of paperwork is a big barrier for migrant children. 
+
+Anyelis Juarez Duran, 15, and her brother Angelos Juarez Duran, 13, have been in Medellín for approximately two years and missed a year of school when they first arrived. Instead of going to school, the pair sold food in the street but saw no profit. The frustration of not attending school was getting high, especially for Anyelis who just celebrated her quinceañera, a Latin tradition that symbolizes the transition to adulthood. Anyelis has been acting as the adult in her family while her mother is working.
+
+<!-- 3rd photo - siblings -->
 {{< photo-caption "pages/cost-of-dreams" "photo-caption-3" >}}
 
-Although Marcana says she really wanted to help her students, the money she made was not enough. Every two weeks she would receive a paycheck of 18,000 bolivares which was enough for half a kilogram of cheese. She too recalls student fainting during the anthem, classes, or at anytime. All the teachers would come together and talk about who could help this student by pitching food for the student.
+“I wanted to study, and many times I’d go and find out things while my mom was working,” Anyelis said. “The principal sent me to the educative nucleus were I was given a validation package to complete.”
 
-<div class="story__subhead flex-column">Education in Colombia</div>
+The siblings say their peers have helped them adapt to the education system. However, getting there was not as easy. Education has always been a passion for Anyelis, and she took it upon herself to make it happen. 
 
-Today, Marcana works cleaning houses because she wasn’t able to validate her teaching degree. In her free time she helps Venezuelan children immigrating to Medellin who are not adapting to their new schools.  “Their lives are completely changed,” Marcana said.
+One day, Anyelis woke up decided to enroll in school. She got dressed and walked to the nearest school to explain her situation to the current principal. Her brother, Angelos, says he feels lucky to have Anyelis. 
 
- (Trying to find a stat about how many venezuelan children are in Colombia to put right here.)
+“Anyelis was the one that moved around to get us the spot for the school,” Angelos said. “She did a lot of stuff so we could study and if it weren’t for her, we wouldn’t be studying at this moment.”
 
-Anyelis and her brother are apart of those (number of children) who are in Colombia and wake up everyday with uncertainty of when it will be the last day they are able to attend school. The pair walks approximately 20 minutes to school through what they call a shortcut. They live in a community that’s high up a mountain and on their way to school the view of the city is priceless. They walk through a small bridge and trees as they say hi to their friends along the way.
+The Ministry of Education says it will work with migrant children who do not have any paperwork or resources. 
 
-Something as simple as school books can have a great effect on children. In Venezuela children have three school books but when they arrive to Medellin they have nine. Children are also used to having mainly women as teachers but when in Medellin it’s common to have male as teachers as well as females. “Then that rhythm of life hits them, because it changes their life completely,” Marcana said. The differences between the same language in two different countries really affects the child. It’s shocks them and they think the teacher is being rude or can’t understand them,” says Marcana.
+“They believe we will ask them for their papers, or they will be advised to go to migration services to solve their issues and make them go back,” Zapata said. “But it’s not like that.” 
 
-Anyelis and Anyelo both say they have been welcomed by their peers and adapted well into the education system. But getting there was not as easy. Education has always been one of Anyelis’ passion and she took upon herself to make it happen in Medellin. One day Anyelis woke up determined to enroll in school. She got dressed and walked to the nearest school and explained her situation to her current principal. “Anyelis was the one that moved around to get us the spot for the school,” said Anyelos. “She did a lot of stuff so we could study and if it wasn’t for her we wouldn’t be studying in this moment.”
+Angelos’ transition to school has not been smooth, and he says the classes are harder. Many students feel pressured because they arrive in Colombia having to catch up. 
 
-Because of their lack of paperwork the pair says they lost a year of school when they first arrived to Medellin, following their mom. Anyelis says she was not allowed to attend until her uncle moved to Medellin from Venezuela and brought their paperwork with him. During that year Anyelis and her brother helped their mom by selling food in different areas. As the sales went down they couldn’t afford to keep selling and the frustration of not attending school was getting higher, especially for Anyelis.
+“The children arrive with a low academic level,” Marcana said. “Many times children have to be lowered two years.”
 
-The Ministry of Education in Medellin says their Mayor Federico Gutierrez has opened the door for every migrant child to have access to education. They believe education is the best strategy of security to keep children away from drugs, gangs and all the problems that come with vulnerable children. “The education right is a fundamental right that is not bounded to any migratory status,” says Viviana Palacio Revello of communications.  “The Medellin Education System has been opened to the Venezuelan immigrant kids despite the immigration status they have.”
+Things as simple as school books can have a significant effect on children. In Venezuela, children have three school books, but when they arrive in Medellín, they have nine. 
 
-“I wanted to study, and many times I’d go and find out things while my mom was working,” says Anyelis. “The principal sent me to the educative nucleus were I was give a validation package to complete.” The Ministry of Education says a migrant child does not need any paperwork in order to attend school.
+“Then that rhythm of life hits them because it changes their life completely,” Marcana said. 
+
+The differences between the same language can affect the relationship between teachers and students. 
+
+“It shocks them, and they think the teacher is being rude or can’t understand them,” Marcana said.
+
+The Medellín education system says it offers tutoring programs to every kid, including migrant children. 
+
+“When students are registered in the Medellín education system they automatically have the same rights as all the other kids,” Zapata said. Although many Venezuelans are not aware of the programs available to them, they can get transportation discounts, supplies, uniform donations and tutoring.
+
+Despite the help accessible to migrants, children like Anyelis and Angelos are still at risk of losing access to their education because of their lack of resources. Their mother lost her job, and the deadline to pay rent is coming up. 
+
+“It’s a shame because she always feels ashamed and feels like crying because she brought us here for something better,” Anyelis said.
+
+The family has been trying to find a solution, even if that means being separated. Angelos and his little brother would leave with their mom to a farm where they could work. But they would have to leave Anyelis behind to study. 
+
+At the farm, the quality of education is low. Students only have to attend three times a week and do most of the learning on their own. Anyelis wants to keep fighting for her dream of being a veterinarian, but the future of her education and living situation is uncertain.
