@@ -1327,7 +1327,7 @@ nav {
 
 .photo-caption-container {
   font-family: "Lato", sans-serif;
-  line-height: 1.5em;
+  line-height: 1.25rem;
   width: 63vw;
   margin: 10vh auto;
   align-items: flex-start; }
@@ -1341,7 +1341,8 @@ nav {
     .photo-caption-container .caption p {
       margin: 0;
       max-width: 100%;
-      font-size: inherit; }
+      font-size: inherit;
+      line-height: inherit; }
     .photo-caption-container .caption .ybr-line {
       max-width: 15vw;
       margin: 2vh 0 1vh 0; }

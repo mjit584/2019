@@ -1,6 +1,6 @@
 .photo-caption-container {
   font-family: $font-photo-caption; 
-  line-height: $line-height-base;
+  line-height: $line-height-caption;
   width: 63vw;
   margin: 10vh auto;
   align-items: flex-start;
@@ -19,6 +19,7 @@
       margin: 0;
       max-width: 100%;
       font-size: inherit;
+      line-height: inherit;
     }
 
     .ybr-line {
