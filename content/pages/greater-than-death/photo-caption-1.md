@@ -5,4 +5,4 @@ alt: "undefined"
 photographer: "Photog"
 ---
 
-Hello, this will be the image caption here!
+Judy falls asleep on her mother’s lap as the sisters talk. Judy is named after her grandmother, because Marbis Judith had cancer at the time of her birth.
