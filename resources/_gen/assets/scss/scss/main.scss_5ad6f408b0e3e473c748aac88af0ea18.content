@@ -54,7 +54,7 @@ body {
   font-family: "DDinBold", sans-serif;
   font-weight: normal;
   max-width: 50vw;
-  margin: 3vh auto;
+  margin: 0 auto;
   font-size: 2rem;
   justify-content: center;
   align-items: center;
@@ -62,7 +62,8 @@ body {
   text-align: center; }
   @media screen and (max-width: 800px) {
     .home .home__subhead {
-      max-width: 75vw; } }
+      max-width: 75vw;
+      margin: 3% auto; } }
 
 .home .scrollmagic-pin-spacer:nth-of-type(2) {
   padding-bottom: 300px; }
@@ -174,11 +175,14 @@ body {
       margin-top: 3vw; }
     @media screen and (max-width: 800px) {
       .home #home__about p {
-        max-width: 80vw; } }
+        max-width: 80vw;
+        padding: 3% 0; } }
   .home #home__about .about-content {
     grid-area: about-bd; }
   .home #home__about .about-help {
-    grid-area: about-help; }
+    grid-area: about-help;
+    background-color: #f2f2f2;
+    padding: 4% 0; }
     .home #home__about .about-help .about-orgs {
       text-align: center;
       width: 75vw;
@@ -191,6 +195,11 @@ body {
           width: 55%; }
           .home #home__about .about-help .about-orgs .orgs img:last-of-type {
             width: 35%; }
+        @media screen and (max-width: 800px) {
+          .home #home__about .about-help .about-orgs .orgs:last-of-type {
+            grid-column: 1/3;
+            width: 50%;
+            margin: 0 auto; } }
         .home #home__about .about-help .about-orgs .orgs a {
           text-decoration: none;
           color: inherit; }
@@ -205,7 +214,7 @@ body {
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           grid-template-rows: repeat(3, auto);
-          grid-gap: 1rem; } }
+          grid-gap: 1.2rem; } }
   .home #home__about .about-title {
     font-family: "DDinBold", sans-serif;
     text-align: center; }
@@ -2449,69 +2458,69 @@ nav {
 
 footer {
   margin: 0 auto;
-  padding: 0 0 17vh; }
+  padding: 0 0 17vh;
+  width: 100%; }
   footer a {
     color: inherit;
     text-decoration: none; }
-  footer .footer__stories.footer__stories--mobile {
-    display: none; }
-    footer .footer__stories.footer__stories--mobile .footer__title {
-      font-size: 1.125rem; }
-    footer .footer__stories.footer__stories--mobile .footer__cards {
-      display: block; }
-      footer .footer__stories.footer__stories--mobile .footer__cards .footer__card {
-        width: 100%;
-        max-width: 100%;
-        margin: 0 auto;
-        padding: 0; }
-        footer .footer__stories.footer__stories--mobile .footer__cards .footer__card:not(:last-of-type) {
-          border-bottom: solid 1px #707070; }
-  footer .footer__stories .footer__title {
-    margin: 25px auto;
-    font-family: "DDinBold", sans-serif;
-    font-size: 2rem;
-    text-align: center; }
-  footer .footer__stories .footer__cards {
-    margin: 0 auto;
-    align-items: flex-start;
-    flex-wrap: wrap; }
-    footer .footer__stories .footer__cards .footer__card {
-      display: block;
-      margin: 8px;
-      width: 13.75vw;
-      max-width: 180px;
-      text-decoration: none; }
-      footer .footer__stories .footer__cards .footer__card:hover .footer__text {
-        color: #c70032; }
-      footer .footer__stories .footer__cards .footer__card.active .footer__text {
-        color: #c70032; }
-      footer .footer__stories .footer__cards .footer__card .footer__img {
-        margin: auto;
-        width: 100%;
-        height: 13vw;
-        max-height: 170px;
-        object-fit: cover; }
-      footer .footer__stories .footer__cards .footer__card .footer__text {
-        font-family: "DDinBold", sans-serif;
-        color: #333333;
-        transition: all .25s; }
-        footer .footer__stories .footer__cards .footer__card .footer__text .story-topic {
-          text-transform: uppercase;
-          font-size: .75rem;
-          margin: .75rem 0 .2rem; }
-        footer .footer__stories .footer__cards .footer__card .footer__text .story-title {
-          margin: 0 0 .75rem;
-          font-size: 1.375rem; }
+  footer .footer__stories {
+    background-color: #f2f2f2;
+    width: 100%; }
+    footer .footer__stories.footer__stories--mobile {
+      display: none; }
+      footer .footer__stories.footer__stories--mobile .footer__title {
+        font-size: 1.125rem; }
+      footer .footer__stories.footer__stories--mobile .footer__cards {
+        display: block; }
+        footer .footer__stories.footer__stories--mobile .footer__cards .footer__card {
+          width: 100%;
+          max-width: 100%;
+          margin: 0 auto;
+          padding: 0; }
+          footer .footer__stories.footer__stories--mobile .footer__cards .footer__card:not(:last-of-type) {
+            border-bottom: solid 1px #707070; }
+    footer .footer__stories .footer__title {
+      margin: 25px auto;
+      font-family: "DDinBold", sans-serif;
+      font-size: 2rem;
+      text-align: center; }
+    footer .footer__stories .footer__cards {
+      margin: 0 auto;
+      align-items: flex-start;
+      flex-wrap: wrap; }
+      footer .footer__stories .footer__cards .footer__card {
+        display: block;
+        margin: 8px;
+        width: 13.75vw;
+        max-width: 180px;
+        text-decoration: none; }
+        footer .footer__stories .footer__cards .footer__card:hover .footer__text {
+          color: #c70032; }
+        footer .footer__stories .footer__cards .footer__card.active .footer__text {
+          color: #c70032; }
+        footer .footer__stories .footer__cards .footer__card .footer__img {
+          margin: auto;
+          width: 100%;
+          height: 13vw;
+          max-height: 170px;
+          object-fit: cover; }
+        footer .footer__stories .footer__cards .footer__card .footer__text {
+          font-family: "DDinBold", sans-serif;
+          color: #333333;
+          transition: all .25s; }
+          footer .footer__stories .footer__cards .footer__card .footer__text .story-topic {
+            text-transform: uppercase;
+            font-size: .75rem;
+            margin: .75rem 0 .2rem; }
+          footer .footer__stories .footer__cards .footer__card .footer__text .story-title {
+            margin: 0 0 .75rem;
+            font-size: 1.375rem; }
   @media screen and (max-width: 800px) {
     footer .footer__stories {
       display: none; }
       footer .footer__stories.footer__stories--mobile {
-        display: block; } }
-  footer .footer__line {
-    border-bottom: solid 1px #707070;
-    margin: 0 auto;
-    margin-top: 8%;
-    width: 60vw; }
+        display: block;
+        padding: 5%; } }
   footer .footer__social {
     margin: 0 auto;
     margin-top: 50px;

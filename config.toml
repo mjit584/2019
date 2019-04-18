@@ -85,7 +85,7 @@ canonifyURLs = "true"
 
   [[menu.main]]
     name = "A family’s sacrifice for their children’s health still has roadblocks."
-    url = "/the-greatest-need/"
+    url = "/greater-than-death/"
     weight = 3
     pre = "<p class='story-topic'>Health</p><h3 class='story-title'>The Greatest Need</h3>"
     post = "/images/health-homepagestill.jpg"

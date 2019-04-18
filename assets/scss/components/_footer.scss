@@ -1,6 +1,7 @@
 footer {
   margin: 0 auto;
   padding: 0 0 17vh;
+  width: 100%;
   
   a {
     color: inherit;
@@ -8,6 +9,8 @@ footer {
   }
 
   .footer__stories {
+    background-color: $light-grey;
+    width: 100%; 
 
     &.footer__stories--mobile {
         display: none;
@@ -96,15 +99,9 @@ footer {
 
       &.footer__stories--mobile {
         display: block;
+        padding: 5%;
       }
     }
-  }
-
-  .footer__line {
-    border-bottom: solid 1px #707070;
-    margin: 0 auto;
-    margin-top: 8%;
-    width: 60vw;
   }
   
   .footer__social{
