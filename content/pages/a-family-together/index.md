@@ -6,7 +6,7 @@ description: "A family struggles to survive, having arrived in Medellin ten days
 image: "../images/photo-chap-3-hero.jpg"
 storyHeading: "A Family, Together"
 storySubheading: "A family struggles to survive, having arrived in Medellin ten days prior."
-heroAlt: "A group of five friends carry large backs and walk the streets at night to find a place to stay"
+heroAlt: "A group of five friends carry large backs and walk the streets at night to find a place to stay."
 weight: 3
 card: false
 photographer: "Alex Kormann"
