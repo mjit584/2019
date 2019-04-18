@@ -164,6 +164,12 @@
       }
     }
 
+    .story__subhead-warning {
+      font-size: 1.5rem;
+      background-color: $light-grey;
+      padding: 2%;
+    }
+
     p {
       max-width: 50vw;
       line-height: $line-height-base;

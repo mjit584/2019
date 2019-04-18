@@ -18,49 +18,99 @@ udea: "Martín Villaneda"
 
 “¡Hay que terminar!”
 
-“You have to finish!” Soccer players with Adidas-striped shoulders shout from the sidelines as their teammates complete a four-on-four drill. The next wave of defenders entering the field cause black turf beads to fly through the Medellín night sky. One, wearing all white save for his neon yellow cleats, slides toward the ball, tripping up the offensive player looking for an open man.
+“You have to finish!” Soccer players with Adidas-striped shoulders shout from the sidelines as their teammates complete a four-on-four drill. The next wave of defenders enters the field, causing black turf beads to fly through the air. One player, wearing all white, save for his neon yellow cleats, slides toward the ball, tripping the offensive player looking for an open man.
 
 “¡Sigue jugando!”
 
-“Keep playing!” The ball travels like a current between the defender’s feet, and he dribbles it to safety. A whistle signals the end of the play.
+“Keep playing!” The ball travels like a current between the defender’s feet, as he dribbles it to safety. A whistle signals the end of the play.
 
-The defender, Laurenti Velasquez, jogs off the field, content. When he’s playing soccer, he feels in control—of himself, of his surroundings. Nothing else matters. Not the anger he feels knowing his children are 900 miles away. Not the sadness thinking about the empty-shelved supermarkets in his home country. Not Venezuela’s unfathomable 10 million percent inflation rate that climbs higher daily.
-
-But when  he leaves the field, everything comes back. TK. TK. The home he left behind. The 25-year-old immigrated to Colombia in 2016, but he thinks about Venezuela every day. He has to. His two children, 3 and 5, are still there, and so is his mother. Every month, he sends 380,000 pesos ($119) to his children, about 40 percent of his salary.
+The defender, Laurenti Velasquez, jogs off the field, content. When he’s playing soccer, he feels in control—of himself, of his surroundings. Nothing else matters. Not the anger he feels knowing his two children, just 3 and 5, are 900 miles away. Not the sadness thinking about the empty-shelved supermarkets in his home country. Not the millions of Venezuelans who live for weeks at a time without electricity.
 
 <div id="video-top"></div>
 
 <!-- Economic story video goes here -->
 {{< vimeo id="329817257" class="video-container flex" >}}
 
-Hundreds of thousands of Venezuelans share Velasquez’s story. In the last five years, inflation has risen from 57 percent to 10 million percent, causing more than 3 million Venezuelans to flee the country. Over a third of them are in Colombia. Although over 10 percent of the country has emigrated, the rest remain in Venezuela, unable to pay for groceries, medication and other necessities. Most (get numbers) of them rely on remittances from loved ones. In 2018 alone, economists estimated that Venezuelans living abroad sent more than $1 billion to relatives unable to leave.
-
-Venezuela’s inflation rate has been abruptly rising and falling since the late 1980s. One of the most significant jumps happened in 1989, when the rate increased from 11 percent to almost 85 percent. The country’s GDP was at one of its lowest points, and the government responded by removing gasoline subsidies. Venezuela has the largest oil reserves in the world, and people were used to getting gas for almost nothing. Riots broke out across the country, killing hundreds of people.
-
-Just after former President Hugo Chávez’s election in 1999, the global price of oil increased, bringing trillions of dollars into the country’s treasury. He used the money to fund social programs to provide education, medical services and food for low-income communities. At that point, almost 43 percent of Venezuela’s population was below the poverty line.
-
-{{< story-interactives "pages/making-it-work" "econ-bolivar-int" >}}
-
-The money also paid for Russian weaponry and extremely discounted oil to allies like Cuba. Chávez started a program called Petrocaribe that allowed Caribbean countries to exchange local goods such as bananas and sugar for oil. The money quickly depleted. By the time oil prices plummeted in 2014, Venezuela couldn’t recover.
-
-The country’s central bank stopped releasing economic information such as the inflation rate and public spending in 2014. Now the main legislative body, the National Assembly—controlled by the opposition—publishes data. Venezuela’s GDP has steadily dropped since 2013. By 2017, over 87 percent of the population lived below the poverty line.
-
-President Nicolás Maduro tried to renegotiate international loans in 2017, but U.S. sanctions against the country made it impossible. Venezuela slid further into debt.
-
-{{< story-interactives "pages/making-it-work" "econ-inflation-int" >}}
-
-In January, National Assembly President Juan Guaidó declared himself interim president after Maduro’s second election was deemed rigged. The U.S., Canada, Brazil and about 50 other countries have recognized Guaidó as president. Russia, China and Cuba still support Maduro.
-
-Today, a box of cereal in Venezuela costs more than the average person’s monthly salary. People can’t afford housing or toiletries. Guaido has tried to import humanitarian aid, but Maduro’s officials at the Colombian border destroyed trucks full of necessities. Maduro labeled the event as an attempt to overthrow his administration.
+But when he leaves the field, everything comes back. The 25-year-old immigrated to Colombia in 2016, but Venezuela is always on his mind. He sends about 40 percent of the salary he makes working as a storekeeper at Distripartes, an auto shop, back to his children every month ––  which amounts to 380,000 pesos, or $119.
 
 {{< story-interactives "pages/making-it-work" "econ-exchange-int" >}}
 
-{{< center-quote "/pages/making-it-work" "pull-quote-2" >}}
+Distripartes offers Velasquez benefits that he’s never had at his previous odd jobs in Colombia. He’s been there for seven months and receives insurance, paid overtime and commission for his sales. Financially, he’s better off than he was in Venezuela, but the cost of living is much higher here. He didn’t have to pay rent in his home country and monthly expenses such as food and transportation were a fraction of the price of Colombia’s. These expenses force him to make sacrifices in his new country, like renting a room from one of his teammates instead of having his own apartment.
 
-“¡Dale, dale, dale!”
+“Immigrants here can’t enjoy luxuries, like traveling, for example,” Velasquez said. “In Venezuela, you could save for moments like that. Here you could do it, but it would be too much sacrifice.”
 
-“Go, go, go!” Velasquez stands beside the goal, shifting his weight from one Adidas cleat to the other while he waits for the next rotation in the drill. His coach walks toward the middle of the field, unfazed by the players scrambling for the ball around him. Once he reaches the half field line, he scans the scene in front of him, watching the men for technique.
+Thousands of Venezuelans know sacrifice too well. In the last five years, inflation has risen from 57 percent to 10 million percent, partly due to crashing oil prices, the country’s main source of revenue. Since then, more than 3 million Venezuelans have fled the country—about 10 percent of the country’s total population. Over a third of them are now in Colombia. Those left behind struggle to pay for groceries, medication and other basic necessities. Most rely on remittances from loved ones. In 2018 alone, economists estimated that Venezuelans living abroad sent more than $1 billion to relatives unable to leave.
+
+“We’re far from our families and far from our country, but we’re here because we’re fighting for them,” Velasquez said.
+
+{{< story-interactives "pages/making-it-work" "econ-bolivar-int" >}}
+
+<div class="story__subhead">One of the Lucky Ones</div>
+
+Velasquez stands beside the goal, shifting his weight from one cleat to the other while he waits for the next rotation in the drill. His coach strolls toward the middle of the field, unfazed by the players scrambling for the ball around him. Once he reaches the half field line, he scans the scene in front of him, watching the men for technique.
 
 “Allí está.”
 
 “There it is.”  The coach nods, and another whistle ends the drill.
+
+Players crunch turf beneath their feet as they gather around centerfield, panting from the workout’s intensity. The coach, Alvaro Cardenas Martínez, looks at each of the faces on his team. He’s content, but for a different reason  than Velasquez’s. It’s almost 10 p.m. on a Wednesday night, and he’s at a public sports complex. Although it is late, he is worried about his players’ technique rather than if he will get home safely.
+
+He could never do that in Venezuela.
+
+In 2014—the year Martínez immigrated to Colombia—things had gone from bad to worse. Not only was the economy in shambles, but so was public safety. The 37-year-old couldn’t go to the cogrocery store without looking over his shoulder every few minutes. He hated sitting at stoplights for fear of the motorcyclists that robbed or killed people daily.
+
+“In that type of stress, you leave your house in the morning and you don’t know if you’re going to return,” Martínez said. In 2017, the U.S. Embassy of Caracas reported that 73 Venezuelans died violently every day. “Before we became a statistic of the dead in Venezuela, I preferred to emigrate and find a better quality of life.”
+
+Martínez was one of the lucky ones. Having Colombian parents granted him the privilege of dual Venezuelan-Colombian citizenship, so he and his wife moved in with his grandmother in Medellín until they could support themselves. It didn’t take long because of Martínez’s natural talent for entrepreneurship. He opened a pet shop, and when he saw that  it wasn’t going anywhere, he closed it and started a telecommunications company that he still runs today.
+
+Within two years, he had his own place to live, a stable business and peace of mind. But something was missing.
+
+“In sports, and in soccer especially, you do it with people,” Martínez said. “I realized that I was alone and didn’t have anyone to play with… and I imagined that just as I was, surely many Venezuelans thought the same thing.”
+
+He logged onto one of the Venezuelan Facebook groups he had joined and started typing: “Starting a soccer team…”
+
+“If you have a dream, then just go after it,” Martínez said. “In the case of being an immigrant, you have to make sure you’re stable in other ways first.”
+
+<div class="story__subhead">The Cost of Living</div>
+
+On the streets of Venezuela, artisans set up tables on the sidewalks of crowded intersections. Each table has multicolored Venezuelan bills stacked like newspapers. The artisans shuffle the bills—worth millions—in their hands, not worrying about passersby stealing them.
+
+Ten years ago, the money on the table—Venezuelan bolivares—would’ve made them millionaires. Today, the bills are worth so little that people make purses and sculptures with them.
+
+“Venezuela was a huge country—we weren’t going to prepare anything,” said Martínez’s mother Lilia Martínez, who lived in Venezuela for 40 years until 2017 when she moved back to Colombia. “We never thought we’d be worse off than Cuba.”
+
+In 2014, Venezuela’s central bank stopped releasing information, like the inflation rate and public spending, because President Nicolás Maduro’s administration didn’t want the public to know how much the economy had declined. By 2017, over 87 percent of the population lived below the poverty line.
+
+A box of cereal in Venezuela currently costs more than the average person’s monthly salary. People can’t afford housing or toiletries.
+
+In January, National Assembly President Juan Guaidó declared himself interim president after Maduro’s second election was deemed illegitimate. The U.S., Canada, Brazil and about 50 other countries have recognized Guaidó as president. Russia, China and Cuba still support Maduro.
+
+Guaidó has tried to import humanitarian aid, but Maduro’s officials at the Colombian border destroyed trucks full of necessities. Maduro saw the event as an attempt to overthrow his administration.
+
+“There are people that still support [Maduro],” Lilia said. “Because if you’re not lacking anything, then you’re fine. But you don’t care about your brother that’s dying of hunger.”
+
+{{< story-interactives "pages/making-it-work" "econ-inflation-int" >}}
+
+<div class="story__subhead">Realizing the Dream</div>
+
+Dozens of Facebook responses later, Martínez established Vinotinto Fútbol Club. Almost 70 Venezuelans and about 15 Colombians make up two teams, split by age groups.
+
+Every week around 8 p.m., they gather at one of the sets of bleachers at the Andrés Escobar Sports Complex before practice. Men trickle in slowly, some with drawstring bags slung across their shoulders, others with homemade snacks wrapped in paper towels. Those who arrive with sneakers on lace up their cleats over knee-high soccer socks, but not before greeting one another.
+
+“Hola, ‘mano.”
+
+“Hey, brother.”
+
+Not only do the players laugh and joke with each other, but they also support each other. Velasquez has his job at the auto shop because Martínez recommended him. Without the recommendation, he would’ve still been working at a fast food restaurant or another entry level job. He definitely wouldn’t have been at Distripartes—he’s the only Venezuelan that works there.
+
+“I’m very grateful,” Velasquez said. “There are businesses that don’t hire Venezuelans because they think we come to rob, that we’re deadbeats and slackers. I’ve been working hard and showing what Venezuelans are really about. Because I’m happy with my job, they’re happy with me as an employee.”
+
+Velasquez and the rest of Vinotinto have also faced discrimination on the field. Because they’re the only team in the league with Venezuelan players, other teams recognize them now and sometimes shout slurs.
+
+Instead of focusing on the insults, the team concentrates on their technique, plays and communication—on and off the field.
+
+“The most beautiful thing is that Laurenti [Velasquez]—and the rest of us who are immigrants—found in the team the family that we left behind,” Alvaro said. “You find people that you can speak Venezuelan with, not Spanish.”
+
+{{< center-quote "pages/making-it-work" "pull-quote-lilia" >}}
+
+{{< center-quote "pages/making-it-work" "pull-quote-alvaro" >}}
