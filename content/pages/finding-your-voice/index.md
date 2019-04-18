@@ -29,10 +29,12 @@ For spends therest of the evening walking the streets of downtown Medellín, hid
 
 She’s only known them since January, when she began to sing in restaurants shortly after arriving in Medellin, Colombia. The TKTK DESCRIBE HER, TK AGE, drags a speaker on wheels behind her as she SINGS TKTK WHAT in TKTK WHAT KINDS OF PLACES.  Colombia. Many of the vendors  also crossed the border without a passport, shutting down the chance of obtaining a work permit in the neighboring country. What did she do back home? Let’s tease out some more details so we care more about her early in the story
 
-<div id="video-top"></div>
 
 <!-- Government video goes here -->
 {{< vimeo id="331124508" class="video-container flex" >}}
+<div class="video-btn-container">
+<button id="lights-down" onclick='lightsDown()'>Lights Down</button>
+</div>
 
 <div class="story__subhead flex-column">Long-Term Risks</div>
 

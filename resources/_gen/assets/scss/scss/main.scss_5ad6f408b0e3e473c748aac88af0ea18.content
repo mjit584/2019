@@ -856,12 +856,38 @@ nav {
     .header--white a:hover, .header--white i:hover {
       color: #c70032; }
 
+.black {
+  background-color: #000; }
+
+.no-show {
+  opacity: 0; }
+
+.video-btn-container {
+  max-width: 1000px;
+  margin: 0 auto 10% auto; }
+  @media screen and (max-width: 1200px) {
+    .video-btn-container {
+      display: none; } }
+
+#lights-down {
+  background: #c70032;
+  color: #ffffff;
+  font-family: "DDinExpBold", sans-serif;
+  text-transform: uppercase;
+  background-color: #c70032;
+  border-radius: 30px;
+  border: none;
+  padding: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto; }
+
 .video-container {
   transition: 0.1s background-color;
   height: 55vw;
   max-height: 80vh;
   max-width: 1200px;
-  margin: 50px auto; }
+  margin: 60px auto 15px auto; }
   .video-container iframe {
     border: none !important;
     width: 100%;
@@ -1340,14 +1366,6 @@ nav {
   overflow: hidden;
   position: fixed; }
 
-.divider {
-  border-bottom: solid 1px #707070;
-  margin: 10vh auto;
-  width: 60vw; }
-  @media screen and (max-width: 800px) {
-    .divider {
-      width: 85vw; } }
-
 .interactive {
   max-width: 100%;
   transition: 1s opacity;
@@ -1394,7 +1412,8 @@ nav {
 
 .flourish {
   max-width: 85vw;
-  margin: 4vh auto; }
+  margin: 4vh auto;
+  transition: opacity 1s ease-in-out; }
   @media screen and (max-width: 800px) {
     .flourish {
       max-width: 85vw; } }
@@ -2673,7 +2692,7 @@ footer {
   color: #ffffff; }
   .error-page .error__container img {
     width: 50%;
-    margin: 10% auto 5% auto; }
+    margin: 5vh auto; }
     @media screen and (max-width: 800px) {
       .error-page .error__container img {
         width: 80%;
