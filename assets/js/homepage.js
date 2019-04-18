@@ -7,7 +7,14 @@ let init = function () {
   var homeSubtitle = document.getElementById("home-subtitle");
   var homeDesc = document.getElementById("home-desc");
 
-  window.setTimeout(fadeInText, 4000);
+  window.setTimeout(fadeInText, 4500);
+
+  function fadeInText() {
+    homeSubtitle.style.opacity = "1";
+    homeDesc.style.opacity = "1";
+    homeSubtitle.style.transition = "all 2s ease-in";
+    homeDesc.style.transition = "all 2s ease-in";
+  }
 
 
   console.log("init called");
