@@ -5,7 +5,7 @@ date: 2019-02-04T21:34:53-05:00
 description: "Undocumented Venezuelans find their livelihood by singing on the street."
 video: "../finding-your-voice/assets/gov-headervideo.mp4"
 headerStill: "../finding-your-voice/assets/documentation-headerstill.jpg"
-image: "/finding-your-voice/assets/gov-homepagestill.jpg"
+image: "../images/gov-homepagestill.jpg"
 storyHeading: "Finding Your Voice"
 storySubheading: "Undocumented Venezuelans find their livelihood by singing on the street."
 weight: 1
