@@ -1322,7 +1322,8 @@ nav {
     left: 0; } }
 
 .lock-scroll {
-  overflow: hidden; }
+  overflow: hidden;
+  position: fixed; }
 
 .divider {
   border-bottom: solid 1px #707070;
