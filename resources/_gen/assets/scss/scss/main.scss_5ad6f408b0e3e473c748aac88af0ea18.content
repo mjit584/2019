@@ -523,10 +523,18 @@ nav {
       z-index: 0;
       object-fit: cover; } }
 
-.photo .photo__line {
-  border-bottom: solid 1px #707070;
-  margin: 6vh auto;
-  width: 84vw; }
+.photo .photo__success-people {
+  margin: 100px auto; }
+  @media screen and (max-width: 800px) {
+    .photo .photo__success-people {
+      margin: 60px auto; } }
+
+.photo .photo__subhead {
+  font-family: "DDinBold", sans-serif;
+  margin-bottom: 0; }
+
+.photo .center-quote-container {
+  margin-top: 1%; }
 
 .photo .interactive__image {
   position: relative;
@@ -2515,7 +2523,7 @@ footer {
       display: none; }
       footer .footer__stories.footer__stories--mobile {
         display: block;
-        padding: 5%; } }
+        padding: 5% 24% 7%; } }
   footer .footer__social {
     margin: 0 auto;
     margin-top: 50px;
