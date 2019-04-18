@@ -1,7 +1,5 @@
 
 //Add your images, we'll set the path in the next step
-
-//Add your images, we'll set the path in the next step
 var images = [
   '404-bts-1.jpg',
   '404-bts-2.jpg',
@@ -36,9 +34,9 @@ var randomImg = images[Math.floor(Math.random() * images.length)];
 console.log(randomImg);
 
 html += "<div class='error__grid'>";
-images.forEach((image) =>{
+images.forEach((image) => {
   html += "<div class='img__container'>";
-    html += "<img src='images/404/" + image + "' alt='Behind the scenes look at the Uprooted Team'>";
+  html += "<img src='images/404/" + image + "' alt='Behind the scenes look at the Uprooted Team'>";
   html += "</div>";
 })
 html += "</div>";
