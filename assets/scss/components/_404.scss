@@ -5,23 +5,28 @@
     font-family: $font-hero-title;
     margin: 0 auto;
     max-width: 100%;
-    height: 125vh;
+    height: 100vh;
+    background-color: $yellow;
     position: relative;
     color: $white;
 
+    img {
+      width: 50%;
+      margin: 10% auto;
+
+      @media screen and (max-width: 800px) {
+        width: 80%;
+        margin: 5% auto;
+      }
+    }
+
     @media screen and (max-width: 800px) {
-      height: 100vh;
+      height: auto;
       overflow: hidden;
     }
 
     .error__text {
-      position: absolute;
       width: 100%;
-      height: 100vh;
-      background-image: linear-gradient(
-        rgba(0,0,0,0.4),
-        rgba(0,0,0,0)
-      );
 
       h2 {
         font-size: 2.5rem;
@@ -31,15 +36,31 @@
         font-size: 1.2rem;
         max-width: 75vw;
       }
-    }
-    
-    img {
-      width: 100%;
-      margin-bottom: 3%;
 
-      @media screen and (max-width: 800px){
-        width: auto;
-        height:100vh;
+      @media screen and (max-width: 800px) {
+        padding: 2%;
+      }
+    }
+  }
+
+  #error__bts {
+    width: 100%;
+
+    .error__grid {
+      display: grid;
+      padding: 10%;
+      grid-gap: 1rem;
+      width: 100%;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(8, auto);
+      
+      img {
+        width: 100%;
+      }
+
+      @media screen and (max-width: 800px) {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 5%;
       }
     }
   }
