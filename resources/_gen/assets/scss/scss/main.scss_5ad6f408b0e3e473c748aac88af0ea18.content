@@ -37,6 +37,9 @@ body {
   margin: 0 auto;
   color: #333333; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; }
+
 .home__overlay {
   position: fixed;
   z-index: 3;
@@ -110,7 +113,6 @@ body {
       stroke-width: 4px; }
   .home #home__intro .home__subtitle {
     font-family: "DDinRegular", serif;
-    font-weight: 400;
     font-size: 1.8rem;
     margin: 0 25px 10px 25px;
     text-align: center; }
@@ -156,13 +158,13 @@ body {
   padding-top: 400px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, auto);
-  grid-template-areas: "about-bd about-bd about-bd about-bd" "about-help about-help about-help about-help" "about-ft about-ft about-ft about-ft";
+  grid-template-areas: "about-bd about-bd about-bd about-bd" "about-help about-help about-help about-help" "about-ft about-ft about-ft about-ft";
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .home #home__about {
       padding-top: 25px;
       grid-template-columns: 1fr;
-      grid-template-areas: "about-bd" "about-help" "about-ft"; } }
+      grid-template-areas: "about-bd" "about-help" "about-ft"; } }
   .home #home__about p {
     max-width: 50vw;
     line-height: 1.5em;
@@ -233,12 +235,12 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: "nav nav nav nav" "story-hero story-hero story-hero story-hero" ". by by ." "story-bd story-bd story-bd story-bd" "story-ft story-ft story-ft story-ft";
+  grid-template-areas: "nav nav nav nav" "story-hero story-hero story-hero story-hero" ". by by ." "story-bd story-bd story-bd story-bd" "story-ft story-ft story-ft story-ft";
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .story-page {
       grid-template-columns: 1fr;
-      grid-template-areas: "nav" "story-hero" "by" "story-bd" "story-ft"; } }
+      grid-template-areas: "nav" "story-hero" "by" "story-bd" "story-ft"; } }
   .story-page .story-hero {
     color: #ffffff;
     height: auto;
@@ -315,7 +317,6 @@ body {
           position: static; } }
       .story-page .story-hero .story-hero__heading .story-hero__title {
         font-family: "DDinBold", sans-serif;
-        font-weight: 400;
         font-size: calc(3rem + 3vw);
         margin-bottom: 0; }
         @media screen and (max-width: 800px) {
@@ -326,8 +327,7 @@ body {
             font-size: 2.25rem;
             color: #333333; } }
       .story-page .story-hero .story-hero__heading .story-hero__desc {
-        font-family: "Lato", sans-serif;
-        font-weight: 400; }
+        font-family: "Lato", sans-serif; }
         @media screen and (max-width: 800px) {
           .story-page .story-hero .story-hero__heading .story-hero__desc {
             color: #333333;
@@ -888,7 +888,6 @@ nav {
       .cards .card .ybr-line .ybr-section {
         stroke-width: 3; }
     .cards .card .card__title {
-      font-weight: 400;
       font-family: "DDinBold", sans-serif;
       font-size: 2rem;
       line-height: 1.8rem;
@@ -1131,7 +1130,6 @@ nav {
     color: #333333;
     text-decoration: none;
     font-family: "Lato", sans-serif;
-    font-weight: normal;
     font-size: 1.25rem; }
   .main-menu-mobile .inner-menu {
     margin-top: 1rem; }
@@ -1199,7 +1197,6 @@ nav {
           display: none; }
         .main-menu-mobile .inner-menu .inner-menu-items .inner-menu-item .story-title {
           font-family: "Lato", sans-serif;
-          font-weight: normal;
           font-size: 1.25rem;
           margin: 0; }
   .main-menu-mobile .bottom-menu {
@@ -1255,15 +1252,13 @@ nav {
     font-family: "DDinBold", sans-serif;
     font-size: 2rem;
     text-transform: uppercase;
-    margin: 0 auto;
-    font-weight: 400; }
+    margin: 0 auto; }
   .interactive .interactive__subhead {
     font-family: "DDinRegular", sans-serif;
     font-size: 1.5rem;
     margin: auto;
     margin-top: 1vh;
-    margin-bottom: 2vh;
-    font-weight: 400; }
+    margin-bottom: 2vh; }
   .interactive .interactive__intro {
     font-family: "Lato", sans-serif;
     margin-top: 0 !important;
@@ -1276,8 +1271,7 @@ nav {
     color: #aaa;
     margin-bottom: 2%; }
   .interactive .interactive__body {
-    font-family: "Lato", sans-serif;
-    font-weight: 400; }
+    font-family: "Lato", sans-serif; }
   .interactive .ybr-line {
     max-width: 25vw;
     margin-bottom: 2vh; }
@@ -2594,7 +2588,6 @@ footer {
 .error-page .error__container {
   text-align: center;
   font-family: "DDinBold", sans-serif;
-  font-weight: 400;
   margin: 0 auto;
   max-width: 100%;
   height: 125vh;
