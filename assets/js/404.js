@@ -35,7 +35,13 @@ var html = "";
 var randomImg = images[Math.floor(Math.random() * images.length)];
 console.log(randomImg);
 
-html += `<div class="flex"><img src="../images/404/${randomImg}" alt="A behind the scenes look at the uprooted team"><img src="../images/404/${randomImg}" alt="A behind the scenes look at the uprooted team"><img src="../images/404/${randomImg}" alt="A behind the scenes look at the uprooted team"></div>`
+html += "<div class='error__grid'>";
+images.forEach((image) =>{
+  html += "<div class='img__container'>";
+    html += "<img src='images/404/" + image + "' alt='Behind the scenes look at the Uprooted Team'>";
+  html += "</div>";
+})
+html += "</div>";
 
 btsGrid.innerHTML = html;
 
