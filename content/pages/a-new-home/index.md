@@ -2,10 +2,10 @@
 title: "A New Home"
 topic: "Photo Journey"
 date: 2019-02-04T21:34:53-05:00
-description: "This is the description for the first story."
+description: "An inside look into where migrants live after leaving home."
 image: "../images/photo-chap-2-hero.jpg"
 storyHeading: "A New Home"
-storySubheading: "An inside look into where migrants live after leaving home"
+storySubheading: "An inside look into where migrants live after leaving home."
 heroAlt: "A family stands on the roof of their apartment building."
 weight: 2
 card: false

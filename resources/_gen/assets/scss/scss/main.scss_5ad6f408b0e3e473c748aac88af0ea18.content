@@ -289,6 +289,8 @@ body {
       @media screen and (max-width: 800px) {
         .story-page .story-hero .story-hero__topic {
           margin-top: 35vh;
+          text-align: left;
+          width: 85vw;
           color: #333333;
           position: static; } }
       .story-page .story-hero .story-hero__topic p {
@@ -319,7 +321,8 @@ body {
         @media screen and (max-width: 800px) {
           .story-page .story-hero .story-hero__heading .story-hero__title {
             margin-top: 10px;
-            max-width: 75vw;
+            max-width: 85vw;
+            text-align: left;
             font-size: 2.25rem;
             color: #333333; } }
       .story-page .story-hero .story-hero__heading .story-hero__desc {
@@ -328,7 +331,7 @@ body {
         @media screen and (max-width: 800px) {
           .story-page .story-hero .story-hero__heading .story-hero__desc {
             color: #333333;
-            max-width: 75vw;
+            max-width: 85vw;
             font-size: 1rem;
             text-align: left; } }
   .story-page .story-content {
@@ -339,14 +342,14 @@ body {
     .story-page .story-content .story__subhead {
       font-family: "DDinBold", sans-serif;
       max-width: 50vw;
-      margin: 0 auto;
       font-size: 2rem;
       justify-content: flex-start;
       align-items: flex-start;
-      margin: 0 auto; }
+      margin: 0 auto;
+      margin-bottom: 15px; }
       @media screen and (max-width: 800px) {
         .story-page .story-content .story__subhead {
-          max-width: 75vw; } }
+          max-width: 85vw; } }
     .story-page .story-content p {
       max-width: 50vw;
       line-height: 1.5em;
@@ -355,7 +358,8 @@ body {
       font-size: 1.125rem; }
       @media screen and (max-width: 800px) {
         .story-page .story-content p {
-          max-width: 75vw;
+          margin: 5vw auto;
+          max-width: 85vw;
           font-size: 1rem; } }
     .story-page .story-content .ybr-line {
       transition: 1s opacity; }
@@ -1239,7 +1243,7 @@ nav {
   width: 60vw; }
   @media screen and (max-width: 800px) {
     .divider {
-      width: 75vw; } }
+      width: 85vw; } }
 
 .interactive {
   max-width: 100%;
@@ -1289,11 +1293,13 @@ nav {
     justify-content: flex-start; }
 
 .flourish {
-  max-width: 75vw;
+  max-width: 85vw;
   margin: 4vh auto; }
   @media screen and (max-width: 800px) {
     .flourish {
-      max-width: 100%; } }
+      max-width: 85vw; } }
+  .flourish iframe {
+    max-width: 85vw !important; }
 
 .byline {
   font-family: "Lato", sans-serif;
@@ -1317,7 +1323,7 @@ nav {
   @media screen and (max-width: 800px) {
     .byline {
       margin: 4% auto;
-      width: 75vw; }
+      width: 85vw; }
       .byline .ybr-line {
         max-width: 40vw; }
         .byline .ybr-line .ybr-section {

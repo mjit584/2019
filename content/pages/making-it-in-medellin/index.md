@@ -2,10 +2,10 @@
 title: "Making it in Medellín"
 topic: "Photo Journey"
 date: 2019-02-04T21:34:53-05:00
-description: "This is the description for the first story."
+description: "The success stories of Venezuelan immigrants in a new country."
 image: "../images/photo-chap-4-hero.jpg"
 storyHeading: "Making it in Medellín"
-storySubheading: "The success stories of Venezuelan immigrants in a new country"
+storySubheading: "The success stories of Venezuelan immigrants in a new country."
 heroAlt: "A group of workers smile and pose in front of a restaurant sign that reads 'Della Nonna'"
 weight: 4
 card: false

@@ -6,7 +6,7 @@
   width: 60vw;
 
   @media screen and (max-width: 800px) {
-    width: 75vw;
+    width: 85vw;
   }
 }
 
@@ -32,7 +32,7 @@
     margin-top: 1vh;
     margin-bottom: 2vh;
     font-weight: $font-weight-normal;
-    // max-width: 75vw;
+    // max-width: 85vw;
   }
 
   .interactive__intro {
@@ -80,10 +80,14 @@
 }
 
 .flourish {
-  max-width: 75vw;
+  max-width: 85vw;
   margin:4vh auto;
 
   @media screen and (max-width: 800px){
-      max-width: 100%;
+      max-width: 85vw;
+  }
+
+  iframe {
+    max-width: 85vw !important;
   }
 }
