@@ -65,12 +65,6 @@ body {
       max-width: 75vw;
       margin: 3% auto; } }
 
-.home .scrollmagic-pin-spacer:nth-of-type(2) {
-  padding-bottom: 300px; }
-  @media screen and (max-width: 800px) {
-    .home .scrollmagic-pin-spacer:nth-of-type(2) {
-      padding-bottom: 0px; } }
-
 @media screen and (max-width: 800px) {
   .home nav {
     position: absolute;
@@ -139,6 +133,9 @@ body {
     text-align: center;
     text-transform: uppercase;
     margin-top: 15px; }
+    @media screen and (max-width: 800px) {
+      .home #home__intro .home__explore {
+        display: none; } }
     .home #home__intro .home__explore p {
       margin-bottom: 10px; }
     .home #home__intro .home__explore i {
@@ -156,13 +153,14 @@ body {
   color: #333333;
   height: auto;
   display: grid;
-  padding-top: 2%;
+  padding-top: 400px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, auto);
   grid-template-areas: "about-bd about-bd about-bd about-bd" "about-help about-help about-help about-help" "about-ft about-ft about-ft about-ft";
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .home #home__about {
+      padding-top: 25px;
       grid-template-columns: 1fr;
       grid-template-areas: "about-bd" "about-help" "about-ft"; } }
   .home #home__about p {
@@ -906,12 +904,7 @@ nav {
       margin: 0 auto; }
       @media screen and (max-width: 800px) {
         .cards .card .card__button {
-          width: auto;
-          height: auto;
-          padding: 5px 25px;
-          background-color: transparent;
-          border: solid 2px #c70032;
-          transition: background-color .3s, color .3s; } }
+          display: none; } }
       .cards .card .card__button a {
         position: absolute;
         top: 5px;
@@ -962,9 +955,6 @@ nav {
           transition: color .3s; } }
     .cards .card .card__base .card__button {
       display: none; }
-      @media screen and (max-width: 800px) {
-        .cards .card .card__base .card__button {
-          display: inline-block; } }
 
 #main-menu-photos.open {
   display: grid;
@@ -1123,7 +1113,7 @@ nav {
     display: flex;
     min-height: 100vh;
     height: auto;
-    z-index: 2;
+    z-index: 1;
     overflow: hidden; }
   .main-menu-mobile a {
     color: #333333;
