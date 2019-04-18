@@ -80,7 +80,7 @@
       @media screen and (max-width: 800px) {
         margin-top: 35vh;
         text-align: left;
-        width: 75vw;
+        width: 85vw;
         color: $black;
         position: static;
       }
@@ -123,7 +123,7 @@
 
         @media screen and (max-width: 800px) {
           margin-top: 10px;
-          max-width: 75vw;
+          max-width: 85vw;
           text-align: left;
           font-size: 2.25rem;
           color: $black;
@@ -136,7 +136,7 @@
 
         @media screen and (max-width: 800px) {
           color: $black;
-          max-width: 75vw;
+          max-width: 85vw;
           font-size: 1rem;
           text-align: left;
         }
@@ -162,7 +162,7 @@
       margin-bottom: 15px;
 
       @media screen and (max-width: 800px) {
-        max-width: 75vw;
+        max-width: 85vw;
       }
     }
 
@@ -174,7 +174,8 @@
       font-size: 1.125rem;
 
       @media screen and (max-width: 800px) {
-        max-width: 75vw;
+        margin: 5vw auto;
+        max-width: 85vw;
         font-size: 1rem;
       }
     }
