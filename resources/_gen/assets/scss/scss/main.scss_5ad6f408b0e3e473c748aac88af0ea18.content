@@ -112,13 +112,13 @@ h1, h2, h3, h4, h5, h6 {
     background-image: linear-gradient(rgba(0, 57, 115, 0.85), rgba(8, 19, 58, 0.25)), url(../images/home5.JPG); } }
 
 .home #home__intro .home__logo {
+  opacity: 0;
+  position: absolute;
   max-width: 40vw;
-  height: auto;
-  display: none; }
+  height: auto; }
   @media screen and (max-width: 800px) {
     .home #home__intro .home__logo {
-      max-width: 80vw;
-      display: flex; } }
+      max-width: 80vw; } }
 
 .home #home__intro > .ybr-line {
   width: 100%;
@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 1.3%;
   margin-bottom: 1%;
   max-width: 26vw;
-  display: none; }
+  position: absolute; }
   @media screen and (max-width: 800px) {
     .home #home__intro > .ybr-line {
       max-width: 50vw;
