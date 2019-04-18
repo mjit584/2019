@@ -389,6 +389,10 @@ h1, h2, h3, h4, h5, h6 {
       @media screen and (max-width: 800px) {
         .story-page .story-content .story__subhead {
           max-width: 85vw; } }
+    .story-page .story-content .story__subhead-warning {
+      font-size: 1.5rem;
+      background-color: #f2f2f2;
+      padding: 2%; }
     .story-page .story-content p {
       max-width: 50vw;
       line-height: 1.5em;
