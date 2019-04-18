@@ -73,7 +73,7 @@ In 2006 the education system changed in Venezuela, and the government used teach
 Lisbeth Marcana was a public school teacher in Venezuela for 25 years before immigrating to Medellín in May 2018. She says the government removed some of the most critical materials. Instead of focusing on teaching Spanish, she was forced to teach her students about “socialist heroes” in Venezuela like Ezequiel Zamora.
 
 <!-- 2nd photo - Lisbeth -->
-{{< photo-caption "pages/cost-of-dreams" "photo-caption-2" >}}
+{{< photo-caption-vert "pages/cost-of-dreams" "photo-caption-2" >}}
 
 The standards for holding children back in school also changed. Under the new system, teachers must first get parental consent and then the permission of the government. 
 
