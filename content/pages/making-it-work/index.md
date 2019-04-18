@@ -5,7 +5,7 @@ date: 2019-02-04T21:35:11-05:00
 description: "Venezuelans find camaraderie, family and support through sport."
 video: "../making-it-work/assets/econ-headervideo.mp4"
 headerStill: "../making-it-work/assets/econ-headerstill.jpg"
-image: "/making-it-work/assets/econ-homepagestill.jpg"
+image: "../images/econ-homepagestill.jpg"
 storyHeading: "Making It Work"
 storySubheading: "Venezuelans find camaraderie, family and support through sport."
 weight: 2
