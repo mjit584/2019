@@ -39,12 +39,23 @@
       object-fit: cover;
     }
   }
-  
-  
-  .photo__line {
-    border-bottom: solid 1px #707070;
-    margin: 6vh auto;
-    width: 84vw;
+
+  .photo__success-people {
+    margin: 100px auto;
+    
+
+    @media screen and (max-width: 800px) {
+      margin: 60px auto;
+    }
+  }
+
+  .photo__subhead {
+    font-family: $font-subhead;
+    margin-bottom: 0;
+  }
+
+  .center-quote-container {
+    margin-top: 1%;
   }
   
   .interactive__image {
