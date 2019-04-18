@@ -117,7 +117,8 @@ h1, h2, h3, h4, h5, h6 {
   display: none; }
   @media screen and (max-width: 800px) {
     .home #home__intro .home__logo {
-      max-width: 80vw; } }
+      max-width: 80vw;
+      display: flex; } }
 
 .home #home__intro > .ybr-line {
   width: 100%;
@@ -128,7 +129,8 @@ h1, h2, h3, h4, h5, h6 {
   display: none; }
   @media screen and (max-width: 800px) {
     .home #home__intro > .ybr-line {
-      max-width: 50vw; } }
+      max-width: 50vw;
+      display: flex; } }
   .home #home__intro > .ybr-line .ybr-section {
     stroke-width: 4px; }
 
@@ -142,7 +144,9 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center; }
   @media screen and (max-width: 800px) {
     .home #home__intro .home__subtitle {
-      font-size: calc(1rem + 1vw); } }
+      font-size: calc(1rem + 1vw);
+      position: static;
+      opacity: 1; } }
 
 .home #home__intro .home__desc {
   opacity: 0;
@@ -156,7 +160,9 @@ h1, h2, h3, h4, h5, h6 {
   @media screen and (max-width: 800px) {
     .home #home__intro .home__desc {
       max-width: 80vw;
-      line-height: 1.15rem; } }
+      line-height: 1.15rem;
+      position: static;
+      opacity: 1; } }
 
 .home #home__intro .home__explore {
   position: absolute;
@@ -189,17 +195,13 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 400px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, auto);
-  grid-template-areas: "about-bd about-bd about-bd about-bd"
- "about-help about-help about-help about-help"
- "about-ft about-ft about-ft about-ft";
+  grid-template-areas: "about-bd about-bd about-bd about-bd" "about-help about-help about-help about-help" "about-ft about-ft about-ft about-ft";
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .home #home__about {
       padding-top: 25px;
       grid-template-columns: 1fr;
-      grid-template-areas: "about-bd"
- "about-help"
- "about-ft"; } }
+      grid-template-areas: "about-bd" "about-help" "about-ft"; } }
   .home #home__about p {
     max-width: 50vw;
     line-height: 1.5em;
@@ -217,7 +219,8 @@ h1, h2, h3, h4, h5, h6 {
   .home #home__about .about-help {
     grid-area: about-help;
     background-color: #f2f2f2;
-    padding: 4% 0; }
+    padding: 4% 0;
+    text-align: center; }
     .home #home__about .about-help .about-orgs {
       text-align: center;
       width: 75vw;
@@ -270,20 +273,12 @@ h1, h2, h3, h4, h5, h6 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: "nav nav nav nav"
- "story-hero story-hero story-hero story-hero"
- ". by by ."
- "story-bd story-bd story-bd story-bd"
- "story-ft story-ft story-ft story-ft";
+  grid-template-areas: "nav nav nav nav" "story-hero story-hero story-hero story-hero" ". by by ." "story-bd story-bd story-bd story-bd" "story-ft story-ft story-ft story-ft";
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .story-page {
       grid-template-columns: 1fr;
-      grid-template-areas: "nav"
- "story-hero"
- "by"
- "story-bd"
- "story-ft"; } }
+      grid-template-areas: "nav" "story-hero" "by" "story-bd" "story-ft"; } }
   .story-page .story-hero {
     color: #ffffff;
     height: auto;

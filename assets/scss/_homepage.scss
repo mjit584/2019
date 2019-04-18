@@ -93,6 +93,7 @@
 
       @media screen and (max-width: 800px) {
         max-width: 80vw;
+        display: flex;
       }
     }
 
@@ -106,6 +107,7 @@
 
       @media screen and (max-width: 800px) {
         max-width: 50vw;
+        display: flex;
       }
 
       .ybr-section {
@@ -124,6 +126,8 @@
 
       @media screen and (max-width: 800px) {
         font-size: calc(1rem + 1vw);
+        position: static;
+        opacity: 1;
       }
     }
 
@@ -140,6 +144,8 @@
       @media screen and (max-width: 800px) {
         max-width: 80vw;
         line-height: 1.15rem;
+        position: static;
+        opacity: 1;
       }
     }
 
@@ -221,6 +227,7 @@
       grid-area: about-help;
       background-color: $light-grey;
       padding: 4% 0;
+      text-align: center;
 
       .about-orgs {
         text-align: center;

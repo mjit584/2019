@@ -6,16 +6,25 @@ let init = function () {
   // make subtitle text fade in after a certain period of time in the video
   var homeSubtitle = document.getElementById("home-subtitle");
   var homeDesc = document.getElementById("home-desc");
+  var x = window.matchMedia("(max-width: 800px)");
+
+  function dontTimeout(x) {
+    if (x.matches) {
+      window.clearTimeout(fadeInText);
+    }
+  }
+
+  dontTimeout(x); // Call listener function at run time
+  x.addListener(dontTimeout);
 
   window.setTimeout(fadeInText, 4500);
 
   function fadeInText() {
     homeSubtitle.style.opacity = "1";
     homeDesc.style.opacity = "1";
-    homeSubtitle.style.transition = "all 2s ease-in";
-    homeDesc.style.transition = "all 2s ease-in";
+    homeSubtitle.style.transition = "opacity 2s ease-in";
+    homeDesc.style.transition = "opacity 2s ease-in";
   }
-
 
   console.log("init called");
 
