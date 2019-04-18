@@ -862,32 +862,17 @@ nav {
 .no-show {
   opacity: 0; }
 
-.video-btn-container {
-  max-width: 1000px;
-  margin: 0 auto 10% auto; }
-  @media screen and (max-width: 1200px) {
-    .video-btn-container {
-      display: none; } }
-
-#lights-down {
-  background: #c70032;
-  color: #ffffff;
-  font-family: "DDinExpBold", sans-serif;
-  text-transform: uppercase;
-  background-color: #c70032;
-  border-radius: 30px;
-  border: none;
-  padding: 5px;
-  overflow: hidden;
-  white-space: nowrap;
-  margin: 0 auto; }
+#video-top {
+  height: 10vh;
+  padding: 3%;
+  width: 100%; }
 
 .video-container {
   transition: 0.1s background-color;
   height: 55vw;
   max-height: 80vh;
   max-width: 1200px;
-  margin: 60px auto 15px auto; }
+  margin: 60px auto 60px auto; }
   .video-container iframe {
     border: none !important;
     width: 100%;
