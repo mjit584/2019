@@ -11,6 +11,10 @@ menuTrigger.onclick = function () {
   document.getElementById("story-menu-items").classList.remove("show");
   document.getElementById("photo-menu-arrow").classList.remove("turn");
   document.getElementById("photo-menu-items").classList.remove("show");
+  if (menuContainer.classList.contains('open')) {
+    document.getElementById("story-menu-arrow").classList.add("turn");
+    document.getElementById("story-menu-items").classList.add("show");
+  };
 }
 
 /* Mobile inner menus */
