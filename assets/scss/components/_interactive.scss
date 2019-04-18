@@ -1,15 +1,5 @@
 // I created a class called "interactive" that goes on each and every interactive created and it has some global stylings I want to keep for EACH interactive piece so they'll pertain to EVERY interactive
 
-.divider {
-  border-bottom: solid 1px #707070;
-  margin: 10vh auto;
-  width: 60vw;
-
-  @media screen and (max-width: 800px) {
-    width: 85vw;
-  }
-}
-
 .interactive {
   max-width: 100%;
   transition: 1s opacity;
@@ -79,6 +69,7 @@
 .flourish {
   max-width: 85vw;
   margin:4vh auto;
+  transition: opacity 1s ease-in-out;
 
   @media screen and (max-width: 800px){
       max-width: 85vw;
