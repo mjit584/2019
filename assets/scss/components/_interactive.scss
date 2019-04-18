@@ -19,24 +19,30 @@
 
   .interactive__title {
     font-family: $font-int-header;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-transform: uppercase;
-    margin: 0;
+    margin: 0 auto;
     font-weight: $font-weight-normal;
   }
 
   .interactive__subhead {
     font-family: $font-int-subhead;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    margin: auto;
     margin-top: 1vh;
     margin-bottom: 2vh;
     font-weight: $font-weight-normal;
+    // max-width: 75vw;
   }
 
   .interactive__intro {
     font-family: $font-int-intro;
     margin-top: 0 !important;
     font-size: 1.2rem;
+    max-width: 75%;
+    margin: 2vw auto;
+    text-align: left;
+
   }
 
   .interactive__instructions {

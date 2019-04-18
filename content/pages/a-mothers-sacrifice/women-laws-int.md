@@ -9,7 +9,7 @@ graphics:
 <section class="interactive" id="womenSlider">
   <h2 class="interactive__title">The Legal Status of Prostitution</h2><br/>
   {{< ybr-line >}}
-  <p class="interactive__intro">Prostitution exists on a spectrum when it comes to the law. Drag the slider below to explore the status of prostitution in Venezuela, Colombia and the United States. </p>
+  <div class="interactive__intro">Prostitution exists on a spectrum when it comes to the law. Drag the slider below to explore the status of prostitution in Venezuela, Colombia and the United States. </div>
 
  <div id="slidecontainer">
    <div class="sliderlabels">
