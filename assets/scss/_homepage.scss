@@ -14,6 +14,25 @@
     position: relative;
   }
 
+  .home-video {
+    display: block;
+    position: relative; // Play the video in full screen mode
+    margin-top: 55px;
+    top: 0px;
+    left: 0px;
+    z-index: -1; // Put the video behind all other elements
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+    border-radius: 1px;
+    object-fit: cover;
+    object-position: top left;
+
+    @media screen and (max-width: 800px) {
+      display: none;
+    }
+  }
+
   .home__subhead {
     font-family: $font-subhead;
     font-weight: normal;
@@ -57,15 +76,15 @@
   }
 
   #home__intro {
-    background-image: linear-gradient(
-        rgba(0, 57, 115, 0.85),
-        rgba(8, 19, 58, 0.25)
-      ),
-      url(../images/home5.JPG);
+    // background-image: linear-gradient(
+    //     rgba(0, 57, 115, 0.85),
+    //     rgba(8, 19, 58, 0.25)
+    //   ),
+    //   url(../images/home5.JPG);
 
-    @media screen and (max-width: 800px) {
-      justify-content: center;
-    }
+    // @media screen and (max-width: 800px) {
+    //   justify-content: center;
+    // }
 
     .home__logo {
       max-width: 40vw;
@@ -93,6 +112,9 @@
     }
 
     .home__subtitle {
+      opacity: 0;
+      position: absolute;
+      bottom: 35%;
       font-family: $font-hero-subtitle;
       font-weight: $font-weight-normal;
       font-size: 1.8rem;
@@ -105,6 +127,9 @@
     }
 
     .home__desc {
+      opacity: 0;
+      position: absolute;
+      bottom: 20%;
       font-family: $font-hero-desc;
       max-width: 55vw;
       line-height: $line-height-base;
@@ -118,6 +143,8 @@
     }
 
     .home__explore {
+      position: absolute;
+      bottom: 10%;
       font-family: $font-button;
       font-size: 1.3rem;
       text-align: center;

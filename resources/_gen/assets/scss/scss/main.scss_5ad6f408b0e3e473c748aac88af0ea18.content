@@ -50,6 +50,23 @@ body {
   height: 100%;
   position: relative; }
 
+.home .home-video {
+  display: block;
+  position: relative;
+  margin-top: 55px;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  max-height: 100vh;
+  border-radius: 1px;
+  object-fit: cover;
+  object-position: top left; }
+  @media screen and (max-width: 800px) {
+    .home .home-video {
+      display: none; } }
+
 .home .home__subhead {
   font-family: "DDinBold", sans-serif;
   font-weight: normal;
@@ -86,67 +103,74 @@ body {
   .home #home__cards {
     height: 250vh; } }
 
-.home #home__intro {
-  background-image: linear-gradient(rgba(0, 57, 115, 0.85), rgba(8, 19, 58, 0.25)), url(../images/home5.JPG); }
+.home #home__intro .home__logo {
+  max-width: 40vw;
+  height: auto; }
   @media screen and (max-width: 800px) {
-    .home #home__intro {
-      justify-content: center; } }
-  .home #home__intro .home__logo {
-    max-width: 40vw;
-    height: auto; }
-    @media screen and (max-width: 800px) {
-      .home #home__intro .home__logo {
-        max-width: 80vw; } }
-  .home #home__intro > .ybr-line {
-    width: 100%;
-    height: 10px;
-    margin-top: 1.3%;
-    margin-bottom: 1%;
-    max-width: 26vw; }
-    @media screen and (max-width: 800px) {
-      .home #home__intro > .ybr-line {
-        max-width: 50vw; } }
-    .home #home__intro > .ybr-line .ybr-section {
-      stroke-width: 4px; }
-  .home #home__intro .home__subtitle {
-    font-family: "DDinRegular", serif;
-    font-weight: 400;
-    font-size: 1.8rem;
-    margin: 0 25px 10px 25px;
-    text-align: center; }
-    @media screen and (max-width: 800px) {
-      .home #home__intro .home__subtitle {
-        font-size: calc(1rem + 1vw); } }
-  .home #home__intro .home__desc {
-    font-family: "Lato", sans-serif;
-    max-width: 55vw;
-    line-height: 1.5em;
-    font-size: 1rem;
-    color: #ffffff; }
-    @media screen and (max-width: 800px) {
-      .home #home__intro .home__desc {
-        max-width: 80vw;
-        line-height: 1.15rem; } }
-  .home #home__intro .home__explore {
-    font-family: "DDinExpBold", sans-serif;
-    font-size: 1.3rem;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 15px; }
-    @media screen and (max-width: 800px) {
-      .home #home__intro .home__explore {
-        display: none; } }
-    .home #home__intro .home__explore p {
-      margin-bottom: 10px; }
-    .home #home__intro .home__explore i {
-      color: #ffffff;
-      width: 30px;
-      height: 30px;
-      background: #c70032;
-      border-radius: 100%;
-      padding: 5px;
-      padding-top: 6px;
-      margin: 0 auto; }
+    .home #home__intro .home__logo {
+      max-width: 80vw; } }
+
+.home #home__intro > .ybr-line {
+  width: 100%;
+  height: 10px;
+  margin-top: 1.3%;
+  margin-bottom: 1%;
+  max-width: 26vw; }
+  @media screen and (max-width: 800px) {
+    .home #home__intro > .ybr-line {
+      max-width: 50vw; } }
+  .home #home__intro > .ybr-line .ybr-section {
+    stroke-width: 4px; }
+
+.home #home__intro .home__subtitle {
+  opacity: 0;
+  position: absolute;
+  bottom: 35%;
+  font-family: "DDinRegular", serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin: 0 25px 10px 25px;
+  text-align: center; }
+  @media screen and (max-width: 800px) {
+    .home #home__intro .home__subtitle {
+      font-size: calc(1rem + 1vw); } }
+
+.home #home__intro .home__desc {
+  opacity: 0;
+  position: absolute;
+  bottom: 20%;
+  font-family: "Lato", sans-serif;
+  max-width: 55vw;
+  line-height: 1.5em;
+  font-size: 1rem;
+  color: #ffffff; }
+  @media screen and (max-width: 800px) {
+    .home #home__intro .home__desc {
+      max-width: 80vw;
+      line-height: 1.15rem; } }
+
+.home #home__intro .home__explore {
+  position: absolute;
+  bottom: 10%;
+  font-family: "DDinExpBold", sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 15px; }
+  @media screen and (max-width: 800px) {
+    .home #home__intro .home__explore {
+      display: none; } }
+  .home #home__intro .home__explore p {
+    margin-bottom: 10px; }
+  .home #home__intro .home__explore i {
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    background: #c70032;
+    border-radius: 100%;
+    padding: 5px;
+    padding-top: 6px;
+    margin: 0 auto; }
 
 .home #home__about {
   background: #ffffff;
