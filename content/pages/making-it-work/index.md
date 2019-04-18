@@ -110,3 +110,7 @@ Velasquez and the rest of Vinotinto have also faced discrimination on the field.
 Instead of focusing on the insults, the team concentrates on their technique, plays and communication—on and off the field.
 
 “The most beautiful thing is that Laurenti [Velasquez]—and the rest of us who are immigrants—found in the team the family that we left behind,” Alvaro said. “You find people that you can speak Venezuelan with, not Spanish.”
+
+{{< center-quote "pages/making-it-work" "pull-quote-lilia" >}}
+
+{{< center-quote "pages/making-it-work" "pull-quote-alvaro" >}}
