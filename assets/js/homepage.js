@@ -2,45 +2,15 @@
 // Homepage js
 
 let init = function () {
+
+  // make subtitle text fade in after a certain period of time in the video
+  var homeSubtitle = document.getElementById("home-subtitle");
+  var homeDesc = document.getElementById("home-desc");
+
+  window.setTimeout(fadeInText, 4000);
+
+
   console.log("init called");
-
-  // SCROLLMAGIC
-
-  // Natural screen wipes using example code: http://scrollmagic.io/examples/basic/section_wipes_natural.html
-
-  // init controller
-  // let controller = new ScrollMagic.Controller({
-  //   globalSceneOptions: {
-  //     triggerHook: 'onLeave'
-  //   }
-  // });
-
-  // get all slides
-  // let slides = document.querySelectorAll("section.panel");
-
-  // let scene1 = new ScrollMagic.Scene({
-  //   triggerElement: slides[0],
-  //   duration: 1
-  // })
-  //   .setPin(slides[0], { pushFollowers: false })
-  //   .addTo(controller);
-
-  // let scene2 = new ScrollMagic.Scene({
-  //   triggerElement: slides[1],
-  //   duration: 300
-  // })
-  //   .setPin(slides[1], { pushFollowers: false })
-  //   .addTo(controller);
-
-  // controller.scrollPos(function () {
-  //   if (window.innerWidth >= 800) {
-  //     return window.pageYOffset;
-  //   } else {
-  //     return 0;
-  //   }
-  // });
-
-  // Kill scrollmagic on mobile
 
   var tooSmall = false;
   var controller = null;
