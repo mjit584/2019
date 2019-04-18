@@ -54,7 +54,7 @@ body {
   font-family: "DDinBold", sans-serif;
   font-weight: normal;
   max-width: 50vw;
-  margin: 3vh auto;
+  margin: 0 auto;
   font-size: 2rem;
   justify-content: center;
   align-items: center;
@@ -178,7 +178,9 @@ body {
   .home #home__about .about-content {
     grid-area: about-bd; }
   .home #home__about .about-help {
-    grid-area: about-help; }
+    grid-area: about-help;
+    background-color: #f2f2f2;
+    padding: 4% 0; }
     .home #home__about .about-help .about-orgs {
       text-align: center;
       width: 75vw;
