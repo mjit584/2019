@@ -21,9 +21,13 @@ menuTrigger.onclick = function () {
 function showStoryMenu() {
   document.getElementById("story-menu-arrow").classList.toggle("turn");
   document.getElementById("story-menu-items").classList.toggle("show");
+  document.getElementById("photo-menu-arrow").classList.remove("turn");
+  document.getElementById("photo-menu-items").classList.remove("show");
 }
 
 function showPhotoMenu() {
   document.getElementById("photo-menu-arrow").classList.toggle("turn");
   document.getElementById("photo-menu-items").classList.toggle("show");
+  document.getElementById("story-menu-arrow").classList.remove("turn");
+  document.getElementById("story-menu-items").classList.remove("show");
 }
