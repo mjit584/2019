@@ -5,7 +5,7 @@ date: 2019-02-04T21:35:29-05:00
 description: "A family’s sacrifice for their children’s health still has roadblocks."
 video: "../greater-than-death/assets/health-headervideo.mp4"
 headerStill: "../greater-than-death/assets/health-headerstill.jpg"
-image: "../images/health-homepagestill.jpg"
+image: "./images/health-homepagestill.jpg"
 storyHeading: "Greater than Death"
 storySubheading: "A family’s sacrifice for their children’s health still has roadblocks."
 weight: 3
