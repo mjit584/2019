@@ -9,7 +9,7 @@ graphics:
 <section class="interactive" id="womenSlider2">
   <h2 class="interactive__title">Come To Terms</h2><br/>
   {{< ybr-line >}}
-  <p class="interactive__intro">The main difference between prostitution and sex trafficking is that prostitution is voluntary while sex trafficking relies on the use of force. Sex trafficking is a global crime, while prostitution is permitted and regulated in many countries around the world, from Venezuela to India. Often prostitutes become victims of sex trafficking because they find themselves in vulnerable situations. Sex tourists often exploit minors or hire victims of sex trafficking.</p>
+  <div class="interactive__intro">The main difference between prostitution and sex trafficking is that prostitution is voluntary while sex trafficking relies on the use of force. Sex trafficking is a global crime, while prostitution is permitted and regulated in many countries around the world, from Venezuela to India. Often prostitutes become victims of sex trafficking because they find themselves in vulnerable situations. Sex tourists often exploit minors or hire victims of sex trafficking.</div>
   <svg class="venn-diagram" width="90%" height="80vh" style="max-height:700px" viewBox="-5 -5 819 730" fill="none" xmlns="http://www.w3.org/2000/svg">
     <circle class="vd-circle vd-big vd-yellow vd-prostitution" onclick="showDef('prostitution-def')" cx="262.5" cy="262.5" r="262.5" fill-opacity="0.5"/>
     <circle class="vd-circle vd-big vd-blue vd-sex-trafficking" onclick="showDef('sex-trafficking-def')" cx="551.5" cy="433.5" r="262.5" fill-opacity="0.5"/>
