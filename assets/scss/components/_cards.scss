@@ -231,12 +231,13 @@
       margin: 0 auto;
 
       @media screen and (max-width: 800px) {
-        width: auto;
-        height: auto;
-        padding: 5px 25px;
-        background-color: transparent;
-        border: solid 2px $red;
-        transition: background-color .3s, color .3s;
+        display: none;
+        // width: auto;
+        // height: auto;
+        // padding: 5px 25px;
+        // background-color: transparent;
+        // border: solid 2px $red;
+        // transition: background-color .3s, color .3s;
       }
 
       a {
@@ -309,10 +310,6 @@
 
       .card__button {
         display: none;
-
-        @media screen and (max-width: 800px) {
-          display: inline-block;
-        }
       }
 
     }
