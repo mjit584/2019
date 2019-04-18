@@ -25,7 +25,7 @@ slider.oninput = function () {
 		illegal.style.fontWeight = "200";
 	}
 	else if (this.value > 75 && this.value < 100) {
-		category.innerHTML = "<div class='laws'><div class='map'><img src='assets/usa.png'><p>USA</p></div><div class='desc'><p>Prostitution is <strong>prohibited</strong> except in Nevada, where it is legal in 12 out of 16 counties.</p><h3>Did You Know?</h3><ul><li>Atlanta, GA is one of the most profitable places for prostitution in the United States. The sex industry was worth $290 million there as of 2007. </li><li>In spring 2018, two events took place that made it harder for sex trafficking to live online. Firstly, the FBI shut down Backpage.com, which was a top site for posting online sex ads. Secondly, President Donald Trump signed two new bills (SOSTA and FESTA), which made websites directly liable for hosting sex trafficking activity. </li></ul></div></div>";
+		category.innerHTML = "<div class='laws'><div class='map'><img src='assets/usa.png'><p>USA</p></div><div class='desc'><p>Prostitution is <strong>prohibited</strong> except in Nevada, where it is legal in 12 out of 16 counties.</p><h3>Did You Know?</h3><ul><li>Atlanta is one of the most profitable places for prostitution in the United States. The sex industry was worth $290 million there as of 2007. </li><li>In spring 2018, two events took place that made it harder for sex trafficking to live online. Firstly, the FBI shut down Backpage.com, which was a top site for posting online sex ads. Secondly, President Donald Trump signed two new bills (SOSTA and FESTA), which made websites directly liable for hosting sex trafficking activity. </li></ul></div></div>";
 		slider.style.background = "#C70032";
 		legal.style.fontWeight = "200";
 		depends.style.fontWeight = "200";
