@@ -97,7 +97,7 @@
 
     .story-title {
       font-family: $font-card-title;
-      margin-bottom: 5px;
+      margin-bottom: 0;
     }
 
     .ybr-line {
@@ -114,6 +114,7 @@
       font-family: $font-card-desc;
       font-weight: $font-weight-bold;
       transition: display .4s;
+      margin-top: 0;
     }
   }
 }
