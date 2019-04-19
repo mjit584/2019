@@ -47,7 +47,6 @@
 
     @media screen and (max-width: 800px) {
       max-width: 75vw;
-      margin: 3% auto;
     }
   }
   
@@ -208,7 +207,7 @@
       min-width: 50vw;
       line-height: $line-height-base;
       font-family: $font-content-body;
-      margin: 2vw auto;
+      margin: 20px auto;
       transition: 1s opacity;
 
       &:first-child {
@@ -217,7 +216,7 @@
 
       @media screen and (max-width: 800px) {
         max-width: 85vw;
-        padding: 3% 0;
+        margin: 18px auto;
       }
     }
 
@@ -225,10 +224,14 @@
       grid-area: about-bd;
     }
 
+    #video-top {
+      display: none;
+    }
+
     .about-help {
       grid-area: about-help;
       background-color: $light-grey;
-      padding: 4% 0;
+      padding: 35px 0;
       text-align: center;
 
       .about-orgs {
@@ -292,7 +295,7 @@
         width: 680px;
         min-width: 50vw;
         line-height: $line-height-base;
-        margin: 2vw auto;
+        margin: 20px auto;
         transition: 1s opacity;
 
         &:first-child {
@@ -301,6 +304,7 @@
 
         @media screen and (max-width: 800px) {
           max-width: 85vw;
+          margin: 18px auto;
         }
       }
     }

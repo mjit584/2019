@@ -83,8 +83,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center; }
   @media screen and (max-width: 800px) {
     .home .home__subhead {
-      max-width: 75vw;
-      margin: 3% auto; } }
+      max-width: 75vw; } }
 
 @media screen and (max-width: 800px) {
   .home nav {
@@ -208,20 +207,22 @@ h1, h2, h3, h4, h5, h6 {
     min-width: 50vw;
     line-height: 1.5em;
     font-family: "Georgia", serif;
-    margin: 2vw auto;
+    margin: 20px auto;
     transition: 1s opacity; }
     .home #home__about p:first-child {
       margin-top: 3vw; }
     @media screen and (max-width: 800px) {
       .home #home__about p {
         max-width: 85vw;
-        padding: 3% 0; } }
+        margin: 18px auto; } }
   .home #home__about .about-content {
     grid-area: about-bd; }
+  .home #home__about #video-top {
+    display: none; }
   .home #home__about .about-help {
     grid-area: about-help;
     background-color: #f2f2f2;
-    padding: 4% 0;
+    padding: 35px 0;
     text-align: center; }
     .home #home__about .about-help .about-orgs {
       text-align: center;
@@ -263,13 +264,14 @@ h1, h2, h3, h4, h5, h6 {
       width: 680px;
       min-width: 50vw;
       line-height: 1.5em;
-      margin: 2vw auto;
+      margin: 20px auto;
       transition: 1s opacity; }
       .home #home__about .about-title p:first-child {
         margin-top: 3vw; }
       @media screen and (max-width: 800px) {
         .home #home__about .about-title p {
-          max-width: 85vw; } }
+          max-width: 85vw;
+          margin: 18px auto; } }
   .home #home__about footer {
     grid-area: about-ft; }
 
@@ -930,8 +932,7 @@ nav {
   opacity: 0; }
 
 #video-top {
-  height: 5vh;
-  padding: 3%;
+  height: 60px;
   width: 100%; }
 
 .video-container {
@@ -2622,7 +2623,8 @@ footer {
     text-decoration: none; }
   footer .footer__stories {
     background-color: #f2f2f2;
-    width: 100%; }
+    width: 100%;
+    padding: 24px 0; }
     footer .footer__stories.footer__stories--mobile {
       display: none; }
       footer .footer__stories.footer__stories--mobile .footer__title {
@@ -2637,7 +2639,7 @@ footer {
           footer .footer__stories.footer__stories--mobile .footer__cards .footer__card:not(:last-of-type) {
             border-bottom: solid 1px #707070; }
     footer .footer__stories .footer__title {
-      margin: 25px auto;
+      margin: 12px auto 25px;
       font-family: "DDinBold", sans-serif;
       font-size: 2rem;
       text-align: center; }
@@ -2647,7 +2649,7 @@ footer {
       flex-wrap: wrap; }
       footer .footer__stories .footer__cards .footer__card {
         display: block;
-        margin: 8px;
+        margin: 0 8px;
         width: 13.75vw;
         max-width: 180px;
         text-decoration: none; }
@@ -2677,7 +2679,7 @@ footer {
       display: none; }
       footer .footer__stories.footer__stories--mobile {
         display: block;
-        padding: 5% 24% 7%; } }
+        padding: 25px 20vw; } }
   footer .footer__social {
     margin: 0 auto;
     margin-top: 50px;
