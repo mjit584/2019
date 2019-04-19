@@ -60,7 +60,7 @@ Alejandrina is on maternity leave from her job as a public school teacher. She d
 
 “There is no birth citizen right in Colombia,” Alejandrina said. “So giving birth here was not a possibility.”
 
-<div class="story__subhead flex-column">Every student passes</div>
+<div class="story__subhead flex-column">'Every student passes'</div>
 
 As Venezuelans tried to overcome the economic and political crisis, Jeham's family wrestled to get through. Eventually, Jeham’s parents split. 
 
