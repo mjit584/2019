@@ -2346,6 +2346,9 @@ nav {
   text-align: left;
   font-size: 1.3rem;
   line-height: 1.7em; }
+  .bubble .scrolly__text-container {
+    background-color: #fafafa;
+    padding: 2%; }
   .bubble img {
     margin: 10px auto; }
   .bubble .center {
