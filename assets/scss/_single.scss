@@ -189,6 +189,17 @@
       }
     }
 
+    .photo-caption-container-vert {
+      margin: 10vh auto;
+
+      .caption {
+        p {
+          width: 680px;
+          min-width: 50vw;
+        }
+      }
+    }
+
     .ybr-line {
       transition: 1s opacity;
     }
