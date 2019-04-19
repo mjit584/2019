@@ -709,16 +709,29 @@ nav {
 
 .photo .photo__success-people {
   margin: 100px auto; }
+  .photo .photo__success-people h2 {
+    text-align: center; }
+  .photo .photo__success-people p {
+    width: 60vw; }
+  .photo .photo__success-people .photo__subhead {
+    font-family: "DDinBold", sans-serif;
+    margin-bottom: 20px;
+    font-size: 2.1rem; }
+  .photo .photo__success-people .center-quote-container {
+    margin-top: 1%; }
+    .photo .photo__success-people .center-quote-container p {
+      max-width: 820px; }
+    @media screen and (max-width: 800px) {
+      .photo .photo__success-people .center-quote-container p {
+        width: 93vw;
+        line-height: 1.25em; } }
   @media screen and (max-width: 800px) {
     .photo .photo__success-people {
-      margin: 60px auto; } }
-
-.photo .photo__subhead {
-  font-family: "DDinBold", sans-serif;
-  margin-bottom: 0; }
-
-.photo .center-quote-container {
-  margin-top: 1%; }
+      margin: 60px auto; }
+      .photo .photo__success-people img {
+        width: 100%; }
+      .photo .photo__success-people p {
+        width: 85vw; } }
 
 .photo .interactive__image {
   position: relative;
