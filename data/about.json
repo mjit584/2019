@@ -42,7 +42,7 @@
     "website": "https://www.jasonarmondphoto.com/",
     "img": "assets/jason-headshot.jpg",
     "desc": "Hello, I'm Jason Armond a senior studying media and journalism, with an emphasis in photo and video journalism and graphic design. Creating compelling visual content that is engaging and rooted in storytelling is what drives me. Fun fact about me is I have never had a pet. When I finally get a pet, it will be an English Bulldog.",
-    "symbol": ""
+    "symbol": "undefined"
   },
   {
     "first": "Abby",
@@ -57,7 +57,7 @@
     "website": "abbyrcantrell.com",
     "img": "assets/abby-headshot.jpg",
     "desc": "I'm Abby, a junior journalism and politcal science double major. I love dogs, naps and pizza.",
-    "symbol": ""
+    "symbol": "undefined"
   },
   {
     "first": "María Alejandra",
@@ -87,7 +87,7 @@
     "website": "http://www.jchriscarmichael.com/",
     "img": "assets/chris-headshot.jpg",
     "desc": "Waiting for my bio...",
-    "symbol": ""
+    "symbol": "undefined"
   },
   {
     "first": "Bryan",
@@ -102,7 +102,7 @@
     "website": "bryancereijo.com",
     "img": "assets/bryan-headshot.jpg",
     "desc": "I'm Bryan Cereijo, a visual communications graduate student. I am a Cuban-American visual storyteller from Miami, FL. I am specifically interested in narratives that relate to sports and culture.",
-    "symbol": ""
+    "symbol": "undefined"
   },
   {
     "first": "Nash",
@@ -132,7 +132,7 @@
     "website": "",
     "img": "assets/brooklynn-headshot.jpg",
     "desc": "I'm Brooklynn, a senior studying journalism with a concentration in reporting and hispanic linguistics. I'm the 6-year reigning president of my personal Justin Bieber stan club and also an Oreo enthusiast.",
-    "symbol": ""
+    "symbol": "undefined"
   },
   {
     "first": "Landon",
@@ -147,7 +147,7 @@
     "website": "http://landoncoopermedia.com",
     "img": "assets/landon-headshot.jpg",
     "desc": "Hey everybody, I'm Landon, and I'm a photographer and videographer. I have no children, but I'm sublime at dad jokes. I love long walks on the beach, taking portraits and telling stories.",
-    "symbol": ""
+    "symbol": "undefined"
   },
   {
     "first": "Paul",
@@ -162,7 +162,7 @@
     "website": "",
     "img": "assets/silhouette-headshot-man.png",
     "desc": "I am an associate professor, investigative reporter and author with a focus on issues of race and poverty in America. I love fútbol and storytelling.",
-    "symbol": ""
+    "symbol": "undefined"
   },
   {
     "first": "Pat",
@@ -177,7 +177,7 @@
     "website": "",
     "img": "assets/pat-headshot.jpg",
     "desc": "Waiting for my bio...",
-    "symbol": ""
+    "symbol": "undefined"
   },
   {
     "first": "Sally",
@@ -237,7 +237,7 @@
     "website": "http://brookesnook.us",
     "img": "assets/brooke-headshot.jpg",
     "desc": "I’m Brooke, senior interactive multimedia major. When I’m not coding, you can find me writing, cooking or cheering on the UNC basketball team from the band section.",
-    "symbol": ""
+    "symbol": "a globe"
   },
   {
     "first": "Haley",
@@ -267,7 +267,7 @@
     "website": "",
     "img": "assets/lauragarcia-headshot.jpg",
     "desc": "If there were words to describe my contradictory self I would say I’m a passionate about movement (ballet dancer) with some senses for storytelling.",
-    "symbol": ""
+    "symbol": "undefined"
   },
   {
     "first": "Tenley",
@@ -387,7 +387,7 @@
     "website": "",
     "img": "assets/juan-headshot.jpg",
     "desc": "Hey there! I'm Juan, a social communication student. I'm 20 years old, and I'm a politics and history lover. I have three beautiful and fluffy cats (if I had a bigger house, I would have more!) I like to learn about EVERYTHING, and that's why I enjoy meeting people from other countries. I also like dancing, playing video games and walking through the city.",
-    "symbol": ""
+    "symbol": "undefined"
   },
   {
     "first": "Andrea",
@@ -402,7 +402,7 @@
     "website": "",
     "img": "assets/andrea-headshot.jpg",
     "desc": "I'm Andrea, a journalism student with a focus on photography and video. I also play rugby and work as a researcher for a TV program.",
-    "symbol": ""
+    "symbol": "undefined"
   },
   {
     "first": "Sara",
@@ -432,7 +432,7 @@
     "website": "AndieRea.com",
     "img": "assets/andie-headshot.jpg",
     "desc": "I am a visual media creator inspired by the power of story to shape ideas and create change. I enjoy adventures with my family and trying new foods.",
-    "symbol": ""
+    "symbol": "undefined"
   },
   {
     "first": "Margarita María",
@@ -447,7 +447,7 @@
     "website": "",
     "img": "assets/margarita-headshot.jpg",
     "desc": "",
-    "symbol": ""
+    "symbol": "undefined"
   },
   {
     "first": "Tamara",
@@ -462,7 +462,7 @@
     "website": "",
     "img": "assets/tamara-headshot.jpg",
     "desc": "I'm Tamara, the interactive coach for Uprooted. I love finding ways to tell stories in visual and interactive ways, and I'm always inspired by the energy and commitment my students bring to their work.",
-    "symbol": ""
+    "symbol": "undefined"
   },
   {
     "first": "Zayrha",
@@ -507,7 +507,7 @@
     "website": "",
     "img": "assets/silhouette-headshot-woman.png",
     "desc": "I am a teaching associate professor in the School of Media and Journalism and a senior enterprise editor at HuffPost. When I am not wrangling commas, I am wrangling my two small humans.",
-    "symbol": ""
+    "symbol": "undefined"
   },
   {
     "first": "Amy",
@@ -552,7 +552,7 @@
     "website": "https://www.instagram.com/martin_in_raw/",
     "img": "assets/martin-headshot.jpg",
     "desc": "I'm Martín Villaneda, Colombian student of journalism at Universidad Pontificia Bolivariana in Medellín and a photojournalist. I speak four languages: English, French, Italian and Spanish, my native language. I'm 20 years old, and someday I'll win a World Press Photography award.",
-    "symbol": ""
+    "symbol": "undefined"
   },
   {
     "first": "Maria Elena",
@@ -567,6 +567,6 @@
     "website": "http://www.mariaevizcaino.com/",
     "img": "assets/maria-headshot.jpg",
     "desc": "I am a journalist born and raised in Caracas, Venezuela. Sophomore year of high school I moved to Miami, Florida, and now I’ve traded the beach and the heat for the mountains and the chilly breeze of North Carolina. If I'm not asking questions, find me eating arepas or compulsively cleaning my house.",
-    "symbol": ""
+    "symbol": "undefined"
   }
 ]

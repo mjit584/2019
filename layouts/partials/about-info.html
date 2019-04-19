@@ -1,5 +1,9 @@
 <div class="mix about__person {{ .filter }}">
-  <img src="{{ .img }}" alt="{{ .first }}{{ .last }}" title="An icon that describes me: {{ .symbol }}" />
+  {{ if ne .symbol "undefined"}}
+  <img src="{{ .img }}" alt="{{ .first }}{{ .last }}" title="An icon that describes {{ .first }}: {{ .symbol }}" />
+  {{ else }}
+  <img src="{{ .img }}" alt="{{ .first }}{{ .last }}" title="{{ .first }} {{ .last}}" />
+  {{ end }}
   <div class="about__info flex-column">
     {{ if eq .website ""}}
     <span class="about__name">{{.first }} {{ .last }}</span>
