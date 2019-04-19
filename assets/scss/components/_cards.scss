@@ -62,7 +62,6 @@
 
       .card__desc {
         max-width: 90%;
-        margin: 2% auto;
       }
     }
 
@@ -145,7 +144,7 @@
           transition-delay: .1s;
           font-size: 2.5rem;
           line-height: 2.3rem;
-          padding: 0 50px 10px;
+          padding: 10px 25px;
         }
 
         .card__desc {
@@ -192,7 +191,7 @@
     }
 
     .ybr-line {
-      max-width: 80px;
+      max-width: 70px;
       height: 10px;
 
       .ybr-section {
@@ -216,7 +215,7 @@
       font-size: 1rem;
       font-family: $font-card-desc;
       font-weight: $font-weight-bold;
-      margin-bottom: 10px;
+      margin: 0 auto 20px;
       padding: 0 25px;
     }
 
@@ -228,37 +227,20 @@
       border-radius: 30px;
       height: 28px;
       width: 35px;
-      padding: 0 5px;
+      padding: 5px;
       overflow: hidden;
       white-space: nowrap;
       margin: 0 auto;
 
       @media screen and (max-width: 800px) {
         display: none;
-        // width: auto;
-        // height: auto;
-        // padding: 5px 25px;
-        // background-color: transparent;
-        // border: solid 2px $red;
-        // transition: background-color .3s, color .3s;
       }
 
-      a {
+      .card__button-text {
         position: absolute;
-        top: 5px;
         right: 10px;
         color: $white;
         text-decoration: none;
-
-        @media screen and (max-width: 800px) {
-          position: static;
-        }
-      }
-
-      i {
-        @media screen and (max-width: 800px) {
-          display: none;
-        }
       }
     }
 
