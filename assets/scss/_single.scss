@@ -1,11 +1,10 @@
 .story-page {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, auto);
+  grid-template-rows: repeat(4, auto);
   grid-template-areas:
     "nav nav nav nav"
     "story-hero story-hero story-hero story-hero"
-    ". by by ."
     "story-bd story-bd story-bd story-bd"
     "story-ft story-ft story-ft story-ft";
   transition: 0.5s background-color;
@@ -15,7 +14,6 @@
     grid-template-areas:
       "nav"
       "story-hero"
-      "by"
       "story-bd"
       "story-ft";
   }
@@ -38,7 +36,7 @@
     .story-video {
       display: block;
       position: relative; // Play the video in full screen mode
-      margin-top: 55px;
+      margin-top: 54px;
       top: 0px;
       left: 0px;
       z-index: -1; // Put the video behind all other elements
@@ -113,6 +111,7 @@
 
       @media screen and (max-width: 800px) {
         position: static;
+        width: 85vw;
       }
 
       .story-hero__title {
@@ -131,6 +130,7 @@
 
       .story-hero__desc {
         font-family: $font-hero-desc;
+        margin: 5px 0;
 
         @media screen and (max-width: 800px) {
           color: $black;
@@ -152,14 +152,15 @@
 
     .story__subhead {
       font-family: $font-content-heading;
-      max-width: 50vw;
+      width: 680px;
+      min-width: 50vw;
       font-size: 2rem;
       justify-content: flex-start;
       align-items: flex-start;
-      margin: 0 auto;
-      margin-bottom: 15px;
+      margin: 45px auto 20px;
 
       @media screen and (max-width: 800px) {
+        margin: 35px auto 15px;
         max-width: 85vw;
       }
     }
@@ -170,15 +171,19 @@
       padding: 2%;
     }
 
+    &>p {
+      width: 680px;
+      min-width: 50vw;
+    }
+
     p {
-      max-width: 50vw;
       line-height: $line-height-base;
-      margin: 2vw auto;
+      margin: 20px auto;
       transition: 1s opacity;
       font-size: 1.125rem;
 
       @media screen and (max-width: 800px) {
-        margin: 5vw auto;
+        margin: 18px auto;
         max-width: 85vw;
         font-size: 1rem;
       }

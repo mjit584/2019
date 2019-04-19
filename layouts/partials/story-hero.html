@@ -1,8 +1,6 @@
 <div class="flex-column hero-image story-hero bg-cover bg-position-center overlay">
   {{ if eq .layout "about" }}
-  <div class="hero__img-container">
-    <img src="{{.image}}" alt="A photo of the MEJO 584 team" />
-  </div>
+  <img class="about__hero-img" src="{{.image}}" alt="A photo of the MEJO 584 team" />
   {{ else if eq .layout "photo-pages" }}
   <img class="photo__hero-img" src="{{.image}}" alt="{{.alt}}" />
   <div class="story-hero__topic">

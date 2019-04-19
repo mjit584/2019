@@ -1,27 +1,48 @@
 .about{
   font-family: $font-about-info;
-  font-size: 1rem;
-  line-height: 1.5rem;
 
   .story-hero {
-    width: 100%;
-    padding-top: 50%; 
+    color: $white;
+    height: auto;
+    max-height: 100vh;
+    overflow: hidden;
     position: relative;
+    text-align: center;
+    grid-area: story-hero;
+    justify-content: flex-start;
+    transition: 1s opacity;
+
+    @media screen and (max-width: 800px) {
+      height: 30vh;
+      padding-bottom: 0;
+    }
+
+    .about__hero-img {
+      background-color: $yellow;
+      display: block;
+      position: relative;
+      top: 0;
+      left: 0px;
+      z-index: -1;
+      width: 100%;
+      height: auto;
+      max-height: 100vh;
+      border-radius: 1px;
+      object-fit: cover;
+      object-position: center;
     
-    .hero__img-container {
+      @media screen and (max-width: 800px) {
         position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 30vh;
+        border-radius: none;
+        margin: 0;
+        z-index: 0;
+        object-fit: cover;
       }
-    
+    }
 
     .about__heading {
       font-family: $font-content-heading;
@@ -36,28 +57,42 @@
   }
 
   .about__intro {
-    padding-top: 2%;
-    margin: 0 35px;
-    margin-top: 25px;
+    margin: 0 auto;
+    width: 680px;
+    min-width: 50vw;
+
+    @media screen and (max-width: 800px) {
+      max-width: 85vw;
+    }
 
     .about__heading {
+      margin: 0;
+      margin-top: 45px;
       font-size: 2.25rem;
       font-family: $font-content-heading;
+
+      @media screen and (max-width: 800px) {
+        margin-top: 35px;
+      }
     }
 
-    h2.about__heading {
-      margin-top: 50px;
+    .center-quote-container {
+      margin: 30px 0 12px;
     }
-    
+
     p {
-      max-width: 50rem;
-    }  
+      font-size: 1rem;
+      line-height: 1.5rem;
+      margin: 18px auto;
+    }
   }
 
   .about__filter-container {
-    margin: 2rem 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 25px auto;
+    padding: 1vh 0;
     z-index: 3;
-    padding: 3vh 35px;
     background: #ededed;
 
     .about__filter{
@@ -65,8 +100,13 @@
       justify-content: space-around;
       align-content: baseline;
       flex-wrap: wrap;
-      max-width: 50rem;
+      width: 700px;
+      min-width: calc(50vw + 20px);
       margin: 0 auto;
+
+      @media screen and (max-width: 800px) {
+        max-width: calc(85vw + 20px);
+      }
   
       div{
         cursor: pointer;
@@ -89,23 +129,19 @@
   }
 
   .about__content{
-    // display: grid;
-    // max-width: 66vw;
-    // margin: 0 auto;
-    // font-family: $font-content-body;
-    // grid-template-columns: repeat(2, 1fr); 
-    // grid-gap: 1rem;
-    // grid-template-rows: repeat(5, auto);
+    font-size: 1rem;
+    line-height: 1.5rem;
     flex-wrap: wrap;
     align-items: flex-start;
     max-width: 50rem;
     margin: 0 auto;
+    margin-bottom: 30px;
 
     .about__person{
       flex-basis: 25rem;
-      padding: 2vh 35px;
+      padding: 0 35px;
       border-radius: 10px;
-      margin-bottom: 2%;
+      margin: 15px 0;
 
       img{
         width: 100%;
@@ -160,10 +196,32 @@
 
   .about__thanks{
     background: $light-grey;
-    padding: 10vh 0;
+    padding: 35px 0;
+    text-align: center;
 
     .about__heading {
       font-family: $font-content-heading;
+      font-size: 1.5rem;
+      width: 680px;
+      min-width: 50vw;
+      margin: 0 auto;
+      
+      @media screen and (max-width: 800px) {
+        max-width: 85vw;
+      }
+    }
+
+    .about__thanks-list {
+      list-style: none;
+      line-height: 1.5rem;
+      width: 680px;
+      min-width: 50vw;
+      padding: 0;
+      margin: 15px auto 0;
+
+      @media screen and (max-width: 800px) {
+        max-width: 85vw;
+      }
     }
   }
 }
