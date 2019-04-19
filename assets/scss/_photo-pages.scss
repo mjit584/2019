@@ -83,6 +83,15 @@
     }
   }
 
+  .photo-caption-container-vert {
+    width: 63vw;
+    .caption {
+      p {
+        width: 100% !important;
+      }
+    } 
+  }
+
   .photo__success-people {
     margin: 100px auto;
   

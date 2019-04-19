@@ -712,6 +712,11 @@ nav {
       z-index: 0;
       object-fit: cover; } }
 
+.photo .photo-caption-container-vert {
+  width: 63vw; }
+  .photo .photo-caption-container-vert .caption p {
+    width: 100% !important; }
+
 .photo .photo__success-people {
   margin: 100px auto; }
   .photo .photo__success-people h2 {
