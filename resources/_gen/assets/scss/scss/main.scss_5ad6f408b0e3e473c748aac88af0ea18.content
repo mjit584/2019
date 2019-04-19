@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #333333;
   height: auto;
   display: grid;
-  padding-top: 400px;
+  padding-top: 350px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, auto);
   grid-template-areas: "about-bd about-bd about-bd about-bd" "about-help about-help about-help about-help" "about-ft about-ft about-ft about-ft";
