@@ -1005,8 +1005,7 @@ nav {
     .cards .card.hovered .card__hover .card__desc {
       color: #333333; }
     .cards .card.hovered .card__hover .card__desc {
-      max-width: 90%;
-      margin: 2% auto; }
+      max-width: 90%; }
   @media screen and (min-width: 800px) {
     .cards .card.hovered {
       transform: scale(1.1, 1.1);
@@ -1056,7 +1055,7 @@ nav {
       transition-delay: .1s;
       font-size: 2.5rem;
       line-height: 2.3rem;
-      padding: 0 50px 10px; }
+      padding: 10px 25px; }
     .cards .card:hover .card__hover .card__desc, .cards .card:active .card__hover .card__desc {
       transition-delay: .1s; }
     .cards .card:hover .card__hover .card__button, .cards .card:active .card__hover .card__button {
@@ -1086,7 +1085,7 @@ nav {
       font-size: 1rem;
       line-height: 1rem; }
     .cards .card .ybr-line {
-      max-width: 80px;
+      max-width: 70px;
       height: 10px; }
       .cards .card .ybr-line .ybr-section {
         stroke-width: 3; }
@@ -1102,7 +1101,7 @@ nav {
       font-size: 1rem;
       font-family: "Lato", sans-serif;
       font-weight: 700;
-      margin-bottom: 10px;
+      margin: 0 auto 20px;
       padding: 0 25px; }
     .cards .card .card__button {
       font-family: "DDinExpBold", sans-serif;
@@ -1112,25 +1111,18 @@ nav {
       border-radius: 30px;
       height: 28px;
       width: 35px;
-      padding: 0 5px;
+      padding: 5px;
       overflow: hidden;
       white-space: nowrap;
       margin: 0 auto; }
       @media screen and (max-width: 800px) {
         .cards .card .card__button {
           display: none; } }
-      .cards .card .card__button a {
+      .cards .card .card__button .card__button-text {
         position: absolute;
-        top: 5px;
         right: 10px;
         color: #ffffff;
         text-decoration: none; }
-        @media screen and (max-width: 800px) {
-          .cards .card .card__button a {
-            position: static; } }
-      @media screen and (max-width: 800px) {
-        .cards .card .card__button i {
-          display: none; } }
     .cards .card .card__hover,
     .cards .card .card__base {
       position: absolute;
