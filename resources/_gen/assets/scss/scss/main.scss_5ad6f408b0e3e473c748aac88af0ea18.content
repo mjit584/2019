@@ -56,13 +56,11 @@ h1, h2, h3, h4, h5, h6 {
 .home .home-video {
   display: block;
   position: relative;
-  margin-top: 55px;
   top: 0px;
   left: 0px;
   z-index: -1;
   width: 100%;
-  height: auto;
-  max-height: 100vh;
+  height: 100vh;
   border-radius: 1px;
   object-fit: cover;
   object-position: top left; }
@@ -111,73 +109,84 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     background-image: linear-gradient(rgba(0, 57, 115, 0.85), rgba(8, 19, 58, 0.25)), url(../images/home5.JPG); } }
 
-.home #home__intro .home__logo {
-  max-width: 40vw;
-  height: auto;
-  display: none; }
-  @media screen and (max-width: 800px) {
-    .home #home__intro .home__logo {
-      max-width: 85vw;
-      display: flex; } }
-
-.home #home__intro > .ybr-line {
+.home #home__intro #home-text-container {
+  position: absolute;
   width: 100%;
-  height: 10px;
-  margin-top: 1.3%;
-  margin-bottom: 1%;
-  max-width: 26vw;
-  display: none; }
+  height: 100%;
+  justify-content: space-around;
+  padding: 15% 5% 5% 5%; }
   @media screen and (max-width: 800px) {
-    .home #home__intro > .ybr-line {
-      max-width: 50vw;
-      display: flex; } }
-  .home #home__intro > .ybr-line .ybr-section {
-    stroke-width: 4px; }
-
-.home #home__intro .home__subtitle {
-  opacity: 0;
-  position: absolute;
-  bottom: 35%;
-  font-family: "DDinRegular", serif;
-  font-size: 1.8rem;
-  margin: 0 25px 10px 25px;
-  text-align: center; }
-  @media screen and (max-width: 800px) {
-    .home #home__intro .home__subtitle {
-      font-size: calc(1rem + 1vw);
+    .home #home__intro #home-text-container {
       position: static;
-      opacity: 1; } }
-
-.home #home__intro .home__desc {
-  opacity: 0;
-  position: absolute;
-  bottom: 20%;
-  font-family: "Lato", sans-serif;
-  max-width: 55vw;
-  line-height: 1.5em;
-  font-size: 1rem;
-  color: #ffffff; }
-  @media screen and (max-width: 800px) {
-    .home #home__intro .home__desc {
-      max-width: 85vw;
-      line-height: 1.15rem;
-      position: static;
-      opacity: 1; } }
-
-.home #home__intro .home__explore {
-  position: absolute;
-  bottom: 10%;
-  font-family: "DDinExpBold", sans-serif;
-  font-size: 1.3rem;
-  text-align: center;
-  text-transform: uppercase;
-  margin-top: 15px; }
-  @media screen and (max-width: 800px) {
-    .home #home__intro .home__explore {
-      display: none; } }
-  .home #home__intro .home__explore p {
-    margin-bottom: 10px; }
-  .home #home__intro .home__explore i {
+      padding: 20% 10%;
+      justify-content: center; } }
+  .home #home__intro #home-text-container #home-logo-line {
+    opacity: 0;
+    text-align: center; }
+    @media screen and (max-width: 800px) {
+      .home #home__intro #home-text-container #home-logo-line {
+        opacity: 1; } }
+  .home #home__intro #home-text-container .home__logo {
+    max-width: 40vw;
+    height: auto;
+    opacity: 0; }
+    @media screen and (max-width: 800px) {
+      .home #home__intro #home-text-container .home__logo {
+        max-width: 80vw;
+        opacity: 1; } }
+  .home #home__intro #home-text-container .ybr-line {
+    height: 10px;
+    margin-top: 15px;
+    margin-bottom: 1%;
+    width: 40vw; }
+    @media screen and (max-width: 800px) {
+      .home #home__intro #home-text-container .ybr-line {
+        width: 66vw; } }
+    .home #home__intro #home-text-container .ybr-line .ybr-section {
+      stroke-width: 7px; }
+      @media screen and (max-width: 800px) {
+        .home #home__intro #home-text-container .ybr-line .ybr-section {
+          stroke-width: 5px; } }
+  .home #home__intro #home-text-container .home__subtitle {
+    opacity: 0;
+    font-family: "DDinRegular", serif;
+    font-size: 1.8rem;
+    margin: 0 25px 10px 25px;
+    text-align: center; }
+    @media screen and (max-width: 800px) {
+      .home #home__intro #home-text-container .home__subtitle {
+        font-size: calc(1rem + 1vw);
+        width: 80vw;
+        margin-top: 15px;
+        position: static;
+        opacity: 1; } }
+  .home #home__intro #home-text-container .home__desc {
+    opacity: 0;
+    font-family: "Lato", sans-serif;
+    max-width: 55vw;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff; }
+    @media screen and (max-width: 800px) {
+      .home #home__intro #home-text-container .home__desc {
+        max-width: 80vw;
+        position: static;
+        opacity: 1; }
+        .home #home__intro #home-text-container .home__desc p {
+          line-height: 1.25rem; } }
+  .home #home__intro #home-text-container .home__explore {
+    font-family: "DDinExpBold", sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15px; }
+    @media screen and (max-width: 800px) {
+      .home #home__intro #home-text-container .home__explore {
+        display: none; } }
+  .home #home__intro #home-text-container p {
+    margin-bottom: 10px;
+    line-height: 1.5em; }
+  .home #home__intro #home-text-container i {
     color: #ffffff;
     width: 30px;
     height: 30px;
@@ -195,13 +204,17 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 350px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, auto);
-  grid-template-areas: "about-bd about-bd about-bd about-bd" "about-help about-help about-help about-help" "about-ft about-ft about-ft about-ft";
+  grid-template-areas: "about-bd about-bd about-bd about-bd"
+ "about-help about-help about-help about-help"
+ "about-ft about-ft about-ft about-ft";
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .home #home__about {
       padding-top: 50px;
       grid-template-columns: 1fr;
-      grid-template-areas: "about-bd" "about-help" "about-ft"; } }
+      grid-template-areas: "about-bd"
+ "about-help"
+ "about-ft"; } }
   .home #home__about p {
     width: 680px;
     min-width: 50vw;
@@ -279,12 +292,18 @@ h1, h2, h3, h4, h5, h6 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, auto);
-  grid-template-areas: "nav nav nav nav" "story-hero story-hero story-hero story-hero" "story-bd story-bd story-bd story-bd" "story-ft story-ft story-ft story-ft";
+  grid-template-areas: "nav nav nav nav"
+ "story-hero story-hero story-hero story-hero"
+ "story-bd story-bd story-bd story-bd"
+ "story-ft story-ft story-ft story-ft";
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .story-page {
       grid-template-columns: 1fr;
-      grid-template-areas: "nav" "story-hero" "story-bd" "story-ft"; } }
+      grid-template-areas: "nav"
+ "story-hero"
+ "story-bd"
+ "story-ft"; } }
   .story-page .story-hero {
     color: #ffffff;
     height: auto;
