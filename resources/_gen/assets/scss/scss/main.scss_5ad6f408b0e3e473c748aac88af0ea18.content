@@ -652,10 +652,10 @@ nav {
         .about .about__thanks .about__thanks-list {
           max-width: 85vw; } }
 
-.photo .overlay {
+.overlay {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); }
   @media screen and (max-width: 800px) {
-    .photo .overlay {
+    .overlay {
       background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)); } }
 
 .photo .photo__diptych {

@@ -1,17 +1,18 @@
-.photo {
-  .overlay {
-    background-image: linear-gradient(
-    rgba(0,0,0,0.1),
-    rgba(0,0,0,0.1)
-    );
+.overlay {
+  background-image: linear-gradient(
+  rgba(0,0,0,0.1),
+  rgba(0,0,0,0.1)
+  );
 
-    @media screen and (max-width: 800px) {
-      background-image: linear-gradient(
-    rgba(0,0,0,0),
-    rgba(0,0,0,0)
-    );
-    }
+  @media screen and (max-width: 800px) {
+    background-image: linear-gradient(
+  rgba(0,0,0,0),
+  rgba(0,0,0,0)
+  );
   }
+}
+
+.photo {
 
   .photo__diptych {
     margin-top: 5%;
