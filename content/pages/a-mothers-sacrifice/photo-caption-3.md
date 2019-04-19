@@ -4,5 +4,4 @@ image: "../a-mothers-sacrifice/assets/women-still3.jpg"
 alt: "undefined"
 photographer: "Photog"
 ---
-
-Hello, this will be the image caption here!
+Plaza Botero is known for its statues by artist Fernando Botero. He donated the statues to the city in 2002.
