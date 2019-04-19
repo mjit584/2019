@@ -13,7 +13,7 @@ card: true
 author: "Diane Adame"
 videographer: "Zayhra Rodriguez, Haley France"
 designer: "Amy Townsed"
-udea: "Margarita"
+udea: "Margarita Restrepo"
 ---
 
 <div class="story__subhead story__subhead-warning"><strong>CONTENT WARNING: This article contains information and depictions of sexual assault, child sexual abuse and sexual content that may be triggering for some.</strong></div>
@@ -200,4 +200,3 @@ In Maria’s eyes, this job is a sacrifice she is making for her daughters. In M
 But these are tears and feelings she is willing to endure if it means reuniting with her children. 
 
 “My children are my biggest concern, and I will do anything to give them what they want and need,” said Maria. “I know that when they get older, there will be a moment when I sit down with them, and tell them and I hope that they will thank me for everything I am doing.”
-
