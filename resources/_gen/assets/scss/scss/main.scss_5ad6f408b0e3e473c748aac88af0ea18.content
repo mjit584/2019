@@ -2321,7 +2321,7 @@ nav {
   width: 75%;
   justify-content: space-around; }
   .bubbles-container .bubble__img {
-    width: 10vw;
+    width: 12vw;
     transition: .3s width ease-in-out; }
     .bubbles-container .bubble__img:hover {
       width: 15vw; }
