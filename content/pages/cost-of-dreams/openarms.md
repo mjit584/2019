@@ -3,7 +3,6 @@ intTitle: "Photo Scrollytelly 1"
 ---
 <section class="interactive">
   <div class="interactive__body">
-    <div class="scrolly__gradient-top"></div>
     <div class="interactive__background flex-column" id="scrollytelly-1">
       <div class="scrollytelly__main">
         <div id="scrollytelly__title" class="flex-column">
@@ -104,6 +103,5 @@ intTitle: "Photo Scrollytelly 1"
         </div>
       </div>
     </div>
-    <div class="scrolly__gradient-bottom"></div>
   </div>
 </section>
