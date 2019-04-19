@@ -204,17 +204,13 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 350px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, auto);
-  grid-template-areas: "about-bd about-bd about-bd about-bd"
- "about-help about-help about-help about-help"
- "about-ft about-ft about-ft about-ft";
+  grid-template-areas: "about-bd about-bd about-bd about-bd" "about-help about-help about-help about-help" "about-ft about-ft about-ft about-ft";
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .home #home__about {
       padding-top: 50px;
       grid-template-columns: 1fr;
-      grid-template-areas: "about-bd"
- "about-help"
- "about-ft"; } }
+      grid-template-areas: "about-bd" "about-help" "about-ft"; } }
   .home #home__about p {
     width: 680px;
     min-width: 50vw;
@@ -292,18 +288,12 @@ h1, h2, h3, h4, h5, h6 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, auto);
-  grid-template-areas: "nav nav nav nav"
- "story-hero story-hero story-hero story-hero"
- "story-bd story-bd story-bd story-bd"
- "story-ft story-ft story-ft story-ft";
+  grid-template-areas: "nav nav nav nav" "story-hero story-hero story-hero story-hero" "story-bd story-bd story-bd story-bd" "story-ft story-ft story-ft story-ft";
   transition: 0.5s background-color; }
   @media screen and (max-width: 800px) {
     .story-page {
       grid-template-columns: 1fr;
-      grid-template-areas: "nav"
- "story-hero"
- "story-bd"
- "story-ft"; } }
+      grid-template-areas: "nav" "story-hero" "story-bd" "story-ft"; } }
   .story-page .story-hero {
     color: #ffffff;
     height: auto;
@@ -433,6 +423,11 @@ h1, h2, h3, h4, h5, h6 {
           margin: 18px auto;
           max-width: 85vw;
           font-size: 1rem; } }
+    .story-page .story-content .photo-caption-container-vert {
+      margin: 10vh auto; }
+      .story-page .story-content .photo-caption-container-vert .caption p {
+        width: 680px;
+        min-width: 50vw; }
     .story-page .story-content .ybr-line {
       transition: 1s opacity; }
     .story-page .story-content .story-end-icon {
@@ -719,16 +714,29 @@ nav {
 
 .photo .photo__success-people {
   margin: 100px auto; }
+  .photo .photo__success-people h2 {
+    text-align: center; }
+  .photo .photo__success-people p {
+    width: 60vw; }
+  .photo .photo__success-people .photo__subhead {
+    font-family: "DDinBold", sans-serif;
+    margin-bottom: 20px;
+    font-size: 2.1rem; }
+  .photo .photo__success-people .center-quote-container {
+    margin-top: 1%; }
+    .photo .photo__success-people .center-quote-container p {
+      max-width: 820px; }
+    @media screen and (max-width: 800px) {
+      .photo .photo__success-people .center-quote-container p {
+        width: 93vw;
+        line-height: 1.25em; } }
   @media screen and (max-width: 800px) {
     .photo .photo__success-people {
-      margin: 60px auto; } }
-
-.photo .photo__subhead {
-  font-family: "DDinBold", sans-serif;
-  margin-bottom: 0; }
-
-.photo .center-quote-container {
-  margin-top: 1%; }
+      margin: 60px auto; }
+      .photo .photo__success-people img {
+        width: 100%; }
+      .photo .photo__success-people p {
+        width: 85vw; } }
 
 .photo .interactive__image {
   position: relative;

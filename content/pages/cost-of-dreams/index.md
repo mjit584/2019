@@ -70,16 +70,16 @@ Before the separation, Jeham attended a private school in Venezuela, where Aleja
 
 In 2006 the education system changed in Venezuela, and the government used teachers to spread propaganda. 
 
-Lisbeth Marcana was a public school teacher in Venezuela for 25 years before immigrating to Medellín in May 2018. She says the government removed some of the most critical materials. Instead of focusing on teaching Spanish, she was forced to teach her students about “socialist heroes” in Venezuela like Ezequiel Zamora.
+Lisbeth Marcan was a public school teacher in Venezuela for 25 years before immigrating to Medellín in May 2018. She says the government removed some of the most critical materials. Instead of focusing on teaching Spanish, she was forced to teach her students about “socialist heroes” in Venezuela like Ezequiel Zamora.
 
 <!-- 2nd photo - Lisbeth -->
 {{< photo-caption-vert "pages/cost-of-dreams" "photo-caption-2" >}}
 
 The standards for holding children back in school also changed. Under the new system, teachers must first get parental consent and then the permission of the government. 
 
-“As a result, every student passes,” says Marcana.
+“As a result, every student passes,” says Marcan.
  
-Spending so much time with each other, the kids noticed the disparity between each other, even as they were being taught the tenets of socialism. The kids would constantly ask Marcana why they weren’t equal to everyone if they lived in a socialist society. 
+Spending so much time with each other, the kids noticed the disparity between each other, even as they were being taught the tenets of socialism. The kids would constantly ask Marcan why they weren’t equal to everyone if they lived in a socialist society. 
 
 “He brought two colors to class; I’m going to take one away from him because we are equal and so he has to have one, and I have to have one,” her kids would say.
 
@@ -101,23 +101,23 @@ Jeham saw the disparities among his classmates, too.
 
 According to an investigation by The New York Times, 21 doctors across Venezuela said children with severe malnutrition are swamping their emergency rooms, a condition rarely seen before the crisis. 
 
-Marcana says children are the most affected during the crisis.
+Marcan says children are the most affected during the crisis.
 
-{{< center-quote "pages/cost-of-dreams" "pull-quote-marcana" >}}
+{{< center-quote "pages/cost-of-dreams" "pull-quote-marcan" >}}
 
 Most children would save their only meal for dinner or have the water that was left over from  cooking with salt for breakfast and lunch.
 
-“They have a strong level of malnutrition, that their growth and cognitive development is not the same,” Marcana said. “Instead of thinking about math, they’re thinking about food.”
+“They have a strong level of malnutrition, that their growth and cognitive development is not the same,” Marcan said. “Instead of thinking about math, they’re thinking about food.”
 
-She says that although President Nicolás Maduro created a program called Programa de Alimentación Escolar (School Nutrition Program), it’s not enough. The food arrives every eight days, and most of the fruit is damaged. Marcana says the food was just enough for 200 children at her school of 1,000 students. The school was forced to prioritize the students who spent the most time there and what was left over was for the youngest students.
+She says that although President Nicolás Maduro created a program called Programa de Alimentación Escolar (School Nutrition Program), it’s not enough. The food arrives every eight days, and most of the fruit is damaged. Marcan says the food was just enough for 200 children at her school of 1,000 students. The school was forced to prioritize the students who spent the most time there and what was left over was for the youngest students.
 
-Although teachers like Marcana and Alejandrina wanted to help their students, their paychecks weren’t enough. Every two weeks, teachers receive 18,000 Bolívares, barely enough for half a kilogram of cheese. 
+Although teachers like Marcan and Alejandrina wanted to help their students, their paychecks weren’t enough. Every two weeks, teachers receive 18,000 Bolívares, barely enough for half a kilogram of cheese. 
 
 <div class="story__subhead flex-column">'Their lives have completely changed'</div>
 
-Today, Marcana cleans houses because she wasn’t able to transfer her teaching degree from Venezuela to Colombia. In her free time, she helps Venezuelan children immigrating to Medellín who are not adapting to their new schools. 
+Today, Marcan cleans houses because she wasn’t able to transfer her teaching degree from Venezuela to Colombia. In her free time, she helps Venezuelan children immigrating to Medellín who are not adapting to their new schools. 
 
-“Their lives are completely changed,” Marcana said. “When a Venezuelan child approaches you … he’s been asking you for help.” 
+“Their lives are completely changed,” Marcan said. “When a Venezuelan child approaches you … he’s been asking you for help.” 
 
 The Ministry of Education in Medellín says Mayor Federico Gutiérrez promised access to education to every migrant child. Today, there are more than 8,900 Venezuelan children enrolled in the Medellín Education System. Although many Colombians think Venezuelan children are taking away the education of Colombian kids, the Ministry of Education says it’s not true. 
 
@@ -148,15 +148,15 @@ The Ministry of Education says it will work with migrant children who do not hav
 
 Angelos’ transition to school has not been smooth, and he says the classes are harder. Many students feel pressured because they arrive in Colombia having to catch up. 
 
-“The children arrive with a low academic level,” Marcana said. “Many times children have to be lowered two years.”
+“The children arrive with a low academic level,” Marcan said. “Many times children have to be lowered two years.”
 
 Things as simple as school books can have a significant effect on children. In Venezuela, children have three school books, but when they arrive in Medellín, they have nine. 
 
-“Then that rhythm of life hits them because it changes their life completely,” Marcana said. 
+“Then that rhythm of life hits them because it changes their life completely,” Marcan said. 
 
 The differences between the same language can affect the relationship between teachers and students. 
 
-“It shocks them, and they think the teacher is being rude or can’t understand them,” Marcana said.
+“It shocks them, and they think the teacher is being rude or can’t understand them,” Marcan said.
 
 The Medellín education system says it offers tutoring programs to every kid, including migrant children. 
 
