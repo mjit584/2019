@@ -6,8 +6,8 @@ graphics: "Kailee Akers"
 <div id="bolivar-timeline"></div>
 <div class="divider"></div>
 <section class="interactive">
-  <h2 class="interactive__title">Venezuelan Bolívar Timeline</h2>
-  <h3 class="interactive__subhead">The Bolívar is an ever-changing currency</h3>
+  <h2 class="interactive__title">Venezuelan bolívar Timeline</h2>
+  <h3 class="interactive__subhead">The bolívar is an ever-changing currency</h3>
  {{< ybr-line >}}
 <div class="timeline">
   <div class="row yellow">
@@ -19,7 +19,7 @@ graphics: "Kailee Akers"
     <div class="center"><span class="dot"></span></div>
     <div class="timeline-content right">
       <h3>Bolívar</h3>
-      <p>The Bolívar (Bs.) was a stable currency pegged to silver, gold, and the US dollar.</p>
+      <p>The bolívar (Bs.) was a stable currency pegged to silver, gold, and the US dollar.</p>
     </div>
   </div>
   <div class="row yellow reorder">
@@ -43,7 +43,7 @@ graphics: "Kailee Akers"
     <div class="center"><span class="dot"></span></div>
     <div class="timeline-content right">
         <h3>Bolívar fuerte</h3>
-        <p>The Bolívar fuerte (BsF.) replaced the Bolívar, taking off three zeros from the currency.  Inflation remained even though the numbers were smaller.</p>
+        <p>The bolívar fuerte (BsF.) replaced the bolívar, taking off three zeros from the currency. Inflation remained even though the numbers were smaller.</p>
     </div>
   </div>
   <div class="row blue reorder">
@@ -67,13 +67,13 @@ graphics: "Kailee Akers"
     <div class="center"><span class="dot"></span></div>
     <div class="timeline-content right">
       <h3>Bolívar soberano</h3>
-      <p>The Bolívar soberano (BsS.) replaced the Bolívar fuerte and took five zeros off the currency. </p>
+      <p>The bolívar soberano (BsS.) replaced the bolívar fuerte and took five zeros off the currency. </p>
     </div>
   </div>
   <div class="row red reorder">
     <div class="timeline-content left">
       <h3>Bolívar soberano</h3>
-      <p>The Bolívar soberano is the most recent reissue but due to hyperinflation the currency is virtually worthless.</p>
+      <p>The bolívar soberano is the most recent reissue but due to hyperinflation the currency is virtually worthless.</p>
     </div>
     <div class="center"><span class="dot"></span></div>
     <div class="timeline-content right">
