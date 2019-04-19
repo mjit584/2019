@@ -30,18 +30,22 @@ families and their adjustments to living in Medellín, Colombia.{{ end}}
 
 <div class="home__scroll">
   <section class="panel flex-column bg-cover bg-position-center" id="home__intro">
-    <img class="home__logo" src="./images/uprooted-logo-gif.gif" alt="Uprooted UNC logo" />
-    {{ partial "ybr-line.html" . }}
     <video class="home-video" autoplay>
       <!-- Video is embedded in the WEBM format -->
       <source src="/images/HomePageNoGraphicCompressed.mp4" type="video/mp4" />
     </video>
     {{ partial "main-menu-mobile.html" . }}
-    <h2 class="home__subtitle" id="home-subtitle">{{ .Params.Subtitle }}</h2>
-    <div class="home__desc" id="home-desc">{{ .Content }}</div>
-    <div class="home__explore">
-      <p>Explore</p>
-      <a href="#home__cards"><i class="fas fa-chevron-down"></i></a>
+    <div class="flex-column" id="home-text-container">
+      <div id="home-logo-line">
+        <img class="home__logo flex-column" src="./images/uprooted-logo-gif.gif" alt="Uprooted UNC logo" />
+        {{ partial "ybr-line.html" . }}
+      </div>
+      <h2 class="home__subtitle" id="home-subtitle">{{ .Params.Subtitle }}</h2>
+      <div class="home__desc" id="home-desc">{{ .Content }}</div>
+      <div class="home__explore">
+        <p>Explore</p>
+        <a href="#home__cards"><i class="fas fa-chevron-down"></i></a>
+      </div>
     </div>
   </section>
 
