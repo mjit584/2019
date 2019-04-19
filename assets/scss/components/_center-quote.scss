@@ -1,10 +1,16 @@
 .center-quote-container {
   font-family: $font-pullquote;
   font-weight: $font-weight-bold;
-  margin: 5vh 0;
+  margin: 45px 0;
+
+  @media screen and (max-width: 800px) {
+    margin: 35px 0;
+  }
 
   p {
     font-size: 1.5rem !important;
+    width: 680px;
+    min-width: 50vw;
     line-height: inherit;
     align-self: center;
     text-align: center;
