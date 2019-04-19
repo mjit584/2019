@@ -12,7 +12,7 @@ weight: 2
 card: true
 author: "Brooklynn Cooper"
 videographer: "Bryan Cereijo, Abby Cantrell"
-designer: "Kailee Akers"
+designer: "Kailyn Akers"
 udea: "Martín Villaneda"
 ---
 

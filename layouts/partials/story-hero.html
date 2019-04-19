@@ -12,7 +12,7 @@
     <h3 class="story-hero__desc">{{ .subheading }}</h3>
   </div>
   {{ else }}
-  <video class="story-video video-{{ .number }}" autoplay>
+  <video class="overlay story-video video-{{ .number }}" autoplay>
     <!-- Video is embedded in the WEBM format -->
     <source src="{{ .background }}" type="video/mp4" />
   </video>
