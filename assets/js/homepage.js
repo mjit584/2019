@@ -8,7 +8,7 @@ let init = function () {
   var homeLogo = document.getElementsByClassName("home__logo")[0];
   var homeSubtitle = document.getElementById("home-subtitle");
   var homeDesc = document.getElementById("home-desc");
-  var x = window.matchMedia("(max-width: 800px)");
+  var x = window.matchMedia("(max-width: 1040px)");
 
   function dontTimeout(x) {
     if (x.matches) {
