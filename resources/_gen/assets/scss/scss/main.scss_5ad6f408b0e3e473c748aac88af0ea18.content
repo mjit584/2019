@@ -1582,6 +1582,9 @@ nav {
     height: 80vh;
     max-height: 1000px;
     width: auto; }
+    @media screen and (max-width: 1040px) {
+      .photo-caption-container-vert img {
+        max-height: 870px; } }
   .photo-caption-container-vert .caption {
     align-items: flex-start;
     margin-top: 1vh;
