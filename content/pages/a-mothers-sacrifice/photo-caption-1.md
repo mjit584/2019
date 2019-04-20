@@ -1,6 +1,6 @@
 ---
 title: "Here is the title of the photo"
-image: "../a-mothers-sacrifice/assets/Women-still1.png"
+image: "../a-mothers-sacrifice/assets/women-still1.jpg"
 alt: "undefined"
 photographer: "Photog"
 ---
