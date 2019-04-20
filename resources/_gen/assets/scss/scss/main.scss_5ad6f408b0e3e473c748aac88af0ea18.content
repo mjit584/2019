@@ -2161,7 +2161,7 @@ nav {
     position: fixed;
     top: 50%;
     justify-content: space-between;
-    width: 75%;
+    width: 80vw;
     opacity: 1;
     transition: 0.5s; }
   #interactive__gov-birthright .container-body-birthright {
@@ -2215,7 +2215,7 @@ nav {
   #interactive__gov-birthright .slide-image {
     display: grid;
     grid-template-columns: 25% 75%;
-    grid-gap: 7vw;
+    width: 75vw;
     text-align: right;
     margin: 40px 0; }
     #interactive__gov-birthright .slide-image img {
