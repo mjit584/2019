@@ -86,6 +86,10 @@
     box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, .1);
   }
 
+  .card-front-subtitle {
+    padding: 20px 0;
+  }
+
   .card-flipped {
     top: 60vh;
     position: absolute;
@@ -95,6 +99,7 @@
   }
 
   #card-sh {
+    min-height: 670px;
     width: 40%;
     position:relative;
   }
@@ -107,7 +112,7 @@
 
   #card-ch {
     width: 40%;
-    height: 700px;
+    height: 670px;
     position: relative;
   }
 
@@ -122,7 +127,6 @@
   }
 
   #sh-r-2 {
-    height: 250px;
     width: 100%;
     background-color: #C70032;
     justify-content: flex-start;
@@ -139,24 +143,16 @@
     margin: 3vh 0;
   }
 
-
-
-
   #ch-r-2 {
-
-    height: 500px;
     width: 100%;
     background-color: #1457D3;
     justify-content: flex-start;
-
   }
-
 
   #ch-r-2-r2 {
     width: 100%;
     flex-direction: row;
   }
-
 
   #comp-plan, #prepaid-plan {
     flex-basis: 50%;
@@ -166,8 +162,8 @@
   }
 
   .card-front-icons{
-    height: 120px;
     width: 100%;
+    padding: 20px 0;
     flex-direction: row;
   }
 
@@ -216,8 +212,8 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 20px;
-    height: 70px;
     width: 100%;
+    padding: 20px 0;
   }
 
   .card-back-title-sh {
@@ -225,28 +221,27 @@
     font-family: 'Roboto', sans-serif;
     flex-direction: row;
     font-weight: 700;
+    padding: 20px 0;
     font-size: 20px;
-    height: 70px;
     width: 100%;
     color: white;
-    background-color: #C70032;
-    /* display: none; */
+    background-color: $red;
   }
 
   .card-back-title-ch {
     position:absolute;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    padding: 20px 0;
     font-size: 20px;
-    height: 70px;
     width: 100%;
     color: white;
-    background-color: #1457D3;
+    background-color: $blue;
   }
 
   .card-front-body-sh {
     width: 100%;
-    min-height: 530px;
+    min-height: 600px;
     justify-content: flex-start;
   }
 
@@ -270,7 +265,7 @@
   }
 
   #card-back-body-ch{
-    height: 650px;
+    height: 600px;
 
   }
   .card-back-body-text p {
@@ -299,7 +294,6 @@
     font-weight: 700;
     font-size: 16px;
     color: white;
-    height: 75px;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -316,10 +310,6 @@
     background-color: rgba(0,0,0, 0.1);
     filter: blur(150px);
     -webkit-filter: blur(150px);
-  }
-
-  .spacer-height{
-    height: 50px;
   }
 
   .blue {
