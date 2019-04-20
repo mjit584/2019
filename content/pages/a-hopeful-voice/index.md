@@ -63,6 +63,8 @@ In response, the National Colombian Police implemented tougher regulations on th
 
 From 2016 to 2018, Colombian authorities deported 4,274 Venezuelans, compared to only 294 in the three previous years combined. Many have made headlines for committing gruesome crimes. 
 
+{{< story-interactives "pages/a-hopeful-voice" "gov-undocumented-int" >}}
+
 Colombia — a country that has historically exported more migrants than it’s taken in — is responding to the mass influx of Venezuelans by granting them legal status under specific conditions. 
 
 Along with border mobility cards, Migración Colombia began issuing a special stay permit in 2017 for Venezuelans, which is valid for two years. Since then, the government has issued various batches for people who entered the country with a stamped passport before a certain date. 
