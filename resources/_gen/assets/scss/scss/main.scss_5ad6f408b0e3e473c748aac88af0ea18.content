@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 1px;
   object-fit: cover;
   object-position: top left; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1040px) {
     .home .home-video {
       display: none; } }
 
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   transition: 1s opacity;
   text-align: center; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1040px) {
     .home .home__subhead {
       max-width: 75vw; } }
 
@@ -94,17 +94,21 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   transition: 1s opacity; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1040px) {
     .home #home__intro,
     .home #home__cards,
     .home #home__about {
       justify-content: flex-start; } }
 
+@media screen and (max-width: 1040px) {
+  .home #home__cards {
+    height: 120vh; } }
+
 @media screen and (max-width: 800px) {
   .home #home__cards {
     height: 240vh; } }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1040px) {
   .home #home__intro {
     justify-content: center;
     background-image: linear-gradient(rgba(0, 57, 115, 0.85), rgba(8, 19, 58, 0.25)), url(../images/home5.JPG); } }
@@ -115,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   justify-content: space-around;
   padding: 15% 5% 5% 5%; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1040px) {
     .home #home__intro #home-text-container {
       position: static;
       padding: 20% 10%;
@@ -123,14 +127,14 @@ h1, h2, h3, h4, h5, h6 {
   .home #home__intro #home-text-container #home-logo-line {
     opacity: 0;
     text-align: center; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1040px) {
       .home #home__intro #home-text-container #home-logo-line {
         opacity: 1; } }
   .home #home__intro #home-text-container .home__logo {
     max-width: 40vw;
     height: auto;
     opacity: 0; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1040px) {
       .home #home__intro #home-text-container .home__logo {
         max-width: 80vw;
         opacity: 1; } }
@@ -139,12 +143,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 15px;
     margin-bottom: 1%;
     width: 40vw; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1040px) {
       .home #home__intro #home-text-container .ybr-line {
         width: 66vw; } }
     .home #home__intro #home-text-container .ybr-line .ybr-section {
       stroke-width: 7px; }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         .home #home__intro #home-text-container .ybr-line .ybr-section {
           stroke-width: 5px; } }
   .home #home__intro #home-text-container .home__subtitle {
@@ -153,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.8rem;
     margin: 0 25px 10px 25px;
     text-align: center; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1040px) {
       .home #home__intro #home-text-container .home__subtitle {
         font-size: calc(1rem + 1vw);
         width: 80vw;
@@ -167,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1rem;
     font-weight: 700;
     color: #ffffff; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1040px) {
       .home #home__intro #home-text-container .home__desc {
         max-width: 80vw;
         position: static;
@@ -180,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     text-transform: uppercase;
     margin-top: 15px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1040px) {
       .home #home__intro #home-text-container .home__explore {
         display: none; } }
   .home #home__intro #home-text-container p {
@@ -206,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
   grid-template-rows: repeat(3, auto);
   grid-template-areas: "about-bd about-bd about-bd about-bd" "about-help about-help about-help about-help" "about-ft about-ft about-ft about-ft";
   transition: 0.5s background-color; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1040px) {
     .home #home__about {
       padding-top: 50px;
       grid-template-columns: 1fr;
@@ -220,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: 1s opacity; }
     .home #home__about p:first-child {
       margin-top: 3vw; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1040px) {
       .home #home__about p {
         max-width: 85vw;
         margin: 18px auto; } }
@@ -245,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
           width: 55%; }
           .home #home__about .about-help .about-orgs .orgs img:last-of-type {
             width: 35%; }
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 1040px) {
           .home #home__about .about-help .about-orgs .orgs:last-of-type {
             grid-column: 1/3;
             width: 50%;
@@ -259,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
           flex-basis: 100%;
           margin-top: 2%;
           font-family: "DDinBold", sans-serif; }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         .home #home__about .about-help .about-orgs {
           display: grid;
           grid-template-columns: repeat(2, 1fr);
@@ -277,7 +281,7 @@ h1, h2, h3, h4, h5, h6 {
       transition: 1s opacity; }
       .home #home__about .about-title p:first-child {
         margin-top: 3vw; }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         .home #home__about .about-title p {
           max-width: 85vw;
           margin: 18px auto; } }
@@ -2645,6 +2649,9 @@ footer {
   margin: 0 auto;
   padding: 0 0 17vh;
   width: 100%; }
+  @media screen and (max-width: 1040px) {
+    footer {
+      padding: 0 0 10vh; } }
   footer a {
     color: inherit;
     text-decoration: none; }

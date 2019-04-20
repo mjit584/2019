@@ -2,6 +2,10 @@ footer {
   margin: 0 auto;
   padding: 0 0 17vh;
   width: 100%;
+
+  @media screen and (max-width: 1040px) {
+    padding: 0 0 10vh;
+  }
   
   a {
     color: inherit;
