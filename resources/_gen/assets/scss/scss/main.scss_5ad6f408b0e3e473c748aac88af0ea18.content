@@ -294,7 +294,7 @@ h1, h2, h3, h4, h5, h6 {
   grid-template-rows: repeat(4, auto);
   grid-template-areas: "nav nav nav nav" "story-hero story-hero story-hero story-hero" "story-bd story-bd story-bd story-bd" "story-ft story-ft story-ft story-ft";
   transition: 0.5s background-color; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1040px) {
     .story-page {
       grid-template-columns: 1fr;
       grid-template-areas: "nav" "story-hero" "story-bd" "story-ft"; } }
@@ -308,7 +308,7 @@ h1, h2, h3, h4, h5, h6 {
     grid-area: story-hero;
     justify-content: flex-start;
     transition: 1s opacity; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1040px) {
       .story-page .story-hero {
         height: auto;
         padding-bottom: 0; } }
@@ -325,7 +325,7 @@ h1, h2, h3, h4, h5, h6 {
       border-radius: 1px;
       object-fit: cover;
       object-position: top left; }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         .story-page .story-hero .story-video {
           display: none; } }
     .story-page .story-hero .story-hero__img {
@@ -336,7 +336,7 @@ h1, h2, h3, h4, h5, h6 {
       width: 100%;
       height: 30vh;
       object-fit: cover; }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         .story-page .story-hero .story-hero__img {
           display: block; } }
     .story-page .story-hero .video-5 {
@@ -345,11 +345,13 @@ h1, h2, h3, h4, h5, h6 {
       position: absolute;
       text-align: center;
       top: 20%; }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         .story-page .story-hero .story-hero__topic {
           margin-top: 35vh;
           text-align: left;
-          width: 85vw;
+          max-width: 85vw;
+          min-width: 50vw;
+          width: 680px;
           color: #333333;
           position: static; } }
       .story-page .story-hero .story-hero__topic p {
@@ -358,7 +360,7 @@ h1, h2, h3, h4, h5, h6 {
         margin: 0;
         text-transform: uppercase;
         font-size: 1.2rem; }
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 1040px) {
           .story-page .story-hero .story-hero__topic p {
             font-size: 1rem; } }
       .story-page .story-hero .story-hero__topic .ybr-line {
@@ -369,28 +371,28 @@ h1, h2, h3, h4, h5, h6 {
     .story-page .story-hero .story-hero__heading {
       position: absolute;
       bottom: 15%; }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         .story-page .story-hero .story-hero__heading {
           position: static;
-          width: 85vw; } }
+          max-width: 85vw;
+          min-width: 50vw;
+          width: 680px; } }
       .story-page .story-hero .story-hero__heading .story-hero__title {
         font-family: "DDinBold", sans-serif;
         font-size: calc(3rem + 3vw);
         margin-bottom: 0; }
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 1040px) {
           .story-page .story-hero .story-hero__heading .story-hero__title {
             margin-top: 10px;
-            max-width: 85vw;
             text-align: left;
             font-size: 2.25rem;
             color: #333333; } }
       .story-page .story-hero .story-hero__heading .story-hero__desc {
         font-family: "Lato", sans-serif;
         margin: 5px 0; }
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 1040px) {
           .story-page .story-hero .story-hero__heading .story-hero__desc {
             color: #333333;
-            max-width: 85vw;
             font-size: 1rem;
             text-align: left; } }
   .story-page .story-content {
@@ -406,7 +408,7 @@ h1, h2, h3, h4, h5, h6 {
       justify-content: flex-start;
       align-items: flex-start;
       margin: 45px auto 20px; }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         .story-page .story-content .story__subhead {
           margin: 35px auto 15px;
           max-width: 85vw; } }
@@ -422,7 +424,7 @@ h1, h2, h3, h4, h5, h6 {
       margin: 20px auto;
       transition: 1s opacity;
       font-size: 1.125rem; }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         .story-page .story-content p {
           margin: 18px auto;
           max-width: 85vw;
@@ -458,7 +460,7 @@ nav {
   align-items: center;
   justify-content: space-around;
   background-color: transparent; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1040px) {
     nav {
       width: 100%; } }
 
@@ -470,7 +472,7 @@ nav {
     padding: 2% 0;
     align-items: flex-start;
     flex-wrap: wrap; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1040px) {
       .stories .photo__diptych .photo__diptych-container {
         max-width: 90vw;
         flex-direction: column;
@@ -479,7 +481,7 @@ nav {
       max-width: 46%; }
   .stories .photo__diptych .photo__diptych-caption {
     width: 78vw; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1040px) {
       .stories .photo__diptych .photo__diptych-caption {
         width: 90vw; } }
     .stories .photo__diptych .photo__diptych-caption p {
@@ -488,7 +490,7 @@ nav {
       font-style: italic;
       font-family: "Lato", sans-serif;
       font-size: 1rem; }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         .stories .photo__diptych .photo__diptych-caption p {
           font-size: 0.8rem; } }
 
@@ -658,7 +660,7 @@ nav {
 
 .overlay {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1040px) {
     .overlay {
       background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)); } }
 
