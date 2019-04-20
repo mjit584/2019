@@ -761,10 +761,12 @@ nav {
     height: 130px;
     width: 500px;
     position: absolute; }
-  @media screen and (max-width: 1050px) {
+  @media screen and (max-width: 1040px) {
     .photo .interactive__image #room__info {
       position: relative;
-      left: 0; } }
+      left: 0;
+      width: 90%;
+      max-width: 900px; } }
 
 /*!
  * Hamburgers

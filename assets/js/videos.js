@@ -54,14 +54,3 @@ $(window).resize(function () {
   }
 });
 
-
-function lightsDown() {
-  $('body').toggleClass('black');
-  $('p, h1, h2, h3, h4, h5, h6, .interactive, .flourish, .story__subhead, .byline, .story-hero, .photo-hero, .ybr-line').toggleClass('no-show');
-  btn = document.getElementById("lights-down");
-  if (btn.innerHTML === "Lights Down") {
-    btn.innerHTML = "Lights Up";
-  } else {
-    btn.innerHTML = "Lights Down";
-  }
-}
