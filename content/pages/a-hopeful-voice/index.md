@@ -1,12 +1,12 @@
 ---
-title: "Finding Your Voice"
+title: "A Hopeful Voice"
 topic: "Documentation"
 date: 2019-02-04T21:34:53-05:00
 description: "Undocumented Venezuelans find their livelihood by singing on the street."
-video: "../finding-your-voice/assets/gov-headervideo.mp4"
-headerStill: "../finding-your-voice/assets/documentation-headerstill.jpg"
+video: "../a-hopeful-voice/assets/gov-headervideo.mp4"
+headerStill: "../a-hopeful-voice/assets/documentation-headerstill.jpg"
 image: "./images/gov-homepagestill.jpg"
-storyHeading: "Finding Your Voice"
+storyHeading: "A Hopeful Voice"
 storySubheading: "Undocumented Venezuelans find their livelihood by singing on the street."
 weight: 1
 card: true
@@ -101,12 +101,12 @@ Once in Maicao, the first Colombian city she set foot on, Irelys felt overwhelme
 
 There was freshly baked bread, buñuelos, pan de bono, pastelitos, empanadas — all traditional finger food that had become scarce and expensive over the last few years in Venezuela.
 
-{{< story-interactives "pages/finding-your-voice" "gov-birthrite-int" >}}
+{{< story-interactives "pages/a-hopeful-voice" "gov-birthrite-int" >}}
 
 Nunc faucibus aliquet mauris vel fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam odio arcu, efficitur id placerat quis, imperdiet semper justo. Phasellus consectetur justo in posuere laoreet. Nulla fringilla dolor erat, a venenatis velit congue pretium. Vestibulum finibus sem in interdum vestibulum. Ut cursus risus ligula, eu sagittis dolor lobortis a. Sed arcu urna, varius tristique leo at, accumsan gravida velit. Morbi in nisl id quam convallis tincidunt. Integer pharetra viverra tellus eget vulputate. Nunc id mi viverra, pretium lacus in, vulputate ligula. Curabitur ac urna ex.
 
 Quisque eget tortor dignissim dui commodo iaculis. Ut nec varius libero. Nulla ultricies sodales diam, quis pharetra quam malesuada ac. Morbi non fringilla nisl. Sed a turpis non nulla ultrices condimentum sit amet sed nisi. Ut sodales tristique tempor. Quisque efficitur purus enim, non egestas augue finibus quis. Nulla a ipsum dui. Donec euismod, dui vel ultricies euismod, ligula elit hendrerit augue, ut ornare enim neque quis nunc. Phasellus non feugiat ipsum. Mauris tristique felis a est ultricies cursus. Fusce semper, neque eu mattis facilisis, purus nisi fermentum elit, vel commodo urna quam sit amet orci. Duis ipsum turpis, sollicitudin nec euismod venenatis, pharetra eu tellus. Ut efficitur metus ut mauris tempus, ac dictum nibh pharetra.
 
-{{< center-quote "/pages/finding-your-voice" "pull-quote-1" >}}
+{{< center-quote "/pages/a-hopeful-voice" "pull-quote-1" >}}
 
 Before turning on the speaker in front of the diners, she asks for permission. If granted, she signs a song, and before collecting the tips her livelihood depends on, Irelys reminds the audience, “Good Venezuelans outnumber the bad ones.”
