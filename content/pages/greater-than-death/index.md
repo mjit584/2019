@@ -13,7 +13,7 @@ card: true
 author: "Sara Pequeno"
 videographer: "Tenley Garrett, Peggy Mullin"
 designer: "Carlos Salas"
-udea: "Maria"
+udea: "Maria Orozco"
 ---
 
 Marbis Judith Verenzuela, 53, knew she had to go back. Her oldest daughter, Jorlis, was still in Venezuela. So last December, she traveled back from Colombia to save her family.
@@ -22,7 +22,7 @@ Jorlis, 29, had surgery to remove a brain tumor in 2012, but still experiences s
 
 Marbis Judith did not know how sick her daughter was.
 
-“ They just told her I was fine and felt a little bad, but nothing too serious,” Jorlis said. “Because my mom is very sick, too.”
+“They just told her I was fine and felt a little bad, but nothing too serious,” Jorlis said. “Because my mom is very sick, too.”
 
 Still, they had to make the journey. So they got on the bus in Maracay, to travel from San Antonio into Cúcuta.
 
@@ -33,6 +33,8 @@ When the family got to Simón Bolívar International Bridge — the dividing lin
 Two Colombian immigration agents shouted for someone to bring them a wheelchair. They allowed the family to cross into Colombia, even without papers. Marbis Judith grabbed her grandson and granddaughter, and rushed her family across the bridge to the Red Cross facility in Cúcuta.
 
 At the Red Cross, they gave Jorlis medicine and treated her so that she could travel to Medellín. Now, she lives with her husband, her children, Marbis Judith, her younger sister and her nieces in a two-bedroom apartment in Medellín. Jorlis says her children remind her to take her medicine every morning, in case she forgets.
+
+{{< center-quote "pages/greater-than-death" "marbis-georgina" >}}
 
 Despite the hardship in fleeing to Colombia, the family felt they had no choice. When Venezuela's economy collapsed in 2014, so did the health care system. Doctors fled the country, seeking better jobs in other countries. Shelves that were once stocked with medicines sat empty. In March, blackouts in the country led to as many as 70 deaths as hospitals lost power for days.
 
@@ -50,7 +52,7 @@ Marbis Judith and her family had heard that Medellín had reputable doctors who 
 The family sits in their new home in downtown Medellín. The previous owner donated money so they could have furniture. They owned nothing except hope when they arrived. Outside, the sounds of the city roar on, with a salesperson’s boisterous announcements intermingling with the hums of cars.
 
 <!-- 1st photo goes here - judy on mom's lap -->
-{{< photo-caption "pages/greater-than-death" "photo-caption-1" >}}
+{{< photo-caption-vert "pages/greater-than-death" "photo-caption-1" >}}
 
 Marbis Georgina’s daughter Judy sits in her lap, resting her head against the table as she fails to stay awake with her family.
 
@@ -135,6 +137,8 @@ The children, however, feel differently. Jorlis’ daughter, Maria, still rememb
 The family still struggles to treat their medical issues, due to the lack of money and status within Colombia. The government is only accepting PEP applications if Venezuelans have a passport and arrived in the country before Dec. 17. If Marbis Georgina can get the proper documentation for her children, they will have access to Colombia’s public health care system.
 
 The next round of PEP applications will not occur until July, according to Toni Vitola, a representative from ColVenz, an NGO in the area. 
+
+{{< center-quote "/pages/greater-than-death" "marbis-pull">}}
 
 Because there isn’t a PEP application, Jorlis, Eucletus and their children are unable to receive government assistance if they are sick—- meaning they have to seek care from nongovernmental organizations or only visit a Colombian doctor if there is an absolute emergency.
 

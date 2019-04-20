@@ -24,7 +24,7 @@ Creating a new life in a new country is no easy feat, especially for the Venezue
 
 {{< photo-caption-vert "/pages/making-it-in-medellin" "photo-caption-1-vert" >}}
 
-<p>In Venezuela, Linelvi and her husband had a fairly well off life, even as the Venezuelan crisis began. But once she gave birth to her first-born child, she and her husband decided to move to Medellín because they knew they couldn’t raise him in the chaos of the crisis. Initially, they didn’t consider going to Colombia; they wanted to go to Mexico. But traveling to Mexico was too expensive for them to travel all together. Then, they decided to go to Medellín, because her husband knew someone in the city. This didn’t work out well, however; the husband’s acquaintance stole from them and kicked them out of their residence. Eventually, the two found their place in the Boyacá Mall, after the managers of the mall saw the strong work ethic of Linelvi’s husband, and decided to give them the shop on the agreement of paying their rent on a daily commission instead of monthly. After a year and a half of moving from Venezuela to Colombia, Linelvi and her husband are out of debt for the first time.</p>
+<p>In Venezuela, Linelvi Rivas and her husband had a fairly well-off life, even as the Venezuelan crisis began. But once she gave birth to her first child, she and her husband decided to move to Medellín because they knew they couldn’t raise him in the chaos of the crisis. Initially, they didn’t consider going to Colombia; they wanted to go to Mexico. But traveling to Mexico was too expensive for them to travel all together. They decided to go to Medellín because her husband knew someone in the city. This didn’t work out well - the husband’s acquaintance stole from them and kicked them out of their residence. Eventually, the two found their place in the Boyacá Mall, after the managers of the mall saw the strong work ethic of Linelvi’s husband. The mall decided to give them the shop on the agreement of paying their rent on a daily commission instead of monthly. A year and a half after moving from Venezuela to Colombia, Linelvi and her husband are out of debt for the first time. “People have shown us their backs, but you gotta rise and walk, because my heart is still in Venezuela,” Rivas said.</p>
 </div>
 
 <div class="photo__success-people">
@@ -32,15 +32,17 @@ Creating a new life in a new country is no easy feat, especially for the Venezue
 
 {{< photo-caption-vert "/pages/making-it-in-medellin" "photo-caption-2-vert" >}}
 
-<p>Richard was the first in his family to move over to Colombia, after moving from Venezuela in February of 2018. In Venezuela, he worked as a fencing trainer; however, because of the immigration crisis, he decided to move over to Colombia to provide a better life for his young daughter and wife. Now, Richard works in a restaurant while also working as a fencing trainer at the same time.</p>
+<p>Richard Javier Fariñas Herrera was the first in his family to move to Colombia in February 2018. In Venezuela, he worked as a fencing trainer. However, because of the immigration crisis, he decided to move to Colombia to provide a better life for his young daughter and wife. Now, Richard works in a restaurant while also working as a fencing trainer.</p>
 </div>
 
 <div class="photo__success-people">
 <h2 class="photo__subhead flex">Oneidys Alejandra Rodríguez</h2>
 
+{{< center-quote "pages/making-it-in-medellin" "oneidys-pull" >}}
+
 {{< photo-caption-vert "/pages/making-it-in-medellin" "photo-caption-3-vert" >}}
 
-<p>Oneidys lives with her family, husband and her daughter. She decided to move to Colombia because of her daughter. Think became so difficult that she could no longer purchase diapers, vaccines, and milk for her daughter. Oneidys started running a bakery with her cousin, who also lives with her and her family, to help pay for rent and for materials for her child. She advertises her bakery on Facebook, where people can request whatever they need for events.</p>
+<p>Oneidys Alejandra Rodríguez and her husband decided to move to Colombia in May of 2018 for their daughter’s safety. Things became so difficult that she could no longer purchase diapers, vaccines and milk for her daughter. Oneidys started running a bakery with her cousin, who also lives with her and her family, to help pay rent and for materials for her child. She advertises her bakery on Facebook, where people can request whatever they may need for an event. “The decision to leave Venezuela was hard because I did not want to leave my father; he is handicapped and has lived with me for my entire life,” Oneidys said.</p>
 </div>
 
 <div class="photo__success-people">
@@ -48,7 +50,7 @@ Creating a new life in a new country is no easy feat, especially for the Venezue
 
 {{< photo-caption-vert "/pages/making-it-in-medellin" "photo-caption-4-vert" >}}
 
-<p>He was a civil engineer in Venezuela, but [idk something happened so there’s gonna be more details about his life.] [Detail about how he found his job at BOXClub] “(Quote about his life here or whatever is important)”</p>
+<p>Jonathan Freites was a civil engineer and a personal trainer in Venezuela–his wife, a lawyer and a teacher. But even with the four professions that Freites and his wife shared, it was not enough to supply basic needs for his wife and three children. Freites and his wife decided to move to Medellín in July of 2017, where he now works as a fitness trainer at a gym to help supply for the funds of his family. His wife found a job in a call center when they first arrived, but she is now attending school to obtain the correct papers to practice Colombian law.</p>
 </div>
 
 <div class="photo__success-people">
@@ -58,13 +60,15 @@ Creating a new life in a new country is no easy feat, especially for the Venezue
 
 {{< photo-caption-vert "/pages/making-it-in-medellin" "photo-caption-6-vert" >}}
 
-<p>Raúl was one of the top olympic shooters in Venezuela, and is now one of the top olympic rifle shooters in all of Colombia. He’s competed everywhere from Germany to Georgia. He decided to move over to Medellín because of his one year old daughter; he and his wife couldn’t get the correct vaccines for her and decided that they couldn’t raise a child in those conditions. Additionally, his wife is Colombian and his father, a former shooter for Venezuela, was recruited by the Colombian national team to coach their rifle shooters; however, he still needs the necessary paperwork to become a Colombian national citizen, or else he cannot compete for the Colombian national team. Although he has pride in being a Venezuelan, and still wears his Venezuelan shooting jersey underneath his current jerseys, he plans on staying in Colombia for the long-term.</p>
+<p>Raúl was one of the top Olympic shooters in Venezuela, and is now one of the top Olympic rifle shooters in Colombia. He’s competed everywhere from Germany to the United States. He decided to move to Medellín because of his one-year-old daughter; he and his wife couldn’t get the correct vaccines for her and decided that they couldn’t raise a child in those conditions. His wife is Colombian and his father, a former shooter for Venezuela, was recruited by the Colombian national team to coach their rifle shooters. However, he still needs the necessary paperwork to become a Colombian national citizen, or else he cannot compete for the Colombian national team. Although he has pride in being a Venezuelan, and still wears his Venezuelan shooting jersey underneath his current jerseys, he plans on staying in Colombia for the long term. “If Colombia is giving me an opportunity, I want to give myself the opportunity with Colombia to be a Colombian athlete,” Vargas said.</p>
 </div>
 
 <div class="photo__success-people">
 <h2 class="photo__subhead flex">Rui Pereira</h2>
 
+{{< center-quote "pages/making-it-in-medellin" "rui-pull" >}}
+
 {{< photo-caption-vert "/pages/making-it-in-medellin" "photo-caption-5-vert" >}}
 
-<p>Pereira attended school in the U.S. at Washington College in Maryland to play baseball and graduated with a degree in business. His family owned three successful restaurant chains, headed by his father; however, when things started to take a turn, he made the decision to move wife and children to Medellín before things started to look desperate in Venezuela because he feared for the safety of him and his family. In a little over 3 years that he has been in Venezuela, Pereira opened up an Italian restaurant chain, Della Nonna Trattoria structured in a similar process as the restaurant chains that his father opened in Venezuela, in 3 different locations in the city of Medellín.</p>
+<p>Rui Pereira, whose parents were Portuguese immigrants in Venezuela, moved to the United States for school and eventually attended Washington College in Maryland to play collegiate baseball and basketball and graduated with a degree in business management and economics. His family owned three separate chains of restaurants–consisting of an Italian foods, Spanish foods, and Venezuelan foods, headed by his father for 41 years. Eventually, after working in the financial sector in Philadelphia, Pennsylvania and Tampa, Florida, Rui took over the family business as the main owner. When things started to take a turn in Venezuela, he made the decision to move he and his wife to Medellín. They did not decide to have children until they moved to Medellín in 2015. In the three years that Rui has been in Venezuela, Rui opened up an Italian restaurant chain, Della Nonna Trattoria, structured in a similar process with the same recipes as one of the restaurants that his father opened in Venezuela, in three different locations in the city of Medellín. “Financially speaking, we were not hurt. We actually were doing fairly well, as a family that has worked for over 40 years and done well . . . but it came to the point where I did not feel safe. I couldn’t go to work without security. I could not relax. I felt trapped in my own country,” Rui said.</p>
 </div>

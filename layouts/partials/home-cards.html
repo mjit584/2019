@@ -1,7 +1,7 @@
 <div class="cards">
 
   {{ range where .Site.Pages.ByWeight "Params.card" true }}
-  <div class="card" id="card-{{.Params.weight}}">
+  <a href="{{.URL}}" class="card" id="card-{{.Params.weight}}">
     {{if ne .Params.weight 6}}
     <img class="card__img" src="{{ .Params.image }}" alt="Venezuela">
     {{else}}
@@ -12,7 +12,9 @@
       {{ partial "ybr-line.html" . }}
       <div class="card__title">{{ .Title }}</div>
       <div class="card__button">
-        <a href="{{.URL}}">Explore &nbsp; <i class="fas fa-arrow-right"></i></a>
+        <div class="card__button-text">
+          Explore &nbsp; <i class="fas fa-arrow-right"></i>
+        </div>
       </div>
     </div>
     <div class="card__hover">
@@ -21,9 +23,11 @@
       <div class="card__title">{{ .Title }}</div>
       <div class="card__desc">{{ .Description }}</div>
       <div class="card__button">
-        <a href="{{.URL}}">Explore &nbsp; <i class="fas fa-arrow-right"></i></a>
+        <div class="card__button-text">
+          Explore &nbsp; <i class="fas fa-arrow-right"></i>
+        </div>
       </div>
     </div>
-  </div>
+  </a>
   {{ end }}
 </div>

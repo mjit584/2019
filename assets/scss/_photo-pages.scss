@@ -1,17 +1,18 @@
-.photo {
-  .overlay {
-    background-image: linear-gradient(
-    rgba(0,0,0,0.1),
-    rgba(0,0,0,0.1)
-    );
+.overlay {
+  background-image: linear-gradient(
+  rgba(0,0,0,0.1),
+  rgba(0,0,0,0.1)
+  );
 
-    @media screen and (max-width: 800px) {
-      background-image: linear-gradient(
-    rgba(0,0,0,0),
-    rgba(0,0,0,0)
-    );
-    }
+  @media screen and (max-width: 800px) {
+    background-image: linear-gradient(
+  rgba(0,0,0,0),
+  rgba(0,0,0,0)
+  );
   }
+}
+
+.photo {
 
   .photo__diptych {
     margin-top: 5%;
@@ -82,22 +83,57 @@
     }
   }
 
+  .photo-caption-container-vert {
+    width: 63vw;
+    .caption {
+      p {
+        width: 100% !important;
+      }
+    } 
+  }
+
   .photo__success-people {
     margin: 100px auto;
+  
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      width: 60vw;
+    }
+
+    .photo__subhead {
+      font-family: $font-subhead;
+      margin-bottom: 20px;
+      font-size: 2.1rem;
+    }
+
+   
+    .center-quote-container {
+      margin-top: 1%;
+      p {
+        max-width: 820px;
+      }
+      @media screen and (max-width: 800px) {
+        p {
+          width: 93vw;
+          line-height: 1.25em;
+        }
+      }
+    }
     
 
     @media screen and (max-width: 800px) {
       margin: 60px auto;
+      img {
+        width: 100%;
+      }
+
+      p {
+        width: 85vw;
+      }
     }
-  }
-
-  .photo__subhead {
-    font-family: $font-subhead;
-    margin-bottom: 0;
-  }
-
-  .center-quote-container {
-    margin-top: 1%;
   }
   
   .interactive__image {

@@ -15,7 +15,7 @@ $(window).scroll(function (event) {
     var goDarkText = new ScrollMagic.Scene({
       triggerElement: "#video-top",
       triggerHook: 0,
-      duration: "50%"
+      duration: "40%"
     })
       .setClassToggle('p, h1, h2, h3, h4, h5, h6, .interactive, .flourish, .story__subhead, .byline, .story-hero, .photo-hero, .ybr-line', 'no-show')
       .addTo(controller);
@@ -23,7 +23,7 @@ $(window).scroll(function (event) {
     var goDarkBody = new ScrollMagic.Scene({
       triggerElement: "#video-top",
       triggerHook: 0,
-      duration: "50%"
+      duration: "40%"
     })
       .setClassToggle('body', 'black')
       .addTo(controller);
@@ -39,7 +39,7 @@ $(window).resize(function () {
     var goDarkText = new ScrollMagic.Scene({
       triggerElement: "#video-top",
       triggerHook: 0,
-      duration: "50%"
+      duration: "40%"
     })
       .setClassToggle('p, h1, h2, h3, h4, h5, h6, .interactive, .flourish, .story__subhead, .byline, .story-hero, .photo-hero, .ybr-line', 'no-show')
       .addTo(controller);
@@ -47,7 +47,7 @@ $(window).resize(function () {
     var goDarkBody = new ScrollMagic.Scene({
       triggerElement: "#video-top",
       triggerHook: 0,
-      duration: "50%"
+      duration: "40%"
     })
       .setClassToggle('body', 'black')
       .addTo(controller);

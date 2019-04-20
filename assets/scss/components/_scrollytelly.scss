@@ -81,7 +81,7 @@
   justify-content: space-around;
 
   .bubble__img {
-    width: 10vw;
+    width: 12vw;
     transition: .3s width ease-in-out;
 
     &:hover {
@@ -115,6 +115,12 @@
   text-align:left;
   font-size:1.3rem;
   line-height:1.7em;
+
+  .scrolly__text-container {
+    background-color: #fafafa;
+    padding: 2%;
+  }
+  
   img {
     margin: 10px auto;
   }

@@ -41,8 +41,31 @@
   </div>
 </div>
 
-<footer class="flex-column">
-  {{ partial "footer.html" . }}
+<div class="about__thanks">
+  <div class="about__heading">Special thanks to the following:</div>
+  <ul class="about__thanks-list">
+    <li>Mary Iguaran</li>
+    <li>Joaquín Alonso Gómez Meneses</li>
+    <li>Liana Pinner</li>
+    <li>Louise Spieler, Charlie Tuggle, Susan King</li>
+    <li>Students in MEJO 557: Advanced Editing</li>
+  </ul>
+</div>
+
+<footer>
+  <div class="footer__social">
+    <a href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}images/logo-footer-black.png"
+        alt="Uprooted footer logo" /></a>
+    {{ partial "ybr-line.html" . }}
+    <div class="footer__social-icons flex">
+      <a href="https://facebook.com/uprootedunc" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com/@uprootedunc" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://instagram.com/uprootedunc" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="footer__about">
+      <a href="{{.Site.BaseURL}}about">About Us</a>
+    </div>
+  </div>
 </footer>
 {{ end }}
 

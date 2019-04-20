@@ -80,7 +80,6 @@ graphics:
               Basic Vision
             </div>
           </div>
-          <div class="spacer-height"></div>
           <div class="container flex-column card-front-subtitle" id="ch-r-3-r1">ADDITIONAL COVERAGE <div style=" font-weight: 400; font-style: italic;">- optional</div></div>
           <div class="container flex card-front-icons" id="ch-r-3-r2">
             <div class="container flex-column card-icon" id="comp-plan">
