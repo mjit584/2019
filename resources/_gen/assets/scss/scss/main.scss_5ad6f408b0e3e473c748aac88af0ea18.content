@@ -86,7 +86,9 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 800px) {
   .home nav {
     position: absolute;
-    top: 0; } }
+    top: 0;
+    left: 0;
+    right: 0; } }
 
 .home #home__intro,
 .home #home__cards,
@@ -1447,8 +1449,7 @@ nav {
     left: 0; } }
 
 .lock-scroll {
-  overflow: hidden;
-  position: fixed; }
+  overflow: hidden; }
 
 .interactive {
   max-width: 100%;
