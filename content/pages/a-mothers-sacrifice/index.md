@@ -30,7 +30,7 @@ Fernando Botero’s statues line each side of the plaza’s entry, creating a ca
 
 Dressed in denim shorts and a camouflage green top, she sits on this stoop every afternoon and late into the night, waiting for men to ask for “un rato” –  a moment.
 
-{{< photo-caption "pages/a-mothers-sacrifice" "photo-caption-1" >}}
+{{< photo-caption-vert "pages/a-mothers-sacrifice" "photo-caption-1" >}}
 
 Of the 1,032,016 Venezuelans that migrated to Colombia before September 2018, 51.8% were women, according to the Caracas Chronicles, a news and analysis organization in Venezuela. Many, like Maria, have been forced to turn to sex work due to the lack of stable, well-paying economic opportunities available without legal documentation to work in Colombia. 
 
@@ -91,7 +91,7 @@ One month passed, and Maria was not making much progress on bringing her childre
 
 But an encounter with a Venezuelan man made her realize that she had another choice. A choice that could quickly earn her more money but at a much higher cost.
 
-{{< photo-caption-vert "pages/a-mothers-sacrifice" "photo-caption-2" >}}
+{{< photo-caption "pages/a-mothers-sacrifice" "photo-caption-2" >}}
 
 <div class="story__subhead">The First “Rato”</div>
 
