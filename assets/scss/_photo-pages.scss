@@ -156,17 +156,12 @@
     #room__info {
       text-align: center;
       background-color: $white;
-      height: auto;
-      max-width: 500px;
-      width: 90%;
+      height: 130px;
+      width: 500px;
       position: absolute;
-      left: 0;
-      right: 0;
-      margin-right: auto;
-      margin-left: auto;
     }
     
-    @media screen and (max-width:1000px) {
+    @media screen and (max-width:1050px) {
       #room__info {
         position: relative;
         left: 0;
