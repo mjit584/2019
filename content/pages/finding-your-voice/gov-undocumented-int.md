@@ -119,6 +119,7 @@ graphics:
               <div class="slide-txt">
                 <p>PEP is short for <em>Permiso Especial de Permanencia</em>, which is Spanish for Special Permit of
                   Permanence. It is a special permit granted to Venezuelans who seek refuge in Colombia.</p>
+                  <p class="sources">* Data from Migracion Colombia</p>
               </div>
             </div>
           </div>
@@ -144,6 +145,7 @@ graphics:
                   The PEP is valid for 90 days and is extendable for up to a maximum of 2 years. Once obtained,
                   Venezuelans are able to work, study, access the health system, and perform legal activity in Colombia.
                 </p>
+                <p class="sources">* Data from Migracion Colombia</p>
               </div>
             </div>
           </div>

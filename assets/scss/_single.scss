@@ -9,7 +9,7 @@
     "story-ft story-ft story-ft story-ft";
   transition: 0.5s background-color;
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1040px) {
     grid-template-columns: 1fr;
     grid-template-areas:
       "nav"
@@ -17,6 +17,7 @@
       "story-bd"
       "story-ft";
   }
+
   .story-hero {
     color: $white;
     height: auto;
@@ -28,7 +29,7 @@
     justify-content: flex-start;
     transition: 1s opacity;
 
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1040px) {
       height: auto;
       padding-bottom: 0;
     }
@@ -47,7 +48,7 @@
       object-fit: cover;
       object-position: top left;
 
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         display: none;
       }
     }
@@ -61,7 +62,7 @@
       height: 30vh;
       object-fit: cover;
 
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         display: block;
       }
     }
@@ -75,10 +76,12 @@
       text-align: center;
       top: 20%;
 
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         margin-top: 35vh;
         text-align: left;
-        width: 85vw;
+        max-width: 85vw;
+        min-width: 50vw;
+        width: 680px;
         color: $black;
         position: static;
       }
@@ -90,7 +93,7 @@
         text-transform: uppercase;
         font-size: 1.2rem;
 
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 1040px) {
           font-size: 1rem;
         }
       }
@@ -109,9 +112,11 @@
       position: absolute;
       bottom: 15%;
 
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         position: static;
-        width: 85vw;
+        max-width: 85vw;
+        min-width: 50vw;
+        width: 680px;
       }
 
       .story-hero__title {
@@ -119,9 +124,8 @@
         font-size: calc(3rem + 3vw);
         margin-bottom: 0;
 
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 1040px) {
           margin-top: 10px;
-          max-width: 85vw;
           text-align: left;
           font-size: 2.25rem;
           color: $black;
@@ -132,9 +136,8 @@
         font-family: $font-hero-desc;
         margin: 5px 0;
 
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 1040px) {
           color: $black;
-          max-width: 85vw;
           font-size: 1rem;
           text-align: left;
         }
@@ -159,7 +162,7 @@
       align-items: flex-start;
       margin: 45px auto 20px;
 
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         margin: 35px auto 15px;
         max-width: 85vw;
       }
@@ -171,7 +174,7 @@
       padding: 2%;
     }
 
-    &>p {
+    & > p {
       width: 680px;
       min-width: 50vw;
     }
@@ -181,8 +184,9 @@
       margin: 20px auto;
       transition: 1s opacity;
       font-size: 1.125rem;
+      
 
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         margin: 18px auto;
         max-width: 85vw;
         font-size: 1rem;
@@ -238,7 +242,7 @@ nav {
   justify-content: space-around;
   background-color: transparent;
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1040px) {
     width: 100%;
   }
 }
@@ -254,7 +258,7 @@ nav {
       align-items: flex-start;
       flex-wrap: wrap;
   
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         max-width: 90vw;
         flex-direction: column;
         align-items: center;
@@ -269,7 +273,7 @@ nav {
     .photo__diptych-caption {
       width: 78vw;
   
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         width: 90vw;
       }
   
@@ -280,7 +284,7 @@ nav {
         font-family: $font-photo-caption;
         font-size: 1rem;
   
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 1040px) {
           font-size: 0.8rem;
         }
       }

@@ -133,10 +133,7 @@
         .card__button {
           opacity: 1;
           transform: translate3d(0, 0, 0);
-        }
-
-        .ybr-line {
-          transition-delay: .05s;
+          transition: opacity .3s cubic-bezier(.4, 0, .2, 1), transform .3s cubic-bezier(.4, 0, .2, 1);
         }
 
         // Increase title font size on card hover
@@ -148,11 +145,12 @@
         }
 
         .card__desc {
-          transition-delay: .1s;
+          transition-delay: .15s;
         }
 
         .card__button {
           width: 115px;
+          transition: opacity .3s cubic-bezier(.4, 0, .2, 1) .35s, transform .3s cubic-bezier(.4, 0, .2, 1) .35s, width .5s ease .8s;
         }
 
       }
@@ -266,7 +264,7 @@
       .card__button {
         opacity: 0;
         transform: translate3d(0, 20px, 0);
-        transition: opacity .3s cubic-bezier(.4, 0, .2, 1), transform .3s cubic-bezier(.4, 0, .2, 1);
+        transition: none;
 
         @media screen and (max-width: 800px) {
           display: none;
@@ -274,7 +272,7 @@
       }
 
       .card__button {
-        transition: opacity .3s cubic-bezier(.4, 0, .2, 1) .35s, transform .3s cubic-bezier(.4, 0, .2, 1) .35s, width .5s ease .8s;
+        transition: none;
       }
 
     }
@@ -286,7 +284,6 @@
       .ybr-line,
       .card__title {
         opacity: 1;
-        transition: opacity .5s;
 
         @media screen and (max-width: 800px) {
           transition: color .3s;
