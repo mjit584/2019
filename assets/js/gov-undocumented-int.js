@@ -9,7 +9,7 @@ $(document).ready(function () {
     $("#pep-slide-buttons").css({ "display": "flex", "opacity": "1" });
   });
 
-  $("#PEP-button").click(function () {
+  $("#pep-button").click(function () {
     $("#PEP-body").fadeOut(300);
     $(".container-body").css("display", "flex");
   });
@@ -31,7 +31,7 @@ $(document).ready(function () {
     $("#ID-slide-buttons").css({ "display": "flex", "opacity": "1" });
   });
 
-  $("#ID-button").click(function () {
+  $("#id-button").click(function () {
     $("#ID-body").fadeOut(300);
     $(".container-body").css("display", "flex");
   });

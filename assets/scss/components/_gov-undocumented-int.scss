@@ -113,15 +113,15 @@
     margin-bottom: 50px;
 
   }
+
   .back-button {
     font-family: ddinexpbold,sans-serif;
     text-transform: uppercase;
-    padding: 10px 10px;
+    padding: 10px 30px;
     cursor: pointer;
     background: $red;
     color: $white;
     transition: border-bottom 0.2s;
-    width: 115px;
     border-radius: 30px;
   }
 
@@ -167,14 +167,16 @@
     justify-content: center;
 
   }
-  img {vertical-align: middle;}
+  img {
+    vertical-align: middle;
+  }
 
   .slideshow-buttons {
     position: fixed;
     display: flex;
     top: 50%;
     justify-content: space-between;
-    width: 75%;
+    width: 90vw;
     opacity: 1;
   }
 
@@ -418,16 +420,6 @@
 
     .back-button {
       margin-left: 20px;
-    //   margin-left: 0;
-    //   margin-top: 0;
-    //   font-size: 20px;
-    //   display: flex;
-    //   align-items: center;
-    //   justify-content: center;
-    //   width: 70px;
-    //   height: 70px;
-    //   background-color: $black;
-    //   color: $white;
     }
 
     .information-title{

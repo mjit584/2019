@@ -119,7 +119,7 @@ graphics:
               <div class="slide-txt">
                 <p>PEP is short for <em>Permiso Especial de Permanencia</em>, which is Spanish for Special Permit of
                   Permanence. It is a special permit granted to Venezuelans who seek refuge in Colombia.</p>
-                  <p class="sources">* Data from Migracion Colombia</p>
+                <p class="sources">* Data from Migracion Colombia</p>
               </div>
             </div>
           </div>
@@ -167,7 +167,7 @@ graphics:
           </div>
         </div>
         <div class="back-button-row flex">
-          <div class="back-button" id="PEP-button">Back</div>
+          <div class="back-button" id="pep-button">Back</div>
         </div>
         <div style="text-align:center">
           <span class="dot" onclick="currentSlide(1)"></span>
@@ -199,7 +199,7 @@ graphics:
                   Venezuela’s
                   government issues. Many countries, such as China (PRC Resident Identity Card) and France (Carte
                   Nationale d’Identité), also have national identity cards. </p>
-                  <p class="sources">* Data from World Privacy Forum</p>
+                <p class="sources">* Data from World Privacy Forum</p>
               </div>
             </div>
           </div>
@@ -265,7 +265,7 @@ graphics:
           </div>
         </div>
         <div class="back-button-row flex">
-          <div class="back-button" id="ID-button">Back</div>
+          <div class="back-button" id="id-button">Back</div>
         </div>
         <div style="text-align:center">
           <span class="dot-ID" onclick="currentSlideID(1)"></span>
