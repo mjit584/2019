@@ -769,7 +769,7 @@ nav {
     height: 130px;
     width: 500px;
     position: absolute; }
-  @media screen and (max-width: 1040px) {
+  @media screen and (max-width: 1240px) {
     .photo .interactive__image #room__info {
       position: relative;
       left: 0;

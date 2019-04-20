@@ -18,15 +18,14 @@ var windowWidth;
 windowWidth = $(window).width();
 
 window.onload = function () {
-  function hoverRed(picSection) {
-    picSection.style.fill = "rgba(199, 0, 50, 0.36)";
-  }
+  if (windowWidth > 1240) {
+    function hoverRed(picSection) {
+      picSection.style.fill = "rgba(199, 0, 50, 0.36)";
+    }
 
-  function stopHover(picSection) {
-    picSection.style.fill = "rgba(199, 0, 50, 0)";
-  }
-
-  if (windowWidth > 1040) {
+    function stopHover(picSection) {
+      picSection.style.fill = "rgba(199, 0, 50, 0)";
+    }
     floorCircle.onmouseenter = function () {
       hoverRed(floor);
       var floorCircPos = floorCircle.getBoundingClientRect();
@@ -145,17 +144,6 @@ floorCircle.onclick = function () {
     infoBox.innerHTML = html;
   } else {
     infoBox.classList.toggle('hidden');
-    // var x = floorCircPos.x;
-    // var height = infoBox.getBoundingClientRect().height;
-    // var svgX = svgPos.x;
-    // var top = (x - svgX - height) + "px";
-    // var left = floorCircPos.left - (ttWidth / 2) + "px";
-    // console.log(top);
-    // console.log("height:", height);
-    // infoBox.style.top = top;
-    // infoBox.style.left = left;
-    // console.log("infoxBox top:", infoBox.style.top);
-    // console.log("infoxBox left:", infoBox.style.left);
   }
 }
 
@@ -167,17 +155,6 @@ bedCircle.onclick = function () {
     infoBox.innerHTML = html;
   } else {
     infoBox.classList.toggle('hidden');
-    // var x = bedCircPos.x;
-    // var height = infoBox.getBoundingClientRect().height;
-    // var svgX = svgPos.x;
-    // var top = (x - svgX - height) + "px";
-    // var left = bedCircPos.left - (ttWidth / 2) + "px";
-    // console.log(top);
-    // console.log("height:", height);
-    // infoBox.style.top = top;
-    // infoBox.style.left = left;
-    // console.log("infoxBox top:", infoBox.style.top);
-    // console.log("infoxBox left:", infoBox.style.left);
   }
 }
 
@@ -189,17 +166,6 @@ bagsCircle.onclick = function () {
     infoBox.innerHTML = html;
   } else {
     infoBox.classList.toggle('hidden');
-    // var x = bagsCircPos.x;
-    // var height = infoBox.getBoundingClientRect().height;
-    // var svgX = svgPos.x;
-    // var top = (x - svgX - (height * 1.5)) + "px";
-    // var left = bagsCircPos.left - (ttWidth / 2) + "px";
-    // console.log(top);
-    // console.log("height:", height);
-    // infoBox.style.top = top;
-    // infoBox.style.left = left;
-    // console.log("infoxBox top:", infoBox.style.top);
-    // console.log("infoxBox left:", infoBox.style.left);
   }
 }
 
@@ -211,18 +177,5 @@ wallCircle.onclick = function () {
     infoBox.innerHTML = html;
   } else {
     infoBox.classList.toggle('hidden');
-    // var x = wallCircPos.x;
-    // console.log("wall x:", x);
-    // var height = infoBox.getBoundingClientRect().height;
-    // var svgX = svgPos.x;
-    // var top = (x - svgPos.height - height) + "px";
-    // console.log("wall y", wallCircPos.y);
-    // var left = wallCircPos.left - ttWidth + "px";
-    // console.log(top);
-    // console.log("height:", height);
-    // infoBox.style.top = top;
-    // infoBox.style.left = left;
-    // console.log("infoxBox top:", infoBox.style.top);
-    // console.log("infoxBox left:", infoBox.style.left);
   }
 }
