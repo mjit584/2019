@@ -1546,6 +1546,9 @@ nav {
   width: 63vw;
   margin: 10vh auto;
   align-items: flex-start; }
+  @media screen and (max-width: 1040px) {
+    .photo-caption-container {
+      margin: 7vh auto; } }
   .photo-caption-container img {
     width: 100%; }
   .photo-caption-container .caption {

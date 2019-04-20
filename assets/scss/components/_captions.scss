@@ -5,6 +5,10 @@
   margin: 10vh auto;
   align-items: flex-start;
 
+  @media screen and (max-width: 1040px) {
+    margin: 7vh auto;
+  }
+
   img {
     width:100%;
   }
