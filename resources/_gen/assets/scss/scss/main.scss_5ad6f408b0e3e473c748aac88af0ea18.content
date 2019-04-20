@@ -1069,18 +1069,18 @@ nav {
     .cards .card:active .card__hover .card__desc,
     .cards .card:active .card__hover .card__button {
       opacity: 1;
-      transform: translate3d(0, 0, 0); }
-    .cards .card:hover .card__hover .ybr-line, .cards .card:active .card__hover .ybr-line {
-      transition-delay: .05s; }
+      transform: translate3d(0, 0, 0);
+      transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
     .cards .card:hover .card__hover .card__title, .cards .card:active .card__hover .card__title {
       transition-delay: .1s;
       font-size: 2.5rem;
       line-height: 2.3rem;
       padding: 10px 25px; }
     .cards .card:hover .card__hover .card__desc, .cards .card:active .card__hover .card__desc {
-      transition-delay: .1s; }
+      transition-delay: .15s; }
     .cards .card:hover .card__hover .card__button, .cards .card:active .card__hover .card__button {
-      width: 115px; }
+      width: 115px;
+      transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0.35s, transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0.35s, width 0.5s ease 0.8s; }
     .cards .card:hover .card__base .card__heading,
     .cards .card:hover .card__base .ybr-line,
     .cards .card:hover .card__base .card__title, .cards .card:active .card__base .card__heading,
@@ -1160,7 +1160,7 @@ nav {
     .cards .card .card__hover .card__button {
       opacity: 0;
       transform: translate3d(0, 20px, 0);
-      transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+      transition: none; }
       @media screen and (max-width: 800px) {
         .cards .card .card__hover .card__heading,
         .cards .card .card__hover .ybr-line,
@@ -1169,12 +1169,11 @@ nav {
         .cards .card .card__hover .card__button {
           display: none; } }
     .cards .card .card__hover .card__button {
-      transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0.35s, transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0.35s, width 0.5s ease 0.8s; }
+      transition: none; }
     .cards .card .card__base .card__heading,
     .cards .card .card__base .ybr-line,
     .cards .card .card__base .card__title {
-      opacity: 1;
-      transition: opacity .5s; }
+      opacity: 1; }
       @media screen and (max-width: 800px) {
         .cards .card .card__base .card__heading,
         .cards .card .card__base .ybr-line,
