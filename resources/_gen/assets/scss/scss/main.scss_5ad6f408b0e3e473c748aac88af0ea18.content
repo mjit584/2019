@@ -1656,7 +1656,7 @@ nav {
     padding-bottom: 50px; }
   .interactive__health #r-3 {
     flex-direction: row;
-    align-items: flex-start;
+    align-items: stretch;
     justify-content: center; }
   .interactive__health #r-4 {
     height: 5vh;
@@ -1668,8 +1668,6 @@ nav {
     flex-direction: column;
     justify-content: flex-start;
     box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.1); }
-  .interactive__health .card-front-subtitle {
-    padding: 20px 0; }
   .interactive__health .card-flipped {
     top: 60vh;
     position: absolute;
@@ -1677,16 +1675,16 @@ nav {
     justify-content: center;
     align-items: center; }
   .interactive__health #card-sh {
-    min-height: 670px;
     width: 40%;
+    height: auto;
     position: relative; }
   .interactive__health #card-back-sh {
     width: 40%;
-    height: 600px;
+    height: auto;
     position: relative; }
   .interactive__health #card-ch {
     width: 40%;
-    height: 670px;
+    height: auto;
     position: relative; }
   .interactive__health #card-back-ch {
     width: 600px;
@@ -1716,7 +1714,7 @@ nav {
     flex-direction: row; }
   .interactive__health .card-front-icons {
     width: 100%;
-    padding: 20px 0;
+    padding: 5px 0 20px;
     flex-direction: row; }
   .interactive__health .card-text-large {
     font-family: 'Lato', sans-serif;
@@ -1736,9 +1734,9 @@ nav {
     font-size: 16px;
     color: white; }
   .interactive__health .card-icon-svg {
-    width: 70px;
+    width: 60px;
     height: auto;
-    padding: 5%; }
+    padding: 5px 0; }
   .interactive__health .card-learn-more {
     width: 150px;
     height: auto;
@@ -1771,23 +1769,22 @@ nav {
     width: 100%;
     color: white;
     background-color: #1457d3; }
-  .interactive__health .card-front-body-sh {
-    width: 100%;
-    min-height: 600px;
-    justify-content: flex-start; }
+  .interactive__health .card-front-body-sh,
   .interactive__health .card-front-body-ch {
+    position: relative;
     width: 100%;
+    height: 100%;
     justify-content: flex-start; }
   .interactive__health .card-back-body {
     position: absolute;
-    min-height: 430px;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
     width: 100%;
     background-color: white;
     display: flex;
     align-items: top;
     justify-content: flex-start; }
-  .interactive__health #card-back-body-ch {
-    height: 600px; }
   .interactive__health .card-back-body-text p {
     text-align: left;
     font-family: 'Lato', sans-serif;
@@ -1808,7 +1805,8 @@ nav {
     width: 100%;
     justify-content: center;
     align-items: center;
-    flex-direction: row; }
+    flex-direction: row;
+    padding: 20px 0 5px; }
   .interactive__health .background-blur {
     position: absolute;
     width: 50%;
@@ -1835,8 +1833,6 @@ nav {
     .interactive__health #card-sh, .interactive__health #card-ch {
       width: 90%;
       margin: 10px; }
-    .interactive__health .card-front-body-sh {
-      min-height: 430px; }
     .interactive__health #r-3 {
       flex-direction: column;
       justify-content: center;
