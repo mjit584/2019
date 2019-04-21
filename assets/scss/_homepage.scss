@@ -225,6 +225,7 @@
     @media screen and (max-width: 1040px) {
       padding-top: 50px;
       grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto;
       grid-template-areas:
         "about-bd"
         "about-help"
@@ -261,11 +262,18 @@
       grid-area: about-help;
       background-color: $light-grey;
       padding: 35px 0;
+      height: 85vh;
       text-align: center;
+
+      @media screen and (max-height: 1040px) {
+        height: auto;
+      }
 
       .about-orgs {
         text-align: center;
         width: 75vw;
+        flex-wrap: wrap;
+        height: 45vh;
         margin: 0 auto;
         align-items: baseline;
 
@@ -274,18 +282,13 @@
           flex-basis: 25%;
 
           img {
-            width: 55%;
-
-            &:last-of-type {
-              width: 35%;
-            }
+            width: 35%;
           }
 
           @media screen and (max-width: 1040px) {
 
             &:last-of-type {
-              grid-column: 1/3;
-              width: 50%;
+              width: 60%;
               margin: 0 auto;
             }
           }
@@ -307,11 +310,12 @@
         }
 
         @media screen and (max-width: 1040px) {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-          grid-template-rows: repeat(3, auto);
-          grid-gap: 1.2rem;
-          align-items: center;
+          height: 80vh;
+          justify-content: space-between;
+
+          .orgs {
+            flex-basis: 50%;
+          }
         }
       }
     }

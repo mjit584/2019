@@ -216,6 +216,7 @@ h1, h2, h3, h4, h5, h6 {
     .home #home__about {
       padding-top: 50px;
       grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto;
       grid-template-areas: "about-bd" "about-help" "about-ft"; } }
   .home #home__about p {
     width: 680px;
@@ -238,23 +239,26 @@ h1, h2, h3, h4, h5, h6 {
     grid-area: about-help;
     background-color: #f2f2f2;
     padding: 35px 0;
+    height: 85vh;
     text-align: center; }
+    @media screen and (max-height: 1040px) {
+      .home #home__about .about-help {
+        height: auto; } }
     .home #home__about .about-help .about-orgs {
       text-align: center;
       width: 75vw;
+      flex-wrap: wrap;
+      height: 45vh;
       margin: 0 auto;
       align-items: baseline; }
       .home #home__about .about-help .about-orgs .orgs {
         cursor: pointer;
         flex-basis: 25%; }
         .home #home__about .about-help .about-orgs .orgs img {
-          width: 55%; }
-          .home #home__about .about-help .about-orgs .orgs img:last-of-type {
-            width: 35%; }
+          width: 35%; }
         @media screen and (max-width: 1040px) {
           .home #home__about .about-help .about-orgs .orgs:last-of-type {
-            grid-column: 1/3;
-            width: 50%;
+            width: 60%;
             margin: 0 auto; } }
         .home #home__about .about-help .about-orgs .orgs a {
           text-decoration: none;
@@ -267,11 +271,10 @@ h1, h2, h3, h4, h5, h6 {
           font-family: "DDinBold", sans-serif; }
       @media screen and (max-width: 1040px) {
         .home #home__about .about-help .about-orgs {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-          grid-template-rows: repeat(3, auto);
-          grid-gap: 1.2rem;
-          align-items: center; } }
+          height: 80vh;
+          justify-content: space-between; }
+          .home #home__about .about-help .about-orgs .orgs {
+            flex-basis: 50%; } }
   .home #home__about .about-title {
     font-family: "DDinBold", sans-serif;
     text-align: center; }
