@@ -1,7 +1,7 @@
 ---
 intTitle: "Photo Scrollytelly 1"
 ---
-<section class="interactive">
+<section class="interactive" style="background-color: transparent;">
   <div class="interactive__body">
     <div class="interactive__background flex-column" id="scrollytelly-1">
       <div class="scrollytelly__main">

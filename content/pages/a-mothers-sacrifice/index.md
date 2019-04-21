@@ -147,6 +147,8 @@ She asked him to stop, but he continued. He forced her to perform anal sex, viol
 
 When she couldn’t take it anymore, she pushed him off, escaping his grip. She grabbed the money and left the hotel room as fast as she could.
 
+{{< story-interactives "pages/a-mothers-sacrifice" "women-defs-int" >}}
+
 “I felt violated and didn’t work for 10 days,” said Maria. “I don’t like to spend too much time in the room with the person, because I do not know the intentions of that person for being in the room.”
 
 The risks of being a sex worker can include verbal harassment, physical violence, sexual assault and femicide or gender-based violence.

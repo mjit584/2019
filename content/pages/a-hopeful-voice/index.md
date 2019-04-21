@@ -40,6 +40,8 @@ In Venezuela, Irelys worked from home designing beach totes and cakes for specia
 
 Irelys had never traveled outside of the country and therefore never needed a passport. When it was time to leave Venezuela five months ago, she couldn’t afford one.
 
+{{< photo-caption "pages/a-hopeful-voice" "photo-caption-1" >}}
+
 Getting a passport is a costly, bureaucratic and lengthy endeavor for Venezuelans, but immigrants still yearn for the burgundy booklet and entrance stamp. Hyperinflation and mismanagement left the government unable to issue passports, sometimes lacking the material to make them or the electricity to load citizens’ information on the computer system.
 
 “You have to find a middleman to get an appointment to have your picture taken and then wait months and months for them to tell you there’s no material,” she said.  “Oh, and then pay the middleman like $1,000.”
@@ -71,6 +73,8 @@ Along with border mobility cards, Migración Colombia began issuing a special st
 
 With the scarcity of Venezuelan passports, the agency said, as of August, only TKTK has been able to issue the permit known as PEP, the acronym for its name in Spanish.
 
+{{< photo-caption "pages/a-hopeful-voice" "photo-caption-2" >}}
+
 Another effort to regularize those without a passport was a census, which took place from April to July in 2018. At first, Colombian authorities marketed the census as an effort to count how many Venezuelans remained undocumented in Colombian territory. The registry didn’t promise  legal status but stipulated the information obtained couldn’t be used by authorities for deportation proceedings.
 
 When the census ended, 442,262 Venezuelans who registered online qualified for the PEP, allowing them to obtain legal employment, access the public healthcare system and apply for visas that would grant more permanent legal status.
@@ -92,6 +96,8 @@ Had it been a regular situation where she’d pay a modest fee for her document,
 ————
 
 To leave, all she needed to do was sell her house in Margarita Island.
+
+{{< photo-caption "pages/a-hopeful-voice" "photo-caption-3" >}}
 
 The United Nations High Commissioner for Refugees estimates at least 3 million Venezuelans have migrated. That’s about 10 percent of the country’s population. In the past years, real estate property values plummeted in a market overwhelmed by soon-to-be immigrants who hope to sell and leave with some money in their pockets.
 

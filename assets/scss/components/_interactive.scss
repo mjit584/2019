@@ -69,15 +69,14 @@
 }
 
 .flourish {
-  max-width: 85vw;
-  margin:4vh auto;
+  margin: 4vh auto;
   transition: opacity 1s ease-in-out;
 
   @media screen and (max-width: 800px){
-      max-width: 85vw;
+      max-width: 80vw;
   }
 
   iframe {
-    max-width: 85vw !important;
+    max-width: 80vw !important;
   }
 }
