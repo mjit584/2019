@@ -27,7 +27,6 @@ graphics:
                   after the first appointment. </p>
                 <p>Appointments are made through the civil registry agency known as SAIME (Servicio Administrativo de
                   Identificación, Migración y Extranjería). </p>
-                <p class="sources">* Data from Bloomberg and Migracion Colombia</p>
               </div>
             </div>
           </div>
@@ -44,7 +43,6 @@ graphics:
                   currency
                   is supposed to be backed by oil and mineral reserves. Passports will cost 2 Petros (about 7,200
                   bolivars) which is equivalent to 4 months salary. </p>
-                <p class="sources">* Data from Skift, Migracion Colombia and Reuters</p>
               </div>
             </div>
           </div>
@@ -62,7 +60,6 @@ graphics:
                   struggle to obtain a proof of residence in their destination country. This limits access to education,
                   healthcare, and the ability to join the workforce.
                 </p>
-                <p class="sources">* Data from Venezuelan Politics and Human Rights</p>
               </div>
             </div>
           </div>
@@ -119,7 +116,6 @@ graphics:
               <div class="slide-txt">
                 <p>PEP is short for <em>Permiso Especial de Permanencia</em>, which is Spanish for Special Permit of
                   Permanence. It is a special permit granted to Venezuelans who seek refuge in Colombia.</p>
-                <p class="sources">* Data from Migracion Colombia</p>
               </div>
             </div>
           </div>
@@ -133,7 +129,6 @@ graphics:
                   immigration post before December 17, 2018, and do not have a criminal record.
                 </p>
                 <p>In order to obtain the PEP, either a Passport or Identity Card is required.</p>
-                <p class="sources">* Data from Migracion Colombia</p>
               </div>
             </div>
           </div>
@@ -145,7 +140,6 @@ graphics:
                   The PEP is valid for 90 days and is extendable for up to a maximum of 2 years. Once obtained,
                   Venezuelans are able to work, study, access the health system, and perform legal activity in Colombia.
                 </p>
-                <p class="sources">* Data from Migracion Colombia</p>
               </div>
             </div>
           </div>
@@ -167,7 +161,7 @@ graphics:
           </div>
         </div>
         <div class="back-button-row flex">
-          <div class="back-button" id="pep-button">Back</div>
+          <div class="back-button" id="PEP-button">Back</div>
         </div>
         <div style="text-align:center">
           <span class="dot" onclick="currentSlide(1)"></span>
@@ -199,7 +193,6 @@ graphics:
                   Venezuela’s
                   government issues. Many countries, such as China (PRC Resident Identity Card) and France (Carte
                   Nationale d’Identité), also have national identity cards. </p>
-                <p class="sources">* Data from World Privacy Forum</p>
               </div>
             </div>
           </div>
@@ -217,7 +210,6 @@ graphics:
                   domestically and internationally, and stay in hotels.
                 </p>
                 <p>Cédulas contain a number that is used to identify every citizen.</p>
-                <p class="sources">* Data from Data from RefWorld.org</p>
               </div>
             </div>
           </div>
@@ -231,7 +223,6 @@ graphics:
                 <p>Cédulas were once the main documentation Venezuelan migrants used to legally enter surrounding
                   countries, but now, many countries, such as Peru, are requiring a passport because cédulas are easy
                   documents to forge and falsify. </p>
-                <p class="sources">* Data from Data from El Estímulo and CNN</p>
               </div>
             </div>
           </div>
@@ -254,7 +245,7 @@ graphics:
                   would help Beijing track its citizens' behaviors. About six years later, ZTE was hired to build the
                   fatherland card database.
                 </p>
-                <p class="sources">*Data from Business Insider</p>
+                <p class="sources">* Data from Migracion Colombia</p>
               </div>
             </div>
           </div>
@@ -265,7 +256,7 @@ graphics:
           </div>
         </div>
         <div class="back-button-row flex">
-          <div class="back-button" id="id-button">Back</div>
+          <div class="back-button" id="ID-button">Back</div>
         </div>
         <div style="text-align:center">
           <span class="dot-ID" onclick="currentSlideID(1)"></span>
