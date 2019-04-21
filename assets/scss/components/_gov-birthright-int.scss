@@ -14,11 +14,11 @@
 }
 
 .slideshow-buttons {
-  display: none;
-  position: fixed;
-  top: 50%;
+  display: flex;
+  position: absolute;
+  top: 50vh;
   justify-content: space-between;
-  width: 80vw;
+  width: 80%;
   opacity: 1;
   transition: 0.5s;
 }
@@ -34,7 +34,6 @@
   z-index: 0;
 
   .interactive__header {
-    margin-bottom: 4vh;
   }
 }
 
@@ -89,15 +88,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    width: 75%;
+    margin: 0 auto;
   }
 
   .slide-image {
     display: grid;
     grid-template-columns: 25% 75%;
-    width: 75vw;
+    grid-gap:4vw;
     text-align: right;
-    margin: 40px 0;
+    margin:40px 0;
     img {
       max-height: 200px;
       max-width:100%;

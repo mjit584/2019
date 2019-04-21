@@ -1,15 +1,14 @@
-
 // Government Interactive - Undocumented
-console.log('Undocumented Interactive JS lives here');
+console.log('script start');
 
 $(document).ready(function () {
   $("#r-2-c-2").click(function () {
     $("#PEP-body").fadeIn(300);
     $(".container-body").css("display", "none");
-    $("#pep-slide-buttons").css({ "display": "flex", "opacity": "1" });
+    $("#pep-slide-buttons").css({"display":"flex", "opacity":"1"});
   });
 
-  $("#pep-button").click(function () {
+  $("#PEP-button").click(function () {
     $("#PEP-body").fadeOut(300);
     $(".container-body").css("display", "flex");
   });
@@ -17,7 +16,7 @@ $(document).ready(function () {
   $("#r-2-c-1").click(function () {
     $("#passport-body").fadeIn(300);
     $(".container-body").css("display", "none");
-    $("#passport-slide-buttons").css({ "display": "flex", "opacity": "1" });
+    $("#passport-slide-buttons").css({"display":"flex", "opacity":"1"});
   });
 
   $("#passport-button").click(function () {
@@ -28,49 +27,56 @@ $(document).ready(function () {
   $("#r-2-c-3").click(function () {
     $("#ID-body").fadeIn(300);
     $(".container-body").css("display", "none");
-    $("#ID-slide-buttons").css({ "display": "flex", "opacity": "1" });
+    $("#ID-slide-buttons").css({"display":"flex", "opacity":"1"});
   });
 
-  $("#id-button").click(function () {
+  $("#ID-button").click(function () {
     $("#ID-body").fadeOut(300);
     $(".container-body").css("display", "flex");
   });
 });
 
 // slidebuttons
-$(document).ready(function () {
+<<<<<<< Updated upstream
+$(document).ready(function() {
 
 
-  $(window).scroll(function () {
-    if ($(window).scrollTop() > $("#passport-body-top").offset().top - 250 && $(window).scrollTop() < $("#passport-body-bottom").offset().top - 350) {
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > $("#passport-body-top").offset().top-250 && $(window).scrollTop() < $("#passport-body-bottom").offset().top-350) {
+      console.log('test');
       $("#passport-slide-buttons").css("opacity", "1");
       $("#passport-slide-buttons").css("display", "flex");
 
     }
     else {
+      console.log('test2');
       $("#passport-slide-buttons").css("opacity", "0");
       $("#passport-slide-buttons").css("display", "none");
     }
   });
 
-  $(window).scroll(function () {
-    if ($(window).scrollTop() > $("#pep-body-top").offset().top - 250 && $(window).scrollTop() < $("#pep-body-bottom").offset().top - 350) {
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > $("#pep-body-top").offset().top-250 && $(window).scrollTop() < $("#pep-body-bottom").offset().top-350) {
+      console.log('test');
       $("#pep-slide-buttons").css("display", "flex");
       $("#pep-slide-buttons").css("opacity", "1");
 
     }
     else {
-      $("#pep-slide-buttons").css("opacity", "0");
+      console.log('test2');
+      $("#pep-slide-buttons").css("opacity","0");
       $("#pep-slide-buttons").css("display", "none");
     }
   });
 
-  $(window).scroll(function () {
-    if ($(window).scrollTop() > $("#ID-body-top").offset().top - 250 && $(window).scrollTop() < $("#ID-body-bottom").offset().top - 350) {
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > $("#ID-body-top").offset().top-250 && $(window).scrollTop() < $("#ID-body-bottom").offset().top-350) {
+      console.log('test');
       $("#ID-slide-buttons").css("display", "flex");
       $("#ID-slide-buttons").css("opacity", "1");
     }
     else {
+      console.log('test2');
       $("#ID-slide-buttons").css("opacity", "0");
       $("#ID-slide-buttons").css("display", "none");
     }
@@ -81,6 +87,8 @@ $(document).ready(function () {
 });
 
 
+=======
+>>>>>>> Stashed changes
 
 // passport-slideshow-js
 var slideIndexPassport = 1;
@@ -103,10 +111,13 @@ function showSlidesPassport(n) {
 }
 
 function plusSlidesPassport(n) {
+  console.log('plusSlidesPassport');
   showSlidesPassport(slideIndexPassport += n);
+  console.log(slideIndexPassport + n);
 }
 
 function currentSlidePassport(n) {
+  console.log('currentSlidePassport');
   showSlidesPassport(slideIndexPassport = n);
 }
 
@@ -131,7 +142,9 @@ function showSlides(n) {
 }
 
 function plusSlides(n) {
+  console.log('plusSlides');
   showSlides(slideIndex += n);
+  console.log(slideIndex + n);
 }
 
 function currentSlide(n) {
@@ -159,20 +172,24 @@ function showSlidesID(n) {
 }
 
 function plusSlidesID(n) {
+  console.log('plusSlidesID');
   showSlidesID(slideIndexID += n);
+  console.log(slideIndexID + n);
 }
 
 function currentSlideID(n) {
+  console.log('currentSlideID');
   showSlidesID(slideIndexID = n);
 }
 
 // BIRTHRIGHT id slideshow js
 
-$(document).ready(function () {
+<<<<<<< Updated upstream
+$(document).ready(function() {
 
 
-  $(window).scroll(function () {
-    if ($(window).scrollTop() > $("#birthright-body-top").offset().top - 250 && $(window).scrollTop() < $("#birthright-body-bottom").offset().top - 350) {
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > $("#birthright-body-top").offset().top-250 && $(window).scrollTop() < $("#birthright-body-bottom").offset().top-350) {
       $("#birthright-slide-buttons").css("opacity", "1");
       $("#birthright-slide-buttons").css("display", "flex");
     }
@@ -185,6 +202,8 @@ $(document).ready(function () {
 
 });
 
+=======
+>>>>>>> Stashed changes
 
 var slideIndexBirthright = 1;
 showSlidesBirthright(slideIndexBirthright);

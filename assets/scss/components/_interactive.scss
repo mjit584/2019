@@ -4,8 +4,10 @@
   max-width: 100%;
   transition: 1s opacity;
   margin: 6vh 0;
+  padding: 6vh 0;
   text-align: center;
   font-family: $font-int-body;
+  background-color: #f2f2f2;
 
   .interactive__title {
     font-family: $font-int-header;
