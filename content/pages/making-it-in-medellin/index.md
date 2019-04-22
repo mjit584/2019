@@ -27,6 +27,8 @@ Creating a new life in a new country is no easy feat, especially for the Venezue
 <p>In Venezuela, Linelvi Rivas and her husband had a fairly well-off life, even as the Venezuelan crisis began. But once she gave birth to her first child, she and her husband decided to move to Medellín because they knew they couldn’t raise him in the chaos of the crisis. Initially, they didn’t consider going to Colombia; they wanted to go to Mexico. But traveling to Mexico was too expensive for them to travel all together. They decided to go to Medellín because her husband knew someone in the city. This didn’t work out well - the husband’s acquaintance stole from them and kicked them out of their residence. Eventually, the two found their place in the Boyacá Mall, after the managers of the mall saw the strong work ethic of Linelvi’s husband. The mall decided to give them the shop on the agreement of paying their rent on a daily commission instead of monthly. A year and a half after moving from Venezuela to Colombia, Linelvi and her husband are out of debt for the first time. “People have shown us their backs, but you gotta rise and walk, because my heart is still in Venezuela,” Rivas said.</p>
 </div>
 
+<div class="photo__line"></div>
+
 <div class="photo__success-people">
 <h2 class="photo__subhead flex">Richard Javier Fariñas Herrera</h2>
 
@@ -34,6 +36,8 @@ Creating a new life in a new country is no easy feat, especially for the Venezue
 
 <p>Richard Javier Fariñas Herrera was the first in his family to move to Colombia in February 2018. In Venezuela, he worked as a fencing trainer. However, because of the immigration crisis, he decided to move to Colombia to provide a better life for his young daughter and wife. Now, Richard works in a restaurant while also working as a fencing trainer.</p>
 </div>
+
+<div class="photo__line"></div>
 
 <div class="photo__success-people">
 <h2 class="photo__subhead flex">Oneidys Alejandra Rodríguez</h2>
@@ -45,6 +49,8 @@ Creating a new life in a new country is no easy feat, especially for the Venezue
 <p>Oneidys Alejandra Rodríguez and her husband decided to move to Colombia in May of 2018 for their daughter’s safety. Things became so difficult that she could no longer purchase diapers, vaccines and milk for her daughter. Oneidys started running a bakery with her cousin, who also lives with her and her family, to help pay rent and for materials for her child. She advertises her bakery on Facebook, where people can request whatever they may need for an event. “The decision to leave Venezuela was hard because I did not want to leave my father; he is handicapped and has lived with me for my entire life,” Oneidys said.</p>
 </div>
 
+<div class="photo__line"></div>
+
 <div class="photo__success-people">
 <h2 class="photo__subhead flex">Jonathan Freites</h2>
 
@@ -52,6 +58,8 @@ Creating a new life in a new country is no easy feat, especially for the Venezue
 
 <p>Jonathan Freites was a civil engineer and a personal trainer in Venezuela–his wife, a lawyer and a teacher. But even with the four professions that Freites and his wife shared, it was not enough to supply basic needs for his wife and three children. Freites and his wife decided to move to Medellín in July of 2017, where he now works as a fitness trainer at a gym to help supply for the funds of his family. His wife found a job in a call center when they first arrived, but she is now attending school to obtain the correct papers to practice Colombian law.</p>
 </div>
+
+<div class="photo__line"></div>
 
 <div class="photo__success-people">
 <h2 class="photo__subhead flex">Raúl Vargas</h2>
@@ -62,6 +70,8 @@ Creating a new life in a new country is no easy feat, especially for the Venezue
 
 <p>Raúl was one of the top Olympic shooters in Venezuela, and is now one of the top Olympic rifle shooters in Colombia. He’s competed everywhere from Germany to the United States. He decided to move to Medellín because of his one-year-old daughter; he and his wife couldn’t get the correct vaccines for her and decided that they couldn’t raise a child in those conditions. His wife is Colombian and his father, a former shooter for Venezuela, was recruited by the Colombian national team to coach their rifle shooters. However, he still needs the necessary paperwork to become a Colombian national citizen, or else he cannot compete for the Colombian national team. Although he has pride in being a Venezuelan, and still wears his Venezuelan shooting jersey underneath his current jerseys, he plans on staying in Colombia for the long term. “If Colombia is giving me an opportunity, I want to give myself the opportunity with Colombia to be a Colombian athlete,” Vargas said.</p>
 </div>
+
+<div class="photo__line"></div>
 
 <div class="photo__success-people">
 <h2 class="photo__subhead flex">Rui Pereira</h2>
