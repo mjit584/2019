@@ -12,21 +12,16 @@ graphics:
     <div class="interactive__intro">The main difference between prostitution and sex trafficking is that prostitution is
       voluntary while sex trafficking relies on the use of force. Prostitutes often become victims of sex trafficking
       because they find themselves in vulnerable situations. Sex tourists often exploit minors or hire victims of sex
-      trafficking.</div>
-    <svg class="venn-diagram" width="90%" height="80vh" style="max-height:700px" viewBox="-5 -5 819 730" fill="none"
+      trafficking.
+    </div>
+    <svg class="venn-diagram" width="90%" height="80vh" style="max-height:700px" viewBox="-5 -5 867 559" fill="none"
       xmlns="http://www.w3.org/2000/svg">
-      <circle class="vd-circle vd-big vd-yellow vd-prostitution" onclick="showDef('prostitution-def')" cx="262.5"
-        cy="262.5" r="262.5" fill-opacity="0.5" />
-      <circle class="vd-circle vd-big vd-blue vd-sex-trafficking" onclick="showDef('sex-trafficking-def')" cx="551.5"
-        cy="433.5" r="262.5" fill-opacity="0.5" />
-      <circle class="vd-circle vd-small vd-yellow vd-sex-tourism1" onclick="showDef('sex-tourism-def')" cx="128"
-        cy="272" r="75" />
-      <circle class="vd-circle vd-small vd-yellow vd-sex-worker1" onclick="showDef('sex-worker-def')" cx="272" cy="114"
-        r="75" />
-      <circle class="vd-circle vd-small vd-blue vd-sex-tourism2" onclick="showDef('sex-tourism-def')" cx="686" cy="424"
-        r="75" />
-      <circle class="vd-circle vd-small vd-blue vd-sex-worker2" onclick="showDef('sex-worker-def')" cx="542" cy="582"
-        r="75" />
+      <circle class="vd-circle vd-big vd-yellow vd-prostitution" onclick="showDef('prostitution-def')" cx="263.109" cy="262.5" r="262.5" fill-opacity="0.5"/>
+      <circle class="vd-circle vd-big vd-blue vd-sex-trafficking" onclick="showDef('sex-trafficking-def')" cx="598.891" cy="262.5" r="262.5" fill-opacity="0.5"/>
+      <circle class="vd-circle vd-small vd-yellow vd-sex-tourism1" onclick="showDef('sex-tourism-def')" cx="174" cy="366.832" r="75"/>
+      <circle class="vd-circle vd-small vd-yellow vd-sex-worker1" onclick="showDef('sex-worker-def')" cx="174" cy="158" r="75"/>
+      <circle class="vd-circle vd-small vd-blue vd-sex-tourism2" onclick="showDef('sex-tourism-def')" cx="688" cy="158" r="75"/>
+      <circle class="vd-circle vd-small vd-blue vd-sex-worker2" onclick="showDef('sex-worker-def')" cx="688" cy="366.832" r="75"/>
       <text class="vdt-heading vdt-black vdt-prostitution" x="187.5" y="412.5" fill="black"
         text-anchor="middle">Prostitution</text>
       <text class="vdt-heading vdt-white vdt-sex-trafficking" x="626.5" y="283.5" fill="black" text-anchor="middle">Sex
