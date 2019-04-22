@@ -1540,8 +1540,10 @@ nav {
   margin: 4vh auto;
   transition: opacity 1s ease-in-out; }
   @media screen and (max-width: 800px) {
-    .flourish {
-      max-width: 80vw; } }
+    .flourish .flourish-embed {
+      max-width: 80vw; }
+      .flourish .flourish-embed iframe {
+        max-width: 100% !important; } }
   .flourish iframe {
     max-width: 80vw !important; }
 

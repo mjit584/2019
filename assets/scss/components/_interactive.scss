@@ -84,7 +84,14 @@
   transition: opacity 1s ease-in-out;
 
   @media screen and (max-width: 800px){
+      
+    .flourish-embed {
       max-width: 80vw;
+
+      iframe {
+        max-width: 100% !important;
+      }
+    }
   }
 
   iframe {
