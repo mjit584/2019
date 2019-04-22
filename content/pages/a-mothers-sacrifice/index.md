@@ -87,7 +87,7 @@ Despite the industry’s legality in Colombia, sex workers are not guaranteed wo
 
 {{< story-interactives "pages/a-mothers-sacrifice" "women-laws-int" >}}
 
-After arriving in Medellín, Maria started selling “confettis,” or candy, on the street for money. She made enough to pay her $10,000 COP for a room she rents with two others for $30,000 COP per night.  
+After arriving in Medellín, Maria started selling “confettis,” or candy, on the street for money. She made enough to pay her $10,000 COP for a room she rents with two others for $30,000 Colombian pesos per night.  
 
 However, Maria would still go hungry for days, wondering if her daughters were doing the same. 
 
@@ -135,13 +135,13 @@ She begins her work day at 2 p.m. and usually wears shorts to attract more men. 
 
 The employee at the hotel’s front desk already knows her. Upon entering, Maria is handed a towel, a paper towel, soap and a condom. 
 
-For 20 to 30 minutes, Maria charges $30,000 COP. Before starting, clients must place half of their payment on the table. 
+For 20 to 30 minutes, Maria charges COP $30,000. Before starting, clients must place half of their payment on the table. 
 
-Sex without a condom is non-negotiable. She will not perform oral sex or allow clients to kiss her mouth or touch her butt. If a client persists, Maria will charge $10,000 COP extra to let him touch her butt.  
+Sex without a condom is non-negotiable. She will not perform oral sex or allow clients to kiss her mouth or touch her butt. If a client persists, Maria will charge COP $10,000 extra to let him touch her butt.  
 
 But Maria’s boundaries don’t always prevent her from experiencing the risks of sex work. 
 
-One night, a client she doesn’t care for offered her $35,000 COP. Despite her negative feelings toward him, Maria accepted. 
+One night, a client she doesn’t care for offered her COP $35,000. Despite her negative feelings toward him, Maria accepted. 
 
 {{< photo-caption-vert "pages/a-mothers-sacrifice" "photo-caption-1" >}}
 
@@ -159,7 +159,7 @@ For Venezuelan migrants who become sex workers, verbal harassment can be a form 
 
 As the number of Venezuelan sex workers in Colombia increases, so does the animosity they feel from Colombian sex workers. 
 
-Adriaan Alsema, founder of Colombia Reports, said Venezuelan sex workers are more likely to offer their services for as low as $40,000 COP ($12), three times less than what a Colombian sex worker charges. In the eyes of Colombian sex workers, such low prices are killing their business.
+Adriaan Alsema, founder of Colombia Reports, said Venezuelan sex workers are more likely to offer their services for as low as COP $40,000 ( USD $12), three times less than what a Colombian sex worker charges. In the eyes of Colombian sex workers, such low prices are killing their business.
 
 “Colombian women are very mean to Venezuelan women,” said Maria. “I don’t talk to them and just make my money.”
 

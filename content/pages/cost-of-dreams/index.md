@@ -35,13 +35,13 @@ Alejandrina says she was apprehensive at first about Jeham working.
 
 Now, Alejandrina says she feels proud of Jeham’s strength.
 
-The Medellín education system says every migrant child who seeks education is given the opportunity, but many Venezuelan youths like Jeham are not attending school, or are at risk of dropping out due to the lack of resources. Others do not enroll in school because they fear deportation or not having enough funds for school supplies, daily food and transportation costs. According to the International Rescue Committee, roughly 50 percent of Venezuelan children in Colombia are not enrolled in school.
+The Medellín education system says every migrant child who seeks education is given the opportunity, but many Venezuelan youths like Jeham are not attending school, or are at risk of dropping out due to the lack of resources. Others do not enroll in school because they fear deportation or not having enough funds for school supplies, daily food and transportation costs. According to the <a href="https://www.rescue.org/article/venezuelas-hidden-crisis-its-childrens-unknown-futures" target="_blank">International Rescue Committee</a>, roughly 50 percent of Venezuelan children in Colombia are not enrolled in school.
 
 {{< story-interactives "pages/cost-of-dreams" "openarms" >}}
 
-At age 9, Jeham is the household's only source of income. On a good day, he brings in 30,000 pesos, about $10. Two dollars goes toward rent; the rest is spent on food, electricity, water and savings for medication. 
+At age 9, Jeham is the household's only source of income. On a good day, he brings in Colombian pesos $30,000, about USD $10.  Two dollars goes toward rent — the rest is spent on food, electricity, water and savings for medication. 
 
-Jeham has managed to save 40,000 pesos in the last month. He used it to buy a Game Boy, his only source of distraction and fun. 
+Jeham has managed to save COP $40,000 in the last month. He used it to buy a Game Boy, his only source of distraction and fun. 
 
 “I bought a toy for my cousin back home,” Jeham said. “I could never afford toys in Venezuela.”
 
@@ -99,7 +99,7 @@ Jeham saw the disparities among his classmates, too.
 
 “I felt awful. Sometimes they brought a banana, and that was what they ate the whole day,” Jeham said.
 
-According to an investigation by The New York Times, 21 doctors across Venezuela said children with severe malnutrition are swamping their emergency rooms, a condition rarely seen before the crisis. 
+According to an <a href="https://www.nytimes.com/interactive/2017/12/17/world/americas/venezuela-children-starving.html" target="_blank">investigation by The New York Times</a>, 21 doctors across Venezuela said children with severe malnutrition are swamping their emergency rooms, a condition rarely seen before the crisis. 
 
 Marcan says children are the most affected during the crisis.
 

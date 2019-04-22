@@ -276,25 +276,29 @@ nav {
 
 .stories {
   .photo__diptych {
-    margin-top: 5%;
+    margin: 5% auto;
   
     .photo__diptych-container {
       justify-content: space-between;
-      width: 45rem;
+      width: 55rem;
       min-width: 50vw;
       padding: 2% 0 0 0;
       align-items: flex-start;
       flex-wrap: wrap;
   
       @media screen and (max-width: 800px) {
-        max-width: 90vw;
+        max-width: 85vw;
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
       }
   
       img {
-        max-width: 70%;
+        width: 49%;
+
+        @media screen and (max-width: 800px) {
+          width: 70%;
+        }
       }
 
       img:first-of-type {

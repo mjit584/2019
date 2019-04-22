@@ -21,9 +21,9 @@ By 4 p.m., Irelys Rojas begins to fear the end of the day.
 
 It’s raining, and the restaurants she performs in are empty. At 5, she sits down at a café to count how much she’s made for the day. 
 
-It’s $24,000 Colombian pesos, or about $8. 
+It’s $24,000 Colombian pesos, or about USD $8. 
 
-She needed $33 to afford rent, a bus ride and the single meal she eats per day. The rest — about $20 —  she planned to send to her parents and the three sons she left behind in Margarita Island off the coast of Venezuela. Despite the soaring inflation at home, it would’ve been enough for a carton of eggs and a liter of milk.
+She needed USD $33 to afford rent, a bus ride and the single meal she eats per day. The rest — about USD $20 —  she planned to send to her parents and the three sons she left behind in Margarita Island off the coast of Venezuela. Despite the soaring inflation at home, it would’ve been enough for a carton of eggs and a liter of milk.
 
 Her charisma shows as Irelys walks the streets of downtown Medellín, hiding tears behind smiles as she loudly greets every vendor on the block selling candy, phone cards, fake jewelry. 
 
@@ -42,7 +42,7 @@ Irelys had never traveled outside of the country and therefore never needed a pa
 
 Getting a passport is a costly, bureaucratic and lengthy endeavor for Venezuelans, but migrants still yearn for the burgundy booklet and entrance stamp. Hyperinflation and mismanagement left the government unable to issue passports, sometimes lacking the material to make them or the electricity to load citizens’ information on the computer system. 
 
-“You have to find a middleman to get an appointment to have your picture taken and then wait months and months for them to tell you there’s no materials,” she said.  “Oh, and then pay the middleman like $1,000.” 
+“You have to find a middleman to get an appointment to have your picture taken and then wait months and months for them to tell you there’s no materials,” she said.  “Oh, and then pay the middleman like USD $1,000.” 
 
 {{< photo-caption "pages/a-hopeful-voice" "photo-caption-1" >}}
 
@@ -124,7 +124,7 @@ Irelys stepped down from the bus on Dec. 3 at 4 a.m. Two hours later, she had an
 
 Two weeks later, she quit. The manager screamed at one of her coworkers — another Venezuelan woman who was undocumented — and Irelys was on edge. She threw the apron on a table and told the manager she wouldn’t come back. 
 
-She wasn’t losing much: her salary amounted to $3 a day, and a few extra bucks on tips. Yet she managed to save for the family remittances. 
+She wasn’t losing much: her salary amounted to USD $3 a day, and a few extra bucks on tips. Yet she managed to save for the family remittances. 
 
 “I think they exploit Venezuelans,” she said. “If they have a chance, they work you to the ground.” 
 
@@ -166,7 +166,7 @@ It’s unclear whether immigration authorities received a report, but she said t
 
 In the meantime, she’s learned to navigate a new city — and a new country — without documentation. 
 
-As of August, the U.S. government has donated $46 million to alleviate the burden the immigrants pose to the Colombian government. Vice President Mike Pence announced another $55 million to help refugees in January. 
+As of August, the U.S. government has donated USD $46 million to alleviate the burden the immigrants pose to the Colombian government. Vice President Mike Pence announced another USD $55 million to help refugees in January. 
 
 According to authorities, the money is used to provide emergency medical care for immigrants. 
 With the PEP or a visa, they can access the already saturated public healthcare system. Undocumented Venezuelans like Irelys can only receive treatment for emergencies — like a broken leg or appendicitis. 
@@ -179,13 +179,13 @@ But the children are brought into the world nationless. Only 30 countries in the
 
 Although the U.N. High Commissioner for Refugees has set up temporary camps for migrants in border towns — and briefly in Bogotá, the capital of Colombia — there aren’t any permanent housing solutions to board the crisis. As a consequence, many Venezuelans roam the streets during the day and find a bench in a public square to spend the night. 
 
-William José Hidalgo could only afford two nights at a flophouse, where he paid $1.25 a night, right after he walked from Venezuela on March 1. Now, he sleeps in Plaza Botero in downtown Medellín. Occasionally, an elder man allows Hidalgo to shower at his home, which is just a few blocks from the square. 
+William José Hidalgo could only afford two nights at a flophouse, where he paid USD $1.25 a night, right after he walked from Venezuela on March 1. Now, he sleeps in Plaza Botero in downtown Medellín. Occasionally, an elder man allows Hidalgo to shower at his home, which is just a few blocks from the square. 
 
 “I feel happier during the day — when it’s daytime, because when the night falls, I start thinking,” said Hidalgo, who is also undocumented. “I think I’m going to get sick very soon.” 
 
 He’s gone to shelters, where he’s gotten food but not a bed or a cot because they’re already at capacity. He’s walked around restaurants and stores to ask for a job, but after his belongings — including his Venezuelan ID — were stolen at gunpoint in Plaza Botero the first night he slept on the streets, no one has given him a chance to work. 
 
-Irelys says she’s fortunate: a bed awaited her in Medellín. Her father’s sister-in-law informally rents an apartment in a public housing complex from a Colombian woman. The rent is about $110 a month, and Irelys pays about $40. 
+Irelys says she’s fortunate: a bed awaited her in Medellín. Her father’s sister-in-law informally rents an apartment in a public housing complex from a Colombian woman. The rent is about USD $110 a month, and Irelys pays about USD $40. 
 
 It’s a home, but her kids are not waiting to greet her at the door when she gets home from work. 
 
@@ -199,7 +199,7 @@ What Irelys made from the cookies was enough that day to reserve a speaker at a 
 
 Sometimes her voice isn’t enough. One Thursday morning Irelys speaker couldn’t be turned on. She’d been using it for three months by then to play the instrumental version of the pop songs she performs. 
 
-She spent her savings — about $17 — in chocolates and pencils to get by for the day. 
+She spent her savings — about USD $17 — in chocolates and pencils to get by for the day. 
 
 “That’s I need to do; that’s how I work,” she said. “If I don’t have my speaker I have to figure out what to do.” 
 
