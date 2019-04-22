@@ -42,4 +42,6 @@ After leaving behind their home country, where most Venezuelan immigrants spent 
 <!-- Friends living in inquilinato -->
 {{< photo-caption "/pages/a-new-home" "photo-caption-5" >}}
 
+{{< photo-caption "/pages/a-new-home" "photo-caption-6" >}}
+
 {{< story-interactives "/pages/a-new-home" "photo-image-map" >}}
