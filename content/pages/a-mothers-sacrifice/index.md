@@ -73,6 +73,8 @@ Maria’s lack of a PEP hinders her ability to find a job. While a PEP doesn’t
 
 “I asked around for work, but they said Venezuelans are thieves, but we’re here to look after our families,” said Maria. “I know Venezuelan women that are in the same situation and are trying to help their families.”
 
+{{< center-quote "pages/a-mothers-sacrifice" "pull-quote-melissa" >}}
+
 Aside from learning a new country's customs and searching for work and housing, societal inequalities follow women throughout the migration process. 
 
 These inequalities include discrimination, harassment, gender violence and a lack of access to sexual and reproductive rights. Forty-three percent of female Venezuelan migrants are between 18 and 29 years old. This, along with their gender, exposes them to discrimination and stigmatization, according to Centro de Justicia y Paz, an organization that works to promote and defend Democratic values, human rights and peace in Venezuela. 
@@ -100,6 +102,8 @@ But an encounter with a Venezuelan man made her realize that she had another cho
 Days later, she was in a hotel room with an unknown Venezuelan man. It was Maria’s first of many “ratos.”  
 
 She is pinned to the bed with a stranger on top of her. She feels his weight, but focuses her eyes on the ceiling. Physically, she is there but mentally, she is not. Her body is numb and her mind is racing with one thought: “When will it end?”
+
+{{< center-quote "pages/a-mothers-sacrifice" "pull-quote-maria1" >}}
 
 It’s only supposed to be 25 minutes, but it feels like a lifetime of discomfort. 
 
@@ -198,6 +202,8 @@ Toro’s goal is to integrate five Venezuelan women into their organization by t
 Maria said she wants to attend “Knitting Stories” to see if she is comfortable with integrating this organization into her life. 
 
 In Maria’s eyes, this job is a sacrifice she is making for her daughters. In Maria’s heart, it’s a sacrifice that brings her to tears and a feeling of disgust that can’t be washed away. No matter how many showers she takes. 
+
+{{< center-quote "pages/a-mothers-sacrifice" "pull-quote-maria2" >}}
 
 But these are tears and feelings she is willing to endure if it means reuniting with her children. 
 
