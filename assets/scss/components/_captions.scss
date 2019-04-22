@@ -53,14 +53,19 @@
   font-family: $font-photo-caption; 
   line-height: $line-height-base;
   margin: 2vh auto;
+
+  @media screen and (max-width: 800px) {
+    width: 90%;
+  }
   
   img {
     height: 80vh;
     max-height: 1000px;
     width: auto;
 
-    @media screen and (max-width: 1040px) {
-      max-height: 870px;
+    @media screen and (max-width: 800px) {
+      height: auto;
+      width: 100%;
     }
   }
 
