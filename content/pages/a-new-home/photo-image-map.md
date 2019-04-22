@@ -3,19 +3,22 @@ intTitle: "Living Day to Day"
 graphic: "Brooke Fisher"
 ---
 <section class="interactive">
-    <h2 class="interactive__title">
-      Living Day to Day
-    </h2>
-    <h3 class="interactive__subhead">
-      Friends create a home in <em>Inquilinato</em>
-    </h3>
-    {{< ybr-line >}}
-    <div class="interactive__intro">
-      Living in a tiny room, many Venezuelans in Colombia spend the night in places known as <em>inquilinatos</em>, small rooms that can be rented out daily. For about $10 USD, boarders have a place to lay their heads at night. Most rooms offer only a small bed, a dresser and a TV. Hundreds of Venezuelans who have made their way to Colombia find themselves living in such places because they cannot afford to rent out proper homes.
-    </div>
-    <div class="interactive__instructions">
-      Hover and click over the red circles for more information.
-    </div>
+  <h2 class="interactive__title">
+    Living Day to Day
+  </h2>
+  <h3 class="interactive__subhead">
+    Friends create a home in <em>Inquilinato</em>
+  </h3>
+  {{< ybr-line >}}
+  <div class="interactive__intro">
+    Living in a tiny room, many Venezuelans in Colombia spend the night in places known as <em>inquilinatos</em>, small
+    rooms that can be rented out daily. For about $10 USD, boarders have a place to lay their heads at night. Most rooms
+    offer only a small bed, a dresser and a TV. Hundreds of Venezuelans who have made their way to Colombia find
+    themselves living in such places because they cannot afford to rent out proper homes.
+  </div>
+  <div class="interactive__instructions">
+    Hover and click over the red circles for more information.
+  </div>
   <div class="interactive__image interactive__body">
     <svg id="interactive__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
       viewBox="0 0 1154 758">
@@ -28,14 +31,17 @@ graphic: "Brooke Fisher"
             max-width: 1000px;
             width: 100%;
           }
+
           polygon {
             fill: transparent;
             cursor: pointer;
             transition: fill 0.2s
           }
+
           g circle {
             cursor: pointer;
           }
+
           g circle:hover {
             fill: #333;
           }
@@ -62,16 +68,16 @@ graphic: "Brooke Fisher"
           points="214 159 230 155 241 146 250 143 260 144 275 142 287 144 294 162 293 180 302 197 311 210 323 202 342 212 351 224 360 224 364 235 354 250 365 269 377 271 381 296 385 286 399 287 411 287 420 291 429 313 436 304 432 296 449 301 454 315 475 340 482 347 492 329 500 317 512 305 522 299 533 303 552 307 572 301 551 324 547 342 539 350 541 370 541 404 535 427 512 425 499 423 488 424 481 439 451 450 429 450 416 421 409 402 401 392 389 384 382 379 380 372 372 372 353 367 327 355 304 353 288 356 274 361 267 346 261 337 254 330 245 299 234 259 238 246 230 228 221 192 216 178 211 167 214 159" />
       </g>
       <g id="dot-wall">
-        <circle fill="#C70032" cx="933" cy="208" r="18"/>
+        <circle fill="#C70032" cx="933" cy="208" r="18" />
       </g>
       <g id="dot-bags">
-        <circle fill="#C70032" cx="379" cy="317" r="18"/>
+        <circle fill="#C70032" cx="379" cy="317" r="18" />
       </g>
       <g id="dot-floor">
-        <circle fill="#C70032" cx="654" cy="665" r="18"/>
+        <circle fill="#C70032" cx="654" cy="665" r="18" />
       </g>
       <g id="dot-bed">
-        <circle fill="#C70032" cx="734" cy="510" r="18"/>
+        <circle fill="#C70032" cx="734" cy="510" r="18" />
       </g>
     </svg>
     <div class="hidden flex" id="room__info"></div>

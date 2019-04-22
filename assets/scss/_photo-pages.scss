@@ -93,6 +93,10 @@
     margin: 3vh auto 4vh auto !important;
     width: 63vw;
 
+    @media screen and (max-width: 800px) {
+      width: 90%;
+    }
+
     .caption {
       p {
         width: 45rem;

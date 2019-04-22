@@ -50,25 +50,26 @@
 {{ $header:= resources.Get "js/header.js" }}
 {{ $hamburger := resources.Get "js/hamburger.js" }}
 {{ $progressBar := resources.Get "js/progressBar.js" }}
-{{ $imageMap := resources.Get "js/imageMap.js"}}
+{{ $imagemap := resources.Get "js/imageMap.js"}}
 
-<!--weight 2-->
 {{ if eq .Weight 2}}
-{{ $imageMapBundle := slice $scripts $header $hamburger $progressBar $imageMap | resources.Concat "js/imageMapBundle.js" }}
+{{ $imageMapBundle := slice $scripts $header $hamburger $progressBar $imagemap | resources.Concat "js/imageMapBundle.js" }}
+
 {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $imageMapBundle.RelPermalink }}"></script>
 {{ else }}
 <script type="text/javascript" src="{{ ($imageMapBundle | minify | fingerprint).RelPermalink }}"></script>
-{{ end }}
-{{ else }}
+{{end}}
 
+{{else}}
 {{ $photoPagesBundle := slice $scripts $header $hamburger $progressBar | resources.Concat "js/photoPagesBundle.js" }}
+
 {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $photoPagesBundle.RelPermalink }}"></script>
 {{ else }}
 <script type="text/javascript" src="{{ ($photoPagesBundle | minify | fingerprint).RelPermalink }}"></script>
-{{ end }}
 {{end}}
+{{ end }}
 
 {{ block "footer_js" . }}{{ end }}
 

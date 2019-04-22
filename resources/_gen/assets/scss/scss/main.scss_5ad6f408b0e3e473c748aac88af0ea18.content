@@ -385,7 +385,8 @@ h1, h2, h3, h4, h5, h6 {
         font-weight: 700;
         margin: 0;
         text-transform: uppercase;
-        font-size: 1.2rem; }
+        font-size: 1.2rem;
+        text-shadow: 2px 2px 3px rgba(51, 51, 51, 0.95); }
         @media screen and (max-width: 800px) {
           .story-page .story-hero .story-hero__topic p {
             font-size: 1rem; } }
@@ -406,7 +407,8 @@ h1, h2, h3, h4, h5, h6 {
       .story-page .story-hero .story-hero__heading .story-hero__title {
         font-family: "DDinBold", sans-serif;
         font-size: calc(3rem + 3vw);
-        margin-bottom: 0; }
+        margin-bottom: 0;
+        text-shadow: 3px 3px 7px rgba(51, 51, 51, 0.95); }
         @media screen and (max-width: 800px) {
           .story-page .story-hero .story-hero__heading .story-hero__title {
             margin-top: 10px;
@@ -415,7 +417,8 @@ h1, h2, h3, h4, h5, h6 {
             color: #333333; } }
       .story-page .story-hero .story-hero__heading .story-hero__desc {
         font-family: "Lato", sans-serif;
-        margin: 5px 0; }
+        margin: 5px 0;
+        text-shadow: 3px 3px 7px rgba(51, 51, 51, 0.95); }
         @media screen and (max-width: 800px) {
           .story-page .story-hero .story-hero__heading .story-hero__desc {
             color: #333333;
@@ -759,6 +762,9 @@ nav {
 .photo .photo-caption-container-vert {
   margin: 3vh auto 4vh auto !important;
   width: 63vw; }
+  @media screen and (max-width: 800px) {
+    .photo .photo-caption-container-vert {
+      width: 90%; } }
   .photo .photo-caption-container-vert .caption p {
     width: 45rem;
     min-width: 50vw; }
@@ -1635,13 +1641,17 @@ nav {
   font-family: "Lato", sans-serif;
   line-height: 1.5em;
   margin: 2vh auto; }
+  @media screen and (max-width: 800px) {
+    .photo-caption-container-vert {
+      width: 90%; } }
   .photo-caption-container-vert img {
     height: 80vh;
     max-height: 1000px;
     width: auto; }
-    @media screen and (max-width: 1040px) {
+    @media screen and (max-width: 800px) {
       .photo-caption-container-vert img {
-        max-height: 870px; } }
+        height: auto;
+        width: 100%; } }
   .photo-caption-container-vert .caption {
     align-items: flex-start;
     margin-top: 1vh;
