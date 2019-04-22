@@ -8,7 +8,7 @@
   transition: background-color .4s;
   z-index: 0;
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1040px) {
     background-color: transparent;
   }
 }
@@ -72,7 +72,7 @@
 
   }
 
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 1040px) {
     // Add scale transform to hovered card
     .card.hovered {
       transform: scale(1.1, 1.1);
@@ -121,7 +121,7 @@
 
     &:hover, &:active {
 
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         .card__heading,
         .card__title {
           color: $black;
@@ -172,7 +172,7 @@
         .card__title {
           opacity: 0;
 
-          @media screen and (max-width: 800px) {
+          @media screen and (max-width: 1040px) {
             opacity: 1;
           }
         }
@@ -213,7 +213,7 @@
       line-height: 1.8rem;
       padding: 40px 25px 15px;
 
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         padding: 20px 25px 15px;
       }
     }
@@ -239,7 +239,7 @@
       white-space: nowrap;
       margin: 0 auto;
 
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         display: none;
       }
 
@@ -275,7 +275,7 @@
         transform: translate3d(0, 20px, 0);
         transition: none;
 
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 1040px) {
           display: none;
         }
       }
@@ -294,7 +294,7 @@
       .card__title {
         opacity: 1;
 
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 1040px) {
           transition: color .3s;
         }
       }

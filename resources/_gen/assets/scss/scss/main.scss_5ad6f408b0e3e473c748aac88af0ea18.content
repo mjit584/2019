@@ -1027,7 +1027,7 @@ nav {
   background-color: rgba(0, 0, 0, 0);
   transition: background-color .4s;
   z-index: 0; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1040px) {
     .cards.darkened .card::before {
       background-color: transparent; } }
 
@@ -1063,7 +1063,7 @@ nav {
       color: #333333; }
     .cards .card.hovered .card__hover .card__desc {
       max-width: 90%; }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 1040px) {
     .cards .card.hovered {
       transform: scale(1.1, 1.1);
       transition: transform .3s ease .2s; }
@@ -1090,7 +1090,7 @@ nav {
     @media screen and (max-width: 800px) {
       .cards .card {
         height: 40vh; } }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1040px) {
       .cards .card:hover .card__heading,
       .cards .card:hover .card__title, .cards .card:active .card__heading,
       .cards .card:active .card__title {
@@ -1126,7 +1126,7 @@ nav {
     .cards .card:active .card__base .ybr-line,
     .cards .card:active .card__base .card__title {
       opacity: 0; }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         .cards .card:hover .card__base .card__heading,
         .cards .card:hover .card__base .ybr-line,
         .cards .card:hover .card__base .card__title, .cards .card:active .card__base .card__heading,
@@ -1154,7 +1154,7 @@ nav {
       font-size: 2rem;
       line-height: 1.8rem;
       padding: 40px 25px 15px; }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         .cards .card .card__title {
           padding: 20px 25px 15px; } }
     .cards .card .card__desc {
@@ -1175,7 +1175,7 @@ nav {
       overflow: hidden;
       white-space: nowrap;
       margin: 0 auto; }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         .cards .card .card__button {
           display: none; } }
       .cards .card .card__button .card__button-text {
@@ -1200,7 +1200,7 @@ nav {
       opacity: 0;
       transform: translate3d(0, 20px, 0);
       transition: none; }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         .cards .card .card__hover .card__heading,
         .cards .card .card__hover .ybr-line,
         .cards .card .card__hover .card__title,
@@ -1213,7 +1213,7 @@ nav {
     .cards .card .card__base .ybr-line,
     .cards .card .card__base .card__title {
       opacity: 1; }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1040px) {
         .cards .card .card__base .card__heading,
         .cards .card .card__base .ybr-line,
         .cards .card .card__base .card__title {
