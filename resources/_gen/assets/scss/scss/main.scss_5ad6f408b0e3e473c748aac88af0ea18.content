@@ -1269,7 +1269,7 @@ nav {
 
 .header-mobile {
   color: #333333;
-  z-index: 2;
+  z-index: 3;
   background-color: #fbbc00;
   position: fixed;
   top: 0;
@@ -1350,7 +1350,7 @@ nav {
     display: flex;
     min-height: 100vh;
     height: auto;
-    z-index: 1;
+    z-index: 2;
     overflow: hidden; }
   .main-menu-mobile a {
     color: #333333;
@@ -1426,7 +1426,8 @@ nav {
           font-size: 1.25rem;
           margin: 0; }
   .main-menu-mobile .bottom-menu {
-    margin-top: 25px; }
+    position: absolute;
+    bottom: 35px; }
     .main-menu-mobile .bottom-menu .social {
       justify-content: flex-start;
       margin-top: 15px; }
@@ -1468,28 +1469,38 @@ nav {
   text-align: center;
   font-family: "Lato", sans-serif;
   background-color: #f2f2f2; }
+  .interactive .interactive__title,
+  .interactive .interactive__subhead,
+  .interactive .interactive__intro {
+    width: 680px;
+    min-width: 50vw;
+    margin: 0 auto; }
+    @media screen and (max-width: 800px) {
+      .interactive .interactive__title,
+      .interactive .interactive__subhead,
+      .interactive .interactive__intro {
+        max-width: 85vw; } }
   .interactive .interactive__title {
     font-family: "DDinBold", sans-serif;
     font-size: 2rem;
     text-transform: uppercase;
-    margin: 0 auto; }
+    margin: 0 auto .5rem; }
   .interactive .interactive__subhead {
     font-family: "DDinRegular", sans-serif;
     font-size: 1.5rem;
-    margin: auto;
-    margin-top: 1vh;
-    margin-bottom: 2vh; }
+    margin: 0 auto .5rem; }
   .interactive .interactive__intro {
     font-family: "Lato", sans-serif;
     margin-top: 0 !important;
-    font-size: 1.2rem;
-    max-width: 75%;
-    margin: 2vw auto;
+    font-size: 1rem;
+    margin: 1.5rem auto 1rem;
     text-align: left; }
   .interactive .interactive__instructions {
     font-style: italic;
     color: #aaa;
-    margin-bottom: 2%; }
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto 1.5rem; }
   .interactive .interactive__body {
     font-family: "Lato", sans-serif; }
   .interactive .ybr-line {
@@ -1635,11 +1646,6 @@ nav {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d; }
-  .interactive__health .bottom-text {
-    color: #aaa;
-    font-style: italic;
-    font-size: 1rem;
-    text-align: center; }
   .interactive__health .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg); }
   .interactive__health .flip-card-front, .interactive__health .flip-card-back {
@@ -2508,8 +2514,12 @@ nav {
     flex-direction: column-reverse; } }
 
 #womenSlider {
-  width: 75%;
+  width: 680px;
+  min-width: 50vw;
   margin: 0 auto; }
+  @media screen and (max-width: 800px) {
+    #womenSlider {
+      max-width: 85vw; } }
   #womenSlider .slider {
     -webkit-appearance: none;
     width: 100%;
@@ -2566,93 +2576,110 @@ nav {
   #womenSlider li {
     margin-top: 20px; }
 
-@media screen and (max-width: 800px) {
-  .venn-diagram {
-    height: 60vh; } }
-
-.vd-circle {
-  stroke-width: 4;
-  transition: all .5s;
-  cursor: pointer; }
-
-.vd-big {
-  fill-opacity: .75; }
-
-.vd-small {
-  fill-opacity: 1; }
-
-.vd-yellow {
-  fill: #fbbc00;
-  stroke: #ffffff; }
-
-.vd-blue {
-  fill: #1457d3;
-  stroke: #ffffff; }
-
-.vdt-heading,
-.vdt-subheading,
-.vdt-def {
-  font-family: "DDinBold", sans-serif;
-  pointer-events: none;
-  transition: all .3s; }
-
-.vdt-heading {
-  font-size: 1.5rem; }
-
-.vdt-subheading, .vdt-def {
-  font-size: 1.25rem; }
-
-.vdt-def {
-  opacity: 0;
-  font-family: "DDinRegular", sans-serif;
-  font-size: 1.45rem; }
-  .vdt-def .vdt-term {
-    font-family: "DDinBold", sans-serif; }
-
-.vdt-black {
-  fill: #333333; }
-
-.vdt-white {
-  fill: #ffffff; }
-
-.vdt-middle {
-  width: 50px; }
-
-.vd-prostitution:hover {
-  stroke: #1457d3; }
-  .vd-prostitution:hover ~ .vdt-prostitution {
-    font-size: 1.7rem;
-    fill: #1457d3; }
-
-.vd-sex-trafficking:hover {
-  stroke: #fbbc00; }
-  .vd-sex-trafficking:hover ~ .vdt-sex-trafficking {
-    font-size: 1.7rem;
-    fill: #fbbc00; }
-
-.vd-sex-tourism1:hover {
-  stroke: #1457d3; }
-  .vd-sex-tourism1:hover ~ .vdt-sex-tourism1 {
-    font-size: 1.45rem;
-    fill: #1457d3; }
-
-.vd-sex-worker1:hover {
-  stroke: #1457d3; }
-  .vd-sex-worker1:hover ~ .vdt-sex-worker1 {
-    font-size: 1.45rem;
-    fill: #1457d3; }
-
-.vd-sex-tourism2:hover {
-  stroke: #fbbc00; }
-  .vd-sex-tourism2:hover ~ .vdt-sex-tourism2 {
-    font-size: 1.45rem;
-    fill: #fbbc00; }
-
-.vd-sex-worker2:hover {
-  stroke: #fbbc00; }
-  .vd-sex-worker2:hover ~ .vdt-sex-worker2 {
-    font-size: 1.45rem;
-    fill: #fbbc00; }
+#womenSlider2 {
+  width: 680px;
+  min-width: 50vw;
+  margin: 0 auto; }
+  @media screen and (max-width: 800px) {
+    #womenSlider2 {
+      max-width: 85vw; } }
+  @media screen and (max-width: 800px) {
+    #womenSlider2 .venn-diagram {
+      width: 100%;
+      height: auto; } }
+  #womenSlider2 .vd-circle {
+    stroke-width: 4;
+    transition: all .5s;
+    cursor: pointer; }
+  #womenSlider2 .vd-big {
+    fill-opacity: .75; }
+  #womenSlider2 .vd-small {
+    fill-opacity: 1; }
+  #womenSlider2 .vd-yellow {
+    fill: #fbbc00;
+    stroke: #ffffff; }
+  #womenSlider2 .vd-blue {
+    fill: #1457d3;
+    stroke: #ffffff; }
+  #womenSlider2 .vdt-heading,
+  #womenSlider2 .vdt-subheading,
+  #womenSlider2 .vdt-def {
+    font-family: "DDinBold", sans-serif;
+    pointer-events: none;
+    transition: all .3s; }
+  #womenSlider2 .vdt-heading {
+    font-size: 1.8rem; }
+    @media screen and (max-width: 800px) {
+      #womenSlider2 .vdt-heading {
+        font-size: 2rem; } }
+  #womenSlider2 .vdt-subheading, #womenSlider2 .vdt-def {
+    font-size: 1.6rem; }
+    @media screen and (max-width: 800px) {
+      #womenSlider2 .vdt-subheading, #womenSlider2 .vdt-def {
+        font-size: 1.8rem; } }
+  #womenSlider2 .vdt-def {
+    opacity: 0;
+    font-family: "DDinRegular", sans-serif;
+    font-size: 1.6rem; }
+    @media screen and (max-width: 800px) {
+      #womenSlider2 .vdt-def {
+        font-size: 2rem; } }
+    #womenSlider2 .vdt-def .vdt-term {
+      font-family: "DDinBold", sans-serif; }
+  #womenSlider2 .vdt-black {
+    fill: #333333; }
+  #womenSlider2 .vdt-white {
+    fill: #ffffff; }
+  #womenSlider2 .vdt-middle {
+    width: 50px; }
+  #womenSlider2 .vd-prostitution:hover,
+  #womenSlider2 .vd-prostitution:active {
+    stroke: #1457d3;
+    stroke-width: 6; }
+    #womenSlider2 .vd-prostitution:hover ~ .vdt-prostitution,
+    #womenSlider2 .vd-prostitution:active ~ .vdt-prostitution {
+      font-size: 2rem;
+      fill: #1457d3; }
+  #womenSlider2 .vd-sex-trafficking:hover,
+  #womenSlider2 .vd-sex-trafficking:active {
+    stroke: #fbbc00;
+    stroke-width: 6; }
+    #womenSlider2 .vd-sex-trafficking:hover ~ .vdt-sex-trafficking,
+    #womenSlider2 .vd-sex-trafficking:active ~ .vdt-sex-trafficking {
+      font-size: 2rem;
+      fill: #fbbc00; }
+  #womenSlider2 .vd-sex-tourism1:hover,
+  #womenSlider2 .vd-sex-tourism1:active {
+    stroke: #1457d3;
+    stroke-width: 6; }
+    #womenSlider2 .vd-sex-tourism1:hover ~ .vdt-sex-tourism1,
+    #womenSlider2 .vd-sex-tourism1:active ~ .vdt-sex-tourism1 {
+      font-size: 1.8rem;
+      fill: #1457d3; }
+  #womenSlider2 .vd-sex-worker1:hover,
+  #womenSlider2 .vd-sex-worker1:active {
+    stroke: #1457d3;
+    stroke-width: 6; }
+    #womenSlider2 .vd-sex-worker1:hover ~ .vdt-sex-worker1,
+    #womenSlider2 .vd-sex-worker1:active ~ .vdt-sex-worker1 {
+      font-size: 1.8rem;
+      fill: #1457d3; }
+  #womenSlider2 .vd-sex-tourism2:hover,
+  #womenSlider2 .vd-sex-tourism2:active {
+    stroke: #fbbc00;
+    stroke-width: 6; }
+    #womenSlider2 .vd-sex-tourism2:hover ~ .vdt-sex-tourism2,
+    #womenSlider2 .vd-sex-tourism2:active ~ .vdt-sex-tourism2 {
+      font-size: 1.8rem;
+      fill: #fbbc00; }
+  #womenSlider2 .vd-sex-worker2:hover,
+  #womenSlider2 .vd-sex-worker2:active {
+    stroke: #fbbc00;
+    stroke-width: 6; }
+    #womenSlider2 .vd-sex-worker2:hover ~ .vdt-sex-worker2,
+    #womenSlider2 .vd-sex-worker2:active ~ .vdt-sex-worker2 {
+      font-size: 1.8rem;
+      fill: #fbbc00; }
 
 footer {
   margin: 0 auto;
