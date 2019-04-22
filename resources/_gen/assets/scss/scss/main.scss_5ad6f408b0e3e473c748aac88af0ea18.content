@@ -304,7 +304,6 @@ h1, h2, h3, h4, h5, h6 {
       grid-template-columns: 1fr;
       grid-template-areas: "nav" "story-hero" "story-bd" "story-ft"; } }
   .story-page .story-hero {
-    margin-top: 68px;
     color: #ffffff;
     height: auto;
     max-height: 100vh;
@@ -318,6 +317,9 @@ h1, h2, h3, h4, h5, h6 {
       .story-page .story-hero {
         height: auto;
         padding-bottom: 0; } }
+    @media screen and (max-width: 800px) {
+      .story-page .story-hero {
+        margin-top: 68px; } }
     .story-page .story-hero .story-video {
       display: block;
       position: relative;
@@ -335,23 +337,38 @@ h1, h2, h3, h4, h5, h6 {
         .story-page .story-hero .story-video {
           display: none; } }
     .story-page .story-hero .story-hero__img {
-      display: none;
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      width: 100%;
-      height: 30vh;
-      object-fit: cover; }
+      display: none; }
       @media screen and (max-width: 1040px) {
         .story-page .story-hero .story-hero__img {
-          display: block; } }
+          display: block;
+          position: relative;
+          margin-top: 54px;
+          top: 0px;
+          left: 0px;
+          z-index: -1;
+          width: 100%;
+          height: auto;
+          max-height: 100%;
+          border-radius: 1px;
+          object-fit: cover;
+          object-position: top left; } }
+      @media screen and (max-width: 800px) {
+        .story-page .story-hero .story-hero__img {
+          display: block;
+          position: absolute;
+          margin-top: 0;
+          top: 0px;
+          left: 0px;
+          width: 100%;
+          height: 30vh;
+          object-fit: cover; } }
     .story-page .story-hero .video-5 {
       object-position: top center; }
     .story-page .story-hero .story-hero__topic {
       position: absolute;
       text-align: center;
       top: 20%; }
-      @media screen and (max-width: 1040px) {
+      @media screen and (max-width: 800px) {
         .story-page .story-hero .story-hero__topic {
           margin-top: 35vh;
           text-align: left;
@@ -366,7 +383,7 @@ h1, h2, h3, h4, h5, h6 {
         margin: 0;
         text-transform: uppercase;
         font-size: 1.2rem; }
-        @media screen and (max-width: 1040px) {
+        @media screen and (max-width: 800px) {
           .story-page .story-hero .story-hero__topic p {
             font-size: 1rem; } }
       .story-page .story-hero .story-hero__topic .ybr-line {
@@ -377,7 +394,7 @@ h1, h2, h3, h4, h5, h6 {
     .story-page .story-hero .story-hero__heading {
       position: absolute;
       bottom: 15%; }
-      @media screen and (max-width: 1040px) {
+      @media screen and (max-width: 800px) {
         .story-page .story-hero .story-hero__heading {
           position: static;
           max-width: 85vw;
@@ -387,7 +404,7 @@ h1, h2, h3, h4, h5, h6 {
         font-family: "DDinBold", sans-serif;
         font-size: calc(3rem + 3vw);
         margin-bottom: 0; }
-        @media screen and (max-width: 1040px) {
+        @media screen and (max-width: 800px) {
           .story-page .story-hero .story-hero__heading .story-hero__title {
             margin-top: 10px;
             text-align: left;
@@ -396,7 +413,7 @@ h1, h2, h3, h4, h5, h6 {
       .story-page .story-hero .story-hero__heading .story-hero__desc {
         font-family: "Lato", sans-serif;
         margin: 5px 0; }
-        @media screen and (max-width: 1040px) {
+        @media screen and (max-width: 800px) {
           .story-page .story-hero .story-hero__heading .story-hero__desc {
             color: #333333;
             font-size: 1rem;
@@ -503,7 +520,6 @@ nav {
 .about {
   font-family: "Lato", sans-serif; }
   .about .story-hero {
-    margin-top: 68px;
     color: #ffffff;
     height: auto;
     max-height: 100vh;
@@ -516,7 +532,8 @@ nav {
     @media screen and (max-width: 800px) {
       .about .story-hero {
         height: 30vh;
-        padding-bottom: 0; } }
+        padding-bottom: 0;
+        margin-top: 68px; } }
     .about .story-hero .about__hero-img {
       background-color: #fbbc00;
       display: block;
@@ -1210,7 +1227,7 @@ nav {
     grid-template-areas: 'story1 story2 story3 story4 story5'; }
   .main-menu .main-menu__card {
     position: relative;
-    height: 32vh;
+    height: 200px;
     font-family: "Lato", sans-serif;
     display: inline-block;
     text-decoration: none;

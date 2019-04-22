@@ -2,7 +2,6 @@
   font-family: $font-about-info;
 
   .story-hero {
-    margin-top: 68px;
     color: $white;
     height: auto;
     max-height: 100vh;
@@ -16,6 +15,7 @@
     @media screen and (max-width: 800px) {
       height: 30vh;
       padding-bottom: 0;
+      margin-top: 68px;
     }
 
     .about__hero-img {
