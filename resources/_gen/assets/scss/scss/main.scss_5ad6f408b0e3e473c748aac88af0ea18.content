@@ -1453,7 +1453,7 @@ nav {
           margin: 0; }
   .main-menu-mobile .bottom-menu {
     position: absolute;
-    bottom: 35px; }
+    bottom: 5rem; }
     .main-menu-mobile .bottom-menu .social {
       justify-content: flex-start;
       margin-top: 15px; }
