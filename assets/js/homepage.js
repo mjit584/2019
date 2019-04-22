@@ -10,28 +10,43 @@ let init = function () {
   var homeSubtitle = document.getElementById("home-subtitle");
   var homeDesc = document.getElementById("home-desc");
   var x = window.matchMedia("(max-width: 1040px)");
+  var video = document.querySelector('video');
+  var promise = video.play();
 
-  function dontTimeout(x) {
-    if (x.matches) {
-      window.clearTimeout(fadeInText);
-    }
-  }
+  if (promise !== undefined) {
+    promise.then(_ => {
+      function dontTimeout(x) {
+        if (x.matches) {
+          window.clearTimeout(fadeInText);
+        }
+      }
 
-  dontTimeout(x); // Call listener function at run time
-  x.addListener(dontTimeout);
+      dontTimeout(x); // Call listener function at run time
+      x.addListener(dontTimeout);
 
-  window.setTimeout(fadeInText, 4500);
+      window.setTimeout(fadeInText, 4500);
 
-  function fadeInText() {
-    homeLogoLine.style.opacity = "1";
-    homeLogo.style.opacity = "1";
-    homeSubtitle.style.opacity = "1";
-    homeDesc.style.opacity = "1";
+      function fadeInText() {
+        homeLogoLine.style.opacity = "1";
+        homeLogo.style.opacity = "1";
+        homeSubtitle.style.opacity = "1";
+        homeDesc.style.opacity = "1";
 
-    homeLogoLine.style.transition = "opacity 1s ease-in";
-    homeLogo.style.transition = "opacity 1s ease-in";
-    homeSubtitle.style.transition = "opacity 2s ease-in";
-    homeDesc.style.transition = "opacity 2s ease-in";
+        homeLogoLine.style.transition = "opacity 1s ease-in";
+        homeLogo.style.transition = "opacity 1s ease-in";
+        homeSubtitle.style.transition = "opacity 2s ease-in";
+        homeDesc.style.transition = "opacity 2s ease-in";
+      }
+    }).catch(error => {
+      function dontFade() {
+        homeLogoLine.style.opacity = "1";
+        homeLogo.style.opacity = "1";
+        homeSubtitle.style.opacity = "1";
+        homeDesc.style.opacity = "1";
+      }
+      video.muted = true;
+      video.play();
+    });
   }
 
   var tooSmall = false;
