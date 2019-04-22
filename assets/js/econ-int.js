@@ -1,3 +1,6 @@
+// Econ Interactive JS
+
+// console.log('econ-int.js is loaded');
 
 // Add microinteractions with the bolivar timeline
 

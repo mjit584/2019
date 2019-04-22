@@ -1,14 +1,15 @@
+// Videos JS
 
-// // Video go dark settings live here
+// console.log('videos.js is loaded');
+
+// Video go dark settings live here
 var videoTop;
 var videoHeight;
 var windowWidth;
 
 windowWidth = $(window).width();
 videoTop = $('#video-top').offset().top;
-console.log(videoTop);
 videoHeight = $('iframe').outerHeight();
-console.log(videoHeight);
 $(window).scroll(function (event) {
   if (windowWidth > 1240) {
     var controller = new ScrollMagic.Controller();

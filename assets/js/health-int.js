@@ -1,6 +1,6 @@
+// Health Interactive JS
 
-// Health interactive
-console.log('script start');
+// console.log('health-int.js is loaded');
 
 $("#card1-button").mouseenter(function () {
   $(".card1-hidden").fadeIn(300);

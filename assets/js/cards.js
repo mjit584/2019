@@ -1,6 +1,6 @@
+// Cards JS
 
-// Cards js
-console.log("cards");
+// console.log('cards.js is loaded');
 
 // Add hovered class to a card when it's hovered, remove when it is no longer hovered
 $('.card').hover(

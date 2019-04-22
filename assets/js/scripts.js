@@ -1,3 +1,3 @@
 $(function () {
-  console.log('Hello world');
+  console.log('scripts.js is loaded');
 });

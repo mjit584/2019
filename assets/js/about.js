@@ -1,6 +1,7 @@
 
 // About JS
-console.log('Testing to see if about is loaded');
+
+// console.log('about.js is loaded');
 
 
 

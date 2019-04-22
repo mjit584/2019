@@ -1,5 +1,7 @@
+// Hamburger Menu JS
 
-// Hamburger menu
+// console.log('hamburger.js is loaded');
+
 var body = document.querySelector('body');
 var menuTrigger = document.querySelector('#toggle-main-menu-mobile');
 var menuContainer = document.querySelector('#main-menu-mobile');

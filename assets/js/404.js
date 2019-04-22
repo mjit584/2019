@@ -1,3 +1,6 @@
+// 404 JS
+
+// console.log('Test to see if 404.js is loaded');
 
 //Add your images, we'll set the path in the next step
 var images = [
@@ -31,7 +34,6 @@ var images = [
 var btsGrid = document.getElementById("error__bts");
 var html = "";
 var randomImg = images[Math.floor(Math.random() * images.length)];
-console.log(randomImg);
 
 html += "<div class='error__grid'>";
 images.forEach((image) => {
