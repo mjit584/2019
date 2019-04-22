@@ -1,5 +1,4 @@
 ---
-attr: "Luis Villenueva, Waiter at La Rez"
+attr: "Irelys Rojas, Venezuelan migrant who busks on the street to make money"
 ---
-
-"I thought that my life in Venezuela was over. But here, in Colombia, I have found a reason to live again." 
+"You have to find a middleman to get an appointment to have your picture taken and then wait months and months for them to tell you there’s no material. Oh, and then pay the middleman like $1,000."
