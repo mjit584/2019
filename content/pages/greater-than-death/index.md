@@ -63,7 +63,7 @@ Judy’s tumor requires treatment every 15 days. Back home, her mother used to m
 <!-- 2nd photo goes here - Marbis and daughter at clinic -->
 {{< photo-caption "pages/greater-than-death" "photo-caption-2" >}}
 
-Eventually, doctors presented Marbis Georgina with a solution: they could perform three  separate surgeries on Judy to remove the tumor and reconstruct her lip. Each would cost $1,500 USD.
+Eventually, doctors presented Marbis Georgina with a solution: they could perform three  separate surgeries on Judy to remove the tumor and reconstruct her lip. Each would cost USD $1,500.
 
 Since inflation in Venezuela is increasing drastically every day, Marbis Georgina had to make a decision. And with that, she decided to move to Medellín with her daughters.
 
@@ -77,7 +77,7 @@ Colombians in the neighborhood have tried to help the family when they can. Alba
 
 The remnants of cooking are left in the Verenzuela’s kitchen. Pots and bowls dry. Halved plantains sit on the counter.  The day before they had prepared bollitos venezolanos, a cornflour roll filled with beef. 
 
-The family sells food in Parque Bolívar every day. Bollitos sell for $1,000 COP, roughly 33 cents in U.S. dollars. The family of eight depends on these day-to-day sales to pay for their rent, food and medicine.
+The family sells food in Parque Bolívar every day. Bollitos sell for $1,000 Colombian pesos, roughly 33 cents in U.S. dollars. The family of eight depends on these day-to-day sales to pay for their rent, food and medicine.
 
 “There’s not a moment when you can say, ‘I’m going to take two hours off to rest,’” Marbis Georgina says. “Here, we work everyday because the rent doesn’t stop. Our expenses don’t stop. The bills keep coming.”
 

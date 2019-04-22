@@ -39,9 +39,9 @@ The Medellín education system says every migrant child who seeks education is g
 
 {{< story-interactives "pages/cost-of-dreams" "openarms" >}}
 
-At age 9, Jeham is the household's only source of income. On a good day, he brings in 30,000 pesos, about $10. Two dollars goes toward rent; the rest is spent on food, electricity, water and savings for medication. 
+At age 9, Jeham is the household's only source of income. On a good day, he brings in Colombian pesos $30,000, about USD $10. Two dollars goes toward rent; the rest is spent on food, electricity, water and savings for medication. 
 
-Jeham has managed to save 40,000 pesos in the last month. He used it to buy a Game Boy, his only source of distraction and fun. 
+Jeham has managed to save COP $40,000 in the last month. He used it to buy a Game Boy, his only source of distraction and fun. 
 
 “I bought a toy for my cousin back home,” Jeham said. “I could never afford toys in Venezuela.”
 

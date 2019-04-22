@@ -31,7 +31,7 @@ The defender, Laurenti Velasquez, jogs off the field, content. When he’s playi
 <!-- Economic story video goes here -->
 {{< vimeo id="329817257" class="video-container flex" >}}
 
-But when he leaves the field, everything comes back. The 25-year-old immigrated to Colombia in 2016, but Venezuela is always on his mind. He sends about 40 percent of the salary he makes working as a storekeeper at Distripartes, an auto shop, back to his children every month ––  which amounts to 380,000 pesos, or $119.
+But when he leaves the field, everything comes back. The 25-year-old immigrated to Colombia in 2016, but Venezuela is always on his mind. He sends about 40 percent of the salary he makes working as a storekeeper at Distripartes, an auto shop, back to his children every month ––  which amounts to $380,000 Colombian pesos, or USD $119.
 
 {{< story-interactives "pages/brothers-on-the-pitch" "econ-exchange-int" >}}
 
@@ -42,7 +42,7 @@ Distripartes offers Velasquez benefits that he’s never had at his previous odd
 <!--Laurenti at work-->
 {{< photo-caption "/pages/brothers-on-the-pitch" "photo-caption-1">}}
 
-Thousands of Venezuelans know sacrifice too well. In the last five years, inflation has risen from 57 percent to 10 million percent, partly due to crashing oil prices, the country’s main source of revenue. Since then, more than 3 million Venezuelans have fled the country—about 10 percent of the country’s total population. Over a third of them are now in Colombia. Those left behind struggle to pay for groceries, medication and other basic necessities. Most rely on remittances from loved ones. In 2018 alone, economists estimated that Venezuelans living abroad sent more than $1 billion to relatives unable to leave.
+Thousands of Venezuelans know sacrifice too well. In the last five years, inflation has risen from 57 percent to 10 million percent, partly due to crashing oil prices, the country’s main source of revenue. Since then, more than 3 million Venezuelans have fled the country—about 10 percent of the country’s total population. Over a third of them are now in Colombia. Those left behind struggle to pay for groceries, medication and other basic necessities. Most rely on remittances from loved ones. In 2018 alone, economists estimated that Venezuelans living abroad sent more than USD $1 billion to relatives unable to leave.
 
 “We’re far from our families and far from our country, but we’re here because we’re fighting for them,” Velasquez said.
 
