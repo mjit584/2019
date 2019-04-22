@@ -691,12 +691,6 @@ nav {
         .about .about__thanks .about__thanks-list {
           max-width: 85vw; } }
 
-.overlay {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); }
-  @media screen and (max-width: 1040px) {
-    .overlay {
-      background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)); } }
-
 .photo .photo__line {
   border-bottom: solid 1px #333333;
   width: 45vw;

@@ -5,4 +5,4 @@ alt: "A young boy named Jeham Carlos looks over his shoulder at the camera. He w
 photographer: "Photog"
 ---
 
-Jeham Carlos, age 9, no longer goes to school. Instead, he sells candy on the street to help pay rent at the one-bedroom apartment he shares with his mother, his grandmother and a family friend.
+Jeham Carlos, age 9, has missed months of school. Instead, he sells candy on the street to help pay rent at the one-bedroom apartment he shares with his mother, his grandmother and a family friend.
