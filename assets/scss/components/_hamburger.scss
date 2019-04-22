@@ -2,6 +2,9 @@
   color: $black;
   z-index: 2;
   background-color: $yellow;
+  position: fixed;
+  top: 0;
+  transition: top 0.3s;
   padding: 10px 25px;
   width: 100%;
   display: flex;

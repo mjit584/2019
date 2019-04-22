@@ -10,6 +10,7 @@ window.onscroll = function () {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("header").style.top = "0";
+    document.getElementById("hamburger").style.top = "0";
     if (scrollTimer) {
       console.log("cleared timeout");
       clearTimeout(hideHeader);
@@ -17,6 +18,7 @@ window.onscroll = function () {
     setTimeout(hideHeader, 2000);   // set new timer
   } else {
     document.getElementById("header").style.top = "-75px";
+    document.getElementById("hamburger").style.top = "-75px";
   }
   prevScrollpos = currentScrollPos;
 
