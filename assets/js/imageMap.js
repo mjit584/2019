@@ -1,5 +1,7 @@
+// Image Map JS
 
-// Get the image map to work
+// console.log('imageMap.js is loaded');
+
 var floor = document.getElementById('floor');
 var bed = document.getElementById('bed');
 var wall = document.getElementById('wall');
@@ -29,8 +31,6 @@ window.onload = function () {
     floorCircle.onmouseenter = function () {
       hoverRed(floor);
       var floorCircPos = floorCircle.getBoundingClientRect();
-      console.log(floorCircPos);
-      console.log("svgPos", svgPos);
       var html = '';
       html += '<p>Many Venezuelans rent out <em>Inquilinato</em>, or daily rooms, to sleep in. Rooms cost an average of $10 USD per day. Even though one room averages just 2 meters by 2 meters (43 square feet), it usually houses multiple families at a time</p>';
       infoBox.innerHTML = html;
@@ -40,12 +40,8 @@ window.onload = function () {
       var svgX = svgPos.x;
       var top = (x - svgX - height) + "px";
       var left = floorCircPos.left - (ttWidth / 2) + "px";
-      console.log(top);
-      console.log("height:", height);
       infoBox.style.top = top;
       infoBox.style.left = left;
-      console.log("infoxBox top:", infoBox.style.top);
-      console.log("infoxBox left:", infoBox.style.left);
     };
 
     floorCircle.onmouseleave = function () {
@@ -61,18 +57,12 @@ window.onload = function () {
       infoBox.innerHTML = html;
       infoBox.classList.toggle('hidden');
       var x = wallCircPos.x;
-      console.log("wall x:", x);
       var height = infoBox.getBoundingClientRect().height;
       var svgX = svgPos.x;
       var top = (x - svgX - (height * 4)) + "px";
-      console.log("wall y", wallCircPos.y);
       var left = wallCircPos.left - ttWidth + "px";
-      console.log(top);
-      console.log("height:", height);
       infoBox.style.top = top;
       infoBox.style.left = left;
-      console.log("infoxBox top:", infoBox.style.top);
-      console.log("infoxBox left:", infoBox.style.left);
     };
 
     wallCircle.onmouseleave = function () {
@@ -92,12 +82,8 @@ window.onload = function () {
       var svgX = svgPos.x;
       var top = (x - svgX - (height * 1.5)) + "px";
       var left = bagsCircPos.left - (ttWidth / 2) + "px";
-      console.log(top);
-      console.log("height:", height);
       infoBox.style.top = top;
       infoBox.style.left = left;
-      console.log("infoxBox top:", infoBox.style.top);
-      console.log("infoxBox left:", infoBox.style.left);
     };
 
     bagsCircle.onmouseleave = function () {
@@ -117,12 +103,8 @@ window.onload = function () {
       var svgX = svgPos.x;
       var top = (x - svgX - height) + "px";
       var left = bedCircPos.left - (ttWidth / 2) + "px";
-      console.log(top);
-      console.log("height:", height);
       infoBox.style.top = top;
       infoBox.style.left = left;
-      console.log("infoxBox top:", infoBox.style.top);
-      console.log("infoxBox left:", infoBox.style.left);
     };
 
     bedCircle.onmouseleave = function () {
@@ -136,8 +118,6 @@ window.onload = function () {
 // On click, the infomration appears if mobile
 floorCircle.onclick = function () {
   var floorCircPos = floorCircle.getBoundingClientRect();
-  console.log(floorCircPos);
-  console.log("svgPos", svgPos);
   var html = '';
   html += '<p>Many Venezuelans rent out <em>Inquilinato</em>, or daily rooms, to sleep in. Rooms cost an average of $10 USD per day. Even though one room averages just 2 meters by 2 meters (43 square feet), it usually houses multiple families at a time</p>';
   if (infoBox.innerHTML != html) {

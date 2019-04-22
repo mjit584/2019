@@ -1,7 +1,7 @@
 
-// Header js
+// Header JS
 
-console.log('testing to make sure headers.js is linked up');
+// console.log('header.js is loaded');
 
 //* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var scrollTimer = null;
@@ -12,7 +12,6 @@ window.onscroll = function () {
     document.getElementById("header").style.top = "0";
     document.getElementById("hamburger").style.top = "0";
     if (scrollTimer) {
-      console.log("cleared timeout");
       clearTimeout(hideHeader);
     }
     setTimeout(hideHeader, 2000);   // set new timer
@@ -28,7 +27,6 @@ window.onscroll = function () {
 function hideHeader() {
   scrollTimer = true;
   var currentScrollPos = window.pageYOffset;
-  console.log("hideHeader function", currentScrollPos);
   var isHovered = $('#header').is(":hover");
   if (currentScrollPos > 50 && !isHovered) {
     document.getElementById("header").style.top = "-75px";
@@ -76,7 +74,6 @@ window.onload = function () {
       storyDropdown.classList.toggle('is-active');
       mainMenu.classList.toggle('open');
       var displayNone = overlay.getAttribute("style");
-      console.log(displayNone);
       if (displayNone === null) {
         overlay.style.display = "flex";
       } else {
@@ -88,7 +85,6 @@ window.onload = function () {
       photoDropdown.classList.toggle('is-active');
       photoMainMenu.classList.toggle('open');
       var displayNone = overlay.getAttribute("style");
-      console.log(displayNone);
       if (displayNone === null) {
         overlay.style.display = "flex";
       } else {

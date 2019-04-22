@@ -1,5 +1,8 @@
+// Videos JS
 
-// // Video go dark settings live here
+// console.log('videos.js is loaded');
+
+// Video go dark settings live here
 var videoTop;
 var videoHeight;
 var windowWidth;

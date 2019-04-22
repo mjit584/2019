@@ -1,5 +1,6 @@
-// Government Interactive - Undocumented
-console.log('script start');
+// Government Undocumented Interactive JS
+
+// console.log('gov-undocumented-int.js is loaded');
 
 $(document).ready(function () {
   $("#r-2-c-2").click(function () {
@@ -58,13 +59,10 @@ function showSlidesPassport(n) {
 }
 
 function plusSlidesPassport(n) {
-  console.log('plusSlidesPassport');
   showSlidesPassport(slideIndexPassport += n);
-  console.log(slideIndexPassport + n);
 }
 
 function currentSlidePassport(n) {
-  console.log('currentSlidePassport');
   showSlidesPassport(slideIndexPassport = n);
 }
 
@@ -89,9 +87,7 @@ function showSlides(n) {
 }
 
 function plusSlides(n) {
-  console.log('plusSlides');
   showSlides(slideIndex += n);
-  console.log(slideIndex + n);
 }
 
 function currentSlide(n) {
@@ -119,13 +115,10 @@ function showSlidesID(n) {
 }
 
 function plusSlidesID(n) {
-  console.log('plusSlidesID');
   showSlidesID(slideIndexID += n);
-  console.log(slideIndexID + n);
 }
 
 function currentSlideID(n) {
-  console.log('currentSlideID');
   showSlidesID(slideIndexID = n);
 }
 

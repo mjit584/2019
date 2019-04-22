@@ -1,4 +1,7 @@
-// Women laws interactive
+// Women Laws Interactive JS
+
+// console.log('women-int.js is loaded');
+
 
 var slider = document.getElementById("myRange");
 var output = slider.value;

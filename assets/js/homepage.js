@@ -1,5 +1,6 @@
+// Homepage JS
 
-// Homepage js
+// console.log('homepage.js is loaded');
 
 let init = function () {
 
@@ -32,8 +33,6 @@ let init = function () {
     homeSubtitle.style.transition = "opacity 2s ease-in";
     homeDesc.style.transition = "opacity 2s ease-in";
   }
-
-  console.log("init called");
 
   var tooSmall = false;
   var controller = null;
@@ -95,5 +94,3 @@ let init = function () {
 }
 
 document.addEventListener("DOMContentLoaded", init);
-
-console.log('homepage js linked');

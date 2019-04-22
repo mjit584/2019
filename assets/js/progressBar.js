@@ -1,3 +1,6 @@
+// Progress Bar JS
+
+// console.log('progressBar.js is loaded');
 
 // Create fillable progress bar on photo chapter pages
 function fillProgress() {
