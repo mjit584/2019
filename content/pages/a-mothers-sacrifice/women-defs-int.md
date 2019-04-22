@@ -11,7 +11,7 @@ graphics:
     {{< ybr-line >}}
     <div class="interactive__intro">The main difference between prostitution and sex trafficking is that prostitution is voluntary while sex trafficking relies on the use of force. Prostitutes often become victims of sex trafficking because they find themselves in vulnerable situations. Sex tourists often exploit minors or hire victims of sex trafficking.</div>
     <div class="interactive__instructions">Click on parts of the venn diagram to learn more.</div>
-    <svg class="venn-diagram" width="90%" height="65vh" style="max-height:700px" viewBox="-5 -5 807 704" fill="none"
+    <svg class="venn-diagram" width="90%" height="65vh" style="max-height:700px" viewBox="-5 -5 807 690" fill="none"
       xmlns="http://www.w3.org/2000/svg">
       <circle class="vd-circle vd-big vd-yellow vd-prostitution" onclick="showDef('prostitution-def')" cx="263.109" cy="262.5" r="262.5" fill-opacity="0.5"/>
       <circle class="vd-circle vd-big vd-blue vd-sex-trafficking" onclick="showDef('sex-trafficking-def')" cx="538.891" cy="262.5" r="262.5" fill-opacity="0.5"/>
@@ -29,17 +29,17 @@ graphics:
       <text class="vdt-subheading vdt-white vdt-sex-worker2" x="628" y="171" fill="black"
         text-anchor="middle">Involuntary<tspan x="628" y="201" text-anchor="middle">Sex Worker</tspan></text>
       <text class="vdt-subheading vdt-white vdt-sex-tourism2" x="628" y="374.832" fill="black" text-anchor="middle">Sex Tourism</text>
-      <text class="vdt-def" id="prostitution-def" x="401" y="600" fill="black" text-anchor="middle">
+      <text class="vdt-def" id="prostitution-def" x="401" y="590" fill="black" text-anchor="middle">
         <tspan class="vdt-term">Prostitution:</tspan> Engaging in sexual activity for payment. 
       </text>
-      <text class="vdt-def" id="sex-trafficking-def" x="401" y="600" fill="black" text-anchor="middle">
-        <tspan class="vdt-term">Sex Trafficking:</tspan> Someone uses force, fraud or coercion <tspan x="401" y="630">to cause a commercial sex act (which includes </tspan><tspan x="401" y="660">pornography, prostitution and sexual performance in </tspan><tspan x="401" y="690">exchange for an item of value).</tspan>
+      <text class="vdt-def" id="sex-trafficking-def" x="401" y="590" fill="black" text-anchor="middle">
+        <tspan class="vdt-term">Sex Trafficking:</tspan> Someone uses force, fraud or coercion <tspan x="401" y="620">to cause a commercial sex act (which includes </tspan><tspan x="401" y="650">pornography, prostitution and sexual performance in </tspan><tspan x="401" y="680">exchange for an item of value).</tspan>
       </text>
-      <text class="vdt-def" id="sex-tourism-def" x="401" y="600" fill="black" text-anchor="middle">
-        <tspan class="vdt-term">Sex Tourism:</tspan> Travel specifically arranged for, or planned by, <tspan x="401" y="630">travelers to facilitate the procurement of sex.</tspan>
+      <text class="vdt-def" id="sex-tourism-def" x="401" y="590" fill="black" text-anchor="middle">
+        <tspan class="vdt-term">Sex Tourism:</tspan> Travel specifically arranged for, or planned by, <tspan x="401" y="620">travelers to facilitate the procurement of sex.</tspan>
       </text>
-      <text class="vdt-def" id="sex-worker-def" x="401" y="600" fill="black" text-anchor="middle">
-        <tspan class="vdt-term">Sex Worker:</tspan> Someone who sells their body for sex; <tspan x="401" y="630">a modern-day euphemism for a prostitute. An involuntary </tspan><tspan x="401" y="660">sex worker is also known as a victim of sex trafficking.</tspan>
+      <text class="vdt-def" id="sex-worker-def" x="401" y="590" fill="black" text-anchor="middle">
+        <tspan class="vdt-term">Sex Worker:</tspan> Someone who sells their body for sex; <tspan x="401" y="620">a modern-day euphemism for a prostitute. An involuntary </tspan><tspan x="401" y="650">sex worker is also known as a victim of sex trafficking.</tspan>
       </text>
       <script type="text/javascript">
         <![CDATA[

@@ -2572,7 +2572,8 @@ nav {
       max-width: 100%; }
   #womenSlider .desc p {
     margin: 1vw 0;
-    font-size: 1em; }
+    font-size: 1em;
+    line-height: normal; }
   #womenSlider li {
     margin-top: 20px; }
 
