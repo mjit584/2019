@@ -17,7 +17,7 @@ designer: "Sally Dillon, Xiaoke Ji"
 udea: "Laura Andrea Garcia Giraldo"
 ---
 
-BBy 4 p.m., Irelys Rojas begins to fear the end of the day.
+By 4 p.m., Irelys Rojas begins to fear the end of the day.
 
 It’s raining, and the restaurants she performs in are empty. At 5, she sits down at a café to count how much she’s made for the day.
 
