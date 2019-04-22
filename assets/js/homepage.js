@@ -44,6 +44,7 @@ let init = function () {
         homeSubtitle.style.opacity = "1";
         homeDesc.style.opacity = "1";
       }
+      dontFade();
       video.muted = true;
       video.play();
     });

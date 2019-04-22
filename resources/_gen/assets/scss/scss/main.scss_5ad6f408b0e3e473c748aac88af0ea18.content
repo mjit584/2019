@@ -2262,6 +2262,8 @@ nav {
 
 .scrollytelly__main {
   max-width: 85%; }
+  .scrollytelly__main .interactive__intro {
+    text-align: center; }
 
 #scrollytelly__title {
   margin-top: 5%; }
