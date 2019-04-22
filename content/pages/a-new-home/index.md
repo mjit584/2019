@@ -44,6 +44,6 @@ After leaving behind their home country, where most Venezuelan immigrants spent 
 
 
 
-Living in a tiny room, the friends spend the night in places known as <em>inquilinato</em>, small rooms that can be rented out daily. For about $10 USD, the friends have a place to lay their heads at night. Most rooms offer only a small bed, a dresser and a TV. Hundreds of Venezuelans who have made their way to Colombia find themselves living in such places because they have little money to rent out proper homes.
+Living in a tiny room, the friends spend the night in places known as <em>inquilinatos</em>, small rooms that can be rented out daily. For about $10 USD, the friends have a place to lay their heads at night. Most rooms offer only a small bed, a dresser and a TV. Hundreds of Venezuelans who have made their way to Colombia find themselves living in such places because they have little money to rent out proper homes.
 
 {{< story-interactives "/pages/a-new-home" "photo-image-map" >}}
