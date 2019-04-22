@@ -2793,7 +2793,8 @@ footer {
     text-align: center; }
     @media screen and (max-width: 800px) {
       .center-quote-container #pull-quote__attr {
-        text-align: left; } }
+        text-align: left;
+        align-self: flex-start; } }
 
 .error-page {
   font-family: "DDinBold", sans-serif; }
