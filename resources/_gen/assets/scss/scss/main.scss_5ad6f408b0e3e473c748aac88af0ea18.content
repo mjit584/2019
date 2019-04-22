@@ -930,10 +930,10 @@ nav {
   @media screen and (max-width: 800px) {
     .header {
       display: none; } }
-  .header a, .header i {
+  .header a {
     text-decoration: none;
     color: #333333; }
-    .header a:hover, .header i:hover {
+    .header a:hover {
       color: #c70032; }
   .header .container {
     justify-content: space-between;
@@ -963,7 +963,7 @@ nav {
       .header .container .header__story-dropdown.is-active, .header .container .header__photo-dropdown.is-active {
         background: rgba(255, 255, 255, 0.9);
         color: #c70032; }
-      .header .container .header__story-dropdown:hover i, .header .container .header__photo-dropdown:hover i {
+      .header .container .header__story-dropdown:hover, .header .container .header__photo-dropdown:hover {
         color: #c70032; }
       .header .container .header__story-dropdown i, .header .container .header__photo-dropdown i {
         padding-left: 10px; }
@@ -983,7 +983,7 @@ nav {
       flex-basis: 26%;
       font-size: 1rem;
       text-align: center; }
-      .header .container .header__social-icons i {
+      .header .container .header__social-icons .header__social-icon {
         padding: 5px 0;
         margin: 0 5px;
         height: 26px;
@@ -991,16 +991,8 @@ nav {
         background-color: #333333;
         color: #fbbc00;
         border-radius: 50%; }
-        .header .container .header__social-icons i:hover {
+        .header .container .header__social-icons .header__social-icon:hover {
           background-color: #c70032; }
-
-.header--white {
-  background-color: transparent;
-  color: #ffffff; }
-  .header--white a, .header--white i {
-    color: #ffffff; }
-    .header--white a:hover, .header--white i:hover {
-      color: #c70032; }
 
 .black {
   background-color: #000; }
@@ -1457,7 +1449,7 @@ nav {
           margin: 0; }
   .main-menu-mobile .bottom-menu {
     position: absolute;
-    bottom: 35px; }
+    bottom: 5rem; }
     .main-menu-mobile .bottom-menu .social {
       justify-content: flex-start;
       margin-top: 15px; }

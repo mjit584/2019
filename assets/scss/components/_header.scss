@@ -14,7 +14,7 @@
     display: none;
   }
 
-  a,i {
+  a {
     text-decoration: none;
     color: $black;
 
@@ -70,9 +70,7 @@
       }
 
       &:hover {
-        i {
-          color: $red;
-        }
+        color: $red;
       }
 
       i {
@@ -109,7 +107,7 @@
       font-size: 1rem;
       text-align: center;
 
-      i {
+      .header__social-icon {
         padding: 5px 0;
         margin: 0 5px;
         height: 26px;
@@ -122,19 +120,6 @@
           background-color: $red;
         }
       }
-    }
-  }
-}
-
-.header--white {
-  background-color: transparent;
-  color: $white;
-
-  a,i {
-    color: $white;
-
-    &:hover {
-      color: $red;
     }
   }
 }

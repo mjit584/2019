@@ -46,26 +46,26 @@ windowWidth = $(window).width();
 window.onload = function () {
   if (windowWidth > 1040) {
     storyDropdown.onmouseenter = function () {
-      storyDropdown.classList.toggle('is-active');
-      mainMenu.classList.toggle('open');
+      storyDropdown.classList.add('is-active');
+      mainMenu.classList.add('open');
       overlay.style.display = "flex";
     }
 
     storyDropdown.onmouseleave = function () {
-      storyDropdown.classList.toggle('is-active');
-      mainMenu.classList.toggle('open');
+      storyDropdown.classList.remove('is-active');
+      mainMenu.classList.remove('open');
       overlay.style.display = "none";
     }
 
     photoDropdown.onmouseenter = function () {
-      photoDropdown.classList.toggle('is-active');
-      photoMainMenu.classList.toggle('open');
+      photoDropdown.classList.add('is-active');
+      photoMainMenu.classList.add('open');
       overlay.style.display = "flex";
     }
 
     photoDropdown.onmouseleave = function () {
-      photoDropdown.classList.toggle('is-active');
-      photoMainMenu.classList.toggle('open');
+      photoDropdown.classList.remove('is-active');
+      photoMainMenu.classList.remove('open');
       overlay.style.display = "none";
     }
   } else {
@@ -93,5 +93,31 @@ window.onload = function () {
   }
 };
 
-
-
+// if (!mainMenu.classList.contains('open')) {
+//   $('#header__story-dropdown').on('mouseenter touchstart', function (e) {
+//     storyDropdown.classList.add('is-active');
+//     mainMenu.classList.add('open');
+//     overlay.style.display = "flex";
+//   });
+//   $('#header__story-dropdown').on('mouseleave', function (e) {
+//     storyDropdown.classList.remove('is-active');
+//     mainMenu.classList.remove('open');
+//     overlay.style.display = "none";
+//   });
+//   $('#header__story-dropdown').on('click', function () {
+//     storyDropdown.classList.remove('is-active');
+//     mainMenu.classList.remove('open');
+//     overlay.style.display = "none";
+//   });
+// } else if (mainMenu.classList.contains('open')) {
+//   $('#header__story-dropdown').on('mouseleave', function () {
+//     storyDropdown.classList.remove('is-active');
+//     mainMenu.classList.remove('open');
+//     overlay.style.display = "none";
+//   });
+//   $('#header__story-dropdown').on('mouseenter touchstart', function (e) {
+//     storyDropdown.classList.add('is-active');
+//     mainMenu.classList.add('open');
+//     overlay.style.display = "flex";
+//   });
+// }
