@@ -5,4 +5,4 @@ alt: "undefined"
 photographer: "Photog"
 ---
 
-Marbis Georgina Verenzuela takes her daughter Judy to a clinic in Medellín to learn about possible treatments for her tumor. Judy wears a mask because she was sick earlier in the week, and the city’s air pollution.
+Marbis Georgina Verenzuela takes her daughter Judy to a clinic in Medellín to learn about possible treatments for her tumor. Judy wears a mask because she was sick earlier in the week, and because of the city’s air pollution.
