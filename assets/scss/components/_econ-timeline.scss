@@ -9,6 +9,8 @@
   max-width: 1200px;
   margin: 0 auto;
   font-family: $font-int-body;
+  z-index: 3;
+
  .row {
    display:flex;
    justify-content: center;

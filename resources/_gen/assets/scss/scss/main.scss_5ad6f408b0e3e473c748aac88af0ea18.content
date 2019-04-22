@@ -2324,7 +2324,8 @@ nav {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  font-family: "Lato", sans-serif; }
+  font-family: "Lato", sans-serif;
+  z-index: 3; }
   .timeline .row {
     display: flex;
     justify-content: center;
