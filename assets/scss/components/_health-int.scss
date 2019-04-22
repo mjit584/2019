@@ -1,342 +1,196 @@
 .interactive__health {
-  .flip-card {
-    background-color: transparent;
-    width: 40%;
-    height: 200px;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  }
-
-  /* This container is needed to position the front and back side */
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-
-  /* Position the front and back side */
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-
-  /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-  }
-
-  /* Style the back side */
-  .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
-    transform: rotateY(180deg);
-  }
-
-  #r-1{
-    height: 45vh;
-    width: 100vw;
-  }
-
-  #r-2 {
-    height: 15vh;
-    width: 65vw;
-    align-items: flex-start;
-    justify-content: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: #333333;
-    padding-bottom: 50px;
-
-  }
-
-  #r-3 {
-    flex-direction: row;
+  .health__cards {
     align-items: stretch;
-    justify-content: center;
-  }
 
-  #r-4 {
-    height: 5vh;
-    width: 100vw;
-  }
-
-  .card-front {
-    margin: 2%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, .1);
-  }
-
-  .card-flipped {
-    top: 60vh;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #card-sh {
-    width: 40%;
-    height: auto;
-    position:relative;
-  }
-
-  #card-back-sh {
-    width: 40%;
-    height: auto;
-    position: relative;
-  }
-
-  #card-ch {
-    width: 40%;
-    height: auto;
-    position: relative;
-  }
-
-  #card-back-ch {
-    width: 600px;
-    height: 850px;
-  }
-
-  #sh-r-1 {
-      color: #C70032;
-
-  }
-
-  #sh-r-2 {
-    width: 100%;
-    background-color: #C70032;
-    justify-content: flex-start;
-  }
-
-  #sh-r-3 {
-    margin: 3vh 0;
-    p {
-      margin: 0 auto;
-    }
-  }
-
-  #sh-r-4 {
-    margin: 3vh 0;
-  }
-
-  #ch-r-2 {
-    width: 100%;
-    background-color: #1457D3;
-    justify-content: flex-start;
-  }
-
-  #ch-r-2-r2 {
-    width: 100%;
-    flex-direction: row;
-  }
-
-  #comp-plan, #prepaid-plan {
-    flex-basis: 50%;
-  }
-  #ch-r-3-r2 {
-    flex-direction: row;
-  }
-
-  .card-front-icons{
-    width: 100%;
-    padding: 5px 0 20px;
-    flex-direction: row;
-  }
-
-  .card-text-large {
-    font-family: 'Lato', sans-serif;
-    font-size: 32px;
-    font-weight:900;
-    margin: 0;
-    padding: 0;
-  }
-
-  .card-text-small {
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    color: #333333;
-    margin: 0;
-    padding: 0;
-  }
-
-  .card-icon {
-    flex-basis: 33%;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    color: white;
-  }
-
-  .card-icon-svg {
-    width: 60px;
-    height: auto;
-    padding: 5px 0;
-  }
-
-  .card-learn-more {
-    width: 150px;
-    height: auto;
-    cursor: pointer;
-  }
-
-  .main-title {
-    width: 50vw;
-    height: auto;
-
-  }
-
-  .card-front-title {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    width: 100%;
-    padding: 20px 0;
-  }
-
-  .card-back-title-sh {
-    position: absolute;
-    font-family: 'Roboto', sans-serif;
-    flex-direction: row;
-    font-weight: 700;
-    padding: 20px 0;
-    font-size: 20px;
-    width: 100%;
-    color: white;
-    background-color: $red;
-  }
-
-  .card-back-title-ch {
-    position:absolute;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    padding: 20px 0;
-    font-size: 20px;
-    width: 100%;
-    color: white;
-    background-color: $blue;
-  }
-
-  .card-front-body-sh,
-  .card-front-body-ch {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    justify-content: flex-start;
-  }
-
-
-  .card-back-body {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    overflow-y: auto;
-    width: 100%;
-    background-color: white;
-    display: flex;
-    align-items: top;
-    justify-content: flex-start;
-
-  }
-
-  .card-back-body-text p {
-    text-align: left;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.125rem;
-    padding: 0 20px;
-    line-height: 1.4;
-    color: #333333;
-
-    //  {
-    //   margin: 5% 0;
-    // }
-
-    @media (max-width: 1080px)  {
-        font-size:1rem;
-    }
-  }
-
-  #ch-r-1 {
-    color: #1457D3;
-  }
-
-  .card-front-subtitle {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    color: white;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    padding: 20px 0 5px;
-  }
-
-  .background-blur {
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    z-index: -1000;
-    background-color: rgba(0,0,0, 0.1);
-    filter: blur(150px);
-    -webkit-filter: blur(150px);
-  }
-
-  .blue {
-    color: #1457D3;
-  }
-
-  .red {
-    color: #C70032;
-  }
-
-  .close-svg {
-    right:20px;
-    position: absolute;
-    width: 20px;
-    height: auto;
-    cursor: pointer;
-  }
-
-  .card-back-body {
-    background-color: white;
-  }
-
-  .hidden {
-   display: none;
-  }
-
-  @media (max-width: 800px)  {
-    #card-sh, #card-ch {
-        width: 90%;
-        margin:10px;
-    }
-    #r-3 {
+    @media (max-width: 1040px)  {
       flex-direction: column;
       justify-content: center;
       align-items: center;
     }
 
-    // .card-front {
-    //   // margin: 0;
-    //   // padding: 0;
-    //   // width: 100vw;
-    //   // height: auto;
-    //   // margin-top: 10vh;
-    //   // margin-bottom: 10vh;
-    // }
+    .health__card {
+      width: 40%;
+      height: auto;
+      margin: 1rem;
+      position: relative;
+      background-color: $white;
+      justify-content: flex-start;
+      box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, .1);
+
+      @media screen and (max-width: 1040px) {
+        width: 90%;
+        max-width: 45rem;
+        margin: 1rem auto;
+      }
+
+      .card1-hidden,
+      .card2-hidden {
+        display: none;
+       }     
+
+      .card__title {
+        font-family: $font-default-title;
+        font-size: 1.75rem;
+        width: 100%;
+        padding: 1rem;
+
+        @media screen and (max-width: 1040px) {
+          font-size: 1.125rem;
+        }
+
+        &.card__title--back {
+          position: absolute;
+          color: $white;
+        }
+      }
+
+      .card__body {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        justify-content: flex-start;
+        font-size: 1.125rem;
+
+        @media screen and (max-width: 1040px) {
+          font-size: .875rem;
+        }
+
+        .card-front__middle {
+          width: 100%;
+          justify-content: center;
+          flex-wrap: wrap;
+          flex-basis: 50%;
+          color: $white;
+          padding: 1rem;
+
+          .card__icon-group {
+            padding: .5rem;
+
+            .card__subtitle {
+              font-weight: $font-weight-black;
+              margin: .5rem;
+  
+              .card__subtitle-em {
+                font-weight: 400;
+                font-style: italic;
+              }
+            }
+
+            .card__icons {
+              width: 100%;
+              flex-wrap: wrap;
+              justify-content: center;
+
+              @media screen and (max-width: 800px) {
+                flex-wrap: nowrap;
+              }
+
+              .card__icon {
+                padding: .5rem;
+                text-align: center;
+
+                .icon__svg {
+                  width: 3.75rem;
+                  height: auto;
+                  margin-bottom: .5rem;
+                }
+              }
+            }
+          }
+        }
+
+        .card-front__bottom {
+          flex-basis: 50%;
+          padding: 2rem 1rem 1.75rem;
+          color: $black;
+
+          @media screen and (max-width: 1040px) {
+            padding-top: 1.8rem;
+          }
+
+          .card__text {
+            margin: 0 auto;
+            font-size: 1.5rem;
+            line-height: 2rem;
+
+            @media screen and (max-width: 1040px) {
+              font-size: .875rem;
+              line-height: 1.35rem;
+            }
+          }
+
+          .card__text-em {
+            font-size: 3rem;
+            position: relative;
+            bottom: -.25rem;
+            font-weight: $font-weight-black;
+
+            @media screen and (max-width: 1040px) {
+              font-size: 1.75rem;
+              bottom: -.2rem;
+            }
+          }
+
+          .card__button {
+            display: inline-block;
+            font-family: $font-button;
+            font-size: 1rem;
+            color: $white;
+            border-radius: 30px;
+            padding: .5rem 1rem .6rem;
+            margin: 1rem auto 0;
+          }
+        }
+
+        .card-back__body {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          width: 100%;
+          padding: 1rem 1.125rem;
+          background-color: $white;
+          color: $black;
+
+          .card__text {
+            text-align: left;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            margin: 0 auto 1rem;
+        
+            @media (max-width: 800px)  {
+                font-size: .75rem;
+                line-height: 1rem;
+                margin: 0 auto .75rem;
+            }
+          }
+        }
+      }
+    }
+
+    .background-blur {
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      z-index: -1000;
+      background-color: rgba(0,0,0, 0.1);
+      filter: blur(150px);
+      -webkit-filter: blur(150px);
+    }
+  }
+
+  .-red {
+    color: $red;
+  }
+  
+  .-red-bkg {
+    background-color: $red;
+  }
+  
+  .-blue {
+    color: $blue;
+  }
+  
+  .-blue-bkg {
+    background-color: $blue;
   }
 }
