@@ -78,9 +78,9 @@ canonifyURLs = "true"
 
   [[menu.main]]
     name = "Venezuelans find camaraderie, family and support through sport."
-    url = "/making-it-work/"
+    url = "/brothers-on-the-pitch/"
     weight = 2
-    pre = "<p class='story-topic'>Economy</p><h3 class='story-title'>Making It Work</h3>"
+    pre = "<p class='story-topic'>Economy</p><h3 class='story-title'>Brothers on the Pitch</h3>"
     post = "/images/econ-homepagestill.jpg"
 
   [[menu.main]]
