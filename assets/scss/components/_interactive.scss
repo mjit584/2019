@@ -9,40 +9,50 @@
   font-family: $font-int-body;
   background-color: #f2f2f2;
 
+  .interactive__title,
+  .interactive__subhead,
+  .interactive__intro {
+    width: 680px;
+    min-width: 50vw;
+    margin: 0 auto;
+  
+    @media screen and (max-width: 800px) {
+      max-width: 85vw;
+    }
+  }
+
   .interactive__title {
     font-family: $font-int-header;
     font-size: 2rem;
     text-transform: uppercase;
-    margin: 0 auto;
+    margin: 0 auto .5rem;
   }
 
   .interactive__subhead {
     font-family: $font-int-subhead;
     font-size: 1.5rem;
-    margin: auto;
-    margin-top: 1vh;
-    margin-bottom: 2vh;
-    // max-width: 85vw;
+    margin: 0 auto .5rem;
   }
 
   .interactive__intro {
     font-family: $font-int-intro;
     margin-top: 0 !important;
-    font-size: 1.2rem;
-    max-width: 75%;
-    margin: 2vw auto;
+    font-size: 1rem;
+    margin: 1.5rem auto 1rem;
     text-align: left;
-
   }
 
   .interactive__instructions {
     font-style: italic;
     color: $grey;
-    margin-bottom: 2%;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto 1.5rem;
   }
 
   .interactive__body {
     font-family: $font-int-body;
+    
   }
 
   .ybr-line {
