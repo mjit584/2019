@@ -223,6 +223,10 @@
     transition: 0.5s background-color;
 
     @media screen and (max-width: 1040px) {
+      padding-top: 250px;
+    }    
+
+    @media screen and (max-width: 800px) {
       padding-top: 50px;
       grid-template-columns: 1fr;
       grid-template-rows: auto auto auto;
@@ -244,7 +248,7 @@
         margin-top: 3vw;
       }
 
-      @media screen and (max-width: 1040px) {
+      @media screen and (max-width: 800px) {
         max-width: 85vw;
         margin: 18px auto;
       }

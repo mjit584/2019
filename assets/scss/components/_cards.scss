@@ -19,6 +19,11 @@
   grid-template-rows: repeat(2, 1fr);
   height: 100vh;
 
+  @media screen and (max-width:1040px){
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
   @media screen and (max-width:800px){
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 40vh);
@@ -105,6 +110,10 @@
     grid-column: span 2;
     width: 100%;
     height: 50vh;
+
+    @media screen and (max-width: 1040px) {
+      height: 33.33vh;
+    }
 
     @media screen and (max-width: 800px) {
       height: 40vh;
