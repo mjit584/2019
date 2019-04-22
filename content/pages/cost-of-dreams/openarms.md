@@ -48,7 +48,7 @@ intTitle: "Photo Scrollytelly 1"
               alt="graphic showing three books stacked on top of each other" onclick="showBubble('resources')">
             <img class="bubble__img" src="assets/Bubbles3.png" alt="graphic representing traditional Colombian food"
               onclick="showBubble('hunger')">
-            <img class="bubble__img" src="assets/Bubbles4.png" alt="graphic of Medellin, Colombia metro logo"
+            <img class="bubble__img" src="assets/Bubbles4.png" alt="graphic of Medellín, Colombia metro logo"
               onclick="showBubble('transportation')">
             <div id="deportation" class="bubble scrolly__text">
               <div class="closebubble" onclick="showBubble('deportation')">X</div>
@@ -94,7 +94,7 @@ intTitle: "Photo Scrollytelly 1"
                 up to 30 minutes by foot. Along the border, children walk up to 6 miles each way across the Simón
                 Bolívar bridge from Venezuela to Colombia, and each trip takes about 2 hours. </div>
               <div class="center"><img src="assets/Notecard4-1.png"
-                  alt="a graphic of the Medellin Colombia metro logo"><img src="assets/Notecard4-2.png"
+                  alt="a graphic of the Medellín Colombia metro logo"><img src="assets/Notecard4-2.png"
                   alt="a graphic of shoeprints"></div>
               <div class="scrolly__source">*Data from The World Bank and The New Humanitarian</div>
             </div>
