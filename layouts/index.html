@@ -61,13 +61,11 @@ families and their adjustments to living in Medellín, Colombia.{{ end}}
 {{ end }}
 
 {{ define "scripts" }}
-
-{{ $scripts := resources.Get "js/scripts.js" }}
 {{ $cards := resources.Get "js/cards.js" }}
 {{ $homepage := resources.Get "js/homepage.js" }}
 {{ $header := resources.Get "js/header.js" }}
 {{ $hamburger := resources.Get "js/hamburger.js"}}
-{{ $homepageBundle := slice $scripts $cards $homepage $header $hamburger | resources.Concat "js/homepageBundle.js" }}
+{{ $homepageBundle := slice $cards $homepage $header $hamburger | resources.Concat "js/homepageBundle.js" }}
 
 {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $homepageBundle.RelPermalink }}"></script>

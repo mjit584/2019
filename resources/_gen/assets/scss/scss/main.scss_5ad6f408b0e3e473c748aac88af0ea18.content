@@ -709,7 +709,7 @@ nav {
 .photo .photo__diptych {
   margin-top: 5%; }
   .photo .photo__diptych .photo__diptych-container {
-    background-color: #333333;
+    background-color: #f2f2f2;
     justify-content: space-evenly;
     max-width: 78vw;
     padding: 2% 0;
@@ -2783,50 +2783,53 @@ footer {
     max-width: 600px;
     text-align: center; }
 
-.error-page .error__container {
-  text-align: center;
-  font-family: "DDinBold", sans-serif;
-  margin: 0 auto;
-  max-width: 100%;
-  background-color: #fbbc00;
-  position: relative;
-  color: #333333; }
-  .error-page .error__container img {
-    width: 30%;
-    margin: 5vh auto 2vh auto; }
+.error-page {
+  font-family: "DDinBold", sans-serif; }
+  .error-page .error__container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 2.5% 0;
+    max-width: 100%;
+    background-color: #fbbc00;
+    position: relative;
+    color: #333333; }
     @media screen and (max-width: 800px) {
-      .error-page .error__container img {
-        width: 80%;
-        margin: 5% auto; } }
-  @media screen and (max-width: 800px) {
-    .error-page .error__container {
-      height: auto;
-      overflow: hidden; } }
-  .error-page .error__container .error__text {
-    width: 100%; }
-    .error-page .error__container .error__text h2 {
+      .error-page .error__container {
+        padding: 15% 0 5% 0;
+        height: auto;
+        overflow: hidden; } }
+    .error-page .error__container img {
+      width: 30%;
+      margin: 5vh auto 2vh auto; }
+      @media screen and (max-width: 800px) {
+        .error-page .error__container img {
+          width: 80%;
+          margin: 5% auto; } }
+  .error-page .error__text {
+    width: 100%;
+    text-align: center; }
+    .error-page .error__text h2 {
       font-size: 2.5rem; }
-    .error-page .error__container .error__text p {
+    .error-page .error__text p {
       font-size: 1.2rem;
       max-width: 75vw; }
     @media screen and (max-width: 800px) {
-      .error-page .error__container .error__text {
+      .error-page .error__text {
         padding: 2%; } }
-
-.error-page #error__bts {
-  width: 100%; }
-  .error-page #error__bts .error__grid {
-    display: grid;
-    padding: 5% 10% 10% 10%;
-    grid-gap: 1rem;
-    width: 100%;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(8, auto); }
-    .error-page #error__bts .error__grid img {
-      width: 100%; }
-    @media screen and (max-width: 800px) {
-      .error-page #error__bts .error__grid {
-        grid-template-columns: repeat(2, 1fr);
-        padding: 5%; } }
+  .error-page #error__bts {
+    width: 100%; }
+    .error-page #error__bts .error__grid {
+      display: grid;
+      padding: 5% 10% 10% 10%;
+      grid-gap: 1rem;
+      width: 100%;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(8, auto); }
+      .error-page #error__bts .error__grid img {
+        width: 100%; }
+      @media screen and (max-width: 800px) {
+        .error-page #error__bts .error__grid {
+          grid-template-columns: repeat(2, 1fr);
+          padding: 5%; } }
 
 /*# sourceMappingURL=style.css.map */

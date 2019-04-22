@@ -1,13 +1,20 @@
 .error-page {
+  font-family: $font-hero-title;
 
   .error__container {
     text-align: center;
-    font-family: $font-hero-title;
     margin: 0 auto;
+    padding: 2.5% 0;
     max-width: 100%;
     background-color: $yellow;
     position: relative;
     color: $black;
+
+    @media screen and (max-width: 800px) {
+      padding: 15% 0 5% 0;
+      height: auto;
+      overflow: hidden;
+    }
 
     img {
       width: 30%;
@@ -18,27 +25,23 @@
         margin: 5% auto;
       }
     }
+  }
 
-    @media screen and (max-width: 800px) {
-      height: auto;
-      overflow: hidden;
+  .error__text {
+    width: 100%;
+    text-align: center;
+
+    h2 {
+      font-size: 2.5rem;
     }
 
-    .error__text {
-      width: 100%;
+    p {
+      font-size: 1.2rem;
+      max-width: 75vw;
+    }
 
-      h2 {
-        font-size: 2.5rem;
-      }
-
-      p {
-        font-size: 1.2rem;
-        max-width: 75vw;
-      }
-
-      @media screen and (max-width: 800px) {
-        padding: 2%;
-      }
+    @media screen and (max-width: 800px) {
+      padding: 2%;
     }
   }
 

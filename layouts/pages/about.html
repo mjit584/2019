@@ -70,12 +70,11 @@
 {{ end }}
 
 {{ define "scripts" }}
-{{ $scripts := resources.Get "js/scripts.js" }}
 {{ $header := resources.Get "js/header.js" }}
 {{ $about := resources.Get "js/about.js" }}
 {{ $hamburger := resources.Get "js/hamburger.js" }}
 {{ $mixitup := resources.Get "js/mixitup.min.js" }}
-{{ $aboutpageBundle := slice $scripts $header $about $hamburger $mixitup | resources.Concat "js/aboutpageBundle.js" }}
+{{ $aboutpageBundle := slice $header $about $hamburger $mixitup | resources.Concat "js/aboutpageBundle.js" }}
 {{ if .Site.IsServer }}
 <script type="text/javascript" src="{{ $aboutpageBundle.RelPermalink }}">
 </script>
