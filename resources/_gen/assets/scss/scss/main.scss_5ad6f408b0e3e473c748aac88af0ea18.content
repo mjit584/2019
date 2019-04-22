@@ -1541,7 +1541,8 @@ nav {
   transition: opacity 1s ease-in-out; }
   @media screen and (max-width: 800px) {
     .flourish .flourish-embed {
-      max-width: 80vw; }
+      max-width: 80vw;
+      margin: 0 auto; }
       .flourish .flourish-embed iframe {
         max-width: 100% !important; } }
   .flourish iframe {
@@ -2749,7 +2750,8 @@ footer {
     font-weight: 400;
     font-style: italic;
     align-self: center;
-    max-width: 600px; }
+    max-width: 600px;
+    text-align: center; }
 
 .error-page .error__container {
   text-align: center;

@@ -104,7 +104,7 @@ Once in Maicao, the first Colombian city she set foot on, Irelys felt overwhelme
 
 There was freshly baked bread, buñuelos, pan de bono, pastelitos, empanadas — all traditional finger foods that had become scarce and expensive over the last few years in Venezuela. 
 
-{{< photo-caption-vert "pages/a-hopeful-voice" "photo-caption-4" >}}
+{{< photo-caption "pages/a-hopeful-voice" "photo-caption-4" >}}
 
 {{< story-interactives "pages/a-hopeful-voice" "gov-birthrite-int" >}}
 
