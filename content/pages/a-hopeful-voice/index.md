@@ -42,7 +42,7 @@ Irelys had never traveled outside of the country and therefore never needed a pa
 
 Getting a passport is a costly, bureaucratic and lengthy endeavor for Venezuelans, but migrants still yearn for the burgundy booklet and entrance stamp. Hyperinflation and mismanagement left the government unable to issue passports, sometimes lacking the material to make them or the electricity to load citizens’ information on the computer system. 
 
-“You have to find a middleman to get an appointment to have your picture taken and then wait months and months for them to tell you there’s no materials,” she said.  “Oh, and then pay the middleman like $1,000.” 
+“You have to find a middleman to get an appointment to have your picture taken and then wait months and months for them to tell you there’s no materials,” she said.  “Oh, and then pay the middleman like USD $1,000.” 
 
 {{< photo-caption "pages/a-hopeful-voice" "photo-caption-1" >}}
 
