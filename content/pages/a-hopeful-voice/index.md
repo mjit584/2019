@@ -104,6 +104,8 @@ Once in Maicao, the first Colombian city she set foot on, Irelys felt overwhelme
 
 There was freshly baked bread, buñuelos, pan de bono, pastelitos, empanadas — all traditional finger foods that had become scarce and expensive over the last few years in Venezuela. 
 
+{{< photo-caption-vert "pages/a-hopeful-voice" "photo-caption-4" >}}
+
 {{< story-interactives "pages/a-hopeful-voice" "gov-birthrite-int" >}}
 
 With a steep decline in oil prices in 2014, Venezuela’s economy — which depends solely on oil exports — began to crumble. Food shortages became the norm. Regulations, like price ceilings on staple items as inflation skyrocketed, asphyxiated private industries, have left Venezuelans hungry and malnourished. 

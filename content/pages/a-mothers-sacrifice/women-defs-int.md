@@ -11,8 +11,7 @@ graphics:
     {{< ybr-line >}}
     <div class="interactive__intro">The main difference between prostitution and sex trafficking is that prostitution is voluntary while sex trafficking relies on the use of force. Prostitutes often become victims of sex trafficking because they find themselves in vulnerable situations. Sex tourists often exploit minors or hire victims of sex trafficking.</div>
     <div class="interactive__instructions">Click on parts of the venn diagram to learn more.</div>
-    <svg class="venn-diagram" width="90%" height="65vh" style="max-height:700px" viewBox="-5 -5 807 690" fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+    <svg class="venn-diagram" width="100%" height="60vh" style="max-height:700px" viewBox="-5 -5 807 690" fill="none" xmlns="http://www.w3.org/2000/svg">
       <circle class="vd-circle vd-big vd-yellow vd-prostitution" onclick="showDef('prostitution-def')" cx="263.109" cy="262.5" r="262.5" fill-opacity="0.5"/>
       <circle class="vd-circle vd-big vd-blue vd-sex-trafficking" onclick="showDef('sex-trafficking-def')" cx="538.891" cy="262.5" r="262.5" fill-opacity="0.5"/>
       <circle class="vd-circle vd-small vd-yellow vd-sex-worker1" onclick="showDef('sex-worker-def')" cx="174" cy="178" r="85"/>
