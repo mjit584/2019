@@ -122,7 +122,7 @@ function currentSlideID(n) {
   showSlidesID(slideIndexID = n);
 }
 
-//Birthright 
+//Birthright
 var slideIndexBirthright = 1;
 showSlidesBirthright(slideIndexBirthright);
 
