@@ -3,7 +3,6 @@
 // console.log('scrollytelly.js is loaded');
 
 // Initialize Scroll Magic controller
-console.log('Scroll Magic');
 
 
 // init

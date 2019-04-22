@@ -9,9 +9,7 @@ var windowWidth;
 
 windowWidth = $(window).width();
 videoTop = $('#video-top').offset().top;
-console.log(videoTop);
 videoHeight = $('iframe').outerHeight();
-console.log(videoHeight);
 $(window).scroll(function (event) {
   if (windowWidth > 1240) {
     var controller = new ScrollMagic.Controller();

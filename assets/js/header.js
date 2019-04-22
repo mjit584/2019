@@ -21,8 +21,6 @@ window.onscroll = function () {
   }
   prevScrollpos = currentScrollPos;
   document.getElementById("main-menu-mobile").style.top = `${window.scrollY}px`;
-
-  fillProgress();
 }
 
 function hideHeader() {
