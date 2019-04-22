@@ -30,7 +30,7 @@ Fernando Botero’s statues line each side of the plaza’s entry, creating a ca
 
 Dressed in denim shorts and a camouflage green top, she sits on this stoop every afternoon and late into the night, waiting for men to ask for “un rato” –  a moment.
 
-{{< photo-caption-vert "pages/a-mothers-sacrifice" "photo-caption-1" >}}
+{{< photo-caption-vert "pages/a-mothers-sacrifice" "photo-caption-3" >}}
 
 Of the 1,032,016 Venezuelans that migrated to Colombia before September 2018, 51.8% were women, according to the Caracas Chronicles, a news and analysis organization in Venezuela. Many, like Maria, have been forced to turn to sex work due to the lack of stable, well-paying economic opportunities available without legal documentation to work in Colombia. 
 
@@ -85,6 +85,8 @@ Melissa Toro, director of Las Guerreras del Centro, an organization in Medellín
 
 Despite the industry’s legality in Colombia, sex workers are not guaranteed workers’ rights. According to the Sexuality, Poverty and Law Programme, a program that provides evidence-based knowledge and policy options to help achieve legal reform and tackle poverty, sex workers in Colombia are required to attend health checks. However, these are not enforced. 
 
+{{< story-interactives "pages/a-mothers-sacrifice" "women-laws-int" >}}
+
 After arriving in Medellín, Maria started selling “confettis,” or candy, on the street for money. She made enough to pay her $10,000 COP for a room she rents with two others for $30,000 COP per night.  
 
 However, Maria would still go hungry for days, wondering if her daughters were doing the same. 
@@ -127,8 +129,6 @@ Little by little, Maria continues to get used to “this life.”
 
 Her grandmother cries at the thought of her granddaughter doing this to support herself. But her daughters think she sells chocolates. 
 
-{{< story-interactives "pages/a-mothers-sacrifice" "women-laws-int" >}}
-
 <div class="story__subhead">Maria's Boundaries</div>
 
 She begins her work day at 2 p.m. and usually wears shorts to attract more men. The only day she won’t work is Sunday. 
@@ -143,15 +143,13 @@ But Maria’s boundaries don’t always prevent her from experiencing the risks 
 
 One night, a client she doesn’t care for offered her $35,000 COP. Despite her negative feelings toward him, Maria accepted. 
 
-{{< photo-caption "pages/a-mothers-sacrifice" "photo-caption-3" >}}
+{{< photo-caption-vert "pages/a-mothers-sacrifice" "photo-caption-1" >}}
 
 About 20 minutes passed and he still hadn’t finished. He was determined to do so, even if it meant exceeding Maria’s 30-minute limit. 
 
 She asked him to stop, but he continued. He forced her to perform anal sex, violating another one of her boundaries. 
 
 When she couldn’t take it anymore, she pushed him off, escaping his grip. She grabbed the money and left the hotel room as fast as she could.
-
-{{< story-interactives "pages/a-mothers-sacrifice" "women-defs-int" >}}
 
 “I felt violated and didn’t work for 10 days,” said Maria. “I don’t like to spend too much time in the room with the person, because I do not know the intentions of that person for being in the room.”
 
@@ -186,6 +184,8 @@ El Centro is in the same neighborhood as Plaza Botero, where Maria works.
 Toro said these women are usually seen as a product that society consumes, and this contributes to the issue’s invisibility. 
 
 “The problem is invisible; they don’t even acknowledge them and there is no interaction,” said Toro. “I can’t even say they are treated badly because of the invisible problem.”
+
+{{< story-interactives "pages/a-mothers-sacrifice" "women-defs-int" >}}
 
 <div class="story__subhead">A Bridge to a Better Life</div>
 
