@@ -11,7 +11,7 @@ graphics:
     <h3 class="interactive__subhead">Analyzing Coverage Options</h3>
     {{< ybr-line >}}
     <div class="interactive__intro">Under Colombian law, every documented resident is required to have basic medical, dental, and vision healthcare coverage. Those who can afford the minimum for contributory healthcare must buy it, while those who can’t afford it can apply to receive free subsidized healthcare.</div>
-    <div class="interactive__intro bottom-text">Hover over the cards below to learn more.</div>
+    <div class="interactive__instructions">Hover over the cards below to learn more.</div>
     <div class="container flex" id="r-3">
       <div class="card-front" id="card-sh">
         <div class="flex card-front-title" id="sh-r-1">
