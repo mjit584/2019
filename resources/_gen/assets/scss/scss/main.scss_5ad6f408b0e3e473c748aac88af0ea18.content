@@ -304,6 +304,7 @@ h1, h2, h3, h4, h5, h6 {
       grid-template-columns: 1fr;
       grid-template-areas: "nav" "story-hero" "story-bd" "story-ft"; } }
   .story-page .story-hero {
+    margin-top: 68px;
     color: #ffffff;
     height: auto;
     max-height: 100vh;
@@ -502,6 +503,7 @@ nav {
 .about {
   font-family: "Lato", sans-serif; }
   .about .story-hero {
+    margin-top: 68px;
     color: #ffffff;
     height: auto;
     max-height: 100vh;
@@ -1269,6 +1271,9 @@ nav {
   color: #333333;
   z-index: 2;
   background-color: #fbbc00;
+  position: fixed;
+  top: 0;
+  transition: top 0.3s;
   padding: 10px 25px;
   width: 100%;
   display: flex;
