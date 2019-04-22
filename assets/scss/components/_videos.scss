@@ -10,6 +10,10 @@
 #video-top {
   height: 60px;
   width: 100%;
+
+  @media screen and (max-width: 800px) {
+    height: 0px;
+  }
 }
 
 .video-container{

@@ -1013,6 +1013,9 @@ nav {
 #video-top {
   height: 60px;
   width: 100%; }
+  @media screen and (max-width: 800px) {
+    #video-top {
+      height: 0px; } }
 
 .video-container {
   transition: 0.1s background-color;
@@ -2757,7 +2760,8 @@ footer {
   margin: 45px 0; }
   @media screen and (max-width: 800px) {
     .center-quote-container {
-      margin: 35px 0; } }
+      margin: 35px 20px;
+      align-items: flex-start; } }
   .center-quote-container p {
     font-size: 1.5rem !important;
     width: 45rem;
@@ -2768,13 +2772,18 @@ footer {
     margin: 0 0 2vh 0 !important; }
     @media screen and (max-width: 800px) {
       .center-quote-container p {
-        max-width: 90vw !important; } }
+        max-width: 90vw !important;
+        text-align: left;
+        margin-bottom: 1vh; } }
   .center-quote-container .ybr-line {
     max-width: 36vw;
     align-self: center; }
     @media screen and (max-width: 800px) {
-      .center-quote-container .ybr-line .ybr-section {
-        stroke-width: 5; } }
+      .center-quote-container .ybr-line {
+        align-self: flex-start;
+        margin-bottom: 1vh; }
+        .center-quote-container .ybr-line .ybr-section {
+          stroke-width: 5; } }
   .center-quote-container #pull-quote__attr {
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -2782,6 +2791,10 @@ footer {
     align-self: center;
     max-width: 600px;
     text-align: center; }
+    @media screen and (max-width: 800px) {
+      .center-quote-container #pull-quote__attr {
+        text-align: left;
+        align-self: flex-start; } }
 
 .error-page {
   font-family: "DDinBold", sans-serif; }

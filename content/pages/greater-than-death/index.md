@@ -45,6 +45,12 @@ Marbis Judith and her family had heard that Medellín had reputable doctors who 
 
 <div class="story__subhead">A New Normal</div>
 
+“In this Venezuela– which used to be so rich– that kids are dying from a lack of medicine?” said Jorlis’ sister, Marbis Georgina, who is 28. “That you get to a hospital and they don’t have alcohol? That’s a basic thing that a hospital should have. Or some cotton? It’s surprising.”
+
+The family sits in their new home in downtown Medellín. The previous owner donated money so they could have furniture. They owned nothing except hope when they arrived. Outside, the sounds of the city roar on, with a salesperson’s boisterous announcements intermingling with the hums of cars.
+
+{{< photo-caption-vert "pages/greater-than-death" "photo-caption-1" >}}
+
 Jorlis isn’t the only family member whose health concerns pushed them to migrate. Marbis Georgina’s daughter Judy, 2 years old, has a tumor on the right side of her face, above her lip. It developed when she was 15 days old, and she has taken medication for it since then. The small girl sits in her mother’s lap, resting her head against the table as she dozes off. 
 
 Judy’s tumor requires treatment every 15 days. Back home, her mother used to make the seven hour journey to Caracas twice a month to get her nitrogen treatment. The price varied every two hours, and became more expensive as doctors began fleeing the country.
@@ -69,7 +75,7 @@ The family sells food in Parque Bolívar every day. <em>Bollitos</em> sell for $
 
 The family works together to get by. While Marbis Judith and Marbis Georgina sell in the park, Jorlis takes care of the children.
 
-{{< photo-caption-vert "pages/greater-than-death" "photo-caption-2" >}}
+{{< photo-caption "pages/greater-than-death" "photo-caption-2" >}}
 
 “We’ve been here as a family through these difficult times,” Marbis Georgina said. 
 
