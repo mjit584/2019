@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s background-color; }
   @media screen and (max-width: 1040px) {
     .home #home__about {
-      padding-top: 250px; } }
+      padding-top: 150px; } }
   @media screen and (max-width: 800px) {
     .home #home__about {
       padding-top: 50px;
@@ -390,7 +390,8 @@ h1, h2, h3, h4, h5, h6 {
         text-shadow: 2px 2px 3px rgba(51, 51, 51, 0.95); }
         @media screen and (max-width: 800px) {
           .story-page .story-hero .story-hero__topic p {
-            font-size: 1rem; } }
+            font-size: 1rem;
+            text-shadow: none; } }
       .story-page .story-hero .story-hero__topic .ybr-line {
         height: 10px;
         width: 25%; }
@@ -415,7 +416,8 @@ h1, h2, h3, h4, h5, h6 {
             margin-top: 10px;
             text-align: left;
             font-size: 2.25rem;
-            color: #333333; } }
+            color: #333333;
+            text-shadow: none; } }
       .story-page .story-hero .story-hero__heading .story-hero__desc {
         font-family: "Lato", sans-serif;
         margin: 5px 0;
@@ -424,7 +426,8 @@ h1, h2, h3, h4, h5, h6 {
           .story-page .story-hero .story-hero__heading .story-hero__desc {
             color: #333333;
             font-size: 1rem;
-            text-align: left; } }
+            text-align: left;
+            text-shadow: none; } }
   .story-page .story-content {
     font-family: "Georgia", serif;
     grid-area: story-bd; }

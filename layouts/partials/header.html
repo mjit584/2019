@@ -1,16 +1,9 @@
 <div class="container flex">
   <div class="header__logo">
-    {{ if .Site.IsServer }}
     <a class="hamburger__logo" href="{{ .Site.BaseURL }}">Uprooted
       <!-- <img alt="Uprooted Homepage"
           src="{{ .Site.BaseURL }}images/logo-wide-white.png" /> -->
     </a>
-    {{ else }}
-    <a class="hamburger__logo" href="{{ .Site.Params.gh_pages_URL }}">Uprooted
-      <!-- <img alt="Uprooted Homepage"
-          src="{{ .Site.Params.gh_pages_URL }}images/logo-wide-white.png" /> -->
-    </a>
-    {{ end }}
   </div>
   <div class="header__nav flex">
     <div class="header__story-dropdown" id="header-story-dropdown">
