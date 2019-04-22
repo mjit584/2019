@@ -751,14 +751,19 @@ nav {
 .photo .photo-caption-container-vert {
   width: 63vw; }
   .photo .photo-caption-container-vert .caption p {
-    width: 100% !important; }
+    width: 45rem;
+    min-width: 50vw; }
+    @media screen and (max-width: 1040px) {
+      .photo .photo-caption-container-vert .caption p {
+        max-width: 85vw !important; } }
 
 .photo .photo__success-people {
   margin: 100px auto; }
   .photo .photo__success-people h2 {
     text-align: center; }
   .photo .photo__success-people p {
-    width: 60vw; }
+    width: 45rem;
+    min-width: 50vw; }
   .photo .photo__success-people .photo__subhead {
     font-family: "DDinBold", sans-serif;
     margin-bottom: 20px;
@@ -774,8 +779,6 @@ nav {
   @media screen and (max-width: 1040px) {
     .photo .photo__success-people {
       margin: 60px auto; }
-      .photo .photo__success-people img {
-        width: 100%; }
       .photo .photo__success-people p {
         width: 85vw; } }
 
@@ -1651,7 +1654,6 @@ nav {
     .photo-caption-container-vert {
       width: 90vw; }
       .photo-caption-container-vert .caption {
-        width: 100%;
         font-size: 0.75rem; } }
 
 .interactive__health .health__cards {

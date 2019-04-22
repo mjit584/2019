@@ -85,9 +85,15 @@
 
   .photo-caption-container-vert {
     width: 63vw;
+
     .caption {
       p {
-        width: 100% !important;
+        width: 45rem;
+        min-width: 50vw;
+
+        @media screen and (max-width: 1040px) {
+          max-width: 85vw !important;
+        }
       }
     } 
   }
@@ -100,7 +106,8 @@
     }
 
     p {
-      width: 60vw;
+      width: 45rem;
+      min-width: 50vw;
     }
 
     .photo__subhead {
@@ -126,10 +133,6 @@
 
     @media screen and (max-width: 1040px) {
       margin: 60px auto;
-      
-      img {
-        width: 100%;
-      }
 
       p {
         width: 85vw;
