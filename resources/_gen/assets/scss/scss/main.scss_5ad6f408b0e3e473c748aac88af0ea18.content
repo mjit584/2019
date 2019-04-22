@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 .home .home__subhead {
   font-family: "DDinBold", sans-serif;
   font-weight: normal;
-  width: 680px;
+  width: 45rem;
   min-width: 50vw;
   margin: 0 auto;
   font-size: 2rem;
@@ -219,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
       grid-template-rows: auto auto auto;
       grid-template-areas: "about-bd" "about-help" "about-ft"; } }
   .home #home__about p {
-    width: 680px;
+    width: 45rem;
     min-width: 50vw;
     line-height: 1.5em;
     font-family: "Georgia", serif;
@@ -279,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "DDinBold", sans-serif;
     text-align: center; }
     .home #home__about .about-title p {
-      width: 680px;
+      width: 45rem;
       min-width: 50vw;
       line-height: 1.5em;
       margin: 20px auto;
@@ -374,7 +374,7 @@ h1, h2, h3, h4, h5, h6 {
           text-align: left;
           max-width: 85vw;
           min-width: 50vw;
-          width: 680px;
+          width: 45rem;
           color: #333333;
           position: static; } }
       .story-page .story-hero .story-hero__topic p {
@@ -399,7 +399,7 @@ h1, h2, h3, h4, h5, h6 {
           position: static;
           max-width: 85vw;
           min-width: 50vw;
-          width: 680px; } }
+          width: 45rem; } }
       .story-page .story-hero .story-hero__heading .story-hero__title {
         font-family: "DDinBold", sans-serif;
         font-size: calc(3rem + 3vw);
@@ -425,7 +425,7 @@ h1, h2, h3, h4, h5, h6 {
       color: #c70032; }
     .story-page .story-content .story__subhead {
       font-family: "DDinBold", sans-serif;
-      width: 680px;
+      width: 45rem;
       min-width: 50vw;
       font-size: 2rem;
       justify-content: flex-start;
@@ -440,7 +440,7 @@ h1, h2, h3, h4, h5, h6 {
       background-color: #f2f2f2;
       padding: 2%; }
     .story-page .story-content > p {
-      width: 680px;
+      width: 45rem;
       min-width: 50vw; }
     .story-page .story-content p {
       line-height: 1.5em;
@@ -455,7 +455,7 @@ h1, h2, h3, h4, h5, h6 {
     .story-page .story-content .photo-caption-container-vert {
       margin: 10vh auto; }
       .story-page .story-content .photo-caption-container-vert .caption p {
-        width: 680px;
+        width: 45rem;
         min-width: 50vw; }
     .story-page .story-content .ybr-line {
       transition: 1s opacity; }
@@ -567,7 +567,7 @@ nav {
       margin-bottom: 3vh; }
   .about .about__intro {
     margin: 0 auto;
-    width: 680px;
+    width: 45rem;
     min-width: 50vw; }
     @media screen and (max-width: 800px) {
       .about .about__intro {
@@ -665,7 +665,7 @@ nav {
     .about .about__thanks .about__heading {
       font-family: "DDinBold", sans-serif;
       font-size: 1.5rem;
-      width: 680px;
+      width: 45rem;
       min-width: 50vw;
       margin: 0 auto; }
       @media screen and (max-width: 800px) {
@@ -674,7 +674,7 @@ nav {
     .about .about__thanks .about__thanks-list {
       list-style: none;
       line-height: 1.5rem;
-      width: 680px;
+      width: 45rem;
       min-width: 50vw;
       padding: 0;
       margin: 15px auto 0; }
@@ -1490,7 +1490,7 @@ nav {
   .interactive .interactive__subhead,
   .interactive .interactive__intro,
   .interactive .interactive__instructions {
-    width: 680px;
+    width: 45rem;
     min-width: 50vw;
     margin: 0 auto; }
     @media screen and (max-width: 800px) {
@@ -1546,7 +1546,7 @@ nav {
     max-width: 80vw !important; }
 
 .byline-container {
-  width: 680px;
+  width: 45rem;
   min-width: 50vw;
   margin: 0 auto; }
   @media screen and (max-width: 800px) {
@@ -2445,7 +2445,7 @@ nav {
     flex-direction: column-reverse; } }
 
 #womenSlider {
-  width: 680px;
+  width: 45rem;
   min-width: 50vw;
   margin: 0 auto; }
   @media screen and (max-width: 800px) {
@@ -2509,7 +2509,7 @@ nav {
     margin-top: 20px; }
 
 #womenSlider2 {
-  width: 680px;
+  width: 45rem;
   min-width: 50vw;
   margin: 0 auto; }
   @media screen and (max-width: 800px) {
@@ -2727,7 +2727,7 @@ footer {
       margin: 35px 0; } }
   .center-quote-container p {
     font-size: 1.5rem !important;
-    width: 680px;
+    width: 45rem;
     min-width: 50vw;
     line-height: inherit;
     align-self: center;
