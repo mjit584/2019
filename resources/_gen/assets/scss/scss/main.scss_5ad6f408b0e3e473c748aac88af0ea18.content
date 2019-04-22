@@ -1663,6 +1663,7 @@ nav {
     @media screen and (max-width: 1040px) {
       .interactive__health .health__cards .health__card {
         width: 90%;
+        max-width: 45rem;
         margin: 1rem auto; } }
     .interactive__health .health__cards .health__card .card1-hidden,
     .interactive__health .health__cards .health__card .card2-hidden {
