@@ -20,6 +20,7 @@ window.onscroll = function () {
     document.getElementById("hamburger").style.top = "-75px";
   }
   prevScrollpos = currentScrollPos;
+  document.getElementById("main-menu-mobile").style.top = `${window.scrollY}px`;
 
   fillProgress();
 }

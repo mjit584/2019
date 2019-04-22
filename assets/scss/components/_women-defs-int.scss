@@ -1,122 +1,157 @@
-.venn-diagram {
+#womenSlider2 {
+  width: 45rem;
+  min-width: 50vw;
+  margin: 0 auto;
+
   @media screen and (max-width: 800px) {
-    height: 60vh;
+    max-width: 85vw;
   }
-}
 
-.vd-circle {
-  stroke-width: 4;
-  transition: all .5s;
-  cursor: pointer;
-}
-
-.vd-big {
-  fill-opacity: .75;
-}
-
-.vd-small {
-  fill-opacity: 1;
-}
-
-.vd-yellow {
-  fill: $yellow;
-  stroke: $white;
-}
-
-.vd-blue {
-  fill: $blue;
-  stroke: $white;
-}
-
-.vdt-heading,
-.vdt-subheading,
-.vdt-def {
-  font-family: $font-int-header;
+  .venn-diagram {
+    @media screen and (max-width: 800px) {
+      width: 100%;
+      height: auto;
+    }
+  }
   
-  pointer-events: none;
-  transition: all .3s;
-}
-
-.vdt-heading {
-  font-size: 1.5rem;
-}
-
-.vdt-subheading, .vdt-def {
-  font-size: 1.25rem;
-}
-
-.vdt-def {
-  opacity: 0;
-  font-family: $font-int-subhead;
-  font-size: 1.45rem;
-
-  .vdt-term {
+  .vd-circle {
+    stroke-width: 4;
+    transition: all .5s;
+    cursor: pointer;
+  }
+  
+  .vd-big {
+    fill-opacity: .75;
+  }
+  
+  .vd-small {
+    fill-opacity: 1;
+  }
+  
+  .vd-yellow {
+    fill: $yellow;
+    stroke: $white;
+  }
+  
+  .vd-blue {
+    fill: $blue;
+    stroke: $white;
+  }
+  
+  .vdt-heading,
+  .vdt-subheading,
+  .vdt-def {
     font-family: $font-int-header;
+    
+    pointer-events: none;
+    transition: all .3s;
   }
-}
-
-.vdt-black {
-  fill: $black;
-}
-
-.vdt-white {
-  fill: $white;
-}
-
-.vdt-middle {
-  width: 50px;
-}
-
-.vd-prostitution:hover {
-  stroke: $blue;
   
-  &~.vdt-prostitution {
-    font-size: 1.7rem;
-    fill: $blue;
+  .vdt-heading {
+    font-size: 1.8rem;
+  
+    @media screen and (max-width: 800px) {
+      font-size: 2rem;
+    }
   }
-}
-
-.vd-sex-trafficking:hover {
-  stroke: $yellow;
   
-  &~.vdt-sex-trafficking {
-    font-size: 1.7rem;
-    fill: $yellow;
+  .vdt-subheading, .vdt-def {
+    font-size: 1.6rem;
+  
+    @media screen and (max-width: 800px) {
+      font-size: 1.8rem;
+    }
   }
-}
-
-.vd-sex-tourism1:hover {
-  stroke: $blue;
   
-  &~.vdt-sex-tourism1 {
-    font-size: 1.45rem;
-    fill: $blue;
+  .vdt-def {
+    opacity: 0;
+    font-family: $font-int-subhead;
+    font-size: 1.6rem;
+  
+    @media screen and (max-width: 800px) {
+      font-size: 2rem;
+    }
+  
+    .vdt-term {
+      font-family: $font-int-header;
+    }
   }
-}
-
-.vd-sex-worker1:hover {
-  stroke: $blue;
   
-  &~.vdt-sex-worker1 {
-    font-size: 1.45rem;
-    fill: $blue;
+  .vdt-black {
+    fill: $black;
   }
-}
-
-.vd-sex-tourism2:hover {
-  stroke: $yellow;
   
-  &~.vdt-sex-tourism2 {
-    font-size: 1.45rem;
-    fill: $yellow;
+  .vdt-white {
+    fill: $white;
   }
-}
-
-.vd-sex-worker2:hover {
-  stroke: $yellow;
   
-  &~.vdt-sex-worker2 {
-    font-size: 1.45rem;
-    fill: $yellow;
+  .vdt-middle {
+    width: 50px;
+  }
+  
+  .vd-prostitution:hover,
+  .vd-prostitution:active {
+    stroke: $blue;
+    stroke-width: 6;
+    
+    &~.vdt-prostitution {
+      font-size: 2rem;
+      fill: $blue;
+    }
+  }
+  
+  .vd-sex-trafficking:hover,
+  .vd-sex-trafficking:active {
+    stroke: $yellow;
+    stroke-width: 6;
+    
+    &~.vdt-sex-trafficking {
+      font-size: 2rem;
+      fill: $yellow;
+    }
+  }
+  
+  .vd-sex-tourism1:hover,
+  .vd-sex-tourism1:active {
+    stroke: $blue;
+    stroke-width: 6;
+    
+    &~.vdt-sex-tourism1 {
+      font-size: 1.8rem;
+      fill: $blue;
+    }
+  }
+  
+  .vd-sex-worker1:hover,
+  .vd-sex-worker1:active {
+    stroke: $blue;
+    stroke-width: 6;
+    
+    &~.vdt-sex-worker1 {
+      font-size: 1.8rem;
+      fill: $blue;
+    }
+  }
+  
+  .vd-sex-tourism2:hover,
+  .vd-sex-tourism2:active {
+    stroke: $yellow;
+    stroke-width: 6;
+    
+    &~.vdt-sex-tourism2 {
+      font-size: 1.8rem;
+      fill: $yellow;
+    }
+  }
+  
+  .vd-sex-worker2:hover,
+  .vd-sex-worker2:active {
+    stroke: $yellow;
+    stroke-width: 6;
+    
+    &~.vdt-sex-worker2 {
+      font-size: 1.8rem;
+      fill: $yellow;
+    }
   }
 }

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
-@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700,900");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700");
 @font-face {
   font-family: DDinBold;
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 .home .home__subhead {
   font-family: "DDinBold", sans-serif;
   font-weight: normal;
-  width: 680px;
+  width: 45rem;
   min-width: 50vw;
   margin: 0 auto;
   font-size: 2rem;
@@ -219,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
       grid-template-rows: auto auto auto;
       grid-template-areas: "about-bd" "about-help" "about-ft"; } }
   .home #home__about p {
-    width: 680px;
+    width: 45rem;
     min-width: 50vw;
     line-height: 1.5em;
     font-family: "Georgia", serif;
@@ -279,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "DDinBold", sans-serif;
     text-align: center; }
     .home #home__about .about-title p {
-      width: 680px;
+      width: 45rem;
       min-width: 50vw;
       line-height: 1.5em;
       margin: 20px auto;
@@ -374,7 +374,7 @@ h1, h2, h3, h4, h5, h6 {
           text-align: left;
           max-width: 85vw;
           min-width: 50vw;
-          width: 680px;
+          width: 45rem;
           color: #333333;
           position: static; } }
       .story-page .story-hero .story-hero__topic p {
@@ -399,7 +399,7 @@ h1, h2, h3, h4, h5, h6 {
           position: static;
           max-width: 85vw;
           min-width: 50vw;
-          width: 680px; } }
+          width: 45rem; } }
       .story-page .story-hero .story-hero__heading .story-hero__title {
         font-family: "DDinBold", sans-serif;
         font-size: calc(3rem + 3vw);
@@ -425,7 +425,7 @@ h1, h2, h3, h4, h5, h6 {
       color: #c70032; }
     .story-page .story-content .story__subhead {
       font-family: "DDinBold", sans-serif;
-      width: 680px;
+      width: 45rem;
       min-width: 50vw;
       font-size: 2rem;
       justify-content: flex-start;
@@ -440,7 +440,7 @@ h1, h2, h3, h4, h5, h6 {
       background-color: #f2f2f2;
       padding: 2%; }
     .story-page .story-content > p {
-      width: 680px;
+      width: 45rem;
       min-width: 50vw; }
     .story-page .story-content p {
       line-height: 1.5em;
@@ -455,7 +455,7 @@ h1, h2, h3, h4, h5, h6 {
     .story-page .story-content .photo-caption-container-vert {
       margin: 10vh auto; }
       .story-page .story-content .photo-caption-container-vert .caption p {
-        width: 680px;
+        width: 45rem;
         min-width: 50vw; }
     .story-page .story-content .ybr-line {
       transition: 1s opacity; }
@@ -567,7 +567,7 @@ nav {
       margin-bottom: 3vh; }
   .about .about__intro {
     margin: 0 auto;
-    width: 680px;
+    width: 45rem;
     min-width: 50vw; }
     @media screen and (max-width: 800px) {
       .about .about__intro {
@@ -665,7 +665,7 @@ nav {
     .about .about__thanks .about__heading {
       font-family: "DDinBold", sans-serif;
       font-size: 1.5rem;
-      width: 680px;
+      width: 45rem;
       min-width: 50vw;
       margin: 0 auto; }
       @media screen and (max-width: 800px) {
@@ -674,7 +674,7 @@ nav {
     .about .about__thanks .about__thanks-list {
       list-style: none;
       line-height: 1.5rem;
-      width: 680px;
+      width: 45rem;
       min-width: 50vw;
       padding: 0;
       margin: 15px auto 0; }
@@ -1286,7 +1286,7 @@ nav {
 
 .header-mobile {
   color: #333333;
-  z-index: 2;
+  z-index: 3;
   background-color: #fbbc00;
   position: fixed;
   top: 0;
@@ -1367,7 +1367,7 @@ nav {
     display: flex;
     min-height: 100vh;
     height: auto;
-    z-index: 1;
+    z-index: 2;
     overflow: hidden; }
   .main-menu-mobile a {
     color: #333333;
@@ -1443,7 +1443,8 @@ nav {
           font-size: 1.25rem;
           margin: 0; }
   .main-menu-mobile .bottom-menu {
-    margin-top: 25px; }
+    position: absolute;
+    bottom: 35px; }
     .main-menu-mobile .bottom-menu .social {
       justify-content: flex-start;
       margin-top: 15px; }
@@ -1485,28 +1486,40 @@ nav {
   text-align: center;
   font-family: "Lato", sans-serif;
   background-color: #f2f2f2; }
+  .interactive .interactive__title,
+  .interactive .interactive__subhead,
+  .interactive .interactive__intro,
+  .interactive .interactive__instructions {
+    width: 45rem;
+    min-width: 50vw;
+    margin: 0 auto; }
+    @media screen and (max-width: 800px) {
+      .interactive .interactive__title,
+      .interactive .interactive__subhead,
+      .interactive .interactive__intro,
+      .interactive .interactive__instructions {
+        max-width: 85vw; } }
   .interactive .interactive__title {
     font-family: "DDinBold", sans-serif;
     font-size: 2rem;
     text-transform: uppercase;
-    margin: 0 auto; }
+    margin: 0 auto .5rem; }
   .interactive .interactive__subhead {
     font-family: "DDinRegular", sans-serif;
     font-size: 1.5rem;
-    margin: auto;
-    margin-top: 1vh;
-    margin-bottom: 2vh; }
+    margin: 0 auto .5rem; }
   .interactive .interactive__intro {
     font-family: "Lato", sans-serif;
     margin-top: 0 !important;
-    font-size: 1.2rem;
-    max-width: 75%;
-    margin: 2vw auto;
+    font-size: 1rem;
+    margin: 1.5rem auto 1rem;
     text-align: left; }
   .interactive .interactive__instructions {
     font-style: italic;
     color: #aaa;
-    margin-bottom: 2%; }
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto 1.5rem; }
   .interactive .interactive__body {
     font-family: "Lato", sans-serif; }
   .interactive .ybr-line {
@@ -1533,7 +1546,7 @@ nav {
     max-width: 80vw !important; }
 
 .byline-container {
-  width: 680px;
+  width: 45rem;
   min-width: 50vw;
   margin: 0 auto; }
   @media screen and (max-width: 800px) {
@@ -1632,212 +1645,129 @@ nav {
         width: 100%;
         font-size: 0.75rem; } }
 
-.interactive__health {
-  /* This container is needed to position the front and back side */
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  /* Position the front and back side */
-  /* Style the front side (fallback if image is missing) */
-  /* Style the back side */ }
-  .interactive__health .flip-card {
-    background-color: transparent;
+.interactive__health .health__cards {
+  align-items: stretch; }
+  @media (max-width: 1040px) {
+    .interactive__health .health__cards {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; } }
+  .interactive__health .health__cards .health__card {
     width: 40%;
-    height: 200px;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px;
-    /* Remove this if you don't want the 3D effect */ }
-  .interactive__health .flip-card-inner {
+    height: auto;
+    margin: 1rem;
     position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d; }
-  .interactive__health .bottom-text {
-    color: #aaa;
-    font-style: italic;
-    font-size: 1rem;
-    text-align: center; }
-  .interactive__health .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg); }
-  .interactive__health .flip-card-front, .interactive__health .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden; }
-  .interactive__health .flip-card-front {
-    background-color: #bbb;
-    color: black; }
-  .interactive__health .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
-    transform: rotateY(180deg); }
-  .interactive__health #r-1 {
-    height: 45vh;
-    width: 100vw; }
-  .interactive__health #r-2 {
-    height: 15vh;
-    width: 65vw;
-    align-items: flex-start;
-    justify-content: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: #333333;
-    padding-bottom: 50px; }
-  .interactive__health #r-3 {
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: center; }
-  .interactive__health #r-4 {
-    height: 5vh;
-    width: 100vw; }
-  .interactive__health .card-front {
-    margin: 2%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
+    background-color: #ffffff;
     justify-content: flex-start;
     box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.1); }
-  .interactive__health .card-flipped {
-    top: 60vh;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-  .interactive__health #card-sh {
-    width: 40%;
-    height: auto;
-    position: relative; }
-  .interactive__health #card-back-sh {
-    width: 40%;
-    height: auto;
-    position: relative; }
-  .interactive__health #card-ch {
-    width: 40%;
-    height: auto;
-    position: relative; }
-  .interactive__health #card-back-ch {
-    width: 600px;
-    height: 850px; }
-  .interactive__health #sh-r-1 {
-    color: #C70032; }
-  .interactive__health #sh-r-2 {
-    width: 100%;
-    background-color: #C70032;
-    justify-content: flex-start; }
-  .interactive__health #sh-r-3 {
-    margin: 3vh 0; }
-    .interactive__health #sh-r-3 p {
-      margin: 0 auto; }
-  .interactive__health #sh-r-4 {
-    margin: 3vh 0; }
-  .interactive__health #ch-r-2 {
-    width: 100%;
-    background-color: #1457D3;
-    justify-content: flex-start; }
-  .interactive__health #ch-r-2-r2 {
-    width: 100%;
-    flex-direction: row; }
-  .interactive__health #comp-plan, .interactive__health #prepaid-plan {
-    flex-basis: 50%; }
-  .interactive__health #ch-r-3-r2 {
-    flex-direction: row; }
-  .interactive__health .card-front-icons {
-    width: 100%;
-    padding: 5px 0 20px;
-    flex-direction: row; }
-  .interactive__health .card-text-large {
-    font-family: 'Lato', sans-serif;
-    font-size: 32px;
-    font-weight: 900;
-    margin: 0;
-    padding: 0; }
-  .interactive__health .card-text-small {
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    color: #333333;
-    margin: 0;
-    padding: 0; }
-  .interactive__health .card-icon {
-    flex-basis: 33%;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    color: white; }
-  .interactive__health .card-icon-svg {
-    width: 60px;
-    height: auto;
-    padding: 5px 0; }
-  .interactive__health .card-learn-more {
-    width: 150px;
-    height: auto;
-    cursor: pointer; }
-  .interactive__health .main-title {
-    width: 50vw;
-    height: auto; }
-  .interactive__health .card-front-title {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    width: 100%;
-    padding: 20px 0; }
-  .interactive__health .card-back-title-sh {
-    position: absolute;
-    font-family: 'Roboto', sans-serif;
-    flex-direction: row;
-    font-weight: 700;
-    padding: 20px 0;
-    font-size: 20px;
-    width: 100%;
-    color: white;
-    background-color: #c70032; }
-  .interactive__health .card-back-title-ch {
-    position: absolute;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    padding: 20px 0;
-    font-size: 20px;
-    width: 100%;
-    color: white;
-    background-color: #1457d3; }
-  .interactive__health .card-front-body-sh,
-  .interactive__health .card-front-body-ch {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    justify-content: flex-start; }
-  .interactive__health .card-back-body {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    overflow-y: auto;
-    width: 100%;
-    background-color: white;
-    display: flex;
-    align-items: top;
-    justify-content: flex-start; }
-  .interactive__health .card-back-body-text p {
-    text-align: left;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.125rem;
-    padding: 0 20px;
-    line-height: 1.4;
-    color: #333333; }
-    @media (max-width: 1080px) {
-      .interactive__health .card-back-body-text p {
-        font-size: 1rem; } }
-  .interactive__health #ch-r-1 {
-    color: #1457D3; }
-  .interactive__health .card-front-subtitle {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    color: white;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    padding: 20px 0 5px; }
-  .interactive__health .background-blur {
+    @media screen and (max-width: 1040px) {
+      .interactive__health .health__cards .health__card {
+        width: 90%;
+        max-width: 45rem;
+        margin: 1rem auto; } }
+    .interactive__health .health__cards .health__card .card1-hidden,
+    .interactive__health .health__cards .health__card .card2-hidden {
+      display: none; }
+    .interactive__health .health__cards .health__card .card__title {
+      font-family: "DDinBold", sans-serif;
+      font-size: 1.75rem;
+      width: 100%;
+      padding: 1rem; }
+      @media screen and (max-width: 1040px) {
+        .interactive__health .health__cards .health__card .card__title {
+          font-size: 1.125rem; } }
+      .interactive__health .health__cards .health__card .card__title.card__title--back {
+        position: absolute;
+        color: #ffffff; }
+    .interactive__health .health__cards .health__card .card__body {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      justify-content: flex-start;
+      font-size: 1.125rem; }
+      @media screen and (max-width: 1040px) {
+        .interactive__health .health__cards .health__card .card__body {
+          font-size: .875rem; } }
+      .interactive__health .health__cards .health__card .card__body .card-front__middle {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-basis: 50%;
+        color: #ffffff;
+        padding: 1rem; }
+        .interactive__health .health__cards .health__card .card__body .card-front__middle .card__icon-group {
+          padding: .5rem; }
+          .interactive__health .health__cards .health__card .card__body .card-front__middle .card__icon-group .card__subtitle {
+            font-weight: 900;
+            margin: .5rem; }
+            .interactive__health .health__cards .health__card .card__body .card-front__middle .card__icon-group .card__subtitle .card__subtitle-em {
+              font-weight: 400;
+              font-style: italic; }
+          .interactive__health .health__cards .health__card .card__body .card-front__middle .card__icon-group .card__icons {
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: center; }
+            @media screen and (max-width: 800px) {
+              .interactive__health .health__cards .health__card .card__body .card-front__middle .card__icon-group .card__icons {
+                flex-wrap: nowrap; } }
+            .interactive__health .health__cards .health__card .card__body .card-front__middle .card__icon-group .card__icons .card__icon {
+              padding: .5rem;
+              text-align: center; }
+              .interactive__health .health__cards .health__card .card__body .card-front__middle .card__icon-group .card__icons .card__icon .icon__svg {
+                width: 3.75rem;
+                height: auto;
+                margin-bottom: .5rem; }
+      .interactive__health .health__cards .health__card .card__body .card-front__bottom {
+        flex-basis: 50%;
+        padding: 2rem 1rem 1.75rem;
+        color: #333333; }
+        @media screen and (max-width: 1040px) {
+          .interactive__health .health__cards .health__card .card__body .card-front__bottom {
+            padding-top: 1.8rem; } }
+        .interactive__health .health__cards .health__card .card__body .card-front__bottom .card__text {
+          margin: 0 auto;
+          font-size: 1.5rem;
+          line-height: 2rem; }
+          @media screen and (max-width: 1040px) {
+            .interactive__health .health__cards .health__card .card__body .card-front__bottom .card__text {
+              font-size: .875rem;
+              line-height: 1.35rem; } }
+        .interactive__health .health__cards .health__card .card__body .card-front__bottom .card__text-em {
+          font-size: 3rem;
+          position: relative;
+          bottom: -.25rem;
+          font-weight: 900; }
+          @media screen and (max-width: 1040px) {
+            .interactive__health .health__cards .health__card .card__body .card-front__bottom .card__text-em {
+              font-size: 1.75rem;
+              bottom: -.2rem; } }
+        .interactive__health .health__cards .health__card .card__body .card-front__bottom .card__button {
+          display: inline-block;
+          font-family: "DDinExpBold", sans-serif;
+          font-size: 1rem;
+          color: #ffffff;
+          border-radius: 30px;
+          padding: .5rem 1rem .6rem;
+          margin: 1rem auto 0; }
+      .interactive__health .health__cards .health__card .card__body .card-back__body {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 1rem 1.125rem;
+        background-color: #ffffff;
+        color: #333333; }
+        .interactive__health .health__cards .health__card .card__body .card-back__body .card__text {
+          text-align: left;
+          font-size: 1rem;
+          line-height: 1.5rem;
+          margin: 0 auto 1rem; }
+          @media (max-width: 800px) {
+            .interactive__health .health__cards .health__card .card__body .card-back__body .card__text {
+              font-size: .75rem;
+              line-height: 1rem;
+              margin: 0 auto .75rem; } }
+  .interactive__health .health__cards .background-blur {
     position: absolute;
     width: 50%;
     height: 50%;
@@ -1845,28 +1775,18 @@ nav {
     background-color: rgba(0, 0, 0, 0.1);
     filter: blur(150px);
     -webkit-filter: blur(150px); }
-  .interactive__health .blue {
-    color: #1457D3; }
-  .interactive__health .red {
-    color: #C70032; }
-  .interactive__health .close-svg {
-    right: 20px;
-    position: absolute;
-    width: 20px;
-    height: auto;
-    cursor: pointer; }
-  .interactive__health .card-back-body {
-    background-color: white; }
-  .interactive__health .hidden {
-    display: none; }
-  @media (max-width: 800px) {
-    .interactive__health #card-sh, .interactive__health #card-ch {
-      width: 90%;
-      margin: 10px; }
-    .interactive__health #r-3 {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; } }
+
+.interactive__health .-red {
+  color: #c70032; }
+
+.interactive__health .-red-bkg {
+  background-color: #c70032; }
+
+.interactive__health .-blue {
+  color: #1457d3; }
+
+.interactive__health .-blue-bkg {
+  background-color: #1457d3; }
 
 #interactive__gov-undocumented {
   position: relative;
@@ -2525,8 +2445,12 @@ nav {
     flex-direction: column-reverse; } }
 
 #womenSlider {
-  width: 75%;
+  width: 45rem;
+  min-width: 50vw;
   margin: 0 auto; }
+  @media screen and (max-width: 800px) {
+    #womenSlider {
+      max-width: 85vw; } }
   #womenSlider .slider {
     -webkit-appearance: none;
     width: 100%;
@@ -2579,97 +2503,115 @@ nav {
       max-width: 100%; }
   #womenSlider .desc p {
     margin: 1vw 0;
-    font-size: 1em; }
+    font-size: 1em;
+    line-height: normal; }
   #womenSlider li {
     margin-top: 20px; }
 
-@media screen and (max-width: 800px) {
-  .venn-diagram {
-    height: 60vh; } }
-
-.vd-circle {
-  stroke-width: 4;
-  transition: all .5s;
-  cursor: pointer; }
-
-.vd-big {
-  fill-opacity: .75; }
-
-.vd-small {
-  fill-opacity: 1; }
-
-.vd-yellow {
-  fill: #fbbc00;
-  stroke: #ffffff; }
-
-.vd-blue {
-  fill: #1457d3;
-  stroke: #ffffff; }
-
-.vdt-heading,
-.vdt-subheading,
-.vdt-def {
-  font-family: "DDinBold", sans-serif;
-  pointer-events: none;
-  transition: all .3s; }
-
-.vdt-heading {
-  font-size: 1.5rem; }
-
-.vdt-subheading, .vdt-def {
-  font-size: 1.25rem; }
-
-.vdt-def {
-  opacity: 0;
-  font-family: "DDinRegular", sans-serif;
-  font-size: 1.45rem; }
-  .vdt-def .vdt-term {
-    font-family: "DDinBold", sans-serif; }
-
-.vdt-black {
-  fill: #333333; }
-
-.vdt-white {
-  fill: #ffffff; }
-
-.vdt-middle {
-  width: 50px; }
-
-.vd-prostitution:hover {
-  stroke: #1457d3; }
-  .vd-prostitution:hover ~ .vdt-prostitution {
-    font-size: 1.7rem;
-    fill: #1457d3; }
-
-.vd-sex-trafficking:hover {
-  stroke: #fbbc00; }
-  .vd-sex-trafficking:hover ~ .vdt-sex-trafficking {
-    font-size: 1.7rem;
-    fill: #fbbc00; }
-
-.vd-sex-tourism1:hover {
-  stroke: #1457d3; }
-  .vd-sex-tourism1:hover ~ .vdt-sex-tourism1 {
-    font-size: 1.45rem;
-    fill: #1457d3; }
-
-.vd-sex-worker1:hover {
-  stroke: #1457d3; }
-  .vd-sex-worker1:hover ~ .vdt-sex-worker1 {
-    font-size: 1.45rem;
-    fill: #1457d3; }
-
-.vd-sex-tourism2:hover {
-  stroke: #fbbc00; }
-  .vd-sex-tourism2:hover ~ .vdt-sex-tourism2 {
-    font-size: 1.45rem;
-    fill: #fbbc00; }
-
-.vd-sex-worker2:hover {
-  stroke: #fbbc00; }
-  .vd-sex-worker2:hover ~ .vdt-sex-worker2 {
-    font-size: 1.45rem;
-    fill: #fbbc00; }
+#womenSlider2 {
+  width: 45rem;
+  min-width: 50vw;
+  margin: 0 auto; }
+  @media screen and (max-width: 800px) {
+    #womenSlider2 {
+      max-width: 85vw; } }
+  @media screen and (max-width: 800px) {
+    #womenSlider2 .venn-diagram {
+      width: 100%;
+      height: auto; } }
+  #womenSlider2 .vd-circle {
+    stroke-width: 4;
+    transition: all .5s;
+    cursor: pointer; }
+  #womenSlider2 .vd-big {
+    fill-opacity: .75; }
+  #womenSlider2 .vd-small {
+    fill-opacity: 1; }
+  #womenSlider2 .vd-yellow {
+    fill: #fbbc00;
+    stroke: #ffffff; }
+  #womenSlider2 .vd-blue {
+    fill: #1457d3;
+    stroke: #ffffff; }
+  #womenSlider2 .vdt-heading,
+  #womenSlider2 .vdt-subheading,
+  #womenSlider2 .vdt-def {
+    font-family: "DDinBold", sans-serif;
+    pointer-events: none;
+    transition: all .3s; }
+  #womenSlider2 .vdt-heading {
+    font-size: 1.8rem; }
+    @media screen and (max-width: 800px) {
+      #womenSlider2 .vdt-heading {
+        font-size: 2rem; } }
+  #womenSlider2 .vdt-subheading, #womenSlider2 .vdt-def {
+    font-size: 1.6rem; }
+    @media screen and (max-width: 800px) {
+      #womenSlider2 .vdt-subheading, #womenSlider2 .vdt-def {
+        font-size: 1.8rem; } }
+  #womenSlider2 .vdt-def {
+    opacity: 0;
+    font-family: "DDinRegular", sans-serif;
+    font-size: 1.6rem; }
+    @media screen and (max-width: 800px) {
+      #womenSlider2 .vdt-def {
+        font-size: 2rem; } }
+    #womenSlider2 .vdt-def .vdt-term {
+      font-family: "DDinBold", sans-serif; }
+  #womenSlider2 .vdt-black {
+    fill: #333333; }
+  #womenSlider2 .vdt-white {
+    fill: #ffffff; }
+  #womenSlider2 .vdt-middle {
+    width: 50px; }
+  #womenSlider2 .vd-prostitution:hover,
+  #womenSlider2 .vd-prostitution:active {
+    stroke: #1457d3;
+    stroke-width: 6; }
+    #womenSlider2 .vd-prostitution:hover ~ .vdt-prostitution,
+    #womenSlider2 .vd-prostitution:active ~ .vdt-prostitution {
+      font-size: 2rem;
+      fill: #1457d3; }
+  #womenSlider2 .vd-sex-trafficking:hover,
+  #womenSlider2 .vd-sex-trafficking:active {
+    stroke: #fbbc00;
+    stroke-width: 6; }
+    #womenSlider2 .vd-sex-trafficking:hover ~ .vdt-sex-trafficking,
+    #womenSlider2 .vd-sex-trafficking:active ~ .vdt-sex-trafficking {
+      font-size: 2rem;
+      fill: #fbbc00; }
+  #womenSlider2 .vd-sex-tourism1:hover,
+  #womenSlider2 .vd-sex-tourism1:active {
+    stroke: #1457d3;
+    stroke-width: 6; }
+    #womenSlider2 .vd-sex-tourism1:hover ~ .vdt-sex-tourism1,
+    #womenSlider2 .vd-sex-tourism1:active ~ .vdt-sex-tourism1 {
+      font-size: 1.8rem;
+      fill: #1457d3; }
+  #womenSlider2 .vd-sex-worker1:hover,
+  #womenSlider2 .vd-sex-worker1:active {
+    stroke: #1457d3;
+    stroke-width: 6; }
+    #womenSlider2 .vd-sex-worker1:hover ~ .vdt-sex-worker1,
+    #womenSlider2 .vd-sex-worker1:active ~ .vdt-sex-worker1 {
+      font-size: 1.8rem;
+      fill: #1457d3; }
+  #womenSlider2 .vd-sex-tourism2:hover,
+  #womenSlider2 .vd-sex-tourism2:active {
+    stroke: #fbbc00;
+    stroke-width: 6; }
+    #womenSlider2 .vd-sex-tourism2:hover ~ .vdt-sex-tourism2,
+    #womenSlider2 .vd-sex-tourism2:active ~ .vdt-sex-tourism2 {
+      font-size: 1.8rem;
+      fill: #fbbc00; }
+  #womenSlider2 .vd-sex-worker2:hover,
+  #womenSlider2 .vd-sex-worker2:active {
+    stroke: #fbbc00;
+    stroke-width: 6; }
+    #womenSlider2 .vd-sex-worker2:hover ~ .vdt-sex-worker2,
+    #womenSlider2 .vd-sex-worker2:active ~ .vdt-sex-worker2 {
+      font-size: 1.8rem;
+      fill: #fbbc00; }
 
 footer {
   margin: 0 auto;
@@ -2785,7 +2727,7 @@ footer {
       margin: 35px 0; } }
   .center-quote-container p {
     font-size: 1.5rem !important;
-    width: 680px;
+    width: 45rem;
     min-width: 50vw;
     line-height: inherit;
     align-self: center;
@@ -2804,7 +2746,8 @@ footer {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: italic;
-    align-self: center; }
+    align-self: center;
+    max-width: 600px; }
 
 .error-page .error__container {
   text-align: center;

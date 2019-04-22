@@ -29,7 +29,7 @@ $button-width: 35px;
     display: flex;
     min-height: 100vh;
     height: auto;
-    z-index: 1;
+    z-index: 2;
     overflow: hidden;
   }
 
@@ -142,7 +142,8 @@ $button-width: 35px;
   }
 
   .bottom-menu {
-    margin-top: 25px;
+    position: absolute;
+    bottom: 35px;
 
     .social {
       justify-content: flex-start;

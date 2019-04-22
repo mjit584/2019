@@ -101,7 +101,7 @@
         text-align: left;
         max-width: 85vw;
         min-width: 50vw;
-        width: 680px;
+        width: 45rem;
         color: $black;
         position: static;
       }
@@ -136,7 +136,7 @@
         position: static;
         max-width: 85vw;
         min-width: 50vw;
-        width: 680px;
+        width: 45rem;
       }
 
       .story-hero__title {
@@ -175,7 +175,7 @@
 
     .story__subhead {
       font-family: $font-content-heading;
-      width: 680px;
+      width: 45rem;
       min-width: 50vw;
       font-size: 2rem;
       justify-content: flex-start;
@@ -195,7 +195,7 @@
     }
 
     & > p {
-      width: 680px;
+      width: 45rem;
       min-width: 50vw;
     }
 
@@ -218,7 +218,7 @@
 
       .caption {
         p {
-          width: 680px;
+          width: 45rem;
           min-width: 50vw;
         }
       }

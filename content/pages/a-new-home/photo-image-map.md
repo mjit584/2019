@@ -10,6 +10,9 @@ graphic: "Brooke Fisher"
       Friends create a home in <em>Inquilinato</em>
     </h3>
     {{< ybr-line >}}
+    <div class="interactive__intro">
+      Living in a tiny room, many Venezuelans in Colombia spend the night in places known as <em>inquilinatos</em>, small rooms that can be rented out daily. For about $10 USD, boarders have a place to lay their heads at night. Most rooms offer only a small bed, a dresser and a TV. Hundreds of Venezuelans who have made their way to Colombia find themselves living in such places because they cannot afford to rent out proper homes.
+    </div>
     <div class="interactive__instructions">
       Hover and click over the red circles for more information.
     </div>
