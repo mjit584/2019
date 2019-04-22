@@ -15,6 +15,12 @@ window.onscroll = function () {
       clearTimeout(hideHeader);
     }
     setTimeout(hideHeader, 2000);   // set new timer
+  } else if (currentScrollPos <= 0) {
+    document.getElementById("header").style.top = "0";
+    document.getElementById("hamburger").style.top = "0";
+    if (scrollTimer) {
+      clearTimeout(hideHeader);
+    }
   } else {
     document.getElementById("header").style.top = "-75px";
     document.getElementById("hamburger").style.top = "-75px";
