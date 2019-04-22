@@ -12,6 +12,9 @@ graphics:
     <div class="information-body" id="passport-body">
       <div class="information-body-r1" id="passport-body-top">
         <div class="information-title">Passport</div>
+        <div class="information-body-r3 bottom-text" id="passport-body-bottom">
+          Click the arrows or the dots to navigate
+        </div>
       </div>
       <!-- slideshow goes here -->
       <div class="information-body-r2">
@@ -96,9 +99,6 @@ graphics:
         </div>
       </div>
       <!-- bottom caption -->
-      <div class="information-body-r3 bottom-text" id="passport-body-bottom">
-        Click the arrows or the dots to navigate
-      </div>
     </div>
     <!-- end of content for passport -->
     <!-- content for pep-->
@@ -245,7 +245,7 @@ graphics:
                   would help Beijing track its citizens' behaviors. About six years later, ZTE was hired to build the
                   fatherland card database.
                 </p>
-                <p class="sources">* Data from Migracion Colombia</p>
+                <p class="sources">* Data from El Tiempo and Migracion Colombia</p>
               </div>
             </div>
           </div>
@@ -279,6 +279,9 @@ graphics:
           <h3 class="interactive__subhead">The Legal Limbo of Venezuelans in Colombia</h3>
           {{< ybr-line >}}
         </div>
+        <div class="flex" id="r-3">
+          <div class="bottom-text">Click to explore the documentation</div>
+        </div>
         <div class="flex" id="r-2">
           <div class="flex document-box" id="r-2-c-1">
             <div class="document-img">
@@ -304,9 +307,6 @@ graphics:
               <div class="document-caption">Venezuelan ID</div>
             </div>
           </div>
-        </div>
-        <div class="flex" id="r-3">
-          <div class="bottom-text">Click to explore the documentation</div>
         </div>
       </div>
     </div>
