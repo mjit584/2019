@@ -10,7 +10,7 @@ storyHeading: "What They Carry"
 storySubheading: "Venezuelans travel to Medellín clutching some things with a tighter grip."
 weight: 6
 card: true
-photographer: "Alex Kormann, Nash Consing, Catie Dull"
+photographer: "Alex Kormann, Catie Dull"
 designer: "Brooke Fisher, Kailyn Akers"
 udea: "Laura Trujillo Arango, Juan Ochoa, Maria Alejandra Cardona"
 layout: "photo-pages"
