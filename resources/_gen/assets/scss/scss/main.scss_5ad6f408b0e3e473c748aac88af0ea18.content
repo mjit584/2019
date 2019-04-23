@@ -2109,7 +2109,7 @@ nav {
       width: 100%;
       flex-direction: column;
       border-bottom: solid 0px;
-      margin-bottom: 5vh; }
+      margin: 5vh 0; }
     #interactive__gov-undocumented .document-box:hover {
       border-bottom: solid 0px; }
     #interactive__gov-undocumented .prev, #interactive__gov-undocumented .next {
@@ -2247,7 +2247,7 @@ nav {
       display: inline-block;
       max-height: 25vh; }
     #interactive__gov-birthright .bottom-text {
-      margin-top: 4vh;
+      margin-top: 1vh;
       font-size: 15px; }
     #interactive__gov-birthright .prev, #interactive__gov-birthright .next {
       padding: 10px !important; }
