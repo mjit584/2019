@@ -400,8 +400,8 @@
       flex-direction: column;
       width: 100%;
       max-height: 50vh;
+      // padding-top: 5%;
     }
-
 
     .slide-txt {
       max-width: 70vw !important;
@@ -432,7 +432,7 @@
       width: 100%;
       flex-direction: column;
       border-bottom: solid 0px;
-      margin-bottom: 5vh;
+      margin: 5vh 0;
     }
 
     .document-box:hover {
