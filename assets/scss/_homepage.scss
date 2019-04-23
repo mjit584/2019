@@ -266,23 +266,18 @@
       grid-area: about-help;
       background-color: $light-grey;
       padding: 35px 0;
-      height: 85vh;
       text-align: center;
-
-      @media screen and (max-height: 1040px) {
-        height: auto;
-      }
 
       .about-orgs {
         text-align: center;
         width: 75vw;
         flex-wrap: wrap;
-        height: 45vh;
         margin: 0 auto;
         align-items: baseline;
 
         .orgs {
           cursor: pointer;
+          padding: 1rem;
           flex-basis: 25%;
 
           img {
@@ -307,14 +302,19 @@
           }
 
           .orgs__name {
-            flex-basis: 100%;
-            margin-top: 2%;
             font-family: $font-subhead;
           }
         }
 
         @media screen and (max-width: 1040px) {
-          height: 80vh;
+          justify-content: space-between;
+
+          .orgs {
+            flex-basis: 33.33%;
+          }
+        }
+
+        @media screen and (max-width: 800px) {
           justify-content: space-between;
 
           .orgs {

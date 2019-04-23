@@ -243,20 +243,16 @@ h1, h2, h3, h4, h5, h6 {
     grid-area: about-help;
     background-color: #f2f2f2;
     padding: 35px 0;
-    height: 85vh;
     text-align: center; }
-    @media screen and (max-height: 1040px) {
-      .home #home__about .about-help {
-        height: auto; } }
     .home #home__about .about-help .about-orgs {
       text-align: center;
       width: 75vw;
       flex-wrap: wrap;
-      height: 45vh;
       margin: 0 auto;
       align-items: baseline; }
       .home #home__about .about-help .about-orgs .orgs {
         cursor: pointer;
+        padding: 1rem;
         flex-basis: 25%; }
         .home #home__about .about-help .about-orgs .orgs img {
           width: 35%; }
@@ -270,12 +266,14 @@ h1, h2, h3, h4, h5, h6 {
           .home #home__about .about-help .about-orgs .orgs a:hover {
             color: #c70032; }
         .home #home__about .about-help .about-orgs .orgs .orgs__name {
-          flex-basis: 100%;
-          margin-top: 2%;
           font-family: "DDinBold", sans-serif; }
       @media screen and (max-width: 1040px) {
         .home #home__about .about-help .about-orgs {
-          height: 80vh;
+          justify-content: space-between; }
+          .home #home__about .about-help .about-orgs .orgs {
+            flex-basis: 33.33%; } }
+      @media screen and (max-width: 800px) {
+        .home #home__about .about-help .about-orgs {
           justify-content: space-between; }
           .home #home__about .about-help .about-orgs .orgs {
             flex-basis: 50%; } }
@@ -1503,8 +1501,8 @@ nav {
     left: 0; } }
 
 .lock-scroll {
-  overflow: hidden;
-  position: fixed; }
+  height: 100%;
+  overflow: hidden; }
 
 .interactive {
   max-width: 100%;
