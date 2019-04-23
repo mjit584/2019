@@ -2,6 +2,7 @@
 {{ define "body_classes" }}{{ .Title | lower }}{{ end }}
 {{ define "main" }}
 {{ partial "main-menu-mobile.html" . }}
+<div class="home__overlay" id="home-overlay"></div>
 <nav>
   <!--full screen-->
   <div class="header" id="header">

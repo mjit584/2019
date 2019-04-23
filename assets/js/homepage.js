@@ -24,7 +24,7 @@ let init = function () {
       dontTimeout(x); // Call listener function at run time
       x.addListener(dontTimeout);
 
-      window.setTimeout(fadeInText, 4500);
+      window.setTimeout(fadeInText, 4900);
 
       function fadeInText() {
         homeLogoLine.style.opacity = "1";

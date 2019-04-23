@@ -38,7 +38,7 @@
   <link rel="stylesheet" href="{{ ($style).RelPermalink }}">
   {{ else }}
   {{ $style := resources.Get "scss/main.scss" | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" false) }}
-  <link rel="stylesheet" href="{{ ($style | minify | fingerprint).RelPermalink }}">
+  <link rel="stylesheet" href="{{ .SiteBaseURL }}{{ ($style | minify | fingerprint).RelPermalink }}">
   {{ end }}
 
   <!--Font Awesome-->
