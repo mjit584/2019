@@ -364,8 +364,6 @@ h1, h2, h3, h4, h5, h6 {
           width: 100%;
           height: 30vh;
           object-fit: cover; } }
-    .story-page .story-hero .video-5 {
-      object-position: top center; }
     .story-page .story-hero .story-hero__topic {
       position: absolute;
       text-align: center;
@@ -499,7 +497,7 @@ nav {
   margin: 5% auto; }
   .stories .photo__diptych .photo__diptych-container {
     justify-content: space-between;
-    width: 55rem;
+    max-width: 55rem;
     min-width: 50vw;
     padding: 2% 0 0 0;
     align-items: flex-start;
