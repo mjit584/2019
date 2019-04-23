@@ -5,9 +5,9 @@
 
 //Add your images, we'll set the path in the next step
 var images = [
-  '404-bts-1.jpg',
-  '404-bts-2.jpg',
-  '404-bts-3.jpg',
+  '404-bts-1.JPG',
+  '404-bts-2.JPG',
+  '404-bts-3.JPG',
   '404-bts-4.jpg',
   '404-bts-5.jpg',
   '404-bts-6.jpg',
