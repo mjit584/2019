@@ -5,6 +5,7 @@ date: 2019-02-04T21:35:11-05:00
 description: "Venezuelans find camaraderie, family and support through sport."
 video: "../brothers-on-the-pitch/assets/econ-headervideo.mp4"
 headerStill: "../brothers-on-the-pitch/assets/econ-headerstill.jpg"
+videoStill: "../brothers-on-the-pitch/assets/econ-videostill.jpg"
 image: "./images/econ-homepagestill.jpg"
 storyHeading: "Brothers on the Pitch"
 storySubheading: "Venezuelans find camaraderie, family and support through sport."

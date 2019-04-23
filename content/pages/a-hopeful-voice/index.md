@@ -5,6 +5,7 @@ date: 2019-02-04T21:34:53-05:00
 description: "Undocumented Venezuelans find their livelihood by singing on the street."
 video: "../a-hopeful-voice/assets/gov-headervideo.mp4"
 headerStill: "../a-hopeful-voice/assets/documentation-headerstill.jpg"
+videoStill: "../a-hopeful-voice/assets/documentation-videostill.jpg"
 image: "./images/gov-homepagestill.jpg"
 storyHeading: "A Hopeful Voice"
 storySubheading: "Undocumented Venezuelans find their livelihood by singing on the street."
