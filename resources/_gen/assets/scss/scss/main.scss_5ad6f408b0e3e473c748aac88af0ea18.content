@@ -817,6 +817,7 @@ nav {
   @media screen and (max-width: 1240px) {
     .photo .interactive__image #room__info {
       position: relative;
+      background-color: transparent;
       left: 0;
       width: 90%;
       max-width: 900px; } }
