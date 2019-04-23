@@ -12,7 +12,7 @@ weight: 5
 card: true
 author: "Diane Adame"
 videographer: "Zayhra Rodriguez, Haley France"
-designer: "Amy Townsend"
+designer: "Amy Townsend, Sally Dillon"
 udea: "Margarita Restrepo"
 ---
 

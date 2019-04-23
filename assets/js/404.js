@@ -1,3 +1,4 @@
+
 // 404 JS
 
 // console.log('Test to see if 404.js is loaded');
@@ -33,7 +34,6 @@ var images = [
 ];
 var btsGrid = document.getElementById("error__bts");
 var html = "";
-var randomImg = images[Math.floor(Math.random() * images.length)];
 
 html += "<div class='error__grid'>";
 images.forEach((image) => {
@@ -44,5 +44,3 @@ images.forEach((image) => {
 html += "</div>";
 
 btsGrid.innerHTML = html;
-
-// btsGrid.style.backgroundImage = `url('../images/404/${randomImg}')`;

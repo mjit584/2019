@@ -36,11 +36,10 @@
 {{ end }}
 
 {{define "scripts" }}
-{{ $scripts := resources.Get "js/scripts.js" }}
 {{ $header := resources.Get "js/header.js" }}
 {{ $hamburger := resources.Get "js/hamburger.js"}}
 {{ $404 := resources.Get "js/404.js"}}
-{{ $404bundle := slice $scripts $header $hamburger $404 | resources.Concat "js/404bundle.js" }}
+{{ $404bundle := slice $header $hamburger $404 | resources.Concat "js/404bundle.js" }}
 
 
 {{ if .Site.IsServer }}
