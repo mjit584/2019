@@ -1923,7 +1923,8 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    padding-bottom: 40px; }
   #interactive__gov-undocumented .information-body-r3 {
     display: flex;
     justify-content: center;
@@ -2125,7 +2126,6 @@ nav {
   #interactive__gov-birthright .interactive__intro {
     text-align: left; }
   #interactive__gov-birthright .bottom-text {
-    margin: 4vh;
     font-size: 1rem;
     color: #aaa;
     font-style: italic; }
@@ -2251,7 +2251,9 @@ nav {
       margin-top: 4vh;
       font-size: 15px; }
     #interactive__gov-birthright .prev, #interactive__gov-birthright .next {
-      padding: 10px !important; } }
+      padding: 10px !important; }
+    #interactive__gov-birthright .flourish-embed {
+      min-width: 100vw; } }
 
 .scrolly__gradient-top {
   width: 100%;

@@ -8,7 +8,7 @@
    text-align: left;
 }
 .bottom-text {
-    margin: 4vh;
+    // margin: 4vh;
     font-size: 1rem;
     color: #aaa;
     font-style: italic;
@@ -203,6 +203,10 @@
     .prev,.next {
       padding: 10px !important;
     }
+
+    .flourish-embed {
+    min-width: 100vw;
+  }
 
   }
 
