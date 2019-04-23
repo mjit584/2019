@@ -1,6 +1,6 @@
 baseURL = "http://uprooted.unc.edu/"
 defaultContentLanguage = "en"
-copyright = ""
+copyright = "Copyright School of Media and Journalism"
 title = "Uprooted: Venezuelan Families Flee to Colombia"
 themesDir = "../.."
 enableInlineShortcodes = "true"
