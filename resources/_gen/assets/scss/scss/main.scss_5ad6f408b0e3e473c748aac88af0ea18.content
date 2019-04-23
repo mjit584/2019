@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 350px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, auto);
-  grid-template-areas: "about-bd about-bd about-bd about-bd" "about-help about-help about-help about-help" "about-ft about-ft about-ft about-ft";
+  grid-template-areas: "about-bd about-bd about-bd about-bd" "about-help about-help about-help about-help" "about-ft about-ft about-ft about-ft";
   transition: 0.5s background-color; }
   @media screen and (max-width: 1040px) {
     .home #home__about {
@@ -221,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
       padding-top: 50px;
       grid-template-columns: 1fr;
       grid-template-rows: auto auto auto;
-      grid-template-areas: "about-bd" "about-help" "about-ft"; } }
+      grid-template-areas: "about-bd" "about-help" "about-ft"; } }
   .home #home__about p {
     width: 45rem;
     min-width: 50vw;
@@ -299,12 +299,12 @@ h1, h2, h3, h4, h5, h6 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, auto);
-  grid-template-areas: "nav nav nav nav" "story-hero story-hero story-hero story-hero" "story-bd story-bd story-bd story-bd" "story-ft story-ft story-ft story-ft";
+  grid-template-areas: "nav nav nav nav" "story-hero story-hero story-hero story-hero" "story-bd story-bd story-bd story-bd" "story-ft story-ft story-ft story-ft";
   transition: 0.5s background-color; }
   @media screen and (max-width: 1040px) {
     .story-page {
       grid-template-columns: 1fr;
-      grid-template-areas: "nav" "story-hero" "story-bd" "story-ft"; } }
+      grid-template-areas: "nav" "story-hero" "story-bd" "story-ft"; } }
   .story-page .story-hero {
     color: #ffffff;
     height: auto;
@@ -1370,15 +1370,15 @@ nav {
     background: #333333; }
 
 .main-menu-mobile {
-  position: absolute;
+  position: fixed;
   background: #ffffff;
   color: #333333;
   font-size: 1.25rem;
   top: 0;
+  bottom: 0;
   left: 0;
+  right: 0;
   width: 100%;
-  min-height: 100vh;
-  height: auto;
   padding: 75px 35px 35px 35px;
   opacity: 0;
   display: none;
@@ -1388,12 +1388,9 @@ nav {
   flex-direction: column;
   z-index: -30; }
   .main-menu-mobile.open {
-    opacity: 0.95;
+    opacity: 1;
     display: flex;
-    min-height: 100vh;
-    height: auto;
-    z-index: 2;
-    overflow: hidden; }
+    z-index: 2; }
   .main-menu-mobile a {
     color: #333333;
     text-decoration: none;
@@ -1468,19 +1465,18 @@ nav {
           font-size: 1.25rem;
           margin: 0; }
   .main-menu-mobile .bottom-menu {
-    position: absolute;
-    bottom: 7rem; }
+    margin-top: 2rem; }
     .main-menu-mobile .bottom-menu .social {
       justify-content: flex-start;
-      margin-top: 15px; }
+      margin-top: 1rem; }
       .main-menu-mobile .bottom-menu .social .social-icon {
-        margin-right: 25px;
+        margin-right: 1rem;
         color: #ffffff;
         font-size: 1.5rem;
         background-color: #c70032;
-        padding: 8px;
-        height: 40px;
-        width: 40px;
+        padding: .5rem;
+        height: 2.5rem;
+        width: 2.5rem;
         border-radius: 100%;
         text-align: center; }
         .main-menu-mobile .bottom-menu .social .social-icon:focus {

@@ -6,15 +6,15 @@ $button-height: 27px;
 $button-width: 35px;
 
 .main-menu-mobile {
-  position: absolute;
+  position: fixed;
   background: $white;
   color: $black;
   font-size: 1.25rem;
   top: 0;
+  bottom: 0;
   left: 0;
+  right: 0;
   width: 100%;
-  min-height: 100vh;
-  height: auto;
   padding: 75px 35px 35px 35px;
   opacity: 0;
   display: none;
@@ -25,12 +25,9 @@ $button-width: 35px;
   z-index: -30;
 
   &.open {
-    opacity: 0.95;
+    opacity: 1;
     display: flex;
-    min-height: 100vh;
-    height: auto;
     z-index: 2;
-    overflow: hidden;
   }
 
   a {
@@ -142,21 +139,20 @@ $button-width: 35px;
   }
 
   .bottom-menu {
-    position: absolute;
-    bottom: 7rem;
+    margin-top: 2rem;
 
     .social {
       justify-content: flex-start;
-      margin-top: 15px;
+      margin-top: 1rem;
 
       .social-icon {
-        margin-right: 25px;
+        margin-right: 1rem;
         color: $white;
         font-size: 1.5rem;
         background-color: $red;
-        padding: 8px;
-        height: 40px;
-        width: 40px;
+        padding: .5rem;
+        height: 2.5rem;
+        width: 2.5rem;
         border-radius: 100%;
         text-align: center;
 
