@@ -7,7 +7,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138174816-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'UA-138174816-1');
@@ -30,12 +30,7 @@
 
   {{ block "meta_tags" . }}{{ end }}
 
-  <!--making sure the favicon works on all pages in GH pages-->
-  {{ if .Site.IsServer }}
   <link rel="icon" href="{{ .Site.BaseURL }}favicon.png">
-  {{ else }}
-  <link rel="icon" href="{{ .Site.Params.gh_pages_URL }}favicon.png">
-  {{ end }}
 
   <!--Hugo SASS Pipelines-->
   {{ if .Site.IsServer }}

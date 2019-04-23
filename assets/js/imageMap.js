@@ -59,8 +59,8 @@ if (windowWidth > 1240) {
     var x = wallCircPos.x;
     var height = infoBox.getBoundingClientRect().height;
     var svgX = svgPos.x;
-    var top = (x - svgX - (height * 4)) + "px";
-    var left = wallCircPos.left - ttWidth + "px";
+    var top = (x - svgX - (height * 4.5)) + "px";
+    var left = wallCircPos.left - (ttWidth / 1.5) + "px";
     infoBox.style.top = top;
     infoBox.style.left = left;
   };
