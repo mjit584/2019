@@ -10,9 +10,6 @@ window.onscroll = function () {
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("header").style.top = "0";
     document.getElementById("hamburger").style.top = "0";
-    if (window.scrollY < (document.body.clientHeight - 600)) {
-      document.getElementById("main-menu-mobile").style.top = `${window.scrollY}px`;
-    }
     if (scrollTimer) {
       clearTimeout(hideHeader);
     }
@@ -20,11 +17,10 @@ window.onscroll = function () {
   } else if (currentScrollPos <= 0) {
     document.getElementById("header").style.top = "0";
     document.getElementById("hamburger").style.top = "0";
-    document.getElementById("main-menu-mobile").style.top = "0";
     if (scrollTimer) {
       clearTimeout(hideHeader);
     }
-  } else {
+  } else if (!document.getElementById("main-menu-mobile").classList.contains(open)) {
     document.getElementById("header").style.top = "-75px";
     document.getElementById("hamburger").style.top = "-75px";
   }
