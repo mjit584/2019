@@ -16,7 +16,6 @@ videographer: "Andie Rea, Ashton Eleazer"
 designer: "Lyric Lin, Patty Matos"
 udea: "Andrea Orozco Sáenz"
 ---
-
 It took four arepas to fill 6-year-old Jeham Carlos’ stomach. But he decided to get by on just two because his parents struggled to keep enough food in their house back home in Venezuela.
 
 He never told his parents he was still hungry. He didn't want them to worry. They had enough worries already. Three years later, his mother, Alejandrina, cries as she hears her son talk about this tender sacrifice for the first time.

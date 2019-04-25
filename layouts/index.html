@@ -40,13 +40,14 @@ families and their adjustments to living in Medellín, Colombia.{{ end}}
     {{ partial "main-menu-mobile.html" . }}
     <div class="flex-column" id="home-text-container">
       <div id="home-logo-line">
-        <img class="home__logo flex-column" src="./images/uprooted-logo-gif.gif" alt="Uprooted UNC logo" />
+        <img class="home__logo flex-column" src="{{ .Site.BaseURL }}images/uprooted-logo-gif.gif"
+          alt="Uprooted UNC logo" />
         {{ partial "ybr-line.html" . }}
       </div>
       <h2 class="home__subtitle" id="home-subtitle">{{ .Params.Subtitle }}</h2>
       <div class="home__desc" id="home-desc">{{ .Content }}</div>
       <div class="home__explore">
-        <p>Explore</p>
+        <p>{{ .Params.cta }}</p>
         <a href="#home__cards"><i class="fas fa-chevron-down"></i></a>
       </div>
     </div>

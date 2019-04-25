@@ -26,29 +26,68 @@ canonifyURLs = "true"
       [languages.es.params.navigation]
         help = "Ayuda"
 [[languages.es.menu.main]]
-	name = "Spanish Story 1 Name"
-	url = "/es/story1/"
+	url = "/es/a-hopeful-voice/"
   weight = 1
+  name = "Undocumented Venezuelans find their livelihood by singling on the street."
+  pre = "<p class='story-topic'>Documentación</p><h3 class='story-title'>A Hopeful Voice</h3>"
+  post = "http://uprooted.unc.edu/images/gov-homepagestill.jpg"
 
 [[languages.es.menu.main]]
-  name = "Wasted Skills Abound"
-  url = "/es/story2/"
+  url = "/es/brothers-on-the-pitch/"
   weight = 2
+  name = "The Soccer Story"
+  pre = "<p class='story-topic'>Economía</p><h3 class='story-title'>Resolviendo</h3>"
+  post = "http://uprooted.unc.edu/images/econ-homepagestill.jpg"
 
 [[languages.es.menu.main]]
-  name = "Providing Necessary Aid"
-  url = "/es/story3/"
+  url = "/es/greater-than-death/"
   weight = 3
+  name = "The health story"
+  pre = "<p class='story-topic'>Salud</p><h3 class='story-title'>Greater than Death</h3>"
+  post = "http://uprooted.unc.edu/images/health-homepagestill.jpg"
 
 [[languages.es.menu.main]]
-  name = "Generation in Limbo"
-  url = "/es/story4/"
+  url = "/es/cost-of-dreams/"
   weight = 4 
+  name = "The education story"
+  pre = "<p class='story-topic'>Educación</p><h3 class='story-title'>Lo que Cuestan los Sueños</h3>"
+  post = "http://uprooted.unc.edu/images/education-homepagestill.jpg"  
 
 [[languages.es.menu.main]]
-  name = "Road to Wellness"
-  url = "/es/story5/"
+  url = "/es/a-mother-sacrifice/"
   weight = 5
+  name = "The women story"
+  pre = "<p class='story-topic'>Las Mujeres</p><h3 class='story-title'>El Sacrificio de una Madre</h3>"
+  post = "http://uprooted.unc.edu/images/women-homepagestill.jpg"
+
+# Menu in spanish for photo journey
+[[languages.es.menu.photo]]
+    name = "Venezuelans travel to Medellín clutching some things with a tighter grip."
+    url = "/es/what-they-carry/"
+    weight = 1
+    pre = "<p class='story-topic'>Chapter One</p><h3 class='story-title'>What They Carry</h3>"
+    post = "http://uprooted.unc.edu/images/photo-chap-1-hero.jpg"
+
+[[languages.es.menu.photo]]
+    name = "An inside look into where migrants live after leaving home."
+    url = "/es/a-new-home/"
+    weight = 2
+    pre = "<p class='story-topic'>Chapter Two</p><h3 class='story-title'>A New Home</h3>"
+    post = "http://uprooted.unc.edu/images/photo-chap-2-hero.jpg"
+
+  [[languages.es.menu.photo]]
+    name = "A family struggles to survive, having arrived in Medellin ten days prior."
+    url = "/es/a-family-together/"
+    weight = 3
+    pre = "<p class='story-topic'>Chapter Three</p><h3 class='story-title'>A Family, Together</h3>"
+    post = "http://uprooted.unc.edu/images/photo-chap-3-hero.jpg"
+
+  [[languages.es.menu.photo]]
+    name = "The success stories of Venezuelan immigrants in a new country."
+    url = "/es/making-it-in-medellin/"
+    weight = 4
+    pre = "<p class='story-topic'>Chapter Four</p><h3 class='story-title'>Making it in Medellín</h3>"
+    post = "http://uprooted.unc.edu/images/photo-chap-4-hero.jpg"
 
 [params]
   google_analytics_id = ""

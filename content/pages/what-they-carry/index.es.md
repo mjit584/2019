@@ -3,7 +3,8 @@ title: "Photo Journey"
 topic: "Photo Series"
 date: 2019-02-04T21:34:53-05:00
 description: "This is the description for the first story."
-image: "../images/photo-chap-1-hero.jpg"
+image: "http://uprooted.unc.edu/images/photo-chap-1-hero.jpg"
+imageHome: "http://uprooted.unc.edu/images/photo-homepagephoto.jpg"
 storyHeading: "What They Carry"
 storySubheading: "Venezuelans travel to Medellín clutching some things with a tighter grip"
 weight: 6
