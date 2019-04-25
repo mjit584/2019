@@ -5,12 +5,11 @@ card: false
 layout: 'home-about'
 ---
 
-{{<  center-quote "pages/home-about" "home-about-pull" >}}
+<h2 class="home__subhead">Why Medellín?</h2>
 
-This is a short introduction about the team, our backgrounds and the various different skillsets we bring to the project.
-
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+Medellín is the second largest city in Colombia and one of the most popular areas for Venezuelan immigrants to re-settle.
+Our hope is that the stories we gathered in Colombia will shed light on Venezuelans' struggles and inspire positive change for the millions of people displaced by the humanitarian crisis in their home country.
 
 <div id="video-top"></div>
 
-{{< vimeo id="266021099" class="video-container flex" >}}
+{{< vimeo id="331806583" class="video-container flex" >}}
