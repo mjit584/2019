@@ -38,7 +38,7 @@ var html = "";
 html += "<div class='error__grid'>";
 images.forEach((image) => {
   html += "<div class='img__container'>";
-  html += "<img src='images/404/" + image + "' alt='Behind the scenes look at the Uprooted Team'>";
+  html += "<img src='http://uprooted.unc.edu/images/404/" + image + "' alt='Behind the scenes look at the Uprooted Team'>";
   html += "</div>";
 })
 html += "</div>";

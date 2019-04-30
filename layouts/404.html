@@ -16,13 +16,11 @@
 </nav>
 
 <section class="error__container bg-cover bg-position-center">
-  <img src="./images/404/404-error-icon-updated.svg" alt="404 error with arepa icon as the zero" />
+  <img src="http://uprooted.unc.edu/images/404/404-error-icon-updated.svg"
+    alt="404 error with arepa icon as the zero" />
 </section>
 
-<div class="error__text flex-column">
-  <h2>Hey, you've come to the wrong place!</h2>
-  <p>While you're a little lost, enjoy these behind-the-scenes photos.</p>
-</div>
+{{ with .Site.GetPage "/four-oh-four" }}{{ .Content }}{{ end }}
 
 <div id="error__bts">
   <!-- I will dynamically build this out using Javascript-->
