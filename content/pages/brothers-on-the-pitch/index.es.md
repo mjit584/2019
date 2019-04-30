@@ -6,7 +6,7 @@ description: "Venezolanos encuentran camaradería, familia y apoyo a través del
 video: "../brothers-on-the-pitch/assets/econ-headervideo.mp4"
 headerStill: "../brothers-on-the-pitch/assets/econ-headerstill.jpg"
 videoStill: "../brothers-on-the-pitch/assets/econ-videostill.jpg"
-image: "./images/econ-homepagestill.jpg"
+image: "http://uprooted.unc.edu/images/econ-homepagestill.jpg"
 storyHeading: "Hermanos en El Terreno"
 storySubheading: "Venezolanos encuentran camaradería, familia y apoyo a través del deporte."
 weight: 2

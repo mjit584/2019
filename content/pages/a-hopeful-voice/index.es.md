@@ -6,7 +6,7 @@ description: "Venezolanos indocumentados encuentran su sustento cantando en la c
 video: "../a-hopeful-voice/assets/gov-headervideo.mp4"
 headerStill: "../a-hopeful-voice/assets/documentation-headerstill.jpg"
 videoStill: "../a-hopeful-voice/assets/documentation-videostill.jpg"
-image: "./images/gov-homepagestill.jpg"
+image: "http://uprooted.unc.edu/images/gov-homepagestill.jpg"
 storyHeading: "Encontrando tu Voz"
 storySubheading: "Venezolanos indocumentados encuentran su sustento cantando en la calle."
 weight: 1

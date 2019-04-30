@@ -6,7 +6,7 @@ description: "Los niños sacrifican su educación para apoyar a sus familias."
 video: "../cost-of-dreams/assets/education-headervideo.mp4"
 headerStill: "../cost-of-dreams/assets/education-headerstill.jpg"
 videoStill: "../cost-of-dreams/assets/education-videostill.jpg"
-image: "./images/education-homepagestill.jpg"
+image: "http://uprooted.unc.edu/images/education-homepagestill.jpg"
 storyHeading: "Lo que Cuestan los Sueños"
 storySubheading: "Los niños sacrifican su educación para apoyar a sus familias."
 weight: 4
