@@ -3,11 +3,7 @@
 </div>
 
 <div class="about-help">
-  <h2 class="home__subhead">How to Help</h2>
-  <p>
-    Many nonprofit organizations provide aid to Venezuelans in Venezuela and
-    abroad.
-  </p>
+  {{ with .Site.GetPage "/home-help" }}{{ .Content }}{{ end }}
   <div class="about-orgs flex">
     <div class="orgs">
       <a href="https://www.instagram.com/famicovemedellin/" target="_blank">

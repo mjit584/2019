@@ -1,7 +1,7 @@
 ---
 title: "Uprooted"
-subtitle: "Familias Venezolanas huyen a Colombia"
+subtitle: "Las caras de la crisis venezolana"
 cta: "Explorar"
 ---
 
-Venezuela se enfrenta a la peor crisis migratoria en América Latina en las últimas dos décadas. Solo en los últimos cinco años, más de 3 millones de Venezolanos han abandonado el país debido a la hiperinflación, el desempleo y la inanición. El vecino de Venezuela, Colombia, ha llevado a 1 millón de Venezolanos a través de sus fronteras. Estas son las historias de aquellos migrantes que han huido de Venezuela y viajaron a Colombia en busca de una vida mejor.
+Una vez considerado el país más rico de América Latina, Venezuela enfrenta una crisis económica y política bajo el mando impugnado de Nicolás Maduro. Esta crisis ha causado que millones de venezolanos y sus familias huyan, algunos a Medellín, Colombia, en busca de una vida mejor.

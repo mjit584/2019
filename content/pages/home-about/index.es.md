@@ -5,10 +5,9 @@ card: false
 layout: 'home-about'
 ---
 
-<h2 class="home__subhead">Why Medellín?</h2>
+<h2 class="home__subhead">¿Porqué Medellín?</h2>
 
-Medellín is the second largest city in Colombia and one of the most popular areas for Venezuelan immigrants to re-settle.
-Our hope is that the stories we gathered in Colombia will shed light on Venezuelans' struggles and inspire positive change for the millions of people displaced by the humanitarian crisis in their home country.
+Medellín es la segunda ciudad más grande de Colombia y una de las áreas más pobladas de inmigrantes venezolanos. Nuestra esperanza es que las historias que reunimos en Colombia aclaren e inspiren un cambio positivo para los millones de venezolanos desplazados por la crisis humanitaria en su país de orígen.
 
 <div id="video-top"></div>
 
