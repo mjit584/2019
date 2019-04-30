@@ -11,6 +11,10 @@ storyHeading: "El Sacrificio de una Madre"
 storySubheading: "El esfuerzo de una madre por proveer y reunirse con sus hijos."
 weight: 5
 card: true
+authorTitle: "Escrito por"
+photoTitle: "Foto y video por"
+designTitle: "Gráficos por"
+udeaTitle: "Productor de campo"
 author: "Diane Adame"
 videographer: "Zayhra Rodriguez, Haley France"
 designer: "Amy Townsend, Sally Dillon"

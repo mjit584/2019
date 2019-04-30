@@ -11,6 +11,10 @@ storyHeading: "Lo que Cuestan los Sueños"
 storySubheading: "Los niños sacrifican su educación para apoyar a sus familias."
 weight: 4
 card: true
+authorTitle: "Escrito por"
+photoTitle: "Foto y video por"
+designTitle: "Gráficos por"
+udeaTitle: "Productor de campo"
 author: "Patsy Montesinos"
 videographer: "Andie Rea, Ashton Eleazer"
 designer: "Lyric Lin, Patty Matos"

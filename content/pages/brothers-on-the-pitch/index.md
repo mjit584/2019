@@ -11,6 +11,10 @@ storyHeading: "Brothers on the Pitch"
 storySubheading: "Venezuelans find camaraderie, family and support through sport."
 weight: 2
 card: true
+authorTitle: "written by"
+photoTitle: "photo & video by"
+designTitle: "graphics by"
+udeaTitle: "field producer"
 author: "Brooklynn Cooper"
 videographer: "Bryan Cereijo, Abby Cantrell"
 designer: "Kailyn Akers"

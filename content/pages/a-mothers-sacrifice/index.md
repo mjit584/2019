@@ -11,6 +11,10 @@ storyHeading: "A Mother's Sacrifice"
 storySubheading: "A mother’s effort to provide and reunite with her children."
 weight: 5
 card: true
+authorTitle: "written by"
+photoTitle: "photo & video by"
+designTitle: "graphics by"
+udeaTitle: "field producer"
 author: "Diane Adame"
 videographer: "Zayhra Rodriguez, Haley France"
 designer: "Amy Townsend, Sally Dillon"

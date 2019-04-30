@@ -11,6 +11,10 @@ storyHeading: "Greater than Death"
 storySubheading: "A family’s sacrifice for their children’s health still has roadblocks."
 weight: 3
 card: true
+authorTitle: "written by"
+photoTitle: "photo & video by"
+designTitle: "graphics by"
+udeaTitle: "field producer"
 author: "Sara Pequeno"
 videographer: "Tenley Garrett, Peggy Mullin"
 designer: "Carlos Salas"

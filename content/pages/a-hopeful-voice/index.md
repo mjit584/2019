@@ -11,6 +11,10 @@ storyHeading: "A Hopeful Voice"
 storySubheading: "Undocumented Venezuelans find their livelihood by singing on the street."
 weight: 1
 card: true
+authorTitle: "written by"
+photoTitle: "photo & video by"
+designTitle: "graphics by"
+udeaTitle: "field producer"
 author: "Maria Elena Vizcaino"
 videographer: "Landon Cooper, Jason Armond"
 designer: "Sally Dillon, Xiaoke Ji"

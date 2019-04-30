@@ -11,6 +11,10 @@ storyHeading: "Hermanos en El Terreno"
 storySubheading: "Venezolanos encuentran camaradería, familia y apoyo a través del deporte."
 weight: 2
 card: true
+authorTitle: "Escrito por"
+photoTitle: "Foto y video por"
+designTitle: "Gráficos por"
+udeaTitle: "Productor de campo"
 author: "Brooklynn Cooper"
 videographer: "Bryan Cereijo, Abby Cantrell"
 designer: "Kailee Akers"

@@ -11,6 +11,10 @@ storyHeading: "The Cost of Dreams"
 storySubheading: "Children sacrifice their education to help their families."
 weight: 4
 card: true
+authorTitle: "written by"
+photoTitle: "photo & video by"
+designTitle: "graphics by"
+udeaTitle: "field producer"
 author: "Patsy Montesinos"
 videographer: "Andie Rea, Ashton Eleazer"
 designer: "Lyric Lin, Patty Matos"

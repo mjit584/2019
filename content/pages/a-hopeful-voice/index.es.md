@@ -11,6 +11,10 @@ storyHeading: "Encontrando tu Voz"
 storySubheading: "Venezolanos indocumentados encuentran su sustento cantando en la calle."
 weight: 1
 card: true
+authorTitle: "Escrito por"
+photoTitle: "Foto y video por"
+designTitle: "Gráficos por"
+udeaTitle: "Productor de campo"
 author: "Maria Elena Vizcaino"
 videographer: "Landon Cooper, Jason Armond"
 designer: "Sally Dillon, Xiaoke Ji"
