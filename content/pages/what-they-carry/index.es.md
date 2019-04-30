@@ -9,6 +9,9 @@ storyHeading: "What They Carry"
 storySubheading: "Venezuelans travel to Medellín clutching some things with a tighter grip"
 weight: 6
 card: true
+photoTitle: "Foto por"
+designTitle: "Gráficos por"
+udeaTitle: "Productores de campo"
 photographer: "Alex Kormann, Nash Consing, Catie Dull"
 designer: "Brooke Fisher"
 udea: "Laura Trujillo Arango, Juan Ochoa, Maria Alejandra Cardona Aizpurua"

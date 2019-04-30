@@ -9,6 +9,9 @@ storySubheading: "The success stories of Venezuelan immigrants in a new country.
 heroAlt: "A group of workers smile and pose in front of a restaurant sign that reads 'Della Nonna'"
 weight: 4
 card: false
+photoTitle: "photos by"
+designTitle: "graphics by"
+udeaTitle: "field producers"
 photographer: "Nash Consing"
 designer: "undefined"
 udea: "Laura Trujillo Arango, Juan Ochoa, Maria Alejandra Cardona Aizpurua"

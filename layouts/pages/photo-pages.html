@@ -21,14 +21,14 @@
 <div class="story-content">
   <div class="byline-container">
     <div class="flex-column byline">
-      <div class="byline-name">photos by
+      <div class="byline-name">{{ .Params.photoTitle }}
         <span>{{ .Params.photographer }}</span>
       </div>
       {{ if eq .Params.designer "undefined" }}
       {{ else }}
-      <div class="byline-name" id="byline-des">graphics by <span>{{ .Params.designer }}</span></div>
+      <div class="byline-name" id="byline-des">{{ .Params.designTitle }} <span>{{ .Params.designer }}</span></div>
       {{ end }}
-      <div class="byline-name" id="byline-udea">field producers <span>{{ .Params.udea }}</span></div>
+      <div class="byline-name" id="byline-udea">{{ .Params.udeaTitle }} <span>{{ .Params.udea }}</span></div>
       {{ partial "ybr-line.html" . }}
     </div>
   </div>

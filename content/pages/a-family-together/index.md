@@ -9,6 +9,9 @@ storySubheading: "A family struggles to survive, having arrived in Medellín ten
 heroAlt: "A group of five friends carry large backs and walk the streets at night to find a place to stay."
 weight: 3
 card: false
+photoTitle: "photos by"
+designTitle: "graphics by"
+udeaTitle: "field producers"
 photographer: "Alex Kormann"
 designer: "undefined"
 udea: "Laura Trujillo Arango, Juan Ochoa, Maria Alejandra Cardona Aizpurua"

@@ -9,6 +9,9 @@ storySubheading: "An inside look into where migrants live after leaving home."
 heroAlt: "A family stands on the roof of their apartment building."
 weight: 2
 card: false
+photoTitle: "photos by"
+designTitle: "graphics by"
+udeaTitle: "field producers"
 photographer: "Alex Kormann, Catie Dull"
 designer: "Brooke Fisher"
 udea: "Laura Trujillo Arango, Juan Ochoa, Maria Alejandra Cardona Aizpurua"
