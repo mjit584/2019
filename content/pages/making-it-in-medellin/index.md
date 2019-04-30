@@ -13,6 +13,7 @@ photographer: "Nash Consing"
 designer: "undefined"
 udea: "Laura Trujillo Arango, Juan Ochoa, Maria Alejandra Cardona Aizpurua"
 layout: 'photo-pages'
+footer: "About Us"
 ---
 
 Creating a new life in a new country is no easy feat, especially for the Venezuelan people. Many of these immigrants in Colombia strike an uphill, as their journeys have faced many obstacles in their search to restart or preserve their way of life. This dream of success isn’t impossible, however. These Venezuelans have done just that; whether it be living life without debt for the first time or preserving a family business, these Venezuelans have found a way to survive for their families.

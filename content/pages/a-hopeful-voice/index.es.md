@@ -3,17 +3,19 @@ title: "Encontrando tu Voz"
 topic: "Documentación"
 date: 2019-02-04T21:34:53-05:00
 description: "Venezolanos indocumentados encuentran su sustento cantando en la calle."
-video: "http://uprooted.unc.edu/a-hopeful-voice/assets/gov-headervideo.mp4"
-image: "http://uprooted.unc.edu/images/gov-homepagestill.jpg"
+video: "../a-hopeful-voice/assets/gov-headervideo.mp4"
+headerStill: "../a-hopeful-voice/assets/documentation-headerstill.jpg"
+videoStill: "../a-hopeful-voice/assets/documentation-videostill.jpg"
+image: "./images/gov-homepagestill.jpg"
 storyHeading: "Encontrando tu Voz"
 storySubheading: "Venezolanos indocumentados encuentran su sustento cantando en la calle."
 weight: 1
 card: true
 author: "Maria Elena Vizcaino"
 videographer: "Landon Cooper, Jason Armond"
-photographer: ""
 designer: "Sally Dillon, Xiaoke Ji"
 udea: "Laura Andrea Garcia Giraldo"
+footer: "Sobre nosotros"
 ---
 By 4 p.m., Irelys Rojas begins to fear the end of the day. 
 

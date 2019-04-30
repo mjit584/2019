@@ -15,6 +15,7 @@ author: "Brooklynn Cooper"
 videographer: "Bryan Cereijo, Abby Cantrell"
 designer: "Kailyn Akers"
 udea: "Martín Villaneda"
+footer: "About Us"
 ---
 
 “¡Hay que terminar!”

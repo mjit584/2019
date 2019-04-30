@@ -13,9 +13,9 @@ weight: 1
 card: true
 author: "Maria Elena Vizcaino"
 videographer: "Landon Cooper, Jason Armond"
-photographer: ""
 designer: "Sally Dillon, Xiaoke Ji"
 udea: "Laura Andrea Garcia Giraldo"
+footer: "About Us"
 ---
 
 By 4 p.m., Irelys Rojas begins to fear the end of the day. 

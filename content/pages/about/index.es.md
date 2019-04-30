@@ -6,6 +6,7 @@ storyHeading: "About Us"
 image: "../images/about-headerimage.jpg"
 card: false
 layout: "about"
+footer: "Sobre nosotros"
 ---
 
 {{<  center-quote "pages/about" "about-pull" >}}

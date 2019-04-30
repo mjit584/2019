@@ -4,7 +4,9 @@ topic: "Educación"
 date: 2019-02-04T21:35:51-05:00
 description: "Los niños sacrifican su educación para apoyar a sus familias."
 video: "../cost-of-dreams/assets/education-headervideo.mp4"
-image: "http://uprooted.unc.edu/images/education-homepagestill.jpg"
+headerStill: "../cost-of-dreams/assets/education-headerstill.jpg"
+videoStill: "../cost-of-dreams/assets/education-videostill.jpg"
+image: "./images/education-homepagestill.jpg"
 storyHeading: "Lo que Cuestan los Sueños"
 storySubheading: "Los niños sacrifican su educación para apoyar a sus familias."
 weight: 4
@@ -12,7 +14,8 @@ card: true
 author: "Patsy Montesinos"
 videographer: "Andie Rea, Ashton Eleazer"
 designer: "Lyric Lin, Patty Matos"
-udea: "Maria"
+udea: "Andrea Orozco Sáenz"
+footer: "Sobre nosotros"
 ---
 It took four arepas to fill 6-year-old Jeham Carlos’ stomach. But he decided to get by on just two because his parents struggled to keep enough food in their house back home in Venezuela.
 

@@ -4,7 +4,9 @@ topic: "Salud"
 date: 2019-02-04T21:35:29-05:00
 description: "El sacrificio de una familia por la salud de sus hijos todavía tiene obstáculos."
 video: "../greater-than-death/assets/health-headervideo.mp4"
-image: "http://uprooted.unc.edu/images/health-homepagestill.jpg"
+headerStill: "../greater-than-death/assets/health-headerstill.jpg"
+videoStill: "../greater-than-death/assets/health-videostill.jpg"
+image: "./images/health-homepagestill.jpg"
 storyHeading: "Más Grande que La Muerte"
 storySubheading: "El sacrificio de una familia por la salud de sus hijos todavía tiene obstáculos."
 weight: 3
@@ -12,7 +14,8 @@ card: true
 author: "Sara Pequeno"
 videographer: "Tenley Garrett, Peggy Mullin"
 designer: "Carlos Salas"
-udea: "Maria"
+udea: "Laura Andrea García Giraldo"
+footer: "Sobre nosotros"
 ---
 Marbis Judith Verenzuela, 53, knew she had to go back. Her oldest daughter, Jorlis, was still in Venezuela. So last December, she traveled back from Colombia to save her family.
 
