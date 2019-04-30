@@ -96,6 +96,7 @@
 
     .header__lang-toggle{
       cursor: pointer;
+      flex-basis: 10%;
 
       .header__lang-toggle__en:hover, .header__lang-toggle__es:hover{
         font-weight: 900;

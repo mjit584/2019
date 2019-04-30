@@ -2,4 +2,4 @@
 image: "assets/ECON-STILL_02.jpg"
 alt: "undefined"
 ---
-Laurenti Velasquez poses for a photo at Distripartes, the auto shop where he works.
+Laurenti Velasquez posa para una foto en Distripartes, el garaje en el que él trabaja.

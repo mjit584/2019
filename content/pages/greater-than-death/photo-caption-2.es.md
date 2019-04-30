@@ -4,5 +4,4 @@ image: "../greater-than-death/assets/health-still-2.jpg"
 alt: "undefined"
 photographer: "Photog"
 ---
-
-Marbis Georgina Verenzuela takes her daughter Judy to a clinic in Medellín to learn about possible treatments for her tumor. Judy wears a mask because she was sick earlier in the week, and because of the city’s air pollution.
+Marbis Georgina Verenzuela lleva a su hija Judy a una clínica en Medellín para averiguar sobre opciones para tratar su tumor. Judy usa una máscara quirúrgica porque estuvo enferma esa semana y para protegerla de la contaminación de la ciudad.

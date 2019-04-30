@@ -2,11 +2,11 @@
 title: "Encontrando tu Voz"
 topic: "Documentación"
 date: 2019-02-04T21:34:53-05:00
-description: "Undocumented Venezuelans find their livelihood by singing on the street."
+description: "Venezolanos indocumentados encuentran su sustento cantando en la calle."
 video: "http://uprooted.unc.edu/a-hopeful-voice/assets/gov-headervideo.mp4"
 image: "http://uprooted.unc.edu/images/gov-homepagestill.jpg"
 storyHeading: "Encontrando tu Voz"
-storySubheading: "Undocumented Venezuelans find their livelihood by singing on the street."
+storySubheading: "Venezolanos indocumentados encuentran su sustento cantando en la calle."
 weight: 1
 card: true
 author: "Maria Elena Vizcaino"

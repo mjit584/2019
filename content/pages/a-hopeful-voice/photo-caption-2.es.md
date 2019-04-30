@@ -4,4 +4,4 @@ image: "../a-hopeful-voice/assets/government-still2.jpg"
 alt: "A woman lies on a bed while talking on the phone"
 photographer: "Photog"
 ---
-Irelys takes a video call from her family in the room she rents in Medellín on March 15, 2019.
+Irelys toma una llamada de video de su familia en la habitación que alquila en Medellín el 15 de marzo del 2019.

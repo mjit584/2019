@@ -4,5 +4,4 @@ image: "../greater-than-death/assets/health-still-1.jpg"
 alt: "undefined"
 photographer: "Photog"
 ---
-
-Judy falls asleep on her mother’s lap as the sisters talk. Judy is named after her grandmother, because Marbis Judith had cancer at the time of her birth.
+Judy se duerme en las piernas de su mamá mientras las hermanas hablan. Judy es llamada así por su abuela, ya que Marbis Judith tenía cáncer cuando ella nació

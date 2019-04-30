@@ -4,4 +4,4 @@ image: "../a-hopeful-voice/assets/government-still3.jpg"
 alt: "A woman sings on the streets to make money"
 photographer: "Photog"
 ---
-Irelys busks for long hours on the streets of Medellín for small donations.
+Irelys canta por largas horas en las calles de Medellín para ganar pequeñas propinas.

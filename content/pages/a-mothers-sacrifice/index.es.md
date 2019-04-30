@@ -2,13 +2,13 @@
 title: "El Sacrificio de una Madre"
 topic: "Las Mujeres"
 date: 2019-02-04T21:36:06-05:00
-description: "A mother’s effort to provide and reunite with her children."
+description: "El esfuerzo de una madre por proveer y reunirse con sus hijos."
 video: "../a-mothers-sacrifice/assets/women-headervideo2.mp4"
 videoStill: "../a-mothers-sacrifice/assets/women-videostill.jpg"
 headerStill: "../a-mothers-sacrifice/assets/women-headerstill.jpg"
 image: "http://uprooted.unc.edu/images/women-homepagestill.jpg"
 storyHeading: "El Sacrificio de una Madre"
-storySubheading: "A mother’s effort to provide and reunite with her children."
+storySubheading: "El esfuerzo de una madre por proveer y reunirse con sus hijos."
 weight: 5
 card: true
 author: "Diane Adame"

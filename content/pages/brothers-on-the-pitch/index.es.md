@@ -1,11 +1,11 @@
 ---
-title: "Resolviendo"
+title: "Hermanos en El Terreno"
 topic: "Economía"
 date: 2019-02-04T21:35:11-05:00
 description: "Venezolanos encuentran camaradería, familia y apoyo a través del deporte."
 video: "../brothers-on-the-pitch/assets/econ-headervideo.mp4"
 image: "http://uprooted.unc.edu/images/econ-homepagestill.jpg"
-storyHeading: "Resolviendo"
+storyHeading: "Hermanos en El Terreno"
 storySubheading: "Venezolanos encuentran camaradería, familia y apoyo a través del deporte."
 weight: 2
 card: true

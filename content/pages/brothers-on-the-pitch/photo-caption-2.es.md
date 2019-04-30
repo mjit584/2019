@@ -2,4 +2,4 @@
 image: "assets/ECON-STILL_15.jpg"
 alt: "undefined"
 ---
-Laurenti Velasquez and Alvaro Cardenas Martínez walk to the field with the rest of the team. “The most beautiful thing is that Laurenti—and the rest of us who are immigrants—found in the team the family that we left behind,” Martinez said.
+Laurenti Velasquez y Álvaro Cárdenas Martínez caminan hacia el campo de fútbol con el resto del equipo. “Lo más hermoso es que Laurenti, y el resto de nosotros que somos inmigrantes, encontramos a la familia que dejamos atrás en el equipo,” dijo Martínez.
