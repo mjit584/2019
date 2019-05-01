@@ -17,6 +17,7 @@ designer: "Brooke Fisher"
 udea: "Laura Trujillo Arango, Juan Ochoa, Maria Alejandra Cardona Aizpurua"
 layout: 'photo-pages'
 footer: "About Us"
+footerCTA: "More from Uprooted"
 ---
 
 After leaving behind their home country, where most Venezuelan immigrants spent their entire lives, families are forced to start over. Migrants find new places to live wherever they can around the city. Some live night to night in different <em>inquilinatos</em>, while others live in rented apartments and others still find one-room homes to buy. In most cases there is not enough room for families to sleep comfortably. 

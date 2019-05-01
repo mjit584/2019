@@ -20,7 +20,7 @@
     alt="404 error with arepa icon as the zero" />
 </section>
 
-{{ with .Site.GetPage "/four-oh-four" }}{{ .Content }}{{ end }}
+{{ with .Site.GetPage "/four-oh-four" }}{{ .Content }}
 
 <div id="error__bts">
   <!-- I will dynamically build this out using Javascript-->
@@ -30,6 +30,8 @@
 <footer class="flex-column">
   {{ partial "footer.html" . }}
 </footer>
+
+{{ end }}
 
 {{ end }}
 

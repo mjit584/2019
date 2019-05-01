@@ -20,6 +20,7 @@ videographer: "Zayhra Rodriguez, Haley France"
 designer: "Amy Townsend, Sally Dillon"
 udea: "Margarita Restrepo"
 footer: "About Us"
+footerCTA: "More from Uprooted"
 ---
 
 <div class="story__subhead story__subhead-warning"><strong>CONTENT WARNING: This article contains information and depictions of sexual assault, child sexual abuse and sexual content that may be triggering for some.</strong></div>

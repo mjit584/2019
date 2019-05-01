@@ -2,5 +2,6 @@
 photoTitle: "Foto por"
 designTitle: "Gráficos por"
 udeaTitle: "Productores de campo"
-footer: "Sobre nosotros"
+footer: "Sobre Nosotros"
+footerCTA: "Más de Uprooted"
 ---

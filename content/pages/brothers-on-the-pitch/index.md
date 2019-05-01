@@ -20,6 +20,7 @@ videographer: "Bryan Cereijo, Abby Cantrell"
 designer: "Kailyn Akers"
 udea: "Martín Villaneda"
 footer: "About Us"
+footerCTA: "More from Uprooted"
 ---
 
 “¡Hay que terminar!”

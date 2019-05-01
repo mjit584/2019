@@ -7,6 +7,7 @@ image: "../images/about-headerimage.jpg"
 card: false
 layout: "about"
 footer: "About Us"
+footerCTA: "More from Uprooted"
 ---
 
 {{<  center-quote "pages/about" "about-pull" >}}

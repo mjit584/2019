@@ -19,7 +19,8 @@ author: "Brooklynn Cooper"
 videographer: "Bryan Cereijo, Abby Cantrell"
 designer: "Kailee Akers"
 udea: "Martín Villaneda"
-footer: "Sobre nosotros"
+footer: "Sobre Nosotros"
+footerCTA: "Más de Uprooted"
 ---
 
 “¡Hay que terminar!”

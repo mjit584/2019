@@ -20,6 +20,7 @@ videographer: "Landon Cooper, Jason Armond"
 designer: "Sally Dillon, Xiaoke Ji"
 udea: "Laura Andrea Garcia Giraldo"
 footer: "About Us"
+footerCTA: "More from Uprooted"
 ---
 
 By 4 p.m., Irelys Rojas begins to fear the end of the day. 

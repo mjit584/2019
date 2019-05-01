@@ -19,7 +19,8 @@ author: "Maria Elena Vizcaino"
 videographer: "Landon Cooper, Jason Armond"
 designer: "Sally Dillon, Xiaoke Ji"
 udea: "Laura Andrea Garcia Giraldo"
-footer: "Sobre nosotros"
+footer: "Sobre Nosotros"
+footerCTA: "Más de Uprooted"
 ---
 By 4 p.m., Irelys Rojas begins to fear the end of the day. 
 

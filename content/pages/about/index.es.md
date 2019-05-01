@@ -6,7 +6,8 @@ storyHeading: "About Us"
 image: "../images/about-headerimage.jpg"
 card: false
 layout: "about"
-footer: "Sobre nosotros"
+footer: "Sobre Nosotros"
+footerCTA: "Más de Uprooted"
 ---
 
 {{<  center-quote "pages/about" "about-pull" >}}
