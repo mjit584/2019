@@ -10,6 +10,7 @@ aboutUs: "About Us"
 footerCTA: "More from Uprooted"
 storiesHeader: "Stories"
 photosHeader: "Photo Journey"
+meet: "Meet the Team"
 ---
 
 {{<  center-quote "pages/about" "about-pull" >}}

@@ -23,6 +23,7 @@ aboutUs: "About Us"
 footerCTA: "More from Uprooted"
 storiesHeader: "Stories"
 photosHeader: "Photo Journey"
+cta: "Explore"
 ---
 
 <div class="story__subhead story__subhead-warning"><strong>CONTENT WARNING: This article contains information and depictions of sexual assault, child sexual abuse and sexual content that may be triggering for some.</strong></div>

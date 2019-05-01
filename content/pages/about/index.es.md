@@ -10,6 +10,7 @@ aboutUs: "Sobre Nosotros"
 footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"
+meet: "Conocer al equipo"
 ---
 
 {{<  center-quote "pages/about" "about-pull" >}}

@@ -23,6 +23,7 @@ aboutUs: "Sobre Nosotros"
 footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"
+cta: "Explorar"
 ---
 By 4 p.m., Irelys Rojas begins to fear the end of the day. 
 

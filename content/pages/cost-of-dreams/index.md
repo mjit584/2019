@@ -23,6 +23,7 @@ aboutUs: "About Us"
 footerCTA: "More from Uprooted"
 storiesHeader: "Stories"
 photosHeader: "Photo Journey"
+cta: "Explore"
 ---
 It took four arepas to fill 6-year-old Jeham Carlos’ stomach. But he decided to get by on just two because his parents struggled to keep enough food in their house back home in Venezuela.
 

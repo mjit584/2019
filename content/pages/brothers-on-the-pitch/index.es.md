@@ -23,6 +23,7 @@ aboutUs: "Sobre Nosotros"
 footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"
+cta: "Explorar"
 ---
 
 “¡Hay que terminar!”

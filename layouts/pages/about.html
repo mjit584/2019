@@ -16,9 +16,9 @@
 {{ partial "story-hero.html" (dict "layout" .Params.layout "image" .Params.image "heading" .Params.storyHeading "subheading" .Params.storySubheading "content" .) }}
 
 <section class="about__intro flex-column">
-  <h1 class="about__heading">About Us</h1>
+  <h1 class="about__heading">{{ .Params.AboutUs}}</h1>
   {{ .Content }}
-  <h2 class="about__heading">Meet the Team</h2>
+  <h2 class="about__heading">{{ .Params.meet }}</h2>
 </section>
 
 <div class="container">
