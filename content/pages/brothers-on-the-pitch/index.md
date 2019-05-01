@@ -21,6 +21,8 @@ designer: "Kailyn Akers"
 udea: "Martín Villaneda"
 aboutUs: "About Us"
 footerCTA: "More from Uprooted"
+storiesHeader: "Stories"
+photosHeader: "Photo Journey"
 ---
 
 “¡Hay que terminar!”

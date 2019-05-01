@@ -8,6 +8,8 @@ card: false
 layout: "about"
 aboutUs: "About Us"
 footerCTA: "More from Uprooted"
+storiesHeader: "Stories"
+photosHeader: "Photo Journey"
 ---
 
 {{<  center-quote "pages/about" "about-pull" >}}

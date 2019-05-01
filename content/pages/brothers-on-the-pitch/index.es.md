@@ -21,6 +21,8 @@ designer: "Kailee Akers"
 udea: "Martín Villaneda"
 aboutUs: "Sobre Nosotros"
 footerCTA: "Más de Uprooted"
+storiesHeader: "Historias"
+photosHeader: "Viaje Fotográfico"
 ---
 
 “¡Hay que terminar!”

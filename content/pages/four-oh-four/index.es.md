@@ -1,6 +1,8 @@
 ---
 aboutUs: "Sobre Nosotros"
 footerCTA: "Más de Uprooted"
+storiesHeader: "Historias"
+photosHeader: "Viaje Fotográfico"
 ---
 
 <div class="error__text flex-column">

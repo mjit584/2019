@@ -21,6 +21,8 @@ designer: "Lyric Lin, Patty Matos"
 udea: "Andrea Orozco Sáenz"
 aboutUs: "Sobre Nosotros"
 footerCTA: "Más de Uprooted"
+storiesHeader: "Historias"
+photosHeader: "Viaje Fotográfico"
 ---
 It took four arepas to fill 6-year-old Jeham Carlos’ stomach. But he decided to get by on just two because his parents struggled to keep enough food in their house back home in Venezuela.
 

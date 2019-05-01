@@ -21,6 +21,8 @@ designer: "Sally Dillon, Xiaoke Ji"
 udea: "Laura Andrea Garcia Giraldo"
 aboutUs: "About Us"
 footerCTA: "More from Uprooted"
+storiesHeader: "Stories"
+photosHeader: "Photo Journey"
 ---
 
 By 4 p.m., Irelys Rojas begins to fear the end of the day. 

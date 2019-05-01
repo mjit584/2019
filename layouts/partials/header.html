@@ -7,11 +7,11 @@
   </div>
   <div class="header__nav flex">
     <div class="header__story-dropdown" id="header-story-dropdown">
-      <div class="header__stories-button">Stories <i class="fas fa-chevron-down"></i></div>
+      <div class="header__stories-button">{{ .Params.storiesHeader}} <i class="fas fa-chevron-down"></i></div>
       {{ partial "main-menu.html" . }}
     </div>
     <div class="header__photo-dropdown" id="header-photo-dropdown">
-      <div class="header__photo-button">Photo Journey <i class="fas fa-chevron-down"></i></div>
+      <div class="header__photo-button">{{ .Params.photosHeader }}<i class="fas fa-chevron-down"></i></div>
       {{ partial "main-menu-photos.html" . }}
     </div>
 
