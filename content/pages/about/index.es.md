@@ -1,5 +1,6 @@
 ---
-title: "About Us"
+title: "Sobre Nosotros"
+url: es/sobre-nosotros
 date: 2019-02-04T21:36:24-05:00
 description: "This is the description for the about page."
 storyHeading: "About Us"

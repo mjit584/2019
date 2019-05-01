@@ -1,5 +1,6 @@
 ---
 title: "Lo que Cuestan los Sueños"
+url: es/lo-que-cuestan-los-suenos
 topic: "Educación"
 date: 2019-02-04T21:35:51-05:00
 description: "Los niños sacrifican su educación para apoyar a sus familias."

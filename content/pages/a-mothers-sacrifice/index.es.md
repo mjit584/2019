@@ -1,5 +1,6 @@
 ---
 title: "El Sacrificio de una Madre"
+url: es/el-sacrificio-de-una-madre
 topic: "Las Mujeres"
 date: 2019-02-04T21:36:06-05:00
 description: "El esfuerzo de una madre por proveer y reunirse con sus hijos."

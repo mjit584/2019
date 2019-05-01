@@ -1,10 +1,9 @@
 baseURL = "http://uprooted.unc.edu/"
-defaultContentLanguage = "en"
+DefaultContentLanguage = "en"
 copyright = "Copyright School of Media and Journalism"
 title = "Uprooted: Venezuelan Families Flee to Colombia"
 themesDir = "../.."
 enableInlineShortcodes = "true"
-relativeURLs = "true"
 canonifyURLs = "true"
 
 
@@ -26,35 +25,35 @@ canonifyURLs = "true"
       [languages.es.params.navigation]
         help = "Ayuda"
 [[languages.es.menu.main]]
-	url = "/es/a-hopeful-voice/"
+	url = "/es/encontrando-tu-voz/"
   weight = 1
   name = "Venezolanos indocumentados encuentran su sustento cantando en la calle."
   pre = "<p class='story-topic'>Documentación</p><h3 class='story-title'>Encontrando tu Voz</h3>"
   post = "http://uprooted.unc.edu/images/gov-homepagestill.jpg"
 
 [[languages.es.menu.main]]
-  url = "/es/brothers-on-the-pitch/"
+  url = "/es/hermanos-en-el-terreno/"
   weight = 2
   name = "Venezolanos encuentran camaradería, familia y apoyo a través del deporte."
   pre = "<p class='story-topic'>Economía</p><h3 class='story-title'>Hermanos en El Terreno</h3>"
   post = "http://uprooted.unc.edu/images/econ-homepagestill.jpg"
 
 [[languages.es.menu.main]]
-  url = "/es/greater-than-death/"
+  url = "/es/mas-grande-que-la-muerte/"
   weight = 3
   name = "El sacrificio de una familia por la salud de sus hijos todavía tiene obstáculos."
   pre = "<p class='story-topic'>Salud</p><h3 class='story-title'>Más Grande que La Muerte</h3>"
   post = "http://uprooted.unc.edu/images/health-homepagestill.jpg"
 
 [[languages.es.menu.main]]
-  url = "/es/cost-of-dreams/"
+  url = "/es/lo-que-cuestan-los-suenos/"
   weight = 4 
   name = "Los niños sacrifican su educación para apoyar a sus familias."
   pre = "<p class='story-topic'>Educación</p><h3 class='story-title'>Lo que Cuestan los Sueños</h3>"
   post = "http://uprooted.unc.edu/images/education-homepagestill.jpg"  
 
 [[languages.es.menu.main]]
-  url = "/es/a-mother-sacrifice/"
+  url = "/es/el-sacrificio-de-una-madre/"
   weight = 5
   name = "El esfuerzo de una madre por proveer y reunirse con sus hijos."
   pre = "<p class='story-topic'>Las Mujeres</p><h3 class='story-title'>El Sacrificio de una Madre</h3>"
