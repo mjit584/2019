@@ -1,4 +1,4 @@
 ---
-attr: "Alvaro Martínez, 37, coach of Vinotinto Fútbol Club"
+attr: "Alvaro Cardenas Martínez, 37, entrenador del Vinotinto Fútbol Club"
 ---
-“The most beautiful thing is that Laurenti—and the rest of us who are immigrants—found in the team the family that we left behind. You find people that you can speak Venezuelan with, not Spanish.”
+"Lo más bonito porque tanto Laurenti, como el resto del equipo, cada que de los que somos inmigrantes, encuentran en este grupo esa familia que dejan atrás. Encuentran en este grupo esas personas con las cuales tú hablas venezolano, no español."

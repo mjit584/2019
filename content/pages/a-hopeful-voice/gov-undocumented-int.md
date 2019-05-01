@@ -38,10 +38,10 @@ graphics:
             <div class="slide-image">
               <img class="slide-img-passport-slide2 slide-img" src="assets/passport-slide2.svg" alt="calendar">
               <div class="slide-txt">
-                <p>When obtained through official means, a Venezuelan passport costs about $1.55 USD. While this may not
-                  seem expensive, the current minimum wage hovers around $6. </p>
+                <p>When obtained through official means, a Venezuelan passport costs about USD $1.55. While this may not
+                  seem expensive, the current minimum wage hovers around USD $6. </p>
                 <p>Some choose to expedite the frustratingly long process and get a passport through the black market,
-                  which costs upwards of $62.</p>
+                  which costs upwards of USD $62.</p>
                 <p>However, as of November 1st, 2018, passports must be paid for in the Petro cryptocurrency. The
                   currency
                   is supposed to be backed by oil and mineral reserves. Passports will cost 2 Petros (about 7,200
@@ -78,7 +78,7 @@ graphics:
                   passports
                   to two years past the expiration date. More than 500,000 Venezuelans could benefit from this decision.
                 </p>
-                <p class="sources">* Data from Migracion Colombia</p>
+                <p class="sources">* Data from Migración Colombia</p>
               </div>
             </div>
           </div>

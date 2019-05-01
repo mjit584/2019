@@ -1,4 +1,4 @@
 ---
-attr: "Melissa Toro, director of Las Guerreras del Centro, an organization in Medellín that works to empower and resignify sex work and sex workers"
+attr: "Melissa Toro, directora de Las Guerreras del Centro, una organización en Medellín que trabaja para empoderar y resignificar el trabajo sexual y las trabajadoras sexuales"
 ---
-“Many Venezuelan women have turned their life around to do this.”
+"Muchas mujeres venezolanas han cambiado su vida para hacer esto.”

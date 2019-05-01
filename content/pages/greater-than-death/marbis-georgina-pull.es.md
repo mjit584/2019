@@ -1,5 +1,4 @@
 ---
-attr: "Marbis Georgina Verenzuela, 28, younger daughter of Marbis Judith and mother of Judy"
+attr: "Marbis Georgina, 28, hija menor de Marbis Judith y madre de Judy"
 ---
-
-“I didn’t come to Colombia to make myself rich or anything. I just came to look for their health."
+"Yo no vine a Colombia para hacerme rica ni nada. Yo solo vine a buscar la salud de ellas."

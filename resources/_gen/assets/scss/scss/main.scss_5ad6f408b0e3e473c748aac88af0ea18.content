@@ -1124,7 +1124,7 @@ nav {
     .cards .card:hover .card__hover .card__desc, .cards .card:active .card__hover .card__desc {
       transition-delay: .15s; }
     .cards .card:hover .card__hover .card__button, .cards .card:active .card__hover .card__button {
-      width: 125px;
+      width: 120px;
       transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0.35s, transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0.35s, width 0.5s ease 0.8s; }
     .cards .card:hover .card__base .card__heading,
     .cards .card:hover .card__base .ybr-line,

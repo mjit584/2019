@@ -13,7 +13,6 @@ graphics:
           <div class="flex-column" id="r-1">
           <div class="interactive__header">
             <h2 class="interactive__title">Birthright Citizenship</h2>
-            <!-- <h3 class="interactive__subhead">The Legal Limbo of Venezuelans babies born in Colombia</h3> -->
             {{< ybr-line >}}
             <div class="interactive__intro">While the United States grants unconditional citizenship by birth, most countries use a system of “citizenship by blood," meaning that a person born in that country would only be considered as a citizen if one (or both) of their parents has citizenship.</div>
           </div>
@@ -24,10 +23,6 @@ graphics:
       </div>
       <!-- slideshow goes here -->
         <div class="slideshow-container" id="birthright-body-top">
-          <!-- first slide -->
-          <!-- <div class="mySlides-birthright">
-              <div class=" flourish flourish-embed flourish-chart" data-src="visualisation/259647"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
-          </div> -->
           <!-- second slide -->
           <div class="mySlides-birthright">
               <div class="flourish flourish-embed flourish-chart" data-src="visualisation/248457"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
@@ -36,8 +31,8 @@ graphics:
             <div class="slide-image flex">
               <img class="slide-img-doc slide-img" src="assets/colombia-baby-doc.svg" alt="Colombia">
               <div class="slide-txt">
-                <p>Colombia has “conditional” birthright citizenship. To obtain Colombian citizenship at birth, one must have at least one parent that is a Colombian citizen or a Colombian legal resident.</p>
-                <p>Unfortunately, many Venezuelan migrants do not fit this description.</p>
+                <p>Colombia tiene ciudadanía por nacimiento “condicional”. Para obtener una ciudadanía colombiana al nacimiento, una persona debe tener al menos un padre que es ciudadano colombiano o residente legal colombiano.</p>
+                <p>Desafortunadamente, muchos migrantes venezolanos no encajan en esta descripción.</p>
                 <p>As of now, many Venezuelans do not have the proper documentation — proof of residency or PEP —  for their newborn babies to claim citizenship. These children are considered “stateless,” as the parents cannot claim Colombian citizenship for their child.</p>
               </div>
             </div>
@@ -51,8 +46,6 @@ graphics:
         <div style="text-align:center">
           <span class="dot-Birthright" onclick="currentSlideBirthright(1)"></span>
           <span class="dot-Birthright" onclick="currentSlideBirthright(2)"></span>
-          <!-- <span class="dot-Birthright" onclick="currentSlideBirthright(3)"></span>
-          <span class="dot-Birthright" onclick="currentSlideBirthright(4)"></span> -->
         </div>
       <!-- bottom caption -->
 

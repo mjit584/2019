@@ -1,4 +1,4 @@
 ---
-attr: "Lisbeth Marcan, former Venezuelan public school teacher"
+attr: "Lisbeth Marcan, ex maestra de escuela venezolana"
 ---
-“It’s hard to see a child faint during the national anthem because he has not eaten.”
+"Es fuerte ver que un niño se te desmaye durante el himno porque no ha comido."

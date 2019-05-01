@@ -1,4 +1,4 @@
 ---
-attr: "Maria, 24, Venezuelan migrant"
+attr: "María, 24, migrante venezolana"
 ---
-"My hope is to bring my girls here so I can leave this life."
+"Mi esperanza es traerme a mis niñas aquí para poder dejar esta vida."

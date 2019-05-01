@@ -11,7 +11,7 @@ graphics:
     <!-- content for passport-->
     <div class="information-body" id="passport-body">
       <div class="information-body-r1" id="passport-body-top">
-        <div class="information-title">Passport</div>
+        <div class="information-title">Pasaporte</div>
         <div class="information-body-r3 bottom-text" id="passport-body-bottom">
           Click the arrows or the dots to navigate
         </div>
@@ -24,12 +24,11 @@ graphics:
             <div class="slide-image">
               <img class="slide-img-passport slide-img" src="assets/passport.svg" alt="pep">
               <div class="slide-txt">
-                <p>The Venezuelan passport comes in navy blue or burgundy. To obtain a passport, citizens must register
-                  for an appointment online between 5:30 p.m. to 5 a.m. Usually, there is a month-long wait for a
-                  follow-up
-                  after the first appointment. </p>
-                <p>Appointments are made through the civil registry agency known as SAIME (Servicio Administrativo de
-                  Identificación, Migración y Extranjería). </p>
+                <p>Los pasaportes venezolanos vienen en colores azul marino y burdeos. Para obtener un pasaporte, los
+                  ciudadanos deben registrarse para una cita en internet entre las 5:30 p. m. y las 5 a. m. Usualmente
+                  hay largos meses de espera para un seguimiento después de la primera cita. </p>
+                <p>Las citas son hechas a través de la agencia de registro civil conocida como SAIME (Servicio
+                  Administrativo de Identificación, Migración y Extranjería). </p>
               </div>
             </div>
           </div>
@@ -38,14 +37,15 @@ graphics:
             <div class="slide-image">
               <img class="slide-img-passport-slide2 slide-img" src="assets/passport-slide2.svg" alt="calendar">
               <div class="slide-txt">
-                <p>When obtained through official means, a Venezuelan passport costs about $1.55 USD. While this may not
-                  seem expensive, the current minimum wage hovers around $6. </p>
-                <p>Some choose to expedite the frustratingly long process and get a passport through the black market,
-                  which costs upwards of $62.</p>
-                <p>However, as of November 1st, 2018, passports must be paid for in the Petro cryptocurrency. The
-                  currency
-                  is supposed to be backed by oil and mineral reserves. Passports will cost 2 Petros (about 7,200
-                  bolivars) which is equivalent to 4 months salary. </p>
+                <p>Obtenido a través de medios oficiales, un pasaporte venezolano cuesta alrededor de USD $1.55. Aunque
+                  esto puede no parecer mucho, el salario mínimo actual está alrededor de USD $6. </p>
+                <p>Algunos eligen acelerar el frustrantemente largo proceso y obtener el pasaporte a través del mercado
+                  negro con costos por más de USD $62.</p>
+                <p>Sin embargo, hasta el primero de noviembre de 2018, los pasaportes debían ser pagados en las
+                  criptomonedas Petro. However, as of November 1st, 2018, passports must be paid for in the Petro
+                  cryptocurrency. Se supone que la moneda está respaldada por petróleo y reservas minerales. Los
+                  pasaportes costarán 2 Petros (alrededor de 7.200 bolívares) lo cual equivale a 4 meses de salario.
+                </p>
               </div>
             </div>
           </div>
@@ -54,14 +54,15 @@ graphics:
               <img class="slide-img-doc slide-img" src="assets/passport-slide3.svg" alt="document/time">
               <div class="slide-txt">
                 <p>
-                  A Venezuelan passport is not just a travel document, but a proof of identity and a means of having a
-                  say in the government. With over 3 million Venezuelans abroad, 60% of them have irregular status,
-                  meaning they can’t vote in elections due to lack of documentation.
+                  Un pasaporte venezolano no es sólo un documento para viajar, sino que también es una prueba de
+                  identidad y significa tener voz en el gobierno. Con más de 3 millones de venezolanos en el extranjero,
+                  el 60% de ellos tienen estado irregular, lo cual significa que no pueden votar en las elecciones
+                  debido a la ausencia de documentación.
                 </p>
                 <p>
-                  For those who have no choice but to leave Venezuela without a passport, they are at risk and may
-                  struggle to obtain a proof of residence in their destination country. This limits access to education,
-                  healthcare, and the ability to join the workforce.
+                  Aquellos que no tienen otra opción más que dejar Venezuela sin pasaporte, están en riesgo y deben
+                  luchar para obtener una prueba de residencia en su país de destino. Esto limita el acceso a la
+                  educación, al sistema de salud y la posibilidad de ejercer trabajos.
                 </p>
               </div>
             </div>
@@ -70,15 +71,16 @@ graphics:
             <div class="slide-image slide-img-expiration">
               <img class="slide-img-stats slide-img " src="assets/expiration date.svg" alt="stats">
               <div class="slide-txt">
-                <p>Passports are becoming nearly impossible to get due to the lack of resources to make the documents,
-                  unaffordable prices and administrative inefficiencies. </p>
-                <p>With knowledge of this, the Colombian government has decided to help out Venezuelans within the
-                  country’s borders who could not renew their passports back home.</p>
-                <p>Starting in early March of 2019, the Colombian government extended the validity of Venezuelan
-                  passports
-                  to two years past the expiration date. More than 500,000 Venezuelans could benefit from this decision.
+                <p>Los pasaportes se están volviendo casi imposibles de obtener debido a la ausencia de recursos para
+                  hacer los documentos, los precios inasequibles y las ineficiencias administrativas. </p>
+                <p>Con conocimiento de esto, el Gobierno colombiano ha decidido ayudar a los venezolanos dentro de las
+                  fronteras del país, que no pueden renovar sus pasaportes en casa.</p>
+                <p>
+                  Empezando a inicios de marzo del 2019, el Gobierno colombiano extendió la validez de los pasaportes
+                  venezolanos desde 2 años pasada la fecha de expiración. Más de 500.000 venezolanos se pudieron
+                  beneficiar de esta decisión.
                 </p>
-                <p class="sources">* Data from Migracion Colombia</p>
+                <p class="sources">* Datos de Migración Colombia</p>
               </div>
             </div>
           </div>
@@ -89,7 +91,7 @@ graphics:
           </div>
         </div>
         <div class="back-button-row flex">
-          <div class="back-button" id="passport-button">Back</div>
+          <div class="back-button" id="passport-button">Retroceder</div>
         </div>
         <div style="text-align:center">
           <span class="dot-passport" onclick="currentSlidePassport(1)"></span>
@@ -114,8 +116,10 @@ graphics:
             <div class="slide-image slide-image-pep">
               <img class="slide-img-pep slide-img" src="assets/pep.svg" alt="pep">
               <div class="slide-txt">
-                <p>PEP is short for <em>Permiso Especial de Permanencia</em>, which is Spanish for Special Permit of
-                  Permanence. It is a special permit granted to Venezuelans who seek refuge in Colombia.</p>
+                <p>
+                  PEP es la abreviación de <em>Permiso Especial de Permanencia</em> y es un permiso especial otorgado a
+                  los venezolanos que buscan refugio en Colombia.
+                </p>
               </div>
             </div>
           </div>
@@ -125,10 +129,12 @@ graphics:
               <img class="slide-img-calendar slide-img" src="assets/calendar.svg" alt="calendar">
               <div class="slide-txt">
                 <p>
-                  Venezuelans are eligible to apply for the PEP if they arrived in Colombia through an authorized
-                  immigration post before December 17, 2018, and do not have a criminal record.
+                  Los Venezolanos pueden aplicar para el PEP si llegaron a Colombia a través de un documento de
+                  inmigración autorizado antes del 17 de diciembre de 2018, y si no tienen un antecedentes criminales.
                 </p>
-                <p>In order to obtain the PEP, either a Passport or Identity Card is required.</p>
+                <p>
+                  Para obtener el PEP, se necesita un pasaporte o una tarjeta de identificación.
+                </p>
               </div>
             </div>
           </div>
@@ -137,8 +143,9 @@ graphics:
               <img class="slide-img-doc slide-img" src="assets/doc.svg" alt="document/time">
               <div class="slide-txt">
                 <p>
-                  The PEP is valid for 90 days and is extendable for up to a maximum of 2 years. Once obtained,
-                  Venezuelans are able to work, study, access the health system, and perform legal activity in Colombia.
+                  The El PEP es válido por 90 días y es extensible por un máximo de 2 años. Una vez obtenido, los
+                  venezolanos pueden trabajar, estudiar, acceder al sistema de salud y realizar actividades legales en
+                  Colombia.
                 </p>
               </div>
             </div>
@@ -147,10 +154,12 @@ graphics:
             <div class="slide-image ">
               <img class="slide-img-stats slide-img" src="assets/stats.svg" alt="stats">
               <div class="slide-txt">
-                <p>As of December 2018, <strong>1,174,743</strong> Venezuelans have migrated to Colombia. Only
-                  <strong>45.6%</strong> of them have obtained the PEP.</p>
-                <p>In total, more half of the Venezuelans in Colombia are undocumented.</p>
-                <p class="sources">* Data from Migracion Colombia</p>
+                <p>
+                  Hasta diciembre de 2018, <strong>1’174.743</strong> venezolanos habían inmigrado en Colombia. Sólo el
+                  <strong>45,6%</strong> de ellos obtuvieron el PEP.
+                </p>
+                <p>En total, más de la mitad de los venezolanos en Colombia están indocumentados.</p>
+                <p class="sources">* Datos de Migración Colombia</p>
               </div>
             </div>
           </div>
@@ -161,7 +170,7 @@ graphics:
           </div>
         </div>
         <div class="back-button-row flex">
-          <div class="back-button" id="PEP-button">Back</div>
+          <div class="back-button" id="PEP-button">Retroceder</div>
         </div>
         <div style="text-align:center">
           <span class="dot" onclick="currentSlide(1)"></span>
@@ -179,7 +188,7 @@ graphics:
     <!-- contont for National id -->
     <div class="information-body" id="ID-body">
       <div class="information-body-r1" id="ID-body-top">
-        <div class="information-title border-red">Venezuelan ID</div>
+        <div class="information-title border-red">Identificación venezolana</div>
       </div>
       <!-- slideshow goes here -->
       <div class="information-body-r2">
@@ -189,10 +198,12 @@ graphics:
             <div class="slide-image slide-image-ID flex">
               <img class="slide-img-ID slide-img" src="assets/cedula.svg" alt="pep">
               <div class="slide-txt2">
-                <p>A Venezuelan ID Card, also known as a <em>Cédula de Identidad</em>, is the national identity card
-                  Venezuela’s
-                  government issues. Many countries, such as China (PRC Resident Identity Card) and France (Carte
-                  Nationale d’Identité), also have national identity cards. </p>
+                <p>
+                  Una tarjeta de identificación venezolana, también conocida como <em>Cédula de identidad</em>, es la
+                  identificación nacional que el Gobierno venezolano tramita. Muchos países, como China (tarjeta de
+                  identidad de residente PRC) y Francia (Tarjeta nacional de identidad) utilizan documentos nacionales
+                  de identidad.
+                </p>
               </div>
             </div>
           </div>
@@ -202,14 +213,14 @@ graphics:
               <img class="slide-img-calendar slide-img " src="assets/cedule-groceries.svg" alt="calendar">
               <div class="slide-txt2">
                 <p>
-                  To obtain a cédula, Venezuelans must be at least nine years old and provide an original birth
-                  certificate.
+                  Para obtener una cédula, los venezolanos deben tener al menos 9 años y proveer un certificado de
+                  nacimiento original.
                 </p>
                 <p>
-                  It’s difficult to go a day without needing a cédula. They are used to make purchases, vote, travel
-                  domestically and internationally, and stay in hotels.
+                  Es difícil estar un día sin necesitar una cédula. Estas son utilizadas para hacer compras, votar,
+                  viajar nacional e internacionalmente y para permanecer en hoteles.
                 </p>
-                <p>Cédulas contain a number that is used to identify every citizen.</p>
+                <p>Las cédulas tienen un número utilizado para identificar a cada ciudadano.</p>
               </div>
             </div>
           </div>
@@ -217,12 +228,16 @@ graphics:
             <div class="slide-image flex">
               <img class="slide-img-doc slide-img" src="assets/printer.svg" alt="document/time">
               <div class="slide-txt2">
-                <p>It’s becoming almost impossible to obtain a cédula due to the shortage of resources to make the
-                  documents. Most offices do not have the printers needed to print the cédula, and some offices are
-                  asking citizens to bring their own laminator.</p>
-                <p>Cédulas were once the main documentation Venezuelan migrants used to legally enter surrounding
-                  countries, but now, many countries, such as Peru, are requiring a passport because cédulas are easy
-                  documents to forge and falsify. </p>
+                <p>
+                  Se está volviendo casi imposible obtener una cédula debido al recorte de los recursos para hacer los
+                  documentos. La mayoría de oficinas no tienen las impresoras necesarias y algunas que no pueden
+                  imprimir le piden a los ciudadanos llevar su propio laminador.
+                </p>
+                <p>
+                  Las cédulas fueron alguna vez el principal documento que los migrantes venezolanos utilizaban para
+                  entrar legalmente a los países que lo rodean, pero ahora, muchos países como Perú, están requiriendo
+                  un pasaporte porque las cédulas son documentos fácilmente falsificables.
+                </p>
               </div>
             </div>
           </div>
@@ -231,21 +246,21 @@ graphics:
               <img class="slide-img-stats slide-img" src="assets/carnet-de-la-patria.svg" alt="stats">
               <div class="slide-txt2">
                 <p>
-                  Starting in December 2016, President Nicolás Maduro rolled out a new identity card called the
-                  <em>Carnet de la Patria</em>, or “Fatherland Card.” Over half the population has enrolled for the new
-                  card.
+                  Desde diciembre de 2016, el presidente Nicolás Maduro desplegó una nueva tarjeta de identificación
+                  llamada <em>El Carnet de la Patria</em>. Más de la mitad de la población se ha inscrito por la nueva
+                  tarjeta.
                 </p>
                 <p>
-                  The new ID card has come under criticism as being a means for the government to monitor citizens and
-                  allocate scarce resources. The card gives a lot of personal data to computer services, such as a
-                  person's location or whether someone voted.
+                  El nuevo documento de identificación ha venido bajo críticas por ser un medio para el gobierno
+                  supervisar a los ciudadanos y asignarles recursos escasos. La tarjeta da un montón de información
+                  personal a los servicios de cómputo, como la ubicación de la persona o por quién votó.
                 </p>
                 <p>
-                  On a trip in 2008, Venezuelan officials learned that Chinese company ZTE was developing a system that
-                  would help Beijing track its citizens' behaviors. About six years later, ZTE was hired to build the
-                  fatherland card database.
+                  En un viaje en el 2008, los oficiales venezolanos descubrieron que la compañía china ZTE estaba
+                  desarrollando un sistema que ayudaría a Beijing a rastrear el comportamiento de los ciudadanos. Cerca
+                  de 6 años después, ZTE fue contratado para construir la base de datos de las Tarjetas de la Patria.
                 </p>
-                <p class="sources">* Data from El Tiempo and Migracion Colombia</p>
+                <p class="sources">* Datos de El Tiempo y Migración Colombia</p>
               </div>
             </div>
           </div>
@@ -256,7 +271,7 @@ graphics:
           </div>
         </div>
         <div class="back-button-row flex">
-          <div class="back-button" id="ID-button">Back</div>
+          <div class="back-button" id="ID-button">Retroceder</div>
         </div>
         <div style="text-align:center">
           <span class="dot-ID" onclick="currentSlideID(1)"></span>
@@ -275,12 +290,12 @@ graphics:
     <div class="container-body">
       <div class="flex-column" id="r-1">
         <div class="interactive__header">
-          <h2 class="interactive__title">Undocumented</h2>
-          <h3 class="interactive__subhead">The Legal Limbo of Venezuelans in Colombia</h3>
+          <h2 class="interactive__title">Indocumentado</h2>
+          <h3 class="interactive__subhead">El limbo legal de los venezolanos en colombia</h3>
           {{< ybr-line >}}
         </div>
         <div class="flex" id="r-3">
-          <div class="bottom-text">Click to explore the documentation</div>
+          <div class="bottom-text">Haga clic para explorar la documentación</div>
         </div>
         <div class="flex" id="r-2">
           <div class="flex document-box" id="r-2-c-1">
@@ -288,7 +303,7 @@ graphics:
               <img class="passport-svg" src="assets/passport.svg" alt="passport">
             </div>
             <div class="flex document-txt">
-              <div class="document-caption">Passport</div>
+              <div class="document-caption">Pasaporte</div>
             </div>
           </div>
           <div class="flex document-box" id="r-2-c-2">
@@ -304,7 +319,7 @@ graphics:
               <img class="cedula-svg" src="assets/cedula.svg" alt="passport">
             </div>
             <div class="flex document-txt">
-              <div class="document-caption">Venezuelan ID</div>
+              <div class="document-caption">Identificación venezolana</div>
             </div>
           </div>
         </div>

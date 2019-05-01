@@ -1,4 +1,4 @@
 ---
-attr: "Maria, 24, Venezuelan migrant"
+attr: "María, 24, migrante venezolana"
 ---
-"I do not know other women but in my case, I don't feel good and I don't like it at all.”
+"No se de otras mujeres, pero en el caso mío, no me siento bien y no me gusta para nada."

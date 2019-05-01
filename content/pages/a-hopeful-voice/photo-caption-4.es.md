@@ -1,6 +1,6 @@
 ---
 title: "Here is the title of the photo"
-image: "../a-hopeful-voice/assets/govt-map.png"
+image: "../a-hopeful-voice/assets/govt-map-es.png"
 alt: "A map of Irelys's journey to Colombia from her home in Isla Margarita"
 photographer: "Photog"
 ---
