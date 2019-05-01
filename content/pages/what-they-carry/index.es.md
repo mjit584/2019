@@ -16,7 +16,7 @@ photographer: "Alex Kormann, Nash Consing, Catie Dull"
 designer: "Brooke Fisher"
 udea: "Laura Trujillo Arango, Juan Ochoa, Maria Alejandra Cardona Aizpurua"
 layout: 'photo-pages'
-footer: "Sobre Nosotros"
+aboutUs: "Sobre Nosotros"
 footerCTA: "Más de Uprooted"
 ---
 

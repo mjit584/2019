@@ -6,7 +6,7 @@ storyHeading: "About Us"
 image: "../images/about-headerimage.jpg"
 card: false
 layout: "about"
-footer: "About Us"
+aboutUs: "About Us"
 footerCTA: "More from Uprooted"
 ---
 

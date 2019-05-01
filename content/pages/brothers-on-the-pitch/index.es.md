@@ -19,7 +19,7 @@ author: "Brooklynn Cooper"
 videographer: "Bryan Cereijo, Abby Cantrell"
 designer: "Kailee Akers"
 udea: "Martín Villaneda"
-footer: "Sobre Nosotros"
+aboutUs: "Sobre Nosotros"
 footerCTA: "Más de Uprooted"
 ---
 

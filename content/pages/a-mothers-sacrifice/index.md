@@ -19,7 +19,7 @@ author: "Diane Adame"
 videographer: "Zayhra Rodriguez, Haley France"
 designer: "Amy Townsend, Sally Dillon"
 udea: "Margarita Restrepo"
-footer: "About Us"
+aboutUs: "About Us"
 footerCTA: "More from Uprooted"
 ---
 

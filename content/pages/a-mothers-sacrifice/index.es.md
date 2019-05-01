@@ -19,7 +19,7 @@ author: "Diane Adame"
 videographer: "Zayhra Rodriguez, Haley France"
 designer: "Amy Townsend, Sally Dillon"
 udea: "Margarita Restrepo"
-footer: "Sobre Nosotros"
+aboutUs: "Sobre Nosotros"
 footerCTA: "Más de Uprooted"
 ---
 <div class="story__subhead story__subhead-warning"><strong>CONTENT WARNING: This article contains information and depictions of sexual assault, child sexual abuse and sexual content that may be triggering for some.</strong></div>

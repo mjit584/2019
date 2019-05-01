@@ -19,7 +19,7 @@ author: "Sara Pequeno"
 videographer: "Tenley Garrett, Peggy Mullin"
 designer: "Carlos Salas"
 udea: "Laura Andrea García Giraldo"
-footer: "About Us"
+aboutUs: "About Us"
 footerCTA: "More from Uprooted"
 ---
 

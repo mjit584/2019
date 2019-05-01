@@ -19,7 +19,7 @@ author: "Maria Elena Vizcaino"
 videographer: "Landon Cooper, Jason Armond"
 designer: "Sally Dillon, Xiaoke Ji"
 udea: "Laura Andrea Garcia Giraldo"
-footer: "About Us"
+aboutUs: "About Us"
 footerCTA: "More from Uprooted"
 ---
 

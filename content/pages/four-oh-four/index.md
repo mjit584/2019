@@ -1,5 +1,5 @@
 ---
-footer: "About Us"
+aboutUs: "About Us"
 footerCTA: "More from Uprooted"
 ---
 <div class="error__text flex-column">

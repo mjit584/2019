@@ -19,7 +19,7 @@ author: "Sara Pequeno"
 videographer: "Tenley Garrett, Peggy Mullin"
 designer: "Carlos Salas"
 udea: "Laura Andrea García Giraldo"
-footer: "Sobre Nosotros"
+aboutUs: "Sobre Nosotros"
 footerCTA: "Más de Uprooted"
 ---
 Marbis Judith Verenzuela, 53, knew she had to go back. Her oldest daughter, Jorlis, was still in Venezuela. So last December, she traveled back from Colombia to save her family.

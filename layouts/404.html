@@ -1,6 +1,8 @@
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}error-page{{ end }}
 {{ define "main" }}
+
+{{ with .Site.GetPage "/four-oh-four" }}
 <div class="home__overlay" id="home-overlay"></div>
 {{ partial "main-menu-mobile.html" . }}
 
@@ -19,8 +21,7 @@
   <img src="http://uprooted.unc.edu/images/404/404-error-icon-updated.svg"
     alt="404 error with arepa icon as the zero" />
 </section>
-
-{{ with .Site.GetPage "/four-oh-four" }}{{ .Content }}
+{{ .Content }}
 
 <div id="error__bts">
   <!-- I will dynamically build this out using Javascript-->

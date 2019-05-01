@@ -1,5 +1,5 @@
 ---
-footer: "Sobre Nosotros"
+aboutUs: "Sobre Nosotros"
 footerCTA: "Más de Uprooted"
 ---
 

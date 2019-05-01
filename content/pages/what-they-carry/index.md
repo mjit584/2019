@@ -17,7 +17,7 @@ photographer: "Alex Kormann, Catie Dull"
 designer: "Brooke Fisher, Kailyn Akers"
 udea: "Laura Trujillo Arango, Juan Ochoa, Maria Alejandra Cardona"
 layout: "photo-pages"
-footer: "About Us"
+aboutUs: "About Us"
 footerCTA: "More from Uprooted"
 ---
 
