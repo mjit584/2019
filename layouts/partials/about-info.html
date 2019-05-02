@@ -1,36 +1,41 @@
-<div class="mix about__person {{ .filter }}">
-  {{ if ne .symbol "undefined"}}
-  <img src="{{ .img }}" alt="{{ .first }}{{ .last }}" title="An icon that describes {{ .first }}: {{ .symbol }}" />
+<div class="mix about__person {{ .data.filter }}">
+  {{ if ne .data.symbol "undefined"}}
+  <img src="{{ .data.img }}" alt="{{ .data.first }}{{ .data.last }}"
+    title="An icon that describes {{ .data.first }}: {{ .data.symbol }}" />
   {{ else }}
-  <img src="{{ .img }}" alt="{{ .first }}{{ .last }}" title="{{ .first }} {{ .last}}" />
+  <img src="{{ .data.img }}" alt="{{ .data.first }}{{ .data.last }}" title="{{ .data.first }} {{ .data.last}}" />
   {{ end }}
   <div class="about__info flex-column">
-    {{ if eq .website ""}}
-    <span class="about__name">{{.first }} {{ .last }}</span>
+    {{ if eq .data.website ""}}
+    <span class="about__name">{{.data.first }} {{ .data.last }}</span>
     {{else}}
-    <a href="{{ .website }}" target="_blank"><span class="about__name">{{.first }} {{ .last }}</span></a>
+    <a href="{{ .data.website }}" target="_blank"><span class="about__name">{{.data.first }} {{ .data.last }}</span></a>
     {{end}}
 
-    <span class="about__role">{{ .role }}</span>
+    <span class="about__role">{{ .data.role }}</span>
     <div class="about__links">
-      {{ if ne .fb "" }}
-      <a href="{{ .fb }}" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      {{ if ne .data.fb "" }}
+      <a href="{{ .data.fb }}" target="_blank"><i class="fab fa-facebook-f"></i></a>
       {{end}}
-      {{if ne .twitter "" }}
-      <a href="{{ .twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>
+      {{if ne .data.twitter "" }}
+      <a href="{{ .data.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>
       {{end}}
-      {{if ne .instagram "" }}
-      <a href="{{ .instagram }}" target="_blank"><i class="fab fa-instagram"></i></a>
+      {{if ne .data.instagram "" }}
+      <a href="{{ .data.instagram }}" target="_blank"><i class="fab fa-instagram"></i></a>
       {{end}}
-      {{ if ne .linkedin ""}}
-      <a href="{{ .linkedin }}" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      {{ if ne .data.linkedin ""}}
+      <a href="{{ .data.linkedin }}" target="_blank"><i class="fab fa-linkedin-in"></i></a>
       {{end}}
-      {{ if ne .gh ""}}
-      <a href="{{ .gh }}" target="_blank"><i class="fab fa-github"></i></a>
+      {{ if ne .data.gh ""}}
+      <a href="{{ .data.gh }}" target="_blank"><i class="fab fa-github"></i></a>
       {{end}}
     </div>
     <div class="about__bio">
-      <p>{{ .desc }}</p>
+      {{ if eq .language "en" }}
+      <p>{{ .data.desc }}</p>
+      {{ else }}
+      <p>{{ .data.desc_es }}</p>
+      {{ end }}
     </div>
   </div>
 </div>
