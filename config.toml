@@ -70,20 +70,15 @@ canonifyURLs = "true"
     post = "http://uprooted.unc.edu/images/photo-chap-1-hero.jpg"
 
 [[languages.es.menu.photo]]
-    name = "An inside look into where migrants live after leaving home."
-    url = "/a-new-home/"
+    name = "Una mirada al interior de donde viven los inmigrantes después de dejar su hogar."
+    url = "/un-nuevo-hogar/"
     weight = 2
-    pre = "<p class='story-topic'>Capítulo dos</p><h3 class='story-title'>A New Home</h3>"
+    pre = "<p class='story-topic'>Capítulo dos</p><h3 class='story-title'>Un nuevo hogar</h3>"
     post = "http://uprooted.unc.edu/images/photo-chap-2-hero.jpg"
 
   [[languages.es.menu.photo]]
-<<<<<<< HEAD
-    name = "A family struggles to survive, having arrived in Medellin ten days prior."
-    url = "/a-family-together/"
-=======
     name = "La lucha por sobrevivir de una familia, habiendo llegado a Medellín hace 10 días."
-    url = "/es/una-familia-unida/"
->>>>>>> 6d637cc412be331508d82e6e5e849e5b735d54cd
+    url = "/una-familia-unida/"
     weight = 3
     pre = "<p class='story-topic'>Capítulo tres</p><h3 class='story-title'>Una familia, unida</h3>"
     post = "http://uprooted.unc.edu/images/photo-chap-3-hero.jpg"
