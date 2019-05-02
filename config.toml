@@ -9,6 +9,7 @@ canonifyURLs = "true"
 
 [languages]
   [languages.en]
+    baseURL = "http://uprooted.unc.edu/"
     title = "Uprooted: The Faces of the Venezuelan Crisis"
     weight = "1"
     languageName = "English"
@@ -16,6 +17,7 @@ canonifyURLs = "true"
     [languages.en.params]
       
   [languages.es]
+    baseURL = "http://uprooted.unc.edu/es"
     title = "Uprooted: Las caras de la crisis venezolana"
     weight = "2"
     languageName = "Español"
@@ -25,35 +27,35 @@ canonifyURLs = "true"
       [languages.es.params.navigation]
         help = "Ayuda"
 [[languages.es.menu.main]]
-	url = "/es/encontrando-tu-voz/"
+	url = "/encontrando-tu-voz/"
   weight = 1
   name = "Venezolanos indocumentados encuentran su sustento cantando en la calle."
   pre = "<p class='story-topic'>Documentación</p><h3 class='story-title'>Encontrando tu Voz</h3>"
   post = "http://uprooted.unc.edu/images/gov-homepagestill.jpg"
 
 [[languages.es.menu.main]]
-  url = "/es/hermanos-en-el-terreno/"
+  url = "/hermanos-en-el-terreno/"
   weight = 2
   name = "Venezolanos encuentran camaradería, familia y apoyo a través del deporte."
   pre = "<p class='story-topic'>Economía</p><h3 class='story-title'>Hermanos en El Terreno</h3>"
   post = "http://uprooted.unc.edu/images/econ-homepagestill.jpg"
 
 [[languages.es.menu.main]]
-  url = "/es/mas-grande-que-la-muerte/"
+  url = "/mas-grande-que-la-muerte/"
   weight = 3
   name = "El sacrificio de una familia por la salud de sus hijos todavía tiene obstáculos."
   pre = "<p class='story-topic'>Salud</p><h3 class='story-title'>Más Grande que La Muerte</h3>"
   post = "http://uprooted.unc.edu/images/health-homepagestill.jpg"
 
 [[languages.es.menu.main]]
-  url = "/es/lo-que-cuestan-los-suenos/"
+  url = "/lo-que-cuestan-los-suenos/"
   weight = 4 
   name = "Los niños sacrifican su educación para apoyar a sus familias."
   pre = "<p class='story-topic'>Educación</p><h3 class='story-title'>Lo que Cuestan los Sueños</h3>"
   post = "http://uprooted.unc.edu/images/education-homepagestill.jpg"  
 
 [[languages.es.menu.main]]
-  url = "/es/el-sacrificio-de-una-madre/"
+  url = "/el-sacrificio-de-una-madre/"
   weight = 5
   name = "El esfuerzo de una madre por proveer y reunirse con sus hijos."
   pre = "<p class='story-topic'>Las Mujeres</p><h3 class='story-title'>El Sacrificio de una Madre</h3>"
@@ -62,28 +64,28 @@ canonifyURLs = "true"
 # Menu in spanish for photo journey
 [[languages.es.menu.photo]]
     name = "Venezuelans travel to Medellín clutching some things with a tighter grip."
-    url = "/es/what-they-carry/"
+    url = "/what-they-carry/"
     weight = 1
     pre = "<p class='story-topic'>Chapter One</p><h3 class='story-title'>What They Carry</h3>"
     post = "http://uprooted.unc.edu/images/photo-chap-1-hero.jpg"
 
 [[languages.es.menu.photo]]
     name = "An inside look into where migrants live after leaving home."
-    url = "/es/a-new-home/"
+    url = "/a-new-home/"
     weight = 2
     pre = "<p class='story-topic'>Chapter Two</p><h3 class='story-title'>A New Home</h3>"
     post = "http://uprooted.unc.edu/images/photo-chap-2-hero.jpg"
 
   [[languages.es.menu.photo]]
     name = "A family struggles to survive, having arrived in Medellin ten days prior."
-    url = "/es/a-family-together/"
+    url = "/a-family-together/"
     weight = 3
     pre = "<p class='story-topic'>Chapter Three</p><h3 class='story-title'>A Family, Together</h3>"
     post = "http://uprooted.unc.edu/images/photo-chap-3-hero.jpg"
 
   [[languages.es.menu.photo]]
     name = "The success stories of Venezuelan immigrants in a new country."
-    url = "/es/making-it-in-medellin/"
+    url = "/making-it-in-medellin/"
     weight = 4
     pre = "<p class='story-topic'>Chapter Four</p><h3 class='story-title'>Making it in Medellín</h3>"
     post = "http://uprooted.unc.edu/images/photo-chap-4-hero.jpg"

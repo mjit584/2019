@@ -6,5 +6,5 @@ aboutUs: "Sobre Nosotros"
 footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"
-url: es/making-it-in-medellin
+url: making-it-in-medellin
 ---

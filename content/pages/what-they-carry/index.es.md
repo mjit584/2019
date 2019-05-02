@@ -21,7 +21,7 @@ footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"
 cta: "Explorar"
-url: es/what-they-carry
+url: what-they-carry
 ---
 
 As resources dwindle, violence erupts, and corruption becomes rampant, Venezuelans cope with the reality of leaving their home. They are forced to leave nearly everything behind in search of a safer life. However, some items are held near and dear as families and individuals escape the turmoil that has overridden their country. Venezuelans hold these items close to their heart while they hope for the day that their country will return to peace.

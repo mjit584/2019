@@ -16,7 +16,7 @@
     <!-- Video is embedded in the WEBM format -->
     <source src="{{ .background }}" type="video/mp4" />
   </video>
-  <img class="story-hero__img" src="{{ .still }}" />
+  <img class="story-hero__img" src="{{ .Site.BaseURL }}{{ .still }}" />
   <div class="story-hero__topic">
     <p>{{ .topic }}</p>
     {{ partial "ybr-line.html" . }}

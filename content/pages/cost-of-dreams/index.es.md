@@ -1,12 +1,12 @@
 ---
 title: "Lo que Cuestan los Sueños"
-url: es/lo-que-cuestan-los-suenos
+url: lo-que-cuestan-los-suenos
 topic: "Educación"
 date: 2019-02-04T21:35:51-05:00
 description: "Los niños sacrifican su educación para apoyar a sus familias."
-video: "../cost-of-dreams/assets/education-headervideo.mp4"
-headerStill: "../cost-of-dreams/assets/education-headerstill.jpg"
-videoStill: "../cost-of-dreams/assets/education-videostill.jpg"
+video: "../lo-que-cuestan-los-suenos/assets/education-headervideo.mp4"
+headerStill: "../lo-que-cuestan-los-suenos/assets/education-headerstill.jpg"
+videoStill: "../lo-que-cuestan-los-suenos/assets/education-videostill.jpg"
 image: "http://uprooted.unc.edu/images/education-homepagestill.jpg"
 storyHeading: "Lo que Cuestan los Sueños"
 storySubheading: "Los niños sacrifican su educación para apoyar a sus familias."
