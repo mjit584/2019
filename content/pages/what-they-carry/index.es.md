@@ -1,12 +1,12 @@
 ---
-title: "Photo Journey"
-topic: "Photo Series"
+title: "El viaje"
+topic: "Viaje Fotográfico"
 date: 2019-02-04T21:34:53-05:00
-description: "This is the description for the first story."
+description: "Fotografías de los migrantes venezolanos y sus nuevas vidas en Medellín."
 image: "http://uprooted.unc.edu/images/photo-chap-1-hero.jpg"
 imageHome: "http://uprooted.unc.edu/images/photo-homepagephoto.jpg"
-storyHeading: "What They Carry"
-storySubheading: "Venezuelans travel to Medellín clutching some things with a tighter grip"
+storyHeading: "Lo que cargan"
+storySubheading: "Los venezonales viajan a Medellín agarrando algunas con mayor fuerza que otras."
 weight: 6
 card: true
 photoTitle: "Foto por"
@@ -22,10 +22,10 @@ footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"
 cta: "Explorar"
-url: what-they-carry
+url: lo-que-cargan
 ---
 
-As resources dwindle, violence erupts, and corruption becomes rampant, Venezuelans cope with the reality of leaving their home. They are forced to leave nearly everything behind in search of a safer life. However, some items are held near and dear as families and individuals escape the turmoil that has overridden their country. Venezuelans hold these items close to their heart while they hope for the day that their country will return to peace.
+Mientras los recursos escasean, la violencia sale a la vista, y la corrupción se hace presente de manera desenfrenada, los venezolanos se ven expuestos a la realidad de dejar sus hogares. Se ven forzados a dejarlo casi todo atrás en la búsqueda de una vida mejor y más segura. Sin embargo, algunos objetos son tomados con fuerza y aprecio mientras los individuos y las familias escapan del estado desasosiego y profunda confusión que ha sobrecogido a su país. Los venezolanos mantienen estos objetos cerca a sus corazones mientras mantienen la esperanza de que algún día su país sea de nuevo un territorio de paz.
 
 <!-- this one is for Kiara -->
 {{< photo-diptych "/pages/what-they-carry" "photo-diptych-1" >}}
@@ -66,7 +66,7 @@ As resources dwindle, violence erupts, and corruption becomes rampant, Venezuela
 
 <div class="photo__line"></div>
 
-Venezuelans have been traveling across the country to find a better place to live. <a href="https://www.nytimes.com/2019/02/20/world/americas/venezuela-refugees-colombia.html" target="_blank">Over three million Venezuelans</a> have left the country, with many of them staying in neighboring country Colombia. Colombia has taken in over one million Venezuelans, and it is projected by 2021 that nearly 4 million Venezuelans could be living in Colombia. While the financial strain on Colombia has been felt, the government has left the borders fairly open, and Colombians have welcomed their Venezuelan brothers and sisters into the country. 
+Los venezolanos han estado viajando alrededor del país para encontrar un mejor lugar para vivir. <a href="https://www.nytimes.com/2019/02/20/world/americas/venezuela-refugees-colombia.html" target="_blank" rel="noopener noreferrer">Más de tres millones de venezolanos</a> han dejado su país, y muchos de ellos se han quedado en Colombia, país vecino. Colombia ha recibido más de un millón de venezolanos, y se presupuesta que para el 2021 una cifra cercana a los 4 millones de venezolanos podría estar viviendo en Colombia. Mientras que la presión financiera se ha hecho sentir en el país, el Gobierno ha mantenido sus fronteras abiertas, y los colombianos han acogido a sus hermanos y hermanas venezolanos en el país.
 
 {{< story-interactives "/pages/what-they-carry" "photo-migration-int" >}}
 

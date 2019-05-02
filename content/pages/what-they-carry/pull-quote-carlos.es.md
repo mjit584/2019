@@ -1,4 +1,4 @@
 ---
 attr: "Juan Carlos"
 ---
-"Material things aren’t that important, what’s important is that we’re fine."
+"Las cosas materiales no son tan impostantes, lo que importa es que nosotros estamos bien”

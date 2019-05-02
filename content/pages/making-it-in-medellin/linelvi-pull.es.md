@@ -1,4 +1,4 @@
 ---
-attr: "Linevli Rivas, electronics shop owner"
+attr: "Linevli Rivas, dueña de una tienda de electrónica"
 ---
-"People have shown us their backs, but you gotta rise and walk, because my heart is still in Venezuela."
+“La gente nos ha mostrado la espalda, pero te tienes que levantar y caminar, porque mi corazón está todavía en Venezuela”.

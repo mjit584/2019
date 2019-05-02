@@ -1,4 +1,4 @@
 ---
-attr: "Raúl Vargas, champion shooter"
+attr: "Raúl Vargas, campeón de disparos de rifle"
 ---
-"If Colombia is giving me an opportunity, I want to give myself the opportunity with Colombia to be a Colombian athlete."
+“Si Colombia me está dando la oportunidad, yo quiero darme la oportunidad con Colombia de ser un atleta colombiano”.

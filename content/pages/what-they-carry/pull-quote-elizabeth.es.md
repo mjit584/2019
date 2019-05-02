@@ -1,4 +1,4 @@
 ---
 attr: "Elizabeth Tarazona"
 ---
- “I feel more of a Venezuelan person than a Colombian. I only brought my memories from home and I have three reasons to go back.”
+“Yo me siento más como una venezolana que una colombiana. Solo traje los recuerdos de mi hogar y tengo tres motivos para regresar”.

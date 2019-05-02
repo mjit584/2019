@@ -1,5 +1,4 @@
 ---
-attr: "Rui Pereira, owner of Della Nonna Trattoria"
+attr: "Rui Pereira, propietario de Della Nonna Trattoria"
 ---
-
-“Financially speaking, we were not hurt . . . but it came to the point where I did not feel safe. I couldn’t go to work without security. I could not relax. I felt trapped in my own country.”
+“Financieramente hablando, nosotros no nos vimos afectados… pero la situación llegó al punto en el que no me sentía seguro. No podía ir a trabajar sin seguridad, no podía relajarme. Me sentía atrapado en mi propio país”.
