@@ -1,12 +1,12 @@
 ---
 title: "El Sacrificio de una Madre"
-url: es/el-sacrificio-de-una-madre
+url: el-sacrificio-de-una-madre
 topic: "Las Mujeres"
 date: 2019-02-04T21:36:06-05:00
 description: "El esfuerzo de una madre por proveer y reunirse con sus hijos."
-video: "assets/women-headervideo2.mp4"
-videoStill: "assets/women-videostill.jpg"
-headerStill: "assets/women-headerstill.jpg"
+video: "../el-sacrificio-de-una-madre/assets/women-headervideo2.mp4"
+videoStill: "../el-sacrificio-de-una-madre/assets/women-videostill.jpg"
+headerStill: "../el-sacrificio-de-una-madre/assets/women-headerstill.jpg"
 image: "http://uprooted.unc.edu/images/women-homepagestill.jpg"
 storyHeading: "El Sacrificio de una Madre"
 storySubheading: "El esfuerzo de una madre por proveer y reunirse con sus hijos."
@@ -21,6 +21,7 @@ videographer: "Zayhra Rodriguez, Haley France"
 designer: "Amy Townsend, Sally Dillon"
 udea: "Margarita Restrepo"
 aboutUs: "Sobre Nosotros"
+aboutUsURL: sobre-nosotros
 footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"

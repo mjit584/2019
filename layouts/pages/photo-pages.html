@@ -64,11 +64,8 @@
 <script type="text/javascript" src="{{ $photoPagesBundle.RelPermalink }}"></script>
 {{ else }}
 <script type="text/javascript" src="{{ ($photoPagesBundle | minify | fingerprint).RelPermalink }}"></script>
-{{end}}
 {{ end }}
-
-{{ block "footer_js" . }}{{ end }}
-
-
-
+{{ end }}
+{{ block "footer_js" . }}
+{{ end }}
 {{ end }}

@@ -15,7 +15,8 @@
       {{ partial "main-menu-photos.html" . }}
     </div>
 
-    <a href="/about" class="header__about" id="header__about">{{ .Params.aboutUs }}</a>
+    <a href="{{ .Site.BaseURL }}{{ .Params.aboutUsURL }}" class="header__about"
+      id="header__about">{{ .Params.aboutUs }}</a>
     <div class="header__social-icons">
       <a href="https://www.facebook.com/uprootedUNC/" target="_blank"><i
           class="header__social-icon fab fa-facebook-f"></i></a>
@@ -24,8 +25,16 @@
           class="header__social-icon fab fa-instagram"></i></a>
     </div>
     <div class="header__lang-toggle">
-      {{ range $.Site.Home.AllTranslations }}
-      <a href="{{ .Permalink }}"><span>{{ .Language.LanguageName }}</span></a></div> {{ end }}
+      {{ $currentLang := .Site.Language }}
+      {{ $currentPage := .Permalink }}
+      {{ range $.AllTranslations }}
+      {{ if eq $currentLang .Site.Language }}
+      <a class="header__lang-option active" href="{{ $currentPage }}">{{ .Language.Lang }}</a>
+      {{ else }}
+      <a class="header__lang-option" href="{{ .Permalink }}">{{ .Language.Lang }}</a>
+      {{ end }}
+      {{ end }}
+    </div>
     <!-- <a href="{{ .Site.BaseURL }}en"><span class="header__lang-toggle__en">EN</span></a> |
     <a href="{{ .Site.BaseURL }}es"><span class="header__lang-toggle__es">ES</span></a> -->
   </div>

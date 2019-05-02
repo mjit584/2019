@@ -17,11 +17,14 @@ photoTitle: "Foto por"
 designTitle: "Gráficos por"
 udeaTitle: "Productores de campo"
 aboutUs: "Sobre Nosotros"
+aboutUsURL: sobre-nosotros
 footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"
-url: es/una-familia-unida
+url: una-familia-unida
+layout: 'photo-pages'
 ---
+
 Después de viajar cientos de kilómetros a pie, un grupo de 5 venezolanos, quienes se llaman a sí mismos una familia, llegaron a Medellín el 27 de febrero. Antes de dejar sus hogares, ellos tenían trabajos honestos, camarería y peluquería, por ejemplo, pero todos fueron despedidos en el transcurso del año debido al declive de la economía. Ahora en Colombia, la familia trabaja 15 horas al día pidiendo dinero en la calle a cambio de dulces, todo ello para conseguir el suficiente dinero que les permita comprar comida y rentar una pequeña habitación cada noche.
 
 {{< photo-caption "/pages/a-family-together" "photo-caption-1" >}}

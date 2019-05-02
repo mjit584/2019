@@ -1,12 +1,12 @@
 ---
 title: "Más Grande que La Muerte"
-url: es/mas-grande-que-la-muerte
+url: mas-grande-que-la-muerte
 topic: "Salud"
 date: 2019-02-04T21:35:29-05:00
 description: "El sacrificio de una familia por la salud de sus hijos todavía tiene obstáculos."
-video: "assets/health-headervideo.mp4"
-headerStill: "assets/health-headerstill.jpg"
-videoStill: "assets/health-videostill.jpg"
+video: "../mas-grande-que-la-muerte/assets/health-headervideo.mp4"
+headerStill: "../mas-grande-que-la-muerte/assets/health-headerstill.jpg"
+videoStill: "../mas-grande-que-la-muerte/assets/health-videostill.jpg"
 image: "http://uprooted.unc.edu/images/health-homepagestill.jpg"
 storyHeading: "Más Grande que La Muerte"
 storySubheading: "El sacrificio de una familia por la salud de sus hijos todavía tiene obstáculos."
@@ -21,6 +21,7 @@ videographer: "Tenley Garrett, Peggy Mullin"
 designer: "Carlos Salas"
 udea: "Laura Andrea García Giraldo"
 aboutUs: "Sobre Nosotros"
+aboutUsURL: sobre-nosotros
 footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"

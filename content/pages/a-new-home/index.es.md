@@ -17,11 +17,15 @@ photoTitle: "Foto por"
 designTitle: "Gráficos por"
 udeaTitle: "Productores de campo"
 aboutUs: "Sobre Nosotros"
+aboutUsURL: sobre-nosotros
 footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"
-url: es/un-nuevo-hogar
+url: un-nuevo-hogar
+layout: 'photo-pages'
+weight: 2
 ---
+
 Luego de dejar atrás su país de origen, donde la mayoría de inmigrantes venezolanos pasaron su vida, las familias se ven obligadas a empezar de nuevo. Ellos encuentran, donde puedan, nuevos lugares para vivir alrededor de la ciudad. Algunos viven noche a noche en diferentes inquilinatos, mientras otros viven en apartamentos rentados o casas de una sola habitación. En la mayoría de los casos, el espacio no es suficiente para que las familias puedan estar cómodas. 
 
 

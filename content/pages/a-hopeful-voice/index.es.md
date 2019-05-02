@@ -1,12 +1,12 @@
 ---
 title: "Encontrando tu Voz"
-url: es/encontrando-tu-voz
+url: encontrando-tu-voz
 topic: "Documentación"
 date: 2019-02-04T21:34:53-05:00
 description: "Venezolanos indocumentados encuentran su sustento cantando en la calle."
-video: "assets/gov-headervideo.mp4"
-headerStill: "assets/documentation-headerstill.jpg"
-videoStill: "assets/documentation-videostill.jpg"
+video: "../encontrando-tu-voz/assets/gov-headervideo.mp4"
+headerStill: "../encontrando-tu-voz/assets/documentation-headerstill.jpg"
+videoStill: "../encontrando-tu-voz/assets/documentation-videostill.jpg"
 image: "http://uprooted.unc.edu/images/gov-homepagestill.jpg"
 storyHeading: "Encontrando tu Voz"
 storySubheading: "Venezolanos indocumentados encuentran su sustento cantando en la calle."
@@ -21,6 +21,7 @@ videographer: "Landon Cooper, Jason Armond"
 designer: "Sally Dillon, Xiaoke Ji"
 udea: "Laura Andrea Garcia Giraldo"
 aboutUs: "Sobre Nosotros"
+aboutUsURL: sobre-nosotros
 footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"

@@ -1,6 +1,6 @@
 ---
 title: "Sobre Nosotros"
-url: es/sobre-nosotros
+url: sobre-nosotros
 date: 2019-02-04T21:36:24-05:00
 description: "This is the description for the about page."
 storyHeading: "About Us"
@@ -8,6 +8,7 @@ image: "../images/about-headerimage.jpg"
 card: false
 layout: "about"
 aboutUs: "Sobre Nosotros"
+aboutUsURL: sobre-nosotros
 footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"

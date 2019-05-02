@@ -3,6 +3,7 @@ title: "Uprooted"
 subtitle: "Las caras de la crisis venezolana"
 cta: "Explorar"
 aboutUs: "Sobre Nosotros"
+aboutUsURL: sobre-nosotros
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"
 ---

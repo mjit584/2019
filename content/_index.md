@@ -3,6 +3,7 @@ title: "Uprooted"
 subtitle: "The Faces of the Venezuelan Crisis"
 cta: "Explore"
 aboutUs: "About Us"
+aboutUsURL: about
 storiesHeader: "Stories"
 photosHeader: "Photo Journey"
 ---
