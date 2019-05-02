@@ -64,7 +64,9 @@
       <a href="https://instagram.com/uprootedunc" target="_blank"><i class="fab fa-instagram"></i></a>
     </div>
     <div class="footer__about">
-      <a href="{{.Site.BaseURL}}about">About Us</a>
+      <a href="{{ .Site.BaseURL }}{{ .Params.aboutUsURL }}">
+        {{ .Params.aboutUs }}
+      </a>
     </div>
   </div>
 </footer>

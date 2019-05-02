@@ -2,7 +2,7 @@
   <div class="inner-menu">
     <button onclick="showStoryMenu()" class="inner-menu-button" id="stories-menu-button" type="button" aria-label="Menu"
       aria-controls="navigation" aria-expanded="true/false">
-      <h2 class="inner-menu-title">Stories
+      <h2 class="inner-menu-title">{{ .Params.storiesHeader }}
         <i id="story-menu-arrow" class="inner-menu-arrow fa fa-angle-down"></i>
       </h2>
     </button>
@@ -17,7 +17,7 @@
   <div class="inner-menu">
     <button onclick="showPhotoMenu()" class="inner-menu-button" id="photo-menu-button" type="button" aria-label="Menu"
       aria-controls="navigation" aria-expanded="true/false">
-      <h2 class="inner-menu-title">Photo Journey
+      <h2 class="inner-menu-title">{{ .Params.photosHeader }}
         <i id="photo-menu-arrow" class="inner-menu-arrow fa fa-angle-down"></i>
       </h2>
     </button>
@@ -31,11 +31,7 @@
   </div>
   <div class="bottom-menu">
     <div class="about-social">
-      <!-- <div class="header__lang-toggle">
-        <a href="{{ .Site.BaseURL}}en"><span class="header__lang-toggle__en">EN</span></a> |
-        <a href="{{ .Site.BaseURL}}es"><span class="header__lang-toggle__es">ES</span></a>
-      </div> -->
-      <a href="/about" class="about">About Us</a>
+      <a href="{{ .Site.BaseURL }}{{ .Params.aboutUsURL }}" class="about">{{ .Params.aboutUs}}</a>
       <div class="social">
         <a href="https://facebook.com/uprootedunc" target="_blank"><i class="social-icon fab fa-facebook-f"></i></a>
         <a href="https://instagram.com/uprootedunc" target="_blank"><i class="social-icon fab fa-instagram"></i></a>
