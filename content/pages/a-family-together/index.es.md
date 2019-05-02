@@ -21,7 +21,7 @@ aboutUsURL: sobre-nosotros
 footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"
-url: una-familia-unida
+url: "/una-familia-unida/"
 layout: 'photo-pages'
 ---
 

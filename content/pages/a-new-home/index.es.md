@@ -21,7 +21,7 @@ aboutUsURL: sobre-nosotros
 footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"
-url: un-nuevo-hogar
+url: "/un-nuevo-hogar/"
 layout: 'photo-pages'
 weight: 2
 ---

@@ -22,7 +22,7 @@ footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"
 cta: "Explorar"
-url: lo-que-cargan
+url: "/lo-que-cargan/"
 ---
 
 Mientras los recursos escasean, la violencia sale a la vista, y la corrupción se hace presente de manera desenfrenada, los venezolanos se ven expuestos a la realidad de dejar sus hogares. Se ven forzados a dejarlo casi todo atrás en la búsqueda de una vida mejor y más segura. Sin embargo, algunos objetos son tomados con fuerza y aprecio mientras los individuos y las familias escapan del estado desasosiego y profunda confusión que ha sobrecogido a su país. Los venezolanos mantienen estos objetos cerca a sus corazones mientras mantienen la esperanza de que algún día su país sea de nuevo un territorio de paz.

@@ -1,6 +1,6 @@
 ---
 title: "Hermanos en El Terreno"
-url: hermanos-en-el-terreno
+url: "/hermanos-en-el-terreno/"
 topic: "Economía"
 date: 2019-02-04T21:35:11-05:00
 description: "Venezolanos encuentran camaradería, familia y apoyo a través del deporte."

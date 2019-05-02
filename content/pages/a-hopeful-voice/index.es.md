@@ -1,6 +1,6 @@
 ---
 title: "Encontrando tu Voz"
-url: encontrando-tu-voz
+url: "/encontrando-tu-voz/"
 topic: "Documentación"
 date: 2019-02-04T21:34:53-05:00
 description: "Venezolanos indocumentados encuentran su sustento cantando en la calle."

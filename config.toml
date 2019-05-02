@@ -26,7 +26,91 @@ canonifyURLs = "true"
       
       [languages.es.params.navigation]
         help = "Ayuda"
-[[languages.es.menu.main]]
+
+[params]
+  google_analytics_id = ""
+  gh_pages_URL = "https://brookenf.github.io/uprooted-mejo584/"
+
+  [params.homepage_meta_tags]
+    meta_description = "Uprooted is a multimedia journalism project produced by the UNC School of Media and Journalism"
+    meta_og_title = "Uprooted: Venezuelan Families Flee to Colombia"
+    meta_og_type = "website"
+    meta_og_url = "http://uprooted.unc.edu"
+    meta_og_image = "http://uprooted.unc.edu/images/home5.JPG"
+    meta_og_description = "Uprooted is a multimedia storytelling project of the UNC School of Media and Journalism. The stories focus on the adjustments of the lives of Venezuelan migrants to Medellin, Colombia."
+    meta_twitter_card = "Uprooted is a multimedia storytelling project of the UNC School of Media and Journalism. The stories focus on the adjustments of the lives of Venezuelan migrants to Medellin, Colombia."
+    meta_twitter_site = "@uprootedunc"
+    meta_twitter_creator = "@uprootedunc"
+  [params.navigation]
+    help = "Help"
+
+  [menu]
+
+  [[languages.en.menu.main]]
+    name = "Undocumented Venezuelans find their livelihood by singling on the street."
+    url = "/a-hopeful-voice/"
+    weight = 1
+    pre = "<p class='story-topic'>Documentation</p><h3 class='story-title'>A Hopeful Voice</h3>"
+    post = "/images/gov-homepagestill.jpg"
+
+  [[languages.en.menu.main]]
+    name = "Venezuelans find camaraderie, family and support through sport."
+    url = "/brothers-on-the-pitch/"
+    weight = 2
+    pre = "<p class='story-topic'>Economy</p><h3 class='story-title'>Brothers on the Pitch</h3>"
+    post = "/images/econ-homepagestill.jpg"
+
+  [[languages.en.menu.main]]
+    name = "A family’s sacrifice for their children’s health still has roadblocks."
+    url = "/greater-than-death/"
+    weight = 3
+    pre = "<p class='story-topic'>Health</p><h3 class='story-title'>Greater than Death</h3>"
+    post = "/images/health-homepagestill.jpg"
+
+  [[languages.en.menu.main]]
+    name = "Children sacrifice their education to help their families."
+    url = "/cost-of-dreams/"
+    weight = 4 
+    pre = "<p class='story-topic'>Education</p><h3 class='story-title'>The Cost of Dreams</h3>"
+    post = "/images/education-homepagestill.jpg"
+
+  [[languages.en.menu.main]]
+    name = "A mother’s effort to provide and reunite with her children."
+    url = "/a-mothers-sacrifice/"
+    weight = 5
+    pre = "<p class='story-topic'>Women</p><h3 class='story-title'>A Mother's Sacrifice</h3>"
+    post = "/images/women-homepagestill.jpg"
+
+  [[languages.en.menu.photo]]
+    name = "Venezuelans travel to Medellín clutching some things with a tighter grip."
+    url = "/what-they-carry/"
+    weight = 1
+    pre = "<p class='story-topic'>Chapter One</p><h3 class='story-title'>What They Carry</h3>"
+    post = "/images/photo-chap-1-hero.jpg"
+
+  [[languages.en.menu.photo]]
+    name = "An inside look into where migrants live after leaving home."
+    url = "/a-new-home/"
+    weight = 2
+    pre = "<p class='story-topic'>Chapter Two</p><h3 class='story-title'>A New Home</h3>"
+    post = "/images/photo-chap-2-hero.jpg"
+
+  [[languages.en.menu.photo]]
+    name = "A family struggles to survive, having arrived in Medellin ten days prior."
+    url = "/a-family-together/"
+    weight = 3
+    pre = "<p class='story-topic'>Chapter Three</p><h3 class='story-title'>A Family, Together</h3>"
+    post = "/images/photo-chap-3-hero.jpg"
+
+  [[languages.en.menu.photo]]
+    name = "The success stories of Venezuelan immigrants in a new country."
+    url = "/making-it-in-medellin/"
+    weight = 4
+    pre = "<p class='story-topic'>Chapter Four</p><h3 class='story-title'>Making it in Medellín</h3>"
+    post = "/images/photo-chap-4-hero.jpg"
+
+  # Spanish menu
+  [[languages.es.menu.main]]
 	url = "/encontrando-tu-voz/"
   weight = 1
   name = "Venezolanos indocumentados encuentran su sustento cantando en la calle."
@@ -76,101 +160,19 @@ canonifyURLs = "true"
     pre = "<p class='story-topic'>Capítulo dos</p><h3 class='story-title'>Un nuevo hogar</h3>"
     post = "http://uprooted.unc.edu/images/photo-chap-2-hero.jpg"
 
-  [[languages.es.menu.photo]]
-    name = "La lucha por sobrevivir de una familia, habiendo llegado a Medellín hace 10 días."
-    url = "/una-familia-unida/"
-    weight = 3
-    pre = "<p class='story-topic'>Capítulo tres</p><h3 class='story-title'>Una familia, unida</h3>"
-    post = "http://uprooted.unc.edu/images/photo-chap-3-hero.jpg"
+[[languages.es.menu.photo]]
+  name = "La lucha por sobrevivir de una familia, habiendo llegado a Medellín hace 10 días."
+  url = "/una-familia-unida/"
+  weight = 3
+  pre = "<p class='story-topic'>Capítulo tres</p><h3 class='story-title'>Una familia, unida</h3>"
+  post = "http://uprooted.unc.edu/images/photo-chap-3-hero.jpg"
 
-  [[languages.es.menu.photo]]
-    name = "Las historias de éxito de los inmigrantes venezolanos en un nuevo país."
-    url = "/lograndolo-en-medellin/"
-    weight = 4
-    pre = "<p class='story-topic'>Capítulo quatro</p><h3 class='story-title'>Lográndolo en Medellín</h3>"
-    post = "http://uprooted.unc.edu/images/photo-chap-4-hero.jpg"
-
-[params]
-  google_analytics_id = ""
-  gh_pages_URL = "https://brookenf.github.io/uprooted-mejo584/"
-
-  [params.homepage_meta_tags]
-    meta_description = "Uprooted is a multimedia journalism project produced by the UNC School of Media and Journalism"
-    meta_og_title = "Uprooted: Venezuelan Families Flee to Colombia"
-    meta_og_type = "website"
-    meta_og_url = "http://uprooted.unc.edu"
-    meta_og_image = "http://uprooted.unc.edu/images/home5.JPG"
-    meta_og_description = "Uprooted is a multimedia storytelling project of the UNC School of Media and Journalism. The stories focus on the adjustments of the lives of Venezuelan migrants to Medellin, Colombia."
-    meta_twitter_card = "Uprooted is a multimedia storytelling project of the UNC School of Media and Journalism. The stories focus on the adjustments of the lives of Venezuelan migrants to Medellin, Colombia."
-    meta_twitter_site = "@uprootedunc"
-    meta_twitter_creator = "@uprootedunc"
-  [params.navigation]
-    help = "Help"
-
-
-[menu]
-  [[menu.main]]
-    name = "Undocumented Venezuelans find their livelihood by singling on the street."
-    url = "/a-hopeful-voice/"
-    weight = 1
-    pre = "<p class='story-topic'>Documentation</p><h3 class='story-title'>A Hopeful Voice</h3>"
-    post = "/images/gov-homepagestill.jpg"
-
-  [[menu.main]]
-    name = "Venezuelans find camaraderie, family and support through sport."
-    url = "/brothers-on-the-pitch/"
-    weight = 2
-    pre = "<p class='story-topic'>Economy</p><h3 class='story-title'>Brothers on the Pitch</h3>"
-    post = "/images/econ-homepagestill.jpg"
-
-  [[menu.main]]
-    name = "A family’s sacrifice for their children’s health still has roadblocks."
-    url = "/greater-than-death/"
-    weight = 3
-    pre = "<p class='story-topic'>Health</p><h3 class='story-title'>Greater than Death</h3>"
-    post = "/images/health-homepagestill.jpg"
-
-  [[menu.main]]
-    name = "Children sacrifice their education to help their families."
-    url = "/cost-of-dreams/"
-    weight = 4 
-    pre = "<p class='story-topic'>Education</p><h3 class='story-title'>The Cost of Dreams</h3>"
-    post = "/images/education-homepagestill.jpg"
-
-  [[menu.main]]
-    name = "A mother’s effort to provide and reunite with her children."
-    url = "/a-mothers-sacrifice/"
-    weight = 5
-    pre = "<p class='story-topic'>Women</p><h3 class='story-title'>A Mother's Sacrifice</h3>"
-    post = "/images/women-homepagestill.jpg"
-
-  [[menu.photo]]
-    name = "Venezuelans travel to Medellín clutching some things with a tighter grip."
-    url = "/what-they-carry/"
-    weight = 1
-    pre = "<p class='story-topic'>Chapter One</p><h3 class='story-title'>What They Carry</h3>"
-    post = "/images/photo-chap-1-hero.jpg"
-
-  [[menu.photo]]
-    name = "An inside look into where migrants live after leaving home."
-    url = "/a-new-home/"
-    weight = 2
-    pre = "<p class='story-topic'>Chapter Two</p><h3 class='story-title'>A New Home</h3>"
-    post = "/images/photo-chap-2-hero.jpg"
-
-  [[menu.photo]]
-    name = "A family struggles to survive, having arrived in Medellin ten days prior."
-    url = "/a-family-together/"
-    weight = 3
-    pre = "<p class='story-topic'>Chapter Three</p><h3 class='story-title'>A Family, Together</h3>"
-    post = "/images/photo-chap-3-hero.jpg"
-
-  [[menu.photo]]
-    name = "The success stories of Venezuelan immigrants in a new country."
-    url = "/making-it-in-medellin/"
-    weight = 4
-    pre = "<p class='story-topic'>Chapter Four</p><h3 class='story-title'>Making it in Medellín</h3>"
-    post = "/images/photo-chap-4-hero.jpg"
+[[languages.es.menu.photo]]
+  name = "Las historias de éxito de los inmigrantes venezolanos en un nuevo país."
+  url = "/lograndolo-en-medellin/"
+  weight = 4
+  pre = "<p class='story-topic'>Capítulo quatro</p><h3 class='story-title'>Lográndolo en Medellín</h3>"
+  post = "http://uprooted.unc.edu/images/photo-chap-4-hero.jpg"
  
 
 [permalinks]

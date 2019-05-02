@@ -22,7 +22,7 @@ footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"
 layout: 'photo-pages'
-url: lograndolo-en-medellin
+url: "/lograndolo-en-medellin/"
 ---
 Empezar una nueva vida en un nuevo país no es terreno fácil, especialmente para los venezolanos. Muchos de los inmigrantes en Colombia terminan estrellándose contra la realidad, a medida que se encuentran con muchos obstáculos en su búsqueda de restaurar o preservar su forma de vida. Este sueño de éxito no es imposible. Estos venezolanos lograron precisamente eso, desde vivir su vida libre de deudas por la primera vez desde su llegada, hasta preservar un negocio familiar, ellos encontraron la manera de sobrevivir por sus familias.
 
