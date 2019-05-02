@@ -1,6 +1,6 @@
 ---
 title: "Here is the title of the photo"
-image: "../cost-of-dreams/assets/education-story2.jpg"
+image: "assets/education-story2.jpg"
 alt: "A woman named Lisbeth sits on a concrete bench outside. She wears blue jeans, a blue and white striped polo shirt, and a grey volunteer’s vest."
 photographer: "Photog"
 ---

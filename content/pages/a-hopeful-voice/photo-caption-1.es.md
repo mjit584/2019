@@ -1,6 +1,6 @@
 ---
 title: "Here is the title of the photo"
-image: "../a-hopeful-voice/assets/government-still1.jpg"
+image: "assets/government-still1.jpg"
 alt: "A woman sits and counts money at a table"
 photographer: "Photog"
 ---

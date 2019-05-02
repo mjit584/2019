@@ -4,9 +4,9 @@ url: es/encontrando-tu-voz
 topic: "Documentación"
 date: 2019-02-04T21:34:53-05:00
 description: "Venezolanos indocumentados encuentran su sustento cantando en la calle."
-video: "../a-hopeful-voice/assets/gov-headervideo.mp4"
-headerStill: "../a-hopeful-voice/assets/documentation-headerstill.jpg"
-videoStill: "../a-hopeful-voice/assets/documentation-videostill.jpg"
+video: "assets/gov-headervideo.mp4"
+headerStill: "assets/documentation-headerstill.jpg"
+videoStill: "assets/documentation-videostill.jpg"
 image: "http://uprooted.unc.edu/images/gov-homepagestill.jpg"
 storyHeading: "Encontrando tu Voz"
 storySubheading: "Venezolanos indocumentados encuentran su sustento cantando en la calle."

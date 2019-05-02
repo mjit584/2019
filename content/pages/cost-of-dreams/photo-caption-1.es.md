@@ -1,6 +1,6 @@
 ---
 title: "Here is the title of the photo"
-image: "../cost-of-dreams/assets/education-story1.jpg"
+image: "assets/education-story1.jpg"
 alt: "A young boy named Jeham Carlos looks over his shoulder at the camera. He wears a red and navy striped futbol jersey."
 photographer: "Photog"
 ---

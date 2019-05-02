@@ -4,9 +4,9 @@ url: es/mas-grande-que-la-muerte
 topic: "Salud"
 date: 2019-02-04T21:35:29-05:00
 description: "El sacrificio de una familia por la salud de sus hijos todavía tiene obstáculos."
-video: "../greater-than-death/assets/health-headervideo.mp4"
-headerStill: "../greater-than-death/assets/health-headerstill.jpg"
-videoStill: "../greater-than-death/assets/health-videostill.jpg"
+video: "assets/health-headervideo.mp4"
+headerStill: "assets/health-headerstill.jpg"
+videoStill: "assets/health-videostill.jpg"
 image: "http://uprooted.unc.edu/images/health-homepagestill.jpg"
 storyHeading: "Más Grande que La Muerte"
 storySubheading: "El sacrificio de una familia por la salud de sus hijos todavía tiene obstáculos."

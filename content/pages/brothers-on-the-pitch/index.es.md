@@ -4,9 +4,9 @@ url: es/hermanos-en-el-terreno
 topic: "Economía"
 date: 2019-02-04T21:35:11-05:00
 description: "Venezolanos encuentran camaradería, familia y apoyo a través del deporte."
-video: "../brothers-on-the-pitch/assets/econ-headervideo.mp4"
-headerStill: "../brothers-on-the-pitch/assets/econ-headerstill.jpg"
-videoStill: "../brothers-on-the-pitch/assets/econ-videostill.jpg"
+video: "assets/econ-headervideo.mp4"
+headerStill: "assets/econ-headerstill.jpg"
+videoStill: "assets/econ-videostill.jpg"
 image: "http://uprooted.unc.edu/images/econ-homepagestill.jpg"
 storyHeading: "Hermanos en El Terreno"
 storySubheading: "Venezolanos encuentran camaradería, familia y apoyo a través del deporte."
