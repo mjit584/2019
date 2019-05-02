@@ -17,10 +17,6 @@
   a {
     text-decoration: none;
     color: $black;
-
-    &:hover {
-      color: $red;
-    }
   }
 
   .container {
@@ -57,6 +53,10 @@
     .header__nav > * {
       padding-top: 4px;
       text-align: center;
+
+      &:hover {
+        color: $red;
+      }
     }
 
     .header__story-dropdown, .header__photo-dropdown {
@@ -66,10 +66,6 @@
       
       &.is-active{
         background: rgba(255, 255, 255, 0.9);
-        color: $red;
-      }
-
-      &:hover {
         color: $red;
       }
 
@@ -95,10 +91,21 @@
     }
 
     .header__lang-toggle{
-      cursor: pointer;
+      text-transform: uppercase;
       flex-basis: 10%;
 
-      .header__lang-toggle__en:hover, .header__lang-toggle__es:hover{
+      &>a:first-of-type::after{
+        content:" | ";
+        font-weight: 400;
+        color: $black;
+      }
+
+      .active {
+        font-weight: 900;
+      }
+
+      .header__lang-option:not(.active):hover {
+        color: $red;
         font-weight: 900;
       }
     }
