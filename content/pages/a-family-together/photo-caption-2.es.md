@@ -2,4 +2,4 @@
 image: "assets/Photo_Chapter3_02.jpg"
 alt: "Two women show a man small candy they are giving out while he grips money"
 ---
-Genesis (near left) and Yuneda (back left) count out how many pieces of candy to sell to a man who stopped to give them money. They are not technically selling candy because they would need a vending license. Instead people give them donations and they offer small candy as a thank you in return. Some people choose to take the candy while others are happy to simply help.
+Génesis (adelante) y Yuneda (atrás) cuentan la cantidad de dulces para vender a un hombre que se detuvo para darles dinero. Técnicamente no están vendiendo, para ello necesitarían un permiso. En cambio, la gente les da donaciones y ellas en agradecimiento les regalan un dulce. Algunas personas reciben el dulce, mientras otras están simplemente contentas de ayudar. 

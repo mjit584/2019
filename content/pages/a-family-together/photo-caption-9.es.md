@@ -2,4 +2,4 @@
 image: "assets/Photo_Chapter3_09.jpg"
 alt: "A man and a woman stand in a dimly lit green hallway"
 ---
-Genesis (left) and Jonelle wait in the hallway to see if there is any room left in the inquilinato for them to spend the night. An inquilinato is a small shelter where people can pay for a small room on a nightly basis. The hallways are dimly lit and reveal bare wires, cracked walls and copious amounts of dirt. The small rooms each come with a twin mattress, small nightstand, dresser and black and white box TV that usually takes a few firm hits to get functional.
+Génesis (izquierda) y Jonelle esperan en el pasillo a la espera de alguna habitación libre en el inquilinato para que puedan pasar la noche. Un inquilinato es un pequeño refugio donde las personas pueden rentar pequeñas habitaciones por noche. El pasillo no está bien iluminado y hay cables sueltos, paredes agrietadas y cantidades de tierra se pueden ver allí. Cada habitación tiene un colchón doble, un nochero, un closet y un televisor de caja que requiere un par de golpes para que funcione.

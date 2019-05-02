@@ -26,11 +26,14 @@
     </div>
     <div class="header__lang-toggle">
       {{ $currentLang := .Site.Language }}
+      {{ $currentPage := .Permalink }}
+      {{ print .RelPermalink }}
       {{ range $.Site.Home.AllTranslations }}
       {{ if eq $currentLang .Site.Language }}
-      <a class="header__lang-option active" href="{{ .Permalink }}">{{ .Language.Lang }}</a>
+      <a class="header__lang-option active" href="{{ $currentPage }}">{{ .Language.Lang }}</a>
       {{ else }}
-      <a class="header__lang-option" href="{{ .Permalink }}">{{ .Language.Lang }}</a>
+      {{ print .Dir }}
+      <a class="header__lang-option" href="{{ .Site.BaseURL }}{{ .Params.url }}">{{ .Language.Lang }}</a>
       {{ end }}
       {{ end }}
     </div>

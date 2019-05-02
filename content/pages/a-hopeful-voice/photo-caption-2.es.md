@@ -1,6 +1,6 @@
 ---
 title: "Here is the title of the photo"
-image: "../a-hopeful-voice/assets/government-still2.jpg"
+image: "assets/government-still2.jpg"
 alt: "A woman lies on a bed while talking on the phone"
 photographer: "Photog"
 ---
