@@ -2,4 +2,4 @@
 image: "assets/Photo_Chapter3_11.jpg"
 alt: "A man is silhouetted as he walks down the street"
 ---
-Jonelle Gabedes walks down the street alone in the morning to go back to the shelter to retrieve a bag they left behind the night before.
+Jonelle Gabedes camina solo en la mañana para regresar al inquilinato a recoger una maleta que habían dejado la noche anterior. 

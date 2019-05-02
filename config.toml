@@ -64,28 +64,28 @@ canonifyURLs = "true"
     name = "Venezuelans travel to Medellín clutching some things with a tighter grip."
     url = "/es/what-they-carry/"
     weight = 1
-    pre = "<p class='story-topic'>Chapter One</p><h3 class='story-title'>What They Carry</h3>"
+    pre = "<p class='story-topic'>Capítulo uno</p><h3 class='story-title'>What They Carry</h3>"
     post = "http://uprooted.unc.edu/images/photo-chap-1-hero.jpg"
 
 [[languages.es.menu.photo]]
     name = "An inside look into where migrants live after leaving home."
     url = "/es/a-new-home/"
     weight = 2
-    pre = "<p class='story-topic'>Chapter Two</p><h3 class='story-title'>A New Home</h3>"
+    pre = "<p class='story-topic'>Capítulo dos</p><h3 class='story-title'>A New Home</h3>"
     post = "http://uprooted.unc.edu/images/photo-chap-2-hero.jpg"
 
   [[languages.es.menu.photo]]
-    name = "A family struggles to survive, having arrived in Medellin ten days prior."
-    url = "/es/a-family-together/"
+    name = "La lucha por sobrevivir de una familia, habiendo llegado a Medellín hace 10 días."
+    url = "/es/una-familia-unida/"
     weight = 3
-    pre = "<p class='story-topic'>Chapter Three</p><h3 class='story-title'>A Family, Together</h3>"
+    pre = "<p class='story-topic'>Capítulo tres</p><h3 class='story-title'>Una familia, unida</h3>"
     post = "http://uprooted.unc.edu/images/photo-chap-3-hero.jpg"
 
   [[languages.es.menu.photo]]
     name = "The success stories of Venezuelan immigrants in a new country."
     url = "/es/making-it-in-medellin/"
     weight = 4
-    pre = "<p class='story-topic'>Chapter Four</p><h3 class='story-title'>Making it in Medellín</h3>"
+    pre = "<p class='story-topic'>Capítulo quatro</p><h3 class='story-title'>Making it in Medellín</h3>"
     post = "http://uprooted.unc.edu/images/photo-chap-4-hero.jpg"
 
 [params]

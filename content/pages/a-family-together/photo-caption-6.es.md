@@ -2,4 +2,4 @@
 image: "assets/Photo_Chapter3_06.jpg"
 alt: "Two people count out coins in a clear plastic cup at night"
 ---
-Genesis (left) and Michael do a final count of the money they collected during the day. On this particular day the family made enough money to afford a room for the night. The family also discussed starting to put money aside when possible to try and eventually afford a monthly housing situation.
+Génesis (izquierda) y Michael cuentan el dinero que recaudaron durante el día. En este día en particular la familia hizo dinero suficiente para rentar una habitación donde pasaran la noche. También comienzan a discutir la posibilidad de ahorrar un poco de dinero, cuando sea posible, y tratar de rentar mensualmente un sitio donde vivir.
