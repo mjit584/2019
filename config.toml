@@ -68,10 +68,10 @@ canonifyURLs = "true"
     post = "http://uprooted.unc.edu/images/photo-chap-1-hero.jpg"
 
 [[languages.es.menu.photo]]
-    name = "An inside look into where migrants live after leaving home."
-    url = "/es/a-new-home/"
+    name = "Una mirada al interior de donde viven los inmigrantes después de dejar su hogar."
+    url = "/es/un-nuevo-hogar/"
     weight = 2
-    pre = "<p class='story-topic'>Capítulo dos</p><h3 class='story-title'>A New Home</h3>"
+    pre = "<p class='story-topic'>Capítulo dos</p><h3 class='story-title'>Un nuevo hogar</h3>"
     post = "http://uprooted.unc.edu/images/photo-chap-2-hero.jpg"
 
   [[languages.es.menu.photo]]

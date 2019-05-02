@@ -18,7 +18,7 @@ graphic: "Brooke Fisher"
     no pueden costearse un lugar más apropiado.
   </div>
   <div class="interactive__instructions">
-    Hover and click over the red circles for more information.
+    Pasa el cursor sobre los círculos rojos para más información.
   </div>
 <div class="interactive__image interactive__body">
     <svg id="interactive__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -107,7 +107,7 @@ graphic: "Brooke Fisher"
       hoverRed(floor);
       var floorCircPos = floorCircle.getBoundingClientRect();
       var html = '';
-      html += '<p>Many Venezuelans rent out <em>Inquilinato</em>, or daily rooms, to sleep in. Rooms cost an average of $10 USD per day. Even though one room averages just 2 meters by 2 meters (43 square feet), it usually houses multiple families at a time.</p>';
+      html += '<p>Muchos venezolanos rentan habitaciones diariamente en un inquilinato. El costo promedio por habitación es de $30.000COP por día. A pesar de ser habitaciones de 2*2 metros (43ft²), generalmente alberga varias familias.</p>';
       infoBox.innerHTML = html;
       infoBox.classList.remove('hidden');
       var x = floorCircPos.x;
@@ -126,7 +126,7 @@ graphic: "Brooke Fisher"
       hoverRed(wall);
       var wallCircPos = this.getBoundingClientRect();
       var html = '';
-      html += '<p>There are no windows in this tiny room, which is part of a hall-style dorm. The only entertainment is a small TV atop a dresser which everyone in the room shares.</p>';
+      html += '<p>En esta pequeña habitación no hay ventanas, al estilo de un dormitorio de pasillo. El único entretenimiento es un pequeño televisor encima de una closet que todos comparten.</p>';
       infoBox.innerHTML = html;
       infoBox.classList.toggle('hidden');
       var x = wallCircPos.x;
@@ -145,7 +145,7 @@ graphic: "Brooke Fisher"
       hoverRed(bags);
       var bagsCircPos = this.getBoundingClientRect();
       var html = '';
-      html += '<p>Venezuelans crossing over the border by foot leave with the clothes on their back and the few items they can stuff into a handful of suitcases, backpacks or duffel bags.</p>';
+      html += '<p>Los Venezolanos que cruasán la frontera a pie, se van con la ropa que llevan puesta y par de cosas más que pueden meter en bolsos, maletas o bolsas de lona.</p>';
       infoBox.innerHTML = html;
       infoBox.classList.toggle('hidden');
       var x = bagsCircPos.x;
@@ -164,7 +164,7 @@ graphic: "Brooke Fisher"
       hoverRed(bed);
       var bedCircPos = this.getBoundingClientRect();
       var html = '';
-      html += '<p>Each room has one bed, so at night, the friends pull out rollaway beds to sleep on. It is common to develop bed sores and rashes from sleeping in such tight quarters.</p>';
+      html += '<p>Cada habitación tiene una cama, así que, en la noche los amigos extienden colchonetas para dormir. Es común contraer llagas o sarpullidos por dormir en lugares tan estrechos.</p>';
       infoBox.innerHTML = html;
       infoBox.classList.toggle('hidden');
       var x = bedCircPos.x;
@@ -184,7 +184,7 @@ graphic: "Brooke Fisher"
   floorCircle.onclick = function () {
     var floorCircPos = floorCircle.getBoundingClientRect();
     var html = '';
-    html += '<p>Many Venezuelans rent out <em>Inquilinato</em>, or daily rooms, to sleep in. Rooms cost an average of $10 USD per day. Even though one room averages just 2 meters by 2 meters (43 square feet), it usually houses multiple families at a time</p>';
+    html += '<p>Muchos venezolanos rentan habitaciones diariamente en un inquilinato. El costo promedio por habitación es de $30.000COP por día. A pesar de ser habitaciones de 2*2 metros (43ft²), generalmente alberga varias familias.</p>';
     if (infoBox.innerHTML != html) {
       infoBox.innerHTML = html;
     } else {
@@ -194,7 +194,7 @@ graphic: "Brooke Fisher"
   bedCircle.onclick = function () {
     var bedCircPos = this.getBoundingClientRect();
     var html = '';
-    html += '<p>Each room has one bed, so at night, the friends pull out rollaway beds to sleep on. It is common to develop bed sores and rashes from sleeping in such tight quarters.</p>';
+    html += '<p>Cada habitación tiene una cama, así que, en la noche los amigos extienden colchonetas para dormir. Es común contraer llagas o sarpullidos por dormir en lugares tan estrechos.</p>';
     if (infoBox.innerHTML != html) {
       infoBox.innerHTML = html;
     } else {
@@ -204,7 +204,7 @@ graphic: "Brooke Fisher"
   bagsCircle.onclick = function () {
     var bagsCircPos = this.getBoundingClientRect();
     var html = '';
-    html += '<p>Venezuelans crossing over the border by foot leave with the clothes on their back and the few items they can stuff into a handful of suitcases, backpacks or duffel bags.</p>';
+    html += '<p>Los Venezolanos que cruasán la frontera a pie, se van con la ropa que llevan puesta y par de cosas más que pueden meter en bolsos, maletas o bolsas de lona.</p>';
     if (infoBox.innerHTML != html) {
       infoBox.innerHTML = html;
     } else {
@@ -214,7 +214,7 @@ graphic: "Brooke Fisher"
   wallCircle.onclick = function () {
     var wallCircPos = this.getBoundingClientRect();
     var html = '';
-    html += '<p>There are no windows in this tiny room, which is part of a hall-style dorm. The only entertainment is a small TV atop a dresser which everyone in the room shares.</p>';
+    html += '<p>En esta pequeña habitación no hay ventanas, al estilo de un dormitorio de pasillo. El único entretenimiento es un pequeño televisor encima de una closet que todos comparten.</p>';
     if (infoBox.innerHTML != html) {
       infoBox.innerHTML = html;
     } else {
