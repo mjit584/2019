@@ -15,7 +15,8 @@
       {{ partial "main-menu-photos.html" . }}
     </div>
 
-    <a href="/about" class="header__about" id="header__about">{{ .Params.aboutUs }}</a>
+    <a href="{{ .Site.BaseURL }}{{ .Params.aboutUsURL }}" class="header__about"
+      id="header__about">{{ .Params.aboutUs }}</a>
     <div class="header__social-icons">
       <a href="https://www.facebook.com/uprootedUNC/" target="_blank"><i
           class="header__social-icon fab fa-facebook-f"></i></a>

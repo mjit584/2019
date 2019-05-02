@@ -17,6 +17,7 @@ designer: "undefined"
 udea: "Laura Trujillo Arango, Juan Ochoa, Maria Alejandra Cardona Aizpurua"
 layout: 'photo-pages'
 aboutUs: "About Us"
+aboutUsURL: about
 footerCTA: "More from Uprooted"
 storiesHeader: "Stories"
 photosHeader: "Photo Journey"

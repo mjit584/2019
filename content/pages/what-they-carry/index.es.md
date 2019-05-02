@@ -17,6 +17,7 @@ designer: "Brooke Fisher"
 udea: "Laura Trujillo Arango, Juan Ochoa, Maria Alejandra Cardona Aizpurua"
 layout: 'photo-pages'
 aboutUs: "Sobre Nosotros"
+aboutUsURL: sobre-nosotros
 footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"

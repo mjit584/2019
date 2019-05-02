@@ -21,6 +21,7 @@ videographer: "Bryan Cereijo, Abby Cantrell"
 designer: "Kailee Akers"
 udea: "Martín Villaneda"
 aboutUs: "Sobre Nosotros"
+aboutUsURL: sobre-nosotros
 footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"

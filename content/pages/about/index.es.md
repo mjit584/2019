@@ -8,6 +8,7 @@ image: "../images/about-headerimage.jpg"
 card: false
 layout: "about"
 aboutUs: "Sobre Nosotros"
+aboutUsURL: sobre-nosotros
 footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"
