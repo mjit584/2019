@@ -12,6 +12,7 @@
     "website": "http://dianeadame.com/",
     "img": "assets/diane-headshot.jpg",
     "desc": "Hello! My name is Diane, and I am a senior reporting and public policy student. The thought of my next meal keeps me going and if I had to describe my life in three words, it would be bylines, headlines and deadlines.",
+    "desc_es": "¡Hola! Me llamo Diane y soy estudiante de periodismo y políticas públicas en mi último año. La idea de mi próxima comida me mantiene andando y si tuviera que describir mi vida en tres palabras, serían nombres, titulares, y fechas límites.",
     "symbol": "An avocado"
   },
   {
@@ -27,6 +28,7 @@
     "website": "http://kailynakers.com/",
     "img": "assets/kailee-headshot.jpg",
     "desc": "Hello! I'm Kailee and a senior MEJO major. Design is my ish. If I had a time machine, I would've done the \"tiny kitchen\" videos first.",
+    "desc_es": "¡Hola! Soy Kailee y estoy en mi último año en la escula de MEJO. El diseño es mi cosa. Si tuviera una máquina del tiempo, habría hecho los videos de \"cocina pequeña\" primero.",
     "symbol": "winky face"
   },
   {
@@ -42,6 +44,7 @@
     "website": "https://www.jasonarmondphoto.com/",
     "img": "assets/jason-headshot.jpg",
     "desc": "Hello, I'm Jason Armond a senior studying media and journalism, with an emphasis in photo and video journalism and graphic design. Creating compelling visual content that is engaging and rooted in storytelling is what drives me. Fun fact about me is I have never had a pet. When I finally get a pet, it will be an English Bulldog.",
+    "desc_es": "Hola, soy Jason Armond, estudiante de último año de medios de comunicación y periodismo, con énfasis en periodismo fotográfico y de video y diseño gráfico. Crear contenido visual que sea atractivo y esté enraizado en la narración es lo que me impulsa. Un dato curioso acerca de mí es que nunca he tenido una mascota. Cuando finalmente tenga una mascota, será un Bulldog Inglés.",
     "symbol": "undefined"
   },
   {
@@ -54,9 +57,10 @@
     "instagram": "https://www.instagram.com/abbycantrell/",
     "linkedin": "",
     "gh": "",
-    "website": "https://abbyrcantrell.com",
+    "website": "abbyrcantrell.com",
     "img": "assets/abby-headshot.jpg",
     "desc": "I'm Abby, a junior journalism and politcal science double major. I love dogs, naps and pizza.",
+    "desc_es": "Soy Abby, estudiante de periodismo y ciencia política en mi tercer año. Me encantan los perros, las siestas y la pizza.",
     "symbol": "undefined"
   },
   {
@@ -72,6 +76,7 @@
     "website": "https://opinionescriollas.blogspot.com/",
     "img": "assets/mariaalejandra-headshot.jpg",
     "desc": "I'm Maria Alejandra Cardona Aizpurúa, a student of journalism and social communication from Medellín. I'm in love with the culture of my country, and I believe in the change. I'm passionate about telling stories with a camara or with written words and I love to learn and know the world by traveling.",
+    "desc_es": "Soy María Alejandra Cardona Aizpurúa, estudiante de periodismo y comunicación social de Medellín. Estoy enamorada de la cultura de mi país, y creo en el cambio. Me apasiona contar historias con una cámara o con palabras escritas y me encanta aprender y conocer el mundo viajando.",
     "symbol": "A mountain of Antioquia"
   },
   {
@@ -87,6 +92,7 @@
     "website": "http://www.jchriscarmichael.com/",
     "img": "assets/chris-headshot.jpg",
     "desc": "I’m a videographer based in Birmingham, Alabama. As a result of a many, many coincidences and just plain good fortune, I’ve been able to work behind a camera all around the world with a lot of wonderful people. When I’m not behind a camera, I’m honing my dad jokes to a captive audience.",
+    "desc_es": "Soy un videógrafo con sede en Birmingham, Alabama. Como resultado de muchas, muchas coincidencias y simplemente buena fortuna, he podido trabajar detrás de una cámara en todas partes del mundo con mucha gente maravillosa. Cuando no estoy detrás de una cámara, estoy practicando mis chistes de papá frente a una audiencia cautiva.",
     "symbol": "undefined"
   },
   {
@@ -99,9 +105,10 @@
     "instagram": "https://instagram.com/BryanCereijo",
     "linkedin": "https://www.linkedin.com/in/bryancereijo/",
     "gh": "",
-    "website": "http://bryancereijo.com",
+    "website": "bryancereijo.com",
     "img": "assets/bryan-headshot.jpg",
     "desc": "I'm Bryan Cereijo, a visual communications graduate student. I am a Cuban-American visual storyteller from Miami, FL. I am specifically interested in narratives that relate to sports and culture.",
+    "desc_es": "Soy Bryan Cereijo, un estudiante de postgrado de comunicación visual. Soy un narrador visual Cubano-Estadounidense de Miami, FL. Me interesan específicamente las narrativas que se tratan del deporte y la cultura.",
     "symbol": "undefined"
   },
   {
@@ -117,6 +124,7 @@
     "website": "https://www.nashconsing.com/",
     "img": "assets/nash-headshot.jpg",
     "desc": "I'm a sophomore MEJO and communications double major, Frank Ocean stan and a cuddler of all dogs. Shout out to my goodboys Xavier, Yoda and Jerome.",
+    "desc_es": "Soy un estudiante de MEJO en mi segundo año y tambien estudio comunicaciones. Amante de Frank Ocean y de todos los perros. Hola a mis perritos Xavier, Yoda y Jerome.",
     "symbol": "Jerome (my dogs)"
   },
   {
@@ -132,6 +140,7 @@
     "website": "",
     "img": "assets/brooklynn-headshot.jpg",
     "desc": "I'm Brooklynn, a senior studying journalism with a concentration in reporting and hispanic linguistics. I'm the 6-year reigning president of my personal Justin Bieber stan club and also an Oreo enthusiast.",
+    "desc_es": "Soy Brooklynn, estudiante de periodismo en mi último año con especialización en reportajes y linguística hispánica. Soy el presidente reinante de mi club personal de amantes de Justin Bieber de 6 años y también soy un entusiasta de las galletas Oreo.",
     "symbol": "undefined"
   },
   {
@@ -147,6 +156,7 @@
     "website": "http://landoncoopermedia.com",
     "img": "assets/landon-headshot.jpg",
     "desc": "Hey everybody, I'm Landon, and I'm a photographer and videographer. I have no children, but I'm sublime at dad jokes. I love long walks on the beach, taking portraits and telling stories.",
+    "desc_es": "Hola a todos, soy Landon, y soy fotógrafo y videógrafo. No tengo hijos, pero soy sublime en los chistes de papá. Me encanta tomar largos paseos por la playa, hacer retratos y contar historias.",
     "symbol": "undefined"
   },
   {
@@ -160,8 +170,9 @@
     "linkedin": "",
     "gh": "",
     "website": "",
-    "img": "assets/paul-headshot.jpg",
+    "img": "assets/silhouette-headshot-man.png",
     "desc": "I am an associate professor, investigative reporter and author with a focus on issues of race and poverty in America. I love fútbol and storytelling.",
+    "desc_es": "Soy un profesor asociado, reportero de investigación y autor con un enfoque en temas de raza y pobreza en los Estados Unidos. Me encanta el fútbol y la narración.",
     "symbol": "undefined"
   },
   {
@@ -177,6 +188,7 @@
     "website": "",
     "img": "assets/pat-headshot.jpg",
     "desc": "I'm Pat, a professor and the director of documentary projects for the school. This is the 10th international project I've led. I love helping students grow as journalists and as citizens of the world by tackling important issues abroad.",
+    "desc_es": "Soy Pat, profesor y director de proyectos documentales para la escuela. Este es el décimo proyecto internacional que he liderado. Me encanta ayudar a los estudiantes a crecer como periodistas y como ciudadanos del mundo al abordar temas importantes en otros países.",
     "symbol": "undefined"
   },
   {
@@ -192,6 +204,7 @@
     "website": "https://dillons789.wixsite.com/portfolio",
     "img": "assets/sally-headshot.jpg",
     "desc": "I'm Sally, a graphic design and French major. I'm a senior but more of a senior citizen at heart. I am a paper hoarder, and my favorite color is butter yellow.",
+    "desc_es": "Soy Sally, estudiante de diseño gráfico y el frances. Estoy en mi último año y soy una persona mayor en el corazón. Soy una acaparadora de papel, y mi color favorito es el amarillo mantequilla.",
     "symbol": "an orange"
   },
   {
@@ -207,6 +220,7 @@
     "website": "http://www.dullcatie.com/",
     "img": "assets/catie-headshot.jpg",
     "desc": "I'm Catie, a senior photo and video journalist. I love my fat cat and my home at Wrightsville Beach. I'm a weirdo who loves to travel with my camera around my neck!",
+    "desc_es": "Soy Catie, estudiante de periodismo de fotografía y video en mi último año. Amo a mi gato gordo y a mi hogar en Wrightsville Beach. ¡Soy una muchacha rara que adora viajar con mi cámara alrededor de mi cuello!",
     "symbol": "an arrow (i swear im not basic)"
   },
   {
@@ -222,6 +236,7 @@
     "website": "https://www.ashtoneleazer.com/",
     "img": "assets/ashton-headshot.jpg",
     "desc": "I'm Ashton, studying photo and video journalism and dramatic art. I love taking analog photographs, journaling for my future memoir and going on spontaneous trips everywhere from the local farmer's market to the Himalayas.",
+    "desc_es": "Soy Ashton, estoy estudiando periodismo de fotografía y video y el arte dramático. Me encanta tomar fotografías analógicas, mantener un diario para mis futuros recuerdos, y hacer viajes espontáneos a todas partes, desde el mercado local hasta el Himalaya.",
     "symbol": "The map emoji -- https://emojipedia.org/apple/ios-10.2/world-map/"
   },
   {
@@ -237,7 +252,8 @@
     "website": "http://brookesnook.us",
     "img": "assets/brooke-headshot.jpg",
     "desc": "I’m Brooke, senior interactive multimedia major. When I’m not coding, you can find me writing, cooking or cheering on the UNC basketball team from the band section.",
-    "symbol": "a globe"
+    "desc_es": "Soy Brooke, estudiante de multimedia interactiva en mi último año. Cuando no estoy programando, puedes encontrarme escribiendo, cocinando o animando al equipo de baloncesto UNC desde la sección de la banda.",
+    "symbol": "undefined"
   },
   {
     "first": "Haley",
@@ -252,6 +268,7 @@
     "website": "http://www.haleyfrance.com/portfolio/",
     "img": "assets/haley-headshot.jpg",
     "desc": "My name is Haley, and I'm studying media and journalism with a social and economic justice minor. I love DJing on our student radio station and am a pro at making annoying puns.",
+    "desc_es": "Mi nombre es Haley, y estudio medios de comunicación y periodismo con un título menor de justicia social y económica. Me encanta ser DJ en nuestra estación de radio para estudiantes y soy un profesional en hacer juegos de palabras.",
     "symbol": "a converse"
   },
   {
@@ -267,6 +284,7 @@
     "website": "",
     "img": "assets/lauragarcia-headshot.jpg",
     "desc": "If there were words to describe my contradictory self I would say I’m a passionate about movement (ballet dancer) with some senses for storytelling.",
+    "desc_es": "Si hubiera palabras para describir mi manera contradictoria de ser, diría que soy una apasionada del movimiento (bailarina de ballet) con algunos sentidos para contar historias.",
     "symbol": "undefined"
   },
   {
@@ -282,6 +300,7 @@
     "website": "http://www.tenleymae.com/",
     "img": "assets/tenley-headshot.jpg",
     "desc": "I'm a senior visual communication major who believes everyone should take time off from school before graduating. Seriously. Just do it. I enjoy solo trips to concerts, napping in the middle of the day and being vulnerable with people.",
+    "desc_es": "Soy un estudiante de comunicación visual en mi último año que cree que todos deberían tomarse un tiempo fuera de la escuela antes de graduarse. Seriamente. Simplemente hazlo. Disfruto de viajes sola a conciertos, siestas en medio del día y siendo vulnerable con las personas.",
     "symbol": "I just want a roman number for '10,' aka a super bad-ass looking 'X'"
   },
   {
@@ -297,6 +316,7 @@
     "website": "https://www.aryaswanie.com/",
     "img": "assets/arya-headshot.jpg",
     "desc": "I'm Xiaoke, a senior media design student. My nickname is Arya because she's my alter ego in Game of Thrones and also because only Mandarin-speaking people know how to pronouce my name. My favorite job field is animation & game design.",
+    "desc_es": "Soy Xiaoke, estudiante de diseño de medios de comunicación en mi último año. Mi apodo es Arya porque es mi alter ego en Juego de Tronos y también porque solo las personas que hablan mandarín saben cómo pronunciar mi nombre. Mi campo de trabajo favorito es la animación y el diseño de juegos.",
     "symbol": "a really cool eye icon"
   },
   {
@@ -312,6 +332,7 @@
     "website": "https://www.alexkormannphoto.com/",
     "img": "assets/alex-headshot.jpg",
     "desc": "Hey! I'm Alex, a senior photojournalism major and history minor from New Jersey. I love Star Wars, spicy food and dogs. All my work is in memory of my father, Russ.",
+    "desc_es": "¡Hola! Soy Alex, estudiante de foto-periodismo e historia de New Jersey. Me encanta Star Wars, la comida picante y los perros. Todo mi trabajo es en memoria de mi padre, Russ.",
     "symbol": "lightsaber"
   },
   {
@@ -327,6 +348,7 @@
     "website": "http://lyriclin.com/",
     "img": "assets/lyric-headshot.jpg",
     "desc": "Hi! I'm Lyric, a junior advertising and public relations major. I consider myself a “Type A Granola”: Free-spirited but on a schedule. Lover of pups, the color yellow and cotton candy sunsets.",
+    "desc_es": "¡Hola! Soy Lyric, estudiante de publicidad y relaciones públicas en mi tercer año. Me considero una \"Granola tipo A\": de espíritu libre pero con un horario. Amante de los perritos, el color amarillo y los atardeceres de algodón de azúcar.",
     "symbol": "sunflower"
   },
   {
@@ -342,6 +364,7 @@
     "website": "http://thepattymatos.com",
     "img": "assets/patty-headshot.jpg",
     "desc": "I'm Patty, a senior public relations and social and economic justice student from Caracas, Venezuela. I'm the team's resident tuitera, a relentless Scorpio, and an avid lover of pop music. Bring me crunchy snacks, please.",
+    "desc_es": "Soy Patty, estudiante de último año de relaciones públicas y justicia social y económica de Caracas, Venezuela. Soy la tuitera residente del equipo, una implacable Escorpio y una ávida amante de la música pop. Tráeme chucherías crujientes, por favor.",
     "symbol": "lightning bolt"
   },
   {
@@ -357,6 +380,7 @@
     "website": "http://www.patsymaldonado.com/",
     "img": "assets/patsy-headshot.jpg",
     "desc": "I'm Patsy, the girl who straddles the borders but also loves the mix of her culturas. I am a media and journalism major with a minor in Latino/a studies. Painter, dancer, soccer player and Rayo's (AKA my horse) mom.",
+    "desc_es": "Soy Patsy, la chica que se extiende a ambos lados de las fronteras pero también ama la mezcla de sus culturas. Soy estudiante de medios de comunicación y periodismo con especialización en los estudios latinos. Pintora, bailarína, jugadora de fútbol y mamá de Rayo (mi caballo).",
     "symbol": "Horse"
   },
   {
@@ -367,11 +391,12 @@
     "fb": "https://www.facebook.com/peggy.mullin.5",
     "twitter": "https://twitter.com/pegasaurus_rexx",
     "instagram": "https://www.instagram.com/pkm201",
-    "linkedin": "https://www.linkedin.com/in/peggy-mullin",
+    "linkedin": "www.linkedin.com/in/peggy-mullin",
     "gh": "",
     "website": "http://www.peggymullin.com/",
     "img": "assets/peggy-headshot.jpg",
     "desc": "Hey! I'm Peggy, a senior environmental science and photo/video nerd. I geek out over many things, including (but not limited to) algae, music, dogs and the unbelievable power of storytelling.",
+    "desc_es": "¡Hola! Soy Peggy, estudiante de ciencias ambientales y nerd de foto/video. Me gustan muchas cosas, incluyendo (pero no limitado a) las algas, la música, los perros y el increíble poder de contar historias.",
     "symbol": "a lil mountain like dis"
   },
   {
@@ -387,6 +412,7 @@
     "website": "",
     "img": "assets/juan-headshot.jpg",
     "desc": "Hey there! I'm Juan, a social communication student. I'm 20 years old, and I'm a politics and history lover. I have three beautiful and fluffy cats (if I had a bigger house, I would have more!) I like to learn about EVERYTHING, and that's why I enjoy meeting people from other countries. I also like dancing, playing video games and walking through the city.",
+    "desc_es": "¡Hola! Soy Juan, un estudiante de comunicación social. Tengo 20 años y soy un amante de la política y la historia. Tengo tres gatos hermosos (si tuviera una casa más grande, ¡tendría más!) Me gusta aprender sobre TODO, y por eso me gusta conocer gente de otros países. También me gusta bailar, jugar videojuegos y pasear por la ciudad.",
     "symbol": "undefined"
   },
   {
@@ -402,6 +428,7 @@
     "website": "",
     "img": "assets/andrea-headshot.jpg",
     "desc": "I'm Andrea, a journalism student with a focus on photography and video. I also play rugby and work as a researcher for a TV program.",
+    "desc_es": "Soy Andrea, una estudiante de periodismo con un enfoque en fotografía y video. También juego al rugby y trabajo como investigadora para un programa de televisión.",
     "symbol": "undefined"
   },
   {
@@ -410,13 +437,14 @@
     "role": "Reporter",
     "filter": "rep",
     "fb": "",
-    "twitter": "https://twitter.com/saralizp",
-    "instagram": "https://www.instagram.com/pequen_yo/",
+    "twitter": "https://twitter.com/pequen_yo",
+    "instagram": "https://www.instagram.com/saralizp",
     "linkedin": "",
     "gh": "",
     "website": "http://sarapequeno.com",
     "img": "assets/sara-headshot.jpg",
     "desc": "My name is Sara, and I'm a senior reporting and political science student. Yes, my last name does mean \"small\" in Spanish. Yes, I am 4'11\".",
+    "desc_es": "Mi nombre es Sara y soy estudiante de reportaje y ciencias políticas en mi último año. Sí, mi appellido es \"pequeño\". Sí, mido 1,5m.",
     "symbol": "a cat !! (if it matters i'd prefer a black cat)"
   },
   {
@@ -429,9 +457,10 @@
     "instagram": "https://www.instagram.com/andierea/?hl=en",
     "linkedin": "https://www.linkedin.com/in/andie-rea-6197a5150",
     "gh": "",
-    "website": "http://AndieRea.com",
+    "website": "AndieRea.com",
     "img": "assets/andie-headshot.jpg",
     "desc": "I am a visual media creator inspired by the power of story to shape ideas and create change. I enjoy adventures with my family and trying new foods.",
+    "desc_es": "Soy una creadora de medios visuales inspiradq por el poder de la historia para moldear ideas y crear cambios. Disfruto de las aventuras con mi familia y me gusta probar nuevas comidas.",
     "symbol": "undefined"
   },
   {
@@ -447,6 +476,7 @@
     "website": "",
     "img": "assets/margarita-headshot.jpg",
     "desc": "I'm a journalism student in Medellín, Colombia. Deeply passionate about gender studies, you will either find me in the streets speaking to women from different backgrounds, or in my photography studio taking pictures of them and voicing just how beautiful and empowering I believe their stories are.",
+    "desc_es": "Soy estudiante de periodismo en Medellín, Colombia. Profundamente apasionada por los estudios de género, me encontrarás en la calle hablando con mujeres de diferentes orígenes, o en mi estudio fotográfico tomándoles fotografías y expresando lo hermosas y empoderadoras que creo que son sus historias.",
     "symbol": "undefined"
   },
   {
@@ -462,6 +492,7 @@
     "website": "",
     "img": "assets/tamara-headshot.jpg",
     "desc": "I'm Tamara, the interactive coach for Uprooted. I love finding ways to tell stories in visual and interactive ways, and I'm always inspired by the energy and commitment my students bring to their work.",
+    "desc_es": "Soy Tamara, la entrenadora interactiva de Uprooted. Me encanta encontrar formas de contar historias de manera visual e interactiva, y siempre me siento inspirada por la energía y el compromiso que mis alumnos aportan a su trabajo.",
     "symbol": "undefined"
   },
   {
@@ -476,7 +507,8 @@
     "gh": "",
     "website": "http://zayrharodriguez.com/",
     "img": "assets/zayrha-headshot.jpg",
-    "desc": "I was born in Bogotá, Colombia, and when I was 14, I moved to Miami. I'm currently a junior photo and video journalism major with a history minor. In my free time, I like to dance with Que Rico, pet all the doggos and eat papitas.",
+    "desc": "I was born in Bogotá, Colombia, and when I was 14 I moved to Miami. I'm currently a junior photo and video journalism major with a history minor. In my free time, I like to dance with Que Rico, pet all the doggos and eat papitas.",
+    "desc_es": "Nací en Bogotá, Colombia, y cuando tenía 14 años me mudé a Miami. Ahora soy estudiante de periodismo de fotografía y video con una historia menor, en mi tercer año. En mi tiempo libre, me gusta bailar con Que Rico, acariciar a todos los perritos y comer papitas.",
     "symbol": "french fries = papitas"
   },
   {
@@ -492,6 +524,7 @@
     "website": "http://www.theAbsurd.co",
     "img": "assets/carlos-headshot.jpg",
     "desc": "Hi I'm Carlos. I'm a UX/UI designer born in San Cristóbal, Venezuela and raised in North Carolina. When I'm not making cool things for the interwebs I'm probably just cuddling with my dog, Jagger. My role model is Danny Phantom.",
+    "desc_es": "Hola, soy Carlos, un diseñador de UX/UI nacido en San Cristóbal, Venezuela y criado en Carolina del Norte. Cuando no estoy creando cosas cool para las redes del internet, probablemente estoy acariciando a mi perro, Jagger. Mi modelo a seguir es Danny Phantom.",
     "symbol": "a lil ghost"
   },
   {
@@ -505,8 +538,9 @@
     "linkedin": "https://www.linkedin.com/in/kate-sheppard-088409a/",
     "gh": "",
     "website": "",
-    "img": "assets/kate-headshot.jpg",
+    "img": "assets/silhouette-headshot-woman.png",
     "desc": "I am a teaching associate professor in the School of Media and Journalism and a senior enterprise editor at HuffPost. When I am not wrangling commas, I am wrangling my two small humans.",
+    "desc_es": "Soy profesora asociada en la Escuela de Medios de Comunicación y Periodismo y editora principal de empresas en HuffPost. Cuando no estoy arreglando comas, estoy arreglando a mis dos pequeños humanos.",
     "symbol": "undefined"
   },
   {
@@ -522,6 +556,7 @@
     "website": "http://amygtownsend.com",
     "img": "assets/amy-headshot.jpg",
     "desc": "Hey! I'm Amy, a front-end developer studying interactive multimedia and information science. I really enjoy dancing, singing and all kinds of puzzles and games. My happy place is watching Avatar: The Last Airbender with a cozy blanket and my cat Finn asleep in my lap.",
+    "desc_es": "¡Hola! Soy Amy, una desarrolladora de front-end, estudiando la multimedia interactiva y ciencias de la información. Me gusta mucho bailar, cantar y todo tipo de rompecabezas y juegos. Mi lugar feliz es viendo la película Avatar: The Last Airbender con una cobija cómoda y con mi gato Finn dormido en mis piernas.",
     "symbol": "lime"
   },
   {
@@ -530,13 +565,14 @@
     "role": "Field Producer",
     "filter": "field",
     "fb": "https://www.facebook.com/laura.trujilloarango",
-    "twitter": "",
+    "twitter": "https://twitter.com/LauraTrujilloAr",
     "instagram": "https://www.instagram.com/lauratrua/",
     "linkedin": "",
     "gh": "",
     "website": "",
     "img": "assets/laura-headshot.jpg",
     "desc": "My name is Laura, I'm a first year social comunication and journalism student at UPB. I really love dogs, and I'm 18 years old (until April, at least). Apart from English and Spanish, I also speak Portuguese. I really love and enjoy writing, reading and learning new things on a daily basis.",
+    "desc_es": "Mi nombre es Laura, soy estudiante de primer año de comunicación social y periodismo en la UPB. Realmente amo a los perros, y tengo 18 años (hasta abril, al menos). Aparte del inglés y el español, también hablo portugués. Realmente amo y disfruto escribiendo, leyendo y aprendiendo cosas nuevas diariamente.",
     "symbol": "Pepe (my english bulldog, he's old)"
   },
   {
@@ -552,6 +588,7 @@
     "website": "https://www.instagram.com/martin_in_raw/",
     "img": "assets/martin-headshot.jpg",
     "desc": "I'm Martín Villaneda, Colombian student of journalism at Universidad Pontificia Bolivariana in Medellín and a photojournalist. I speak four languages: English, French, Italian and Spanish, my native language. I'm 20 years old, and someday I'll win a World Press Photography award.",
+    "desc_es": "Soy Martín Villaneda, estudiante colombiano de periodismo en la Universidad Pontificia Bolivariana de Medellín, y soy fotoperiodista. Hablo cuatro idiomas: inglés, francés, italiano y español, mi idioma nativo. Tengo 20 años y algún día ganaré el premio de World Press Photography.",
     "symbol": "undefined"
   },
   {
@@ -567,6 +604,7 @@
     "website": "http://www.mariaevizcaino.com/",
     "img": "assets/maria-headshot.jpg",
     "desc": "I am a journalist born and raised in Caracas, Venezuela. Sophomore year of high school I moved to Miami, Florida, and now I’ve traded the beach and the heat for the mountains and the chilly breeze of North Carolina. If I'm not asking questions, find me eating arepas or compulsively cleaning my house.",
+    "desc_es": "Soy una periodista nacida y criada en Caracas, Venezuela. En el segundo año de la escuela secundaria, me mudé a Miami, Florida, y ahora he cambiado la playa y el calor por las montañas y la brisa fresca de Carolina del Norte. Si no estoy haciendo preguntas, búscame comiendo arepas o limpiando mi casa compulsivamente.",
     "symbol": "undefined"
   }
 ]
