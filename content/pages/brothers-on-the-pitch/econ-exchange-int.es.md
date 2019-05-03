@@ -6,6 +6,6 @@ graphics:
 ---
 <div class="divider"></div>
 <section class="interactive flourish">
-  <div class="flourish-embed flourish-chart" data-src="visualisation/263641"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
+  <div class="flourish-embed" data-src="visualisation/320792"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
 </section>
 <div class="divider"></div>
