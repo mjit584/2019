@@ -2293,6 +2293,9 @@ nav {
 
 .scrollytelly__main {
   max-width: 85%; }
+  @media screen and (max-width: 1025px) {
+    .scrollytelly__main {
+      max-width: 98%; } }
   .scrollytelly__main .interactive__intro {
     text-align: center; }
 
@@ -2321,16 +2324,18 @@ nav {
 
 .bubbles-container {
   position: relative;
-  width: 75%;
-  justify-content: space-around; }
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap; }
   .bubbles-container .bubble__img {
-    width: 12vw;
+    width: 14vw;
     transition: .3s width ease-in-out; }
-    .bubbles-container .bubble__img:hover {
-      width: 15vw; }
-    @media screen and (max-width: 800px) {
+    @media screen and (min-width: 1025px) {
       .bubbles-container .bubble__img:hover {
-        width: 10vw; } }
+        width: 18vw; } }
+    @media screen and (max-width: 800px) {
+      .bubbles-container .bubble__img {
+        width: 35vw; } }
 
 .bubble {
   display: none;
@@ -2349,6 +2354,13 @@ nav {
   text-align: left;
   font-size: 1.3rem;
   line-height: 1.7em; }
+  @media screen and (max-width: 1025px) {
+    .bubble {
+      width: 80vw;
+      padding: 1% 10px;
+      width: 1500px;
+      font-size: 1rem;
+      line-height: 1.5em; } }
   .bubble .scrolly__text-container {
     background-color: #fafafa;
     padding: 2%; }
@@ -2365,7 +2377,9 @@ nav {
     text-align: right; }
 
 .bubble--es {
-  background: url("../lo-que-cuestan-los-suenos/assets/NotebookPaper.png") no-repeat; }
+  background: url("../lo-que-cuestan-los-suenos/assets/NotebookPaper.png") no-repeat;
+  background-size: cover;
+  background-color: #ffffff; }
 
 #bolivar-timeline {
   margin-top: -10%;

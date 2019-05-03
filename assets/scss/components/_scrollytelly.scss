@@ -43,6 +43,10 @@
 .scrollytelly__main {
   max-width: 85%;
 
+  @media screen and (max-width: 1025px) {
+    max-width: 98%;
+  }
+
   .interactive__intro {
     text-align: center;
   }
@@ -81,21 +85,22 @@
 
 .bubbles-container {
   position:relative;
-  width:75%;
+  width: 100%;
   justify-content: space-around;
+  flex-wrap: wrap;
 
   .bubble__img {
-    width: 12vw;
+    width: 14vw;
     transition: .3s width ease-in-out;
 
+   @media screen and (min-width: 1025px) {
     &:hover {
-      width: 15vw;
+      width: 18vw;
     }
+   }
 
     @media screen and (max-width: 800px) {
-      &:hover {
-        width: 10vw;
-      }
+      width: 35vw;
     }
   }
 
@@ -119,6 +124,14 @@
   text-align:left;
   font-size:1.3rem;
   line-height:1.7em;
+
+  @media screen and (max-width: 1025px) {
+    width: 80vw;
+    padding: 1% 10px;
+    width: 1500px;
+    font-size: 1rem;
+    line-height: $line-height-base;
+  }
 
   .scrolly__text-container {
     background-color: #fafafa;
@@ -147,4 +160,6 @@
 
 .bubble--es {
   background: url('../lo-que-cuestan-los-suenos/assets/NotebookPaper.png') no-repeat;
+  background-size: cover;
+  background-color: $white;
 }
