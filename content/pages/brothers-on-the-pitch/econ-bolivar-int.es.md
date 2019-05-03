@@ -31,7 +31,7 @@ graphics: "Kailee Akers"
       <div class="timeline-content right">
         <h2 class="yellow">&nbsp;&nbsp;1998&nbsp;&nbsp;</h2>
         <img src="assets/bolivar1998banknote.jpg" class="timeline-image">
-        <span class="caption">El billetes de banco de Bolívar (Bs.)</span>
+        <span class="caption">El billete de banco de Bolívar (Bs.)</span>
       </div>
     </div>
     <div class="row blue">
@@ -55,7 +55,7 @@ graphics: "Kailee Akers"
       <div class="timeline-content right">
         <h2 class="blue">&nbsp;&nbsp;2016&nbsp;&nbsp;</h2>
         <img src="assets/bolivarfuerte2016.jpg" class="timeline-image">
-        <span class="caption">El billetes de banco de Bolívar Fuerte (BsF.)</span>
+        <span class="caption">El billete de banco de Bolívar Fuerte (BsF.)</span>
       </div>
     </div>
     <div class="row red">
@@ -79,7 +79,7 @@ graphics: "Kailee Akers"
       <div class="timeline-content right">
         <h2 class="red"> &nbsp;&nbsp;2019 &nbsp;&nbsp;</h2>
         <img src="assets/bolivarsoberanonote2018.jpg" class="timeline-image">
-        <span class="caption">El billetes de banco de Bolívar Soberano (BsS.)</span>
+        <span class="caption">El billete de banco de Bolívar Soberano (BsS.)</span>
       </div>
     </div>
     <div class="interactive__sources">
