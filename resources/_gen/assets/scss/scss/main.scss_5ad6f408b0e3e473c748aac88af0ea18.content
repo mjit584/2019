@@ -1796,6 +1796,14 @@ nav {
               font-size: .75rem;
               line-height: 1rem;
               margin: 0 auto .75rem; } }
+        .interactive__health .health__cards .health__card .card__body .card-back__body .card__text--es {
+          font-size: .925rem;
+          line-height: 1.35rem; }
+          @media (max-width: 800px) {
+            .interactive__health .health__cards .health__card .card__body .card-back__body .card__text--es {
+              font-size: .725rem;
+              line-height: .95rem;
+              margin: 0 auto .75rem; } }
   .interactive__health .health__cards .background-blur {
     position: absolute;
     width: 50%;
@@ -2355,6 +2363,9 @@ nav {
     font-size: 2rem;
     font-family: "DDinBold", sans-serif;
     text-align: right; }
+
+.bubble--es {
+  background: url("../lo-que-cuestan-los-suenos/assets/NotebookPaper.png") no-repeat; }
 
 #bolivar-timeline {
   margin-top: -10%;

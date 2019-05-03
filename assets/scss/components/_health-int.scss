@@ -158,9 +158,20 @@
             margin: 0 auto 1rem;
         
             @media (max-width: 800px)  {
-                font-size: .75rem;
-                line-height: 1rem;
-                margin: 0 auto .75rem;
+              font-size: .75rem;
+              line-height: 1rem;
+              margin: 0 auto .75rem;
+            }
+          }
+
+          .card__text--es {
+            font-size: .925rem;
+            line-height: 1.35rem;
+
+            @media (max-width: 800px)  {
+              font-size: .725rem;
+              line-height: .95rem;
+              margin: 0 auto .75rem;
             }
           }
         }
