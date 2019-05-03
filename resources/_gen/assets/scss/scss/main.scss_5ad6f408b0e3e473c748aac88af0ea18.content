@@ -2364,6 +2364,9 @@ nav {
     font-family: "DDinBold", sans-serif;
     text-align: right; }
 
+.bubble--es {
+  background: url("../lo-que-cuestan-los-suenos/assets/NotebookPaper.png") no-repeat; }
+
 #bolivar-timeline {
   margin-top: -10%;
   padding-bottom: 10%; }
