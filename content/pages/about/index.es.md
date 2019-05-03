@@ -12,13 +12,15 @@ aboutUsURL: sobre-nosotros
 footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"
-meet: "Conocer al equipo"
+meet: "Conozca al Equipo"
 everyoneFilter: "Todos"
 photovidFilter: "Foto/Video"
 repFilter: "Reporteras"
 designFilter: "Interactivo"
 coachFilter: "Entrenadores"
 udeaFilter: "Productores de campo"
+thx: "Un agradecimiento especial a los siguientes:"
+mejo557: "Estudiantes en MEJO 557: Edición avanzada"
 ---
 
 {{<  center-quote "pages/about" "about-pull" >}}

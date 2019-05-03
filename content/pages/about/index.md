@@ -18,6 +18,8 @@ repFilter: "Reporters"
 designFilter: "Interactive"
 coachFilter: "Coaches"
 udeaFilter: "Field Producers"
+thx: "Special thanks to the following:"
+mejo557: "Students in MEJO 557: Advanced Editing"
 ---
 
 {{<  center-quote "pages/about" "about-pull" >}}
