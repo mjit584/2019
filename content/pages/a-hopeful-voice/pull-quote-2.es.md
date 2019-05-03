@@ -1,4 +1,4 @@
 ---
-attr: "Christian Krüger Sarmiento, the director of Migración Colombia"
+attr: "Christian Krüger Sarmiento, director of Migración Colombia"
 ---
-"That’s a topic that helps us shield the country when it comes to safety but also helps us protect the migrants’ rights, which are oftentimes violated for their condition of irregularity — they’re exploited in the workplace."
+“Ese es un tema que nos ayuda a proteger el país con el tema de la seguridad, pero también nos ayuda a proteger los derechos de los inmigrantes, los cuales son violados por su condición de irregularidad — son explotados en el lugar de trabajo”.

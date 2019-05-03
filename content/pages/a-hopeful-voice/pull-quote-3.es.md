@@ -1,4 +1,4 @@
 ---
-attr: "Leidy Tatiana Acevedo Higuita, legal counsel for Colombian National Police"
+attr: "Leidy Tatiana Acevedo Higuita, Asesor Jurídico de la Policía Nacional de Colombia"
 ---
-“In Colombia, irregularity is one of the forms of employment. That informal way of selling things generates jobs, and generally, it’s used by single mothers or the elderly, for example — people who can’t find a formal job who use it to generate their upkeep.”
+“En Colombia la irregularidad es una forma de empleo. Esa manera informal de vender genera trabajo, y generalmente, es utilizada por madres solteras o personas mayores, por ejemplo — por gente que no puede conseguir un trabajo de manera formal que lo usan para generar su sustento”.

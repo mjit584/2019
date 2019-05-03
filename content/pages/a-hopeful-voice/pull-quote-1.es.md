@@ -1,4 +1,4 @@
 ---
-attr: "Irelys Rojas, Venezuelan migrant who busks on the street to make money"
+attr: "Irelys Rojas, Migrante venezolana que canta en la calle para ganar dinero"
 ---
-"You have to find a middleman to get an appointment to have your picture taken and then wait months and months for them to tell you there’s no material. Oh, and then pay the middleman like USD $1,000."
+“Tienes que conseguir a un gestor para que te den una cita para que te tomen la foto y después esperar meses y meses para que te digan que no hay material. “Ah, y entonces pagarle al gestor como $1.000 dólares”.
