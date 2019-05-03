@@ -131,8 +131,7 @@ graphics:
                 <p>
                   Los Venezolanos pueden aplicar para el PEP si llegaron a Colombia a través de un documento de
                   inmigración autorizado antes del 17 de diciembre de 2018, y si no tienen un antecedentes criminales.
-                </p>
-                <p>
+                  <br><br>
                   Para obtener el PEP, se necesita un pasaporte o una tarjeta de identificación.
                 </p>
               </div>
@@ -156,9 +155,7 @@ graphics:
               <div class="slide-txt">
                 <p>
                   Hasta diciembre de 2018, <strong>1’174.743</strong> venezolanos habían inmigrado en Colombia. Sólo el
-                  <strong>45,6%</strong> de ellos obtuvieron el PEP.
-                </p>
-                <p>En total, más de la mitad de los venezolanos en Colombia están indocumentados.</p>
+                  <strong>45,6%</strong> de ellos obtuvieron el PEP.<br><br>En total, más de la mitad de los venezolanos en Colombia están indocumentados.</p>
                 <p class="sources">* Datos de Migración Colombia</p>
               </div>
             </div>
@@ -219,8 +216,7 @@ graphics:
                 <p>
                   Es difícil estar un día sin necesitar una cédula. Estas son utilizadas para hacer compras, votar,
                   viajar nacional e internacionalmente y para permanecer en hoteles.
-                </p>
-                <p>Las cédulas tienen un número utilizado para identificar a cada ciudadano.</p>
+                <br><br>Las cédulas tienen un número utilizado para identificar a cada ciudadano.</p>
               </div>
             </div>
           </div>

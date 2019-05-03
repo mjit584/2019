@@ -12,12 +12,12 @@ graphics:
         <div class="container-body-birthright">
           <div class="flex-column" id="r-1">
           <div class="interactive__header">
-            <h2 class="interactive__title">Birthright Citizenship</h2>
+            <h2 class="interactive__title">Ciudadanía por nacimiento</h2>
             {{< ybr-line >}}
-            <div class="interactive__intro">While the United States grants unconditional citizenship by birth, most countries use a system of “citizenship by blood," meaning that a person born in that country would only be considered as a citizen if one (or both) of their parents has citizenship.</div>
+            <div class="interactive__intro">Aunque Estados Unidos concede ciudadanía incondicional por nacimiento, la mayoría del resto del mundo utiliza un sistema de "ciudadanía por sangre”. Alguien nacido en uno de esos países sólo se considera ciudadano/a si uno (o ambos) de sus padres son ciudadanos.</div>
           </div>
           <div class="bottom-text" id="birthright-body-bottom">
-            Click the arrows or the dots to navigate.
+            Haga clic en las flechas o los puntos para navegar.
           </div>
         </div>
       </div>
@@ -25,10 +25,10 @@ graphics:
         <div class="slideshow-container" id="birthright-body-top">
           <!-- second slide -->
           <div class="mySlides-birthright">
-              <div class="flourish flourish-embed flourish-chart" data-src="visualisation/248457"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
+              <div class="flourish flourish-embed flourish-chart" data-src="visualisation/332530"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
           </div>
           <div class="mySlides-birthright">
-            <div class="slide-image flex">
+            <div class="slide-image">
               <img class="slide-img-doc slide-img" src="assets/colombia-baby-doc.svg" alt="Colombia">
               <div class="slide-txt">
                 <p>Colombia tiene ciudadanía por nacimiento “condicional”. Para obtener una ciudadanía colombiana al nacimiento, una persona debe tener al menos un padre que es ciudadano colombiano o residente legal colombiano.</p>

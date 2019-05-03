@@ -33,7 +33,7 @@ graphics:
               <div class="flourish flourish-embed flourish-chart" data-src="visualisation/248457"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
           </div>
           <div class="mySlides-birthright">
-            <div class="slide-image flex">
+            <div class="slide-image">
               <img class="slide-img-doc slide-img" src="assets/colombia-baby-doc.svg" alt="Colombia">
               <div class="slide-txt">
                 <p>Colombia has “conditional” birthright citizenship. To obtain Colombian citizenship at birth, one must have at least one parent that is a Colombian citizen or a Colombian legal resident.</p>

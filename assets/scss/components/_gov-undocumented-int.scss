@@ -167,6 +167,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 5%;
 
   }
   img {vertical-align: middle;}
@@ -267,9 +268,9 @@
   .slide-img-expiration {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: 0 auto;
     img {
-      max-height: 100px;
+      max-height: 150px;
     }
   }
 
@@ -409,8 +410,7 @@
     }
 
     .slide-image {
-      display: flex !important;
-      flex-direction: column;
+      display: inline-block;
 
       img {
         max-width: 75vw !important;
