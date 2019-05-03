@@ -25,12 +25,12 @@
   <div id="team">
     <div class="about__filter-container">
       <div class="controls about__filter flex">
-        <div data-filter="all">Everyone</div>
-        <div data-filter=".photovid">Photo/Video</div>
-        <div data-filter=".rep">Reporters</div>
-        <div data-filter=".int">Interactive</div>
-        <div data-filter=".coach">Coaches</div>
-        <div data-filter=".field">Field Producers</div>
+        <div data-filter="all">{{ .Params.everyoneFilter }}</div>
+        <div data-filter=".photovid">{{ .Params.photovidFilter }}</div>
+        <div data-filter=".rep">{{ .Params.repFilter }}</div>
+        <div data-filter=".int">{{ .Params.designFilter }}</div>
+        <div data-filter=".coach">{{ .Params.coachFilter }}</div>
+        <div data-filter=".field">{{ .Params.udeaFilter }}</div>
       </div>
     </div>
 

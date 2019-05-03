@@ -13,10 +13,16 @@ footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"
 meet: "Conocer al equipo"
+everyoneFilter: "Todos"
+photovidFilter: "Foto/Video"
+repFilter: "Reporteras"
+designFilter: "Interactivo"
+coachFilter: "Entrenadores"
+udeaFilter: "Productores de campo"
 ---
 
 {{<  center-quote "pages/about" "about-pull" >}}
 
-We are a team of student videographers, photographers, reporters, designers, developers and faculty dedicated to decoding the political and economic crisis in Venezuela by telling the stories of families who have fled to Medellín, Colombia. It's easy to get lost in the numbers and policy when covering Venezuela and its intrinsic, historic connection with Colombia. We hope these stories of struggle, resilience, acceptance and tension can provide clarity and encourage people to join the conversation and take action.
+Somos un equipo de videógrafos, fotógrafos, reporteros, diseñadores, desarrolladores web y profesores dedicados a descifrar la crisis política y económica en Venezuela, contando las historias de familias que han huído a Medellín, Colombia. Es fácil perderse en los números y la política al informar sobre Venezuela y su conexión histórica e intrínseca con Colombia. Esperamos que estas historias de lucha, resiliencia, aceptación y tensión puedan brindar claridad y alentar a las personas a unirse a la conversación y a tomar acción para ayudar.
 
-Uprooted is an interactive multimedia project of MEJO 584: Documentary Multimedia Storytelling at the UNC-Chapel Hill School of Media and Journalism. In past projects, students have reported across five continents and produced award-winning multimedia work. As students, we’re learning the rewards and challenges of reporting on different cultures; as journalists, we are working as a team to tell the stories that are shaping the globe.
+Uprooted (Desarraigado) es un proyecto multimedia interactivo de MEJO 584: Documentales Multimedia en la Escuela de Medios de Comunicación y Periodismo de la UNC-Chapel Hill. En proyectos anteriores, estudiantes han reportado en cinco continentes y han producido trabajos multimedia premiados. Como estudiantes, estamos aprendiendo sobre las recompensas y los desafíos de informar sobre diferentes culturas; como periodistas, estamos trabajando en equipo para contar las historias que están dando forma al mundo.

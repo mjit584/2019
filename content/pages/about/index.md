@@ -12,6 +12,12 @@ footerCTA: "More from Uprooted"
 storiesHeader: "Stories"
 photosHeader: "Photo Journey"
 meet: "Meet the Team"
+everyoneFilter: "Everyone"
+photovidFilter: "Photo/Video"
+repFilter: "Reporters"
+designFilter: "Interactive"
+coachFilter: "Coaches"
+udeaFilter: "Field Producers"
 ---
 
 {{<  center-quote "pages/about" "about-pull" >}}
