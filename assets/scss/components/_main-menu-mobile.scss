@@ -139,7 +139,7 @@ $button-width: 35px;
   }
 
   .bottom-menu {
-    margin-top: 2rem;
+    margin-top: 1rem;
 
     .social {
       justify-content: flex-start;
@@ -164,7 +164,7 @@ $button-width: 35px;
   }
 
   .header__lang-toggle{
-    margin-top: 15px;
+    margin-top: .5rem;
     text-transform: uppercase;
 
     &>a:first-of-type::after{

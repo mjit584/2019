@@ -32,11 +32,6 @@
   <div class="bottom-menu">
     <div class="about-social">
       <a href="{{ .Site.BaseURL }}{{ .Params.aboutUsURL }}" class="about">{{ .Params.aboutUs}}</a>
-      <div class="social">
-        <a href="https://facebook.com/uprootedunc" target="_blank"><i class="social-icon fab fa-facebook-f"></i></a>
-        <a href="https://instagram.com/uprootedunc" target="_blank"><i class="social-icon fab fa-instagram"></i></a>
-        <a href="https://twitter.com/@uprootedunc" target="_blank"><i class="social-icon fab fa-twitter"></i></a>
-      </div>
       <div class="header__lang-toggle">
         {{ $currentLang := .Site.Language }}
         {{ $currentPage := .Permalink }}
@@ -47,6 +42,11 @@
         <a class="header__lang-option" href="{{ .Permalink }}">{{ .Language.Lang }}</a>
         {{ end }}
         {{ end }}
+      </div>
+      <div class="social">
+        <a href="https://facebook.com/uprootedunc" target="_blank"><i class="social-icon fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com/uprootedunc" target="_blank"><i class="social-icon fab fa-instagram"></i></a>
+        <a href="https://twitter.com/@uprootedunc" target="_blank"><i class="social-icon fab fa-twitter"></i></a>
       </div>
     </div>
   </div>
