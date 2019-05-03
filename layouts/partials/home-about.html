@@ -3,7 +3,7 @@
 </div>
 
 <div class="about-help">
-  {{ with .Site.GetPage "/home-help" }}{{ .Content }}{{ end }}
+  {{ with .Site.GetPage "/home-help" }}{{ .Content }}
   <div class="about-orgs flex">
     <div class="orgs">
       <a href="https://www.instagram.com/famicovemedellin/" target="_blank">
@@ -20,7 +20,7 @@
     <div class="orgs">
       <a href="https://www.raymasuprani.com/mas-is-more-foundation/" target="_blank">
         <img src="http://uprooted.unc.edu/images/masismore-logo.png" alt="All for Venezuela logo" />
-        <div class="orgs__name">Mas is More Foundation</div>
+        <div class="orgs__name">Mas is More {{ .Params.foundation }}</div>
       </a>
     </div>
     <div class="orgs">
@@ -32,7 +32,7 @@
     <div class="orgs">
       <a href="https://www.ilovevenezuela.org/" target="_blank">
         <img src="http://uprooted.unc.edu/images/ilovevenezuela-logo.png" alt="All for Venezuela logo" />
-        <div class="orgs__name">I Love Venezuela Foundation</div>
+        <div class="orgs__name">I Love Venezuela {{ .Params.foundation }}</div>
       </a>
     </div>
     <div class="orgs">
@@ -49,6 +49,7 @@
     </div>
   </div>
 </div>
+{{ end }}
 
 <footer>
   <div class="footer__social">
