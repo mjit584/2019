@@ -7,16 +7,16 @@ graphics:
 ---
 <section class="interactive">
   <div id="womenSlider">
-    <h2 class="interactive__title">The Legal Status of Prostitution</h2>
+    <h2 class="interactive__title">El estatus legal de la prostitución</h2>
     {{< ybr-line >}}
-    <div class="interactive__intro">Prostitution exists on a spectrum when it comes to the law. Drag the slider below to explore the status of prostitution in Venezuela, Colombia and the United States.</div>
+    <div class="interactive__intro">La prostitución existe en un espectro legal. Utiliza el deslizador para aprender más sobre el estatus de la prostitución en Venezuela, Colombia y los Estados Unidos.</div>
     <div id="slidecontainer">
       <div class="sliderlabels">
         <p style="text-align:left;font-weight:200;" id="legal">LEGAL</p>
-        <p style="text-align:center;font-weight:200;" id="depends">IT DEPENDS</p>
-        <p style="text-align:right;font-weight:200;" id="illegal">ILLEGAL</p>
+        <p style="text-align:center;font-weight:200;" id="depends">DEPENDE</p>
+        <p style="text-align:right;font-weight:200;" id="illegal">ILEGAL</p>
       </div>
-      <input type="range" min="1" max="100" value="10" class="slider" id="myRange">
+      <input type="range" min="1" max="100" value="10" class="slider" id="myRangeEs">
       <div id="category">
         <div class='laws'>
           <div class='map'>
@@ -24,15 +24,11 @@ graphics:
             <p>VENEZUELA</p>
           </div>
           <div class='desc'>
-            <p>Prostitution is <strong>legal</strong> for those over the age of 16. </h3>
-              <h3>Did You Know?</h3>
+            <p>La prostitución es <strong>legal</strong> para mayores de 16 años.</h3>
+              <h3>Sabías que...</h3>
               <ul>
-                <li>A pack of 36 condoms was sold online for roughly $755. This reflects the growing cost of safe sex in
-                  Venezuela, leading to a spike in sexually transmitted disease and teen pregnancies. </li>
-                <li>Traffickers are targeting Venezuelan women, mostly of poor and indigenous populations. They promise
-                  clothes, food and lodging, which causes many women to become trapped. Researchers have found that the
-                  number of sex-trafficked women has more than doubled since 2016.
-                </li>
+                <li>Una caja de 36 condones se vendió en línea por aproximadamente $755. Esto refleja el costo creciente del sexo seguro en Venezuela, lo cual ha causado aumentos en las enfermedades de transmisión sexual y el embarazo precoz.</li>
+                <li>Los traficantes sexuales han comenzado a apuntar a las mujeres venezolanas, por la mayor parte a las mujeres pobres e indígenas. Les prometen ropa, comida y alojamiento, lo cual las atrapa. Investigaciones sobre el asunto han revelado que el número de mujeres víctimas del tráfico sexual ha aumentado más del doble desde 2016.</li>
               </ul>
           </div>
         </div>
