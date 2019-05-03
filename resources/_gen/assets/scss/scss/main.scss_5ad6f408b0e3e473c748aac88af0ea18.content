@@ -1483,10 +1483,16 @@ nav {
         .main-menu-mobile .bottom-menu .social .social-icon:focus {
           background-color: #333333; }
   .main-menu-mobile .header__lang-toggle {
-    cursor: pointer;
-    padding-bottom: 5px; }
-    .main-menu-mobile .header__lang-toggle .header__lang-toggle__en:hover,
-    .main-menu-mobile .header__lang-toggle .header__lang-toggle__es:hover {
+    margin-top: 15px;
+    text-transform: uppercase; }
+    .main-menu-mobile .header__lang-toggle > a:first-of-type::after {
+      content: " | ";
+      font-weight: 400;
+      color: #333333; }
+    .main-menu-mobile .header__lang-toggle .active {
+      font-weight: 900; }
+    .main-menu-mobile .header__lang-toggle .header__lang-option:not(.active):hover {
+      color: #c70032;
       font-weight: 900; }
 
 @keyframes fadeInRight {
@@ -2356,9 +2362,8 @@ nav {
   line-height: 1.7em; }
   @media screen and (max-width: 1025px) {
     .bubble {
-      width: 80vw;
-      padding: 1% 10px;
       width: 1500px;
+      padding: 1% 10px;
       font-size: 1rem;
       line-height: 1.5em; } }
   .bubble .scrolly__text-container {

@@ -163,12 +163,22 @@ $button-width: 35px;
     }
   }
 
-  .header__lang-toggle {
-    cursor: pointer;
-    padding-bottom: 5px;
+  .header__lang-toggle{
+    margin-top: 15px;
+    text-transform: uppercase;
 
-    .header__lang-toggle__en:hover,
-    .header__lang-toggle__es:hover {
+    &>a:first-of-type::after{
+      content:" | ";
+      font-weight: 400;
+      color: $black;
+    }
+
+    .active {
+      font-weight: 900;
+    }
+
+    .header__lang-option:not(.active):hover {
+      color: $red;
       font-weight: 900;
     }
   }

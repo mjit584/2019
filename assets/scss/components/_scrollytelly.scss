@@ -126,9 +126,8 @@
   line-height:1.7em;
 
   @media screen and (max-width: 1025px) {
-    width: 80vw;
-    padding: 1% 10px;
     width: 1500px;
+    padding: 1% 10px;
     font-size: 1rem;
     line-height: $line-height-base;
   }

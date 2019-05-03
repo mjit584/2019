@@ -37,6 +37,17 @@
         <a href="https://instagram.com/uprootedunc" target="_blank"><i class="social-icon fab fa-instagram"></i></a>
         <a href="https://twitter.com/@uprootedunc" target="_blank"><i class="social-icon fab fa-twitter"></i></a>
       </div>
+      <div class="header__lang-toggle">
+        {{ $currentLang := .Site.Language }}
+        {{ $currentPage := .Permalink }}
+        {{ range $.AllTranslations }}
+        {{ if eq $currentLang .Site.Language }}
+        <a class="header__lang-option active" href="{{ $currentPage }}">{{ .Language.Lang }}</a>
+        {{ else }}
+        <a class="header__lang-option" href="{{ .Permalink }}">{{ .Language.Lang }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
     </div>
   </div>
 </div>
