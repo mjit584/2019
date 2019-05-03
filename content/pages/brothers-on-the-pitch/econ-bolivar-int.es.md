@@ -6,82 +6,80 @@ graphics: "Kailee Akers"
 <div id="bolivar-timeline"></div>
 <div class="divider"></div>
 <section class="interactive">
-  <h2 class="interactive__title">Venezuelan bolívar Timeline</h2>
-  <h3 class="interactive__subhead">The bolívar is an ever-changing currency</h3>
+  <h2 class="interactive__title">Cronología del Bolívar Venezolano</h2>
+  <h3 class="interactive__subhead">El bolívar es una moneda que siempre cambia</h3>
   {{< ybr-line >}}
   <div class="timeline">
     <div class="row yellow">
       <div class="timeline-content left">
         <h2 class="yellow">&nbsp;&nbsp;1879&nbsp;&nbsp;</h2>
         <img src="assets/bolivarcoin1879.png" class="timeline-image" title="Bolívar Coins (Bs.)">
-        <span class="caption">Bolívar Coins (Bs.)</span>
+        <span class="caption">La moneda de Bolívar (Bs.)</span>
       </div>
       <div class="center"><span class="dot"></span></div>
       <div class="timeline-content right">
         <h3>Bolívar</h3>
-        <p>The bolívar (Bs.) was a stable currency pegged to silver, gold, and the US dollar.</p>
+        <p>El bolívar (Bs.) era una moneda estable que estaba apoyada por la plata, el oro y el dólar estadounidense.</p>
       </div>
     </div>
     <div class="row yellow reorder">
       <div class="timeline-content left">
         <h3>Bolívar</h3>
-        <p>Due to economic inflation, coins and bank notes of larger values had to be issued.</p>
+        <p>Cuando la inflación surgió, se creó monedas y billetes más grandes.</p>
       </div>
       <div class="center"><span class="dot"></span></div>
       <div class="timeline-content right">
         <h2 class="yellow">&nbsp;&nbsp;1998&nbsp;&nbsp;</h2>
         <img src="assets/bolivar1998banknote.jpg" class="timeline-image">
-        <span class="caption">Bolívar Bank Notes (Bs.)</span>
+        <span class="caption">El billetes de banco de Bolívar (Bs.)</span>
       </div>
     </div>
     <div class="row blue">
       <div class="timeline-content left">
         <h2 class="blue">&nbsp;&nbsp;2008&nbsp;&nbsp;</h2>
         <img src="assets/bolivarfuertecoin2008.png" class="timeline-image">
-        <span class="caption">Bolívar Fuerte Coins (BsF.)</span>
+        <span class="caption">La moneda de Bolívar Fuerte (BsF.)</span>
       </div>
       <div class="center"><span class="dot"></span></div>
       <div class="timeline-content right">
         <h3>Bolívar fuerte</h3>
-        <p>The bolívar fuerte (BsF.) replaced the bolívar, taking off three zeros from the currency. Inflation remained
-          even though the numbers were smaller.</p>
+        <p>El Bolívar fuerte (BsF.) reemplazó el Bolívar y se quitó tres ceros de la moneda. La inflación no cambió, aunque los números fueron diferentes.</p>
       </div>
     </div>
     <div class="row blue reorder">
       <div class="timeline-content left">
         <h3>Bolívar fuerte</h3>
-        <p>Economic inflation strikes again, requiring larger coins and bank notes to be issued.</p>
+        <p>Otra vez, la inflación causó una necesidad de monedas y billetes más grandes.</p>
       </div>
       <div class="center"><span class="dot"></span></div>
       <div class="timeline-content right">
         <h2 class="blue">&nbsp;&nbsp;2016&nbsp;&nbsp;</h2>
         <img src="assets/bolivarfuerte2016.jpg" class="timeline-image">
-        <span class="caption">Bolívar Fuerte Bank Notes (BsF.)</span>
+        <span class="caption">El billetes de banco de Bolívar Fuerte (BsF.)</span>
       </div>
     </div>
     <div class="row red">
       <div class="timeline-content left">
         <h2 class="red">&nbsp;&nbsp;2018&nbsp;&nbsp;</h2>
         <img src="assets/bolivarsoberano2018.png" class="timeline-image">
-        <span class="caption">Bolívar Soberano Coins (BsS.)</span>
+        <span class="caption">La moneda de Bolívar Soberano (BsS.)</span>
       </div>
       <div class="center"><span class="dot"></span></div>
       <div class="timeline-content right">
         <h3>Bolívar soberano</h3>
-        <p>The bolívar soberano (BsS.) replaced the bolívar fuerte and took five zeros off the currency. </p>
+        <p>El Bolívar soberano (BsS.) reemplazó el Bolívar fuerte y se quitó cinco ceros de la moneda.</p>
       </div>
     </div>
     <div class="row red reorder">
       <div class="timeline-content left">
         <h3>Bolívar soberano</h3>
-        <p>The bolívar soberano is the most recent reissue but due to hyperinflation the currency is virtually
-          worthless.</p>
+        <p>El Bolívar soberano es la moneda actual, pero básicamente no vale nada.</p>
       </div>
       <div class="center"><span class="dot"></span></div>
       <div class="timeline-content right">
         <h2 class="red"> &nbsp;&nbsp;2019 &nbsp;&nbsp;</h2>
         <img src="assets/bolivarsoberanonote2018.jpg" class="timeline-image">
-        <span class="caption">Bolívar Soberano Bank Notes (BsS.)</span>
+        <span class="caption">El billetes de banco de Bolívar Soberano (BsS.)</span>
       </div>
     </div>
     <div class="interactive__sources">
