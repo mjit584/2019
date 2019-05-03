@@ -127,8 +127,7 @@ graphics:
                 <p>
                   Venezuelans are eligible to apply for the PEP if they arrived in Colombia through an authorized
                   immigration post before December 17, 2018, and do not have a criminal record.
-                </p>
-                <p>In order to obtain the PEP, either a Passport or Identity Card is required.</p>
+                <br><br>In order to obtain the PEP, either a Passport or Identity Card is required.</p>
               </div>
             </div>
           </div>
@@ -148,8 +147,8 @@ graphics:
               <img class="slide-img-stats slide-img" src="assets/stats.svg" alt="stats">
               <div class="slide-txt">
                 <p>As of December 2018, <strong>1,174,743</strong> Venezuelans have migrated to Colombia. Only
-                  <strong>45.6%</strong> of them have obtained the PEP.</p>
-                <p>In total, more half of the Venezuelans in Colombia are undocumented.</p>
+                  <strong>45.6%</strong> of them have obtained the PEP.<br><br>
+                In total, more than half of the Venezuelans in Colombia are undocumented.</p>
                 <p class="sources">* Data from Migracion Colombia</p>
               </div>
             </div>
@@ -190,8 +189,7 @@ graphics:
               <img class="slide-img-ID slide-img" src="assets/cedula.svg" alt="pep">
               <div class="slide-txt2">
                 <p>A Venezuelan ID Card, also known as a <em>Cédula de Identidad</em>, is the national identity card
-                  Venezuela’s
-                  government issues. Many countries, such as China (PRC Resident Identity Card) and France (Carte
+                  Venezuela’s government issues. Many countries, such as China (PRC Resident Identity Card) and France (Carte
                   Nationale d’Identité), also have national identity cards. </p>
               </div>
             </div>
@@ -208,8 +206,8 @@ graphics:
                 <p>
                   It’s difficult to go a day without needing a cédula. They are used to make purchases, vote, travel
                   domestically and internationally, and stay in hotels.
-                </p>
-                <p>Cédulas contain a number that is used to identify every citizen.</p>
+                <br><br>
+                Cédulas contain a number that is used to identify every citizen.</p>
               </div>
             </div>
           </div>
