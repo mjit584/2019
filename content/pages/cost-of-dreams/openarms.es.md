@@ -7,29 +7,25 @@ intTitle: "Photo Scrollytelly 1"
       <div class="scrollytelly__main">
         <div id="scrollytelly__title" class="flex-column">
           <img src="assets/TitleCard.png" alt="a graphic of school clothes">
-          <h2 class="interactive__title">OPEN ARMS</h2>
-          <div class="interactive__intro">Medellín Education System welcomes Venezuelan refugees</div>
+          <h2 class="interactive__title">BRAZOS ABIERTOS</h2>
+          <div class="interactive__intro">El sistema educativo de Medellín recibe a inmigrantes venezolanos</div>
         </div>
         <div class="scrollytelly__body flex-column">
-          <div class="scrolly__text"><strong>100%</strong> of migrant children who seek education in Medellín, Colombia
-            are given the opportunity. </div>
+          <div class="scrolly__text">Medellín, Colombia le ofrece la oportunidad de estudiar al <strong>100%</strong> de los niños inmigrantes.</div>
           <img src="assets/Screen1.png" alt="a graphic of hands and items representing education">
           <div class="scrolly__source">*Data from the Medellín Ministry of Education</div>
         </div>
         <div class="scrollytelly__body flex-column">
           <div class="scrolly__text">
-            <strong>3%</strong> of all students in Medellín are Venezuelan and there are still <strong>22,000 open
-              seats.</strong><br><br>
-            In comparison, <strong>8% </strong>of all students in schools along the Colombian border are Venezuelan. The
-            education system <strong>needs 8,000 additional seats </strong>to fit the migrant demand.
+            El <strong>3%</strong> de los estudiantes de Medellín son venezolanos, y aún así hay espacio para <strong>22.000 más.</strong><br><br>
+            En cambio, el <strong>8%</strong> de los estudiantes en ciudades fronterizas son venezolanos. En esta región, <strong>faltan 8.000 puestos adicionales</strong> para suplir la necesidad.
           </div>
           <img src="assets/Screen2.png" alt="a graphic showing Colombia and Venezuela">
           <div class="scrolly__source">*Data from the Medellín Ministry of Education and The New Humanitarian</div>
         </div>
         <div class="scrollytelly__body flex-column">
           <div class="scrolly__text">
-            Migration affects attendance in the education system for Venezuelan children and teens, with absence rates
-            around <strong>40%</strong> among all migrants.
+            La migración afecta la asistencia escolar de los niños y jóvenes venezolanos, con tasas de inasistencia de <strong>40%</strong> entre inmigrantes.
           </div>
           <img src="assets/Screen3.png"
             alt="two rows of desks with four of the chairs empty representing kids not in school">
@@ -37,9 +33,10 @@ intTitle: "Photo Scrollytelly 1"
         </div>
         <div class="scrollytelly__body flex-column">
           <div class="scrolly__text">
-            Despite the Medellín education system being so open to Venezuelan students, many children and teens face
-            struggles outside of these institutional guarantees.
-            <div class="scrolly__instructions">Hover and click on the icons below to learn more. </div>
+            A pesar de que el sistema educativo de Medellín esté abierto para los estudiantes venezolanos, muchos jóvenes luchan con factores adicionales a estas garantías institucionales.
+            <div class="scrolly__instructions">Haz clic en los íconos siguientes
+para obtener más información.
+</div>
           </div>
           <div class="bubbles-container flex">
             <img class="bubble__img" src="assets/Bubbles1.png" alt="graphic showing government documentation"
@@ -52,24 +49,16 @@ intTitle: "Photo Scrollytelly 1"
               onclick="showBubble('transportation')">
             <div id="deportation" class="bubble scrolly__text">
               <div class="closebubble" onclick="showBubble('deportation')">X</div>
-              <div class="scrolly__text-container">It is estimated that 104,173 children do not have legal documents
-                that
-                grant them access to many government services. This includes passports, TMF (border mobility card) or
-                foreigners identification cards. When a Venezuelan child enters school in Colombia, it must be legally
-                reported to immigration with official documentation. Because of this, many children do not pursue
-                education due to fear of deportation.</div>
+              <div class="scrolly__text-container">Se estima que hay 104.173 niños en Colombia sin documentos legales que les den acceso a servicios públicos, incluyendo pasaportes, la Tarjeta de Movilidad Fronteriza (TMF) o cédulas de extranjería. Cuando un niño venezolano ingresa al sistema educativo de Colombia, debe ser reportado a Migración Colombia con documentos oficiales. Por miedo a ser deportados, muchos niños no van al colegio.</div>
               <div class="center"><img src="assets/Notecard1.png"
                   alt="graphic of government documentation such as passport"></div>
               <div class="scrolly__source">*Data from the Medellín Ministry of Education</div>
             </div>
             <div id="resources" class="bubble scrolly__text">
               <div class="closebubble" onclick="showBubble('resources')">X</div>
-              <div class="scrolly__text-container">Parents fortunate enough to find a classroom for their children have
-                trouble affording uniforms and school supplies.<br><br>
-                All students are required to wear uniforms in public and private schools. Uniforms consist of two sets:
-                one for everyday use and another for physical education. Each school uniform costs around 42,000 pesos
-                ($16.80 USD).<br><br>
-                Each book is around 32,000 pesos ($12.80 USD), and a backpack is 17,000 pesos ($6.80 USD).</div>
+              <div class="scrolly__text-container">Los padres suficientemente afortunados de encontrar cupo escolar para sus hijos tienen problemas para pagar los uniformes y útiles escolares.<br><br>
+                Todos los estudiantes deben usar uniformes en los colegios públicos y privados. La mayoría de ellos tienen dos versiones: uno de uso diario y uno para educación física. Cada uniforme cuesta aproximadamente 42.000 pesos ($16,80 USD).<br><br>
+                Cada libro cuesta aproximadamente 32.000 pesos ($12,80 USD) y un morral cuesta 17.000 pesos ($6,80 USD).</div>
               <div class="center">
                 <img src="assets/Notecard2-1.png" alt="a graphic of traditional colombian school uniform"><img
                   src="assets/Notecard2-2.png" alt="a graphic of books"><img src="assets/Notecard2-3.png"
@@ -80,19 +69,14 @@ intTitle: "Photo Scrollytelly 1"
             </div>
             <div id="hunger" class="bubble scrolly__text">
               <div class="closebubble" onclick="showBubble('hunger')">X</div>
-              <div class="scrolly__text-container">Proper feeding contributes not only to the permanence of children in
-                the educational system, but also to improving their school performance. Kids who go to school hungry may
-                suffer an inability to concentrate and often fall behind academically.</div>
+              <div class="scrolly__text-container">La alimentación balanceada no sólo contribuye a la permanencia escolar, sino también al rendimiento en las clases. A los niños que van al colegio con hambre les cuesta más concentrarse y a menudo se atrasan.</div>
               <div class="center"><img src="assets/Notecard3.png"
                   alt="a graphic of a child sitting at a desk thinking about food"></div>
               <div class="scrolly__source">*Data from The Colombia Ministry of Education</div>
             </div>
             <div id="transportation" class="bubble scrolly__text">
               <div class="closebubble" onclick="showBubble('transportation')">X</div>
-              <div class="scrolly__text-container">A bus cost for children to get to school is 1,100 COP, about 35 cents
-                in the United States. Most children choose to walk to school to save money, and trips to school can take
-                up to 30 minutes by foot. Along the border, children walk up to 6 miles each way across the Simón
-                Bolívar bridge from Venezuela to Colombia, and each trip takes about 2 hours. </div>
+              <div class="scrolly__text-container">El transporte escolar cuesta 1.100 pesos colombianos, aproximadamente 35 centavos estadounidenses. La mayoría de los niños caminan al colegio para ahorrar, y la caminata puede tardar hasta 30 minutos. Cerca de la frontera, hay niños que caminan hasta 6 millas ida y vuelta cruzando el puente internacional Simón Bolívar de Venezuela a Colombia. Cada viaje tarda aproximadamente 2 horas.</div>
               <div class="center"><img src="assets/Notecard4-1.png"
                   alt="a graphic of the Medellín Colombia metro logo"><img src="assets/Notecard4-2.png"
                   alt="a graphic of shoeprints"></div>
