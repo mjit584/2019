@@ -1466,7 +1466,7 @@ nav {
           font-size: 1.25rem;
           margin: 0; }
   .main-menu-mobile .bottom-menu {
-    margin-top: 2rem; }
+    margin-top: 1rem; }
     .main-menu-mobile .bottom-menu .social {
       justify-content: flex-start;
       margin-top: 1rem; }
@@ -1483,7 +1483,7 @@ nav {
         .main-menu-mobile .bottom-menu .social .social-icon:focus {
           background-color: #333333; }
   .main-menu-mobile .header__lang-toggle {
-    margin-top: 15px;
+    margin-top: .5rem;
     text-transform: uppercase; }
     .main-menu-mobile .header__lang-toggle > a:first-of-type::after {
       content: " | ";
