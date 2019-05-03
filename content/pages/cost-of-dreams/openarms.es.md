@@ -39,13 +39,13 @@ para obtener más información.
 </div>
           </div>
           <div class="bubbles-container flex">
-            <img class="bubble__img" src="assets/Bubbles1.png" alt="graphic showing government documentation"
+            <img class="bubble__img" src="assets/Bubbles1_es.png" alt="graphic showing government documentation"
               onclick="showBubble('deportation')">
-            <img class="bubble__img" src="assets/Bubbles2.png"
+            <img class="bubble__img" src="assets/Bubbles2_es.png"
               alt="graphic showing three books stacked on top of each other" onclick="showBubble('resources')">
-            <img class="bubble__img" src="assets/Bubbles3.png" alt="graphic representing traditional Colombian food"
+            <img class="bubble__img" src="assets/Bubbles3_es.png" alt="graphic representing traditional Colombian food"
               onclick="showBubble('hunger')">
-            <img class="bubble__img" src="assets/Bubbles4.png" alt="graphic of Medellín, Colombia metro logo"
+            <img class="bubble__img" src="assets/Bubbles4_es.png" alt="graphic of Medellín, Colombia metro logo"
               onclick="showBubble('transportation')">
             <div id="deportation" class="bubble bubble--es scrolly__text">
               <div class="closebubble" onclick="showBubble('deportation')">X</div>
