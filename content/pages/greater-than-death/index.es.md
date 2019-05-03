@@ -27,134 +27,132 @@ storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"
 cta: "Explorar"
 ---
-Marbis Judith Verenzuela, 53, knew she had to go back. Her oldest daughter, Jorlis, was still in Venezuela. So last December, she traveled back from Colombia to save her family.
+Marbis Judith Verenzuela, de 53 años, sabía que tenía que regresar. Su hija mayor, Jorlis, aún estaba en Venezuela. Así que el diciembre pasado, regresó de Colombia para salvar a su familia.
 
-Jorlis, 29, had surgery to remove a brain tumor in 2012, but still experiences side effects from the operation. She had been suffering from convulsions for 30 days because she couldn’t get the medicine she needed to control her seizures, and had been staying in a hospital in Maracay. She couldn’t recognize her own children.
+Jorlis, de 29 años, tuvo una operación para extirpar un tumor cerebral en el 2012 y aún sufre de efectos secundarios. Había tenido convulsiones por 30 días porque no podía conseguir la medicina que necesitaba para controlarlas, y se encontraba interna en un hospital en Maracay. No reconocía a sus propias hijas.
 
-Marbis Judith did not know how sick her daughter was until she arrived in Maracay.
+Marbis Judith no sabía lo mal que estaba su hija sino hasta llegar a Maracay.
 
-“They just told her I was fine and felt a little bad, but nothing too serious,” Jorlis said.
+“Le decían que yo estaba bien, que me sentía mal, pero no tanto así,” dijo Jorlis.
 
-Still, the mother and daughter knew had to make the journey to Colombia, where she might have some hope for better care. So they got on a bus ito Cúcuta, where thousands of Venezuelans are crossing daily. 
+Aún así, madre e hija sabían que tenían que hacer el viaje a Colombia, donde habrían esperanzas de mejor cuidado médico. Se subieron a un autobús para ir a Cúcuta, donde miles de venezolanos cruzan la frontera a diario.
 
-When the family got to Simón Bolívar International Bridge — the dividing line between the world they knew and the world awaiting — Jorlis collapsed.
+Cuando la familia llegó al puente internacional Simón Bolívar — la línea fronteriza entre el mundo que conocían y un mundo nuevo — Jorlis colapsó.
 
-“I thought I was going to lose my daughter at that moment,” Marbis Judith said. “I thought Jorlis was going to die.”  
+“Pensé que iba a perder a mi hija en ese momento,” dijo Marbis Judith. “Pensé que Jorlis se podía hasta morir.”
 
-Two Colombian immigration agents shouted for someone to bring them a wheelchair. They allowed the family to cross into Colombia, even without papers. Marbis Judith grabbed her grandson and granddaughter, and rushed her family across the bridge to the Red Cross facility in Cúcuta.
+Dos agentes de inmigración colombianos gritaron para que alguien les trajera una silla de ruedas. Dejaron que la familia cruzara a Colombia aunque no tuviesen papeles. Marbis Judith tomó de la mano a sus nietos y cruzó el puente corriendo a la clínica de la Cruz Roja en Cúcuta.
 
 <div id="video-top"></div>
 
 <!-- Health and saftey video go here -->
 {{< vimeo id="329861334" class="video-container flex" >}}
 
-At the Red Cross, they gave Jorlis medicine and treated her so that she could travel to Medellín. Now, she lives with her husband, her children, Marbis Judith, her younger sister and her two nieces in a two-bedroom apartment in Medellín. Jorlis says her children remind her to take her medicine every morning, in case she forgets.
+Allí Jorlis recibió medicamentos y tratamiento para que pudiera viajar a Medellín. Ahora vive con su esposo, sus hijos, Marbis Judith, su hermana menor y sus dos sobrinas en un apartamento de dos habitaciones en Medellín. Jorlis dice que sus hijos le recuerdan que se tome sus medicinas todas las mañanas.
 
-Despite the hardship in fleeing to Colombia, the family felt they had no choice. When Venezuela's economy collapsed in 2014, <a href="https://www.theguardian.com/world/2019/jan/06/venezuela-health-system-crisis-nicolas-maduro" target="_blank">so did the health care system</a>. Doctors fled the country, seeking better jobs in other countries. Shelves that were once stocked with medicines sat empty. In March, <a href="https://www.nbcnews.com/storyline/venezuela-crisis/venezuelans-struggle-amid-massive-blackouts-while-maduro-holds-n988836" target="_blank">blackouts in the country led to as many as 70 deaths</a> as hospitals lost power for days.
+A pesar de las dificultades para irse a Colombia, la familia sintió que no tenía otra opción. <a href="https://www.theguardian.com/world/2019/jan/06/venezuela-health-system-crisis-nicolas-maduro" target="_blank">Cuando la economía venezolana colapsó en el 2014, también colapsó el sistema de salud</a>. Y muchos doctores se fueron del país a buscar trabajo en otros sitios. Los anaqueles que alguna vez estuvieron abastecidos de medicina se encontraban vacíos. En marzo, <a href="https://www.nbcnews.com/storyline/venezuela-crisis/venezuelans-struggle-amid-massive-blackouts-while-maduro-holds-n988836" target="_blank">los apagones a nivel nacional causaron cerca de 70 muertes</a>, ya que la pérdida de electricidad afectó miles de hogares y hospitales por varios días.
 
-Marbis Judith and her family had heard that Medellín had reputable doctors who may be able to help. With four family members suffering from chronic illness, they felt like this was their only option, and the family came to be among the more than a million Venezuelans now living in Colombia, and among the 80,380 migrants that arrived without documentation.
+Marbis Judith y su familia habían oído que Medellín tenía buenos doctores que podrían ayudarles. Con cuatro miembros de la familia con enfermedades crónicas, sintieron que ésta era su única opción. Se unieron a más de un millón de venezolanos expatriados en Colombia, y pasaron a formar parte de los 80.380 inmigrantes indocumentados, según el Ministerio de Relaciones Exteriores de Colombia. 
 
-<div class="story__subhead">A New Normal</div>
+<div class="story__subhead">Nueva Normalidad</div>
 
-“In this Venezuela– which used to be so rich– that kids are dying from a lack of medicine?” said Jorlis’ sister, Marbis Georgina, who is 28. “That you get to a hospital and they don’t have alcohol? That’s a basic thing that a hospital should have. Or some cotton? It’s surprising.”
+“En esa Venezuela — donde era tan rica — ¿mueren niños por falta de medicina?” dijo la hermana de Jorlis, Marbis Georgina, que tiene 28 años. “¿Cómo es que tu llegas a un hospital y no tienen alcohol? Eso es algo básico que deberían tener en un hospital. ¿Un algodón? Es sorprendente.”
 
-The family sits in their new home in downtown Medellín. The previous owner donated money so they could have furniture. They owned nothing except hope when they arrived. Outside, the sounds of the city roar on, with a salesperson’s boisterous announcements intermingling with the hums of cars.
+La familia se estableció en nuevo hogar en el centro de Medellín, el cual pudieron amoblar gracias a la ayuda del inquilino anterior. Lo único que trajeron consigo fue esperanza. En su nuevo hogar, siempre los acompaña el bullicio del valle de Aburrá.
 
 {{< photo-caption-vert "pages/greater-than-death" "photo-caption-1" >}}
 
-Jorlis isn’t the only family member whose health concerns pushed them to migrate. Marbis Georgina’s daughter Judy, 2 years old, has a tumor on the right side of her face, above her lip. It developed when she was 15 days old, and she has taken medication for it since then. The small girl sits in her mother’s lap, resting her head against the table as she dozes off. 
+No sólo los problemas de salud de Jorlis los alentaron a irse de Venezuela. A Judy, la hija menor de Marbis Georgina, le salió un tumor en el labio superior derecho a los 15 días de nacida. Le salió a los 15 días de nacer, y ha tomado medicamentos desde entonces para tratarlo. La pequeña, de 2 años, se duerme en las piernas de su madre, apoyando la cabeza en la mesa del comedor. Su tumor requiere tratamientos quincenales, idealmente con láser. En Venezuela, la única opción era viajar siete horas a Caracas para recibir un tratamiento con nitrógeno, cuyo precio fluctuaba cada dos horas.
 
-Judy’s tumor requires treatment every 15 days. Back home, her mother used to make the seven hour journey to Caracas twice a month to get her nitrogen treatment. The price varied every two hours, and became more expensive as doctors began fleeing the country.
+Eventualmente, los doctores le ofrecieron a Marbis Georgina como alternativa realizar tres operaciones para quitarle el tumor a Judy y reconstruirle el labio. Cada cirugía costaría USD $1.500.
 
-Eventually, doctors presented Marbis Georgina with a solution: they could perform three  separate surgeries on Judy to remove the tumor and reconstruct her lip. Each would cost USD $1,500.
+Como la inflación en Venezuela aumenta severamente a diario, Marbis Georgina decidió mudarse a Medellín con sus hijas.
 
-Since inflation in Venezuela is increasing drastically every day, Marbis Georgina had to make a decision, and with that, she decided to move to Medellín with her daughters.
+Tener éxito en Medellín no ha sido fácil. La familia lucha para pagar los tratamientos médicos. En una ocasión, Judy perdió un tratamiento láser para su tumor por falta de fondos.
 
-Making it in Medellín has not been easy. The family struggles to pay for their medical treatments. Judy  missed her last treatment for her tumor, because the family couldn’t afford it.
+“Es frustrante,” dijo Marbis Georgina. “Yo me vine con la esperanza de volver a mi país, con mi hija sana.”
 
-“It’s frustrating,” Marbis Georgina said. “I came with the hope of returning to my country, with my daughter healthy.”
+Algunos vecinos colombianos han tratado de ayudar a la familia en lo posible. Entre ellos, Alba Luz Bélez le ha comprado ropa a los niños. Otros ayudan a comprar medicinas. Pero muchos colombianos no tienen cómo ayudar.
 
-Colombians in the neighborhood have tried to help the family when they can. Alba Luz Belez, a neighbor, has helped buy clothes for the children. Other people help buy medicines. But many Colombians are unable to help. 
+“Papá y mamá ganan el mínimo y tienen que sostener con el mínimo y pagar arriendo y comida,” dijo Bélez sobre los colombianos que no pueden ayudar. “No pueden, aunque tengan hermosos corazones y ganas de ayudar a la gente.”
 
-“Mom and Dad make the minimum wage and they have to support their children with their minimum wage and pay for the rent and food,” said Luz about Colombians who are unable to help. “They just can’t, even if they have a beautiful heart and the best of intentions to help people.”
+En la cocina de la familia Verenzuela quedan los restos de la cena. Hay ollas y tazones secándose y plátanos, picados por la mitad, sobre el mesón. El día anterior, prepararon bollitos venezolanos, un tipo de tamal de maíz relleno de carne.
 
-The remnants of cooking are left in the Verenzuela’s kitchen. Pots and bowls dry. Halved plantains sit on the counter.  The day before they had prepared <em>bollitos venezolanos</em>, a cornflour roll filled with beef. 
+La familia vende comida en Parque Bolívar todos los días. Venden los bollitos a $1.000 pesos colombianos, aproximadamente 33 centavos de dólar. La familia de ocho depende de estas ventas diarias para pagar renta, comida y medicina.
 
-The family sells food in Parque Bolívar every day. <em>Bollitos</em> sell for $1,000 Colombian pesos, roughly 33 cents in U.S. dollars. The family of eight depends on these day-to-day sales to pay for their rent, food and medicine.
+“No hay momento que tu digas, ‘me voy a tomar dos horas de descanso,’” dijo Marbis Georgina. “Aquí se trabaja todos los días porque el arriendo no para. Los gastos no paran. Las facturas llegan.”
 
-“There’s not a moment when you can say, ‘I’m going to take two hours off to rest,’” Marbis Georgina says. “Here, we work everyday because the rent doesn’t stop. Our expenses don’t stop. The bills keep coming.”
-
-The family works together to get by. While Marbis Judith and Marbis Georgina sell in the park, Jorlis takes care of the children.
+La familia trabaja junta para sobrevivir. Mientras Marbis Judith y Marbis Georgina venden en el parque, Jorlis cuida a los niños.
 
 {{< photo-caption "pages/greater-than-death" "photo-caption-2" >}}
 
-“We’ve been here as a family through these difficult times,” Marbis Georgina said. 
+“Hemos estado como familia en estos tiempos difíciles,” dijo Marbis Georgina.
 
-Mabis Judith’s husband and son are the only members of the family that still live in Calabozo. Marbis Georgina says this is difficult, because it’s the first time in her life she has been separated from her brother.
+El esposo y el hijo de Marbis Judith son los únicos miembros de la familia que aún viven en Calabozo, Venezuela. Marbis Georgina dice que es difícil porque es la primera vez en su vida que ha estado separada de su hermano.
 
-Marbis Judith is the driving force that has kept the family moving. Marbis Georgina says that her mother has supported them through the move, through their health issues, through everything. Even when she had health issues of her own.
+La familia se mantiene unida gracias a los esfuerzos de Marbis Judith. Marbis Georgina dice que su madre los ha apoyado durante el traslado a Colombia, los problemas de salud y el día a día. Incluso cuando ella tuvo problemas de salud propios.
 
-“I’m running for my life,” Marbis Judith said. “Running for my life, for my grandchildren’s lives, for my family, because I’m a grandmother to four  children. And that keeps me going. Perhaps it even raised me out of death itself.”
+“Estoy escapando por mi vida,” dijo Marbis Judith. “Escapando por mi vida y la de mi nieta, la de mi familia. Porque soy abuela de cuatro niños. Y eso para mí... me sustenta. Eso me levantó quizás de la misma muerte.”
 
-<div class="story__subhead">Lacking Access</div>
+<div class="story__subhead">Sin Acceso</div>
 
-Venezuelan politicians had promised public health care would be available for everyone. But as the socialist government has collapsed, so too did the healthcare system. Many Venezuelans have moved to other countries seeking care. For those too sick to relocate, family members sometimes travel to  Colombia to purchase medicine and supplies.
+Los políticos venezolanos habían prometido acceso universal a la atención médica pública. Pero al colapsar el chavismo, también colapsó el sistema médico. Muchos venezolanos se han ido a otros países a buscar atención médica. Para aquellos demasiado enfermos para viajar, muchas veces sus familiares viajan a Colombia a comprar medicinas e insumos.
 
-Colombia has both a public and private health care system, similar to that of the United States. The private system is more efficient, and provides the best quality health care in the country. The public system is free and available, but often has long wait times.
+Colombia tiene sistemas de salud tanto público como privado, parecido al sistema híbrido estadounidense. El sistema privado es más eficiente y brinda atención de mejor calidad. El sistema público es gratis, pero tiene largos tiempos de espera, según Toni Vitola, un representante de ColVenz, un grupo sin fines de lucro en Medellín que trabaja con las Naciones Unidas y otras ONGs para asegurarse de que los venezolanos estén al tanto de los recursos disponibles en su nuevo hogar.
 
 {{< story-interactives "pages/greater-than-death" "health-int" >}}
 
-With the influx of Venezuelan migrants to Colombia, the government decided to create a program that allowed documented migrants to work. They introduced the <em>Permiso Especial de Permanencia</em> (PEP) in August 2017, which allows Venezuelans to work and receive public benefits for up to two years. If you have the PEP, you are allowed access to the public health care system in Colombia.
+Con la entrada de tantos inmigrantes venezolanos al país, el gobierno colombiano decidió crear un nuevo permiso de trabajo. Introdujeron El Permiso Especial de Permanencia (PEP) en Agosto del 2017, con el cual los venezolanos pueden trabajar legalmente y recibir beneficios del gobierno por un máximo de dos años. Los portadores del PEP tienen acceso al sistema médico público de Colombia.
 
-After three rounds of PEP applications, 415, 298 Venezuelan migrants are registered to receive public health care.
+Después de tres tandas de solicitudes del PEP, se registraron un total de 415.298 venezolanos para recibir beneficios, según la Cancillería de Colombia.
 
-Marbis Georgina’s daughter Alma has epilepsy. Since they are undocumented, they do not qualify for the PEP until they have passports. Since they are unable to benefit from the country’s public healthcare system, their only other option is private healthcare – which is expensive.
+La hija de mayor Marbis Georgina, Alma, es epiléptica. Como son indocumentados, no califican para sacar el PEP hasta que no tengan pasaportes sellados. Y como la familia no tiene acceso al sistema de salud público, la única opción que les queda es el costoso sistema privado.
 
-The health care crisis in Venezuela is also affecting doctors, many of whom have found themselves fleeing for better economic opportunities. One of them is Jorge Orozco, 40, a Venezuelan doctor of internal medicine who now lives in Medellín. 
+La crisis de salud en Venezuela también ha afectado a los doctores, los cuales se han ido a otros países a buscar mejores oportunidades económicas. Uno de ellos es Jorge Orozco, un internista de 40 años que vive en Medellín.
 
 {{< center-quote "/pages/greater-than-death" "marbis-georgina-pull">}}
 
-Orozco cooks Venezuelan desserts and arepas in his apartment, which he then sells to customers that put in orders. He says he used to sell in La Floresta park, but business wasn’t as good.
+Orozco vende arepas y postres venezolanos preparados por pedido desde su apartamento. Antes los vendía en el parque La Floresta, pero no le iba tan bien.
 
-Orozco can’t practice medicine in Medellín, because he doesn’t have his transcript or diploma. He says that because Venezuela doesn’t want its doctors leaving the country, his university won’t release his school records. Without those, he can’t practice medicine in his new home.
+Orozco no puede practicar medicina en Medellín porque no tiene su expediente escolar ni su diploma en Colombia. Dice que como el gobierno venezolano no quiere que los doctores huyan del país, su universidad se niega a darle copia del expediente. Sin esos documentos, no tiene cómo practicar en su nuevo hogar.
 
-However, he has found a few patients he can help through house calls. He has seven patients that he makes home visits for, that he gives advice to for a fee.
+Aún así ha conseguido pocos pacientes a los que atender con visitas a domicilio. Tiene siete pacientes a los que ve gratis.
 
-“I go to their homes,” Orozco said. “Sometimes they call me and say they don’t even have 1,000 pesos to afford the visit, so I find a way to help them over the phone.”
+“Voy a sus casas,” dijo Orozco. “Hay veces que me llaman y me dicen que no tienen ni mil pesos para pagarme la visita pero consigo como ayudarlos por teléfono.”
 
-He hopes to have his records from his medical school come in, so that he can practice. But for now, he has to find a way to send money to his wife and son, who are still in Venezuela.
+Él espera obtener su expediente pronto para poder revalidar su título en Colombia. Por ahora, busca cualquier manera de ganar dinero para mandarle a su esposa y a su hijo que aún están en Venezuela.
 
-Orozco is facing the opposite side of the larger problem: when a healthcare system falls apart, providers and patients both suffer. 
+Orozco demuestra la otra cara del problema: cuando falla por completo el sistema médico, sufren tanto los pacientes como los proveedores de salud. 
 
-<div class="story__subhead">Family Through and Through</div>
+<div class="story__subhead">Por los Cuatro Costados</div>
 
-“I didn’t come to Colombia to make myself rich or anything,” Marbis Georgina said. “I just came to look for their health. The only thing I ask God, every day of my life, is that my girls are fine, that my sister is fine.”
+“Yo no vine a Colombia a hacerme rica ni nada,” dijo Marbis Georgina. “Yo sólo vine a buscar la salud de ellas. Es lo único que yo le pido a Dios todos los días de mi vida. De que mis niñas estén bien, de que mi hermana esté bien.”
 
-The family comes together for dinner every night, after the children come home from school and the adults finish working. Their table doesn’t have enough seats for everyone, so they eat in two cycles – children first, then adults.
+La familia cena junta todas las noches, cuando los niños llegan de la escuela y los adultos terminan de trabajar. No tienen suficientes puestos en la mesa para que todos coman a la vez, así que comen en dos tandas — primero los niños, luego los adultos.
 
-Tonight, Alma is suffering from epileptic symptoms. She is taking medicine and heading to sleep. The other children will soon follow, and the family will split between the four mattresses in the house.
+Esta noche Alma ha sufrido de síntomas epilépticos. Se toma su medicina y se va a dormir. Los otros niños la siguen pronto. La familia comparte cuatro colchones para dormir.
 
-Marbis Georgina still has hope that her children will be raised in Venezuela. She says she wants her children to get to know that beautiful country, a country she believes is the best in the world.
+Marbis Georgina aún tiene esperanzas de criar a sus hijas en Venezuela. Dice que quiere que sus niñas conozcan su bello país, el cual según ella es el mejor del mundo.
 
-The children, however, feel differently. Jorlis’ daughter, Maria, still remembers the hunger.
+Los niños de la casa no están completamente de acuerdo. La hija de Jorlis, Maria, aún recuerda el hambre que sufrió en Venezuela.
 
-“The other day, I was joking around with her and I told her, ‘Sweetie, let’s pack our bags, we’re going back to Venezuela this weekend. Let’s go.,” Marbis Georgina said. 
+“El otro día le dije, jugando, ‘mami vamos a hacer las maletas que yo me voy el fin de semana para Venezuela, vámonos’” dijo Marbis Georgina.
 
-Her niece told her no – she didn’t want to keep eating beans and lentils, like she had to back home. 
+Su sobrina le dijo que no — que no quería comer más frijoles y lentejas, como lo hacía en Venezuela.
 
-“I eat well here,” her niece said. “But I’m hungry over there.” 
+“Aquí como bien,” dijo su sobrina. “Allá paso hambre.”
 
 <!-- 3rd and 4th photos - diptych -->
 {{< photo-diptych "pages/greater-than-death" "photo-diptych-1" >}}
 
-The family still struggles to treat their medical issues, due to the lack of money and status within Colombia. The government is only accepting PEP applications if Venezuelans have a passport and arrived in the country before Dec. 17. If Marbis Georgina can get the proper documentation for her children, they will have access to Colombia’s public health care system.
+La familia Verenzuela lucha por tratar sus problemas médicos por falta de dinero y estatus legal en Colombia. El gobierno sólo acepta solicitudes del PEP de venezolanos con pasaporte sellado que hayan ingresado al país antes del 17 de diciembre. Si Marbis Georgina consigue papeles para sus niñas, podrán tener acceso al sistema de salud público de Colombia.
 
-There won’t be another round of PEP applications until July, said Toni Vitola, a representative from ColVenz, a local NGO that partners with the United Nations and other agencies to make sure Venezuelans know what resources they have in their new home.
+Según Vitola, no habrá otra ronda de solicitudes del PEP hasta julio.
 
 {{< center-quote "/pages/greater-than-death" "marbis-pull">}}
 
-Without PEP, Jorlis, Eucletus and their children can’t receive most government assistance. Instead, they have to  seek care from nongovernmental organizations, and can only visit a Colombian doctor for emergency care.
+Sin el PEP, Jorlis, su esposo Eucletus y sus hijos no podrán acceder a la ayuda del gobierno. Dependen de la ayuda de las ONGs y sólo pueden ser vistos por doctores colombianos en casos de emergencia.
 
-For now, undocumented Colombians with health issues are stuck in a state of limbo.
+Por ahora, los venezolanos indocumentados con problemas de salud están atrapados en el limbo.
 
-“I wish that the government, the Colombian government, would help more with health cases,” Marbis Georgina said. “Maybe with foundations, because we don’t come to stay in Colombia. We have the hope that our country is going to resolve itself and that we are going to have a beautiful Venezuela, like before.”
+“Yo quisiera que el gobierno, el gobierno Colombiano, apoyara más los casos de salud,” dijo Marbis Georgina. “Que hicieran fundaciones, porque nosotros no vinimos a quedarnos en Colombia. Nosotros tenemos la esperanza de que nuestro país se va a resolver y que vamos a tener una bonita Venezuela, como antes.”
