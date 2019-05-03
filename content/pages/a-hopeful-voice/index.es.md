@@ -27,194 +27,192 @@ storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"
 cta: "Explorar"
 ---
-By 4 p.m., Irelys Rojas begins to fear the end of the day. 
+A las 4 de la tarde, Irelys Rojas comienza a temer el final del día. 
 
-It’s raining, and the restaurants she performs in are empty. At 5, she sits down at a café to count how much she’s made for the day. 
+Está lloviendo, y los restaurantes en donde canta están vacíos. A las 5, se sienta en un cafetín a contar cuánta plata se ganó por el día. 
 
-It’s $24,000 Colombian pesos, or about USD $8. 
+Son solo $24,000 pesos colombianos, más o menos $8 dólares estadounidenses. 
 
-She needed USD $33 to afford rent, a bus ride and the single meal she eats per day. The rest — about USD $20 —  she planned to send to her parents and the three sons she left behind in Margarita Island off the coast of Venezuela. Despite the soaring inflation at home, it would’ve been enough for a carton of eggs and a liter of milk.
+Necesitaba $33 dólares para costearse los gastos de la renta, un pasaje de metro y la única comida. El resto — como $20 — se los hubiese mandado a sus padres y a sus tres hijos, quienes dejó en Margarita, una isla cerca de la costa noreste venezolana. A pesar la altísima inflación en su país, hubiese sido necesario para un cartón de huevos y un litro de leche. 
 
-Her charisma shows as Irelys walks the streets of downtown Medellín, hiding tears behind smiles as she loudly greets every vendor on the block selling candy, phone cards, fake jewelry. 
+Su carisma se desborda mientras camina por las calles del centro de Medellín, escondiendo lagrimas entre sonrisas, mientras con euforia saluda a los vendedores callejeros. Algunos exhiben su mercancía en mesas, otros en mantas extendidas en en la acera — venden caramelos, tarjetas de teléfono, bisutería barata.
 
 <div id="video-top"></div>
 
 <!-- Government video goes here -->
 {{< vimeo id="331124508" class="video-container flex" >}}
 
-“Hola, mi amor, ¿Cómo estás?” <em>Hi love, how are you?</em> she tells everyone.
+“Hola, mi amor, ¿Cómo estás?” Irelys saluda a todos con cariño. 
 
-She met them in January, when she began singing in restaurants for tips shortly after arriving. The 38-year-old drags a speaker on wheels, stopping at every coffee shop and eatery that will allow her to perform a song. 
+Apenas los conoció en enero, cuando empezó a cantar en restaurantes a cambio de propinas poco después de llegar a Colombia. Luciendo leggings, zapatos de goma y una franela ajustada, Irelys de 38 años, se para en cada panadería, restaurant, cafetín, donde le permitan cantar una canción. 
 
-In Venezuela, Irelys worked from home designing beach totes and cakes for special occasions. She spent her free time with her boys — Reynaldo, Luis Manuel and Angel Rafael. With inflation reaching 80,000 percent in 2018, there wasn’t much money left for handbags and cake. Less money meant fewer buyers, which meant fewer sales. 
+En Venezuela, trabajaba desde su casa diseñando bolsos de playa y tortas para ocasiones especiales. Pasaba los ratos libres con sus niños — Reynaldo, Luis Manuel y Angel Rafael. Con una inflación del 80.000 por ciento a finales del 2018, no quedaba mucha plata para carteras y postres. Menos dinero significó menos compradores y menos ventas. 
 
-Irelys had never traveled outside of the country and therefore never needed a passport. When it was time to leave Venezuela five months ago, she couldn’t afford one. 
+Irelys nunca tuvo que viajar fuera del país, entonces nunca pensó en sacarse un pasaporte. A la hora de dejar Venezuela hace cinco meses, no pudo comprar uno. 
 
-Getting a passport is a costly, bureaucratic and lengthy endeavor for Venezuelans, but migrants still yearn for the burgundy booklet and entrance stamp. Hyperinflation and mismanagement left the government unable to issue passports, sometimes lacking the material to make them or the electricity to load citizens’ information on the computer system. 
+Obtener un pasaporte es un proceso burocrático, costoso y tedioso para los venezolanos, pero los emigrantes añoran el librito vinotinto con un sello. Luego de que la hiperinflación y el mal manejo de recursos en Venezuela, el gobierno ha quedado incapaz de expedir pasaportes —  a veces por falta de material, otras veces por falta de electricidad para subir la información de los ciudadanos al sistema computarizado. 
 
-“You have to find a middleman to get an appointment to have your picture taken and then wait months and months for them to tell you there’s no materials,” she said.  “Oh, and then pay the middleman like USD $1,000.” 
+“Tienes que conseguir a un gestor para que te den una cita para que te tomen la foto y después esperar meses y meses para que te digan que no hay material,” señaló Irelys. “Ah, y entonces pagarle al gestor como $1.000 dólares.”
 
 {{< photo-caption "pages/a-hopeful-voice" "photo-caption-1" >}}
 
-Crossing the border illegally, she forfeited the chance to have a formal job, access to health care or even a own credit card in Colombia. She is one of half a million Venezuelans who are now in Colombia without proper papers to work or obtain services — a leap of faith taken to escape the unbearable situation in their country.
+Al cruzar el borde de manera ilegal, perdió el derecho a encontrar un trabajo formal, el acceso a la salud pública o incluso sacar una tarjeta de crédito en Colombia. Es una en casi medio millón de venezolanos que ahora residen en ese país sin los documentos adecuados para trabajar o recibir servicios sociales — un salto de esperanza que tomó para escapar la situación invivible en su país. 
 
-Renouncing her right to belong to a country wasn’t a difficult choice. Her sons needed food and notebooks and socks — all of which she could only provide from afar. 
+Renunciar a su derecho de pertenecer a una nación no fue una decisión difícil. Sus hijos necesitaban comida y cuadernos y medias — todo lo que ella solo puede darles desde lejos. 
 
-“I’m here because I have to,” she said. “I have three mouths to feed back home in Venezuela, but no one wants to leave their country.” 
+“Estoy aquí porque me toca”, dijo. “Tengo tres bocas que alimentar en Venezuela, pero nadie quiere dejar su país”. 
 
 {{< center-quote "/pages/a-hopeful-voice" "pull-quote-1" >}}
 
-The border that divides Colombia and Venezuela is the longest and busiest in Latin America, with 70,000 people crossing every day, according to Christian Krüger Sarmiento, the director of Migración Colombia. At least 5 percent, he said, cross to stay. 
+El borde que divide Colombia y Venezuela es el más largo y concurrido de Latinoamérica, con 70.000 personas cruzando a diario, de acuerdo a Christian Krüger Sarmiento, el director de Migración Colombia. Al menos 5 por ciento cruzan para no volver. 
 
-In an attempt to provide a legal avenue for Venezuelans who cross on a regular basis to find food, medicine and sometimes gasoline, the Colombian government began issuing the Tarjeta de Movilidad Fronteriza, a border mobility card. Venezuelans who reside in border states can get a card and move freely across the border without a passport. 
+Tratando de proveer una avenida legal para los venezolanos que cruzan el borde regularmente para comprar comida y medicinas, y en ocasión gasolina, el gobierno Colombiano comenzó a expedir un documento llamado Tarjeta de Movilidad Fronteriza para los venezolanos que viven en estados fronterizos se movilicen libremente sin pasaporte. 
 
-The six legal border crossings, however, have been closed since late February, following orders from Venezuelan President Nicolás Maduro, leaving the sea of Venezuelans who cross every day to do so illegally. 
+Los seis puntos de entrada legal, sin embargo, han estado cerrados desde finales de febrero, bajo la orden del presidente venezolano Nicolás Maduro, dejando al mar de sus compatriotas que cruzan diariamente a hacerlo de manera ilegal. 
 
-In response, the National Colombian Police implemented tougher regulations on the illegal paths known as trochas, establishing checkpoints to verify IDs and criminal records of those making the trip, said Police Col. José Luis Palomino.
+Como respuesta, a Policía Nacional colombiana implementó un control estricto en los caminos ilegales conocidos como trochas, estableciendo puntos de verificación donde los guardias revisan documentos de identificación y los antecedentes penales de los viajeros, señaló el coronel José Luis Palomino. 
 
-From 2016 to 2018, Colombian authorities deported 4,274 Venezuelans, compared to only 294 in the three previous years combined. Many have made headlines for committing gruesome crimes. 
+Del 2016 al 2018, las autoridades colombianas deportaron 4.274 venezolanos, comparado con solo 294 en los tres años anteriores combinados. Muchos han liderado los titulares por cometer crímenes horribles. 
 
-Colombia — a country that has historically exported more migrants than it’s taken in — is responding to the mass influx of Venezuelans by granting them legal status under specific conditions. 
+Colombia — un país que históricamente ha exportado más inmigrantes de los que ha recibido ‚ está respondiendo a las masas de venezolanos dándoles la oportunidad de regularizarse bajo condiciones específicas. 
+Junto a las Tarjetas de Movilidad Fronteriza, el gobierno comenzó a expedir el Permiso Especial de Permanencia, conocido como PEP, en 2017 para los venezolanos. El documento es válido por dos años. Desde entonces Migración Colombia ha dado varias rondas de PEP para las personas que ingresaron al país de forma legal con un sello en el pasaporte antes de ciertas fechas. 
 
-Along with border mobility cards, Migración Colombia began issuing a special stay permit, the Permiso Especial de Permanencia (PEP) in 2017 for Venezuelans, which is valid for two years. Since then, the government has issued various rounds of PEPs for people who entered the country with a stamped passport before a certain date. 
-
-With the scarcity of Venezuelan passports, the agency said, as of August, only about 500,000 have proper documentation – with PEPs or visas.
+Con la escasez de pasaportes Venezolanos, según la agencia, en agosto solo 500.000 de venezolanos tienen un estado regular en Colombia, con PEPs o visas.
 
 {{< story-interactives "pages/a-hopeful-voice" "gov-undocumented-int" >}}
 
-Another effort to regularize those without a passport was a census, which took place from April to July in 2018. At first, Colombian authorities marketed the census as an effort to count how many Venezuelans remained undocumented within Colombian territory. The registry didn’t promise legal status but stipulated the information obtained couldn’t be used by authorities for deportation proceedings. 
+Otro esfuerzo para ayudar a quienes no tienen pasaporte fue un censo, que tuvo lugar desde abril hasta julio de 2018. Al principio, las autoridades colombianas promocionaron el censo como un simple conteo de los venezolanos con estado irregular en el país. El registro no prometió conceder un estado legal pero estipuló que la información no podría ser usada por autoridades para procesos de deportación. 
 
-When the census ended, 442,262 Venezuelans who registered online qualified for the PEP, allowing them to obtain legal employment, access the public healthcare system and apply for visas that would grant more permanent legal status. 
+Al terminar el censo, 442.262 venezolanos que se registraron en línea calificaron para el PEP, permitiéndoles obtener empleo formal, acceder el sistema de salud pública y solicitar visas que podrían garantizar un estatus legal permanente. 
 
-“That’s a topic that helps us shield the country when it comes to safety but also helps us protect the migrants’ rights, which are oftentimes violated for their condition of irregularity — they’re exploited in the workplace,” Krüger Sarmiento said.  
+“Ese es un tema que nos ayuda a proteger el país con el tema de la seguridad, pero también nos ayuda a proteger los derechos de los inmigrantes, los cuales son violados por su condición de irregularidad — son explotados en el lugar de trabajo”, Krüger Sarmiento dijo. 
 
-Still, the government estimates that of the 1.1 million Venezuelans in Colombia, nearly 500,000, or 40 percent, remain undocumented, as of February, according to Migración Colombia. 
+Igualmente el gobierno estima que de los 1.1 de venezolanos en Colombia, casi 500.000 o 40 por ciento seguía de manera irregular en febrero de este año. 
 
-As the first two years of PEPs expire in July, it’s unclear whether the government will allow Venezuelans to renew their permits. 
+ Cuando los primeros dos años del PEP expiran en julio, no es seguro que el gobierno permitirá que los inmigrantes renueven el documento. 
 
-“The logic behind it was to allow the two-year time period for Venezuelans to seek a visa — a student visa, a work visa, a refugee visa,” said Carlos Vázquez, the president of ColVenz, a nonprofit in Medellín dedicated to helping new Venezuelan immigrants. “Some visas take time, some money, some require sponsorship, and some people don’t even know about them. Some people can’t afford to plan that far in advance.” 
+“La lógica era permitir ese periódo de dos años para que los venezolanos buscaran la manera de conseguir una visa – una visa de estudiante, una visa de trabajador, una visa de refugiado”, notó Carlos Vázquez, el presidente de ColVenz, una organización sin fines de lucro dedicada a ayudar a venezolanos recién llegados en Medellín. “Algunas visas llevan tiempo, algunas dinero, algunas tienen que ser patrocinadas y hay gente que no sabe que existen. Hay gente que no puede darse el lujo de planificar el futuro tan lejano”. 
 
-When Irelys planned her departure, she didn’t even try to get a passport. 
+Cuando Irelys planificó su partida, ni siquiera intentó sacarse un pasaporte. 
 
-Had it been a regular situation where she could pay a modest fee for her document, she would’ve done it, she said, but spending a small fortune on a document instead of her children’s wellbeing seemed ridiculous. 
+Si hubiese sido una situación regular en la cual tuviese que pagar una cantidad modesta por su documento, ella lo hubiese hecho, señaló. Pero gastar una pequeña fortuna en eso, en vez de proveer para el bienestar de sus hijos, sonaba ridículo. 
 
-“I don’t have that kind of money,” she said. “It was never an option for me.” 
+“Yo ni siquiera tengo esa plata,” dijo Irelys, mirando sus manos durante una entrevista. “Nunca fue una opción para mí”.
 
 {{< photo-caption "pages/a-hopeful-voice" "photo-caption-2" >}}
 
-To leave, all she needed to do was sell her house in Margarita Island. 
+Para irse, solo debía vender su casa en Margarita. 
 
-The United Nations High Commissioner for Refugees estimates at least 3 million Venezuelans have migrated. That’s about 10 percent of the country’s population. In recent years, real estate property values plummeted in a market overwhelmed by soon-to-be migrants who hope to sell and leave with some money in their pockets. 
+El Alto Comisionado de las Naciones Unidas para los Refugiados estima que al menos 3 millones de venezolanos han emigrado. Eso representa el 10 por ciento de la población del país. En los últimos años, el valor de los inmobiliarios se ha desplomado en un mercado abrumado por familia desesperadas que buscan emigrar, con la esperanza de vender sus casas para llevarse un poco de dinero en su bolsillo. 
 
-When a man offered Irelys $200 to buy her five-bedroom home — less than half of what it’s worth —  she took it without hesitation. It was enough to get a smartphone to stay in touch with her kids and save some cash for the trip ahead.
+Cuando le ofrecieron $200 por su casa de cinco habitaciones, los agarró sin vacilación. Iba a ser suficiente para comprar un teléfono inteligente, con el cual se mantendría en contacto con sus hijos, y para ahorrar dinero para el viaje porvenir. 
 
-In just four days, she hitchhiked 800 miles into Colombia and handed $7 to an indigenous man who allowed a group of Venezuelans to cross through a private house in La Guajira. 
+En solo cuatro días, la aventaron 800 millas hasta llegar a Colombia, donde le entregó USD $7 a un guajiro que pasó a un grupo de venezolanos por su casa en La Guajira. 
 
-Once in Maicao, the first Colombian city she set foot on, Irelys felt overwhelmed. Food was abundant and cheap and people weren’t rummaging through the trash to quiet their stomachs. 
+Una vez que llegó a Maicao, la primera ciudad en la que sus pies tocaron tierra colombiana, Irelys se sintió abrumada. La comida abundaba y la gente no estaba hurgando en la basura para callar sus tripas. 
 
-There was freshly baked bread, buñuelos, pan de bono, pastelitos, empanadas — all traditional finger foods that had become scarce and expensive over the last few years in Venezuela. 
+Había pan recién horneado, buñuelos, pan de bono, pastelitos, empanadas — todos los bocados que se habían vuelto caros y escasos en su país. 
 
 {{< photo-caption "pages/a-hopeful-voice" "photo-caption-4" >}}
 
 {{< story-interactives "pages/a-hopeful-voice" "gov-birthrite-int" >}}
 
-With a steep decline in oil prices in 2014, Venezuela’s economy — which depends solely on oil exports — began to crumble. Food shortages became the norm. Regulations, like price ceilings on staple items as inflation skyrocketed, asphyxiated private industries, have left Venezuelans hungry and malnourished. 
+La economía venezolana se derrumbó en el 2014 junto con el precio del petróleo, el único producto que exportaba el país para ese entonces. La escasez de comida se volvió lo normal. Distintas medidas como precios topes para artículos de necesidad básica, asfixiaron al sector privado, dejando a los venezolanos hambrientos y malnutridos. 
 
-A survey conducted by the Universidad Simón Bolívar revealed that in 2017, 64 percent of Venezuelans had lost 24 pounds on average. 
+Una encuesta de la Universidad Simón Bolívar reveló que en 2017, 64 por ciento de los venezolanos habían adelgazado, en promedio, 12 kilos. 
 
-“When things were good in Venezuela, my life was like ... I never suffered, I never cried, I was very happy. I had a great life,” Irelys said, referring to a song by songwriter Juan Gabriel.
+“Cuando la cosa estaba bien en Venezuela, mi vida era como Juan Gabriel,” señaló Irelys. “Nunca sufrí, nunca lloré, fui muy feliz. 
 
-Whoever walked into her house had a spot at the dining table — the plumber, her neighbor, a friend. Now, she said, they try not to invite people over during lunch or dinner because there’s barely enough to get by with the little money Irelys can send. 
+Quien entrara a su casa tenía un lugar en la mesa del comedor — el plomero, el vecino, algún amigo. Ahora su familia evade tener invitados a la hora del almuerzo o del desayuno porque apenas hay suficiente comida arreglárselas con lo que puede mandar Irelys. 
 
-Even when her stomach was growling in pain as the sun set, she forced herself to sleep on the bus to Medellín. She wondered, <em>Had her boys eaten</em>?
+Incluso con el estómago gruñiendo del hambre cuando el sol se escondía, se obligó a dormirse en el autobús a Medellín. Se preguntó, <em>¿Habrían comido sus niños?</em>
 
 {{< photo-caption "pages/a-hopeful-voice" "photo-caption-3" >}}
 
-Irelys stepped down from the bus on Dec. 3 at 4 a.m. Two hours later, she had an apron on and was taking orders as a server in a bakery. The shifts ran from 6 a.m. to midnight, and some days she couldn’t sit. 
+Irelys se bajó del bus el 3 de diciembre a las 4 de la mañana. Dos horas más tarde, lucía un delantal y tomaba ordenes como mesera en una panadería. Los turnos duraban desde las 6 a.m. hasta la medianoche, y en ocasiones, no le daba chance de sentarse. 
 
-Two weeks later, she quit. The manager screamed at one of her coworkers — another Venezuelan woman who was undocumented — and Irelys was on edge. She threw the apron on a table and told the manager she wouldn’t come back. 
+En solo dos semanas renunció. La encargada de la panadería le gritó a otra empleada venezolana quien tampoco tenía documentos. Irelys estaba nerviosisima — tiró el delantal en una mesa y le dijo a la encargada que no volvería.  
 
-She wasn’t losing much: her salary amounted to USD $3 a day, and a few extra bucks on tips. Yet she managed to save for the family remittances. 
+No perdió mucho: su paga era alrededor de $3 dólares al dia, más la propina. Sin embargo, con eso resolvía para enviarles remesas a su familia. 
 
-“I think they exploit Venezuelans,” she said. “If they have a chance, they work you to the ground.” 
+“Me parece que explotan a los venezolanos”, dijo. “Si te dejas sí se les da la oportunidad, te revientan trabajando.”
 
-When Irelys walked out of the bakery that morning, she headed to Plaza Botero, where she prayed and cried on a bench. An older woman asked why she was crying.
+Al salir de la panadería esa mañana, se fue a la Plaza Botero, donde rezó y lloró en un banquito. Una mujer mayor le preguntó por qué lloraba. 
 
-“I’m upset,” she replied. 
+“Estoy molesta” Irelys respondió. 
 
-“Are you crying because you don’t have a job? Is that why you’re crying?” the woman asked. “Stop crying. Women sell sex here and they work.” 
+“¿Estás llorando porque no tienes trabajo? ¿Es por eso que lloras”? Preguntó la mujer. “Deja de llorar. Aquí las mujeres se prostituyen y eso es un trabajo”.
 
 {{< center-quote "/pages/a-hopeful-voice" "pull-quote-3" >}}
 
-She stared and turned around and saw the prostitutes. They were sitting on the same bench, smoking cigarettes while waiting for clients. 
+Irelys miró fijamente a la mujer por un segundo y se volteó. Las mujeres estaban en la misma banquilla, fumando cigarrillos y esperando a sus clientes. 
 
-Irelys’ heart sunk. 
+Se le cayó el alma a los pies. 
 
-But a man selling cookies walked by, and if he could do it, why couldn’t she do the same? 
+Pero en fracciones de segundos vio a un hombre vendiendo galletas en la plaza. Si el podía hacerlo por qué no ella también? 
 
-She wiped her tears and asked where he got the cookies. Only two more weeks went by before she was briefly detained by policemen. 
+Se limpió las lágrimas y le preguntó al hombre dónde comprar las galletas. Solo dos semanas pasaron antes de que la policía la detuviera. 
 
-“They treated me like a criminal, but then they sympathized and let me go,” she said. 
+“Me trataron como a una criminal, pero después se compadecieron y me dejaron salir”, dijo. 
 
-La Paisa, a woman from Medellín who controls the informal cookie selling business in Plaza Botero, ratted Rojas out to the cops and they seized her merchandise. The policemen let her go eventually, threatening to report her to immigration and issue a ticket if she continued to sell in the same spot. 
+La Paisa es el apodo de la mujer que controla la venta de galletas en Plaza Botero y quien delató a Irelys para que la policía le quitara su mercancía. Eventualmente, la dejaron ir con la amenaza de expedir una multa si continuaba vendiendo galletas en el mismo lugar. 
 
-While the Colombian National Police didn’t comment on any specific detentions, Leidy Tatiana Acevedo Higuita, the legal counsel for the region that covers Medellín, said informal vendors — those who sell on the streets without a permit from the municipal government — are not necessarily illegal.
+Aunque la Policía Nacional de Colombia no ofreció detalles sobre detenciones específicas, Leidy Tatiana Acevedo Higuita, LA TITLE para la región que cubre Medellín, dijo que los vendedores informales — aquellos que venden en las calles sin permiso de la alcaldía — no son necesariamente ilegales. 
 
-“In Colombia, irregularity is one of the forms of employment,” she said. “That informal way of selling things generates jobs, and generally, it’s used by single mothers or the elderly, for example — people who can’t find a formal job who use it to generate their upkeep.” 
+“En Colombia la irregularidad es una forma de empleo”, señaló. “Esa manera informal de vender genera trabajo, y generalmente, es utilizada por madres solteras o personas mayores, por ejemplo — por gente que no puede conseguir un trabajo de manera formal que lo usan para generar su sustento”. 
 
-If vendors wander up and down the street, they can’t be fined. However, when someone decides to settle down and sell in the same spot, policemen have the authority to detain them and seize their merchandise, charging them for invasion to the public property. 
+Si los vendedores deambulan por la calle, no pueden ser detenidos. Sin embargo, cuando alguien decide plantarse en el mismo lugar, la policía tiene la autoridad para detenerlos y decomisar su mercancía, acusándolo de invasión a la propiedad pública. 
 
-This law went into effect in 2016, and since then, Acevedo Higuita said the number of tickets issued for invading public property has increased. But there’s no way to tell if they’re Venezuelan or Colombian. 
+La ley que prevalece entró en vigencia en el 2016, y desde entonces, el número de comparendos expedidos por invasión a la propiedad pública ha aumentado, según las autoridades, pero no hay manera de saber si los infractores son venezolanos o colombianos. 
 
-Acevedo Higuita said a ticket wouldn’t necessarily lead to deportation, but when immigrants are detained or ticketed, Migración Colombia gets a report.
+Acevedo Higuita dijo que un comparendo no necesariamente termina en una deportación, pero cuando los inmigrantes son detenidos o multados, Migración Colombia recibe un reporte para sus récords. 
 
-The policemen returned Irelys’ merchandise and let her go after a few hours of questioning at the station. 
+En un par de horas, cuando le devolvieron la mercancía después de ser interrogada en la estación de policía, Irelys regresó a la plaza. 
 
-“They felt sorry for me after while,” she said. 
+“Les di lástima después de un rato hablando”, dijo. 
 
-It’s unclear whether immigration authorities received a report, but she said they’ve never tried to contact her. 
+No se sabe si las autoridades de inmigración recibieron un reporte, pero según Irelys, nunca han tratado de contactarla. 
 
-In the meantime, she’s learned to navigate a new city — and a new country — without documentation. 
+Mientras tanto, ha aprendido a navegar una nueva ciudad — y un nuevo país — sin documentos. 
 
-As of August, the U.S. government has donated USD $46 million to alleviate the burden the immigrants pose to the Colombian government. Vice President Mike Pence announced another USD $55 million to help refugees in January. 
+Hasta agosto del año pasado, el gobierno estadounidense había donado $46 millones para aliviar la carga que los inmigrantes representan para Colombia. El Vice Presidente Mike Pence, anunció otros $55 millones en donaciones para asistir a los refugiados en enero. 
 
-According to authorities, the money is used to provide emergency medical care for immigrants. 
-With the PEP or a visa, they can access the already saturated public healthcare system. Undocumented Venezuelans like Irelys can only receive treatment for emergencies — like a broken leg or appendicitis. 
+De acuerdo al gobierno, el dinero ha sido invertido para proveer servicios médicos de manera gratuita para los inmigrantes. Con el PEP o una visa, pueden acceder al sistema de salud pública, el cual era insuficiente incluso antes de la crisis migratoria en Colombia. Los venezolanos indocumentados, como Irelys, solo pueden recibir tratamiento de emergencia — como un hueso fracturado o apendicitis. 
 
-“Thank God I haven’t gotten sick,” she said.
+“Gracias a Dios que yo no me he enfermado”, dijo. 
 
-Pregnant women, who flee Venezuela in fear of raising a child in the midst of the crisis, also receive checkups and assistance during childbirth for free, regardless of their status. 
+Las mujeres embarazadas, que huyen de Venezuela temiendo criar a un niño en el medio de la crisis, también reciben chequeos regulares y asistencia para dar a luz gratis, sin importar su condición legal. 
 
-But the children are brought into the world nationless. Only 30 countries in the world provide birthright citizenship — Colombia isn’t one of them. 
+Pero los niños llegan a este mundo sin nación. Tan solo 30 países alrededor del mundo proveen ciudadanía por nacimiento — Colombia no es uno de ellos. 
 
-Although the U.N. High Commissioner for Refugees has set up temporary camps for migrants in border towns — and briefly in Bogotá, the capital of Colombia — there aren’t any permanent housing solutions to board the crisis. As a consequence, many Venezuelans roam the streets during the day and find a bench in a public square to spend the night. 
+A pesar de que el Alto Comisionado de las Naciones Unidas para Refugiados ha establecido campamentos temporales para los inmigrantes en ciudades fronterizas — y brevemente en Bogotá, la capital de Colombia — no hay ninguna solución de vivienda permanente para abordar la situación. El resultado son los venezolanos vagando por las calles durante el día y durmiendo en banquillas públicas por las noches.
 
-William José Hidalgo could only afford two nights at a flophouse, where he paid USD $1.25 a night, right after he walked from Venezuela on March 1. Now, he sleeps in Plaza Botero in downtown Medellín. Occasionally, an elder man allows Hidalgo to shower at his home, which is just a few blocks from the square. 
+William José Hidalgo solo pudo costearse dos noches en una pensión, donde pagaba $1.25 cada noche, apenas llegó de Venezuela caminando. Ahora, duerme en la Plaza Botero en el centro de Medellín. Ocasionalmente un señor mayor le permite bañarse en su casa, que está a un par de cuadras de la plaza. 
 
-“I feel happier during the day — when it’s daytime, because when the night falls, I start thinking,” said Hidalgo, who is also undocumented. “I think I’m going to get sick very soon.” 
+“Me siento más feliz durante el día — cuando es de día, porque cuando llega la noche me pongo a pensar”, señaló Hidalgo, quien tampoco tiene papeles. “Creo que me voy a enfermar pronto”. 
 
-He’s gone to shelters, where he’s gotten food but not a bed or a cot because they’re already at capacity. He’s walked around restaurants and stores to ask for a job, but after his belongings — including his Venezuelan ID — were stolen at gunpoint in Plaza Botero the first night he slept on the streets, no one has given him a chance to work. 
+Desde que llegó a principios de marzo, ha tocado puertas buscando ayuda. En los refugios, que son administrados por organizaciones sin fines de lucro, le han dado comida pero no refugio porque ya están llenos. Ha ido a tiendas y restaurantes buscando trabajo, pero como sus pertenencias, incluyendo su cédula fueron robados con pistola la primera noche que durmió en la Plaza Botero, nadie le ha brindado la oportunidad de trabajar. 
 
-Irelys says she’s fortunate: a bed awaited her in Medellín. Her father’s sister-in-law informally rents an apartment in a public housing complex from a Colombian woman. The rent is about USD $110 a month, and Irelys pays about USD $40. 
+Irelys se siente afortunada y agradecida en Medellín. La cuñada de su papá le alquila un apartamento en un bloque de vivienda pública a una mujer colombiana. La renta cuesta como $110 al mes, e Irelys paga casi $40. 
 
-It’s a home, but her kids are not waiting to greet her at the door when she gets home from work. 
+Es su hogar, pero sus niños no la están esperando para saludarla en la puerta cuando regresa de trabajar. 
 
-“I’m sharing this house with people who have become my family, but they’re not my family,” she said. “It’s not your home — It’s a temporary home that took me in. I close my eyes and I wish I was with my family.” 
+“Estoy compartiendo esta casa con gente que se ha convertido mi familia, pero no son mi familia”, dijo. “No es mi hogar — es un hogar temporal donde me recibieron. Yo cierro los ojos y deseo estar con mi familia”. 
 
 {{< center-quote "/pages/a-hopeful-voice" "pull-quote-2" >}}
 
-What Irelys made from the cookies was enough that day to reserve a speaker at a tech store nearby. After singing in many family gatherings with her uncles, who are musicians, she never thought she’d be doing it for money. 
+Con lo que vendió de galletas el día que la detuvieron, le alcanzó para reservar una corneta en una tienda de tecnología. Después de cantar en reuniones familiares con sus tíos, que son músicos, nunca pensó que lo haría por dinero. 
 
-“I feel like I don’t have the best voice in the world but I do have a talent,” she said. “I have met many people who like my voice. I thank God very much for this talent, for this gift that I have.” 
+“Yo siento que no tendré la mejor voz del mundo pero sí tengo un talento”, dijo. “He conseguido mucha gente que le gusta mi voz. Yo le doy gracias a Dios por este talento, por este don que tengo”. 
 
-Sometimes her voice isn’t enough. One Thursday morning Irelys speaker couldn’t be turned on. She’d been using it for three months by then to play the instrumental version of the pop songs she performs. 
+A veces la voz no le alcanza. En marzo, un jueves por la mañana la corneta no prendió. Tenía casi tres meses con ella, usándola para poner la pista instrumental de las canciones populares que canta. 
 
-She spent her savings — about USD $17 — in chocolates and pencils to get by for the day. 
+Gastó sus ahorros — como $17 — en chocolates y lápices para poder trabajar. 
 
-“That’s I need to do; that’s how I work,” she said. “If I don’t have my speaker I have to figure out what to do.” 
+“Eso es lo que necesito hacer; así es como trabajo yo”, dijo. “Si no tengo la corneta, tengo que resolver y ver que hago”. 
 
-Occasionally, she stopped at restaurants to sing an acapella piece. The only tune she lets her voice carry without accompaniment is called “Venezuela,” a song about the country’s natural landscapes and beauty. 
+Entre tanto vendía los chocolates, ocasionalmente se paraba en restaurantes a cantar una pieza a cappella. La única canción que le permite a su voz sin acompañamiento se llama “Venezuela” y es sobre la belleza y la esencia de su país. 
 
-When she gets permission from the manager, she stands in front of the diners, wishes everyone a good afternoon and introduces herself. Irelys takes a deep breath. The words to the song roll of her tongue, even though she looks frightened. 
+Cuando los encargados le dan permiso de cantar, se para en frente de los comensales, deseándoles buenas tardes y se presenta. Irelys respira profundo y la letra de la canción le sale sin pensarla, aunque luzca asustada. 
 
-“Thank you ladies and gentlemen for your attention,” she says when the performance ends. “Remember that us good venezuelans outnumber the bad ones, and that the good ones always make a difference.”
+“Gracias damas y caballeros por su atención”, le dice a su público cuando termina de cantar. “Recuerden que los buenos venezolanos somos más, y que los buenos siempre marcamos la diferencia”. 

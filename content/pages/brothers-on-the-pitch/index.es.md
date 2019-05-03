@@ -30,108 +30,104 @@ cta: "Explorar"
 
 “¡Hay que terminar!”
 
-“You have to finish!” Soccer players with Adidas-striped shoulders shout from the sidelines as their teammates complete a four-on-four drill. The next wave of defenders enters the field, causing black turf beads to fly through the air. One player, wearing all white, save for his neon yellow cleats, slides toward the ball, tripping the offensive player looking for an open man.
+Un futbolista con camisa Adidas grita desde las bandas mientras sus compañeros hacen un ejercicio de cuatro contra cuatro. La próxima oleada de los defensores entra a la cancha, levantando trozos de pasto a su paso. Otro jugador, vestido completamente de blanco a excepción de sus botas de color amarillo neón, se desliza hacia la pelota y un jugador ofensivo se tropieza con él.
 
 “¡Sigue jugando!”
 
-“Keep playing!” The ball travels like a current between the defender’s feet, as he dribbles it to safety. A whistle signals the end of the play.
+La pelota viaja como una corriente entre los pies del defensor, mientras que él la dribla hacia la defensa. Un silbato señala que el ejercicio ha acabado.
 
-The defender, Laurenti Velasquez, jogs off the field, content. When he’s playing soccer, he feels in control—of himself, of his surroundings. Nothing else matters. Not the anger he feels knowing his two children, just 3 and 5, are 900 miles away. Not the sadness thinking about the empty-shelved supermarkets in his home country. Not the millions of Venezuelans who live for weeks at a time without electricity.
+El defensor, Laurenti Velasquez, trota sonreído fuera del campo. Cuando juega fútbol, se siente en control — de sí mismo, de su ambiente. Nada más le importa. No le importa la ira que siente sabiendo que sus dos hijos, de 3 y 5 años, están a 1500 kilómetros de distancia. Ni la tristeza, pensando en los estantes vacíos de los supermercados de su patria. Ni los millones de venezolanos que pasan semanas sin electricidad.
 
 <div id="video-top"></div>
 
 <!-- Economic story video goes here -->
 {{< vimeo id="329817257" class="video-container flex" >}}
 
-But when he leaves the field, everything comes back. The 25-year-old immigrated to Colombia in 2016, but Venezuela is always on his mind. He sends about 40 percent of the salary he makes working as a storekeeper at Distripartes, an auto shop, back to his children every month ––  which amounts to $380,000 Colombian pesos, or USD $119.
+Pero cuando sale de la cancha, todo le vuelve. Velasquez, quien tiene 25 años de edad, emigró a Colombia en el 2016, pero Venezuela siempre está en su mente. Él manda, más o menos, el 40 por ciento de su sueldo trabajando como almacenista en Distripartes, un taller mecánico, a sus hijos cada mes — esto equivale a $380,000 pesos colombianos, o USD $119.
 
 {{< story-interactives "pages/brothers-on-the-pitch" "econ-exchange-int" >}}
 
-Distripartes offers Velasquez benefits that he’s never had at his previous odd jobs in Colombia. He’s been there for seven months and receives insurance, paid overtime and commission for his sales. Financially, he’s better off than he was in Venezuela, but the cost of living is much higher here. He didn’t have to pay rent in his home country and monthly expenses such as food and transportation were a fraction of the price of Colombia’s. These expenses force him to make sacrifices in his new country, like renting a room from one of his teammates instead of having his own apartment.
+Distripartes le ofrece a Laurenti beneficios que nunca había tenido en sus otros trabajos ocasionales en Colombia. Ha estado ahí por siete meses y tiene seguro, horas extra pagadas y comisiones por sus ventas. Financieramente, su vida es mejor que en Venezuela, pero el costo de vivir aquí es mucho más alto. En Venezuela no pagaba alquiler, y los gastos mensuales de la comida y el transporte eran una fracción de lo que cuestan en Colombia. Estos gastos lo obligan a hacer sacrificios en su nuevo país, como alquilar un cuarto en casa de uno de sus compañeros del equipo en vez de tener su propio apartamento.
 
-“Immigrants here can’t enjoy luxuries, like traveling, for example,” Velasquez said. “In Venezuela, you could save for moments like that. Here you could do it, but it would be too much sacrifice.”
+“Los inmigrantes no pueden disfrutar los lujos de acá, como viajar,” dijo Velasquez. “En Venezuela, se podía ahorrar por estos momentos. Aquí se podría, pero sería tanto sacrificio.”
 
 <!--Laurenti at work-->
 {{< photo-caption "/pages/brothers-on-the-pitch" "photo-caption-1">}}
 
-Thousands of Venezuelans know sacrifice too well. In the last five years, inflation has risen from 57 percent to 10 million percent, partly due to crashing oil prices, the country’s main source of revenue. Since then, more than 3 million Venezuelans have fled the country—about 10 percent of the country’s total population. Over a third of them are now in Colombia. Those left behind struggle to pay for groceries, medication and other basic necessities. Most rely on remittances from loved ones. In 2018 alone, economists estimated that Venezuelans living abroad sent more than USD $1 billion to relatives unable to leave.
+Miles de venezolanos conocen ese sacrificio muy bien. En los últimos cinco años, la inflación ha subido desde 57 por ciento a 10 millones por ciento, en parte debido a la caída de los precios del petróleo, la fuente principal de ingresos del país. Desde entonces, más de 3 millones de venezolanos han huido del país, alrededor del 10 por ciento de la población total. Más de un tercio de ellos están en Colombia ahora. A los que se quedan les cuesta pagar por la comida, los medicamentos y otras necesidades básicas. Muchos dependen de las remesas de sus seres queridos. En el año 2018, se estima que los venezolanos viviendo fuera del país mandaron más de $1 billón de dólares a los familiares que no pueden emigrar.
 
-“We’re far from our families and far from our country, but we’re here because we’re fighting for them,” Velasquez said.
+“Estamos lejos de nuestra familia y de nuestro país, pero estamos aquí [porque] estamos luchando por ellos,” dijo Velasquez.
 
 {{< story-interactives "pages/brothers-on-the-pitch" "econ-bolivar-int" >}}
 
-<div class="story__subhead">One of the Lucky Ones</div>
+<div class="story__subhead">Uno de Los Afortunados</div>
 
-Velasquez stands beside the goal, shifting his weight from one cleat to the other while he waits for the next rotation in the drill. His coach strolls toward the middle of the field, unfazed by the players scrambling for the ball around him. Once he reaches the half field line, he scans the scene in front of him, watching the men for technique.
+Al lado de la portería, Velasquez se balancea de un pie al otro, esperando su turno en el ejercicio. Su entrenador camina hacia mediocampo, impávido con los jugadores luchando por la pelota a su alrededor. Cuando llega al centro del campo, echa una mirada a la cancha, observando los jugadores perfeccionando la técnica.
 
-“Allí está.”
+“Ahí está.” El entrenador asiente, y otro silbato termina el ejercicio.
 
-“There it is.”  The coach nods, and another whistle ends the drill.
-
-Players crunch turf beneath their feet as they gather around centerfield, panting from the workout’s intensity. The coach, Alvaro Cardenas Martínez, looks at each of the faces on his team. He’s content, but for a different reason  than Velasquez’s. It’s almost 10 p.m. on a Wednesday night, and he’s at a public sports complex. Although it is late, he is worried about his players’ technique rather than if he will get home safely.
+Los futbolistas trituran el pasto debajo de sus botas mientras se congregan en el mediocampo, jadeando por la intensidad del entrenamiento. El entrenador, Alvaro Cardenas Martínez, observa cada una de las caras de su equipo. También está contento, pero por una razón diferente que la de Velasquez. Son casi las 10 de la noche en un miércoles entre semana, y él está aquí en un campo deportivo público. Aunque ya es tarde, se preocupa por la técnica de sus jugadores en vez de su propia seguridad.
 
 <!--Aerial of futball field-->
 {{< photo-caption "/pages/brothers-on-the-pitch" "photo-caption-3">}}
 
-He could never do that in Venezuela.
+Nunca podría hacer algo así en Venezuela.
 
-In 2014—the year Martínez immigrated to Colombia—things had gone from bad to worse. Not only was the economy in shambles, but so was public safety. The 37-year-old couldn’t go to the cogrocery store without looking over his shoulder every few minutes. He hated sitting at stoplights for fear of the motorcyclists that robbed or killed people daily.
+En el año 2014 — cuando Martínez emigró a Colombia — la situación en Venezuela empeoró. No solo la economía era un desastre, sino también la seguridad pública. Martínez, quien tiene 37 años de edad, no podía ir al supermercado sin cuidarse las espaldas constantemente. Odiaba esperar en los semáforos porque tenía miedo de los motociclistas que robaban o mataban a gente diariamente.
 
-“In that type of stress, you leave your house in the morning and you don’t know if you’re going to return,” Martínez said. In 2017, the U.S. Embassy of Caracas reported that 73 Venezuelans died violently every day. “Before we became a statistic of the dead in Venezuela, I preferred to emigrate and find a better quality of life.”
+“Te empiezas ya a mover por el miedo, por la inseguridad en ese estrés de que sales a la calle por la mañana de tu casa y no sabes si vas a regresar,” dijo Martínez. En el 2017, La Embajada Estadounidense de Caracas informó que 73 venezolanos mueren violentamente a diario. “Antes de que fuésemos nosotros a ser una estadística más de unos muertos en Venezuela, pues preferí entonces emigrar y buscar una mejor calidad de vida.”
 
 {{< center-quote "pages/brothers-on-the-pitch" "pull-quote-lilia" >}}
 
-Martínez was one of the lucky ones. Having Colombian parents granted him the privilege of dual Venezuelan-Colombian citizenship, so he and his wife moved in with his grandmother in Medellín until they could support themselves. It didn’t take long because of Martínez’s natural talent for entrepreneurship. He opened a pet shop, and when he saw that  it wasn’t going anywhere, he closed it and started a telecommunications company that he still runs today.
+Martínez es uno de los más afortunados. Sus padres colombianos le dieron el privilegio de la doble ciudadanía venezolana-colombiana, entonces él y su esposa vivieron con su abuela en Medellín hasta que pudieran ayudarse a sí mismos. No demoró mucho debido a las habilidades empresariales naturales de Martínez. Abrió una tienda de mascotas, y cuando se dio cuenta de que no le estaba yendo bien, la cerró y empezó una compañía de telecomunicaciones que todavía maneja hoy.
 
-Within two years, he had his own place to live, a stable business and peace of mind. But something was missing.
+En dos años, consiguió su propio hogar, un negocio estable y la tranquilidad. Pero le faltaba algo.
 
-“In sports, and in soccer especially, you do it with people,” Martínez said. “I realized that I was alone and didn’t have anyone to play with… and I imagined that just as I was, surely many Venezuelans thought the same thing.”
+“En el deporte y en el fútbol específicamente, qué es lo que nosotros hacemos, lo haces con otras personas,” dijo Martínez. “Entonces al darme cuenta que estoy solo, al final, mirar para los lados y no tener con quien jugar… Y me imaginé que así como estaba yo seguramente habían muchos venezolanos pensando lo mismo.”
 
-He logged onto one of the Venezuelan Facebook groups he had joined and started typing: “Starting a soccer team…”
+Ingresó en una de las páginas de Facebook para venezolanos y empezó a escribir: “Busco gente para un equipo de fútbol…”
 
-“If you have a dream, then just go after it,” Martínez said. “In the case of being an immigrant, you have to make sure you’re stable in other ways first.”
+“Si tienes un sueño, trabaja y lógralo,” dijo Martínez. “Si eres inmigrante, tienes que asegurarte de que estés estable de otras maneras primero.”
 
-<div class="story__subhead">The Cost of Living</div>
+<div class="story__subhead">El Costo de La Vida</div>
 
-On the streets of Venezuela, artisans set up tables on the sidewalks of crowded intersections. Each table has multicolored Venezuelan bills stacked like newspapers. The artisans shuffle the bills—worth millions—in their hands, not worrying about passersby stealing them.
+En las calles de Venezuela, los artesanos montan mesas en las aceras de cruces abarrotados. Cada mesa tiene billetes venezolanos multicolor apilados como periódicos. Los artesanos barajan los billetes — millones en cada manojo — entre las manos, y no se preocupan por los transeúntes que podrían robárselos.
 
-Ten years ago, the money on the table—Venezuelan bolivares—would’ve made them millionaires. Today, the bills are worth so little that people make purses and sculptures with them.
+Hace diez años, el dinero sobre la mesa — bolívares venezolanos — los hubiese hecho millonarios. Hoy en día, los billetes valen tan poco que la gente los usa para hacer carteras y esculturas.
 
-“Venezuela was a huge country—we weren’t going to prepare anything,” said Martínez’s mother Lilia Martínez, who lived in Venezuela for 40 years until 2017 when she moved back to Colombia. “We never thought we’d be worse off than Cuba.”
+“Venezuela era un país muy grande — no vamos a poner que no sé qué,” dijo Lilia Martínez, la madre de Martínez, quien vivió en Venezuela por 40 años hasta el 2017, cuando regresó a Colombia. “Nunca pensamos que estuviéramos peor que Cuba.”
 
-In 2014, Venezuela’s central bank stopped releasing information, like the inflation rate and public spending, because President Nicolás Maduro’s administration didn’t want the public to know how much the economy had declined. By 2017, over 87 percent of the population lived below the poverty line.
+En el 2014, el Banco Central de Venezuela dejó de publicar cierta información, como la tasa de inflación y los gastos públicos, porque el gobierno del Presidente Nicolás Maduro no quería que el público supiera cómo la economía había disminuido. En el 2017, más del 87 por ciento de la población vivía por debajo de la línea de pobreza.
 
-A box of cereal in Venezuela currently costs more than the average person’s monthly salary. People can’t afford housing or toiletries.
+Hoy en día, una caja de cereal cuesta más que el salario mensual del venezolano promedio. La gente no puede costearse la vivienda o los artículos de uso personal.
 
-In January, National Assembly President Juan Guaidó declared himself interim president after Maduro’s second election was deemed illegitimate. The U.S., Canada, Brazil and about 50 other countries have recognized Guaidó as president. Russia, China and Cuba still support Maduro.
+En enero, el Presidente de la Asamblea Nacional Juan Guaidó se declaró presidente interino después de que se consideró ilegítima la segunda elección de Maduro. Los Estados Unidos, Canadá, Brasil y aproximadamente 50 otros países han reconocido a Guaidó como presidente. Rusia, China y Cuba todavía apoyan Maduro.
 
-Guaidó has tried to import humanitarian aid, but Maduro’s officials at the Colombian border destroyed trucks full of necessities. Maduro saw the event as an attempt to overthrow his administration.
+Guaidó ha intentado coordinar el ingreso de ayuda humanitaria, pero los funcionarios de Maduro en la frontera colombiana bloquearon camiones llenos de necesidades. Maduro ve esos esfuerzos como intentos para derrocarlo.
 
-“There are people that still support [Maduro],” Lilia said. “Because if you’re not lacking anything, then you’re fine. But you don’t care about your brother that’s dying of hunger.”
+“Hay gente que lo apoya [a Maduro],” dijo Lilia. “Porque si usted no le falta nada, usted está bien. Pero no le importa su hermano que está muriendo de hambre.”
 
 {{< story-interactives "pages/brothers-on-the-pitch" "econ-inflation-int" >}}
 
-<div class="story__subhead">Realizing the Dream</div>
+<div class="story__subhead">Alcanzando el Sueño</div>
 
-Dozens of Facebook responses later, Martínez established Vinotinto Fútbol Club. Almost 70 Venezuelans and about 15 Colombians make up two teams, split by age groups.
+Después de docenas de respuestas a su publicación de Facebook, Martínez fundó el Vinotinto Fútbol Club. Más o menos 70 venezolanos y 15 colombianos forman dos equipos, separados por edad.
 
-Every week around 8 p.m., they gather at one of the sets of bleachers at the Andrés Escobar Sports Complex before practice. Men trickle in slowly, some with drawstring bags slung across their shoulders, others with homemade snacks wrapped in paper towels. Those who arrive with sneakers on lace up their cleats over knee-high soccer socks, but not before greeting one another.
+Cada semana sobre las 8 de la noche, se reúnen en una gradería en la Unidad Deportiva de Belén Andrés Escobar antes el entrenamiento. Los hombres llegan lentamente, algunos con mochilas en las espaldas y otros con tentempiés caseros envueltos en servilletas. Los que llegan vestido en las zapatillas las cambian por botas sobre sus calcetines de fútbol, pero no antes de que se saludan entre sí.
 
-“Hola, ‘mano.”
-
-“Hey, brother.”
+“Hola ‘mano.”
 
 <!--Futball team laughing together-->
 {{< photo-caption "/pages/brothers-on-the-pitch" "photo-caption-2">}}
 
-Not only do the players laugh and joke with each other, but they also support each other. Velasquez has his job at the auto shop because Martínez recommended him. Without the recommendation, he would’ve still been working at a fast food restaurant or another entry level job. He definitely wouldn’t have been at Distripartes—he’s the only Venezuelan that works there.
+Los hombres no solo bromear entre sí, sino también los apoyan unos a otros. Velasquez tiene su trabajo en el taller mecánico porque Martínez lo recomendó. Sin la recomendación, todavía habría trabajado en una tienda de comida rápida u otro trabajo de nivel entrada. Definitivamente no habría trabajado a Distripartes — él es el único venezolano que trabaja ahí.
 
-“I’m very grateful,” Velasquez said. “There are businesses that don’t hire Venezuelans because they think we come to rob, that we’re deadbeats and slackers. I’ve been working hard and showing what Venezuelans are really about. Because I’m happy with my job, they’re happy with me as an employee.”
+“Yo soy muy agradecido,” dijo Velasquez. “Hay empleos que no aceptan venezolanos porque creen que el venezolano viene a robar, que el venezolano es flojo. He dado buena cara de venezolanos, de lo que somos los venezolanos en realidad. Entonces, como yo estoy satisfecho con mi empleo, ellos están satisfecho conmigo como empleado.”
 
 {{< center-quote "pages/brothers-on-the-pitch" "pull-quote-alvaro" >}}
 
-Velasquez and the rest of Vinotinto have also faced discrimination on the field. Because they’re the only team in the league with Venezuelan players, other teams recognize them now and sometimes shout slurs.
+Velasquez y el resto del Vinotinto han experimentado la discriminación también en la cancha. Ya que es el único equipo en la liga con jugadores venezolanos, otros equipos los identifican y gritan insultos.
 
-Instead of focusing on the insults, the team concentrates on their technique, plays and communication—on and off the field.
+En vez de enfocando en los agravios, el equipo se concentra en su técnica, sus jugadas y su comunicación — cuando está y no está en la cancha.
 
-“The most beautiful thing is that Laurenti [Velasquez]—and the rest of us who are immigrants—found in the team the family that we left behind,” Alvaro said. “You find people that you can speak Venezuelan with, not Spanish.”
+“Lo más bonito porque tanto Laurenti, como el resto del equipo, cada que de los que somos inmigrantes, encuentran en este grupo esa familia que dejan atrás,” dijo Martínez. “Encuentran en este grupo esas personas con las cuales tú hablas venezolano, no español.”

@@ -27,197 +27,195 @@ storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"
 cta: "Explorar"
 ---
-<div class="story__subhead story__subhead-warning"><strong>CONTENT WARNING: This article contains information and depictions of sexual assault, child sexual abuse and sexual content that may be triggering for some.</strong></div>
+<div class="story__subhead story__subhead-warning"><strong>ADVERTENCIA: Este artículo contiene información y descripciones de agresión sexual, abuso sexual infantil y contenido sexual que puede ser sensible para algunos.</strong></div>
 
-Car honks and bicycle bells erupt in the ears of locals and tourists passing through Plaza Botero. 
+Las bocinas de los carros y las campanas de las bicicletas estallan en los oídos de los turistas y transeúntes que pasan por la Plaza Botero.
 
-A light breeze flows through the skyscraping palm trees of the plaza. It’s cool enough to alleviate the sun’s heat but not cool enough to give one goosebumps. 
+Una brisa ligera sopla a través de las altas palmeras de la plaza. Es suficientemente fresca para aliviar el calor del sol, pero no como para dar escalofríos.
 
-But in the land of eternal spring, the weather is often unpredictable. 
+Pero en la tierra de la eterna primavera, el clima es impredecible.
 
-Fernando Botero’s statues line each side of the plaza’s entry, creating a catwalk that leads to the plaza’s focal point, the Museo de Antioquia. Behind a Botero statue of a reclining nude woman is a stoop where the men begin to line up late in the afternoon. What happens on this side of the plaza is known well by the Venezuelan women who work here – even if they wish they didn’t. 
+Las estatuas de Fernando Botero delinean cada lado de la entrada de la plaza, creando una pasarela hacia el Museo de Antioquia. Detrás de una estatua de una mujer desnuda reclinada hay un pórtico donde los hombres comienzan a hacer fila al atardecer. Lo que sucede en este lado de la plaza es bien conocido por las mujeres venezolanas que trabajan aquí – aunque no lo quisieran.
 
-“There are people who think that if you do this, it’s because you like it or you feel good,” said Maria, 24, who is one of those women. She asked that her real name not be used. “I do not know other women, but in my case, I don’t feel good, and I don’t like it at all.”
+"Hay personas que piensan que uno hace esto porque a uno le gusta o uno se siente bien", dijo María, de 24 años, quien es una de esas mujeres. Pidió que no se usará su nombre real. "No sé de otras mujeres, pero en el caso mío, no me siento bien y no me gusta para nada".
 
-Dressed in denim shorts and a camouflage green top, she sits on this stoop every afternoon and late into the night, waiting for men to ask for “un rato” –  a moment. 
+Vestida con pantalones cortos de mezclilla y una blusa verde camuflada, se sienta en este pórtico todas las tardes y hasta altas horas de la noche, esperando que los hombres pidan un rato.
 
 {{< photo-caption-vert "pages/a-mothers-sacrifice" "photo-caption-3" >}}
 
-The single mother from Venezuela is living in Medellín without legal permission, which gives her few other options for financially supporting herself. As Venezuela faces a severe political and economic crisis, multiple South American countries have experienced an influx of Venezuelan migrants. Colombia experienced the largest arrival in the last year, according to <a href="https://www.iom.int/countries/venezuela" target="_blank">a report</a> by the International Organization for Migration. 
+Esta madre soltera venezolana vive en Medellín sin permiso legal, lo que le da pocas opciones de trabajo. Mientras Venezuela enfrenta una grave crisis política y económica, varios países de América Latina han recibido una afluencia de inmigrantes venezolanos. Colombia recibió la tanda más grande  en el último año, según <a href="https://www.iom.int/countries/venezuela" target="_blank">un informe</a> de la Organización Internacional para las Migraciones.
 
-<a href="https://www.caracaschronicles.com/2019/03/08/migrating-as-a-venezuelan-woman/" target="_blank">Of the 1,032,016 Venezuelans that migrated to Colombia before September 2018, 51.8% were women</a>, according to the Caracas Chronicles, a news and analysis organization in Venezuela. Many, like Maria, have been forced to turn to sex work due to the lack of stable, well-paying economic opportunities available without legal documentation to work in Colombia. 
+<a href="https://www.caracaschronicles.com/2019/03/08/migrating-as-a-venezuelan-woman/" target="_blank">De 1.032.016 de venezolanos que emigraron a Colombia antes de septiembre de 2018, el 51,8% fueron mujeres</a> según Caracas Chronicles, una organización de noticias y análisis en Venezuela. Muchos venezolanos, como María, se han visto obligados a recurrir al trabajo sexual debido a la falta de oportunidades económicas estables y bien pagas disponibles para los indocumentados en Colombia.
 
-<a href="https://colombiareports.com/the-depressing-reality-of-bogotas-sex-industry-in-numbers/" target="_blank">Over 35 percent of individuals involved in Colombia’s sex trade are Venezuelan</a>, according to Colombia Reports. 
+Según Colombia Reports, <a href="https://colombiareports.com/the-depressing-reality-of-bogotas-sex-industry-in-numbers/" target="_blank">más del 35 por ciento de las personas involucradas en el comercio sexual de Colombia son venezolanas</a>.
  
-“I want my country to be what it was before,” said Maria. “When there was enough money to live.”
+“Mi esperanza para el futuro es que se arregle mi país y que sea como hace muchísimos años atrás cuando yo estaba pequeña”, dijo Maria  “que el sueldo alcanzaba para muchas cosas”.
 
 <div id="video-top"></div>
 
 <!-- Women's video goes here -->
 {{< vimeo id="329726214" class="video-container flex" >}}
 
-<div class="story__subhead">Leaving Home</div>
+<div class="story__subhead">Dejando el Hogar</div>
 
-Back home in Guatire, a small town near Caracas,Venezuela, Maria and her two daughters were financially supported by her father before the economic crisis hit. But he had to stop when he no longer had enough money to help. 
+En Guatire, un pequeño pueblo cerca de Caracas, Venezuela, María y sus dos hijas recibían apoyo financiero de su padre antes de que se desatara la crisis económica. Pero eventualmente ni siquiera él las pudo ayudar. 
 
-“I had to beg my neighbors for food, and my children cried and begged for food because they were so hungry,” said Maria. 
+“Mis hijas me decían, ‘Mamá tengo hambre,’ y yo no tenía qué darles,” dijo Maria. “A veces le tocaba la puerta a un vecino para que aunque sea me diera un plato de comida para las niñas.” 
 
-In this moment, she realized things needed to change. Maria’s anguish became her motivation to give her daughters something more. 
+En ese momento, se dio cuenta de que las cosas tenían que cambiar. La angustia de María se convirtió en su motivación para darle a sus hijas algo mejor.
 
-“I came to make a living and a better life for my children,” she said.
+"Vine para ganarme la vida y para proveerle una vida mejor a mis hijas", dijo ella.
 
-She told her daughters, ages 3 and 5, that she was going to work far away but would still contact them.
+Ella le dijo a sus hijas, de 3 y 5 años de edad, que se iba a trabajar lejos pero que todavía estaría en contacto con ellas.
 
-Minutes before her departure on a heart-wrenching day last December, Maria’s family tried to distract her youngest daughter with milk and cookies as she slipped out. The 5-year-old, however, was aware she was leaving. 
+Momentos antes de su partida en un día angustioso en diciembre, la familia de María trató de distraer a su hija menor con leche y galletas mientras salía. Pero la hija de 5 años, sin embargo, sabía que se iba.
 
-“Mom, don’t go,” she screamed, tears running down her brown cheeks. “Mom, I want to go with you!” She frantically banged on the window as Maria walked out the door.
+"¡Mamá, no te vayas!" gritaba y pataleaba, llorando. "¡Mamá, me quiero ir contigo!" Golpeaba la ventana, desesperada, mientras María se iba.
 
-“Even then, still I stayed hidden, crying with a desire to return,” said Maria. “I wonder if my children will miss or remember me.”
+"Aun así yo me quedé parada, escondida, llorando con ganas de volverme", dijo María. “¿Sí me extrañarán? Siempre pienso en eso, y si para dormir les hago falta.”
 
-For Maria, leaving her children behind was only the beginning of many challenges. 
+Para María, dejar a sus hijas atrás fue sólo el comienzo de muchos desafíos.
 
-As Maria tried entering Colombia on foot, the officers at the border asked her to return later because the customs system was not working. Instead, Maria entered the country through a nearby river and her passport wasn’t stamped. She needs that to apply for a Permiso Especial de Permanencia, but she can only get it by going through Colombian customs.
+Cuando María intentó ingresar a Colombia a pie, los guardias de la frontera le pidieron que regresara más tarde porque el sistema de aduanas no funcionaba. En vez de esperar, María entró al país a través de un río cercano y su pasaporte no fue sellado. Ese sello es necesario para solicitar el Permiso Especial de Permanencia (PEP), pero sólo puede obtenerlo pasando por la aduana colombiana.
 
-Upon entering Colombia without legal permission, Maria has been unable to obtain a PEP, a document the Colombian government issues that allows individuals to legally reside in the country for two years, according to <a href="https://www.eltiempo.com/mundo/venezuela/ultima-fecha-para-que-los-venezolanos-reclamen-el-pep-en-colombia-298102" target="_blank">Panas en Colombia</a>, an initiative of El Tiempo, a newspaper in Colombia. 
+Por ingresar a Colombia sin permiso legal, María no ha podido solicitar el PEP, un documento que el gobierno colombiano emite para permitir que los venezolanos residan legalmente en el país por dos años, según <a href="https://www.eltiempo.com/mundo/venezuela/ultima-fecha-para-que-los-venezolanos-reclamen-el-pep-en-colombia-298102" target="_blank">Panas en Colombia</a>, una iniciativa de El Tiempo, un periódico en Colombia.
 
-To become a legal citizen of Colombia without the passport stamp, Maria would need to register in the Registro Administrative de Migrantes Venezolanos. However, registration is only open during certain times of the year, and Maria will need to wait until registration is open again. 
+Para convertirse en una ciudadana legal de Colombia sin el sello de pasaporte, María tendría que anotarse en el Registro Administrativo de Migrantes Venezolanos. Pero la inscripción sólo está abierta durante ciertas épocas del año, y María tendrá que esperar hasta que la inscripción vuelva a estar disponible.
 
-Maria’s lack of a PEP hinders her ability to find a job. While a PEP doesn’t guarantee her a job, multiple employers in Colombia recognize it. 
+Sin el PEP, a María se le hace difícil encontrar trabajo. Mientras el PEP no le garantiza trabajo, muchos empleadores en Colombia lo exigen.
 
-“I asked around for work, but they said Venezuelans are thieves, but we’re here to look after our families,” said Maria. “I know Venezuelan women that are in the same situation and are trying to help their families.”
+"Pedí trabajo, pero me dijeron que no porque los primeros venezolanos que llegaron a Medellín robaban, pero unos estamos aquí para ayudar a nuestro familiares", dijo María. "Muchas [mujeres venezolanas] han pasado por lo mismo que yo y así cada una ayuda a sus familias".
 
 {{< center-quote "pages/a-mothers-sacrifice" "pull-quote-melissa" >}}
 
-Aside from learning a new country's customs and searching for work and housing, societal inequalities follow women throughout the migration process. 
+Además de tener que acostumbrarse a un nuevo país y buscar trabajo y vivienda, las desigualdades sociales persiguen a las mujeres a lo largo del proceso migratorio.
 
-These inequalities include discrimination, harassment, gender violence and a lack of access to sexual and reproductive rights. <a href="https://twitter.com/_CEPAZ/status/1103045176170373121" target="_blank">Forty-three percent of female Venezuelan migrants are between 18 and 29 years old</a>. This, along with their gender, exposes them to discrimination and stigmatization, according to Centro de Justicia y Paz, an organization that works to promote and defend Democratic values, human rights and peace in Venezuela. 
+Las mujeres enfrentan discriminación, acoso, violencia de género y falta de acceso a los derechos sexuales y reproductivos. <a href="https://twitter.com/_CEPAZ/status/1103045176170373121" target="_blank">El 43 por ciento de las mujeres inmigrantes venezolanas tienen entre 18 y 29 años de edad</a>. La edad, junto con su género, las expone a la discriminación y la estigmatización, según el Centro de Justicia y Paz, una ONG que promueve y defiende los valores democráticos, los derechos humanos y la paz en Venezuela. 
 
-Melissa Toro, director of <a href="http://lafulminante.com/lasguerrerasdelcentro.org/pagina-ejemplo/" target="_blank">Las Guerreras del Centro</a>, an organization in Medellín that works to empower and resignify sex work and sex workers, said many of the sex workers she notices now weren’t sex workers before. 
+Melissa Toro, directora de <a href="http://lafulminante.com/lasguerrerasdelcentro.org/pagina-ejemplo/" target="_blank">Las Guerreras del Centro</a>, una organización en Medellín que trabaja para empoderar y resignificar el trabajo sexual y las trabajadoras sexuales, dijo que muchas de las trabajadoras sexuales que ella encuentra hoy en día han comenzado la práctica recientemente. 
 
-“Here, we have a very high level of unemployment that is difficult for undocumented immigrants,” said Toro. “Sex work is the most informal job because there are no conditions and you just need your body.”
+"Aquí tenemos un nivel de desempleo muy alto que es difícil para los inmigrantes indocumentados", dijo Toro. "El trabajo sexual es el trabajo más informal porque no hay condiciones y solo necesitas tu cuerpo".
 
-Despite the industry’s legality in Colombia, sex workers <a href="http://spl.ids.ac.uk/sexworklaw" target="_blank">are not guaranteed workers’ rights</a>. According to the Sexuality, Poverty and Law Programme, a program that provides evidence-based knowledge and policy options to help achieve legal reform and tackle poverty, sex workers in Colombia are required to attend health checks. However, these are not enforced. 
+A pesar de la legalidad de la industria en Colombia, las trabajadoras sexuales <a href="http://spl.ids.ac.uk/sexworklaw" target="_blank">no tienen garantizados los derechos del trabajador</a>. Las trabajadoras sexuales en Colombia deben recibir chequeos médicos obligatorios, según el Sexuality, Poverty and Law Programme (Programa de Sexualidad, Pobreza y Ley), un programa que proporciona ideas y opciones de política basadas en evidencia para alentar la reforma legal y enfrentar la pobreza. Sin embargo, el gobierno no hace cumplir estos requerimientos.
 
 {{< story-interactives "pages/a-mothers-sacrifice" "women-laws-int" >}}
 
-After arriving in Medellín, Maria started selling “confettis,” or candy, on the street for money. She made enough to pay her $10,000 COP for a room she rents with two others for $30,000 Colombian pesos per night.  
+Cuando llegó a Medellín, María comenzó a vender “confetis”, o dulces, en la calle. Vendía lo suficiente para pagar 10.000 pesos colombianos por una habitación que alquila con otras dos personas por 30.000 pesos a diario.
 
-However, Maria would still go hungry for days, wondering if her daughters were doing the same. 
+Sin embargo, María todavía pasaba hambre y se preguntaba si sus hijas hacían lo mismo.
 
-One month passed, and Maria was not making much progress on bringing her children to Medellín. 
+Pasó un mes y María no estaba progresando mucho en traer a sus hijas a Medellín.
 
-But an encounter with a Venezuelan man made her realize that she had another choice. A choice that could quickly earn her more money but at a much higher cost.
+Un encuentro con un hombre venezolano le hizo darse cuenta de que tenía otra opción con la cual podría ganar más dinero rápidamente, pero a un costo mucho mayor.
 
 {{< photo-caption "pages/a-mothers-sacrifice" "photo-caption-2" >}}
 
-<div class="story__subhead">The First “Rato”</div>
+<div class="story__subhead">El Primer Rato</div>
 
-“You could make more money selling yourself like other women in Plaza Botero,” he told her. 
+"Podrías ganar más dinero vendiéndote a tu cuerpo en Plaza Botero como las otras mujeres", le dijo el hombre.
 
-Days later, she was in a hotel room with an unknown Venezuelan man. It was Maria’s first of many “ratos.”  
+Días después, se encontró en una habitación de hotel con un desconocido venezolano. Fue el  primero de muchos "ratos" para María.
 
-She is pinned to the bed with a stranger on top of her. She feels his weight, but focuses her eyes on the ceiling. Physically, she is there but mentally, she is not. Her body is numb and her mind is racing with one thought: “When will it end?”
+Estaba atrapada en la cama con un extraño encima de ella. Se sentía aplastada por su peso, pero enfocó la vista en el techo. Físicamente, estaba allí, pero no mentalmente. Su cuerpo estaba adormecido, y se preguntaba, "¿Cuándo acabará?"
 
 {{< center-quote "pages/a-mothers-sacrifice" "pull-quote-maria1" >}}
 
-It’s only supposed to be 25 minutes, but it feels like a lifetime of discomfort. 
+Solo se supone que tardara 25 minutos, pero se sintió como toda una eternidad de incomodidad.
 
-As his weight slowly lifts off of her body, a larger emotional and mental weight falls on her. 
+A medida que su peso se levantó lentamente de su cuerpo, un peso emocional y mental más grande cayó sobre María.
 
-Maria’s stomach fills with acid. She feels nauseated, and her honey brown skin feels soiled with his touch.
+Sintió que el estómago se le llenaba de ácido y que tenía la piel mugrienta por culpa de él.
 
-Certain that she can wash him off, Maria runs to the hotel bathroom to take a shower. 
+Salió corriendo al baño a tratar de lavarse el asco.
 
-Maria stands under the warm, steaming water for several minutes. Her effort to feel clean again fails.
+María se paró bajo el agua caliente y vaporosa por varios minutos. No logró sentirse limpia de nuevo a pesar de sus esfuerzos.
 
-She steps out of the shower and stares at the money left by the stranger. Her mindset changes, and her motivation for her actions comes to surface.  
+Salió de la ducha y miró fijamente al dinero que dejó el desconocido. Su mentalidad cambió, y la motivación de sus acciones salió a la superficie.
 
-“I cried and I thought about my girls and whether or not they were eating and that I came here for a better future,” said Maria. “My hope is to bring my girls here so I can leave this life.”
+"Lo que hice fue llorar y pensar en mis niñas, si estaban comiendo o no, y que vine aquí para un mejor futuro", dijo María. "Mi esperanza es traer a las niñas aquí para dejar esa vida".
 
-She gets dressed, grabs the money off of the table and walks home. 
+Se vistió, tomó el dinero de la mesa y se fue a casa.
 
-For Maria, home in Medellín is a flophouse, a rooming house where she rents one small humid bedroom to share with two others. Faintly lit by one lightbulb in the ceiling, a bed inside a dark wooden box spring and a thin mattress pad beside it cover three quarters of the room’s red clay tiled floor. The white walls are dingy and the narrow wooden brown door is closed but the boisterous noise that comes through leaves no room for privacy.  
+Para María, su hogar en Medellín es una casa de huéspedes, una habitación donde alquila una pequeña habitación húmeda para compartir con otras dos. Débilmente iluminada por una bombilla en el techo, una cama dentro de un cajón de madera oscura y una almohadilla delgada junto a ella cubren tres cuartos del piso de baldosas de arcilla roja de la habitación. Las paredes blancas están sucias y la puerta angosta de madera marrón está cerrada, pero el ruido ruidoso que viene a través de ella no deja espacio para la privacidad.
 
-Little by little, Maria continues to get used to “this life.”
+Poco a poco, María sigue acostumbrándose a "esta vida".
 
-Her grandmother cries at the thought of her granddaughter doing this to support herself. But her daughters think she sells chocolates. 
+Su abuela llora al pensar en su nieta haciendo esto para mantenerse. Pero sus hijas creen que vende chocolates. 
 
-<div class="story__subhead">Maria's Boundaries</div>
+<div class="story__subhead">Los Límites de María</div>
 
-She begins her work day at 2 p.m. and usually wears shorts to attract more men. The only day she won’t work is Sunday. 
+Ella comienza su día de trabajo a las 2 p.m. y casi siempre se pone pantalones cortos para atraer a más hombres. El único día que no trabaja es el domingo.
 
-The employee at the hotel’s front desk already knows her. Upon entering, Maria is handed a towel, a paper towel, soap and a condom. 
+El empleado de la recepción del hotel ya la conoce. Al entrar, a María le entrega una toalla, una toalla de papel, jabón y un condón.
 
-For 20 to 30 minutes, Maria charges COP $30,000. Before starting, clients must place half of their payment on the table. 
+Por 20 a 30 minutos, María cobra COP $30,000. Antes de comenzar, los clientes deben colocar la mitad de su pago en la mesa.
 
-Sex without a condom is non-negotiable. She will not perform oral sex or allow clients to kiss her mouth or touch her butt. If a client persists, Maria will charge COP $10,000 extra to let him touch her butt.  
+El sexo sin condón no es negociable. Ella no realizará sexo oral ni permitirá que los clientes besen su boca o toquen su trasero. Si un cliente persiste, María le cobrará COP $10,000 extra para que le toque el trasero.
 
-But Maria’s boundaries don’t always prevent her from experiencing the risks of sex work. 
-
-One night, a client she doesn’t care for offered her COP $35,000. Despite her negative feelings toward him, Maria accepted. 
+Pero los límites de María no siempre le impiden de sentir los riesgos del trabajo sexual. Una noche, un cliente que a ella no le gusta le ofreció COP $35,000. A pesar de sus sentimientos negativos hacia él, María aceptó.
 
 {{< photo-caption-vert "pages/a-mothers-sacrifice" "photo-caption-1" >}}
 
-About 20 minutes passed and he still hadn’t finished. He was determined to do so, even if it meant exceeding Maria’s 30-minute limit. 
+Pasaron unos 20 minutos y aún el cliente no había terminado. Estaba determinado a terminar, incluso si eso quería decir superar el límite de 30 minutos de María.
 
-She asked him to stop, but he continued. He forced her to perform anal sex, violating another one of her boundaries. 
+Ella le pidió que parara, pero él continuó. La obligó a tener sexo anal, violando otro de sus límites.
 
-When she couldn’t take it anymore, she pushed him off, escaping his grip. She grabbed the money and left the hotel room as fast as she could.
+Cuando ya no pudo soportarlo más, lo empujó, escapando de su agarre. Cogió el dinero y salió de la habitación del hotel tan rápido como pudo.
 
-“I felt violated and didn’t work for 10 days,” said Maria. “I don’t like to spend too much time in the room with the person, because I do not know the intentions of that person for being in the room.”
+"Me sentí violada y no trabajé por 10 días", dijo María. "No me gusta pasar mucho tiempo en la habitación con la persona, porque no sé cuales son las intenciones de esa persona al estar en la habitación".
 
-The risks of being a sex worker can include verbal harassment, physical violence, sexual assault and femicide or gender-based violence.
+Los riesgos de ser una trabajadora sexual pueden incluir acoso verbal, violencia física, agresión sexual y femicidio o violencia de género.
 
-For Venezuelan migrants who become sex workers, verbal harassment can be a form of xenophobia. 
+Para los migrantes venezolanos que se convierten en trabajadoras sexuales, el acoso verbal puede ser una forma de xenofobia.
 
-As the number of Venezuelan sex workers in Colombia increases, so does the animosity they feel from Colombian sex workers. 
+A medida que aumenta el número de trabajadoras sexuales venezolanas en Colombia, la animosidad que sienten de las trabajadoras sexuales colombianas aumenta también.
 
-Adriaan Alsema, founder of Colombia Reports, said Venezuelan sex workers are more likely to offer their services for as low as COP $40,000 ( USD $12), three times less than what a Colombian sex worker charges. In the eyes of Colombian sex workers, such low prices are killing their business.
+Adriaan Alsema, fundador de Colombia Reports, dijo que es más probable que las trabajadoras sexuales venezolanas ofrecen sus servicios por un precio tan bajo como COP $40,000 (USD $12), tres veces menos de lo que cobra una trabajadora sexual colombiana. A los ojos de las trabajadoras sexuales colombianas, precios tan bajos están matando sus negocios.
 
-“Colombian women are very mean to Venezuelan women,” said Maria. “I don’t talk to them and just make my money.”
+"Las mujeres colombianas nos tienen rabia", dijo María. “Yo trato en dónde estoy, ni conversar con nadie sólo hacer mi trabajo y con la mente positiva en hacer dinero.”
 
-Maria said some men are also xenophobic toward her because they know she is Venezuelan. 
+María dijo que algunos hombres también son xenófobos con ella porque saben que es venezolana.
 
-In the case of physical violence, sex workers will often resort to doing things or performing acts they don’t want to. Toro said some sex workers will drink alcohol or do drugs before work to numb themselves to doing things they don’t want to.  
+En el caso de la violencia física, las trabajadoras sexuales muchas veces tienden a tener que hacer cosas o realizar actos que no quieren hacer. Toro dijo que algunas trabajadoras sexuales beben alcohol o consumen drogas antes del trabajo para entumecerse a las cosas que no quieren hacer.
 
-A common factor shared among sex workers is a history of sexual abuse as a child. 
+Un factor común compartido entre muchas trabajadoras sexuales es una historia de abuso sexual en la infancia.
 
-For part of her childhood, Maria lived with her mother and stepfather. At the age of 16, her stepfather attempted to rape her. 
+Durante parte de su infancia, María vivió con su madre y su padrastro. A la edad de 16 años, su padrastro intentó violarla.
 
-When she finally told her mother, she didn’t believe Maria. 
+Cuando finalmente se lo contó a su madre, no le creyó a María.
 
-“She told me it was a lie,” said Maria. “Did I expect her to leave her partner for me?”
+"Ella me dijo que era mentira", dijo María. “¿Que pretendía yo? "¿Que si iba a dejar a mi padrastro por mi?” 
 
-Toro said most victims of Medellín’s recent femicides have been sex workers. 
+Toro dijo que la mayoría de las víctimas de los recientes femicidios de Medellín han sido trabajadoras sexuales.
 
-“Out of 41 homicides last year, 56 percent were femicides and 86 percent were done in El Centro, an area for sex work,” said Toro. “Nobody ends up paying for them, and they are done in motels that don’t say anything, so motels become accomplices of murders.”
+"En el 2018 hubo 41 homicidios a mujeres, de los cuales el 56 por ciento fueron femicidios, de los cuales el 86 por ciento se realizaron en El Centro, donde está la zona de tolerancia más grande de trabajo sexual", dijo Toro. "Nadie termina pagando por ellas, porque se hacen en moteles a los que no les conviene que se sepan esas cosas, por lo que se convierten en cómplices de sus asesinatos".
 
-El Centro is in the same neighborhood as Plaza Botero, where Maria works. 
+El Centro se encuentra en el mismo barrio que Plaza Botero, donde trabaja María.
 
-Toro said these women are usually seen as a product that society consumes, and this contributes to the issue’s invisibility. 
+Toro dijo que estas mujeres generalmente son vistas como un producto que la sociedad consume, y esto contribuye a la invisibilidad del problema.
 
-“The problem is invisible; they don’t even acknowledge them and there is no interaction,” said Toro. “I can’t even say they are treated badly because of the invisible problem.”
+“El problema es invisible; ni siquiera las reconocen y no hay interacción ", dijo Toro. "Ni siquiera puedo decir que son tratados mal porque el problema es invisible".
 
 {{< story-interactives "pages/a-mothers-sacrifice" "women-defs-int" >}}
 
-<div class="story__subhead">A Bridge to a Better Life</div>
+<div class="story__subhead">Un Puente hacia una Vida Mejor</div>
 
-A number of organizations are available to help sex workers in Medellín, but very few have reached out to the Venezuelan population. However, this does not necessarily mean that they exclude Venezuelan sex workers from accessing their programs. One of the organizations working to change this is Las Guerreras del Centro (Downtown Warriors). 
+Hay varias organizaciones disponibles para ayudar a las trabajadoras sexuales en Medellín, pero muy pocas se han acercado a la población venezolana. Sin embargo, esto no significa necesariamente que excluyen a las trabajadoras sexuales venezolanas del acceso a sus programas. Una de las organizaciones que está trabajando para cambiar esto es Las Guerreras del Centro.
 
-Toro said Las Guerreras del Centro’s main objective is to be a catalyst for a better life to help a woman feel empowered. One of the ways they do this is through various performance pieces and events by former sex workers. 
+Toro dijo que el objetivo principal de Las Guerreras del Centro es ser un catalizador para una vida mejor para ayudar a una mujer a sentirse empoderada. Una de las formas en que lo hacen es a través de varias piezas de desempeño y eventos realizados por ex trabajadoras sexuales.
 
-One of their most popular events is titled “Knitting Stories.” Performed at Museo de Antioquia in Plaza Botero, “Knitting Stories” gives individuals the opportunity to knit with sex workers and learn more about their experiences and who they are.
+Uno de sus eventos más populares se titula "Tejiendo Historias". Realizado en el Museo de Antioquia en Plaza Botero, "Tejiendo Historias" les brinda a las personas la oportunidad de tejer con trabajadoras sexuales y aprender más sobre sus experiencias y quiénes son.
 
-Toro’s goal is to integrate five Venezuelan women into their organization by the end of the year. They have already started with Maria. 
+El objetivo de Toro es integrar a cinco mujeres venezolanas en su organización antes del fin de año. Ya han comenzado con María.
 
-“Many Venezuelan women have turned their life around to do this,” said Toro. “This organization can be a bridge to a better life.” 
+"Muchas mujeres venezolanas han cambiado su vida para hacer esto", dijo Toro. "Esta organización puede ser un puente hacia una vida mejor".
 
-Maria said she wants to attend “Knitting Stories” to see if she is comfortable with integrating this organization into her life. 
+María dijo que quiere asistir a "Tejiendo Historias" para ver si está cómoda con la integración de esta organización en su vida.
 
-In Maria’s eyes, this job is a sacrifice she is making for her daughters. In Maria’s heart, it’s a sacrifice that brings her to tears and a feeling of disgust that can’t be washed away. No matter how many showers she takes. 
+A los ojos de María, este trabajo es un sacrificio que ella está haciendo por sus hijas. En el corazón de María, es un sacrificio que la hace llorar y una sensación de disgusto que no se puede lavar. No importa cuántas duchas ella tome.
 
 {{< center-quote "pages/a-mothers-sacrifice" "pull-quote-maria2" >}}
 
-But these are tears and feelings she is willing to endure if it means reuniting with her children. 
+Pero estas son lágrimas y sentimientos que ella está dispuesta a soportar si eso quiere decir reunirse con sus hijas.
 
-“My children are my biggest concern, and I will do anything to give them what they want and need,” said Maria. “I know that when they get older, there will be a moment when I sit down with them, and tell them and I hope that they will thank me for everything I am doing.”
+"Mis hijas son mi mayor preocupación, y haré lo que sea para darles lo que quieren y necesitan", dijo María. "Sé que cuando crezcan, habrá un momento en que me sentaré con ellas y les contaré, y ojalá que me agradezcan todo lo que estoy haciendo".

@@ -27,156 +27,156 @@ storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"
 cta: "Explorar"
 ---
-It took four arepas to fill 6-year-old Jeham Carlos’ stomach. But he decided to get by on just two because his parents struggled to keep enough food in their house back home in Venezuela.
+Se necesitaban cuatro arepas para llenar el estómago de Jeham Carlos, de 6 años de edad. Pero decidió sobrevivir con solo dos mientras sus padres luchaban por mantener suficiente comida en su casa en Venezuela.
 
-He never told his parents he was still hungry. He didn't want them to worry. They had enough worries already. Three years later, his mother, Alejandrina, cries as she hears her son talk about this tender sacrifice for the first time.
+Nunca le dijo a sus padres que aún tenía hambre. El no quería que se preocupan por él, ellos ya tenían suficientes preocupaciones. Tres años después, su madre, Alejandrina, llora al escuchar por primera vez a su hijo hablar sobre este tierno sacrificio.
 
-Jeham, a thin, slight boy, has more food in Medellín, but it comes at a price. Alejandrina, who has dark black curls and hazel eyes, started selling coffee in Parque Berrio after the family first arrived October 2018, but it wasn't enough to support them. Jeham would sit on a dark green bench next to her, watching his mom struggle. He asked if he could sell candy or “confetti” –  he couldn’t stand to see how hard his mom worked and not do anything to help her.
+Jeham, un niño delgado, tiene más comida en Medellín, pero viene con un precio. Alejandrina, que tiene rizos negros oscuros y ojos color avellana, comenzó a vender café en Parque Berrío cuando la familia llegó en octubre del 2018, pero el dinero no era suficiente para apoyar a su familia. Jeham se sentaba en un banco verde y viejo, viendo a su madre luchar. Le preguntó si podía vender dulces o “confeti” - no podía soportar seguir viendo cuánto trabajaba su madre sin hacer nada para ayudarla. 
 
-Now, instead of going to school, he sells heart-shaped red lollipops in a park with trees and sculptures – the kind of park where families might picnic. But locally, it's associated with drugs, gangs and prostitution. The gang activity scares him, but he can’t think of another way to help his mother.
+Ahora, en lugar de ir a la escuela, vende paletas rojas en forma de corazón en el mismo parque con árboles y esculturas, el tipo de parque donde las familias suelen tener un picnic. Pero localmente, el parque es asociado con drogas, pandillas y prostitución. Las pandillas lo asustan, pero no a encontrado otra manera de ayudar a su familia. 
 
 <div id="video-top"></div>
 
 <!-- Children and education video goes here -->
 {{< vimeo id="329725078" class="video-container flex" >}}
 
-Alejandrina says she was apprehensive at first about Jeham working. 
+Alejandrina dice que al principio estaba preocupada por el trabajo de Jeham. 
 
-“It was hard in the beginning. As a mother, I felt bad,” she said. “I used to say ‘God, he is just a kid and doesn’t deserve this type of life.’” 
+“Fue difícil al principio. Como madre, me senti mal,” dijo. “Yo decía ‘Dios, el es solo un niño que no merece este tipo de vida.’”
 
-Now, Alejandrina says she feels proud of Jeham’s strength.
+Ahora, Alejandrina dice que se siente orgullosa de la fortaleza de Jeham. 
 
-The Medellín education system says every migrant child who seeks education is given the opportunity, but many Venezuelan youths like Jeham are not attending school, or are at risk of dropping out due to the lack of resources. Others do not enroll in school because they fear deportation or not having enough funds for school supplies, daily food and transportation costs. According to the <a href="https://www.rescue.org/article/venezuelas-hidden-crisis-its-childrens-unknown-futures" target="_blank">International Rescue Committee</a>, roughly 50 percent of Venezuelan children in Colombia are not enrolled in school.
+El sistema educativo de Medellín dice que a todos los niños migrantes que buscan educación se les da la oportunidad, pero muchos jóvenes venezolanos como Jeham no asisten a la escuela o corren el riesgo de abandonar la escuela debido a la falta de recursos. Otros no se inscriben porque temen la deportación o no tienen fondos suficientes para los útiles escolares, la comida diaria y los costos de transporte. Según <a href="https://www.rescue.org/article/venezuelas-hidden-crisis-its-childrens-unknown-futures" target="_blank">el Comité Internacional de Rescate</a>, aproximadamente el 50 por ciento de los niños venezolanos en Colombia no están matriculados en la escuela. 
 
 {{< story-interactives "pages/cost-of-dreams" "openarms" >}}
 
-At age 9, Jeham is the household's only source of income. On a good day, he brings in Colombian pesos $30,000, about USD $10.  Two dollars goes toward rent — the rest is spent on food, electricity, water and savings for medication. 
+A los 9 años, Jeham es la única fuente de ingresos del hogar. En un buen día, trae 30,000 pesos Colombianos, alrededor de USD $10. Dos dólares se gasta en la renta, el resto se gasta en alimentos, electricidad, agua y ahorros para medicamentos.
 
-Jeham has managed to save COP $40,000 in the last month. He used it to buy a Game Boy, his only source of distraction and fun. 
+Jeham ha logrado ahorrar COP $40,000 en el último mes. Lo usó para comprar un Game Boy, su única fuente de distracción y diversión.
 
-“I bought a toy for my cousin back home,” Jeham said. “I could never afford toys in Venezuela.”
+"Compré un juguete para mi primo en casa", dijo Jeham. "Nunca podía comprar juguetes en Venezuela.”
 
 <!--This is the first photo - Jeham-->
 {{< photo-caption "pages/cost-of-dreams" "photo-caption-1" >}}
 
-They share a one-bedroom rental in Medellín with Alejandrina's mother and a family friend.
+Comparten un alquiler de una habitación en Medellín con la madre de Alejandrina y una amiga.
 
-It’s a small, bare house with red brick walls, some of which have peeling paint with cracks. The kitchen consists of a white plastic sink, a single electric burner, a mini fridge and four plates – just enough for the four people that live there.
+Es una casa pequeña con paredes de ladrillo rojo, algunas tienen pintura descascarada con grietas. La cocina consiste de un fregadero de plástico blanco, un solo quemador eléctrico, una mini nevera y cuatro platos, lo suficiente para las cuatro personas que viven allí.
 
-It has one bed where Jeham and Alejandrina sleep. It’s the size of a twin college dorm bed, and feels thinner than a pillow and as hard as granite. Jeham’s grandmother and the family’s friend sleep on the rigid red and white tile floor.
+Hay solo una cama donde duermen Jeham y Alejandrina. Es del tamaño de una cama de residencia universitaria, se siente más delgada que una almohada y dura como una piedra. La abuela de Jeham y la amiga de la familia duermen en el rígido piso de baldosas rojas y blancas.
 
-The move is supposed to be temporary. Alejandrina plans to make enough money to buy supplies for the birth of her second child, due in June, and return home. Due to shortages and soaring inflation, pregnant women are expected to purchase the medication and any other materials their doctors might need. Alejandrina’s close friend died shortly after giving birth because the doctors did not have antibiotics to provide to her.
+La muda a Medellín es temporal. Alejandrina planea guardar suficiente dinero para comprar los materiales para el nacimiento de su segundo hijo, en junio, y volver a casa. Debido a la escasez y al aumento de la inflación, se espera que las mujeres embarazadas compran el medicamento y cualquier otro material que sus médicos puedan necesitar en Venezuela. Una amiga cercana de Alejandrina murió poco después de dar a luz porque los médicos no tenían antibióticos.
 
-Alejandrina is on maternity leave from her job as a public school teacher. She did not want to use her last name because if the government found out she left Venezuela, she would be fired. She and her family left without telling anyone and did not get their passports stamped at the border or file for work permits, so they’re not on record for crossing. But she's adamant that her child be born in Venezuela, so the child can have citizenship. 
+Alejandrina está en vacaciones por maternidad en su trabajo como maestra de una escuela pública. No quería usar su apellido porque si el gobierno descubre que ella se fue de Venezuela, sería despedida. Ella y su familia se fueron sin decirle a nadie, sin sellar el pasaporte en la frontera, ni solicitaron permisos de trabajo, para no estar registrados en Medellín. Ella está convencida que su hijo necesita nacer en Venezuela, para que el niño pueda tener la ciudadanía.
 
-“There is no birth citizen right in Colombia,” Alejandrina said. “So giving birth here was not a possibility.”
+"No hay derecho de ciudadanía en Colombia", dijo Alejandrina. "Así que dar a luz aquí no era una posibilidad.”
 
-<div class="story__subhead flex-column">'Every student passes'</div>
+<div class="story__subhead flex-column">'Todo estudiante pasa'</div>
 
-As Venezuelans tried to overcome the economic and political crisis, Jeham's family wrestled to get through. Eventually, Jeham’s parents split. 
+Mientras el país intentaba superar la crisis económica y política, la familia de Jeham luchaba por salir adelante. Con el tiempo los padres de Jeham se separaron.
 
-“Maybe because we didn’t know how to handle it,” Alejandrina said.
+"Tal vez porque no sabíamos cómo manejarlo", dijo Alejandrina.
 
-Before the separation, Jeham attended a private school in Venezuela, where Alejandrina was the principal. But as food, medication and money became scarce, Alejandrina was forced to find a second job as a teacher in a public school. Her family is known to be strong supporters of the opposition so, for her to get the job, she had to move to a new town and pledge loyalty to Hugo Chávez.
+Jeham asistía una escuela privada en Venezuela, antes de la separación, donde Alejandrina era la directora. Pero cuando la comida, el medicamento y el dinero empezaron a escasear, Alejandrina se vio obligada a encontrar un segundo trabajo como maestra pública. Se sabe que su familia es de la oposición, por lo que, para obtener el trabajo, tuvo que mudarse a una nueva ciudad y prometer lealtad a Hugo Chávez.
 
-In 2006 the education system changed in Venezuela, and the government used teachers to spread propaganda. 
+En 2006, el sistema educativo cambió en Venezuela, y el gobierno ahora utiliza a los maestros para difundir propaganda.
 
-Lisbeth Marcan was a public school teacher in Venezuela for 25 years before immigrating to Medellín in May 2018. She says the government removed some of the most critical materials. Instead of focusing on teaching Spanish, she was forced to teach her students about “socialist heroes” in Venezuela like Ezequiel Zamora.
+Lisbeth Marcan fue maestra de una escuela pública en Venezuela durante 25 años antes de emigrar a Medellín en mayo de 2018. Ella dice que el gobierno eliminó algunos de los materiales más importantes. En lugar de centrarse en la enseñanza de español, se vio obligada a enseñar a sus estudiantes sobre los "héroes socialistas" en Venezuela como Ezequiel Zamora.
 
 <!-- 2nd photo - Lisbeth -->
 {{< photo-caption-vert "pages/cost-of-dreams" "photo-caption-2" >}}
 
-The standards for holding children back in school also changed. Under the new system, teachers must first get parental consent and then the permission of the government. 
+Los requisitos para retener a los niños en la escuela también cambiaron. Bajo el nuevo sistema, los maestros primero deben obtener el permiso de los padres y luego del gobierno.
 
-“As a result, every student passes,” says Marcan.
+"Como resultado, todos los estudiantes pasan,” dice Marcan.
  
-Spending so much time with each other, the kids noticed the disparity between each other, even as they were being taught the tenets of socialism. The kids would constantly ask Marcan why they weren’t equal to everyone if they lived in a socialist society. 
+Pasando tanto tiempo juntos, los niños notaron la disparidad entre ellos, aun cuando se les enseñaba los principios del socialismo. Los niños constantemente le preguntaban a Marcan por qué no eran iguales a todos si vivían en una sociedad socialista.
 
-“He brought two colors to class; I’m going to take one away from him because we are equal and so he has to have one, and I have to have one,” her kids would say.
+“Trajo dos colores a clase; Voy a quitarle uno porque somos iguales y él tiene que tener uno, y yo tengo que tener uno ,” decían sus hijos.
 
-Alejandrina has experience in the public and private education systems. She said children in  both systems suffer from the crisis. The children she oversaw in private school had everything in regards to food, school supplies and shoes but were affected psychologically.
+Alejandrina tiene experiencia en los sistemas educativos públicos y privados. Ella dijo que los niños en ambos sistemas sufren de la crisis. Los niños que supervisaba en la escuela privada tenían todo lo relacionado con alimentos, útiles escolares y zapatos, pero se vieron afectados psicológicamente.
 
 {{< center-quote "pages/cost-of-dreams" "pull-quote-alejandrina" >}}
 
-But the children she teaches in public school were even more affected. 
+Pero los niños que ella enseñaba en la escuela pública fueron más afectados.
 
-“When we came back from summer, the kids were skinnier and unrecognizable,” Alejandrina said. 
+"Cuando regresamos del verano, los niños estaban muy delgados y irreconocibles", dijo Alejandrina.
 
-They had no school supplies, shoes or food. As a teacher, she had to excuse students as young as fourth graders who arrived late because they were taking care of their younger siblings.
+No tenían útiles escolares, zapatos ni comida. Como maestra, tuvo que aceptar a los estudiantes jóvenes de cuarto grado que llegaban tarde porque estaban cuidando a sus hermanos menores.
 
 {{< story-interactives "pages/cost-of-dreams" "ed-truancy-int" >}}
 
-Jeham saw the disparities among his classmates, too. 
+Jeham también se dio cuenta de las necesidades entre sus compañeros de clase.
 
-“I felt awful. Sometimes they brought a banana, and that was what they ate the whole day,” Jeham said.
+"Me sentí muy mal. "A veces traían un plátano, y eso era lo que comían todo el día,” dijo Jeham.
 
-According to an <a href="https://www.nytimes.com/interactive/2017/12/17/world/americas/venezuela-children-starving.html" target="_blank">investigation by The New York Times</a>, 21 doctors across Venezuela said children with severe malnutrition are swamping their emergency rooms, a condition rarely seen before the crisis. 
+<a href="https://www.nytimes.com/interactive/2017/12/17/world/americas/venezuela-children-starving.html" target="_blank">Una investigación realizada por The New York Times</a>, encontró que 21 médicos en Venezuela dijeron que los niños con desnutrición severa están llenando las salas de emergencia, una condición que rara vez veían antes de la crisis.
 
-Marcan says children are the most affected during the crisis.
+Marcan dice que los niños son los más afectados durante la crisis. 
 
 {{< center-quote "pages/cost-of-dreams" "pull-quote-marcan" >}}
 
-Most children would save their only meal for dinner or have the water that was left over from  cooking with salt for breakfast and lunch.
+La mayoría de los niños ahorraban su única comida para la cena o tomaban el agua que sobraba al cocinar con sal para el desayuno y el almuerzo.
 
-“They have a strong level of malnutrition, that their growth and cognitive development is not the same,” Marcan said. “Instead of thinking about math, they’re thinking about food.”
+"Tienen un alto nivel de malnutrición, ya que su crecimiento y desarrollo cognitivo no son los mismos", dijo Marcan. "En lugar de pensar en matemáticas, están pensando en comida".
 
-She says that although President Nicolás Maduro created a program called Programa de Alimentación Escolar (School Nutrition Program), it’s not enough. The food arrives every eight days, and most of the fruit is damaged. Marcan says the food was just enough for 200 children at her school of 1,000 students. The school was forced to prioritize the students who spent the most time there and what was left over was for the youngest students.
+Ella dice que aunque el presidente Nicolás Maduro creó un programa llamado Programa de Alimentación Escolar, no es suficiente. La comida llega cada ocho días, y la mayor parte está dañada. Marcan dice que la comida era suficiente para 200 niños en su escuela de 1,000. La escuela se vio obligada a priorizar a los estudiantes que pasaban más tiempo allí y lo que quedaba era para los estudiantes más pequeños.
 
-Although teachers like Marcan and Alejandrina wanted to help their students, their paychecks weren’t enough. Every two weeks, teachers receive 18,000 Bolívares, barely enough for half a kilogram of cheese. 
+Aunque maestros como Marcan y Alejandrina querían ayudar a sus estudiantes, su pago no eran suficientes. Cada dos semanas, los docentes reciben $18.000 bolívares, apenas lo suficiente para medio kilo de queso. 
 
-<div class="story__subhead flex-column">'Their lives have completely changed'</div>
+<div class="story__subhead flex-column">'Sus vidas están completamente cambiadas'</div>
 
-Today, Marcan cleans houses because she wasn’t able to transfer her teaching degree from Venezuela to Colombia. In her free time, she helps Venezuelan children immigrating to Medellín who are not adapting to their new schools. 
+Hoy, Marcan trabaja limpiando casas porque no pudo transferir su título de maestra a Colombia. En su tiempo libre, ayuda a los niños venezolanos que emigran a Medellín y no se están adaptando a sus nuevas escuelas.
 
-“Their lives are completely changed,” Marcan said. “When a Venezuelan child approaches you … he’s been asking you for help.” 
+"Sus vidas están completamente cambiadas", dijo Marcan. "Cuando un niño venezolano se te acerca ... te ha estado pidiendo ayuda".
 
-The Ministry of Education in Medellín says Mayor Federico Gutiérrez promised access to education to every migrant child. Today, there are more than 8,900 Venezuelan children enrolled in the Medellín Education System. Although many Colombians think Venezuelan children are taking away the education of Colombian kids, the Ministry of Education says it’s not true. 
+El Ministerio de Educación de Medellín dice que el alcalde Federico Gutiérrez prometió acceso a la educación a todos los niños migrantes. Hoy en día, hay más de 8,900 niños venezolanos inscritos en el Sistema Educativo de Medellín. Aunque muchos colombianos piensan que los niños venezolanos están quitando la educación a los niños colombianos, el Ministerio de Educación dice que no es cierto.
 
-“I want to clarify that none of the Venezuelan kids are taking away the spots of the Colombian kids,” said Julian Henao Zapata, a coordinator. Currently, Medellín has a capacity of 333,000 children, and only 308,000 are enrolled.
+"Quiero aclarar que ninguno de los niños venezolanos está quitando los lugares a los niños colombianos", dijo Julián Henao Zapata, coordinador. “Actualmente, Medellín tiene una capacidad de 333,000 niños y solo 308,000 están inscritos.”
 
-The Ministry of Education believes school is the best strategy of security to keep children away from drugs, gangs and other problems that can occur to vulnerable children. 
+El Ministerio de Educación cree que la educación es la mejor estrategia de seguridad para mantener a los niños alejados de las drogas, las pandillas y otros problemas que pueden ocurrirles a los niños vulnerables.
 
-“The education right is a fundamental right that is not bound to any migratory status,” says Viviana Palacio Revello of communications. “The Medellín Education System has been opened to the Venezuelan immigrant kids despite the immigration status they have.”
+"El derecho a la educación es un derecho fundamental que no está vinculado a ningún estado migratorio", dice Viviana Palacio Revello de comunicaciones. "El sistema educativo de Medellín se ha abierto a los niños inmigrantes venezolanos a pesar del estatus migratorio que tienen".
 
-That hasn’t always been the case. Lack of paperwork is a big barrier for migrant children. 
+Ese no siempre ha sido el caso. La falta de papeleo es una gran barrera para los niños migrantes.
 
-Anyelis Juarez Duran, 15, and her brother Angelos Juarez Duran, 13, have been in Medellín for approximately two years and missed a year of school when they first arrived. Instead of going to school, the pair sold food in the street but saw no profit. The frustration of not attending school was getting high, especially for Anyelis who just celebrated her quinceañera, a Latin tradition that symbolizes the transition to adulthood. Anyelis has been acting as the adult in her family while her mother is working.
+Anyelis Juarez Duran, de 15 años, y su hermano Angelos Juarez Duran, de 13, han estado en Medellín aproximadamente dos años y perdieron un año de escuela cuando llegaron. En lugar de ir a la escuela, la pareja vendía comida en la calle pero no veía ganancias. La frustración de no asistir a la escuela fue aumentando, especialmente para Anyelis, que acaba de celebrar su quinceañera, una tradición latina que simboliza la transición a la edad adulta. Anyelis ha estado actuando como la adulto en su familia mientras su madre está trabajando.
 
 <!-- 3rd photo - siblings -->
 {{< photo-caption "pages/cost-of-dreams" "photo-caption-3" >}}
 
-“I wanted to study, and many times I’d go and find out things while my mom was working,” Anyelis said. “The principal sent me to the educative nucleus were I was given a validation package to complete.”
+"Quería estudiar, y muchas veces iba a averiguar cosas mientras mi madre trabajaba", dijo Anyelis. "El director me envió al núcleo educativo donde me dieron un paquete de validación para completar".
 
-The siblings say their peers have helped them adapt to the education system. However, getting there was not as easy. Education has always been a passion for Anyelis, and she took it upon herself to make it happen. 
+Los hermanos dicen que sus compañeros los han ayudado a adaptarse al sistema educativo. Sin embargo, llegar allí no fue tan fácil. La educación siempre ha sido una de los sueños de Anyelis, y ella se encargó de hacerlo realidad.
 
-One day, Anyelis woke up decided to enroll in school. She got dressed and walked to the nearest school to explain her situation to the current principal. Her brother, Angelos, says he feels lucky to have Anyelis. 
+Un día, Anyelis se despertó y decidió matricularse en la escuela. Se vistió y caminó hasta la escuela más cercana para explicarle su situación al director actual. Su hermano, Angelos, dice que se siente afortunado de tener a Anyelis.
 
-“Anyelis was the one that moved around to get us the spot for the school,” Angelos said. “She did a lot of stuff so we could study and if it weren’t for her, we wouldn’t be studying at this moment.”
+"Anyelis fue la que se movió para el lugar para la escuela", dijo Angelos. "Ella hizo muchas cosas para que pudiéramos estudiar y si no fuera por ella, no estaríamos estudiando en este momento".
 
-The Ministry of Education says it will work with migrant children who do not have any paperwork or resources. 
+El Ministerio de Educación dice que trabajará con niños migrantes que no tienen ningún papeleo o recursos.
 
-“They believe we will ask them for their papers, or they will be advised to go to migration services to solve their issues and make them go back,” Zapata said. “But it’s not like that.” 
+"Ellos creen que les pediremos sus documentos, o se les recomendará que acudan a los servicios de migración para resolver sus problemas y hacer que regresen", dijo Zapata. "Pero no es así".
 
-Angelos’ transition to school has not been smooth, and he says the classes are harder. Many students feel pressured because they arrive in Colombia having to catch up. 
+La transición de Angelos a la escuela no ha sido fácil, y dice que las clases son más difíciles. Muchos estudiantes se sienten presionados porque llegan a Colombia teniendo que alcanzar el nivel de los estudiantes en Colombia.
 
-“The children arrive with a low academic level,” Marcan said. “Many times children have to be lowered two years.”
+"Los niños llegan con un bajo nivel académico", dijo Marcan. "Muchas veces los niños tienen que ser retrasados dos años".
 
-Things as simple as school books can have a significant effect on children. In Venezuela, children have three school books, but when they arrive in Medellín, they have nine. 
+Cosas tan simples como los libros escolares pueden tener un efecto significativo en los niños. En Venezuela, los niños tienen tres libros escolares, pero cuando llegan a Medellín, tienen nueve.
 
-“Then that rhythm of life hits them because it changes their life completely,” Marcan said. 
+"Entonces ese ritmo de vida los golpea porque cambia su vida por completo", dijo Marcan.
 
-The differences between the same language can affect the relationship between teachers and students. 
+Las diferencias entre el mismo idioma pueden afectar la relación entre profesores y estudiantes.
 
-“It shocks them, and they think the teacher is being rude or can’t understand them,” Marcan said.
+"Les choca, y piensan que el maestro está siendo grosero o no puede entenderlos", dijo Marcan.
 
-The Medellín education system says it offers tutoring programs to every kid, including migrant children. 
+El sistema educativo de Medellín dice que ofrece programas de tutoría para todos los niños, incluyendo a los niños migrantes.
 
-“When students are registered in the Medellín education system they automatically have the same rights as all the other kids,” Zapata said. Although many Venezuelans are not aware of the programs available to them, they can get transportation discounts, supplies, uniform donations and tutoring.
+"Cuando los estudiantes se registran en el sistema educativo de Medellín, automáticamente tienen los mismos derechos que todos los demás niños", dijo Zapata. Aunque muchos venezolanos no conocen los programas disponibles, pueden obtener descuentos en el transporte, suministros, donaciones de uniformes y tutoría.
 
-Despite the help accessible to migrants, children like Anyelis and Angelos are still at risk of losing access to their education because of their lack of resources. Their mother lost her job, and the deadline to pay rent is coming up. 
+A pesar de la ayuda que pueden acceder los migrantes, los niños como Anyelis y Angelos todavía corren el riesgo de perder el acceso a su educación debido a la falta de recursos. Su madre perdió su trabajo y se acerca la fecha para pagar la renta.
 
-“It’s a shame because she always feels ashamed and feels like crying because she brought us here for something better,” Anyelis said.
+"Es una pena porque ella siempre se siente avergonzada y tiene ganas de llorar porque nos trajo aquí para algo mejor", dijo Anyelis.
 
-The family has been trying to find a solution, even if that means being separated. Angelos and his little brother would leave with their mom to a farm where they could work. But they would have to leave Anyelis behind to study. 
+La familia ha estado tratando de encontrar una solución, aunque eso significa estar separado. Angelos y su hermanito se irían con su madre a una granja donde podrían trabajar y estudiar. Pero tendrían que dejar a Anyelis para estudiar.
 
-At the farm, the quality of education is low. Students only have to attend three times a week and do most of the learning on their own. Anyelis wants to keep fighting for her dream of being a veterinarian, but the future of her education and living situation is uncertain.
+En la finca, la calidad de la educación es baja. Los estudiantes solo tienen que asistir tres veces a la semana y realizar la mayor parte del aprendizaje por su cuenta. Anyelis quiere seguir luchando por su sueño de ser veterinaria, pero el futuro de su educación y su situación de vida es incierto.
