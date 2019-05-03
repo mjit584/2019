@@ -35,8 +35,9 @@
     </div>
 
     <div class="about__content flex">
+      {{ $language := .Site.LanguageCode }}
       {{ range .Site.Data.about }}
-      {{ partial "about-info.html" . }}
+      {{ partial "about-info.html" (dict "language" $language "data" .) }}
       {{ end }}
     </div>
   </div>
