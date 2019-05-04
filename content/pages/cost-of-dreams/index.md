@@ -30,7 +30,7 @@ It took four arepas to fill 6-year-old Jeham Carlos’ stomach. But he decided t
 
 He never told his parents he was still hungry. He didn't want them to worry. They had enough worries already. Three years later, his mother, Alejandrina, cries as she hears her son talk about this tender sacrifice for the first time.
 
-Jeham, a thin, slight boy, has more food in Medellín, but it comes at a price. Alejandrina, who has dark black curls and hazel eyes, started selling coffee in Parque Berrio after the family first arrived October 2018, but it wasn't enough to support them. Jeham would sit on a dark green bench next to her, watching his mom struggle. He asked if he could sell candy or “confetti” –  he couldn’t stand to see how hard his mom worked and not do anything to help her.
+Jeham, a thin, slight boy, has more food in Medellín, but it comes at a price. Alejandrina, who has dark black curls and hazel eyes, started selling coffee in Parque Berrio after the family first arrived in October 2018, but it wasn't enough to support them. Jeham would sit on a dark green bench next to her, watching his mom struggle. He asked if he could sell candy or “confetti” –  he couldn’t stand to see how hard his mom worked and not do anything to help her.
 
 Now, instead of going to school, he sells heart-shaped red lollipops in a park with trees and sculptures – the kind of park where families might picnic. But locally, it's associated with drugs, gangs and prostitution. The gang activity scares him, but he can’t think of another way to help his mother.
 
@@ -49,7 +49,7 @@ The Medellín education system says every migrant child who seeks education is g
 
 {{< story-interactives "pages/cost-of-dreams" "openarms" >}}
 
-At age 9, Jeham is the household's only source of income. On a good day, he brings in Colombian pesos $30,000, about USD $10.  Two dollars goes toward rent — the rest is spent on food, electricity, water and savings for medication. 
+At age 9, Jeham is the household's only source of income. On a good day, he brings in COP $40,000, about USD $10.  Two dollars goes toward rent — the rest is spent on food, electricity, water and savings for medication. 
 
 Jeham has managed to save COP $40,000 in the last month. He used it to buy a Game Boy, his only source of distraction and fun. 
 
@@ -62,7 +62,7 @@ They share a one-bedroom rental in Medellín with Alejandrina's mother and a fam
 
 It’s a small, bare house with red brick walls, some of which have peeling paint with cracks. The kitchen consists of a white plastic sink, a single electric burner, a mini fridge and four plates – just enough for the four people that live there.
 
-It has one bed where Jeham and Alejandrina sleep. It’s the size of a twin college dorm bed, and feels thinner than a pillow and as hard as granite. Jeham’s grandmother and the family’s friend sleep on the rigid red and white tile floor.
+It has one bed where Jeham and Alejandrina sleep. It’s the size of a twin college dorm bed, feels thinner than a pillow and as hard as granite. Jeham’s grandmother and the family’s friend sleep on the rigid red and white tile floor.
 
 The move is supposed to be temporary. Alejandrina plans to make enough money to buy supplies for the birth of her second child, due in June, and return home. Due to shortages and soaring inflation, pregnant women are expected to purchase the medication and any other materials their doctors might need. Alejandrina’s close friend died shortly after giving birth because the doctors did not have antibiotics to provide to her.
 
@@ -121,7 +121,7 @@ Most children would save their only meal for dinner or have the water that was l
 
 She says that although President Nicolás Maduro created a program called Programa de Alimentación Escolar (School Nutrition Program), it’s not enough. The food arrives every eight days, and most of the fruit is damaged. Marcan says the food was just enough for 200 children at her school of 1,000 students. The school was forced to prioritize the students who spent the most time there and what was left over was for the youngest students.
 
-Although teachers like Marcan and Alejandrina wanted to help their students, their paychecks weren’t enough. Every two weeks, teachers receive 18,000 Bolívares, barely enough for half a kilogram of cheese. 
+Although teachers like Marcan and Alejandrina wanted to help their students, their paychecks weren’t enough. Every two weeks, teachers receive $18,000 Bolívares, barely enough for half a kilogram of cheese. 
 
 <div class="story__subhead flex-column">'Their lives have completely changed'</div>
 
@@ -131,7 +131,7 @@ Today, Marcan cleans houses because she wasn’t able to transfer her teaching d
 
 The Ministry of Education in Medellín says Mayor Federico Gutiérrez promised access to education to every migrant child. Today, there are more than 8,900 Venezuelan children enrolled in the Medellín Education System. Although many Colombians think Venezuelan children are taking away the education of Colombian kids, the Ministry of Education says it’s not true. 
 
-“I want to clarify that none of the Venezuelan kids are taking away the spots of the Colombian kids,” said Julian Henao Zapata, a coordinator. Currently, Medellín has a capacity of 333,000 children, and only 308,000 are enrolled.
+“I want to clarify that none of the Venezuelan kids are taking away the spots of the Colombian kids,” said Julian Henao Zapata, a coordinator. "Currently, Medellín has a capacity of 333,000 children, and only 308,000 are enrolled."
 
 The Ministry of Education believes school is the best strategy of security to keep children away from drugs, gangs and other problems that can occur to vulnerable children. 
 

@@ -13,7 +13,7 @@ storySubheading: "Los venezolanos encuentran camaradería, familia y apoyo a tra
 weight: 2
 card: true
 authorTitle: "Escrito por"
-photoTitle: "Foto y video por"
+photoTitle: "Fotos y video por"
 designTitle: "Gráficos por"
 udeaTitle: "Productor de campo"
 author: "Brooklynn Cooper"

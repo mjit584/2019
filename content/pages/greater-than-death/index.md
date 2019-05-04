@@ -90,7 +90,7 @@ The family works together to get by. While Marbis Judith and Marbis Georgina sel
 
 “We’ve been here as a family through these difficult times,” Marbis Georgina said. 
 
-Mabis Judith’s husband and son are the only members of the family that still live in Calabozo. Marbis Georgina says this is difficult, because it’s the first time in her life she has been separated from her brother.
+Marbis Judith’s husband and son are the only members of the family that still live in Calabozo. Marbis Georgina says this is difficult, because it’s the first time in her life she has been separated from her brother.
 
 Marbis Judith is the driving force that has kept the family moving. Marbis Georgina says that her mother has supported them through the move, through their health issues, through everything. Even when she had health issues of her own.
 

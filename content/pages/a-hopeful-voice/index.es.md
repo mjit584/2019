@@ -13,7 +13,7 @@ storySubheading: "Venezolanos indocumentados encuentran su sustento cantando en 
 weight: 1
 card: true
 authorTitle: "Escrito por"
-photoTitle: "Foto y video por"
+photoTitle: "Fotos y video por"
 designTitle: "Gráficos por"
 udeaTitle: "Productor de campo"
 author: "Maria Elena Vizcaino"

@@ -13,7 +13,7 @@ storySubheading: "El sacrificio de una familia por la salud de sus hijos todaví
 weight: 3
 card: true
 authorTitle: "Escrito por"
-photoTitle: "Foto y video por"
+photoTitle: "Fotos y video por"
 designTitle: "Gráficos por"
 udeaTitle: "Productor de campo"
 author: "Sara Pequeno"

@@ -13,7 +13,7 @@ photographer: "Alex Kormann, Catie Dull"
 designer: "Brooke Fisher"
 udea: "Laura Trujillo Arango, Juan Ochoa, Maria Alejandra Cardona Aizpurua"
 layout: 'photo-pages'
-photoTitle: "Foto por"
+photoTitle: "Fotos por"
 designTitle: "Gráficos por"
 udeaTitle: "Productores de campo"
 aboutUs: "Sobre Nosotros"

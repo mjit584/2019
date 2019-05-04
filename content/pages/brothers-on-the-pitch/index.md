@@ -74,11 +74,9 @@ Players crunch turf beneath their feet as they gather around centerfield, pantin
 
 He could never do that in Venezuela.
 
-In 2014—the year Martínez immigrated to Colombia—things had gone from bad to worse. Not only was the economy in shambles, but so was public safety. The 37-year-old couldn’t go to the cogrocery store without looking over his shoulder every few minutes. He hated sitting at stoplights for fear of the motorcyclists that robbed or killed people daily.
+In 2014—the year Martínez immigrated to Colombia—things had gone from bad to worse. Not only was the economy in shambles, but so was public safety. The 37-year-old couldn’t go to the grocery store without looking over his shoulder every few minutes. He hated sitting at stoplights for fear of the motorcyclists that robbed or killed people daily.
 
-“In that type of stress, you leave your house in the morning and you don’t know if you’re going to return,” Martínez said. In 2017, the U.S. Embassy of Caracas reported that 73 Venezuelans died violently every day. “Before we became a statistic of the dead in Venezuela, I preferred to emigrate and find a better quality of life.”
-
-{{< center-quote "pages/brothers-on-the-pitch" "pull-quote-lilia" >}}
+“In that type of stress, you leave your house in the morning and you don’t know if you’re going to return,” Martínez said. In 2017, the U.S. Embassy in Caracas reported that 73 Venezuelans died violently every day. “Before we became a statistic of the dead in Venezuela, I preferred to emigrate and find a better quality of life.”
 
 Martínez was one of the lucky ones. Having Colombian parents granted him the privilege of dual Venezuelan-Colombian citizenship, so he and his wife moved in with his grandmother in Medellín until they could support themselves. It didn’t take long because of Martínez’s natural talent for entrepreneurship. He opened a pet shop, and when he saw that  it wasn’t going anywhere, he closed it and started a telecommunications company that he still runs today.
 
@@ -94,17 +92,19 @@ He logged onto one of the Venezuelan Facebook groups he had joined and started t
 
 On the streets of Venezuela, artisans set up tables on the sidewalks of crowded intersections. Each table has multicolored Venezuelan bills stacked like newspapers. The artisans shuffle the bills—worth millions—in their hands, not worrying about passersby stealing them.
 
-Ten years ago, the money on the table—Venezuelan bolivares—would’ve made them millionaires. Today, the bills are worth so little that people make purses and sculptures with them.
+Ten years ago, the money on the table—Venezuelan bolívares—would’ve made them millionaires. Today, the bills are worth so little that people make purses and sculptures with them.
 
 “Venezuela was a huge country—we weren’t going to prepare anything,” said Martínez’s mother Lilia Martínez, who lived in Venezuela for 40 years until 2017 when she moved back to Colombia. “We never thought we’d be worse off than Cuba.”
 
 In 2014, Venezuela’s central bank stopped releasing information, like the inflation rate and public spending, because President Nicolás Maduro’s administration didn’t want the public to know how much the economy had declined. By 2017, over 87 percent of the population lived below the poverty line.
 
+{{< center-quote "pages/brothers-on-the-pitch" "pull-quote-lilia" >}}
+
 A box of cereal in Venezuela currently costs more than the average person’s monthly salary. People can’t afford housing or toiletries.
 
 In January, National Assembly President Juan Guaidó declared himself interim president after Maduro’s second election was deemed illegitimate. The U.S., Canada, Brazil and about 50 other countries have recognized Guaidó as president. Russia, China and Cuba still support Maduro.
 
-Guaidó has tried to import humanitarian aid, but Maduro’s officials at the Colombian border destroyed trucks full of necessities. Maduro saw the event as an attempt to overthrow his administration.
+Guaidó has tried to import humanitarian aid, but Maduro’s officials at the Colombian border blocked trucks full of necessities. Maduro saw the event as an attempt to overthrow his administration.
 
 “There are people that still support [Maduro],” Lilia said. “Because if you’re not lacking anything, then you’re fine. But you don’t care about your brother that’s dying of hunger.”
 
@@ -125,7 +125,7 @@ Every week around 8 p.m., they gather at one of the sets of bleachers at the And
 
 Not only do the players laugh and joke with each other, but they also support each other. Velasquez has his job at the auto shop because Martínez recommended him. Without the recommendation, he would’ve still been working at a fast food restaurant or another entry level job. He definitely wouldn’t have been at Distripartes—he’s the only Venezuelan that works there.
 
-“I’m very grateful,” Velasquez said. “There are businesses that don’t hire Venezuelans because they think we come to rob, that we’re deadbeats and slackers. I’ve been working hard and showing what Venezuelans are really about. Because I’m happy with my job, they’re happy with me as an employee.”
+“I’m very grateful,” Velasquez said. “There are jobs that don’t accept Venezuelans because they believe Venezuelans come to steal, that they’re lazy. I’ve been working hard and showing what Venezuelans are really about. Because I’m happy with my job, they’re happy with me as an employee.”
 
 {{< center-quote "pages/brothers-on-the-pitch" "pull-quote-alvaro" >}}
 

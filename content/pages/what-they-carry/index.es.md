@@ -9,7 +9,7 @@ storyHeading: "Lo que cargan"
 storySubheading: "Los venezolanos viajan a Medellín agarrando algunas con mayor fuerza que otras."
 weight: 6
 card: true
-photoTitle: "Foto por"
+photoTitle: "Fotos por"
 designTitle: "Gráficos por"
 udeaTitle: "Productores de campo"
 photographer: "Alex Kormann, Nash Consing, Catie Dull"

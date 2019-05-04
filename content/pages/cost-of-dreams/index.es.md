@@ -13,7 +13,7 @@ storySubheading: "Niños sacrifican su educación para apoyar a sus familias."
 weight: 4
 card: true
 authorTitle: "Escrito por"
-photoTitle: "Foto y video por"
+photoTitle: "Fotos y video por"
 designTitle: "Gráficos por"
 udeaTitle: "Productor de campo"
 author: "Patsy Montesinos"
@@ -50,7 +50,7 @@ El sistema educativo de Medellín dice que a todos los niños migrantes que busc
 
 {{< story-interactives "pages/cost-of-dreams" "openarms" >}}
 
-A los 9 años, Jeham es la única fuente de ingresos del hogar. En un buen día, trae 30,000 pesos Colombianos, alrededor de USD $10. Dos dólares se gasta en la renta, el resto se gasta en alimentos, electricidad, agua y ahorros para medicamentos.
+A los 9 años, Jeham es la única fuente de ingresos del hogar. En un buen día, trae 40,000 pesos Colombianos, alrededor de USD $10. Dos dólares se gasta en la renta, el resto se gasta en alimentos, electricidad, agua y ahorros para medicamentos.
 
 Jeham ha logrado ahorrar COP $40,000 en el último mes. Lo usó para comprar un Game Boy, su única fuente de distracción y diversión.
 
