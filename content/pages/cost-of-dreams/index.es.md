@@ -8,7 +8,7 @@ video: "../el-precio-de-los-suenos/assets/education-headervideo.mp4"
 headerStill: "../el-precio-de-los-suenos/assets/education-headerstill.jpg"
 videoStill: "../el-precio-de-los-suenos/assets/education-videostill.jpg"
 image: "http://uprooted.unc.edu/images/education-homepagestill.jpg"
-storyHeading: "Lo que Cuestan los Sueños"
+storyHeading: "El Precio de los Sueños"
 storySubheading: "Niños sacrifican su educación para apoyar a sus familias."
 weight: 4
 card: true
