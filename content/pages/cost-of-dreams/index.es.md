@@ -1,6 +1,6 @@
 ---
 title: "El Precio de los Sueños"
-url: "/el-precio-de-los-suen\os/"
+url: "/el-precio-de-los-suenos/"
 topic: "Educación"
 date: 2019-02-04T21:35:51-05:00
 description: "Niños sacrifican su educación para apoyar a sus familias."
