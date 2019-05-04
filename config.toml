@@ -8,7 +8,7 @@ canonifyURLs = "true"
 
 [languages]
   [languages.en]
-    baseURL = "https://brookenf.github.io/uprooted-mejo584/"
+    baseURL = "http://uprooted.unc.edu/"
     title = "Uprooted: The Faces of the Venezuelan Crisis"
     weight = "1"
     languageName = "English"
@@ -16,7 +16,7 @@ canonifyURLs = "true"
     [languages.en.params]
       
   [languages.es]
-    baseURL = "https://brookenf.github.io/uprooted-mejo584/es/"
+    baseURL = "http://uprooted.unc.edu/es/"
     title = "Uprooted: Las caras de la crisis venezolana"
     weight = "2"
     languageName = "Español"
