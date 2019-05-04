@@ -1,6 +1,6 @@
 DefaultContentLanguage = "en"
 copyright = "Copyright School of Media and Journalism"
-title = "Uprooted: Venezuelan Families Flee to Colombia"
+title = "Uprooted: The Faces of the Venezuelan Crisis"
 themesDir = "../.."
 enableInlineShortcodes = "true"
 canonifyURLs = "true"
@@ -16,7 +16,7 @@ canonifyURLs = "true"
     [languages.en.params]
       
   [languages.es]
-    baseURL = "http://uprooted.unc.edu/es/"
+    baseURL = "https://uprooted.unc.edu/es/"
     title = "Uprooted: Las caras de la crisis venezolana"
     weight = "2"
     languageName = "Español"
