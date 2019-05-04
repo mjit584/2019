@@ -1,15 +1,15 @@
 ---
-title: "Lo que Cuestan los Sueños"
-url: "/lo-que-cuestan-los-suenos/"
+title: "El Precio de los Sueños"
+url: "/el-precio-de-los-suen\os/"
 topic: "Educación"
 date: 2019-02-04T21:35:51-05:00
-description: "Los niños sacrifican su educación para apoyar a sus familias."
-video: "../lo-que-cuestan-los-suenos/assets/education-headervideo.mp4"
-headerStill: "../lo-que-cuestan-los-suenos/assets/education-headerstill.jpg"
-videoStill: "../lo-que-cuestan-los-suenos/assets/education-videostill.jpg"
+description: "Niños sacrifican su educación para apoyar a sus familias."
+video: "../el-precio-de-los-suenos/assets/education-headervideo.mp4"
+headerStill: "../el-precio-de-los-suenos/assets/education-headerstill.jpg"
+videoStill: "../el-precio-de-los-suenos/assets/education-videostill.jpg"
 image: "http://uprooted.unc.edu/images/education-homepagestill.jpg"
 storyHeading: "Lo que Cuestan los Sueños"
-storySubheading: "Los niños sacrifican su educación para apoyar a sus familias."
+storySubheading: "Niños sacrifican su educación para apoyar a sus familias."
 weight: 4
 card: true
 authorTitle: "Escrito por"
@@ -21,7 +21,7 @@ videographer: "Andie Rea, Ashton Eleazer"
 designer: "Lyric Lin, Patty Matos"
 udea: "Andrea Orozco Sáenz"
 aboutUs: "Sobre Nosotros"
-aboutUsURL: sobre-nosotros
+aboutUsURL: "/sobre-nosotros/"
 footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"

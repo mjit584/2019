@@ -1,6 +1,6 @@
 ---
 aboutUs: "Sobre Nosotros"
-aboutUsURL: sobre-nosotros
+aboutUsURL: "/sobre-nosotros/"
 footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"

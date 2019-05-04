@@ -1,4 +1,3 @@
-baseURL = "http://uprooted.unc.edu/"
 DefaultContentLanguage = "en"
 copyright = "Copyright School of Media and Journalism"
 title = "Uprooted: Venezuelan Families Flee to Colombia"
@@ -17,7 +16,7 @@ canonifyURLs = "true"
     [languages.en.params]
       
   [languages.es]
-    baseURL = "http://uprooted.unc.edu/es"
+    baseURL = "http://uprooted.unc.edu/es/"
     title = "Uprooted: Las caras de la crisis venezolana"
     weight = "2"
     languageName = "Español"
@@ -118,10 +117,10 @@ canonifyURLs = "true"
   post = "http://uprooted.unc.edu/images/gov-homepagestill.jpg"
 
 [[languages.es.menu.main]]
-  url = "/hermanos-en-el-terreno/"
+  url = "/hermanos-en-la-cancha/"
   weight = 2
-  name = "Venezolanos encuentran camaradería, familia y apoyo a través del deporte."
-  pre = "<p class='story-topic'>Economía</p><h3 class='story-title'>Hermanos en El Terreno</h3>"
+  name = "Los venezolanos encuentran camaradería, familia y apoyo a través del deporte."
+  pre = "<p class='story-topic'>Economía</p><h3 class='story-title'>Hermanos en La Cancha</h3>"
   post = "http://uprooted.unc.edu/images/econ-homepagestill.jpg"
 
 [[languages.es.menu.main]]
@@ -132,10 +131,10 @@ canonifyURLs = "true"
   post = "http://uprooted.unc.edu/images/health-homepagestill.jpg"
 
 [[languages.es.menu.main]]
-  url = "/lo-que-cuestan-los-suenos/"
+  url = "/el-precio-de-los-suenos/"
   weight = 4 
-  name = "Los niños sacrifican su educación para apoyar a sus familias."
-  pre = "<p class='story-topic'>Educación</p><h3 class='story-title'>Lo que Cuestan los Sueños</h3>"
+  name = "Niños sacrifican su educación para apoyar a sus familias."
+  pre = "<p class='story-topic'>Educación</p><h3 class='story-title'>El Precio de los Sueños</h3>"
   post = "http://uprooted.unc.edu/images/education-homepagestill.jpg"  
 
 [[languages.es.menu.main]]

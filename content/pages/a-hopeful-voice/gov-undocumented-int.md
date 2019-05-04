@@ -105,6 +105,9 @@ graphics:
     <div class="information-body" id="PEP-body">
       <div class="information-body-r1" id="pep-body-top">
         <div class="information-title border-blue">PEP</div>
+        <div class="information-body-r3 bottom-text" id="passport-body-bottom">
+          Click the arrows or the dots to navigate
+        </div>
       </div>
       <!-- slideshow goes here -->
       <div class="information-body-r2">
@@ -170,15 +173,15 @@ graphics:
         </div>
       </div>
       <!-- bottom caption -->
-      <div class="information-body-r3 bottom-text" id="pep-body-bottom">
-        Click the arrows or the dots to navigate
-      </div>
     </div>
     <!-- end of content for pep -->
     <!-- contont for National id -->
     <div class="information-body" id="ID-body">
       <div class="information-body-r1" id="ID-body-top">
         <div class="information-title border-red">Venezuelan ID</div>
+        <div class="information-body-r3 bottom-text" id="passport-body-bottom">
+          Click the arrows or the dots to navigate
+        </div>
       </div>
       <!-- slideshow goes here -->
       <div class="information-body-r2">
@@ -264,9 +267,6 @@ graphics:
         </div>
       </div>
       <!-- bottom caption -->
-      <div class="information-body-r3 bottom-text" id="ID-body-bottom">
-        Click the arrows or the dots to navigate
-      </div>
     </div>
     <!-- end of content for national ID -->
     <!-- front page -->

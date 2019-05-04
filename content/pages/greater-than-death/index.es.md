@@ -21,7 +21,7 @@ videographer: "Tenley Garrett, Peggy Mullin"
 designer: "Carlos Salas"
 udea: "Laura Andrea García Giraldo"
 aboutUs: "Sobre Nosotros"
-aboutUsURL: sobre-nosotros
+aboutUsURL: "/sobre-nosotros/"
 footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"

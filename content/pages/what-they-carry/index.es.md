@@ -6,7 +6,7 @@ description: "Fotografías de los migrantes venezolanos y sus nuevas vidas en Me
 image: "http://uprooted.unc.edu/images/photo-chap-1-hero.jpg"
 imageHome: "http://uprooted.unc.edu/images/photo-homepagephoto.jpg"
 storyHeading: "Lo que cargan"
-storySubheading: "Los venezonales viajan a Medellín agarrando algunas con mayor fuerza que otras."
+storySubheading: "Los venezolanos viajan a Medellín agarrando algunas con mayor fuerza que otras."
 weight: 6
 card: true
 photoTitle: "Foto por"
@@ -17,7 +17,7 @@ designer: "Brooke Fisher"
 udea: "Laura Trujillo Arango, Juan Ochoa, Maria Alejandra Cardona Aizpurua"
 layout: 'photo-pages'
 aboutUs: "Sobre Nosotros"
-aboutUsURL: sobre-nosotros
+aboutUsURL: "/sobre-nosotros/"
 footerCTA: "Más de Uprooted"
 storiesHeader: "Historias"
 photosHeader: "Viaje Fotográfico"
