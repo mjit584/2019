@@ -8,7 +8,7 @@ canonifyURLs = "true"
 
 [languages]
   [languages.en]
-    baseURL = "http://uprooted.unc.edu/"
+    baseURL = "https://uprooted.unc.edu"
     title = "Uprooted: The Faces of the Venezuelan Crisis"
     weight = "1"
     languageName = "English"
