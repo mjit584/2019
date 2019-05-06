@@ -30,41 +30,32 @@ Mientras los recursos escasean, la violencia sale a la vista, y la corrupción s
 <!-- this one is for Kiara -->
 {{< photo-diptych "/pages/what-they-carry" "photo-diptych-1" >}}
 
-<div class="photo__line"></div>
-
-
 <!-- this one is for Deylena and Jonathan -->
 {{< photo-diptych "/pages/what-they-carry" "photo-diptych-2" >}}
-
-<div class="photo__line"></div>
 
 <!-- this one is for the third one -->
 {{< photo-diptych "/pages/what-they-carry" "photo-diptych-3" >}}
 
-<div class="photo__line"></div>
-
 <!-- this one is for Andrea -->
 {{< photo-diptych "/pages/what-they-carry" "photo-diptych-4" >}}
-
-<div class="photo__line"></div>
 
 <!-- this one is for Jeedri -->
 {{< photo-diptych "/pages/what-they-carry" "photo-diptych-5" >}}
 
-<div class="photo__line"></div>
-
-<!-- this one is for the blanket item -->
+<!-- this one is for the dress item -->
 {{< photo-diptych "/pages/what-they-carry" "photo-diptych-6" >}}
 
-<div class="photo__line"></div>
+{{< center-quote "/pages/what-they-carry" "pull-quote-ayerim" >}}
 
-<!-- this one is for Carlos the musician/chef -->
+<!-- this one is for Juan Carlos and Amalia the musician/chef -->
 {{< photo-diptych "/pages/what-they-carry" "photo-diptych-7" >}}
+
+{{< center-quote "/pages/what-they-carry" "pull-quote-carlos" >}}
 
 <!-- this one is for Elizbaeth -->
 {{< photo-diptych "/pages/what-they-carry" "photo-diptych-8" >}}
 
-<div class="photo__line"></div>
+{{< center-quote "/pages/what-they-carry" "pull-quote-elizabeth" >}}
 
 Los venezolanos han estado viajando alrededor del país para encontrar un mejor lugar para vivir. <a href="https://www.nytimes.com/2019/02/20/world/americas/venezuela-refugees-colombia.html" target="_blank" rel="noopener noreferrer">Más de tres millones de venezolanos</a> han dejado su país, y muchos de ellos se han quedado en Colombia, país vecino. Colombia ha recibido más de un millón de venezolanos, y se presupuesta que para el 2021 una cifra cercana a los 4 millones de venezolanos podría estar viviendo en Colombia. Mientras que la presión financiera se ha hecho sentir en el país, el Gobierno ha mantenido sus fronteras abiertas, y los colombianos han acogido a sus hermanos y hermanas venezolanos en el país.
 
