@@ -3,7 +3,7 @@ title: "Lográndolo en Medellín"
 topic: "Viaje Fotográfico"
 date: 2019-02-04T21:34:53-05:00
 description: "Las historias de éxito de los inmigrantes venezolanos en un nuevo país."
-image: "http://uprooted.unc.edu/images/photo-chap-4-hero.jpg"
+image: "https://uprooted.unc.edu/images/photo-chap-4-hero.jpg"
 storyHeading: "Lográndolo en Medellín"
 storySubheading: "Las historias de éxito de los inmigrantes venezolanos en un nuevo país."
 heroAlt: "A group of workers smile and pose in front of a restaurant sign that reads 'Della Nonna'"

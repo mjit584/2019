@@ -7,7 +7,7 @@ description: "Los venezolanos encuentran camaradería, familia y apoyo a través
 video: "../hermanos-en-la-cancha/assets/econ-headervideo.mp4"
 headerStill: "../hermanos-en-la-cancha/assets/econ-headerstill.jpg"
 videoStill: "../hermanos-en-la-cancha/assets/econ-videostill.jpg"
-image: "http://uprooted.unc.edu/images/econ-homepagestill.jpg"
+image: "https://uprooted.unc.edu/images/econ-homepagestill.jpg"
 storyHeading: "Hermanos en La Cancha"
 storySubheading: "Los venezolanos encuentran camaradería, familia y apoyo a través del deporte."
 weight: 2

@@ -85,7 +85,7 @@ graphics: "Kailee Akers"
     <div class="interactive__sources">
       <p>
         * Datos de <a href="https://www.dw.com/en/venezuelas-new-banknotes/av-36692086" target="_blank">DW</a>, <a
-          href="http://www.republica-de-venezuela.com/about-venezuela/currency-of-venezuela.php"
+          href="https://www.republica-de-venezuela.com/about-venezuela/currency-of-venezuela.php"
           target="_blank">Republic de Venezuela</a>, <a
           href="https://www.cnn.com/2018/08/20/americas/venezuela-currency/index.html" target="_blank">CNN</a> y <a
           href="https://www.oanda.com/currency/iso-currency-codes/VEF" target="_blank">OANDA</a>.

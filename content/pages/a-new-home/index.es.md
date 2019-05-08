@@ -3,7 +3,7 @@ title: "Un nuevo hogar"
 topic: "Viaje Fotográfico"
 date: 2019-02-04T21:34:53-05:00
 description: "Una mirada al interior de donde viven los inmigrantes después de dejar su hogar."
-image: "http://uprooted.unc.edu/images/photo-chap-2-hero.jpg"
+image: "https://uprooted.unc.edu/images/photo-chap-2-hero.jpg"
 storyHeading: "Un nuevo hogar"
 storySubheading: "Una mirada al interior de donde viven los inmigrantes después de dejar su hogar."
 heroAlt: "A family stands on the roof of their apartment building."

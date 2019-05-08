@@ -3,7 +3,7 @@ title: "Una familia, unida"
 topic: "Viaje Fotográfico"
 date: 2019-02-04T21:34:53-05:00
 description: "La lucha por sobrevivir de una familia, habiendo llegado a Medellín hace 10 días."
-image: "http://uprooted.unc.edu/images/photo-chap-3-hero.jpg"
+image: "https://uprooted.unc.edu/images/photo-chap-3-hero.jpg"
 storyHeading: "Una familia, unida"
 storySubheading: "La lucha por sobrevivir de una familia, habiendo llegado a Medellín hace 10 días."
 heroAlt: "A group of five friends carry large backs and walk the streets at night to find a place to stay."

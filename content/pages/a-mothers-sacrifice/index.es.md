@@ -7,7 +7,7 @@ description: "El esfuerzo de una madre por proveer y reunirse con sus hijos."
 video: "../el-sacrificio-de-una-madre/assets/women-headervideo2.mp4"
 videoStill: "../el-sacrificio-de-una-madre/assets/women-videostill.jpg"
 headerStill: "../el-sacrificio-de-una-madre/assets/women-headerstill.jpg"
-image: "http://uprooted.unc.edu/images/women-homepagestill.jpg"
+image: "https://uprooted.unc.edu/images/women-homepagestill.jpg"
 storyHeading: "El Sacrificio de una Madre"
 storySubheading: "El esfuerzo de una madre por proveer y reunirse con sus hijos."
 weight: 5
@@ -92,11 +92,11 @@ Además de tener que acostumbrarse a un nuevo país y buscar trabajo y vivienda,
 
 Las mujeres enfrentan discriminación, acoso, violencia de género y falta de acceso a los derechos sexuales y reproductivos. <a href="https://twitter.com/_CEPAZ/status/1103045176170373121" target="_blank">El 43 por ciento de las mujeres inmigrantes venezolanas tienen entre 18 y 29 años de edad</a>. La edad, junto con su género, las expone a la discriminación y la estigmatización, según el Centro de Justicia y Paz, una ONG que promueve y defiende los valores democráticos, los derechos humanos y la paz en Venezuela. 
 
-Melissa Toro, directora de <a href="http://lafulminante.com/lasguerrerasdelcentro.org/pagina-ejemplo/" target="_blank">Las Guerreras del Centro</a>, una organización en Medellín que trabaja para empoderar y resignificar el trabajo sexual y las trabajadoras sexuales, dijo que muchas de las trabajadoras sexuales que ella encuentra hoy en día han comenzado la práctica recientemente. 
+Melissa Toro, directora de <a href="https://lafulminante.com/lasguerrerasdelcentro.org/pagina-ejemplo/" target="_blank">Las Guerreras del Centro</a>, una organización en Medellín que trabaja para empoderar y resignificar el trabajo sexual y las trabajadoras sexuales, dijo que muchas de las trabajadoras sexuales que ella encuentra hoy en día han comenzado la práctica recientemente. 
 
 "Aquí tenemos un nivel de desempleo muy alto que es difícil para los inmigrantes indocumentados", dijo Toro. "El trabajo sexual es el trabajo más informal porque no hay condiciones y solo necesitas tu cuerpo".
 
-A pesar de la legalidad de la industria en Colombia, las trabajadoras sexuales <a href="http://spl.ids.ac.uk/sexworklaw" target="_blank">no tienen garantizados los derechos del trabajador</a>. Las trabajadoras sexuales en Colombia deben recibir chequeos médicos obligatorios, según el Sexuality, Poverty and Law Programme (Programa de Sexualidad, Pobreza y Ley), un programa que proporciona ideas y opciones de política basadas en evidencia para alentar la reforma legal y enfrentar la pobreza. Sin embargo, el gobierno no hace cumplir estos requerimientos.
+A pesar de la legalidad de la industria en Colombia, las trabajadoras sexuales <a href="https://spl.ids.ac.uk/sexworklaw" target="_blank">no tienen garantizados los derechos del trabajador</a>. Las trabajadoras sexuales en Colombia deben recibir chequeos médicos obligatorios, según el Sexuality, Poverty and Law Programme (Programa de Sexualidad, Pobreza y Ley), un programa que proporciona ideas y opciones de política basadas en evidencia para alentar la reforma legal y enfrentar la pobreza. Sin embargo, el gobierno no hace cumplir estos requerimientos.
 
 {{< story-interactives "pages/a-mothers-sacrifice" "women-laws-int" >}}
 

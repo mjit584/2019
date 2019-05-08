@@ -7,7 +7,7 @@ description: "El sacrificio de una familia por la salud de sus hijos todavía ti
 video: "../mas-grande-que-la-muerte/assets/health-headervideo.mp4"
 headerStill: "../mas-grande-que-la-muerte/assets/health-headerstill.jpg"
 videoStill: "../mas-grande-que-la-muerte/assets/health-videostill.jpg"
-image: "http://uprooted.unc.edu/images/health-homepagestill.jpg"
+image: "https://uprooted.unc.edu/images/health-homepagestill.jpg"
 storyHeading: "Más Grande que La Muerte"
 storySubheading: "El sacrificio de una familia por la salud de sus hijos todavía tiene obstáculos."
 weight: 3
