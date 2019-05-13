@@ -95,7 +95,7 @@ En las calles de Venezuela, los artesanos montan mesas en las aceras de cruces a
 
 Hace diez años, el dinero sobre la mesa — bolívares venezolanos — los hubiese hecho millonarios. Hoy en día, los billetes valen tan poco que la gente los usa para hacer carteras y esculturas.
 
-“Venezuela era un país muy grande — no vamos a poner que no sé qué,” dijo Lilia Martínez, la madre de Martínez, quien vivió en Venezuela por 40 años hasta el 2017, cuando regresó a Colombia. “Nunca pensamos que estuviéramos peor que Cuba.”
+“Venezuela era un país muy grande — no [íbamos a preparar nada],” dijo Lilia Martínez, la madre de Martínez, quien vivió en Venezuela por 40 años hasta el 2017, cuando regresó a Colombia. “Nunca pensamos que estuviéramos peor que Cuba.”
 
 En el 2014, el Banco Central de Venezuela dejó de publicar cierta información, como la tasa de inflación y los gastos públicos, porque el gobierno del Presidente Nicolás Maduro no quería que el público supiera cómo la economía había disminuido. En el 2017, más del 87 por ciento de la población vivía por debajo de la línea de pobreza.
 
