@@ -1,14 +1,6 @@
-{{ if .Site.IsServer }}
-<a href="{{ .Site.BaseURL }}">Uprooted
-  <!-- <img class="hamburger__logo" alt="Uprooted Homepage"
-          src="{{ .Site.BaseURL }}images/logo-primary-white.png" /> -->
+<a href="{{ .Site.BaseURL }}">
+  Uprooted
 </a>
-{{ else }}
-<a href="{{ .Site.Params.gh_pages_URL }}">Uprooted
-  <!-- <img class="hamburger__logo" alt="Uprooted Homepage"
-    src="{{ .Site.Params.gh_pages_URL }}images/logo-primary-white.png" /> -->
-</a>
-{{ end }}
 
 <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Menu"
   aria-controls="navigation" aria-expanded="true/false">
