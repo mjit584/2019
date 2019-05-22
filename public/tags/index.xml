@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Uprooted: The Faces of the Venezuelan Crisis</title>
-    <link>https://brookenf.github.io/uprooted-mejo584/tags/</link>
+    <link>https://uprooted.unc.edu/tags/</link>
     <description>Recent content in Tags on Uprooted: The Faces of the Venezuelan Crisis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright School of Media and Journalism</copyright>
     
-	<atom:link href="https://brookenf.github.io/uprooted-mejo584/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://uprooted.unc.edu/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
