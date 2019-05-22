@@ -44,13 +44,13 @@ Su carisma se desborda mientras camina por las calles del centro de Medellín, e
 
 “Hola, mi amor, ¿Cómo estás?” Irelys saluda a todos con cariño. 
 
-Apenas los conoció en enero, cuando empezó a cantar en restaurantes a cambio de propinas poco después de llegar a Colombia. Luciendo leggings, zapatos de goma y una franela ajustada, Irelys de 38 años, se para en cada panadería, restaurant, cafetín, donde le permitan cantar una canción. 
+Apenas los conoció en enero, cuando empezó a cantar en restaurantes a cambio de propinas, poco después de llegar a Colombia. Luciendo leggings, zapatos de goma y una franela ajustada, Irelys de 38 años, se para en cada panadería, restaurant, cafetín, donde le permitan cantar una canción.
 
 En Venezuela, trabajaba desde su casa diseñando bolsos de playa y pasteles para ocasiones especiales. Pasaba los ratos libres con sus niños — Reynaldo, Luis Manuel y Angel Rafael. Con una inflación del 80.000 por ciento a finales del 2018, la gente no podían comprar carteras y postres. Menos dinero significó menos compradores y pocas ventas. 
 
 Irelys nunca tuvo que viajar fuera del país, por eso nunca pensó en sacar un pasaporte. A la hora de dejar Venezuela hace cinco meses, no pudo permitir comprarse uno. 
 
-Obtener un pasaporte es un proceso burocrático, costoso y tedioso para los venezolanos, pero los emigrantes añoran el librito vinotinto con un sello. Luego de que la hiperinflación y el mal manejo de recursos en Venezuela, el gobierno ha quedado incapaz de expedir pasaportes —  a veces por falta de material, otras veces por falta de electricidad para subir la información de los ciudadanos al sistema computarizado. 
+Obtener un pasaporte es un proceso burocrático, costoso y tedioso para los venezolanos, pero los emigrantes añoran el librito vinotinto con un sello. Luego de que la hiperinflación y el mal manejo de recursos en Venezuela, el gobierno ha quedado incapaz de expedir pasaportes — a veces por falta de material, otras veces por falta de electricidad para subir la información de los ciudadanos al sistema computarizado. 
 
 “Tienes que conseguir a un gestor para que te den una cita para que te tomen la foto y después esperar meses y meses para que te digan que no hay material,” señaló Irelys. “Ah, y también pagarle al gestor como $1.000 dólares.”
 
@@ -74,8 +74,7 @@ Como respuesta, la Policía Nacional colombiana implementó un control estricto 
 
 Del 2016 al 2018, las autoridades colombianas deportaron 4.274 venezolanos, comparado con solo 294 en los tres años anteriores combinados. Muchos han aparecidos en las noticias por cometer crímenes horribles. 
 
-Colombia — un país que históricamente ha exportado más inmigrantes de los que ha recibido ‚ está respondiendo a las masas de venezolanos dándoles la oportunidad de regularizarse bajo condiciones específicas. 
-Junto a las Tarjetas de Movilidad Fronteriza, el gobierno comenzó a expedir el Permiso Especial de Permanencia, conocido como PEP, en 2017 para los venezolanos. El documento es válido por dos años. Desde entonces Migración Colombia ha dado varias rondas de PEP para las personas que ingresaron al país de forma legal con un sello en el pasaporte antes de ciertas fechas. 
+Colombia — un país que históricamente ha exportado más migrantes de los que han recibido ‚ está respondiendo a las masas de venezolanos dándoles la oportunidad de regularizarse bajo condiciones específicas. Junto a las Tarjetas de Movilidad Fronteriza, el gobierno comenzó a expedir el Permiso Especial de Permanencia, conocido como PEP, en 2017 para los venezolanos. El documento es válido por dos años. Desde entonces Migración Colombia ha dado varias rondas de PEP para las personas que ingresaron al país de forma legal con un sello en el pasaporte antes de ciertas fechas. 
 
 Con la escasez de pasaportes Venezolanos, según la agencia, en agosto solo 500.000 de venezolanos tienen un estado regular en Colombia, con PEPs o visas.
 
@@ -149,7 +148,7 @@ Irelys miró fijamente a la mujer por un segundo y volteó. Las mujeres estaban 
 
 Se le cayó el alma a los pies. 
 
-Pero en fracciones de segundos vio a un hombre vendiendo galletas en la plaza. Si el podía hacerlo por qué no ella también? 
+Pero en fracciones de segundos, vio a un hombre vendiendo galletas en la plaza. Si él podía hacerlo por qué no ella también? 
 
 Se secó las lágrimas y le preguntó al hombre dónde comprar las galletas. Pasaron dos semanas antes de que la policía la detuviera. 
 
@@ -181,7 +180,7 @@ De acuerdo al gobierno, el dinero ha sido invertido para proveer servicios médi
 
 “Gracias a Dios que yo no me he enfermado”, dijo. 
 
-Las mujeres embarazadas, que huyen de Venezuela temiendo criar a un niño en el medio de la crisis, también reciben chequeos regulares y asistencia para dar luz gratis, sin importar su condición legal. 
+Las mujeres embarazadas, que huyen de Venezuela temiendo criar a un niño en el medio de la crisis, también reciben chequeos regulares y asistencia para dar a luz gratis, sin importar su condición legal. 
 
 Pero los niños llegan a este mundo sin nación. Tan solo 30 países alrededor del mundo proveen ciudadanía por nacimiento — Colombia no es uno de ellos. 
 
