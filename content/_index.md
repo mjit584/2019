@@ -3,7 +3,7 @@ title: "Uprooted"
 subtitle: "The Faces of the Venezuelan Crisis"
 cta: "Explore"
 aboutUs: "About Us"
-aboutUsURL: about
+aboutUsURL: "about/"
 storiesHeader: "Stories"
 photosHeader: "Photo Journey"
 homepageTitle: "A multimedia project of the UNC School of Media and Journalism focused on Venezuelan
