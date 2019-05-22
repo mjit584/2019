@@ -20,7 +20,7 @@ videographer: "Andie Rea, Ashton Eleazer"
 designer: "Lyric Lin, Patty Matos"
 udea: "Andrea Orozco Sáenz"
 aboutUs: "About Us"
-aboutUsURL: about
+aboutUsURL: "about/"
 footerCTA: "More from Uprooted"
 storiesHeader: "Stories"
 photosHeader: "Photo Journey"

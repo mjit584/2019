@@ -20,7 +20,7 @@ videographer: "Zayhra Rodriguez, Haley France"
 designer: "Amy Townsend, Sally Dillon"
 udea: "Margarita Restrepo"
 aboutUs: "About Us"
-aboutUsURL: about
+aboutUsURL: "about/"
 footerCTA: "More from Uprooted"
 storiesHeader: "Stories"
 photosHeader: "Photo Journey"

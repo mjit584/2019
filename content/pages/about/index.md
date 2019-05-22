@@ -7,7 +7,7 @@ image: "../images/about-headerimage.jpg"
 card: false
 layout: "about"
 aboutUs: "About Us"
-aboutUsURL: about
+aboutUsURL: "about/"
 footerCTA: "More from Uprooted"
 storiesHeader: "Stories"
 photosHeader: "Photo Journey"

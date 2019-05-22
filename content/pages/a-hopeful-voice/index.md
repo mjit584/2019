@@ -20,7 +20,7 @@ videographer: "Landon Cooper, Jason Armond"
 designer: "Sally Dillon, Xiaoke Ji"
 udea: "Laura Andrea Garcia Giraldo"
 aboutUs: "About Us"
-aboutUsURL: about
+aboutUsURL: "about/"
 footerCTA: "More from Uprooted"
 storiesHeader: "Stories"
 photosHeader: "Photo Journey"

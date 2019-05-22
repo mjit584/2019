@@ -1,6 +1,6 @@
 ---
 aboutUs: "About Us"
-aboutUsURL: about
+aboutUsURL: "about/"
 footerCTA: "More from Uprooted"
 storiesHeader: "Stories"
 photosHeader: "Photo Journey"
