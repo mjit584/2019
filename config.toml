@@ -110,10 +110,10 @@ canonifyURLs = "true"
 
   # Spanish menu
   [[languages.es.menu.main]]
-	url = "/encontrando-tu-voz/"
+	url = "/encontrando-su-voz/"
   weight = 1
   name = "Venezolanos indocumentados encuentran su sustento cantando en la calle."
-  pre = "<p class='story-topic'>Documentación</p><h3 class='story-title'>Encontrando tu Voz</h3>"
+  pre = "<p class='story-topic'>Documentación</p><h3 class='story-title'>Encontrando Su Voz</h3>"
   post = "http://uprooted.unc.edu/images/gov-homepagestill.jpg"
 
 [[languages.es.menu.main]]

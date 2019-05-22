@@ -32,8 +32,8 @@ graphics:
               <img class="slide-img-doc slide-img" src="assets/colombia-baby-doc.svg" alt="Colombia">
               <div class="slide-txt">
                 <p>Colombia tiene ciudadanía por nacimiento “condicional”. Para obtener una ciudadanía colombiana al nacimiento, una persona debe tener al menos un padre que es ciudadano colombiano o residente legal colombiano.</p>
-                <p>Desafortunadamente, muchos migrantes venezolanos no encajan en esta descripción.</p>
-                <p>As of now, many Venezuelans do not have the proper documentation — proof of residency or PEP —  for their newborn babies to claim citizenship. These children are considered “stateless,” as the parents cannot claim Colombian citizenship for their child.</p>
+                <p>Desafortunadamente, muchos migrantes venezolanos no califican en su estado indocumentados.</p>
+                <p>Al momento, muchos Venezolanos no tienen la documentación apropiado - muestras de residencias o PEP - para que sus hijos recién nacidos puedan declarar ciudadanía colombiana. Estos niños son considerados “sin país”, como sus padres no están permitidos solicitar ciudadanía colombiana para sus hijos.</p>
               </div>
             </div>
           </div>

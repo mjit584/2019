@@ -24,9 +24,7 @@ graphics:
             <div class="slide-image">
               <img class="slide-img-passport slide-img" src="assets/passport.svg" alt="pep">
               <div class="slide-txt">
-                <p>Los pasaportes venezolanos vienen en colores azul marino y burdeos. Para obtener un pasaporte, los
-                  ciudadanos deben registrarse para una cita en internet entre las 5:30 p. m. y las 5 a. m. Usualmente
-                  hay largos meses de espera para un seguimiento después de la primera cita. </p>
+                <p>Los pasaportes venezolanos vienen en colores azul marino y burdeos. Para obtener un pasaporte, los ciudadanos deben registrarse para una cita en internet entre las 5:30 p. m. y las 5 a. m. Usualmente hay muchos meses de espera para una segunda cita después de la primera cita.</p>
                 <p>Las citas son hechas a través de la agencia de registro civil conocida como SAIME (Servicio
                   Administrativo de Identificación, Migración y Extranjería). </p>
               </div>
@@ -37,13 +35,10 @@ graphics:
             <div class="slide-image">
               <img class="slide-img-passport-slide2 slide-img" src="assets/passport-slide2.svg" alt="calendar">
               <div class="slide-txt">
-                <p>Obtenido a través de medios oficiales, un pasaporte venezolano cuesta alrededor de USD $1.55. Aunque
-                  esto puede no parecer mucho, el salario mínimo actual está alrededor de USD $6. </p>
-                <p>Algunos eligen acelerar el frustrantemente largo proceso y obtener el pasaporte a través del mercado
-                  negro con costos por más de USD $62.</p>
+                <p>Obtenido a través de medios oficiales, un pasaporte venezolano cuesta alrededor de USD $1.55. Aunque esto puede parecer poco, el salario mínimo actual está alrededor de USD $6.</p>
+                <p>Algunos eligen otro medios de evitar el largo proceso frustrante y obtiene el pasaporte a través del mercado negro con costos por más de USD $62.</p>
                 <p>Sin embargo, hasta el primero de noviembre de 2018, los pasaportes debían ser pagados en las
-                  criptomonedas Petro. However, as of November 1st, 2018, passports must be paid for in the Petro
-                  cryptocurrency. Se supone que la moneda está respaldada por petróleo y reservas minerales. Los
+                  criptomonedas Petro. Se supone que la moneda está respaldada por petróleo y reservas minerales. Los
                   pasaportes costarán 2 Petros (alrededor de 7.200 bolívares) lo cual equivale a 4 meses de salario.
                 </p>
               </div>
@@ -54,15 +49,10 @@ graphics:
               <img class="slide-img-doc slide-img" src="assets/passport-slide3.svg" alt="document/time">
               <div class="slide-txt">
                 <p>
-                  Un pasaporte venezolano no es sólo un documento para viajar, sino que también es una prueba de
-                  identidad y significa tener voz en el gobierno. Con más de 3 millones de venezolanos en el extranjero,
-                  el 60% de ellos tienen estado irregular, lo cual significa que no pueden votar en las elecciones
-                  debido a la ausencia de documentación.
+                  Un pasaporte venezolano no es sólo un documento para viajar, sino que también es una prueba de identidad y significa tener voz en el gobierno. Con más de 3 millones de venezolanos en el extranjero, el 60% de ellos tienen estado indocumentado, lo cual significa que no pueden votar en las elecciones debido a la ausencia de documentación.
                 </p>
                 <p>
-                  Aquellos que no tienen otra opción más que dejar Venezuela sin pasaporte, están en riesgo y deben
-                  luchar para obtener una prueba de residencia en su país de destino. Esto limita el acceso a la
-                  educación, al sistema de salud y la posibilidad de ejercer trabajos.
+                  Aquellos que no tienen otra opción más que dejar Venezuela sin pasaporte, están en riesgo y deben luchar para obtener una prueba de residencia en su país de destino. Esto limita el acceso a la educación, al sistema de salud y la posibilidad de ejercer trabajos.
                 </p>
               </div>
             </div>
@@ -71,14 +61,10 @@ graphics:
             <div class="slide-image slide-img-expiration">
               <img class="slide-img-stats slide-img " src="assets/expiration date.svg" alt="stats">
               <div class="slide-txt">
-                <p>Los pasaportes se están volviendo casi imposibles de obtener debido a la ausencia de recursos para
-                  hacer los documentos, los precios inasequibles y las ineficiencias administrativas. </p>
-                <p>Con conocimiento de esto, el Gobierno colombiano ha decidido ayudar a los venezolanos dentro de las
-                  fronteras del país, que no pueden renovar sus pasaportes en casa.</p>
+                <p>Los pasaportes se están volviendo casi imposibles de obtener debido a la ausencia de recursos para hacer los documentos, los precios inasequibles y las ineficiencias administrativas.</p>
+                <p>Informados de ésto, el Gobierno colombiano ha decidido ayudar a los venezolanos dentro de las fronteras del país, ya que no pudieron renovar sus pasaportes en Venezuela.</p>
                 <p>
-                  Empezando a inicios de marzo del 2019, el Gobierno colombiano extendió la validez de los pasaportes
-                  venezolanos desde 2 años pasada la fecha de expiración. Más de 500.000 venezolanos se pudieron
-                  beneficiar de esta decisión.
+                  Empezando a inicios de marzo del 2019, el Gobierno colombiano extendió la validez de los pasaportes venezolanos desde 2 años pasada la fecha de expiración. Más de 500.000 venezolanos pueden beneficiar de esta decisión.
                 </p>
                 <p class="sources">* Datos de Migración Colombia</p>
               </div>
